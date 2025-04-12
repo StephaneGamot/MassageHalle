@@ -42,7 +42,7 @@ export default function Contact() {
                 />
               </div>
             </div>
-            <h2 className="text-pretty text-4xl font-semibold tracking-tight !text-[#6a843e] sm:text-5xl">Une question ? Une envie ?</h2>
+            <h2 className="text-pretty text-4xl font-semibold tracking-tight !text-[#6a8934] sm:text-5xl">Une question ? Une envie ?</h2>
             <p className="mt-6 text-lg/8 !text-[#4c6323]">
             Que ce soit pour un renseignement, un besoin spécifique ou simplement l’envie de vous offrir un moment de bien-être,  
   notre équipe est à votre écoute avec attention et délicatesse.  
