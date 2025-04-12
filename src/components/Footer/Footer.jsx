@@ -93,7 +93,7 @@ export default function Footer() {
           <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 gap-8 xl:col-span-2 xl:mt-0 text-center sm:text-left">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className="text-lg font-bold !text-[#6a843e]">Massages</h3>
+                <h3 className="text-lg font-bold !text-[#687256]">Massages</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.massages.map((item) => (
                     <li key={item.name}>
@@ -108,7 +108,7 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="mt-10 md:mt-0">
-                <h3 className="text-lg font-semibold !text-[#6a843e]">
+                <h3 className="text-lg font-semibold !text-[#687256]">
                   Soins thérapeutiques
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
@@ -202,14 +202,14 @@ export default function Footer() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-gray-400 hover:text-gray-300"
+                className="text-gray-400 hover:text-gray-200"
               >
                 <span className="sr-only">{item.name}</span>
                 <item.icon aria-hidden="true" className="size-6" />
               </Link>
             ))}
           </div>
-          <p className="mt-8 text-sm/6 !text-[#6a843e] md:order-1 md:mt-0">
+          <p className="mt-8 text-sm/6 !text-[#687256] md:order-1 md:mt-0">
             &copy; 2025 La Voie du Bien-Être. Tous droits réservés
           </p>
         </div>
