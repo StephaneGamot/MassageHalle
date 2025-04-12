@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "body": "Un pur moment de calme et de chaleur humaine. Merci pour cette bulle de bien-être.",
+    "alt": "ambiance calme et chaleureuse de Sophie WB",
+    "author": {
+      "name": "Sophie WB",
+      "imageUrl": "/Images/testimonials/1.webp"
+    }
+  },
+  {
+    "id": 2,
+    "body": "J’ai rarement connu un massage aussi réconfortant. Chaque geste semblait venir du cœur. Mille mercis",
+    "alt": "visage détendu après un soin de Alexandre Jansens",
+    "author": {
+      "name": "Alexandre Jansens",
+      "imageUrl": "/Images/testimonials/2.webp"
+    }
+  },
+  {
+    "id": 3,
+    "body": "Une véritable évasion. J’en suis ressortie apaisée et rechargée.",
+    "alt": "visage détendu après un soin de Nathalie Radeis",
+    "author": {
+      "name": "Nathalie Radeis",
+      "imageUrl": "/Images/testimonials/3.webp"
+    }
+  },
+  {
+    "id": 4,
+    "body": "Dès que je suis allongée sur la table, je sens que je peux lâcher prise. J’ai ressenti un vrai relâchement du stress, dès les premières minutes.",
+    "alt": "visage illuminé de détente de Karine Renard",
+    "author": {
+      "name": "Karine Renard",
+      "imageUrl": "/Images/testimonials/4.webp"
+    }
+  },
+  {
+    "id": 5,
+    "body": "Je n’imaginais pas à quel point un massage pouvait me recentrer autant. Le soin est doux mais profond, exactement ce qu’il me fallait.",
+    "alt": "portrait zen post-soin de Isabelle Mercier",
+    "author": {
+      "name": "Isabelle Mercier",
+      "imageUrl": "/Images/testimonials/5.webp"
+    }
+  },
+  {
+    "id": 6,
+    "body": "Une attention délicate du début à la fin. On se sent écouté et respecté.",
+    "alt": "témoignage visuel de bien-être de Julie Lelievre",
+    "author": {
+      "name": "Julie Lelievre",
+      "imageUrl": "/Images/testimonials/6.webp"
+    }
+  },
+  {
+    "id": 7,
+    "body": "Ma tension musculaire s’est envolée. À refaire très vite ! J’ai rarement été aussi bien accueilli et massé.",
+    "alt": "regard serein de Thierry Bierze",
+    "author": {
+      "name": "Thierry Bierze",
+      "imageUrl": "/Images/testimonials/7.webp"
+    }
+  },
+  {
+    "id": 8,
+    "body": "Un pur moment de détente. Je reviendrai sans hésiter ! J’ai adoré l’huile utilisée, et la musique relaxante. Un soin complet",
+    "alt": "expression de sérénité de Lucie Bernard",
+    "author": {
+      "name": "Lucie Bernard",
+      "imageUrl": "/Images/testimonials/8.webp"
+    }
+  },
+  {
+    "id": 9,
+    "body": "J’ai tout aimé : la musique douce, les huiles, le toucher enveloppant. C’était bien plus qu’un massage, c’était une parenthèse enchantée.",
+    "alt": "expression de sérénité de Sophie Lemoine",
+    "author": {
+      "name": "Sophie Lemoine",
+      "imageUrl": "/Images/testimonials/9.webp"
+    }
+  },
+  {
+    "id": 10,
+    "body": "Un soin d’une grande qualité, avec beaucoup d’humanité. Je reviendrai sans hésiter !",
+    "alt": "moment d’après soin relaxant de Elena Neerinckx",
+    "author": {
+      "name": "Elena Neerinckx",
+      "imageUrl": "/Images/testimonials/10.webp"
+    }
+  },
+  {
+    "id": 11,
+    "body": "C’était bien plus qu’un massage, c’était un soin de l’âme. Un vrai moment de réconfort dans une ambiance douce et sereine",
+    "alt": "instant capturé de bien-être de Chloé Peters",
+    "author": {
+      "name": "Chloé Peters",
+      "imageUrl": "/Images/testimonials/11.webp"
+    }
+  },
+  {
+    "id": 12,
+    "body": "Mon esprit s’est évadé dès les premières minutes. Le stress de la semaine s’est envolé. Je me sens léger",
+    "alt": "ambiance calme et chaleureuse de Romain Allan",
+    "author": {
+      "name": "Romain Allan",
+      "imageUrl": "/Images/testimonials/12.webp"
+    }
+  },
+  {
+    "id": 13,
+    "body": "J’ai eu l’impression que le temps s’arrêtait. Merci infiniment.",
+    "alt": "portrait rayonnant de Claire Hoffman",
+    "author": {
+      "name": "Claire Hoffman",
+      "imageUrl": "/Images/testimonials/13.webp"
+    }
+  },
+  {
+    "id": 14,
+    "body": "Une belle découverte que je recommande sans hésiter.",
+    "alt": "photo naturelle post-massage de Gabriel Marchand",
+    "author": {
+      "name": "Gabriel Marchand",
+      "imageUrl": "/Images/testimonials/14.webp"
+    }
+  },
+  {
+    "id": 15,
+    "body": "Chaque geste semblait fait pour apaiser. Très beau moment.",
+    "alt": "portrait apaisé de Audrey Ducene",
+    "author": {
+      "name": "Audrey Ducene",
+      "imageUrl": "/Images/testimonials/15.webp"
+    }
+  },
+  {
+    "id": 16,
+    "body": "Un accueil chaleureux et un soin tout en finesse.",
+    "alt": "visage illuminé de détente de Camille vandevivere",
+    "author": {
+      "name": "Camille vandevivere",
+      "imageUrl": "/Images/testimonials/16.webp"
+    }
+  },
+  {
+    "id": 17,
+    "body": "Un toucher professionnel, à l’écoute de mes besoins. Merci ! Une expérience enveloppante, attentionnée et profondément apaisante",
+    "alt": "témoignage visuel de bien-être de Gabriel Perrin",
+    "author": {
+      "name": "Gabriel Perrin",
+      "imageUrl": "/Images/testimonials/17.webp"
+    }
+  },
+  {
+    "id": 18,
+    "body": "Dès l’entrée, on sent qu’on est entre de bonnes mains. Je ne pensais pas que ce massage me ferait autant de bien",
+    "alt": "visage calme et reconnaissant de Olivier Mertori",
+    "author": {
+      "name": "Olivier Mertori",
+      "imageUrl": "/Images/testimonials/18.webp"
+    }
+  },
+  {
+    "id": 19,
+    "body": "Un vrai cocon de bienveillance et de douceur, Un bijou caché à Halle",
+    "alt": "lueur de bien-être sur le visage de Amandine paccini",
+    "author": {
+      "name": "Amandine paccini",
+      "imageUrl": "/Images/testimonials/19.webp"
+    }
+  },
+  {
+    "id": 20,
+    "body": "C’était magique, tout simplement.",
+    "alt": "reflet du soulagement corporel de Fabien van der Belen",
+    "author": {
+      "name": "Fabien van der Belen",
+      "imageUrl": "/Images/testimonials/20.webp"
+    }
+  },
+  {
+    "id": 21,
+    "body": "Je suis ressortie avec le sourire et l’envie de revenir.",
+    "alt": "instant capturé de bien-être de Sabrina degeneve",
+    "author": {
+      "name": "Sabrina degeneve",
+      "imageUrl": "/Images/testimonials/21.webp"
+    }
+  },
+  {
+    "id": 22,
+    "body": "Top massage",
+    "alt": "visage détendu après un soin de Julie Acuvu",
+    "author": {
+      "name": "Julie Acuvu",
+      "imageUrl": "/Images/testimonials/22.webp"
+    }
+  },
+  {
+    "id": 23,
+    "body": "Je ne pensais pas que ce massage me ferait autant de bien. C’était bien plus qu’un massage, c’était une parenthèse enchantée.",
+    "alt": "reflet du soulagement corporel de Marion Baiverlin",
+    "author": {
+      "name": "Marion Baiverlin",
+      "imageUrl": "/Images/testimonials/23.webp"
+    }
+  },
+  {
+    "id": 24,
+    "body": "On sent une vraie écoute corporelle, une grande présence et le soin exceptionnel",
+    "alt": "visage détendu après un soin de Nicolas Willers",
+    "author": {
+      "name": "Nicolas Willers",
+      "imageUrl": "/Images/testimonials/24.webp"
+    }
+  },
+  {
+    "id": 25,
+    "body": "Un soin qui m’a touchée bien au-delà du corps.",
+    "alt": "moment d’après soin relaxant de Valérie Baltus",
+    "author": {
+      "name": "Valérie Baltus",
+      "imageUrl": "/Images/testimonials/25.webp"
+    }
+  },
+  {
+    "id": 26,
+    "body": "Stephane est quelqu un de très professionnel Son massage est vraiment top On rentre stresse et on ressort de chez lui tout à fait zen",
+    "alt": "sourire apaisé de Thomas lefevre",
+    "author": {
+      "name": "Thomas lefevre",
+      "imageUrl": "/Images/testimonials/26.webp"
+    }
+  },
+  {
+    "id": 27,
+    "body": "Je ne pensais pas que ce massage me ferait autant de bien. Un vrai moment de réconfort dans une ambiance douce et sereine.",
+    "alt": "portrait apaisé de Hélène Baltus",
+    "author": {
+      "name": "Hélène Baltus",
+      "imageUrl": "/Images/testimonials/27.webp"
+    }
+  },
+  {
+    "id": 28,
+    "body": "Super massage, j’en avais besoin.",
+    "alt": "visage détendu après un soin de Sébastien Mayole",
+    "author": {
+      "name": "Sébastien Mayole",
+      "imageUrl": "/Images/testimonials/28.webp"
+    }
+  },
+  {
+    "id": 29,
+    "body": "L’une des plus belles expériences de massage que j’ai vécue. Je ne pensais pas que cela me ferait autant de bien.",
+    "alt": "photo prise en fin de séance de Jessica Cioni",
+    "author": {
+      "name": "Jessica Cioni",
+      "imageUrl": "/Images/testimonials/29.webp"
+    }
+  },
+  {
+    "id": 30,
+    "body": "Après le massage de Stéphane, c'est toujours comme marcher sur des nuages ​​dans un monde de rêve, tant son massage va en profondeur. Chaleureusement recommandé, rapport qualité/prix bien meilleur qu'ailleurs.",
+    "alt": "ambiance calme et chaleureuse de Arnaud Dutour",
+    "author": {
+      "name": "Arnaud Dutour",
+      "imageUrl": "/Images/testimonials/30.webp"
+    }
+  },
+  {
+    "id": 31,
+    "body": "Une expérience sensorielle enveloppante et délicate. Un pur moment de détente. Je reviendrai sans hésiter !",
+    "alt": "sourire apaisé de Emilie Piraux",
+    "author": {
+      "name": "Emilie Piraux",
+      "imageUrl": "/Images/testimonials/31.webp"
+    }
+  },
+  {
+    "id": 32,
+    "body": "Je ne pensais pas que ce massage me ferait autant de bien.",
+    "alt": "image capturée après le soin relaxant de Laura Dupond",
+    "author": {
+      "name": "Laura Dupond",
+      "imageUrl": "/Images/testimonials/32.webp"
+    }
+  },
+  {
+    "id": 33,
+    "body": "Le meilleur masseur de Halle et des environs. Stéphane a beaucoup de connaissances et grâce à ses techniques approfondies, beaucoup de stress est libéré dans le corps.",
+    "alt": "ambiance calme et chaleureuse de Yannick Collet",
+    "author": {
+      "name": "Yannick Collet",
+      "imageUrl": "/Images/testimonials/33.webp"
+    }
+  },
+  {
+    "id": 34,
+    "body": "Le soin est parfaitement adapté à nos besoins, c’etait bluffant.",
+    "alt": "lueur de bien-être sur le visage de Anne-Marie Charlotte",
+    "author": {
+      "name": "Anne-Marie Charlotte",
+      "imageUrl": "/Images/testimonials/34.webp"
+    }
+  },
+  {
+    "id": 35,
+    "body": "J’ai ressenti un profond relâchement musculaire et émotionnel. je recommande à tous.",
+    "alt": "reflet du soulagement corporel de Mathieu Blussing",
+    "author": {
+      "name": "Mathieu Blussing",
+      "imageUrl": "/Images/testimonials/35.webp"
+    }
+  },
+  {
+    "id": 36,
+    "body": "Un professionnalisme remarquable.",
+    "alt": "regard serein de Sandrine Moreau",
+    "author": {
+      "name": "Sandrine Moreau",
+      "imageUrl": "/Images/testimonials/36.webp"
+    }
+  },
+  {
+    "id": 37,
+    "body": "Si vous voulez un massage qui vous relaxe et qui vous fait du bien, alors allez y les yeux fermés et laissez vous faire.",
+    "alt": "image capturée après le soin relaxant de Jonathan Girard",
+    "author": {
+      "name": "Jonathan Girard",
+      "imageUrl": "/Images/testimonials/37.webp"
+    }
+  },
+  {
+    "id": 38,
+    "body": "J’ai adoré la sensation d’enveloppement dans chacuns de ses gestes.",
+    "alt": "reflet du soulagement corporel de Sophie Loos",
+    "author": {
+      "name": "Sophie Loos",
+      "imageUrl": "/Images/testimonials/38.webp"
+    }
+  },
+  {
+    "id": 39,
+    "body": "Massage très très relaxant Stéphane est tres bienveillant et impliqué dans son massage. N’hésitez surtout pas !",
+    "alt": "ambiance calme et chaleureuse de Gaëlle Legrand",
+    "author": {
+      "name": "Gaëlle Legrand",
+      "imageUrl": "/Images/testimonials/39.webp"
+    }
+  },
+  {
+    "id": 40,
+    "body": "Tout simplement parfait, du début à la fin.",
+    "alt": "ambiance calme et chaleureuse de Lucas Wilms",
+    "author": {
+      "name": "Lucas Wilms",
+      "imageUrl": "/Images/testimonials/40.webp"
+    }
+  },
+  {
+    "id": 41,
+    "body": "Je ne pensais pas pouvoir lâcher prise si vite…",
+    "alt": "client satisfait du massage de Caroline Simon.",
+    "author": {
+      "name": "Caroline Simon.",
+      "imageUrl": "/Images/testimonials/41.webp"
+    }
+  },
+  {
+    "id": 42,
+    "body": "Un toucher intuitif, fluide, vraiment réparateur. Je le recommande",
+    "alt": "image capturée après le soin relaxant de Marine Akil",
+    "author": {
+      "name": "Marine Akil",
+      "imageUrl": "/Images/testimonials/42.webp"
+    }
+  },
+  {
+    "id": 43,
+    "body": "Le temps s’est arrêté. Je me suis sentie comme dans un cocon. J'ai enfin trouvé ce que je cherchais",
+    "alt": "visage détendu après un soin de Benjamin Karline",
+    "author": {
+      "name": "Benjamin Karline",
+      "imageUrl": "/Images/testimonials/43.webp"
+    }
+  },
+  {
+    "id": 44,
+    "body": "Le stress de la semaine s’est envolé en 90 minutes",
+    "alt": "ambiance calme et chaleureuse de Manon Layet",
+    "author": {
+      "name": "Manon Layet",
+      "imageUrl": "/Images/testimonials/44.webp"
+    }
+  },
+  {
+    "id": 45,
+    "body": "Massage très agréable , relaxant et revigorant à la fois. Stéphane est un pro!",
+    "alt": "témoignage visuel de bien-être de Florent Thibaut",
+    "author": {
+      "name": "Florent Thibaut",
+      "imageUrl": "/Images/testimonials/45.webp"
+    }
+  },
+  {
+    "id": 46,
+    "body": "zalige shiatsu en reiki- Stéphane voelt heel goed aan wat ik nodig heb en brengt me helemaal tot rust waardoor je de dingen weer helder ziet- een aanrader voor iedereen die een moment van relaxatie nodig heeft maar ook als het allemaal even wat teveel wordt",
+    "alt": "visage détendu après un soin de Nina Seigneurin",
+    "author": {
+      "name": "Nina Seigneurin",
+      "imageUrl": "/Images/testimonials/46.webp"
+    }
+  },
+  {
+    "id": 47,
+    "body": "Une merveilleuse façon de prendre soin de soi.",
+    "alt": "visage illuminé de détente de Anthony Blondeau",
+    "author": {
+      "name": "Anthony Blondeau",
+      "imageUrl": "/Images/testimonials/47.webp"
+    }
+  },
+  {
+    "id": 48,
+    "body": "Merci Stéphane pour vos bons soins✨ A travers eux, ce sont chaque fois de précieux rendez-vous avec mon corps : pour être enfin à son écoute, ou simplement pour lui offrir un moment de pure bien-être💖",
+    "alt": "visage reposé de Caroline Baïni",
+    "author": {
+      "name": "Caroline Baïni",
+      "imageUrl": "/Images/testimonials/48.webp"
+    }
+  },
+  {
+    "id": 49,
+    "body": "Ce massage m’a fait un bien fou. Merci encore !",
+    "alt": "photo naturelle post-massage de Pauline Jansens",
+    "author": {
+      "name": "Pauline Jansens",
+      "imageUrl": "/Images/testimonials/49.webp"
+    }
+  },
+  {
+    "id": 50,
+    "body": "Une expérience unique qui mérite d’être vécue.",
+    "alt": "ambiance calme et chaleureuse de Géraldine Anglois",
+    "author": {
+      "name": "Géraldine Anglois",
+      "imageUrl": "/Images/testimonials/50.webp"
+    }
+  }
+]

@@ -1,0 +1,162 @@
+[
+    {
+      "id": 1,
+      "question": "Vous ressentez le besoin de vous recentrer dans un quotidien agité ?"
+    },
+    {
+      "id": 2,
+      "question": "Votre corps vous réclame une pause douce et bienveillante ?"
+    },
+    {
+      "id": 3,
+      "question": "Le stress s'accumule et vous cherchez un moment pour souffler ?"
+    },
+    {
+      "id": 4,
+      "question": "Vous avez besoin de vous reconnecter à votre corps et vos émotions ?"
+    },
+    {
+      "id": 5,
+      "question": "Vous traversez une période intense et souhaitez lâcher prise ?"
+    },
+    {
+      "id": 6,
+      "question": "Vous recherchez une expérience profondément apaisante ?"
+    },
+    {
+      "id": 7,
+      "question": "Vous souhaitez offrir à votre esprit un moment de calme absolu ?"
+    },
+    {
+      "id": 8,
+      "question": "Vous souffrez de tensions chroniques que vous aimeriez soulager ?"
+    },
+    {
+      "id": 9,
+      "question": "Vous avez du mal à vous endormir ou à trouver un sommeil réparateur ?"
+    },
+    {
+      "id": 10,
+      "question": "Vous ressentez une fatigue émotionnelle ou mentale ?"
+    },
+    {
+      "id": 11,
+      "question": "Votre quotidien est rythmé et vous avez besoin d’un moment pour vous ?"
+    },
+    {
+      "id": 12,
+      "question": "Vous ressentez des douleurs musculaires liées au stress ou à la posture ?"
+    },
+    {
+      "id": 13,
+      "question": "Vous aimeriez vivre un soin doux, enveloppant et rassurant ?"
+    },
+    {
+      "id": 14,
+      "question": "Vous souhaitez un moment pour écouter votre corps et ralentir ?"
+    },
+    {
+      "id": 15,
+      "question": "Votre corps vous parle, et vous décidez enfin de l’écouter ?"
+    },
+    {
+      "id": 16,
+      "question": "Vous êtes souvent dans le mental, et cherchez à revenir au corps ?"
+    },
+    {
+      "id": 17,
+      "question": "Vous souhaitez simplement prendre soin de vous, sans raison précise ?"
+    },
+    {
+      "id": 18,
+      "question": "Vous vivez un changement ou une transition et avez besoin d’ancrage ?"
+    },
+    {
+      "id": 19,
+      "question": "Vous avez envie de vous offrir une vraie bulle de douceur ?"
+    },
+    {
+      "id": 20,
+      "question": "Vous préparez un événement ou un défi important et voulez vous ressourcer ?"
+    },
+    {
+      "id": 21,
+      "question": "Vous vous sentez tendu·e dès le réveil ou après le travail ?"
+    },
+    {
+      "id": 22,
+      "question": "Vous souhaitez harmoniser votre énergie intérieure ?"
+    },
+    {
+      "id": 23,
+      "question": "Vous offrez souvent aux autres, mais rarement à vous-même ?"
+    },
+    {
+      "id": 24,
+      "question": "Vous ressentez un manque de contact bienveillant et respectueux ?"
+    },
+    {
+      "id": 25,
+      "question": "Vous cherchez un massage intuitif, sur-mesure et attentionné ?"
+    },
+    {
+      "id": 26,
+      "question": "Vous êtes en quête d’un moment hors du temps ?"
+    },
+    {
+      "id": 27,
+      "question": "Vous avez un emploi du temps chargé et peu d’espace pour souffler ?"
+    },
+    {
+      "id": 28,
+      "question": "Vous ressentez le besoin d’une vraie présence, d’un toucher juste ?"
+    },
+    {
+      "id": 29,
+      "question": "Vous avez simplement envie de vous sentir mieux dans votre peau ?"
+    },
+    {
+      "id": 30,
+      "question": "Vous avez envie de vous sentir soutenu·e sans jugement ?"
+    },
+    {
+      "id": 31,
+      "question": "Vous vivez un moment émotionnellement difficile ?"
+    },
+    {
+      "id": 32,
+      "question": "Vous recherchez une alternative douce pour soulager les tensions ?"
+    },
+    {
+      "id": 33,
+      "question": "Vous sentez que votre corps est crispé, bloqué ?"
+    },
+    {
+      "id": 34,
+      "question": "Vous souhaitez une pause entre deux obligations ?"
+    },
+    {
+      "id": 35,
+      "question": "Vous avez envie d’un moment cocooning, rien que pour vous ?"
+    },
+    {
+      "id": 36,
+      "question": "Vous désirez un soin ancré dans l’écoute et la lenteur ?"
+    },
+    {
+      "id": 37,
+      "question": "Vous êtes hypersensible et recherchez un toucher doux et respectueux ?"
+    },
+    {
+      "id": 38,
+      "question": "Vous souhaitez retrouver confiance dans votre corps ?"
+    },
+    {
+      "id": 39,
+      "question": "Vous aspirez à une reconnexion à votre respiration ?"
+    },
+    {
+      "id": 40,
+      "question": "Vous avez envie de dire merci à votre corps, tout simplement ?"
+    }
+  ]

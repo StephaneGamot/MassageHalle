@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+:root {
+  --olive: #556B2F;
+  --creme: #F0EDE5;
+  --vertclair: #8FBC8F;
+  --grisfonce: #2F4F4F;
+  --vertpastel: #BFD8BD;
+
+  --font-title: 'Cormorant Garamond', serif;
+  --font-body: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: var(--creme);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-title), Helvetica, sans-serif;
+  color: var(--olive);
+}
+
+
+a, button {
+    font-family: var(--font-title), Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+p, li {
+  font-family: var(--font-body), Helvetica, sans-serif;
+  color: var(--grisfonce);
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 1.4s ease-out both;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}

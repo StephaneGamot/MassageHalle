@@ -1,0 +1,111 @@
+[
+	{
+		"id": 1,
+		"title": "Massage sportif",
+		"description": "Optimise les performances sportives, accélère la récupération et prévient les blessures. Le muscle est travaillé en profondeur afin de denouer les noeuds.",
+		"imageUrl": "/Images/massage/massage-sportif.webp",
+		"imageAlt": "Les mains du masseur travaillant sur l'épaule droite du patient",
+		"url": "/massage/sportif",
+		"titleImg": "Homme recevant un massage libérant les douleurs musculaires"
+	},
+	{
+		"id": 2,
+		"title": "Massage relaxant",
+		"description": "Détend le Corps et l'Esprit, réduit le stress et les tensions musculaires grâce à des mouvements doux, apaisants et fluides. On en ressort plus léger.",
+		"imageUrl": "/Images/massage/massage-relaxant.webp",
+		"imageAlt": "Les 2 mains sur l'omoplates de sa patiente apportent un réconfort",
+		"url": "/massage/relaxant",
+		"titleImg": "Jeune femme recevant un massage lui permetant de se détendre pleinement"
+	},
+	{
+		"id": 3,
+		"title": "Séance de Shiatsu",
+		"description": "Technique japonaise utilisant la pression des doigts sur des points issu de la medecine chinoise afin de rééquilibrer & réharmoniser l'énergie",
+		"imageUrl": "/Images/massage/shiatsu.webp",
+		"imageAlt": "Sur un futon, une jeune femme recoit une séance de shiatsu",
+		"url": "/shiatsu/traditionnel",
+		"titleImg": "Jeune femme recevant un soin Shiatsu"
+	},
+	{
+		"id": 4,
+		"title": "Séance de Reiki",
+		"description": "Méthode de 'guérison énergétique & holistique' qui favorise une relaxation profonde et un bien-être naturel grace à un transfert de l'énergie universelle.",
+		"imageUrl": "/Images/massage/reiki.webp",
+		"imageAlt": "La thérapeute glisse ses mains à environ 20 cm des oreilles de sa patiente",
+		"url": "/reiki",
+		"titleImg": "2 mains apposé à distance au dessus d'un nombril, infusant l'energie universelle"
+	},
+	{
+		"id": 5,
+		"title": "Massage sur chaise",
+		"description": "Une solution rapide (15 à 20 min), efficace et revitalisant pour soulager les tensions. Un cadeau offert de l'employeur à ses employés sur leur lieu de travail.",
+		"imageUrl": "/Images/massage/massage-sur-chaise.webp",
+		"imageAlt": "Un homme à la chance de recevoir une séance de Amma dans un cadre professionnel",
+		"url": "/shiatsu/amma",
+		"titleImg": "Sur son lieu de travail elle recoit un massage sur chaise"
+	},
+	{
+		"id": 6,
+		"title": "Reflexologie Plantaire",
+		"description": "Considéré comme une médecine douce, elle stimule les points des pieds pour améliorer la santé physique, emotionnelle et mentale sur le temps.",
+		"imageUrl": "/Images/massage/reflexologie-plantaire.webp",
+		"imageAlt": "Les deux pouces travaillant sur la voute plantaire, juste audessus de Poumon 1",
+		"url": "/reflexologie-plantaire",
+		"titleImg": "Un massage des pieds qui permet de relacher les tensions"
+	},
+
+	{
+		"id": 7,
+		"title": "Voyage des sens",
+		"description": "Ce massage agit directement sur les facias ce qui permet une détente absolue et profonde. C'est un véritable voyage qui permet de se retrouver.",
+		"imageUrl": "/Images/massage/massage-voyage-des-sens-mini.webp",
+		"imageAlt": "On peut ressentir la douceur du massage",
+		"url": "/massage/voyage-des-sens",
+		"titleImg": "Connexion avec les fascias"
+	},
+	{
+		"id": 8,
+		"title": "Massage anti-cellulite",
+		"description": "Ce massage d'une grande efficacité, raffermit la peau, aide visiblement à lisser la cellulite, pour une silhouette plus, fine, harmonieuse et légère.",
+		"imageUrl": "/Images/massage/massage-ventouses-mini.webp",
+		"imageAlt": "Une ventouse qui travaille sur les capitons d'une cuisse",
+		"url": "/massage/anti-cellulite",
+		"titleImg": "Au revoir à la cellulite"
+	},
+	{
+		"id": 9,
+		"title": "Douceur Dorsale",
+		"description": "C'est un massage entièrement dédié au dos, à la nuque et aux épaules. On va chercher à éliminer ce stress, pour le rendre entièrement détendu. ",
+		"imageUrl": "/Images/massage/douceur-nuque.webp",
+		"imageAlt": "4 doigts effleurant la nuque",
+		"url": "/massage/douceur-dorsale",
+		"titleImg": "Prise en contact de la nuque"
+	},
+	{
+		"id": 10,
+		"title": "Massage Tao",
+		"description": "Reconnectez-vous, vivez le bien-être profond du massage Tao. Un voyage sensoriel & apaisant où chaque toucher célèbre votre bien-être. ",
+		"imageUrl": "/Images/massage/massage-tao-card.webp",
+		"imageAlt": "un sourire",
+		"url": "/massage/tao",
+		"titleImg": "la sensualité d'un sourire"
+	},
+	{
+		"id": 11,
+		"title": "Massage à Domicile",
+		"description": "Je me déplace avec tout le nécessaire pour vous offrir un massage relaxant de qualité, directement chez vous, à Bruxelles, Brabant Wallon & Flamand ",
+		"imageUrl": "/Images/massage/massage-domicile-card.webp",
+		"imageAlt": "2 mains sur un dos",
+		"url": "/massage/a-domicile",
+		"titleImg": "Massage sensuel du Dos"
+	},
+	{
+		"id": 12,
+		"title": "Thérapie Cranio Sacrée",
+		"description": "La CST agit en profondeur, à l’écoute du corps. Par un toucher subtil, elle libère les tensions, favorise l’équilibre émotionnel et renforce le bien-être global.",
+		"imageUrl": "/Images/massage/cst-lvbde.webp",
+		"imageAlt": "Cranio-Sacrée",
+		"url": "https://www.therapie-cranio-sacree.net/",
+		"titleImg": "Manipulation du crâne"
+	}
+]
