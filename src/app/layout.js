@@ -1,8 +1,8 @@
-// import { SpeedInsights } from '@vercel/speed-insights/next';
+
 //import { Analytics } from "@vercel/analytics/react"
 //import GoogleAnalytics from "../../GoogleAnalytics";
-import Head from "next/head";
 
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Cormorant_Garamond, Open_Sans } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer/Footer";
@@ -77,6 +77,7 @@ export default function RootLayout({ children }) {
         <NavWithDropdown />
         {children}
         <Footer />
+        <SpeedInsights />
       </body>
     </html>
   );
