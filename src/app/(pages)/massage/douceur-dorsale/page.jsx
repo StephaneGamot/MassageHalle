@@ -19,17 +19,18 @@ export const metadata = {
     description:
       "Découvrez notre massage exclusif du dos à Halle. Une méthode douce, ciblée, pour libérer les tensions et retrouver un dos détendu et léger.",
     url: "https://lavoiedubienetre.be/massage/douceur-dorsale",
+    type: "website",
+    siteName: "La voie du bien-être - massage relaxant",
+    locale: "fr_BE",
+    images: [
+      {
+        url: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
+        width: 1200,
+        height: 627,
+        alt: "Une longue séance de massage lui permetant de tout oublier",
+      },
+    ],
   },
-  siteName: "La Voie du Bien-Être",
-  images: [
-    {
-      url: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
-      width: 1200,
-      height: 630,
-      alt: "Massage relaxant à Halle",
-    },
-  ],
-  type: "website",
   twitter: {
     title: "La voie du bien-être | Shiatsu Reiki Massage à Halle",
     card: "summary_large_image",

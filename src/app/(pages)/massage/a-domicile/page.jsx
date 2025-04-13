@@ -9,33 +9,37 @@ import Testimonials from "@/components/Testimonials/Testimonials";
 export const metadata = {
   title: "Massage à domicile à Halle, Bruxelles et alentours",
   description:
-    "Détendez votre corps et votre esprit grâce à un massage relaxant à Halle, près de Bruxelles. Une expérience douce, personnalisée, disponible en cabinet ou à domicile.",
+    "Détendez votre corps et votre esprit grâce à un massage relaxant à Halle, près de Bruxelles. Une expérience douce, personnalisée, disponible à domicile.",
   alternates: {
-    canonical: "https://lavoiedubienetre.be/massages/a-domicile",
+    canonical: "https://lavoiedubienetre.be/massage/a-domicile",
   },
  
 openGraph: {
     title: "Massage & soin therapeutique à domicile",
     description:
       "Détendez votre corps et votre esprit grâce à un massage relaxant à Halle, près de Bruxelles. Une expérience douce, personnalisée, disponible en cabinet ou à domicile.",
-    url: "https://lavoiedubienetre.be/massages/a-domicile",
+    url: "https://lavoiedubienetre.be/massage/a-domicile",
+    type: "website",
+    siteName: "La voie du bien-être - massage relaxant",
+    locale: "fr_BE",
+    images: [
+      {
+        url: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
+        width: 1200,
+        height: 627,
+        alt: "Une longue séance de massage lui permetant de tout oublier",
+      },
+    ],
   },
-siteName: "La Voie du Bien-Être",
-  images: [
-    {
-      url: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
-      width: 1200,
-      height: 630,
-      alt: "Massage relaxant à Bruxelles - Halle",
-    },
-  ],
-  type: "website",
   twitter: {
     title: "La voie du bien-être | Shiatsu Reiki Massage à Halle",
     card: "summary_large_image",
     site: "@voiedubienetre",
-    description: "Massage à domicile | Shiatsu Reiki Reflexologie Plantaire | La voie du bien-être",
-    images: ["https://lavoiedubienetre.be/Images/OpenGraph/masseur-massage.jpg"],
+    description:
+      "Centre de massage à Halle | Shiatsu Reiki Reflexologie Plantaire | La voie du bien-être",
+    images: [
+      "https://lavoiedubienetre.be/Images/OpenGraph/masseur-massage.jpg",
+    ],
   },
 };
 

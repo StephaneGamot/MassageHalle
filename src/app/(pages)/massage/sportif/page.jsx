@@ -19,23 +19,27 @@ export const metadata = {
     description:
       "Offrez à votre corps une récupération optimale après l’effort. Le massage sportif soulage les tensions musculaires et améliore la performance.",
     url: "https://lavoiedubienetre.be/massage/sportif",
+    type: "website",
+    siteName: "La voie du bien-être - massage relaxant",
+    locale: "fr_BE",
+    images: [
+      {
+        url: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
+        width: 1200,
+        height: 627,
+        alt: "Une longue séance de massage lui permetant de tout oublier",
+      },
+    ],
   },
-  siteName: "La Voie du Bien-Être ",
-  images: [
-    {
-      url: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
-      width: 1200,
-      height: 630,
-      alt: "Massage sportif à Halle",
-    },
-  ],
-  type: "website",
   twitter: {
-    title: "La voie du bien-être | Massage sportif à Halle",
+    title: "La voie du bien-être | Shiatsu Reiki Massage à Halle",
     card: "summary_large_image",
     site: "@voiedubienetre",
-    description: "Centre de massage à Halle | Shiatsu Reiki Reflexologie Plantaire | La voie du bien-être",
-    images: ["https://lavoiedubienetre.be/Images/OpenGraph/masseur-massage.jpg"],
+    description:
+      "Centre de massage à Halle | Shiatsu Reiki Reflexologie Plantaire | La voie du bien-être",
+    images: [
+      "https://lavoiedubienetre.be/Images/OpenGraph/masseur-massage.jpg",
+    ],
   },
 };
 

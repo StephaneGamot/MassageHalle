@@ -10,7 +10,7 @@ import Testimonials from "@/components/Testimonials/Testimonials";
 export const metadata = {
   title: "Thérapie cranio-sacrée à Halle | La Voie du Bien-Être",
   description:
-    "Libérez les tensions profondes et retrouvez un alignement intérieur avec la thérapie cranio-sacrée à Halle. Une approche douce, énergétique et profondément apaisante.",
+    "Libérez les tensions profondes et retrouvez un alignement intérieur avec la thérapie cranio-sacrée à Halle. Une approche douce, énergétique et apaisante.",
   alternates: {
     canonical: "https://lavoiedubienetre.be/therapie-cranio-sacree",
   },
@@ -19,17 +19,28 @@ export const metadata = {
     description:
       "Libérez les tensions profondes et retrouvez un alignement intérieur avec la thérapie cranio-sacrée à Halle. Une approche douce, énergétique et profondément apaisante.",
     url: "https://lavoiedubienetre.be/therapie-cranio-sacree",
+    type: "website",
+    siteName: "La voie du bien-être - massage relaxant",
+    locale: "fr_BE",
+    images: [
+      {
+        url: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
+        width: 1200,
+        height: 627,
+        alt: "Une longue séance de massage lui permetant de tout oublier",
+      },
+    ],
   },
-  siteName: "La Voie du Bien-Être",
-  images: [
-    {
-      url: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
-      width: 1200,
-      height: 630,
-      alt: "Massage relaxant à Halle",
-    },
-  ],
-  type: "website",
+  twitter: {
+    title: "La voie du bien-être | Shiatsu Reiki Massage à Halle",
+    card: "summary_large_image",
+    site: "@voiedubienetre",
+    description:
+      "Centre de massage à Halle | Shiatsu Reiki Reflexologie Plantaire | La voie du bien-être",
+    images: [
+      "https://lavoiedubienetre.be/Images/OpenGraph/masseur-massage.jpg",
+    ],
+  },
 };
 
 export default function TherapieCranioSacreePage() {

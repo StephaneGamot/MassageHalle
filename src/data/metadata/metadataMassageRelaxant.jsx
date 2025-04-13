@@ -3,7 +3,7 @@ export const MetadataMassageRelaxant = [
       "@context": "https://schema.org",
       "@type": "HealthAndBeautyBusiness",
       name: "La Voie du Bien-Être — Massage relaxant à Halle",
-      description: "Profitez de massages relaxants sur-mesure à Halle et dans les environs de Bruxelles. Détente, sérénité et soins personnalisés dans un cadre apaisant.",
+      description: "Profitez de massages relaxants sur-mesure à Halle et dans les environs de Bruxelles. Détente, sérénité et soins personnalisés.",
       url: "https://www.lavoiedubienetre.be",
       image: "https://www.lavoiedubienetre.be/img/banniere-la-voie-du-bien-etre.webp",
       telephone: "+32477131993",
@@ -40,7 +40,7 @@ export const MetadataMassageRelaxant = [
               name: "Massage relaxant",
               description: "Un soin profond pour relâcher les tensions, apaiser le mental et retrouver équilibre et sérénité.",
               image: "https://lavoiedubienetre.be/img/massage-relaxation-profonde.webp",
-              url: "https://lavoiedubienetre.be/massages/relaxant",
+              url: "https://lavoiedubienetre.be/massage/relaxant",
               offers: {
                 "@type": "Offer",
                 price: "99",

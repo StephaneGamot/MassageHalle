@@ -19,17 +19,28 @@ export const metadata = {
     description:
       "Découvrez le Shiatsu à Halle : un soin thérapeutique japonais qui rééquilibre l’énergie vitale, libère les tensions et soutient le corps dans son auto-guérison.",
     url: "https://lavoiedubienetre.be/shiatsu",
+    type: "website",
+    siteName: "La voie du bien-être - massage relaxant",
+    locale: "fr_BE",
+    images: [
+      {
+        url: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
+        width: 1200,
+        height: 627,
+        alt: "Une longue séance de massage lui permetant de tout oublier",
+      },
+    ],
   },
-  siteName: "La Voie du Bien-Être",
-  images: [
-    {
-      url: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
-      width: 1200,
-      height: 630,
-      alt: "Massage relaxant à Halle",
-    },
-  ],
-  type: "website",
+  twitter: {
+    title: "La voie du bien-être | Shiatsu Reiki Massage à Halle",
+    card: "summary_large_image",
+    site: "@voiedubienetre",
+    description:
+      "Centre de massage à Halle | Shiatsu Reiki Reflexologie Plantaire | La voie du bien-être",
+    images: [
+      "https://lavoiedubienetre.be/Images/OpenGraph/masseur-massage.jpg",
+    ],
+  },
 };
 
 export default function Page() {

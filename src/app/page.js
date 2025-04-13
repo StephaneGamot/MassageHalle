@@ -10,7 +10,7 @@ import { MetadataHomePage } from "@/components/Metadata/HomePage/MetadataHomePag
 export const metadata = {
   title: "Massage & soin therapeutique à Halle - Bruxelles ",
   description:
-    "À Halle – Bruxelles, La Voie du Bien-Être vous accueille en cabinet ou à domicile pour des massages relaxants & soins thérapeutiques, pour retrouver équilibre et sérénité",
+    "À Halle – Bruxelles, La Voie du Bien-Être vous accueille en cabinet ou à domicile pour des massages relaxants & soins thérapeutiques.",
     alternates: {
       canonical: "https://lavoiedubienetre.be",
     },

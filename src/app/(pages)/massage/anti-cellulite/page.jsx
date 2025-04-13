@@ -20,22 +20,27 @@ export const metadata = {
     description:
       "Tonifiez, lissez et activez la circulation grâce à un massage anti-cellulite personnalisé à domocile. Pour une silhouette redessinée et une peau plus ferme.",
     url: "https://lavoiedubienetre.be/massage/anti-cellulite",
-  }, siteName: "La Voie du Bien-Être",
-  images: [
-    {
-      url: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
-      width: 1200,
-      height: 630,
-      alt: "Massage relaxant à Halle",
-    },
-  ],
-  type: "website",
+    type: "website",
+    siteName: "La voie du bien-être - massage relaxant",
+    locale: "fr_BE",
+    images: [
+      {
+        url: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
+        width: 1200,
+        height: 627,
+        alt: "Une longue séance de massage lui permetant de tout oublier",
+      },
+    ],
+  },
   twitter: {
     title: "La voie du bien-être | Shiatsu Reiki Massage à Halle",
     card: "summary_large_image",
     site: "@voiedubienetre",
-    description: "Centre de massage à Halle | Shiatsu Reiki Reflexologie Plantaire | La voie du bien-être",
-    images: ["https://lavoiedubienetre.be/Images/OpenGraph/masseur-massage.jpg"],
+    description:
+      "Centre de massage à Halle | Shiatsu Reiki Reflexologie Plantaire | La voie du bien-être",
+    images: [
+      "https://lavoiedubienetre.be/Images/OpenGraph/masseur-massage.jpg",
+    ],
   },
 };
 
