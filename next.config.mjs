@@ -103,6 +103,17 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: "/(.*)",
+        has: [
+          {
+            type: "host",
+            value: "www.lavoiedubienetre.be",
+          },
+        ],
+        destination: "https://lavoiedubienetre.be/:1",
+        permanent: true,
+      },
+      {
         source: "/shiatsu/traditionnel",
         destination: "/shiatsu",
         permanent: true,

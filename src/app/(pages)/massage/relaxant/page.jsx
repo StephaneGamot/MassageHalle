@@ -11,7 +11,7 @@ import HeadMassageRelaxant from "@/components/Metadata/MassageRelaxant/HeadMassa
 export const metadata = {
   title: "Massage relaxant à Halle (Bruxelles) - Détente & Bien-être",
   description:
-    "Détendez votre corps et votre esprit grâce à un massage relaxant à Halle, près de Bruxelles. Une expérience douce, personnalisée, disponible en cabinet ou à domicile.",
+    "Détendez votre corps & votre esprit grâce à un massage relaxant à Halle. Une expérience douce, personnalisée, disponible en cabinet à Hal ou à domicile",
   alternates: {
     canonical: "https://lavoiedubienetre.be/massage/relaxant",
   },
