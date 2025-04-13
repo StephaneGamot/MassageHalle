@@ -7,18 +7,25 @@ import CtaSectionMassagePage from "@/components/Cta/CtaSectionMassagePage";
 import TreatmentDescription from "@/components/TreatmentDescription/TreatmentDescription";
 import WhyThisCare from "@/components/WhyThisCare/WhyThisCare";
 
+export const metadata = {
+  title: "Massage Shiatsu à Halle (Bruxelles) - Équilibre & Énergie",
+  description:
+    "Découvrez le Shiatsu à Halle : un soin thérapeutique japonais qui rééquilibre l’énergie vitale, libère les tensions et soutient le corps dans son auto-guérison.",
+  alternates: {
+    canonical: "https://lavoiedubienetre.be/shiatsu",
+  },
+  openGraph: {
+    title: "Massage Shiatsu à Halle (Bruxelles) - Équilibre & Énergie",
+    description:
+      "Découvrez le Shiatsu à Halle : un soin thérapeutique japonais qui rééquilibre l’énergie vitale, libère les tensions et soutient le corps dans son auto-guérison.",
+    url: "https://lavoiedubienetre.be/shiatsu",
+  },
+};
+
 export default function Page() {
   return (
     <>
-      <Head>
-        <title>Massage Shiatsu à Halle (Bruxelles) - Équilibre & Énergie</title>
-        <meta
-          name="description"
-          content="Découvrez le Shiatsu à Halle : un soin thérapeutique japonais qui rééquilibre l’énergie vitale, libère les tensions et soutient le corps dans son auto-guérison."
-        />
-        <meta property="og:title" content="Massage Shiatsu à Halle - La Voie du Bien-Être" />
-        <link rel="canonical" href="https://lavoiedubienetre.be/massage/shiatsu" />
-      </Head>
+  
 
       <main>
         <HeroMassage

@@ -8,7 +8,7 @@ import StructuredData from "@/components/Metadata/StructuredData";
 import { MetadataHomePage } from "@/components/Metadata/HomePage/MetadataHomePage";
 
 export const metadata = {
-  title: "Massage & soin therapeutique à Halle - Bruxelles",
+  title: "Massage & soin therapeutique à Halle - Bruxelles ",
   description:
     "À Halle – Bruxelles, La Voie du Bien-Être vous accueille en cabinet ou à domicile pour des massages relaxants & soins thérapeutiques, pour retrouver équilibre et sérénité",
     alternates: {

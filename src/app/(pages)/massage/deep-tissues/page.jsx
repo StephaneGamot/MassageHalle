@@ -7,20 +7,24 @@ import Gallery from "@/components/Gallery/Gallery";
 import CtaSectionMassagePage from "@/components/Cta/CtaSectionMassagePage";
 import Testimonials from "@/components/Testimonials/Testimonials";
 
+export const metadata = {
+  title: "Massage Deep Tissues à Halle – Détente musculaire profonde",
+  description:
+    "Libérez les tensions profondes et soulagez les douleurs chroniques grâce au massage Deep Tissues à Halle. Un soin puissant et ciblé pour un bien-être durable.",
+  alternates: {
+    canonical: "https://lavoiedubienetre.be/massage/deep-tissues",
+  },
+  openGraph: {
+    title: "Massage Deep tissues à domicile",
+    description:
+      "Libérez les tensions profondes et soulagez les douleurs chroniques grâce au massage Deep Tissues à Halle. Un soin puissant et ciblé pour un bien-être durable.",
+    url: "https://lavoiedubienetre.be/massage/deep-tissues",
+  },
+};
 export default function Page() {
   return (
     <>
-      <Head>
-        <title>Massage Deep Tissues à Halle – Détente musculaire profonde</title>
-        <meta
-          name="description"
-          content="Libérez les tensions profondes et soulagez les douleurs chroniques grâce au massage Deep Tissues à Halle. Un soin puissant et ciblé pour un bien-être durable."
-        />
-        <link
-          rel="canonical"
-          href="https://lavoiedubienetre.be/massage/deep-tissues"
-        />
-      </Head>
+     
       <main>
         <HeroMassage
           variant="massage"

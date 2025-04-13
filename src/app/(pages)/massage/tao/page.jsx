@@ -7,24 +7,24 @@ import CtaSectionMassagePage from "@/components/Cta/CtaSectionMassagePage";
 import TreatmentDescription from "@/components/TreatmentDescription/TreatmentDescription";
 import WhyThisCare from "@/components/WhyThisCare/WhyThisCare";
 
+export const metadata = {
+  title: "Massage tao à Halle - Harmonie & Énergie | La Voie du Bien-Être",
+  description:
+    "Reconnectez-vous à votre énergie vitale avec le massage tao à Halle. Une expérience unique alliant douceur, lenteur et conscience du corps",
+  alternates: {
+    canonical: "https://lavoiedubienetre.be/massage/tao",
+  },
+  openGraph: {
+    title: "Massage tao à Halle - Harmonie & Énergie | La Voie du Bien-Être",
+    description:
+      "Reconnectez-vous à votre énergie vitale avec le massage tao à Halle. Une expérience unique alliant douceur, lenteur et conscience du corps",
+    url: "https://lavoiedubienetre.be/massage/tao",
+  },
+};
+
 export default function Page() {
   return (
     <>
-      <Head>
-        <title>Massage tao à Halle - Harmonie & Énergie | La Voie du Bien-Être</title>
-        <meta
-          name="description"
-          content="Reconnectez-vous à votre énergie vitale avec le massage tao à Halle. Une expérience unique alliant douceur, lenteur et conscience du corps."
-        />
-        <meta
-          property="og:title"
-          content="Massage tao à Halle - Harmonie & Énergie | La Voie du Bien-Être"
-        />
-        <link
-          rel="canonical"
-          href="https://lavoiedubienetre.be/massage/tao"
-        />
-      </Head>
 
       <main>
         <HeroMassage

@@ -25,6 +25,22 @@ export const metadata = {
   description:
     "À Halle – Bruxelles, La Voie du Bien-Être vous accueille en cabinet ou à domicile pour des massages relaxants & soins thérapeutiques, pour retrouver équilibre et sérénité",
   metadataBase: new URL("https://lavoiedubienetre.be"),
+  openGraph: {
+    title: "Massage à domicile à Halle, Bruxelles, Nivelles, Tubize, Uccle, Waterloo ...",
+    description:
+      "Profitez d’un massage professionnel sans quitter votre maison. Je me déplace à Halle, Bruxelles, Nivelles, TUbize ... et dans les environs pour vous offrir un moment de détente inégalé.",
+    url: "https://lavoiedubienetre.be/massage/relaxant",
+    siteName: "La Voie du Bien-Être",
+    images: [
+      {
+        url: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
+        width: 1200,
+        height: 630,
+        alt: "Massage relaxant à Halle",
+      },
+    ],
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }) {

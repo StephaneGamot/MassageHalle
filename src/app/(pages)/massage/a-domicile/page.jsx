@@ -5,22 +5,21 @@ import TreatmentDescription from "@/components/TreatmentDescription/TreatmentDes
 import Gallery from "@/components/Gallery/Gallery";
 import CtaSectionMassagePage from "@/components/Cta/CtaSectionMassagePage";
 import Testimonials from "@/components/Testimonials/Testimonials";
-import Head from "next/head";
+
+export const metadata = {
+  title: "Massage à domicile à Halle, Bruxelles et alentours – La Voie du Bien-Être",
+  description:
+    "Détendez votre corps et votre esprit grâce à un massage relaxant à Halle, près de Bruxelles. Une expérience douce, personnalisée, disponible en cabinet ou à domicile.",
+  alternates: {
+    canonical: "https://lavoiedubienetre.be/massages/a-domicile",
+  },
+ 
+};
 
 export default function page() {
   return (
     <>
- <Head>
-      <title>Massage à domicile à Halle et alentours – La Voie du Bien-Être</title>
-      <meta
-        name="description"
-        content="Profitez d’un massage professionnel sans quitter votre maison. Je me déplace à Halle et dans les environs pour vous offrir un moment de détente inégalé."
-      />
-      <link
-        rel="canonical"
-        href="https://lavoiedubienetre.be/massages/a-domicile"
-      />  
-    </Head>
+
 <main>
         <HeroMassage
           variant="massage"

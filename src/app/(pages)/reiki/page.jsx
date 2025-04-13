@@ -7,24 +7,24 @@ import CtaSectionMassagePage from "@/components/Cta/CtaSectionMassagePage";
 import TreatmentDescription from "@/components/TreatmentDescription/TreatmentDescription";
 import WhyThisCare from "@/components/WhyThisCare/WhyThisCare";
 
+export const metadata = {
+  title: "Reiki à Halle (Bruxelles) - Soin énergétique & Équilibre",
+  description:
+    "Profitez d’un soin Reiki à Halle pour réharmoniser vos énergies et retrouver l’équilibre intérieur. Un accompagnement doux, profond et bienveillant.",
+  alternates: {
+    canonical: "https://lavoiedubienetre.be/reiki",
+  },
+  openGraph: {
+    title: "Reiki à Halle (Bruxelles) - Soin énergétique & Équilibre",
+    description:
+      "Profitez d’un soin Reiki à Halle pour réharmoniser vos énergies et retrouver l’équilibre intérieur. Un accompagnement doux, profond et bienveillant.",
+    url: "https://lavoiedubienetre.be/reiki",
+  },
+};
+
 export default function Page() {
   return (
     <>
-      <Head>
-        <title>Reiki à Halle (Bruxelles) - Soin énergétique & Équilibre</title>
-        <meta
-          name="description"
-          content="Profitez d’un soin Reiki à Halle pour réharmoniser vos énergies et retrouver l’équilibre intérieur. Un accompagnement doux, profond et bienveillant."
-        />
-        <meta
-          property="og:title"
-          content="Reiki à Halle - La Voie du Bien-Être"
-        />
-        <link
-          rel="canonical"
-          href="https://lavoiedubienetre.be/massage/reiki"
-        />
-      </Head>
       <main>
         <HeroMassage
           variant="soin"

@@ -7,24 +7,25 @@ import CtaSectionMassagePage from "@/components/Cta/CtaSectionMassagePage";
 import TreatmentDescription from "@/components/TreatmentDescription/TreatmentDescription";
 import WhyThisCare from "@/components/WhyThisCare/WhyThisCare";
 
+export const metadata = {
+  title: "Réflexologie plantaire à Halle - Harmonie & Bien-être",
+  description:
+    "Offrez à vos pieds une expérience unique avec la réflexologie plantaire à Halle. Une méthode naturelle pour rééquilibrer le corps et apaiser l'esprit.",
+  alternates: {
+    canonical: "https://lavoiedubienetre.be/reflexologie-plantaire",
+  },
+  openGraph: {
+    title: "Réflexologie plantaire à Halle - Harmonie & Bien-être",
+    description:
+      "Offrez à vos pieds une expérience unique avec la réflexologie plantaire à Halle. Une méthode naturelle pour rééquilibrer le corps et apaiser l'esprit.",
+    url: "https://lavoiedubienetre.be/reflexologie-plantaire",
+  },
+};
+
 export default function Page() {
   return (
     <>
-      <Head>
-        <title>Réflexologie plantaire à Halle - Harmonie & Bien-être</title>
-        <meta
-          name="description"
-          content="Offrez à vos pieds une expérience unique avec la réflexologie plantaire à Halle. Une méthode naturelle pour rééquilibrer le corps et apaiser l'esprit."
-        />
-        <meta
-          property="og:title"
-          content="Réflexologie plantaire à Halle - La Voie du Bien-Être"
-        />
-        <link
-          rel="canonical"
-          href="https://lavoiedubienetre.be/reflexologie-plantaire"
-        />
-      </Head>
+  
 
       <main>
         <HeroMassage

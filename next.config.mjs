@@ -18,6 +18,11 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/shiatsu/amma',
+        destination: '/massage-sur-chaise',
+        permanent: true,
+      },
+      {
         source: '/massage-anti-cellulite-bruxelles',
         destination: '/massage/anti-cellulite',
         permanent: true,

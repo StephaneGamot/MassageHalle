@@ -7,24 +7,27 @@ import Gallery from "@/components/Gallery/Gallery";
 import CtaSectionMassagePage from "@/components/Cta/CtaSectionMassagePage";
 import Testimonials from "@/components/Testimonials/Testimonials";
 
+
+export const metadata = {
+  title: "Massage anti-cellulite à Halle | La Voie du Bien-Être",
+  description:
+    "Tonifiez, lissez et activez la circulation grâce à un massage anti-cellulite personnalisé à Halle. Pour une silhouette redessinée et une peau plus ferme.",
+  alternates: {
+    canonical: "https://lavoiedubienetre.be/massage/anti-cellulite",
+  },
+  openGraph: {
+    title: "Massage anti-cellulite à domicile",
+    description:
+      "Tonifiez, lissez et activez la circulation grâce à un massage anti-cellulite personnalisé à domocile. Pour une silhouette redessinée et une peau plus ferme.",
+    url: "https://lavoiedubienetre.be/massage/anti-cellulite",
+  },
+};
+
+
 export default function page() {
   return (
     <>
-      <Head>
-        <title>Massage anti-cellulite à Halle | La Voie du Bien-Être</title>
-        <meta
-          name="description"
-          content="Tonifiez, lissez et activez la circulation grâce à un massage anti-cellulite personnalisé à Halle. Pour une silhouette redessinée et une peau plus ferme."
-        />
-        <meta
-          property="og:title"
-          content="Massage anti-cellulite à Halle - La Voie du Bien-Être"
-        />
-        <link
-          rel="canonical"
-          href="https://lavoiedubienetre.be/massage/anti-cellulite"
-        />
-      </Head>
+
 
       <main>
         <HeroMassage

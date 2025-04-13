@@ -7,17 +7,25 @@ import TreatmentDescription from "@/components/TreatmentDescription/TreatmentDes
 import WhyThisCare from "@/components/WhyThisCare/WhyThisCare";
 import Head from "next/head";
 
+export const metadata = {
+  title: "Massage Sportif à Halle – Récupération & Performance",
+  description:
+    "Offrez à votre corps une récupération optimale après l’effort. Le massage sportif soulage les tensions musculaires et améliore la performance.",
+  alternates: {
+    canonical: "https://lavoiedubienetre.be/massage/sportif",
+  },
+  openGraph: {
+    title: "Massage Sportif à Halle – Récupération & Performance",
+    description:
+      "Offrez à votre corps une récupération optimale après l’effort. Le massage sportif soulage les tensions musculaires et améliore la performance.",
+    url: "https://lavoiedubienetre.be/massage/sportif",
+  },
+};
+
 export default function page() {
   return (
  <>
-   <Head>
-        <title>Massage Sportif à Halle – Récupération & Performance</title>
-        <meta
-          name="description"
-          content="Offrez à votre corps une récupération optimale après l’effort. Le massage sportif soulage les tensions musculaires et améliore la performance."
-        />
-        <link rel="canonical" href="https://lavoiedubienetre.be/massage/sportif" />
-      </Head>
+ 
         <main>
         <HeroMassage
           variant="massage"

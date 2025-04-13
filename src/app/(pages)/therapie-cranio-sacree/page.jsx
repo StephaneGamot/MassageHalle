@@ -7,21 +7,25 @@ import Gallery from "@/components/Gallery/Gallery";
 import CtaSectionMassagePage from "@/components/Cta/CtaSectionMassagePage";
 import Testimonials from "@/components/Testimonials/Testimonials";
 
+export const metadata = {
+  title: "Thérapie cranio-sacrée à Halle | La Voie du Bien-Être",
+  description:
+    "Libérez les tensions profondes et retrouvez un alignement intérieur avec la thérapie cranio-sacrée à Halle. Une approche douce, énergétique et profondément apaisante.",
+  alternates: {
+    canonical: "https://lavoiedubienetre.be/therapie-cranio-sacree",
+  },
+  openGraph: {
+    title: "Thérapie cranio-sacrée à Halle | La Voie du Bien-Être",
+    description:
+      "Libérez les tensions profondes et retrouvez un alignement intérieur avec la thérapie cranio-sacrée à Halle. Une approche douce, énergétique et profondément apaisante.",
+    url: "https://lavoiedubienetre.be/therapie-cranio-sacree",
+  },
+};
+
 export default function TherapieCranioSacreePage() {
   return (
     <>
-      <Head>
-        <title>Thérapie cranio-sacrée à Halle | La Voie du Bien-Être</title>
-        <meta
-          name="description"
-          content="Libérez les tensions profondes et retrouvez un alignement intérieur avec la thérapie cranio-sacrée à Halle. Une approche douce, énergétique et profondément apaisante."
-        />
-        <meta property="og:title" content="Thérapie cranio-sacrée à Halle" />
-        <link
-          rel="canonical"
-          href="https://lavoiedubienetre.be/massage/therapie-cranio-sacree"
-        />
-      </Head>
+
 
       <main>
         <HeroMassage

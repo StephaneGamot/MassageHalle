@@ -7,24 +7,26 @@ import CtaSectionMassagePage from "@/components/Cta/CtaSectionMassagePage";
 import TreatmentDescription from "@/components/TreatmentDescription/TreatmentDescription";
 import WhyThisCare from "@/components/WhyThisCare/WhyThisCare";
 
+export const metadata = {
+  title: "Massage du dos à Halle – Soin exclusif “Douceur Dorsale”",
+  description:
+    "Découvrez notre massage exclusif du dos à Halle. Une méthode douce, ciblée, pour libérer les tensions et retrouver un dos détendu et léger.",
+  alternates: {
+    canonical: "https://lavoiedubienetre.be/massage/douceur-dorsale",
+  },
+  openGraph: {
+    title: "Massage du dos à Halle – Soin exclusif “Douceur Dorsale”",
+    description:
+      "Découvrez notre massage exclusif du dos à Halle. Une méthode douce, ciblée, pour libérer les tensions et retrouver un dos détendu et léger.",
+    url: "https://lavoiedubienetre.be/massage/douceur-dorsale",
+  },
+};
+
+
 export default function Page() {
   return (
     <>
-      <Head>
-        <title>Massage du dos à Halle – Soin exclusif “Douceur Dorsale”</title>
-        <meta
-          name="description"
-          content="Découvrez notre massage exclusif du dos à Halle. Une méthode douce, ciblée, pour libérer les tensions et retrouver un dos détendu et léger."
-        />
-        <meta
-          property="og:title"
-          content="Massage du dos à Halle – Soin exclusif “Douceur Dorsale”"
-        />
-        <link
-          rel="canonical"
-          href="https://lavoiedubienetre.be/massage/douceur-dorsale"
-        />
-      </Head>
+   
       <main>
         <HeroMassage
           variant="massage"

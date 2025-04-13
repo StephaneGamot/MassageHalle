@@ -20,16 +20,6 @@ export const metadata = {
     description:
       "Découvrez un soin relaxant unique à Halle : douceur, lâcher-prise et sérénité dans un cadre professionnel.",
     url: "https://lavoiedubienetre.be/massage/relaxant",
-    siteName: "La Voie du Bien-Être",
-    images: [
-      {
-        url: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
-        width: 1200,
-        height: 630,
-        alt: "Massage relaxant à Halle",
-      },
-    ],
-    type: "website",
   },
 };
 

@@ -7,24 +7,25 @@ import Gallery from "@/components/Gallery/Gallery";
 import CtaSectionMassagePage from "@/components/Cta/CtaSectionMassagePage";
 import Testimonials from "@/components/Testimonials/Testimonials";
 
+export const metadata = {
+  title: "Massage Amma assis en entreprise – Halle & Bruxelles",
+  description:
+    "Offrez un moment de détente à vos collaborateurs grâce au massage Amma assis. Idéal pour réduire le stress, améliorer la concentration et booster le bien-être en entreprise.",
+  alternates: {
+    canonical: "https://lavoiedubienetre.be/massage-sur-chaise",
+  },
+  openGraph: {
+    title: "Massage Amma assis en entreprise – Halle & Bruxelles",
+    description:
+      "Offrez un moment de détente à vos collaborateurs grâce au massage Amma assis. Idéal pour réduire le stress, améliorer la concentration et booster le bien-être en entreprise.",
+    url: "https://lavoiedubienetre.be/massage-sur-chaise",
+  },
+};
+
 export default function Page() {
   return (
     <>
-      <Head>
-        <title>Massage Amma assis en entreprise – Halle & Bruxelles</title>
-        <meta
-          name="description"
-          content="Offrez un moment de détente à vos collaborateurs grâce au massage Amma assis. Idéal pour réduire le stress, améliorer la concentration et booster le bien-être en entreprise."
-        />
-        <meta
-          property="og:title"
-          content="Massage sur chaise pour entreprise – La Voie du Bien-Être"
-        />
-        <link
-          rel="canonical"
-          href="https://lavoiedubienetre.be/massage-sur-chaise"
-        />
-      </Head>
+  
 
       <main>
         <HeroMassage

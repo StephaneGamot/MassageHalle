@@ -1,5 +1,3 @@
-
-
 import Head from "next/head";
 import HeroMassage from "@/components/Hero/HeroMassage";
 import Testimonials from "@/components/Testimonials/Testimonials";
@@ -9,24 +7,25 @@ import CtaSectionMassagePage from "@/components/Cta/CtaSectionMassagePage";
 import TreatmentDescription from "@/components/TreatmentDescription/TreatmentDescription";
 import WhyThisCare from "@/components/WhyThisCare/WhyThisCare";
 
+export const metadata = {
+  title: "Massage Voyage des Sens à Halle - Évasion & Détente Totale",
+  description:
+    "Offrez-vous une évasion sensorielle complète avec le massage Voyage des Sens à Halle. Une détente profonde des fascias, un lâcher-prise total, pour le corps et l'esprit.",
+  alternates: {
+    canonical: "https://lavoiedubienetre.be/massage/voyage-des-sens",
+  },
+  openGraph: {
+    title: "Massage Voyage des Sens à Halle - Évasion & Détente Totale",
+    description:
+      "Offrez-vous une évasion sensorielle complète avec le massage Voyage des Sens à Halle. Une détente profonde des fascias, un lâcher-prise total, pour le corps et l'esprit.",
+    url: "https://lavoiedubienetre.be/massage/voyage-des-sens",
+  },
+};
+
 export default function Page() {
   return (
     <>
-      <Head>
-        <title>Massage Voyage des Sens à Halle - Évasion & Détente Totale</title>
-        <meta
-          name="description"
-          content="Offrez-vous une évasion sensorielle complète avec le massage Voyage des Sens à Halle. Une détente profonde des fascias, un lâcher-prise total, pour le corps et l'esprit."
-        />
-        <meta
-          property="og:title"
-          content="Massage Voyage des Sens - La Voie du Bien-Être à Halle"
-        />
-        <link
-          rel="canonical"
-          href="https://lavoiedubienetre.be/massage/voyage-des-sens"
-        />
-      </Head>
+     
       <main>
         <HeroMassage
           variant="soin"
