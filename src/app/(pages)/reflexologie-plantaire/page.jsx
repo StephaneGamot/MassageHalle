@@ -20,13 +20,21 @@ export const metadata = {
       "Offrez à vos pieds une expérience unique avec la réflexologie plantaire à Halle. Une méthode naturelle pour rééquilibrer le corps et apaiser l'esprit.",
     url: "https://lavoiedubienetre.be/reflexologie-plantaire",
   },
+  siteName: "La Voie du Bien-Être",
+  images: [
+    {
+      url: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
+      width: 1200,
+      height: 630,
+      alt: "Massage relaxant à Halle",
+    },
+  ],
+  type: "website",
 };
 
 export default function Page() {
   return (
     <>
-  
-
       <main>
         <HeroMassage
           variant="soin"
@@ -35,7 +43,10 @@ export default function Page() {
           text2="Ce soin libère les tensions, favorise la circulation et réveille les capacités d’auto-guérison du corps."
         />
 
-        <Benefits ids={[48, 8, 16, 14]} title="une séance de réflexologie plantaire" />
+        <Benefits
+          ids={[48, 8, 16, 14]}
+          title="une séance de réflexologie plantaire"
+        />
 
         <WhyThisCare
           ids={[9, 10, 18, 27]}

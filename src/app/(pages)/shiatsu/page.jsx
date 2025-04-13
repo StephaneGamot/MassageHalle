@@ -20,13 +20,21 @@ export const metadata = {
       "Découvrez le Shiatsu à Halle : un soin thérapeutique japonais qui rééquilibre l’énergie vitale, libère les tensions et soutient le corps dans son auto-guérison.",
     url: "https://lavoiedubienetre.be/shiatsu",
   },
+  siteName: "La Voie du Bien-Être",
+  images: [
+    {
+      url: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
+      width: 1200,
+      height: 630,
+      alt: "Massage relaxant à Halle",
+    },
+  ],
+  type: "website",
 };
 
 export default function Page() {
   return (
     <>
-  
-
       <main>
         <HeroMassage
           variant="soin"

@@ -20,12 +20,21 @@ export const metadata = {
       "Offrez-vous une évasion sensorielle complète avec le massage Voyage des Sens à Halle. Une détente profonde des fascias, un lâcher-prise total, pour le corps et l'esprit.",
     url: "https://lavoiedubienetre.be/massage/voyage-des-sens",
   },
+  siteName: "La Voie du Bien-Être",
+  images: [
+    {
+      url: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
+      width: 1200,
+      height: 630,
+      alt: "Massage relaxant à Halle",
+    },
+  ],
+  type: "website",
 };
 
 export default function Page() {
   return (
     <>
-     
       <main>
         <HeroMassage
           variant="soin"
@@ -34,23 +43,28 @@ export default function Page() {
           text2="Il invite le corps à s’abandonner, et l’esprit à s’apaiser profondément."
         />
 
-        <Benefits ids={[31, 63, 50, 64 ]} title="le massage Voyage des Sens" />
-        
+        <Benefits ids={[31, 63, 50, 64]} title="le massage Voyage des Sens" />
+
         <WhyThisCare
           ids={[37, 35, 31, 25, 19]}
           title="Est-ce que ce massage doux et sensuel est pour vous ?"
         />
-        
+
         <TreatmentDescription
           title="Une évasion sensorielle absolue"
           hero="Le Voyage des Sens agit en profondeur sur les fascias pour libérer les tensions enfouies, réveiller la circulation énergétique et instaurer une détente durable dans tout le corps."
-          duration={<> <strong>120 minutes</strong></>}
+          duration={
+            <>
+              {" "}
+              <strong>120 minutes</strong>
+            </>
+          }
           text="Un soin unique, à vivre pleinement, à partir de"
           price="125 €"
         />
 
         <Gallery ids={[6, 8, 9]} />
-        
+
         <CtaSectionMassagePage
           title="Prenez le temps d’un véritable voyage intérieur"
           soin="le massage Voyage des Sens"

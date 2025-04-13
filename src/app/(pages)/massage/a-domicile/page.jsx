@@ -14,6 +14,29 @@ export const metadata = {
     canonical: "https://lavoiedubienetre.be/massages/a-domicile",
   },
  
+openGraph: {
+    title: "Massage & soin therapeutique à domicile",
+    description:
+      "Détendez votre corps et votre esprit grâce à un massage relaxant à Halle, près de Bruxelles. Une expérience douce, personnalisée, disponible en cabinet ou à domicile.",
+    url: "https://lavoiedubienetre.be/massages/a-domicile",
+  },
+siteName: "La Voie du Bien-Être",
+  images: [
+    {
+      url: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
+      width: 1200,
+      height: 630,
+      alt: "Massage relaxant à Bruxelles - Halle",
+    },
+  ],
+  type: "website",
+  twitter: {
+    title: "La voie du bien-être | Shiatsu Reiki Massage à Halle",
+    card: "summary_large_image",
+    site: "@voiedubienetre",
+    description: "Centre de massage à Halle | Shiatsu Reiki Reflexologie Plantaire | La voie du bien-être",
+    images: ["https://lavoiedubienetre.be/Images/OpenGraph/masseur-massage.jpg"],
+  },
 };
 
 export default function page() {

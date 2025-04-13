@@ -20,13 +20,21 @@ export const metadata = {
       "Libérez les tensions profondes et retrouvez un alignement intérieur avec la thérapie cranio-sacrée à Halle. Une approche douce, énergétique et profondément apaisante.",
     url: "https://lavoiedubienetre.be/therapie-cranio-sacree",
   },
+  siteName: "La Voie du Bien-Être",
+  images: [
+    {
+      url: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
+      width: 1200,
+      height: 630,
+      alt: "Massage relaxant à Halle",
+    },
+  ],
+  type: "website",
 };
 
 export default function TherapieCranioSacreePage() {
   return (
     <>
-
-
       <main>
         <HeroMassage
           variant="soin"
@@ -35,7 +43,7 @@ export default function TherapieCranioSacreePage() {
           text2="Elle agit en douceur sur le système nerveux et énergétique pour favoriser l’apaisement, l’ancrage et la régénération."
         />
 
-        <Benefits ids={[ 62, 47, 63, 64]} title="la thérapie cranio-sacrée" />
+        <Benefits ids={[62, 47, 63, 64]} title="la thérapie cranio-sacrée" />
         <WhyThisCare
           ids={[3, 9, 16, 20]}
           title="Est-ce que cette thérapie est faite pour moi ?"

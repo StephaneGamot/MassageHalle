@@ -20,6 +20,16 @@ export const metadata = {
       "Profitez d’un soin Reiki à Halle pour réharmoniser vos énergies et retrouver l’équilibre intérieur. Un accompagnement doux, profond et bienveillant.",
     url: "https://lavoiedubienetre.be/reiki",
   },
+  siteName: "La Voie du Bien-Être",
+  images: [
+    {
+      url: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
+      width: 1200,
+      height: 630,
+      alt: "Massage relaxant à Halle",
+    },
+  ],
+  type: "website",
 };
 
 export default function Page() {
@@ -33,7 +43,7 @@ export default function Page() {
           text2="Chaque séance est une invitation à se recentrer, se libérer et retrouver la paix intérieure."
         />
 
-        <Benefits ids={[11, 61 , 36, 46]} title="un soin Reiki" />
+        <Benefits ids={[11, 61, 36, 46]} title="un soin Reiki" />
         <WhyThisCare
           ids={[39, 36, 28, 22]}
           title="Ce soin est-il fait pour vous ?"

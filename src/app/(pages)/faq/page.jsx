@@ -277,10 +277,27 @@ export const metadata = {
     canonical: "https://lavoiedubienetre.be/faq",
   },
   openGraph: {
-    title: "Massage du dos à Halle – Soin exclusif “Douceur Dorsale”",
+    title: "Faq de Massage & soin therapeutique à Halle - Bruxelles",
     description:
-      "Découvrez notre massage exclusif du dos à Halle. Une méthode douce, ciblée, pour libérer les tensions et retrouver un dos détendu et léger.",
+      "Toutes vos questions sur nosmassage, nos soins thérapeutiques à Halle, Bruxelles, à domicile ....",
     url: "https://lavoiedubienetre.be/faq",
+  },
+siteName: "La Voie du Bien-Être",
+  images: [
+    {
+      url: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
+      width: 1200,
+      height: 630,
+      alt: "Massage relaxant à Bruxelles - Halle",
+    },
+  ],
+  type: "website",
+  twitter: {
+    title: "La voie du bien-être | Shiatsu Reiki Massage à Halle",
+    card: "summary_large_image",
+    site: "@voiedubienetre",
+    description: "Centre de massage à Halle | Shiatsu Reiki Reflexologie Plantaire | La voie du bien-être",
+    images: ["https://lavoiedubienetre.be/Images/OpenGraph/masseur-massage.jpg"],
   },
 };
 
@@ -292,6 +309,7 @@ export default function Page() {
           <h1 className="text-4xl font-semibold tracking-tight sm:text-5xl">
             Questions fréquentes
           </h1>
+          <h2 className="sr-only">Toutes les questions que vous vous posez sur les massages à la voie du bien-être</h2>
           <dl className="mt-16 divide-y divide-gray-900/10">
             {faqs.map((faq) => (
               <Disclosure

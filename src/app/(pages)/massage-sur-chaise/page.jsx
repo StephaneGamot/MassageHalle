@@ -20,13 +20,21 @@ export const metadata = {
       "Offrez un moment de détente à vos collaborateurs grâce au massage Amma assis. Idéal pour réduire le stress, améliorer la concentration et booster le bien-être en entreprise.",
     url: "https://lavoiedubienetre.be/massage-sur-chaise",
   },
+  siteName: "La Voie du Bien-Être",
+  images: [
+    {
+      url: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
+      width: 1200,
+      height: 630,
+      alt: "Massage relaxant à Halle",
+    },
+  ],
+  type: "website",
 };
 
 export default function Page() {
   return (
     <>
-  
-
       <main>
         <HeroMassage
           variant="massage"
@@ -36,7 +44,7 @@ export default function Page() {
         />
 
         <Benefits
-          ids={[42, 44,  49, 51]}
+          ids={[42, 44, 49, 51]}
           title="le massage Amma en entreprise"
         />
 
@@ -50,7 +58,8 @@ export default function Page() {
           hero="En 15 à 30 minutes, le massage Amma agit sur les méridiens pour relancer l’énergie, relâcher les tensions du dos, des épaules et de la nuque."
           duration={
             <>
-              entre <strong>15</strong> et <strong>30 minutes</strong> par personne
+              entre <strong>15</strong> et <strong>30 minutes</strong> par
+              personne
             </>
           }
           text="Tarifs adaptés aux entreprises, à partir de"

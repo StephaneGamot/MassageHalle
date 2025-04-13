@@ -20,13 +20,29 @@ export const metadata = {
       "Offrez à votre corps une récupération optimale après l’effort. Le massage sportif soulage les tensions musculaires et améliore la performance.",
     url: "https://lavoiedubienetre.be/massage/sportif",
   },
+  siteName: "La Voie du Bien-Être ",
+  images: [
+    {
+      url: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
+      width: 1200,
+      height: 630,
+      alt: "Massage sportif à Halle",
+    },
+  ],
+  type: "website",
+  twitter: {
+    title: "La voie du bien-être | Massage sportif à Halle",
+    card: "summary_large_image",
+    site: "@voiedubienetre",
+    description: "Centre de massage à Halle | Shiatsu Reiki Reflexologie Plantaire | La voie du bien-être",
+    images: ["https://lavoiedubienetre.be/Images/OpenGraph/masseur-massage.jpg"],
+  },
 };
 
 export default function page() {
   return (
- <>
- 
-        <main>
+    <>
+      <main>
         <HeroMassage
           variant="massage"
           title="Préparez votre corps, libérez vos tensions"
@@ -34,8 +50,8 @@ export default function page() {
           text2="Chaque soin est adapté à votre corps, vos objectifs, et votre rythme."
         />
 
-        <Benefits ids={[2, 7, 52, 53 ]} title="un massage sportif" />
-        
+        <Benefits ids={[2, 7, 52, 53]} title="un massage sportif" />
+
         <WhyThisCare
           ids={[3, 8, 12, 14]}
           title="Est-ce que ce massage sportif est pour moi ?"
@@ -44,7 +60,11 @@ export default function page() {
         <TreatmentDescription
           title="Un soin ciblé et revitalisant"
           hero="Le massage sportif vise à soulager les tensions musculaires, améliorer la récupération et prévenir les blessures. Il peut être tonique ou plus profond, selon votre pratique."
-          duration={ <>entre <strong>60</strong> et <strong>90 minutes</strong></> }
+          duration={
+            <>
+              entre <strong>60</strong> et <strong>90 minutes</strong>
+            </>
+          }
           text="Offrez à votre corps ce regain d’énergie, à partir de"
           price="74€"
         />
