@@ -269,6 +269,21 @@ const faqs = [
   },
 ];
 
+export const metadata = {
+  title: "Faq de Massage & soin therapeutique à Halle - Bruxelles",
+  description:
+    "Toutes vos questions sur nosmassage, nos soins thérapeutiques à Halle, Bruxelles, à domicile ....",
+  alternates: {
+    canonical: "https://lavoiedubienetre.be/faq",
+  },
+  openGraph: {
+    title: "Massage du dos à Halle – Soin exclusif “Douceur Dorsale”",
+    description:
+      "Découvrez notre massage exclusif du dos à Halle. Une méthode douce, ciblée, pour libérer les tensions et retrouver un dos détendu et léger.",
+    url: "https://lavoiedubienetre.be/faq",
+  },
+};
+
 export default function Page() {
   return (
     <div className="bg-white">
