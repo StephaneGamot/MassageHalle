@@ -34,7 +34,7 @@ siteName: "La Voie du Bien-Être",
     title: "La voie du bien-être | Shiatsu Reiki Massage à Halle",
     card: "summary_large_image",
     site: "@voiedubienetre",
-    description: "Centre de massage à Halle | Shiatsu Reiki Reflexologie Plantaire | La voie du bien-être",
+    description: "Massage à domicile | Shiatsu Reiki Reflexologie Plantaire | La voie du bien-être",
     images: ["https://lavoiedubienetre.be/Images/OpenGraph/masseur-massage.jpg"],
   },
 };
