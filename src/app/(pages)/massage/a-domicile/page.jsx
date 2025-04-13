@@ -7,7 +7,7 @@ import CtaSectionMassagePage from "@/components/Cta/CtaSectionMassagePage";
 import Testimonials from "@/components/Testimonials/Testimonials";
 
 export const metadata = {
-  title: "Massage à domicile à Halle, Bruxelles et alentours – La Voie du Bien-Être",
+  title: "Massage à domicile à Halle, Bruxelles et alentours",
   description:
     "Détendez votre corps et votre esprit grâce à un massage relaxant à Halle, près de Bruxelles. Une expérience douce, personnalisée, disponible en cabinet ou à domicile.",
   alternates: {

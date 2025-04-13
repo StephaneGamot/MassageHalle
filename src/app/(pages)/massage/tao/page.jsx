@@ -8,7 +8,7 @@ import TreatmentDescription from "@/components/TreatmentDescription/TreatmentDes
 import WhyThisCare from "@/components/WhyThisCare/WhyThisCare";
 
 export const metadata = {
-  title: "Massage tao à Halle - Harmonie & Énergie | La Voie du Bien-Être",
+  title: "Massage tao à Halle - Bruxelles Harmonie & Énergie",
   description:
     "Reconnectez-vous à votre énergie vitale avec le massage tao à Halle. Une expérience unique alliant douceur, lenteur et conscience du corps",
   alternates: {

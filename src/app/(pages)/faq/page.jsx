@@ -272,7 +272,7 @@ const faqs = [
 export const metadata = {
   title: "Faq de Massage & soin therapeutique à Halle - Bruxelles",
   description:
-    "Toutes vos questions sur nosmassage, nos soins thérapeutiques à Halle, Bruxelles, à domicile ....",
+    "Toutes vos questions sur nos massages (relaxant,tao, sportif ...), nos soins thérapeutiques (shiatsu, reiki, TSC ...) à Halle, Bruxelles, à domicile ....",
   alternates: {
     canonical: "https://lavoiedubienetre.be/faq",
   },
