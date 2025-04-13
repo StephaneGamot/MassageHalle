@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 
+const {i18n} = require ("./next-i18next.config")
+
 // 1️⃣ ⬇️ Tu définis ici les headers de sécurité
 const securityHeaders = [
   {
@@ -58,6 +60,7 @@ const securityHeaders = [
 
 // 2️⃣ ⬇️ Tu ajoutes les headers dans la config
 const nextConfig = {
+  i18n,
   images: {
     remotePatterns: [
       {
