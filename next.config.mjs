@@ -21,7 +21,8 @@ const securityHeaders = [
     `
       .replace(/\s{2,}/g, " ")
       .trim(),
-  },{
+  },
+  {
     key: "X-Content-Type-Options",
     value: "nosniff", // ✅ Protection contre le content sniffing
   },
@@ -32,6 +33,26 @@ const securityHeaders = [
   {
     key: "X-XSS-Protection",
     value: "1; mode=block", // ✅ Protection XSS dans les anciens navigateurs
+  },
+  {
+    key: "Referrer-Policy",
+    value: "strict-origin-when-cross-origin", // Contrôle ce qui est envoyé comme referrer (recommandé)
+  },
+  {
+    key: "Permissions-Policy",
+    value: "geolocation=(), microphone=(), camera=()", // Désactive certaines API navigateur sensibles
+  },
+  {
+    key: "Cross-Origin-Opener-Policy",
+    value: "same-origin", // Protection contre certaines attaques de type cross-origin
+  },
+  {
+    key: "Cross-Origin-Embedder-Policy",
+    value: "require-corp", // Nécessaire si tu utilises SharedArrayBuffer
+  },
+  {
+    key: "Cross-Origin-Resource-Policy",
+    value: "same-origin", // Restreint les ressources aux mêmes origines
   },
 ];
 
@@ -55,7 +76,7 @@ const nextConfig = {
   async headers() {
     return [
       {
-        source: "/(.*)", 
+        source: "/(.*)",
         headers: securityHeaders,
       },
       {
