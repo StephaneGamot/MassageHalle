@@ -31,7 +31,7 @@ export default function HeroMassage({ variant, title, text1, text2 }) {
 
           <div className="mt-8">
             <Link
-              href="https://widget.treatwell.be/fr/salon/377730/menu/"
+              href="https://widget.treatwell.be/fr/salon/la-voie-du-bien-etre/"
               className="inline-block rounded-md bg-[#556B2F] px-6 py-3 text-sm font-semibold text-white shadow hover:bg-[#6f8e42] transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#556B2F]"
             >
               Réserver ce soin &rarr;

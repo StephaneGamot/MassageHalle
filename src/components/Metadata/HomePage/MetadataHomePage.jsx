@@ -97,7 +97,7 @@ export const MetadataHomePage = [
 					"itemOffered": {
 						"@type": "Service",
 						"name": "Massage sur chaise - Amma 15 mn",
-						"url": "https://lavoiedubienetre.be/shiatsu/amma",
+						"url": "https://lavoiedubienetre.be/massage-sur-chaise",
 						"description": "Dans la dynamique effrénée de la vie moderne, le massage sur chaise offre un moment de pause pour se ressourcer.",
 						"offers": {
 							"@type": "Offer",
