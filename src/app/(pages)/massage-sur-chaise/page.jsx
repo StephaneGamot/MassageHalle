@@ -10,7 +10,7 @@ import Testimonials from "@/components/Testimonials/Testimonials";
 export const metadata = {
   title: "Massage Amma assis en entreprise – Halle & Bruxelles",
   description:
-    "Offrez un moment de détente à vos collaborateurs grâce au massage Amma assis. Idéal pour réduire le stress, améliorer la concentration et booster le bien-être en entreprise.",
+    "Offrez un moment de détente à vos collaborateurs grâce au massage assis. Idéal pour réduire le stress, améliorer la concentration & booster le bien-être en entreprise",
   alternates: {
     canonical: "https://lavoiedubienetre.be/massage-sur-chaise",
   },
