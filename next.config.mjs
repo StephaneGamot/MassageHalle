@@ -21,6 +21,17 @@ const securityHeaders = [
     `
       .replace(/\s{2,}/g, " ")
       .trim(),
+  },{
+    key: "X-Content-Type-Options",
+    value: "nosniff", // ✅ Protection contre le content sniffing
+  },
+  {
+    key: "X-Frame-Options",
+    value: "DENY", // ✅ Protection contre le clickjacking (iframe)
+  },
+  {
+    key: "X-XSS-Protection",
+    value: "1; mode=block", // ✅ Protection XSS dans les anciens navigateurs
   },
 ];
 
