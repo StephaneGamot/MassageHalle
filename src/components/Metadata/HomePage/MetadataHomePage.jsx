@@ -83,7 +83,7 @@ export const MetadataHomePage = [
 					"itemOffered": {
 						"@type": "Service",
 						"name": "'Toucher Shiatsu' ",
-						"url": "https://lavoiedubienetre.be/shiatsu/traditionnel",
+						"url": "https://lavoiedubienetre.be/shiatsu",
 						"description": "Basé sur les principes de l'énergie vitale, le Shiatsu vise à rétablir la circulation énergétique optimale et favoriser un bien-être global.",
 						"offers": {
 							"@type": "Offer",

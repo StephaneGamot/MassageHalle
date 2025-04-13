@@ -8,7 +8,7 @@ const securityHeaders = [
   },
   {
     key: "Content-Security-Policy",
-   value: `
+    value: `
       default-src 'self';
       script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://va.vercel-scripts.com;
       img-src 'self' data: https://images.unsplash.com https://www.lavoiedubienetre.be;
@@ -18,7 +18,9 @@ const securityHeaders = [
       object-src 'none';
       base-uri 'self';
       frame-ancestors 'none';
-    `.replace(/\s{2,}/g, ' ').trim(),
+    `
+      .replace(/\s{2,}/g, " ")
+      .trim(),
   },
 ];
 
@@ -42,8 +44,26 @@ const nextConfig = {
   async headers() {
     return [
       {
-        source: "/(.*)", // Applique à toutes les routes
+        source: "/(.*)", 
         headers: securityHeaders,
+      },
+      {
+        source: "/_next/image",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=31536000, immutable",
+          },
+        ],
+      },
+      {
+        source: "/Images/:path*",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=31536000, immutable",
+          },
+        ],
       },
     ];
   },

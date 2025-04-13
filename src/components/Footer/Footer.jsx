@@ -11,7 +11,7 @@ const navigation = {
     { name: "Massage deep-tissues", href: "/massage/deep-tissues" },
   ],
   soins: [
-    { name: "Shiatsu", href: "/shiatsu/traditionnel" },
+    { name: "Shiatsu", href: "/shiatsu" },
     { name: "Reiki", href: "/reiki" },
     { name: "Cranio sacrée", href: "/therapie-cranio-sacree" },
     { name: "Reflexologie plantaire", href: "/reflexologie-plantaire" },
