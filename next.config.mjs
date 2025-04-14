@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 
-const {i18n} = require ("./next-i18next.config")
+
 
 // 1️⃣ ⬇️ Tu définis ici les headers de sécurité
 const securityHeaders = [
@@ -60,7 +60,6 @@ const securityHeaders = [
 
 // 2️⃣ ⬇️ Tu ajoutes les headers dans la config
 const nextConfig = {
-  i18n,
   images: {
     remotePatterns: [
       {
@@ -105,6 +104,7 @@ const nextConfig = {
 
   async redirects() {
     return [
+      // Rediriger www vers non-www (déjà présent chez toi 👍)
       {
         source: "/(.*)",
         has: [
@@ -116,6 +116,33 @@ const nextConfig = {
         destination: "https://lavoiedubienetre.be/:1",
         permanent: true,
       },
+  
+      // Rediriger http://lavoiedubienetre.be → https
+      {
+        source: "/(.*)",
+        has: [
+          {
+            type: "host",
+            value: "http://lavoiedubienetre.be",
+          },
+        ],
+        destination: "https://lavoiedubienetre.be/:1",
+        permanent: true,
+      },
+  
+      // Rediriger http://www.lavoiedubienetre.be → https + sans www
+      {
+        source: "/(.*)",
+        has: [
+          {
+            type: "host",
+            value: "http://www.lavoiedubienetre.be",
+          },
+        ],
+        destination: "https://lavoiedubienetre.be/:1",
+        permanent: true,
+      },
+
       {
         source: "/shiatsu/traditionnel",
         destination: "/shiatsu",
@@ -128,6 +155,7 @@ const nextConfig = {
       },
     ];
   },
+  
 };
 
 // 3️⃣ ⬇️ Tu exportes ta configuration
