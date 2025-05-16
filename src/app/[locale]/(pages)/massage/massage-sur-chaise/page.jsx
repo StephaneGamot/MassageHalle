@@ -23,7 +23,7 @@ export async function generateMetadata({ params }) {
       nl: "Geef uw medewerkers een ontspanningsmoment met Amma stoelmassage. Ideaal om stress te verminderen, focus te verbeteren en welzijn op het werk te bevorderen.",
     }[currentLocale],
     alternates: {
-      canonical: `https://lavoiedubienetre.be/${currentLocale}/massage-sur-chaise`,
+      canonical: `https://lavoiedubienetre.be/${currentLocale}/massage/massage-sur-chaise`,
     },
     openGraph: {
       title: {
@@ -36,7 +36,7 @@ export async function generateMetadata({ params }) {
         en: "Give your team a relaxing break with seated Amma massage. Great to reduce stress and increase well-being at work.",
         nl: "Gun je team een ontspanningsmoment met Amma stoelmassage. Perfect om stress te verlagen en welzijn te verhogen op het werk.",
       }[currentLocale],
-      url: `https://lavoiedubienetre.be/${currentLocale}/massage-sur-chaise`,
+      url: `https://lavoiedubienetre.be/${currentLocale}/massage/massage-sur-chaise`,
       type: "website",
       siteName: "La Voie du Bien-Être",
       locale: `${currentLocale}_BE`,
