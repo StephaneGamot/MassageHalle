@@ -142,6 +142,35 @@ const nextConfig = {
         source: "/massage-sur-chaise",
         destination: "/massage/massage-sur-chaise",
         permanent: true,
+      }, {
+        source: '/massage/:slug*',
+        destination: '/fr/massage/:slug*',
+        permanent: true,
+      },
+      {
+        source: '/shiatsu',
+        destination: '/fr/shiatsu',
+        permanent: true,
+      },
+      {
+        source: '/reiki',
+        destination: '/fr/reiki',
+        permanent: true,
+      },
+      {
+        source: '/reflexologie-plantaire',
+        destination: '/fr/reflexologie-plantaire',
+        permanent: true,
+      },
+      {
+        source: '/therapie-cranio-sacree',
+        destination: '/fr/therapie-cranio-sacree',
+        permanent: true,
+      },
+      {
+        source: '/faq',
+        destination: '/fr/faq',
+        permanent: true,
       },
       
     ];
