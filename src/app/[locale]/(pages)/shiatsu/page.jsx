@@ -13,65 +13,66 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Reiki à Halle (Bruxelles) - Soin énergétique & Équilibre",
-      en: "Reiki in Halle (Brussels) – Energy Healing & Balance",
-      nl: "Reiki in Halle (Brussel) – Energetische zorg & Evenwicht",
+      fr: "Shiatsu à Halle (Bruxelles) – Soin énergétique & rééquilibrage",
+      en: "Shiatsu in Halle (Brussels) – Energy Healing & Balance",
+      nl: "Shiatsu in Halle (Brussel) – Energetische zorg & Evenwicht",
     }[currentLocale],
     description: {
-      fr: "Profitez d’un soin Reiki à Halle pour réharmoniser vos énergies et retrouver l’équilibre intérieur. Un accompagnement doux, profond et bienveillant.",
-      en: "Enjoy a Reiki session in Halle to rebalance your energy and restore inner harmony. A gentle, deep, and compassionate care.",
-      nl: "Ervaar een Reiki-behandeling in Halle om uw energieën te harmoniseren en uw innerlijk evenwicht te herstellen. Een zachte, diepe en zorgzame begeleiding.",
+      fr: "Offrez-vous une séance de Shiatsu à Halle pour rééquilibrer votre énergie, libérer les tensions et retrouver un bien-être profond.",
+      en: "Enjoy a Shiatsu session in Halle to rebalance your energy, release tensions and restore deep well-being.",
+      nl: "Ervaar een Shiatsu-behandeling in Halle om uw energie te balanceren, spanningen los te laten en diep welzijn te herstellen.",
     }[currentLocale],
     alternates: {
-      canonical: `https://lavoiedubienetre.be/${currentLocale}/reiki`,
+      canonical: `https://lavoiedubienetre.be/${currentLocale}/shiatsu`,
     },
     openGraph: {
       title: {
-        fr: "Reiki à Halle (Bruxelles) - Soin énergétique & Équilibre",
-        en: "Reiki in Halle (Brussels) – Energy Healing & Balance",
-        nl: "Reiki in Halle (Brussel) – Energetische zorg & Evenwicht",
+        fr: "Shiatsu à Halle – Équilibre et détente en profondeur",
+        en: "Shiatsu in Halle – Deep Relaxation & Balance",
+        nl: "Shiatsu in Halle – Diepe ontspanning en balans",
       }[currentLocale],
       description: {
-        fr: "Un soin énergétique doux pour apaiser, revitaliser et équilibrer vos centres énergétiques.",
-        en: "A gentle energy healing treatment to soothe, revitalize, and balance your chakras.",
-        nl: "Een zachte energetische behandeling om uw energiecentra te kalmeren, revitaliseren en in balans te brengen.",
+        fr: "Un soin énergétique japonais par pressions douces pour revitaliser le corps et l'esprit.",
+        en: "A Japanese energy treatment using gentle pressure to revitalize body and mind.",
+        nl: "Een Japanse energetische behandeling met zachte druk om lichaam en geest te revitaliseren.",
       }[currentLocale],
-      url: `https://lavoiedubienetre.be/${currentLocale}/reiki`,
+      url: `https://lavoiedubienetre.be/${currentLocale}/shiatsu`,
       type: "website",
       siteName: "La Voie du Bien-Être",
       locale: `${currentLocale}_BE`,
       images: [
         {
-          url: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
+          url: "https://www.lavoiedubienetre.be/Images/hero/shiatsu-massage-halle-bruxelles.webp",
           width: 1200,
           height: 627,
           alt: {
-            fr: "Soin Reiki à Halle",
-            en: "Reiki treatment in Halle",
-            nl: "Reiki-behandeling in Halle",
+            fr: "Séance de Shiatsu à Halle",
+            en: "Shiatsu session in Halle",
+            nl: "Shiatsu-sessie in Halle",
           }[currentLocale],
         },
       ],
     },
     twitter: {
       title: {
-        fr: "Soin Reiki à Halle – Énergie & Sérénité",
-        en: "Reiki in Halle – Energy & Serenity",
-        nl: "Reiki in Halle – Energie & Rust",
+        fr: "Shiatsu à Halle – Vitalité & sérénité",
+        en: "Shiatsu in Halle – Vitality & Serenity",
+        nl: "Shiatsu in Halle – Vitaliteit & Rust",
       }[currentLocale],
       description: {
-        fr: "Un soin énergétique à Halle pour vous reconnecter à votre essence vitale.",
-        en: "An energy healing session in Halle to reconnect with your vital essence.",
-        nl: "Een energetische behandeling in Halle om opnieuw verbinding te maken met uw vitale energie.",
+        fr: "Soin Shiatsu pour soulager les tensions et stimuler la circulation de l’énergie vitale.",
+        en: "Shiatsu treatment to relieve tension and boost vital energy flow.",
+        nl: "Shiatsu-behandeling om spanningen te verlichten en de energiestroom te stimuleren.",
       }[currentLocale],
       card: "summary_large_image",
       site: "@voiedubienetre",
       images: [
-        "https://lavoiedubienetre.be/Images/OpenGraph/masseur-massage.jpg",
+        "https://lavoiedubienetre.be/Images/OpenGraph/shiatsu-therapie-halle.webp",
       ],
     },
   };
 }
+
 
 export default function Page() {
   return (
