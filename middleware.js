@@ -13,7 +13,7 @@ const legacyPaths = [
   '/massage/anti-cellulite',
   '/massage/deep-tissues',
   '/massage/voyage-des-sens',
-  '/massage-sur-chaise',
+  '/massage/massage-sur-chaise',
   '/shiatsu',
   '/reiki',
   '/reflexologie-plantaire',
