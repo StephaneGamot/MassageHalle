@@ -20,12 +20,13 @@ export async function GET() {
     ];
   
     const urls = paths.map((path) => {
-      const frPath = `${baseUrl}/fr/${path}`.replace(/\/+$/, ''); // nettoie fin de slash
+      const cleanedPath = path.replace(/\/+$/, ''); // Nettoyage
+      const frPath = `${baseUrl}/fr/${cleanedPath}`;
       const altLinks = locales
-        .map(
-          (lang) =>
-            `<xhtml:link rel="alternate" hreflang="${lang}" href="${baseUrl}/${lang}/${path}".replace(/\/+$/, '') />`
-        )
+        .map((lang) => {
+          const altUrl = `${baseUrl}/${lang}/${cleanedPath}`.replace(/\/+$/, '');
+          return `<xhtml:link rel="alternate" hreflang="${lang}" href="${altUrl}" />`;
+        })
         .join('\n    ');
   
       return `
