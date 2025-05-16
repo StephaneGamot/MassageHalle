@@ -1,13 +1,25 @@
-import testimonialsData from "./TestimonialsData.json";
+// Testimonials.jsx
+"use client";
+
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 export default function Testimonials({ ids = [] }) {
-  const selectedTestimonials = testimonialsData.filter((t) => ids.includes(t.id));
+  const t = useTranslations("testimonials");
+  const selectedTestimonials = ids.map((id) => ({
+    id,
+    body: t(`list.${id}.body`),
+    alt: t(`list.${id}.alt`),
+    author: {
+      name: t(`list.${id}.author`),
+      imageUrl: `/Images/testimonials/${id}.webp`
+    }
+  }));
 
   if (selectedTestimonials.length === 0) {
     return (
       <div className="bg-white py-24 text-center">
-        <p className="text-gray-500">Aucun témoignage disponible pour cette page.</p>
+        <p className="text-gray-500">{t("none")}</p>
       </div>
     );
   }
@@ -16,9 +28,9 @@ export default function Testimonials({ ids = [] }) {
     <div className="bg-white py-12 sm:py-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-xl/7 font-semibold">Témoignages</h2>
+          <h2 className="text-xl/7 font-semibold">{t("title")}</h2>
           <p className="mt-2 text-balance text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">
-            Nous avons travaillé avec des centaines de personnes extraordinaires
+            {t("subtitle")}
           </p>
         </div>
         <div className="mx-auto mt-16 flow-root max-w-2xl sm:mt-20 lg:mx-0 lg:max-w-none">
@@ -30,19 +42,18 @@ export default function Testimonials({ ids = [] }) {
                     <p>{`“${testimonial.body}”`}</p>
                   </blockquote>
                   <figcaption className="mt-6 flex items-center gap-x-4">
-                    {testimonial.author.imageUrl && (
-                      <Image
-                        alt={testimonial.alt}
-                        src={testimonial.author.imageUrl}
-                        className="size-10 rounded-full bg-gray-50"
-                        width={40}
-                        height={40}
-                   
-                        loading="lazy" 
-                      />
-                    )}
+                    <Image
+                      alt={testimonial.alt}
+                      src={testimonial.author.imageUrl}
+                      className="size-10 rounded-full bg-gray-50"
+                      width={40}
+                      height={40}
+                      loading="lazy"
+                    />
                     <div>
-                      <div className="font-semibold text-gray-900">{testimonial.author.name}</div>
+                      <div className="font-semibold text-gray-900">
+                        {testimonial.author.name}
+                      </div>
                     </div>
                   </figcaption>
                 </figure>

@@ -1,10 +1,8 @@
 "use client";
 
-import { useState } from "react";
-import { Dialog, DialogPanel } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import Hero1 from "./../../../public/Images/hero/hero-1.webp";
 import Hero2 from "./../../../public/Images/hero/hero-2.webp";
 import Hero3 from "./../../../public/Images/hero/hero-3.webp";
@@ -12,6 +10,7 @@ import Hero4 from "./../../../public/Images/hero/hero-4.webp";
 import Hero5 from "./../../../public/Images/hero/hero-5.webp";
 
 export default function Hero() {
+  const t = useTranslations("hero");
   return (
     <div>
       <main>
@@ -59,103 +58,94 @@ export default function Hero() {
           </div>
           <div className="overflow-hidden">
             <div className="mx-auto max-w-7xl py-6 px-6 lg:py-16 lg:px-8">
-              <h1 className="sr-only">
-                La Voie du Bien-Être Massage & soin therapeutique à Halle -
-                Bruxelles
-              </h1>
+              <h1 className="sr-only">{t("srOnly")}</h1>
               <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
                 <div className="relative w-full lg:max-w-xl lg:shrink-0 xl:max-w-2xl">
                   <h2 className="text-pretty text-5xl font-semibold tracking-tight sm:text-7xl">
-                    Parce que le bien-être n’est pas un luxe… mais une
-                    nécessité.
+                    {t("headline")}
                   </h2>
                   <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:max-w-md sm:text-xl/8 lg:max-w-none">
-                    Chaque soin est une parenthèse dans le tumulte du quotidien.
-                    Offrez à votre corps ce qu’il mérite : douceur, attention,
-                    et bienveillance.
+                    {t("paragraph")}
                   </p>
                   <div className="mt-10 flex items-center gap-x-6">
                     <Link
                       href="https://widget.treatwell.be/fr/salon/la-voie-du-bien-etre/"
                       className="rounded-md bg-[#556B2F] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#8FBC8F] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#556B2F]"
                     >
-                      Je prends soin de moi
+                      {t("ctaPrimary")}
                     </Link>
                     <Link
                       href="https://widget.treatwell.be/fr/salon/la-voie-du-bien-etre/"
                       className="rounded-md bg-[#556B2F] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#8FBC8F] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#556B2F]"
                     >
-                      Offrir ce moment à un être cher
+                      {t("ctaSecondary")}
                     </Link>
                   </div>
                 </div>
 
                 <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-8 place-items-center">
-  {/* Colonne 1 */}
-  <div className="w-full max-w-[176px] space-y-6 pt-8 sm:pt-80 lg:pt-36 xl:pt-80">
-    <div className="relative">
-      <Image
-        alt="Portrait de votre praticien bien-être"
-        src={Hero1}
-        placeholder="blur"
-        loading="lazy"
-        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-      />
-      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-    </div>
-  </div>
+                  {/* Colonne 1 */}
+                  <div className="w-full max-w-[176px] space-y-6 pt-8 sm:pt-80 lg:pt-36 xl:pt-80">
+                    <div className="relative">
+                      <Image
+                        alt="Portrait de votre praticien bien-être"
+                        src={Hero1}
+                        placeholder="blur"
+                        loading="lazy"
+                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                      />
+                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                    </div>
+                  </div>
 
-  {/* Colonne 2 */}
-  <div className="w-full max-w-[176px] space-y-6 sm:pt-52 lg:pt-36">
-    <div className="relative">
-      <Image
-        alt="Ambiance zen du cabinet"
-        src={Hero2}
-        placeholder="blur"
-        loading="lazy"
-        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-      />
-      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-    </div>
-    <div className="relative">
-      <Image
-        alt="Moment de détente absolue"
-        src={Hero3}
-        placeholder="blur"
-        loading="lazy"
-        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-      />
-      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-    </div>
-  </div>
+                  {/* Colonne 2 */}
+                  <div className="w-full max-w-[176px] space-y-6 sm:pt-52 lg:pt-36">
+                    <div className="relative">
+                      <Image
+                        alt="Ambiance zen du cabinet"
+                        src={Hero2}
+                        placeholder="blur"
+                        loading="lazy"
+                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                      />
+                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                    </div>
+                    <div className="relative">
+                      <Image
+                        alt="Moment de détente absolue"
+                        src={Hero3}
+                        placeholder="blur"
+                        loading="lazy"
+                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                      />
+                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                    </div>
+                  </div>
 
-  {/* Colonne 3 */}
-  <div className="w-full max-w-[176px] space-y-6 pt-8 sm:pt-0">
-    <div className="relative">
-      <Image
-        alt="Accueil chaleureux en cabinet"
-        src={Hero4}
-        placeholder="blur"
-        loading="lazy"
-        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-      />
-      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-    </div>
-    <div className="relative">
-      <Image
-        alt="Cadre relaxant et bienveillant"
-        src={Hero5}
-        placeholder="blur"
-        loading="lazy"
-        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-      />
-      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-    </div>
-  </div>
-</div>
-
-
-
+                  {/* Colonne 3 */}
+                  <div className="w-full max-w-[176px] space-y-6 pt-8 sm:pt-0">
+                    <div className="relative">
+                      <Image
+                        alt="Accueil chaleureux en cabinet"
+                        src={Hero4}
+                        placeholder="blur"
+                        loading="lazy"
+                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                      />
+                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                    </div>
+                    <div className="relative">
+                      <Image
+                        alt="Cadre relaxant et bienveillant"
+                        src={Hero5}
+                        placeholder="blur"
+                        loading="lazy"
+                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                      />
+                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

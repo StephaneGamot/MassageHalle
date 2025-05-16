@@ -3,6 +3,11 @@
 import Logo from "./../../../public/Images/logo.webp";
 import Image from "next/image";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { useLocale } from "next-intl";
+import LangSwitcher from "@/components/LangSwitcher";
+
+
 import {
   Disclosure,
   DisclosureButton,
@@ -12,7 +17,7 @@ import {
   MenuItem,
   MenuItems,
 } from "@headlessui/react";
-// import { MagnifyingGlassIcon } from "@heroicons/react/20/solid";
+
 import {
   Bars3Icon,
   XMarkIcon,
@@ -20,6 +25,9 @@ import {
 } from "@heroicons/react/24/outline";
 
 export default function Nav() {
+  const t = useTranslations("nav");
+  const locale = useLocale();
+
   return (
     <Disclosure as="nav" className="bg-gray-900">
       {({ open }) => (
@@ -29,88 +37,41 @@ export default function Nav() {
               {/* Logo */}
               <div className="flex items-center px-2 lg:px-0">
                 <div className="shrink-0">
-                  <Link href="/">
+                  <Link href={`/${locale}`}>
                     <Image
                       src={Logo}
-                      alt="Logo de la voie du bien-être massages et soins thérapeuthique à Halle"
+                      alt="Logo de la voie du bien-être massages et soins thérapeutiques à Halle"
                       width={200}
-                      title="Massages et soins thérapeuthique à Hal"
                       height={200}
                       className="h-10 w-auto"
                       priority
                     />
                   </Link>
+                  
                 </div>
+
                 {/* Desktop Menu */}
                 <div className="hidden lg:ml-6 lg:block">
                   <div className="flex space-x-4">
+
                     {/* Dropdown Massage */}
                     <Menu as="div" className="relative inline-block text-left">
-                      <MenuButton className="rounded-md px-3 py-2 text-lg text-white hover:bg-gray-800  ">
-                        Massage{" "}
-                        <ChevronDownIcon
-                          className="inline size-4 ml-1"
-                          aria-hidden="true"
-                        />
+                      <MenuButton className="rounded-md px-3 py-2 text-lg text-white hover:bg-gray-800">
+                        {t("massage")}
+                        <ChevronDownIcon className="inline size-4 ml-1" />
                       </MenuButton>
-                      <MenuItems className="absolute z-20 mt-2 w-48 origin-top-left rounded-md bg-white shadow-lg ring-1 ring-black/5 focus:outline-none">
+                      <MenuItems className="absolute z-20 mt-2 w-48 rounded-md bg-white shadow-lg ring-1 ring-black/5 focus:outline-none">
                         <div className="py-1">
-                          <MenuItem>
-                            <Link
-                              href="/massage/relaxant"
-                              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                            >
-                              Massage relaxant
-                            </Link>
-                          </MenuItem>
-                          <MenuItem>
-                            <Link
-                              href="/massage/sportif"
-                              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                            >
-                              Massage sportif
-                            </Link>
-                          </MenuItem>
-                          <MenuItem>
-                            <Link
-                              href="/massage/a-domicile"
-                              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                            >
-                              Massage à domicile
-                            </Link>
-                          </MenuItem>
-                          <MenuItem>
-                            <Link
-                              href="/massage/tao"
-                              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                            >
-                              Massage Tao
-                            </Link>
-                          </MenuItem>
-                          <MenuItem>
-                            <Link
-                              href="/massage/douceur-dorsale"
-                              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                            >
-                              Douceur dorsale
-                            </Link>
-                          </MenuItem>
-                          <MenuItem>
-                            <Link
-                              href="/massage/anti-cellulite"
-                              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                            >
-                              Massage anti-cellulite
-                            </Link>
-                          </MenuItem>
-                          <MenuItem>
-                            <Link
-                              href="/massage/deep-tissues"
-                              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                            >
-                              Massage deep-tissues
-                            </Link>
-                          </MenuItem>
+                          {["relaxant", "sportif", "domicile", "tao", "douceur", "anticellulite", "deeptissue"].map((key) => (
+                            <MenuItem key={key}>
+                              <Link
+                                href={`/${locale}/massage/${key === "douceur" ? "douceur-dorsale" : key === "domicile" ? "a-domicile" : key === "anticellulite" ? "anti-cellulite" : key === "deeptissue" ? "deep-tissues" : key}`}
+                                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                              >
+                                {t(key)}
+                              </Link>
+                            </MenuItem>
+                          ))}
                         </div>
                       </MenuItems>
                     </Menu>
@@ -118,104 +79,62 @@ export default function Nav() {
                     {/* Dropdown Soin thérapeutique */}
                     <Menu as="div" className="relative inline-block text-left">
                       <MenuButton className="rounded-md px-3 py-2 text-lg text-gray-300 hover:bg-gray-800 hover:text-white">
-                        Soin thérapeutique{" "}
-                        <ChevronDownIcon
-                          className="inline size-4 ml-1"
-                          aria-hidden="true"
-                        />
+                        {t("therapeutic")}
+                        <ChevronDownIcon className="inline size-4 ml-1" />
                       </MenuButton>
-                      <MenuItems className="absolute z-20 mt-2 w-48 origin-top-left rounded-md bg-white shadow-lg ring-1 ring-black/5 focus:outline-none">
+                      <MenuItems className="absolute z-20 mt-2 w-56 rounded-md bg-white shadow-lg ring-1 ring-black/5 focus:outline-none">
                         <div className="py-1">
-                          <MenuItem>
-                            <Link
-                              href="/shiatsu"
-                              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                            >
-                              Shiatsu
-                            </Link>
-                          </MenuItem>
-                          <MenuItem>
-                            <Link
-                              href="/reiki"
-                              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                            >
-                              Reiki
-                            </Link>
-                          </MenuItem>
-                          <MenuItem>
-                            <a
-                              href="/reflexologie-plantaire"
-                              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                            >
-                              Réflexologie plantaire
-                            </a>
-                          </MenuItem>
-
-                          <MenuItem>
-                            <Link
-                              href="/therapie-cranio-sacree"
-                              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                            >
-                              Thérapie cranio sacrée
-                            </Link>
-                          </MenuItem>
-                          <MenuItem>
-                            <Link
-                              href="/massage/voyage-des-sens"
-                              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                            >
-                              Voyage des sens
-                            </Link>
-                          </MenuItem>
-                          <MenuItem>
-                            <Link
-                              href="/massage-sur-chaise"
-                              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                            >
-                              Amma
-                            </Link>
-                          </MenuItem>
+                          {[
+                            { key: "shiatsu", path: "shiatsu" },
+                            { key: "reiki", path: "reiki" },
+                            { key: "reflexo", path: "reflexologie-plantaire" },
+                            { key: "cranio", path: "therapie-cranio-sacree" },
+                            { key: "voyage", path: "massage/voyage-des-sens" },
+                            { key: "amma", path: "massage/massage-sur-chaise" }
+                          ].map(({ key, path }) => (
+                            <MenuItem key={key}>
+                              <Link
+                                href={`/${locale}/${path}`}
+                                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                              >
+                                {t(key)}
+                              </Link>
+                            </MenuItem>
+                          ))}
                         </div>
                       </MenuItems>
                     </Menu>
-                    <Menu as="div" className="relative inline-block text-left">
-                      <MenuButton className="rounded-md px-3 py-2 text-lg text-gray-300 hover:bg-gray-800 hover:text-white">
-                        <Link href="/#contact"> Contact </Link>
-                      </MenuButton>
-                    </Menu>
-                    <Menu as="div" className="relative inline-block text-left">
-                      <MenuButton className="rounded-md px-3 py-2 text-lg text-gray-300 hover:bg-gray-800 hover:text-white">
-                        <Link href="/faq">FAQ</Link>
-                      </MenuButton>
-                    </Menu>
+
+                    {/* Contact & FAQ */}
+                    <Link
+                      href={`/${locale}#contact`}
+                      className="rounded-md px-3 py-2 text-lg text-gray-300 hover:bg-gray-800 hover:text-white"
+                    >
+                      {t("contact")}
+                    </Link>
+
+                    <Link
+                      href={`/${locale}/faq`}
+                      className="rounded-md px-3 py-2 text-lg text-gray-300 hover:bg-gray-800 hover:text-white"
+                    >
+                      {t("faq")}
+                    </Link>
                   </div>
                 </div>
+                
               </div>
+              <div className="hidden lg:block ml-auto">
+              <LangSwitcher direction="down" />
+</div>
 
-              {/* Search bar 
-              <div className="flex flex-1 justify-center px-2 lg:ml-6 lg:justify-end">
-                <div className="relative w-full max-w-lg lg:max-w-xs">
-                  <input
-                    name="search"
-                    type="search"
-                    placeholder="Search"
-                    aria-label="Search"
-                    className="block w-full rounded-md bg-gray-700 py-1.5 pl-10 pr-3 text-white placeholder:text-gray-400 focus:bg-white focus:text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 sm:text-sm"
-                  />
-                  <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
-                    <MagnifyingGlassIcon className="size-5 text-gray-400" aria-hidden="true" />
-                  </div>
-                </div>
-              </div>  */}
-
-              {/* Mobile toggle */}
+              {/* Mobile Menu Toggle */}
               <div className="flex lg:hidden">
-                <DisclosureButton className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <DisclosureButton className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-white">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
-                    <XMarkIcon className="block size-6" aria-hidden="true" />
+                    <XMarkIcon className="block size-6" />
                   ) : (
-                    <Bars3Icon className="block size-6" aria-hidden="true" />
+                    <Bars3Icon className="block size-6" />
                   )}
                 </DisclosureButton>
               </div>
@@ -223,113 +142,56 @@ export default function Nav() {
           </div>
 
           {/* Mobile Menu Panel */}
-          <DisclosurePanel className="lg:hidden transition-all duration-300 ease-in-out">
+          <DisclosurePanel className="lg:hidden">
             <div className="space-y-1 px-2 pb-3 pt-2 text-center">
+              {[
+                "relaxant",
+                "sportif",
+                "domicile",
+                "tao",
+                "douceur",
+                "anticellulite",
+                "deeptissue",
+                "shiatsu",
+                "reiki",
+                "cranio",
+                "reflexo",
+                "amma",
+                "voyage",
+              ].map((key) => (
+                <DisclosureButton
+                  key={key}
+                  as="a"
+                  href={`/${locale}/${["shiatsu", "reiki", "cranio", "reflexo"].includes(key)
+                    ? key === "cranio"
+                      ? "therapie-cranio-sacree"
+                      : key === "reflexo"
+                      ? "reflexologie-plantaire"
+                      : key
+                    : `massage/${key === "douceur" ? "douceur-dorsale" : key === "domicile" ? "a-domicile" : key === "anticellulite" ? "anti-cellulite" : key === "deeptissue" ? "deep-tissues" : key === "amma" ? "massage-sur-chaise" : key}`
+                  }`}
+                  className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+                >
+                  {t(key)}
+                </DisclosureButton>
+              ))}
               <DisclosureButton
                 as="a"
-                href="/massage/relaxant"
-                className="block rounded-md px-3 py-2 text-base font-medium text-white bg-gray-900"
-              >
-                Massage relaxant
-              </DisclosureButton>
-              <DisclosureButton
-                as="a"
-                href="/massage/sportif"
+                href={`/${locale}#contact`}
                 className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
               >
-                Massage sportif
+                {t("contact")}
               </DisclosureButton>
               <DisclosureButton
                 as="a"
-                href="/massage/a-domicile"
-                className="block rounded-md px-3 py-2 text-base font-medium text-white bg-gray-900"
-              >
-                Massage à domicile
-              </DisclosureButton>
-              <DisclosureButton
-                as="a"
-                href="/massage/tao"
+                href={`/${locale}/faq`}
                 className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
               >
-                Massage tao
+                {t("faq")}
               </DisclosureButton>
-              <DisclosureButton
-                as="a"
-                href="/massage/douceur-dorsale"
-                className="block rounded-md px-3 py-2 text-base font-medium text-white bg-gray-900"
-              >
-                Douceur dorsale
-              </DisclosureButton>
-              <DisclosureButton
-                as="a"
-                href="/massage/anti-cellulite"
-                className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-              >
-                Massage anti-cellulite
-              </DisclosureButton>
-              <DisclosureButton
-                as="a"
-                href="/reiki"
-                className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-              >
-                Reiki
-              </DisclosureButton>
-              <DisclosureButton
-                as="a"
-                href="/shiatsu"
-                className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-              >
-                Shiatsu
-              </DisclosureButton>
-              <DisclosureButton
-                as="a"
-                href="/therapie-cranio-sacree"
-                className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-              >
-                Thérapie cranio sacrée
-              </DisclosureButton>
-              <DisclosureButton
-                as="a"
-                href="/reflexologie-plantaire"
-                className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-              >
-                Reflexologie plantaire
-              </DisclosureButton>
-              <DisclosureButton
-                as="a"
-                href="/massage/massage-sur-chaise"
-                className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-              >
-                Amma
-              </DisclosureButton>
-              <DisclosureButton
-                as="a"
-                href="/massage/voyage-des-sens"
-                className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-              >
-                Voyage des sens
-              </DisclosureButton>
-              <DisclosureButton
-                as="a"
-                href="/massage/deep-tissues"
-                className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-              >
-                Massage Deep tissues
-              </DisclosureButton>
-              <DisclosureButton
-                as="a"
-                href="/#contact"
-                className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-              >
-                CONTACT
-              </DisclosureButton>
-              <DisclosureButton
-                as="a"
-                href="/faq"
-                className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-              >
-               FAQ
-              </DisclosureButton>
+              <div className="mt-4 flex justify-center">
+              <LangSwitcher direction="horizontal" />
+    </div>
             </div>
           </DisclosurePanel>
         </>

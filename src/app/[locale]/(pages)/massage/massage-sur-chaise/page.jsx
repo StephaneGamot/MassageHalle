@@ -1,0 +1,91 @@
+import Head from "next/head";
+import HeroMassage from "@/components/Hero/HeroMassage";
+import Benefits from "@/components/Benefits/Benefits";
+import WhyThisCare from "@/components/WhyThisCare/WhyThisCare";
+import TreatmentDescription from "@/components/TreatmentDescription/TreatmentDescription";
+import Gallery from "@/components/Gallery/Gallery";
+import CtaSectionMassagePage from "@/components/Cta/CtaSectionMassagePage";
+import Testimonials from "@/components/Testimonials/Testimonials";
+
+export async function generateMetadata({ params }) {
+  const { locale } = await Promise.resolve(params);
+  const currentLocale = locale ?? "fr";
+
+  return {
+    title: {
+      fr: "Massage Amma assis en entreprise – Halle & Bruxelles",
+      en: "Seated Amma Massage at Work – Halle & Brussels",
+      nl: "Amma stoelmassage op het werk – Halle & Brussel",
+    }[currentLocale],
+    description: {
+      fr: "Offrez un moment de détente à vos collaborateurs grâce au massage assis. Idéal pour réduire le stress, améliorer la concentration & le bien-être en entreprise.",
+      en: "Offer your employees a moment of relaxation with seated Amma massage. Ideal to reduce stress, improve focus, and boost well-being at work.",
+      nl: "Geef uw medewerkers een ontspanningsmoment met Amma stoelmassage. Ideaal om stress te verminderen, focus te verbeteren en welzijn op het werk te bevorderen.",
+    }[currentLocale],
+    alternates: {
+      canonical: `https://lavoiedubienetre.be/${currentLocale}/massage-sur-chaise`,
+    },
+    openGraph: {
+      title: {
+        fr: "Massage Amma assis en entreprise – Halle & Bruxelles",
+        en: "Seated Amma Massage at Work – Halle & Brussels",
+        nl: "Amma stoelmassage op het werk – Halle & Brussel",
+      }[currentLocale],
+      description: {
+        fr: "Offrez un moment de détente à vos collaborateurs grâce au massage Amma assis. Idéal pour réduire le stress, améliorer la concentration et booster le bien-être en entreprise.",
+        en: "Give your team a relaxing break with seated Amma massage. Great to reduce stress and increase well-being at work.",
+        nl: "Gun je team een ontspanningsmoment met Amma stoelmassage. Perfect om stress te verlagen en welzijn te verhogen op het werk.",
+      }[currentLocale],
+      url: `https://lavoiedubienetre.be/${currentLocale}/massage-sur-chaise`,
+      type: "website",
+      siteName: "La Voie du Bien-Être",
+      locale: `${currentLocale}_BE`,
+      images: [
+        {
+          url: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
+          width: 1200,
+          height: 627,
+          alt: {
+            fr: "Massage Amma assis en entreprise",
+            en: "Seated Amma massage at work",
+            nl: "Amma stoelmassage op de werkvloer",
+          }[currentLocale],
+        },
+      ],
+    },
+    twitter: {
+      title: {
+        fr: "Massage Amma assis en entreprise – Détente et efficacité",
+        en: "Seated Amma Massage at Work – Relaxation & Focus",
+        nl: "Amma stoelmassage op het werk – Ontspanning en productiviteit",
+      }[currentLocale],
+      description: {
+        fr: "Massage Amma assis à Halle et à domicile – bien-être et efficacité pour vos équipes.",
+        en: "Seated Amma massage in Halle and at work – well-being and efficiency for your teams.",
+        nl: "Amma stoelmassage in Halle of op locatie – welzijn en prestaties voor uw team.",
+      }[currentLocale],
+      card: "summary_large_image",
+      site: "@voiedubienetre",
+      images: [
+        "https://lavoiedubienetre.be/Images/OpenGraph/masseur-massage.jpg",
+      ],
+    },
+  };
+}
+
+
+export default function Page() {
+  return (
+    <>
+      <main>
+        <HeroMassage variant="amma" />
+        <WhyThisCare title="amma" />
+        <Benefits ids={[42, 44, 49, 51]} title="amma" />
+        <TreatmentDescription variant="amma" />
+        <Gallery ids={[4, 33, 34]} />
+        <CtaSectionMassagePage variant="amma" />
+        <Testimonials ids={[6, 17, 22, 36, 47]} />
+      </main>
+    </>
+  );
+}

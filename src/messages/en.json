@@ -1,0 +1,1186 @@
+{
+  "nav": {
+    "massage": "Massage",
+    "relaxant": "Relaxing massage",
+    "sportif": "Sports massage",
+    "domicile": "Home massage",
+    "tao": "Tao massage",
+    "douceur": "Back tenderness",
+    "anticellulite": "Anti-cellulite massage",
+    "deeptissue": "Deep tissue massage",
+    "therapeutic": "Therapeutic care",
+    "shiatsu": "Shiatsu",
+    "reiki": "Reiki",
+    "reflexo": "Foot reflexology",
+    "cranio": "Craniosacral therapy",
+    "voyage": "Journey of the senses",
+    "amma": "Amma",
+    "contact": "Contact",
+    "faq": "FAQ"
+  },
+  "footer": {
+    "informations": "Information",
+    "ressources": "Resources",
+    "rights": "All rights reserved",
+    "contact": "Contact & hours",
+    "address": "Halle (Buizingen), Brussels and nearby",
+    "opening": "By appointment from Monday to Saturday, 10 am–7pm"
+  },
+  "hero": {
+    "srOnly": "La Voie du Bien-Être Massage & therapeutic care in Halle - Brussels",
+    "headline": "Because well-being is not a luxury... but a necessity.",
+    "paragraph": "Each treatment is a pause in the hustle and bustle of daily life. Offer your body what it deserves: gentleness, attention, and care.",
+    "ctaPrimary": "I take care of myself",
+    "ctaSecondary": "Offer this moment to a loved one"
+  },
+  "cta": {
+    "title": "Offer a moment of well-being to those you love",
+    "paragraph1": "A massage is more than a treatment: it is a gesture of love. Offer an unforgettable moment of relaxation with a gift card.",
+    "paragraph2": "Therapeutic treatments and relaxing massages in Halle – Brussels, at the practice or at home.",
+    "cta": "Offer a moment of softness →"
+  },
+ "ctaMassage": {
+  "paragraph": "Book your {soin} today and enjoy a moment just for you.",
+  "cta": "Make an appointment",
+  "note": "No credit card required – book with peace of mind.",
+  "titles": {
+    "relaxant": "Give your body what it deserves",
+    "sportif": "Prepare your body to perform",
+    "domicile": "Enjoy an exceptional treatment at home",
+    "tao": "Treat yourself to a sensory break",
+    "dos": "Say goodbye to back tension",
+    "anticellulite": "Take care of your silhouette",
+    "deeptissue": "Release deep tensions",
+    "shiatsu": "Regain your inner balance",
+    "reiki": "Reconnect to your energy",
+    "cst": "Soothe your body deeply",
+    "reflexo": "Let your feet lead the way",
+    "amma": "Offer well-being to your team",
+    "voyage": "Embark on a true sensory journey"
+  },
+  "soins": {
+    "relaxant": "your relaxing massage",
+    "sportif": "your sports massage",
+    "domicile": "your home massage",
+    "tao": "your Tao massage",
+    "dos": "your back massage",
+    "anticellulite": "your anti-cellulite massage",
+    "deeptissue": "your deep tissue massage",
+    "shiatsu": "your Shiatsu treatment",
+    "reiki": "your Reiki treatment",
+    "cst": "your craniosacral therapy",
+    "reflexo": "your reflexology treatment",
+    "amma": "your corporate Amma massage",
+    "voyage": "your sensory journey"
+  }
+},
+  "contact": {
+    "title": "A question? A wish?",
+    "paragraph": "Whether it's for information, a specific need or simply the desire to offer yourself a moment of well-being, our team listens to you with care and kindness. Write to us, and let's create together an experience that reflects you.",
+    "address": "Octaaf de kerchove d'exaerdestraat 193, 1501 Buizingen (Halle)",
+    "phone": "04 77 13 19 93",
+    "email": "lavoiedubienetre@outlook.com",
+    "form": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "message": "Message",
+      "submit": "Send"
+    }
+  },
+  "metadata": {
+    "title": "Massage & therapeutic care in Halle - Brussels",
+    "description": "In Halle – Brussels, La Voie du Bien-Être welcomes you at the practice or at home for relaxing massages & therapeutic treatments.",
+    "ogTitle": "La Voie du Bien-Être | Relaxation & Healing",
+    "ogDescription": "Enjoy a unique massage in Halle. Shiatsu, Reiki, and deep relaxation await you.",
+    "twitterTitle": "La Voie du Bien-Être | Shiatsu Reiki Massage in Halle",
+    "twitterDescription": "Massage center in Halle | Shiatsu Reiki Foot Reflexology | La Voie du Bien-Être"
+  },
+  "massages": {
+    "cards": [
+      {
+        "id": 1,
+        "title": "Sports massage",
+        "description": "Enhances athletic performance, speeds recovery, and prevents injuries. Muscles are deeply worked to release knots.",
+        "imageAlt": "Masseur’s hands working on the patient’s right shoulder",
+        "titleImg": "Man receiving a massage relieving muscular pain"
+      },
+      {
+        "id": 2,
+        "title": "Relaxing massage",
+        "description": "Relaxes the body and mind, reduces stress and muscle tension through gentle, soothing and flowing movements.",
+        "imageAlt": "Hands comforting the shoulder blades of a patient",
+        "titleImg": "Young woman enjoying a fully relaxing massage"
+      },
+      {
+        "id": 3,
+        "title": "Shiatsu session",
+        "description": "Japanese technique using finger pressure on acupuncture points to rebalance and harmonize energy.",
+        "imageAlt": "Young woman receiving a shiatsu session on a futon",
+        "titleImg": "Young woman receiving a Shiatsu treatment"
+      },
+      {
+        "id": 4,
+        "title": "Reiki session",
+        "description": "Holistic healing method promoting deep relaxation and well-being through universal energy transfer and my hands.",
+        "imageAlt": "Therapist’s hands gliding above patient’s ears",
+        "titleImg": "Hands channeling universal energy above the navel"
+      },
+      {
+        "id": 5,
+        "title": "Chair massage",
+        "description": "A quick, effective and revitalizing solution to release tension, offered by employers at the workplace.",
+        "imageAlt": "Man receiving Amma massage in a professional setting",
+        "titleImg": "Employee enjoying a chair massage at work"
+      },
+      {
+        "id": 6,
+        "title": "Foot reflexology",
+        "description": "A gentle therapy stimulating foot points to improve physical, emotional and mental health over time.",
+        "imageAlt": "Thumbs pressing on the sole, above Lung 1",
+        "titleImg": "Foot massage releasing tension"
+      },
+      {
+        "id": 7,
+        "title": "Sensory journey",
+        "description": "Works on the fascia for deep and complete relaxation. A true inner journey to reconnect with yourself.",
+        "imageAlt": "Soothing massage touch",
+        "titleImg": "Connection with fascia"
+      },
+      {
+        "id": 8,
+        "title": "Anti-cellulite massage",
+        "description": "Highly effective massage to firm the skin and visibly smooth cellulite for a more toned, light and harmonious body.",
+        "imageAlt": "Cupping therapy on thigh dimples",
+        "titleImg": "Goodbye cellulite"
+      },
+      {
+        "id": 9,
+        "title": "Back relaxation",
+        "description": "Fully dedicated to back, neck, shoulders, spine, lumbar vertebrae, sacrum... Aims to relieve stress and deeply relax the area.",
+        "imageAlt": "Four fingers caressing the neck",
+        "titleImg": "Gentle touch on the neck"
+      },
+      {
+        "id": 10,
+        "title": "Tao massage",
+        "description": "Reconnect with your body through a deep and sensual journey with the tao massage. Each stroke celebrates your well-being.",
+        "imageAlt": "A smiling expression",
+        "titleImg": "The sensuality of a smile"
+      },
+      {
+        "id": 11,
+        "title": "Home massage",
+        "description": "I bring everything needed for a relaxing quality massage at your place in Brussels, Flemish Brabant & Walloon Brabant.",
+        "imageAlt": "Hands on a back",
+        "titleImg": "Sensual back massage"
+      },
+      {
+        "id": 12,
+        "title": "Craniosacral therapy",
+        "description": "CST acts deeply by listening to the body. Through gentle touch, it releases tension and promotes emotional balance.",
+        "imageAlt": "Craniosacral touch",
+        "titleImg": "Skull manipulation"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "subtitle": "We have worked with hundreds of extraordinary people",
+    "none": "No testimonial available for this page.",
+    "list": [
+      {
+        "id": 1,
+        "body": "A pure moment of calm and human warmth. Thank you for this bubble of well-being.",
+        "alt": "calm and warm atmosphere from Sophie WB",
+        "author": "Sophie WB"
+      },
+      {
+        "id": 2,
+        "body": "Rarely have I experienced such a comforting massage. Every gesture felt heartfelt. A thousand thanks.",
+        "alt": "relaxed face after a treatment from Alexandre Jansens",
+        "author": "Alexandre Jansens"
+      },
+      {
+        "id": 3,
+        "body": "A real escape. I left feeling soothed and recharged.",
+        "alt": "relaxed face after a session with Nathalie Radeis",
+        "author": "Nathalie Radeis"
+      },
+      {
+        "id": 4,
+        "body": "As soon as I lay down, I felt I could let go. I truly felt the stress melt away in just minutes.",
+        "alt": "face glowing with relaxation – Karine Renard",
+        "author": "Karine Renard"
+      },
+      {
+        "id": 5,
+        "body": "I never imagined a massage could help me recenter so much. Gentle yet deep – exactly what I needed.",
+        "alt": "zen post-treatment portrait – Isabelle Mercier",
+        "author": "Isabelle Mercier"
+      },
+      {
+        "id": 6,
+        "body": "A gentle touch from beginning to end. You feel listened to and respected.",
+        "alt": "visible sense of well-being – Julie Lelievre",
+        "author": "Julie Lelievre"
+      },
+      {
+        "id": 7,
+        "body": "All my muscle tension vanished. I’ll definitely come back! I’ve rarely felt so welcome and well treated.",
+        "alt": "serene expression – Thierry Bierze",
+        "author": "Thierry Bierze"
+      },
+      {
+        "id": 8,
+        "body": "A moment of pure relaxation. I’ll come back without hesitation! I loved the oil used and the calming music.",
+        "alt": "serene expression from Lucie Bernard",
+        "author": "Lucie Bernard"
+      },
+      {
+        "id": 9,
+        "body": "I loved everything: the soft music, the oils, the enveloping touch. It was more than a massage, it was a magical pause.",
+        "alt": "serene expression from Sophie Lemoine",
+        "author": "Sophie Lemoine"
+      },
+      {
+        "id": 10,
+        "body": "A treatment of great quality, filled with humanity. I’ll definitely come back!",
+        "alt": "post-treatment relaxing moment – Elena Neerinckx",
+        "author": "Elena Neerinckx"
+      },
+      {
+        "id": 11,
+        "body": "It was more than a massage — it felt like soul care. A true moment of comfort in a peaceful atmosphere.",
+        "alt": "captured moment of well-being – Chloé Peters",
+        "author": "Chloé Peters"
+      },
+      {
+        "id": 12,
+        "body": "My mind drifted away in the first minutes. The week’s stress just vanished. I feel light.",
+        "alt": "calm and warm atmosphere – Romain Allan",
+        "author": "Romain Allan"
+      },
+      {
+        "id": 13,
+        "body": "It felt like time stood still. Thank you from the bottom of my heart.",
+        "alt": "radiant post-treatment portrait – Claire Hoffman",
+        "author": "Claire Hoffman"
+      },
+      {
+        "id": 14,
+        "body": "A beautiful discovery I wholeheartedly recommend.",
+        "alt": "natural post-massage photo – Gabriel Marchand",
+        "author": "Gabriel Marchand"
+      },
+      {
+        "id": 15,
+        "body": "Each gesture felt designed to soothe. A truly beautiful moment.",
+        "alt": "peaceful portrait – Audrey Ducene",
+        "author": "Audrey Ducene"
+      },
+      {
+        "id": 16,
+        "body": "A warm welcome and a treatment filled with finesse.",
+        "alt": "face glowing with relaxation – Camille vandevivere",
+        "author": "Camille vandevivere"
+      },
+      {
+        "id": 17,
+        "body": "A professional touch, attentive to my needs. Thank you! A nurturing, deeply soothing experience.",
+        "alt": "visible well-being – Gabriel Perrin",
+        "author": "Gabriel Perrin"
+      },
+      {
+        "id": 18,
+        "body": "From the moment you walk in, you know you're in good hands. I never imagined it would do me this much good.",
+        "alt": "calm and grateful face – Olivier Mertori",
+        "author": "Olivier Mertori"
+      },
+      {
+        "id": 19,
+        "body": "A real cocoon of kindness and softness. A hidden gem in Halle.",
+        "alt": "glow of well-being on Amandine Paccini's face",
+        "author": "Amandine Paccini"
+      },
+      {
+        "id": 20,
+        "body": "It was simply magical.",
+        "alt": "visible body relief – Fabien van der Belen",
+        "author": "Fabien van der Belen"
+      },
+      {
+        "id": 21,
+        "body": "I left with a big smile and the urge to come back.",
+        "alt": "captured moment of well-being – Sabrina Degeneve",
+        "author": "Sabrina Degeneve"
+      },
+      {
+        "id": 22,
+        "body": "Top-notch massage.",
+        "alt": "relaxed face after a treatment – Julie Acuvu",
+        "author": "Julie Acuvu"
+      },
+      {
+        "id": 23,
+        "body": "I never imagined a massage could help me this much. It was more than just a massage — it was an enchanted moment.",
+        "alt": "body relief after care – Marion Baiverlin",
+        "author": "Marion Baiverlin"
+      },
+      {
+        "id": 24,
+        "body": "You feel truly listened to through the body — present and exceptional care.",
+        "alt": "relaxed face after a treatment – Nicolas Willers",
+        "author": "Nicolas Willers"
+      },
+      {
+        "id": 25,
+        "body": "This care touched me far beyond the body.",
+        "alt": "relaxing moment after the treatment – Valérie Baltus",
+        "author": "Valérie Baltus"
+      },
+      {
+        "id": 26,
+        "body": "Stéphane is very professional. His massage is amazing. You arrive stressed and leave completely relaxed.",
+        "alt": "peaceful smile – Thomas Lefevre",
+        "author": "Thomas Lefevre"
+      },
+      {
+        "id": 27,
+        "body": "I didn’t expect it to do me so much good. A comforting moment in a soft and serene atmosphere.",
+        "alt": "peaceful portrait – Hélène Baltus",
+        "author": "Hélène Baltus"
+      },
+      {
+        "id": 28,
+        "body": "Great massage. I really needed that.",
+        "alt": "relaxed face after a treatment – Sébastien Mayole",
+        "author": "Sébastien Mayole"
+      },
+      {
+        "id": 29,
+        "body": "One of the most beautiful massage experiences I've ever had. I didn’t know it would do me so much good.",
+        "alt": "end-of-session photo – Jessica Cioni",
+        "author": "Jessica Cioni"
+      },
+      {
+        "id": 30,
+        "body": "After Stéphane’s massage, it always feels like walking on clouds in a dream world. Highly recommended — far better value than elsewhere.",
+        "alt": "calm and warm atmosphere – Arnaud Dutour",
+        "author": "Arnaud Dutour"
+      },
+      {
+        "id": 31,
+        "body": "A gentle and immersive sensory experience. A true moment of relaxation. I’ll come back without hesitation!",
+        "alt": "peaceful smile – Emilie Piraux",
+        "author": "Emilie Piraux"
+      },
+      {
+        "id": 32,
+        "body": "I never imagined a massage could do me so much good.",
+        "alt": "captured image after relaxing care – Laura Dupond",
+        "author": "Laura Dupond"
+      },
+      {
+        "id": 33,
+        "body": "The best masseur in Halle and the surrounding area. Stéphane is deeply knowledgeable, and his advanced techniques release so much stress from the body.",
+        "alt": "calm and warm atmosphere – Yannick Collet",
+        "author": "Yannick Collet"
+      },
+      {
+        "id": 34,
+        "body": "The treatment was perfectly tailored to my needs — it was incredible.",
+        "alt": "glow of well-being on Anne-Marie Charlotte’s face",
+        "author": "Anne-Marie Charlotte"
+      },
+      {
+        "id": 35,
+        "body": "I felt deep muscular and emotional release. I recommend it to everyone.",
+        "alt": "visible body relief – Mathieu Blussing",
+        "author": "Mathieu Blussing"
+      },
+      {
+        "id": 36,
+        "body": "Remarkable professionalism.",
+        "alt": "calm, serene gaze – Sandrine Moreau",
+        "author": "Sandrine Moreau"
+      },
+      {
+        "id": 37,
+        "body": "If you want a massage that truly relaxes and does you good, go for it with eyes closed and let yourself be carried away.",
+        "alt": "image captured after relaxing care – Jonathan Girard",
+        "author": "Jonathan Girard"
+      },
+      {
+        "id": 38,
+        "body": "I loved the sense of being wrapped in every one of his gestures.",
+        "alt": "visible body relief – Sophie Loos",
+        "author": "Sophie Loos"
+      },
+      {
+        "id": 39,
+        "body": "Very relaxing massage. Stéphane is caring and deeply engaged. Don’t hesitate!",
+        "alt": "calm and warm atmosphere – Gaëlle Legrand",
+        "author": "Gaëlle Legrand"
+      },
+      {
+        "id": 40,
+        "body": "Simply perfect from start to finish.",
+        "alt": "calm and warm atmosphere – Lucas Wilms",
+        "author": "Lucas Wilms"
+      },
+      {
+        "id": 41,
+        "body": "I didn’t think I could let go so quickly…",
+        "alt": "satisfied massage client – Caroline Simon.",
+        "author": "Caroline Simon."
+      },
+      {
+        "id": 42,
+        "body": "An intuitive, fluid, and truly healing touch. I highly recommend it.",
+        "alt": "captured image after relaxing care – Marine Akil",
+        "author": "Marine Akil"
+      },
+      {
+        "id": 43,
+        "body": "Time stood still. I felt like I was in a cocoon. I finally found what I was looking for.",
+        "alt": "relaxed face after a treatment – Benjamin Karline",
+        "author": "Benjamin Karline"
+      },
+      {
+        "id": 44,
+        "body": "The stress of the week disappeared in just 90 minutes.",
+        "alt": "calm and warm atmosphere – Manon Layet",
+        "author": "Manon Layet"
+      },
+      {
+        "id": 45,
+        "body": "Very pleasant, relaxing, and energizing massage. Stéphane is a true professional!",
+        "alt": "visible sense of well-being – Florent Thibaut",
+        "author": "Florent Thibaut"
+      },
+      {
+        "id": 46,
+        "body": "Blissful shiatsu and reiki. Stéphane senses exactly what I need and brings deep calm, helping me see clearly again – a must for anyone needing to relax or feeling overwhelmed.",
+        "alt": "relaxed face after a treatment – Nina Seigneurin",
+        "author": "Nina Seigneurin"
+      },
+      {
+        "id": 47,
+        "body": "A wonderful way to take care of yourself.",
+        "alt": "face glowing with relaxation – Anthony Blondeau",
+        "author": "Anthony Blondeau"
+      },
+      {
+        "id": 48,
+        "body": "Thank you Stéphane for your beautiful treatments ✨. Through them, each time is a precious moment with my body — to finally listen to it or simply offer it a moment of pure well-being 💖",
+        "alt": "rested face – Caroline Baïni",
+        "author": "Caroline Baïni"
+      },
+      {
+        "id": 49,
+        "body": "This massage did me a world of good. Thank you again!",
+        "alt": "natural post-massage photo – Pauline Jansens",
+        "author": "Pauline Jansens"
+      },
+      {
+        "id": 50,
+        "body": "A unique experience that truly deserves to be lived.",
+        "alt": "calm and warm atmosphere – Géraldine Anglois",
+        "author": "Géraldine Anglois"
+      }
+    ]
+  },
+  "benefits": {
+    "why": "Why choose",
+    "titles": {
+      "relaxant": "a relaxing massage",
+      "sportif": "a sports massage",
+      "domicile": "a home massage",
+      "tao": "a Tao massage",
+      "dos": "the back relaxation massage",
+      "anticellulite": "an anti-cellulite massage",
+      "deeptissue": "a deep tissues massage",
+      "shiatsu": "Shiatsu",
+      "reiki": "Reiki",
+      "reflexo": "foot reflexology",
+      "cst": "craniosacral therapy",
+      "voyage": "the sensory journey massage",
+      "amma": "a chair massage"
+    },
+    "list": [
+      { "id": 1, "text": "Relief from daily stress" },
+      { "id": 2, "text": "Deep muscle relaxation" },
+      { "id": 3, "text": "Reduced anxiety" },
+      { "id": 4, "text": "Improved sleep" },
+      { "id": 5, "text": "Boosted blood circulation" },
+      { "id": 6, "text": "Soothing of the nervous system" },
+      { "id": 7, "text": "Back tension relief" },
+      { "id": 8, "text": "Supports recovery" },
+      { "id": 9, "text": "Grounding and recentring" },
+      { "id": 10, "text": "Heart rate regulation" },
+      { "id": 11, "text": "Body and mind harmony" },
+      { "id": 12, "text": "A moment of presence" },
+      { "id": 13, "text": "Release of energetic blockages" },
+      { "id": 14, "text": "Improved digestion" },
+      { "id": 15, "text": "Lymphatic system stimulation" },
+      { "id": 16, "text": "Mental slowdown" },
+      { "id": 17, "text": "Better emotional regulation" },
+      { "id": 18, "text": "Reconnection to the body" },
+      { "id": 19, "text": "Total release – deeply freeing" },
+      { "id": 20, "text": "Global well-being" },
+      { "id": 21, "text": "Increased vitality" },
+      { "id": 22, "text": "Immune system boost" },
+      { "id": 23, "text": "Stronger connection to self" },
+      { "id": 24, "text": "Inner calm" },
+      { "id": 25, "text": "Reinforced self-confidence" },
+      { "id": 26, "text": "Support during difficult times" },
+      { "id": 27, "text": "Relief from chronic pain" },
+      { "id": 28, "text": "Cell regeneration" },
+      { "id": 29, "text": "Increased quality of presence" },
+      { "id": 30, "text": "Encourages gentle introspection" },
+      { "id": 31, "text": "Feeling of safe enveloping" },
+      { "id": 32, "text": "Heart opening" },
+      { "id": 33, "text": "Soothes the digestive system" },
+      { "id": 34, "text": "Mental clarity" },
+      { "id": 35, "text": "Improved posture" },
+      { "id": 36, "text": "Promotes inner peace" },
+      { "id": 37, "text": "Natural detox" },
+      { "id": 38, "text": "Reconnection to breathing" },
+      { "id": 39, "text": "Stimulates endorphin production" },
+      { "id": 40, "text": "Brings back a smile" },
+      { "id": 41, "text": "Fascia activation for deep release" },
+      { "id": 42, "text": "Targeted relief of painful back tension" },
+      { "id": 43, "text": "Helps drain tissues and refine silhouette" },
+      { "id": 44, "text": "Focused massage for deep knots" },
+      { "id": 45, "text": "Energetic balance and emotional support" },
+      { "id": 46, "text": "Vibrational elevation and full-body relaxation" },
+      { "id": 47, "text": "Craniosacral system release" },
+      { "id": 48, "text": "Stimulation of reflex zones" },
+      { "id": 49, "text": "Quick and effective corporate relaxation" },
+      { "id": 50, "text": "Sensory awakening and emotional immersion" },
+      { "id": 51, "text": "Enhanced professional productivity" },
+      { "id": 52, "text": "Targets muscle knots" },
+      { "id": 53, "text": "Injury prevention" },
+      { "id": 54, "text": "Relief from back pain" },
+      { "id": 55, "text": "Activates fat elimination" },
+      { "id": 56, "text": "Effective against orange-peel skin" },
+      { "id": 57, "text": "Deep muscle relaxation & stress release" },
+      { "id": 58, "text": "Ideal for deep muscle knots" },
+      { "id": 59, "text": "Releases deep muscular tension" },
+      { "id": 60, "text": "Emotional balance and support" },
+      { "id": 61, "text": "Frees energetic blockages" },
+      { "id": 62, "text": "Head tension relief" },
+      { "id": 63, "text": "Soothes the nervous system & promotes relaxation" },
+      { "id": 64, "text": "Releases physical and emotional tensions" }
+    ]
+  },
+  "hero-massage": {
+    "cta": "Book this care →",
+    "massage": {
+      "title": "Let stress fade away… with a relaxing massage",
+      "text1": "Where calm meets kindness. Give your body what it deserves: gentleness, care, and deep release.",
+      "text2": "Each massage is a meeting between your needs and your desires."
+    },
+    "domicile": {
+      "title": "Receive exceptional care without leaving your home",
+      "text1": "Let yourself be carried away by a fully relaxing experience, right at home. A tailor-made treatment in your comfort zone.",
+      "text2": "No need to chase calm — it comes to you."
+    },
+    "anticellulite": {
+      "title": "Refine your silhouette with an anti-cellulite massage",
+      "text1": "A targeted approach to firm, drain, and promote smoother skin. Toning but respectful of your body.",
+      "text2": "Designed for women, this treatment combines effectiveness and gentleness."
+    },
+    "deeptissue": {
+      "title": "Release deep tension with a Deep Tissue massage",
+      "text1": "Immerse yourself in a powerful and targeted treatment designed for tight muscles, persistent pain, and accumulated tension.",
+      "text2": "This therapeutic massage works in depth to provide lasting relief and renewed lightness."
+    },
+    "dos": {
+      "title": "Free your back… with the Douceur Dorsale massage",
+      "text1": "This unique treatment targets tension along the spine, trapezius, and lower back. Everything is designed to bring deep and lasting relief.",
+      "text2": "Each movement invites you to let go of what your back has been carrying for too long."
+    },
+    "sportif": {
+      "title": "Prepare your body, release your tension",
+      "text1": "A deep massage designed for athletes and active people. Perfect before or after physical effort.",
+      "text2": "Each treatment is adapted to your body, your goals, and your rhythm."
+    },
+    "tao": {
+      "title": "Reconnect with your vital energy through Tao massage",
+      "text1": "An inner journey toward balance, slowness, and full presence. Every gesture invites deep harmony between body and mind.",
+      "text2": "Tao massage is a celebration of life, energy flow, and body respect."
+    },
+    "voyage": {
+      "title": "Offer your senses a true journey",
+      "text1": "This massage is an ode to softness, a celebration of letting go.",
+      "text2": "It invites the body to surrender and the mind to deeply relax."
+    },
+    "amma": {
+      "title": "Give your team a well-being break",
+      "text1": "The seated Amma massage is a perfect way to release tension quickly without changing clothes or lying down.",
+      "text2": "A fast yet highly effective treatment — right in your workplace."
+    },
+    "reflexo": {
+      "title": "Let your feet guide you to harmony",
+      "text1": "Each foot zone corresponds to a part of the body. Reflexology stimulates them to restore deep energy balance.",
+      "text2": "This care releases tension, boosts circulation, and awakens the body’s self-healing abilities."
+    },
+    "reiki": {
+      "title": "Reconnect with your inner energy through Reiki",
+      "text1": "A gentle yet powerful method to restore harmony between body and mind. Feel the deep benefits of energy healing.",
+      "text2": "Each session invites you to recentre, release, and find inner peace."
+    },
+    "shiatsu": {
+      "title": "Balance your energy with Shiatsu",
+      "text1": "A therapeutic Japanese treatment that works deeply on the body’s energy meridians.",
+      "text2": "Regain harmony, grounding, and vitality through precise and caring touch."
+    },
+    "cst": {
+      "title": "Reconnect your body with its natural intelligence",
+      "text1": "Craniosacral therapy is a subtle and powerful approach that encourages the body to self-regulate, release deep blockages, and find balance.",
+      "text2": "It gently supports the nervous and energetic systems to foster calm, grounding, and regeneration."
+    }
+  },
+  "whyThisCare": {
+    "title": "Who is this treatment for?",
+    "titles": {
+      "relaxant": "Is this relaxing massage right for me?",
+      "sportif": "Is this treatment suitable for my active body?",
+      "domicile": "Who is this at-home treatment for?",
+      "tao": "Is this Tao massage made for me?",
+      "dos": "Is this back massage what I need?",
+      "anticellulite": "Is this massage right for my needs?",
+      "deeptissue": "Do I need a deep tissue massage?",
+      "shiatsu": "Can Shiatsu help me find balance?",
+      "reiki": "Is this energy healing for me?",
+      "cst": "Is craniosacral therapy suitable for me?",
+      "reflexo": "Is foot reflexology right for me?",
+      "amma": "Can this workplace massage benefit me?",
+      "voyage": "Am I ready for a sensory journey?"
+    },
+    "list": [
+      {
+        "id": 1,
+        "question": "Do you feel the need to recentre yourself in a hectic daily life?"
+      },
+      {
+        "id": 2,
+        "question": "Is your body asking for a gentle and caring pause?"
+      },
+      {
+        "id": 3,
+        "question": "Is stress building up and you're looking for a moment to breathe?"
+      },
+      {
+        "id": 4,
+        "question": "Do you need to reconnect with your body and emotions?"
+      },
+      {
+        "id": 5,
+        "question": "Are you going through an intense period and need to let go?"
+      },
+      {
+        "id": 6,
+        "question": "Are you looking for a deeply soothing experience?"
+      },
+      {
+        "id": 7,
+        "question": "Do you want to offer your mind a moment of complete calm?"
+      },
+      {
+        "id": 8,
+        "question": "Are you suffering from chronic tension you’d like to relieve?"
+      },
+      {
+        "id": 9,
+        "question": "Do you struggle to fall asleep or get restful sleep?"
+      },
+      { "id": 10, "question": "Do you feel emotional or mental fatigue?" },
+      {
+        "id": 11,
+        "question": "Is your routine demanding and you need a moment just for yourself?"
+      },
+      {
+        "id": 12,
+        "question": "Do you experience muscle pain caused by stress or posture?"
+      },
+      {
+        "id": 13,
+        "question": "Would you like to experience a gentle, enveloping and reassuring treatment?"
+      },
+      {
+        "id": 14,
+        "question": "Do you want to listen to your body and slow down?"
+      },
+      {
+        "id": 15,
+        "question": "Is your body speaking to you and you're finally ready to listen?"
+      },
+      {
+        "id": 16,
+        "question": "Are you often in your head and looking to come back to your body?"
+      },
+      {
+        "id": 17,
+        "question": "Do you simply want to take care of yourself for no particular reason?"
+      },
+      {
+        "id": 18,
+        "question": "Are you going through a transition and need grounding?"
+      },
+      {
+        "id": 19,
+        "question": "Do you want to gift yourself a real bubble of softness?"
+      },
+      {
+        "id": 20,
+        "question": "Are you preparing for an event or challenge and need to recharge?"
+      },
+      { "id": 21, "question": "Do you feel tense upon waking or after work?" },
+      {
+        "id": 22,
+        "question": "Would you like to harmonise your inner energy?"
+      },
+      {
+        "id": 23,
+        "question": "Do you often give to others but rarely to yourself?"
+      },
+      {
+        "id": 24,
+        "question": "Do you feel a lack of kind and respectful contact?"
+      },
+      {
+        "id": 25,
+        "question": "Are you looking for an intuitive, tailored, and mindful massage?"
+      },
+      { "id": 26, "question": "Are you in search of a timeless moment?" },
+      {
+        "id": 27,
+        "question": "Is your schedule packed and you're lacking space to breathe?"
+      },
+      {
+        "id": 28,
+        "question": "Do you feel the need for real presence and meaningful touch?"
+      },
+      {
+        "id": 29,
+        "question": "Do you simply want to feel more at ease in your body?"
+      },
+      {
+        "id": 30,
+        "question": "Would you like to feel supported without judgement?"
+      },
+      {
+        "id": 31,
+        "question": "Are you going through an emotionally difficult time?"
+      },
+      {
+        "id": 32,
+        "question": "Are you seeking a gentle alternative to relieve tension?"
+      },
+      { "id": 33, "question": "Does your body feel tight or blocked?" },
+      {
+        "id": 34,
+        "question": "Would you like a break between two obligations?"
+      },
+      { "id": 35, "question": "Do you crave a cosy moment just for yourself?" },
+      {
+        "id": 36,
+        "question": "Do you want a treatment rooted in slowness and attentive care?"
+      },
+      {
+        "id": 37,
+        "question": "Are you highly sensitive and looking for respectful touch?"
+      },
+      {
+        "id": 38,
+        "question": "Do you want to regain confidence in your body?"
+      },
+      { "id": 39, "question": "Do you long to reconnect with your breath?" },
+      {
+        "id": 40,
+        "question": "Do you just want to say thank you to your body?"
+      }
+    ]
+  },
+  "treatmentDescription": {
+    "availability": "Available in Halle or at home around Brussels.",
+    "durationStart": "Each session lasts",
+    "durationEnd": "to give you a fully rejuvenating moment.",
+    "common": {
+      "location": "Available in our Halle practice or at home in the Brussels area.",
+      "duration": {
+        "prefix": "Each session lasts",
+        "to": "to",
+        "unit": "minutes"
+      }
+    },
+    "relaxant": {
+      "title": "A gentle and soothing treatment",
+      "hero": "With enveloping and rhythmic gestures, this massage helps release tension, calm the mind, and restore deep well-being. It adapts to each person, according to their energy and needs.",
+      "durationMin": 90,
+      "durationMax": 120,
+      "text": "Treat yourself to this moment of serenity, starting at",
+      "price": "€99"
+    },
+    "sportif": {
+      "title": "A powerful and targeted massage",
+      "hero": "Designed to optimize muscle recovery and relieve deep tension. Perfect before or after physical effort.",
+      "durationMin": 60,
+      "durationMax": 90,
+      "text": "Take care of your muscles, from",
+      "price": "€85"
+    },
+    "domicile": {
+      "title": "A treatment at home, with peace of mind",
+      "hero": "Enjoy a professional massage without leaving your home. Everything is designed for your comfort.",
+      "durationMin": 90,
+      "durationMax": 120,
+      "text": "Receive this treatment at home, from",
+      "price": "€135"
+    },
+    "tao": {
+      "title": "A soothing sensory ritual",
+      "hero": "Tao massage brings together slowness, depth and listening. An invitation to an inner journey.",
+      "durationMin": 90,
+      "durationMax": 120,
+      "text": "Reconnect with your vital energy, from",
+      "price": "€110"
+    },
+    "dos": {
+      "title": "A targeted treatment for your back",
+      "hero": "This massage focuses on the neck, shoulders, and lower back to release tension.",
+      "durationMin": 45,
+      "durationMax": 60,
+      "text": "Soothe your back for",
+      "price": "€70"
+    },
+    "anticellulite": {
+      "title": "A toning and firming treatment",
+      "hero": "An effective massage to smooth, drain and revitalize tissues. Ideal for a more harmonious silhouette.",
+      "durationMin": 45,
+      "durationMax": 60,
+      "text": "Give your body a new breath, from",
+      "price": "€75"
+    },
+    "deeptissue": {
+      "title": "A deep tissue massage",
+      "hero": "Specifically designed to relax persistent and deep muscular tension.",
+      "durationMin": 60,
+      "durationMax": 90,
+      "text": "Release your muscles for",
+      "price": "€85"
+    },
+    "shiatsu": {
+      "title": "An energetic balancing treatment",
+      "hero": "Shiatsu uses pressure on meridians to harmonize internal energies.",
+      "durationMin": 60,
+      "durationMax": 75,
+      "text": "Regain your inner balance from",
+      "price": "€80"
+    },
+    "reiki": {
+      "title": "A gentle harmonization",
+      "hero": "Reiki soothes, rebalances and revitalizes energy centers through hand imposition.",
+      "durationMin": 60,
+      "durationMax": 75,
+      "text": "Reconnect with your energy, from",
+      "price": "€80"
+    },
+    "cst": {
+      "title": "A subtle and deep treatment",
+      "hero": "Craniosacral therapy acts on the nervous system to release deep blockages.",
+      "durationMin": 60,
+      "durationMax": 75,
+      "text": "Offer your body lasting peace, from",
+      "price": "€85"
+    },
+    "reflexo": {
+      "title": "A foot care with countless virtues",
+      "hero": "Foot reflexology stimulates reflex zones to improve the body's overall balance.",
+      "durationMin": 45,
+      "durationMax": 60,
+      "text": "Take care of your feet for",
+      "price": "€70"
+    },
+    "amma": {
+      "title": "A quick massage, anywhere",
+      "hero": "Seated Amma quickly relieves tension at work or during an event.",
+      "durationMin": 15,
+      "durationMax": 30,
+      "text": "Offer this moment of well-being from",
+      "price": "€25"
+    },
+    "voyage": {
+      "title": "A deep and sensory journey",
+      "hero": "This enveloping treatment acts on the fascia for deep release and total relaxation.",
+      "durationMin": 120,
+      "durationMax": 150,
+      "text": "Begin your inner journey for",
+      "price": "€135"
+    }
+
+  },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "metaTitle": "Massage & Therapeutic FAQ in Halle – Brussels",
+      "metaDescription": "All your questions about our massages and treatments in Halle, Brussels, or at home.",
+      "list": [
+        {
+          "id": 1,
+          "question": "What are the benefits of a relaxing massage?",
+          "answer": "It reduces stress, relaxes muscles, improves circulation, and promotes restful sleep."
+        },
+        {
+          "id": 2,
+          "question": "What types of massages do you offer?",
+          "answer": "We offer relaxing, sports, anti-cellulite massages, as well as Shiatsu, Reiki, foot reflexology, and more, tailored to your needs."
+        },
+        {
+          "id": 3,
+          "question": "Do you offer home massages?",
+          "answer": "Yes, we offer certain treatments at home in the Halle area and surroundings."
+        },
+        {
+          "id": 4,
+          "question": "Do I need to undress for a massage?",
+          "answer": "It depends on the treatment. For Shiatsu or Reiki, you remain clothed. For oil massages, underwear is recommended."
+        },
+        {
+          "id": 5,
+          "question": "What are the effects of a relaxing massage?",
+          "answer": "It relieves tension, improves circulation, soothes the nervous system, and promotes sleep."
+        },
+        {
+          "id": 6,
+          "question": "Can I give a massage as a gift?",
+          "answer": "Absolutely! We offer personalized gift vouchers."
+        },
+        {
+          "id": 7,
+          "question": "Can I ask to focus on a specific area?",
+          "answer": "Yes, each session is personalized. Feel free to mention any specific areas of tension or need."
+        },
+        {
+          "id": 8,
+          "question": "What are the benefits of Reiki?",
+          "answer": "Reiki promotes relaxation, emotional balance, and helps release energetic blockages."
+        },
+        {
+          "id": 9,
+          "question": "Should I come on an empty stomach?",
+          "answer": "Avoid a heavy meal before your session, but don't come completely hungry either."
+        },
+        {
+          "id": 10,
+          "question": "Is Reiki effective against stress?",
+          "answer": "Yes, Reiki calms the mind, releases emotional tension, and induces deep relaxation."
+        },
+        {
+          "id": 11,
+          "question": "How long is a foot reflexology session?",
+          "answer": "A session usually lasts between 45 minutes and 1 hour."
+        },
+        {
+          "id": 12,
+          "question": "Is Shiatsu massage done with or without oil?",
+          "answer": "Shiatsu is performed fully clothed, without oil, using pressure on energy points."
+        },
+        {
+          "id": 13,
+          "question": "Can I get a massage if I'm pregnant?",
+          "answer": "Yes, some massages are suitable during pregnancy, especially from the 2nd trimester."
+        },
+        {
+          "id": 14,
+          "question": "How often should I get a massage?",
+          "answer": "It depends on your needs, but once a month is ideal for consistent well-being."
+        },
+        {
+          "id": 15,
+          "question": "Are there any contraindications for massage?",
+          "answer": "Yes, fever, contagious illnesses, phlebitis, or recent fractures may be contraindications."
+        },
+        {
+          "id": 16,
+          "question": "Do I have to be completely undressed for a massage?",
+          "answer": "No, you're covered where necessary. Only the areas being massaged are exposed."
+        },
+        {
+          "id": 17,
+          "question": "What is foot reflexology?",
+          "answer": "It’s a foot massage that stimulates reflex zones linked to organs to restore body balance."
+        },
+        {
+          "id": 18,
+          "question": "Which massages help with sleep?",
+          "answer": "Relaxing massages, Reiki, and cranio-sacral therapy are great for improving sleep."
+        },
+        {
+          "id": 19,
+          "question": "Can a massage relieve migraines?",
+          "answer": "Yes, head or Shiatsu massages can help reduce headaches."
+        },
+        {
+          "id": 20,
+          "question": "Is Reiki a massage?",
+          "answer": "No, it’s an energy healing method involving gentle hand placement, without manipulation."
+        },
+        {
+          "id": 21,
+          "question": "Which massage is best for muscle pain?",
+          "answer": "Sports massage or deep tissue massage are ideal for deep muscle tension relief."
+        },
+        {
+          "id": 22,
+          "question": "Does Reiki require belief to work?",
+          "answer": "No, Reiki works with the body's energy regardless of belief."
+        },
+        {
+          "id": 23,
+          "question": "How long does a massage session last?",
+          "answer": "Typical sessions range from 60 to 120 minutes depending on the treatment."
+        },
+        {
+          "id": 24,
+          "question": "Can I gift a massage session?",
+          "answer": "Yes, gift cards are available to share a wellness moment with loved ones."
+        },
+        {
+          "id": 25,
+          "question": "Which massage helps recovery after sport?",
+          "answer": "Sports massage is ideal for relaxing muscles and speeding up recovery."
+        },
+        {
+          "id": 26,
+          "question": "Should I shower after a massage?",
+          "answer": "Not necessarily. Let the essential oils absorb into your skin if used."
+        },
+        {
+          "id": 27,
+          "question": "Can massage aid digestion?",
+          "answer": "Yes, belly massage or reflexology can stimulate digestion."
+        },
+        {
+          "id": 28,
+          "question": "Is chair massage effective?",
+          "answer": "Yes, it quickly relieves tension in the back, neck, and shoulders in 15-20 minutes."
+        },
+        {
+          "id": 29,
+          "question": "Can I talk during the massage?",
+          "answer": "Yes, though most people prefer to relax in silence. It's your choice."
+        },
+        {
+          "id": 30,
+          "question": "What is cranio-sacral therapy?",
+          "answer": "It’s a gentle method to release tension in the skull, spine, and sacrum."
+        },
+        {
+          "id": 31,
+          "question": "Can children receive massages?",
+          "answer": "Yes, gentle treatments are available for children from 16 years old."
+        },
+        {
+          "id": 32,
+          "question": "Does massage help with anxiety?",
+          "answer": "Yes, massages release endorphins and calm the nervous system."
+        },
+        {
+          "id": 33,
+          "question": "Can massage help with weight loss?",
+          "answer": "Massage doesn't cause weight loss but tones and helps with cellulite."
+        },
+        {
+          "id": 34,
+          "question": "Is there an age limit for massage?",
+          "answer": "No, treatments can be adapted for older adults as well."
+        },
+        {
+          "id": 35,
+          "question": "What should I wear for a massage?",
+          "answer": "Wear something comfortable, especially for clothed massages like Shiatsu."
+        },
+        {
+          "id": 36,
+          "question": "Can you massage over a scar?",
+          "answer": "Yes, once it has fully healed. Consult your doctor if unsure."
+        },
+        {
+          "id": 37,
+          "question": "Does massage improve circulation?",
+          "answer": "Yes, it boosts blood flow and oxygenates the tissues."
+        },
+        {
+          "id": 38,
+          "question": "Is Reiki compatible with medical treatment?",
+          "answer": "Yes, it supports healing but does not replace medical care."
+        },
+        {
+          "id": 39,
+          "question": "Can massage relieve chronic pain?",
+          "answer": "Yes, especially back and neck tension or stress-related pain."
+        },
+        {
+          "id": 40,
+          "question": "What’s the difference between energy and physical massage?",
+          "answer": "Energy massage works on subtle flows; physical massage targets muscles."
+        },
+        {
+          "id": 41,
+          "question": "Can massage improve focus?",
+          "answer": "Yes, by reducing stress, it clears the mind."
+        },
+        {
+          "id": 42,
+          "question": "Can I get a massage if I'm very tired?",
+          "answer": "Yes, it can revitalize your body and mind."
+        },
+        {
+          "id": 43,
+          "question": "Can men receive massages too?",
+          "answer": "Of course, treatments are open to all genders."
+        },
+        {
+          "id": 44,
+          "question": "Are the oils natural?",
+          "answer": "Yes, we use 100% natural vegetable and essential oils."
+        },
+        {
+          "id": 45,
+          "question": "What are the effects after a massage?",
+          "answer": "Relaxation, energy boost, improved mood, and sometimes slight fatigue."
+        },
+        {
+          "id": 46,
+          "question": "Are there side effects?",
+          "answer": "Rarely. You might feel tired or experience detox symptoms."
+        },
+        {
+          "id": 47,
+          "question": "Can massage help with burnout?",
+          "answer": "Yes, it promotes calm, body awareness, and emotional release."
+        },
+        {
+          "id": 48,
+          "question": "Can massage balance emotions?",
+          "answer": "Yes, it soothes nervous and energetic imbalances."
+        },
+        {
+          "id": 49,
+          "question": "Should I book in advance?",
+          "answer": "Yes, appointments are required to ensure a personalized experience."
+        },
+        {
+          "id": 50,
+          "question": "What’s the difference between home and office massage?",
+          "answer": "At home, you stay in your space. At the office, everything is optimized for your comfort."
+        }
+      ]
+    }
+  
+  
+}

@@ -1,7 +1,13 @@
+"use client";
+
+
 import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
+import { useTranslations } from 'next-intl';
 
 export default function Contact() {
+  const t = useTranslations('contact');
+
   return (
     <div id='contact' className="relative isolate bg-gray-900">
       <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
@@ -42,11 +48,9 @@ export default function Contact() {
                 />
               </div>
             </div>
-            <h2 className="text-pretty text-4xl font-semibold tracking-tight !text-[#6a8934] sm:text-5xl">Une question ? Une envie ?</h2>
+            <h2 className="text-pretty text-4xl font-semibold tracking-tight !text-[#6a8934] sm:text-5xl">{t("title")}</h2>
             <p className="mt-6 text-lg/8 !text-[#7EA23F]">
-            Que ce soit pour un renseignement, un besoin spécifique ou simplement l’envie de vous offrir un moment de bien-être,  
-  notre équipe est à votre écoute avec attention et délicatesse.  
-  Écrivez-nous, et créons ensemble une expérience qui vous ressemble.
+            {t("paragraph")}
             </p>
             <dl className="mt-10 space-y-4 text-base/7 text-gray-300">
               <div className="flex gap-x-4">
@@ -90,7 +94,7 @@ export default function Contact() {
             <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
               <div>
                 <label htmlFor="first-name" className="block text-sm/6 font-semibold text-white">
-                  Prénom
+                {t("form.firstName")}
                 </label>
                 <div className="mt-2.5">
                   <input
@@ -104,7 +108,7 @@ export default function Contact() {
               </div>
               <div>
                 <label htmlFor="last-name" className="block text-sm/6 font-semibold text-white">
-                  Nom de famille
+                {t("form.lastName")}
                 </label>
                 <div className="mt-2.5">
                   <input
@@ -118,7 +122,7 @@ export default function Contact() {
               </div>
               <div className="sm:col-span-2">
                 <label htmlFor="email" className="block text-sm/6 font-semibold text-white">
-                  Email
+                {t("form.email")}
                 </label>
                 <div className="mt-2.5">
                   <input
@@ -132,7 +136,7 @@ export default function Contact() {
               </div>
               <div className="sm:col-span-2">
                 <label htmlFor="phone-number" className="block text-sm/6 font-semibold text-white">
-                  N° GSM
+                {t("form.phone")}
                 </label>
                 <div className="mt-2.5">
                   <input
@@ -146,7 +150,7 @@ export default function Contact() {
               </div>
               <div className="sm:col-span-2">
                 <label htmlFor="message" className="block text-sm/6 font-semibold text-white">
-                  Message
+                {t("form.message")}
                 </label>
                 <div className="mt-2.5">
                   <textarea
@@ -171,7 +175,7 @@ export default function Contact() {
                 type="submit"
                 className="rounded-md bg-[#556B2F] px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-[#8FBC8F] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#556B2F]"
               >
-                Envoyer
+                {t("form.submit")}
               </button>
             </div>
           </div>

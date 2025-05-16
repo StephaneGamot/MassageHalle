@@ -1,11 +1,15 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import Masseur1 from "./../../../public/Images/massage/masseur-massant-le-dos-une-femme.webp"
 import Masseur2 from "./../../../public/Images/massage/seance-de-shiatsu-meridien-de-la-vessie.webp"
 import Masseur3 from "./../../../public/Images/massage/masseur-faisant-un-massage-relaxant.webp"
 import Masseur4 from "./../../../public/Images/massage/une-femme-dont-epaule-se-fait-masser.webp"
 
 export default function Cta() {
+  const t = useTranslations("cta");
   return (
     <section className="overflow-hidden bg-white pt-12 sm:p-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8 space-y-16">
@@ -14,22 +18,20 @@ export default function Cta() {
           {/* Texte */}
           <div className="max-w-xl">
             <h2 className="text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
-              Offrez un moment de bien-être à ceux que vous aimez
+            {t("title")}
             </h2>
             <p className="mt-6 text-lg text-gray-600">
-              Un massage, c’est plus qu’un soin : c’est un geste d’amour. Offrez un instant
-              de détente inoubliable avec une carte cadeau.
+            {t("paragraph1")}
             </p>
             <p className="mt-4 text-base text-gray-600">
-              Soins thérapeutiques et massages relaxants à Halle – Bruxelles, en cabinet ou à
-              domicile.
+            {t("paragraph2")}
             </p>
             <div className="mt-8">
               <Link
                 href="#"
                 className="inline-block rounded-md bg-[#556B2F] px-6 py-3 text-sm font-semibold text-white shadow hover:bg-[#6f8e42] transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#556B2F]"
               >
-                Offrir un instant de douceur &rarr;
+                {t("cta")}
               </Link>
             </div>
           </div>

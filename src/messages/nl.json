@@ -1,0 +1,1198 @@
+{
+  "nav": {
+    "massage": "Massage",
+    "relaxant": "Ontspannende massage",
+    "sportif": "Sportmassage",
+    "domicile": "Thuis massage",
+    "tao": "Tao massage",
+    "douceur": "Rug massage",
+    "anticellulite": "Anti-cellulite massage",
+    "deeptissue": "Diepe weefselmassage",
+    "therapeutic": "Therapeutische zorg",
+    "shiatsu": "Shiatsu",
+    "reiki": "Reiki",
+    "reflexo": "Voetreflexologie",
+    "cranio": "Cranio sacrale therapie",
+    "voyage": "Zintuigenreis",
+    "amma": "Amma",
+    "contact": "Contact",
+    "faq": "FAQ"
+  },
+  "footer": {
+    "informations": "Informatie",
+    "ressources": "Bronnen",
+    "rights": "Alle rechten voorbehouden",
+    "contact": "Contact & openingsuren",
+    "address": "Halle (Buizingen), Brussel en omgeving",
+    "opening": "Op afspraak van maandag tot zaterdag, 10u–19u"
+  },
+  "hero": {
+    "srOnly": "La Voie du Bien-Être Massage & therapeutische zorg in Halle - Brussel",
+    "headline": "Welzijn is geen luxe... maar een noodzaak.",
+    "paragraph": "Elke behandeling is een pauze in de drukte van het dagelijks leven. Gun je lichaam wat het verdient: zachtheid, aandacht en zorg.",
+    "ctaPrimary": "Ik zorg voor mezelf",
+    "ctaSecondary": "Bied dit moment aan een dierbare aan"
+  },
+  "cta": {
+    "title": "Bied een moment van welzijn aan je geliefden",
+    "paragraph1": "Een massage is meer dan een behandeling: het is een liefdesgebaar. Bied een onvergetelijk moment van ontspanning aan met een cadeaubon.",
+    "paragraph2": "Therapeutische behandelingen en ontspannende massages in Halle – Brussel, in de praktijk of aan huis.",
+    "cta": "Een moment van zachtheid aanbieden →"
+  },
+  "ctaMassage": {
+    "paragraph": "Boek vandaag nog {soin} en geniet van een moment voor jezelf.",
+    "cta": "Maak een afspraak",
+    "note": "Geen kredietkaart nodig – boek met een gerust hart.",
+    "titles": {
+      "relaxant": "Geef je lichaam wat het verdient",
+      "sportif": "Bereid je lichaam voor op prestaties",
+      "domicile": "Geniet van een uitzonderlijke behandeling bij je thuis",
+      "tao": "Gun jezelf een zintuiglijke pauze",
+      "dos": "Zeg vaarwel tegen rugspanningen",
+      "anticellulite": "Zorg goed voor je silhouet",
+      "deeptissue": "Laat diepe spanningen los",
+      "shiatsu": "Vind je innerlijke balans terug",
+      "reiki": "Herontdek je energie",
+      "cst": "Breng je lichaam tot rust",
+      "reflexo": "Laat je voeten je gids zijn",
+      "amma": "Bied welzijn aan je team",
+      "voyage": "Begin aan een zintuiglijke reis"
+    },
+    "soins": {
+      "relaxant": "je ontspanningsmassage",
+      "sportif": "je sportmassage",
+      "domicile": "je massage aan huis",
+      "tao": "je Tao-massage",
+      "dos": "je rugmassage",
+      "anticellulite": "je anti-cellulite massage",
+      "deeptissue": "je deep tissue massage",
+      "shiatsu": "je Shiatsu-behandeling",
+      "reiki": "je Reiki-behandeling",
+      "cst": "je craniosacrale therapie",
+      "reflexo": "je reflexologiebehandeling",
+      "amma": "je Amma-bedrijfsmassage",
+      "voyage": "je zintuiglijke reis"
+    }
+  },
+  "contact": {
+    "title": "Een vraag? Een wens?",
+    "paragraph": "Of het nu gaat om informatie, een specifieke behoefte of gewoon het verlangen om jezelf een moment van welzijn te gunnen, ons team luistert met aandacht en zorg. Schrijf ons, en samen creëren we een ervaring die bij jou past.",
+    "address": "Octaaf de kerchove d'exaerdestraat 193, 1501 Buizingen (Halle)",
+    "phone": "04 77 13 19 93",
+    "email": "lavoiedubienetre@outlook.com",
+    "form": {
+      "firstName": "Voornaam",
+      "lastName": "Achternaam",
+      "email": "Email",
+      "phone": "Telefoonnummer",
+      "message": "Bericht",
+      "submit": "Verzenden"
+    }
+  },
+  "metadata": {
+    "title": "Massage & therapeutische zorg in Halle - Brussel",
+    "description": "In Halle – Brussel verwelkomt La Voie du Bien-Être je in de praktijk of aan huis voor ontspannende massages & therapeutische behandelingen.",
+    "ogTitle": "La Voie du Bien-Être | Ontspanning & Herstel",
+    "ogDescription": "Geniet van een unieke massage in Halle. Shiatsu, Reiki en diepe ontspanning wachten op je.",
+    "twitterTitle": "La Voie du Bien-Être | Shiatsu Reiki Massage in Halle",
+    "twitterDescription": "Massagecentrum in Halle | Shiatsu Reiki Voetreflexologie | La Voie du Bien-Être"
+  },
+  "massages": {
+    "cards": [
+      {
+        "id": 1,
+        "title": "Sportmassage",
+        "description": "Optimaliseert sportieve inspanningen en versnelt het herstel. De spier wordt diep gemasseerd.",
+        "imageAlt": "De handen van de masseur werken op de rechterschouder van de patiënt",
+        "titleImg": "Man ontvangt massage die spierpijn verlicht"
+      },
+      {
+        "id": 2,
+        "title": "Ontspanningsmassage",
+        "description": "Ontspant lichaam en geest, vermindert stress en spierspanning met zachte, vloeiende bewegingen.",
+        "imageAlt": "Handen geven comfort aan de schouderbladen van de patiënt",
+        "titleImg": "Jonge vrouw geniet van een volledig ontspannende massage"
+      },
+      {
+        "id": 3,
+        "title": "Shiatsu sessie",
+        "description": "Japanse techniek met drukpunten uit de Chinese geneeskunde om energie in balans te brengen.",
+        "imageAlt": "Vrouw ontvangt shiatsu sessie op een futon",
+        "titleImg": "Jonge vrouw krijgt Shiatsu behandeling"
+      },
+      {
+        "id": 4,
+        "title": "Reiki sessie",
+        "description": "Holistische methode die diepe ontspanning bevordert via overdracht van universele energie.",
+        "imageAlt": "Therapeut houdt handen boven oren van de patiënt",
+        "titleImg": "Handen geven universele energie boven de navel"
+      },
+      {
+        "id": 5,
+        "title": "Stoelmassage",
+        "description": "Snelle en doeltreffende oplossing op het werk om spanning los te laten. Cadeau van werkgever.",
+        "imageAlt": "Man ontvangt Amma-massage op werkplek",
+        "titleImg": "Massage op stoel op de werkplek"
+      },
+      {
+        "id": 6,
+        "title": "Voetreflexologie",
+        "description": "Zachte therapie die punten op de voeten stimuleert om fysieke en emotionele gezondheid te bevorderen.",
+        "imageAlt": "Duimen drukken op voetzool boven Long 1",
+        "titleImg": "Voetmassage verlicht spanningen"
+      },
+      {
+        "id": 7,
+        "title": "Zintuiglijke reis",
+        "description": "Werkt in op de fascia voor diepe ontspanning. Een reis naar binnen om jezelf terug te vinden.",
+        "imageAlt": "Zacht masserend contact",
+        "titleImg": "Verbinding met fascia"
+      },
+      {
+        "id": 8,
+        "title": "Anticellulitis massage",
+        "description": "Zeer doeltreffende massage om de huid te verstevigen en cellulite zichtbaar te verminderen.",
+        "imageAlt": "Cuppingbehandeling op dijbeen",
+        "titleImg": "Vaarwel cellulite"
+      },
+      {
+        "id": 9,
+        "title": "Zorg voor de rug",
+        "description": "Specifieke massage voor rug, nek en schouders. Ontspannend en stressverlichtend.",
+        "imageAlt": "Vier vingers strelen de nek",
+        "titleImg": "Aangename nekcontact"
+      },
+      {
+        "id": 10,
+        "title": "Tao massage",
+        "description": "Herontdek jezelf via een sensuele en diepe massage. Elke aanraking viert jouw welzijn.",
+        "imageAlt": "Een glimlachend gezicht",
+        "titleImg": "Sensualiteit van een glimlach"
+      },
+      {
+        "id": 11,
+        "title": "Massage aan huis",
+        "description": "Ik kom met alles wat nodig is voor een ontspannende massage bij je thuis in Brussel & Brabant.",
+        "imageAlt": "Handen op een rug",
+        "titleImg": "Sensuele rugmassage"
+      },
+      {
+        "id": 12,
+        "title": "Craniosacrale therapie",
+        "description": "CST werkt diep in op het lichaam, bevrijdt spanningen en brengt emotioneel evenwicht.",
+        "imageAlt": "Craniosacrale aanraking",
+        "titleImg": "Manipulatie van de schedel"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Getuigenissen",
+    "subtitle": "We hebben met honderden bijzondere mensen samengewerkt",
+    "none": "Geen getuigenis beschikbaar voor deze pagina.",
+    "list": [
+      {
+        "id": 1,
+        "body": "Een moment van rust en menselijke warmte. Dankjewel voor deze bubbel van welzijn.",
+        "alt": "rustige en warme sfeer van Sophie WB",
+        "author": "Sophie WB"
+      },
+      {
+        "id": 2,
+        "body": "Zelden zo'n troostende massage gehad. Elke aanraking kwam recht uit het hart. Duizendmaal dank.",
+        "alt": "ontspannen gezicht na een behandeling van Alexandre Jansens",
+        "author": "Alexandre Jansens"
+      },
+      {
+        "id": 3,
+        "body": "Een echte ontsnapping. Ik voelde me herboren en opgeladen.",
+        "alt": "ontspannen gezicht na een sessie van Nathalie Radeis",
+        "author": "Nathalie Radeis"
+      },
+      {
+        "id": 4,
+        "body": "Zodra ik op de tafel lag, kon ik alles loslaten. De stress verdween al in de eerste minuten.",
+        "alt": "gezicht straalt ontspanning uit – Karine Renard",
+        "author": "Karine Renard"
+      },
+      {
+        "id": 5,
+        "body": "Ik had niet gedacht dat een massage me zo kon heroriënteren. Zacht en diepgaand, precies wat ik nodig had.",
+        "alt": "zen portret na behandeling – Isabelle Mercier",
+        "author": "Isabelle Mercier"
+      },
+      {
+        "id": 6,
+        "body": "Een zachte, respectvolle aandacht van begin tot eind. Je voelt je echt gehoord.",
+        "alt": "zichtbaar gevoel van welzijn – Julie Lelievre",
+        "author": "Julie Lelievre"
+      },
+      {
+        "id": 7,
+        "body": "Mijn spierspanning verdween volledig. Ik kom zeker terug! Zelden zo hartelijk ontvangen én gemasseerd.",
+        "alt": "serene blik van Thierry Bierze",
+        "author": "Thierry Bierze"
+      },
+      {
+        "id": 8,
+        "body": "Een moment van pure ontspanning. Ik kom zonder twijfel terug! De olie en muziek waren perfect.",
+        "alt": "uitstraling van sereniteit van Lucie Bernard",
+        "author": "Lucie Bernard"
+      },
+      {
+        "id": 9,
+        "body": "Ik hield van alles: de zachte muziek, de oliën, de omhullende aanraking. Het was meer dan een massage – een betoverende pauze.",
+        "alt": "uitstraling van sereniteit van Sophie Lemoine",
+        "author": "Sophie Lemoine"
+      },
+      {
+        "id": 10,
+        "body": "Een behandeling van hoge kwaliteit, met veel menselijkheid. Ik kom zeker terug!",
+        "alt": "ontspanning na behandeling van Elena Neerinckx",
+        "author": "Elena Neerinckx"
+      },
+      {
+        "id": 11,
+        "body": "Het was veel meer dan een massage – het voelde als een zorg voor de ziel. Een echt moment van troost in een zachte en serene sfeer.",
+        "alt": "vastgelegd moment van welzijn – Chloé Peters",
+        "author": "Chloé Peters"
+      },
+      {
+        "id": 12,
+        "body": "Mijn geest dwaalde af vanaf de eerste minuten. De stress van de week verdween. Ik voel me licht.",
+        "alt": "rustige en warme sfeer – Romain Allan",
+        "author": "Romain Allan"
+      },
+      {
+        "id": 13,
+        "body": "Het voelde alsof de tijd stilstond. Oneindig veel dank.",
+        "alt": "stralend gezicht na de behandeling – Claire Hoffman",
+        "author": "Claire Hoffman"
+      },
+      {
+        "id": 14,
+        "body": "Een prachtige ontdekking die ik zonder aarzelen aanbeveel.",
+        "alt": "natuurlijke foto na massage van Gabriel Marchand",
+        "author": "Gabriel Marchand"
+      },
+      {
+        "id": 15,
+        "body": "Elke aanraking leek bedoeld om te kalmeren. Een bijzonder mooi moment.",
+        "alt": "rustig portret – Audrey Ducene",
+        "author": "Audrey Ducene"
+      },
+      {
+        "id": 16,
+        "body": "Een warm onthaal en een behandeling vol finesse.",
+        "alt": "gezicht straalt ontspanning uit – Camille vandevivere",
+        "author": "Camille vandevivere"
+      },
+      {
+        "id": 17,
+        "body": "Professionele aanraking, afgestemd op mijn behoeften. Bedankt! Een omhullende, zorgzame en diepe ontspanning.",
+        "alt": "zichtbaar welzijn – Gabriel Perrin",
+        "author": "Gabriel Perrin"
+      },
+      {
+        "id": 18,
+        "body": "Vanaf het moment dat je binnenkomt, voel je dat je in goede handen bent. Ik had niet gedacht dat deze massage me zo goed zou doen.",
+        "alt": "kalm en dankbaar gezicht – Olivier Mertori",
+        "author": "Olivier Mertori"
+      },
+      {
+        "id": 19,
+        "body": "Een echte cocon van zachtheid en vriendelijkheid. Een verborgen parel in Halle.",
+        "alt": "glimlach van welzijn op het gezicht van Amandine Paccini",
+        "author": "Amandine Paccini"
+      },
+      {
+        "id": 20,
+        "body": "Het was gewoonweg magisch.",
+        "alt": "zichtbare lichamelijke verlichting – Fabien van der Belen",
+        "author": "Fabien van der Belen"
+      },
+      {
+        "id": 21,
+        "body": "Ik vertrok met een glimlach en de drang om terug te komen.",
+        "alt": "vastgelegd moment van welzijn – Sabrina Degeneve",
+        "author": "Sabrina Degeneve"
+      },
+      {
+        "id": 22,
+        "body": "Topmassage.",
+        "alt": "ontspannen gezicht na een behandeling – Julie Acuvu",
+        "author": "Julie Acuvu"
+      },
+      {
+        "id": 23,
+        "body": "Ik had niet verwacht dat deze massage me zo goed zou doen. Het was meer dan een massage, het was een magische pauze.",
+        "alt": "zichtbare verlichting na de behandeling – Marion Baiverlin",
+        "author": "Marion Baiverlin"
+      },
+      {
+        "id": 24,
+        "body": "Je voelt echte lichamelijke aandacht, een sterke aanwezigheid en uitzonderlijke zorg.",
+        "alt": "ontspannen gezicht na een behandeling – Nicolas Willers",
+        "author": "Nicolas Willers"
+      },
+      {
+        "id": 25,
+        "body": "Een behandeling die me raakte, ver voorbij het fysieke.",
+        "alt": "ontspannend moment na de massage – Valérie Baltus",
+        "author": "Valérie Baltus"
+      },
+      {
+        "id": 26,
+        "body": "Stéphane is zeer professioneel. Zijn massage is echt geweldig. Je komt gestrest binnen en gaat volledig ontspannen weer buiten.",
+        "alt": "rustige glimlach – Thomas Lefevre",
+        "author": "Thomas Lefevre"
+      },
+      {
+        "id": 27,
+        "body": "Ik had niet verwacht dat deze massage me zo veel zou brengen. Een echt moment van troost in een zachte, serene sfeer.",
+        "alt": "rustig portret – Hélène Baltus",
+        "author": "Hélène Baltus"
+      },
+      {
+        "id": 28,
+        "body": "Super massage. Het was precies wat ik nodig had.",
+        "alt": "ontspannen gezicht na een behandeling – Sébastien Mayole",
+        "author": "Sébastien Mayole"
+      },
+      {
+        "id": 29,
+        "body": "Eén van de mooiste massage-ervaringen die ik ooit heb gehad. Ik wist niet dat het me zo goed zou doen.",
+        "alt": "foto aan het einde van de sessie – Jessica Cioni",
+        "author": "Jessica Cioni"
+      },
+      {
+        "id": 30,
+        "body": "Na een massage van Stéphane voelt het alsof je op wolken loopt in een droomwereld. Warm aanbevolen – veel betere prijs/kwaliteit dan elders.",
+        "alt": "rustige en warme sfeer – Arnaud Dutour",
+        "author": "Arnaud Dutour"
+      },
+      {
+        "id": 31,
+        "body": "Een omhullende en verfijnde zintuiglijke ervaring. Een puur moment van ontspanning. Ik kom zeker terug!",
+        "alt": "rustige glimlach – Emilie Piraux",
+        "author": "Emilie Piraux"
+      },
+      {
+        "id": 32,
+        "body": "Ik had nooit gedacht dat deze massage me zo goed zou doen.",
+        "alt": "beeld vastgelegd na ontspannende behandeling – Laura Dupond",
+        "author": "Laura Dupond"
+      },
+      {
+        "id": 33,
+        "body": "De beste masseur in Halle en omgeving. Stéphane heeft veel kennis en met zijn diepgaande technieken laat hij veel stress uit het lichaam verdwijnen.",
+        "alt": "rustige en warme sfeer – Yannick Collet",
+        "author": "Yannick Collet"
+      },
+      {
+        "id": 34,
+        "body": "De behandeling was perfect afgestemd op mijn behoeften – het was verbluffend.",
+        "alt": "glimlach van welzijn op het gezicht van Anne-Marie Charlotte",
+        "author": "Anne-Marie Charlotte"
+      },
+      {
+        "id": 35,
+        "body": "Ik voelde een diepe fysieke en emotionele ontlading. Ik raad het iedereen aan.",
+        "alt": "zichtbare lichamelijke verlichting – Mathieu Blussing",
+        "author": "Mathieu Blussing"
+      },
+      {
+        "id": 36,
+        "body": "Een opmerkelijk professionalisme.",
+        "alt": "kalme, serene blik – Sandrine Moreau",
+        "author": "Sandrine Moreau"
+      },
+      {
+        "id": 37,
+        "body": "Als je een massage wil die je echt ontspant en goed doet, ga er dan blind voor en laat je gewoon gaan.",
+        "alt": "beeld vastgelegd na ontspannende behandeling – Jonathan Girard",
+        "author": "Jonathan Girard"
+      },
+      {
+        "id": 38,
+        "body": "Ik vond het heerlijk hoe elk gebaar me volledig omhulde.",
+        "alt": "zichtbare lichamelijke verlichting – Sophie Loos",
+        "author": "Sophie Loos"
+      },
+      {
+        "id": 39,
+        "body": "Een zeer, zeer ontspannende massage. Stéphane is zeer zorgzaam en toegewijd aan zijn werk. Twijfel niet!",
+        "alt": "rustige en warme sfeer – Gaëlle Legrand",
+        "author": "Gaëlle Legrand"
+      },
+      {
+        "id": 40,
+        "body": "Gewoonweg perfect, van begin tot eind.",
+        "alt": "rustige en warme sfeer – Lucas Wilms",
+        "author": "Lucas Wilms"
+      },
+      {
+        "id": 41,
+        "body": "Ik had niet gedacht dat ik zo snel kon loslaten…",
+        "alt": "tevreden klant na de massage – Caroline Simon.",
+        "author": "Caroline Simon."
+      },
+      {
+        "id": 42,
+        "body": "Een intuïtieve, vloeiende en werkelijk helende aanraking. Ik raad het van harte aan.",
+        "alt": "beeld vastgelegd na ontspannende behandeling – Marine Akil",
+        "author": "Marine Akil"
+      },
+      {
+        "id": 43,
+        "body": "De tijd stond stil. Ik voelde me in een cocon. Ik heb eindelijk gevonden wat ik zocht.",
+        "alt": "ontspannen gezicht na een behandeling – Benjamin Karline",
+        "author": "Benjamin Karline"
+      },
+      {
+        "id": 44,
+        "body": "De stress van de week verdween in slechts 90 minuten.",
+        "alt": "rustige en warme sfeer – Manon Layet",
+        "author": "Manon Layet"
+      },
+      {
+        "id": 45,
+        "body": "Zeer aangename, ontspannende en tegelijk verkwikkende massage. Stéphane is een echte professional!",
+        "alt": "zichtbaar gevoel van welzijn – Florent Thibaut",
+        "author": "Florent Thibaut"
+      },
+      {
+        "id": 46,
+        "body": "Zalige shiatsu en reiki – Stéphane voelt perfect aan wat ik nodig heb en brengt me helemaal tot rust, waardoor ik alles weer helder zie. Een aanrader voor wie een ontspanningsmoment nodig heeft, of als alles gewoon even te veel wordt.",
+        "alt": "ontspannen gezicht na een behandeling – Nina Seigneurin",
+        "author": "Nina Seigneurin"
+      },
+      {
+        "id": 47,
+        "body": "Een prachtige manier om voor jezelf te zorgen.",
+        "alt": "gezicht straalt ontspanning uit – Anthony Blondeau",
+        "author": "Anthony Blondeau"
+      },
+      {
+        "id": 48,
+        "body": "Dank je Stéphane voor je goede zorgen ✨. Dankzij jou zijn dit telkens waardevolle ontmoetingen met mijn lichaam – om er eindelijk naar te luisteren, of gewoon om het een moment van puur welzijn te geven 💖",
+        "alt": "uitgerust gezicht – Caroline Baïni",
+        "author": "Caroline Baïni"
+      },
+      {
+        "id": 49,
+        "body": "Deze massage heeft me ontzettend goed gedaan. Nogmaals bedankt!",
+        "alt": "natuurlijke foto na de massage – Pauline Jansens",
+        "author": "Pauline Jansens"
+      },
+      {
+        "id": 50,
+        "body": "Een unieke ervaring die je echt moet beleven.",
+        "alt": "rustige en warme sfeer – Géraldine Anglois",
+        "author": "Géraldine Anglois"
+      }
+    ]
+  },
+  "benefits": {
+    "why": "Waarom kiezen voor",
+    "titles": {
+      "relaxant": "een ontspannende massage",
+      "sportif": "een sportmassage",
+      "domicile": "een massage aan huis",
+      "tao": "een Tao-massage",
+      "dos": "de rugmassage Douceur Dorsale",
+      "anticellulite": "een anti-cellulitis massage",
+      "deeptissue": "een deep tissue massage",
+      "shiatsu": "Shiatsu",
+      "reiki": "Reiki",
+      "reflexo": "voetreflexologie",
+      "cst": "craniosacrale therapie",
+      "voyage": "de zintuiglijke reis massage",
+      "amma": "een stoelmassage"
+    },
+    "list": [
+      { "id": 1, "text": "Bevrijding van dagelijkse stress" },
+      { "id": 2, "text": "Diepe spierontspanning" },
+      { "id": 3, "text": "Vermindering van angst" },
+      { "id": 4, "text": "Betere slaapkwaliteit" },
+      { "id": 5, "text": "Stimulatie van de bloedsomloop" },
+      { "id": 6, "text": "Kalmering van het zenuwstelsel" },
+      { "id": 7, "text": "Verlichting van spanningen in de rug" },
+      { "id": 8, "text": "Bevordert herstel" },
+      { "id": 9, "text": "Gevoel van aarding en hercentrering" },
+      { "id": 10, "text": "Regulatie van de hartslag" },
+      { "id": 11, "text": "Harmonie tussen lichaam en geest" },
+      { "id": 12, "text": "Moment van volledige aanwezigheid" },
+      { "id": 13, "text": "Vrijmaken van energetische blokkades" },
+      { "id": 14, "text": "Betere spijsvertering" },
+      { "id": 15, "text": "Stimulatie van het lymfestelsel" },
+      { "id": 16, "text": "Vertraging van de gedachtenstroom" },
+      { "id": 17, "text": "Betere emotionele beheersing" },
+      { "id": 18, "text": "Herverbinding met het lichaam" },
+      { "id": 19, "text": "Volledige en bevrijdende ontspanning" },
+      { "id": 20, "text": "Algemeen welzijn" },
+      { "id": 21, "text": "Toename van vitaliteit" },
+      { "id": 22, "text": "Boost voor het immuunsysteem" },
+      { "id": 23, "text": "Versterking van de verbinding met jezelf" },
+      { "id": 24, "text": "Innerlijke rust" },
+      { "id": 25, "text": "Meer zelfvertrouwen" },
+      { "id": 26, "text": "Ondersteuning in moeilijke periodes" },
+      { "id": 27, "text": "Verlichting van chronische pijn" },
+      { "id": 28, "text": "Celvernieuwing" },
+      { "id": 29, "text": "Verhoogde aanwezigheid" },
+      { "id": 30, "text": "Zachte introspectie bevorderen" },
+      { "id": 31, "text": "Veilig en omhullend gevoel" },
+      { "id": 32, "text": "Bevordert hartopenstelling" },
+      { "id": 33, "text": "Kalmeert het spijsverteringssysteem" },
+      { "id": 34, "text": "Mentale helderheid" },
+      { "id": 35, "text": "Betere lichaamshouding" },
+      { "id": 36, "text": "Bevordert innerlijke vrede" },
+      { "id": 37, "text": "Natuurlijke detox" },
+      { "id": 38, "text": "Herverbinding met de ademhaling" },
+      { "id": 39, "text": "Stimuleert endorfineproductie" },
+      { "id": 40, "text": "Brengt de glimlach terug" },
+      { "id": 41, "text": "Activatie van de fascia voor diepe ontspanning" },
+      {
+        "id": 42,
+        "text": "Gerichte verlichting van pijnlijke spanningen in de rug"
+      },
+      {
+        "id": 43,
+        "text": "Helpt bij het draineren van weefsels en verfijnen van de silhouet"
+      },
+      { "id": 44, "text": "Gerichte massage voor diepe spierknopen" },
+      { "id": 45, "text": "Energetisch evenwicht en emotionele ondersteuning" },
+      { "id": 46, "text": "Vibratieverhoging en globale ontspanning" },
+      { "id": 47, "text": "Ontspanning van het craniosacraal systeem" },
+      { "id": 48, "text": "Stimulatie van reflexzones" },
+      { "id": 49, "text": "Snelle en effectieve ontspanning op het werk" },
+      {
+        "id": 50,
+        "text": "Zintuiglijke ontwaking en emotionele onderdompeling"
+      },
+      { "id": 51, "text": "Betere professionele productiviteit" },
+      { "id": 52, "text": "Richt zich op spierknopen" },
+      { "id": 53, "text": "Voorkomt blessures" },
+      { "id": 54, "text": "Verlichting van rugpijn" },
+      { "id": 55, "text": "Bevordert vetverbranding" },
+      { "id": 56, "text": "Effectief tegen cellulitis" },
+      { "id": 57, "text": "Diepe spierontspanning en relaxatie" },
+      { "id": 58, "text": "Ideaal voor diepe spierknopen" },
+      { "id": 59, "text": "Laat diepe spierlijke spanningen los" },
+      { "id": 60, "text": "Emotionele balans en ondersteuning" },
+      { "id": 61, "text": "Blokkades op energetisch niveau losmaken" },
+      { "id": 62, "text": "Verlichting van spanningen in het hoofd" },
+      {
+        "id": 63,
+        "text": "Kalmeert het zenuwstelsel en bevordert ontspanning"
+      },
+      { "id": 64, "text": "Bevrijdt fysieke en emotionele spanningen" }
+    ]
+  },
+  "hero-massage": {
+    "cta": "Boek deze behandeling →",
+    "massage": {
+      "title": "Laat stress vervagen… met een ontspannende massage",
+      "text1": "Waar rust en zachtheid elkaar ontmoeten. Geef je lichaam wat het verdient: tederheid, aandacht en diepe ontspanning.",
+      "text2": "Elke massage is een ontmoeting tussen jouw behoeften en verlangens."
+    },
+    "domicile": {
+      "title": "Ontvang een uitzonderlijke behandeling zonder je huis te verlaten",
+      "text1": "Laat je meevoeren door een volledig ontspannende ervaring, gewoon bij je thuis. Een behandeling op maat, in je eigen cocon.",
+      "text2": "Je hoeft de rust niet achterna te rennen — die komt naar jou toe."
+    },
+    "anticellulite": {
+      "title": "Herdefinieer je silhouet met een anti-cellulitis massage",
+      "text1": "Een gerichte aanpak om de huid te verstevigen, te draineren en gladder te maken. Tonisch maar met respect voor het lichaam.",
+      "text2": "Ontworpen voor vrouwen, combineert deze massage doeltreffendheid met zachtheid."
+    },
+    "deeptissue": {
+      "title": "Bevrijd diepe spanningen met een Deep Tissue massage",
+      "text1": "Een krachtige, gerichte behandeling voor gespannen spieren, aanhoudende pijn en opgebouwde stress.",
+      "text2": "Deze therapeutische massage werkt diepgaand en brengt verlichting en hernieuwde lichtheid."
+    },
+    "dos": {
+      "title": "Bevrijd je rug… met de Douceur Dorsale massage",
+      "text1": "Deze unieke massage richt zich op spanning langs de wervelkolom, schouders en onderrug. Alles is ontworpen om diepe verlichting te bieden.",
+      "text2": "Elke beweging nodigt uit om los te laten wat je rug te lang heeft gedragen."
+    },
+    "sportif": {
+      "title": "Bereid je lichaam voor, laat spanningen los",
+      "text1": "Een diepe massage voor sporters en actieve mensen. Ideaal voor of na een fysieke inspanning.",
+      "text2": "Elke behandeling wordt aangepast aan jouw lichaam, doelen en ritme."
+    },
+    "tao": {
+      "title": "Maak contact met je levensenergie met een Tao massage",
+      "text1": "Een innerlijke reis naar balans, traagheid en volledige aanwezigheid. Elke aanraking bevordert harmonie tussen lichaam en geest.",
+      "text2": "De Tao massage viert het leven, de energiestroom en het respect voor het lichaam."
+    },
+    "voyage": {
+      "title": "Gun je zintuigen een echte reis",
+      "text1": "Deze massage is een ode aan zachtheid, een viering van loslaten.",
+      "text2": "Ze nodigt het lichaam uit om zich over te geven en de geest om volledig tot rust te komen."
+    },
+    "amma": {
+      "title": "Bied je medewerkers een welzijnspauze aan",
+      "text1": "De Amma stoelmassage is ideaal om snel spanning los te laten zonder omkleden of neerliggen.",
+      "text2": "Een snelle maar diepwerkende behandeling, rechtstreeks op de werkplek."
+    },
+    "reflexo": {
+      "title": "Laat je voeten je naar harmonie leiden",
+      "text1": "Elke zone op de voet komt overeen met een deel van het lichaam. Reflexologie stimuleert deze zones voor energetisch evenwicht.",
+      "text2": "Deze behandeling verlicht spanning, stimuleert de circulatie en activeert het zelfhelend vermogen."
+    },
+    "reiki": {
+      "title": "Maak opnieuw contact met je innerlijke energie via Reiki",
+      "text1": "Een zachte en krachtige methode om harmonie te herstellen tussen lichaam en geest. Ervaar de diepe werking van energetische zorg.",
+      "text2": "Elke sessie is een uitnodiging om je te heroriënteren, los te laten en innerlijke rust te vinden."
+    },
+    "shiatsu": {
+      "title": "Breng je energie in balans met Shiatsu",
+      "text1": "Een Japanse therapeutische behandeling die diep inwerkt op de meridianen van het lichaam.",
+      "text2": "Herontdek harmonie, gronding en vitaliteit door precieze en zorgzame aanraking."
+    },
+    "cst": {
+      "title": "Verbind je lichaam opnieuw met zijn natuurlijke intelligentie",
+      "text1": "Cranio-sacrale therapie is een subtiele, krachtige benadering die het lichaam helpt zichzelf te reguleren en blokkades los te laten.",
+      "text2": "Ze werkt zacht op het zenuw- en energiesysteem en bevordert rust, gronding en regeneratie."
+    }
+  },
+  "whyThisCare": {
+    "title": "Voor wie is deze behandeling bedoeld?",
+    "titles": {
+      "relaxant": "Is deze ontspanningsmassage iets voor mij?",
+      "sportif": "Is deze behandeling geschikt voor mijn actieve lichaam?",
+      "domicile": "Voor wie is deze behandeling aan huis bedoeld?",
+      "tao": "Is deze Tao-massage iets voor mij?",
+      "dos": "Is deze rugmassage wat ik nodig heb?",
+      "anticellulite": "Is deze massage geschikt voor mijn behoeften?",
+      "deeptissue": "Heb ik een deep tissue massage nodig?",
+      "shiatsu": "Kan Shiatsu me helpen om weer in balans te komen?",
+      "reiki": "Is deze energetische behandeling iets voor mij?",
+      "cst": "Is craniosacrale therapie geschikt voor mij?",
+      "reflexo": "Is voetreflexologie iets voor mij?",
+      "amma": "Kan deze bedrijfsmassage mij helpen?",
+      "voyage": "Ben ik klaar voor een zintuiglijke reis?"
+    },
+    "list": [
+      {
+        "id": 1,
+        "question": "Voel je de behoefte om opnieuw tot jezelf te komen in een hectisch dagelijks leven?"
+      },
+      {
+        "id": 2,
+        "question": "Vraagt je lichaam om een zachte en zorgzame pauze?"
+      },
+      {
+        "id": 3,
+        "question": "Bouwt de stress zich op en zoek je een moment om op adem te komen?"
+      },
+      {
+        "id": 4,
+        "question": "Wil je opnieuw contact maken met je lichaam en je emoties?"
+      },
+      {
+        "id": 5,
+        "question": "Beleef je een intense periode en wil je graag loslaten?"
+      },
+      {
+        "id": 6,
+        "question": "Ben je op zoek naar een diep ontspannende ervaring?"
+      },
+      {
+        "id": 7,
+        "question": "Wil je je geest een moment van volledige rust gunnen?"
+      },
+      {
+        "id": 8,
+        "question": "Heb je last van chronische spanningen die je wilt verlichten?"
+      },
+      {
+        "id": 9,
+        "question": "Heb je moeite met inslapen of een verkwikkende slaap te vinden?"
+      },
+      { "id": 10, "question": "Voel je je emotioneel of mentaal uitgeput?" },
+      {
+        "id": 11,
+        "question": "Heb je een druk leven en behoefte aan een moment voor jezelf?"
+      },
+      {
+        "id": 12,
+        "question": "Heb je spierpijn door stress of een verkeerde houding?"
+      },
+      {
+        "id": 13,
+        "question": "Wil je een zachte, omhullende en geruststellende behandeling ervaren?"
+      },
+      {
+        "id": 14,
+        "question": "Wil je naar je lichaam luisteren en vertragen?"
+      },
+      {
+        "id": 15,
+        "question": "Geeft je lichaam signalen en ben je er eindelijk klaar voor om te luisteren?"
+      },
+      {
+        "id": 16,
+        "question": "Zit je vaak in je hoofd en wil je terug in contact komen met je lichaam?"
+      },
+      {
+        "id": 17,
+        "question": "Wil je gewoon goed voor jezelf zorgen, zonder specifieke reden?"
+      },
+      {
+        "id": 18,
+        "question": "Beleef je een overgangsperiode en heb je behoefte aan aarding?"
+      },
+      {
+        "id": 19,
+        "question": "Wil je jezelf een echte cocon van zachtheid cadeau doen?"
+      },
+      {
+        "id": 20,
+        "question": "Bereid je je voor op een belangrijk moment en wil je je opladen?"
+      },
+      {
+        "id": 21,
+        "question": "Voel je je gespannen bij het opstaan of na het werk?"
+      },
+      {
+        "id": 22,
+        "question": "Wil je je innerlijke energie in balans brengen?"
+      },
+      {
+        "id": 23,
+        "question": "Geef je vaak aan anderen maar zelden aan jezelf?"
+      },
+      {
+        "id": 24,
+        "question": "Voel je een gebrek aan respectvol en liefdevol contact?"
+      },
+      {
+        "id": 25,
+        "question": "Ben je op zoek naar een intuïtieve, op maat gemaakte en zorgzame massage?"
+      },
+      {
+        "id": 26,
+        "question": "Ben je op zoek naar een moment buiten de tijd?"
+      },
+      {
+        "id": 27,
+        "question": "Is je agenda overvol en heb je weinig ademruimte?"
+      },
+      {
+        "id": 28,
+        "question": "Voel je de behoefte aan echte aanwezigheid en een juiste aanraking?"
+      },
+      { "id": 29, "question": "Wil je je gewoon beter voelen in je lichaam?" },
+      { "id": 30, "question": "Wil je je gesteund voelen, zonder oordeel?" },
+      { "id": 31, "question": "Beleef je een emotioneel moeilijke periode?" },
+      {
+        "id": 32,
+        "question": "Ben je op zoek naar een zachte manier om spanningen te verlichten?"
+      },
+      { "id": 33, "question": "Voelt je lichaam strak of geblokkeerd aan?" },
+      {
+        "id": 34,
+        "question": "Heb je behoefte aan een pauze tussen twee verplichtingen?"
+      },
+      {
+        "id": 35,
+        "question": "Verlang je naar een knus moment, helemaal voor jezelf?"
+      },
+      {
+        "id": 36,
+        "question": "Wil je een behandeling gebaseerd op traagheid en aandachtige zorg?"
+      },
+      {
+        "id": 37,
+        "question": "Ben je hoogsensitief en op zoek naar een zachte en respectvolle aanraking?"
+      },
+      {
+        "id": 38,
+        "question": "Wil je opnieuw vertrouwen krijgen in je lichaam?"
+      },
+      {
+        "id": 39,
+        "question": "Verlang je naar een herverbinding met je ademhaling?"
+      },
+      {
+        "id": 40,
+        "question": "Wil je gewoon dankjewel zeggen tegen je lichaam?"
+      }
+    ]
+  },
+  "treatmentDescription": {
+    "availability": "Beschikbaar in de praktijk in Halle of aan huis in de omgeving van Brussel.",
+    "durationStart": "Elke sessie duurt",
+    "durationEnd": "om u een volledig verkwikkende ervaring te bieden.",
+    "relaxant": {
+      "title": "Een zachte en rustgevende behandeling",
+      "hero": "Met omhullende en ritmische bewegingen helpt deze massage spanningen los te laten, de geest te kalmeren en een diep gevoel van welzijn te herstellen. Het wordt aangepast aan ieders energie en behoeften.",
+      "durationMin": 90,
+      "durationMax": 120,
+      "text": "Gun uzelf dit moment van sereniteit vanaf",
+      "price": "99€"
+    },
+    "sportif": {
+      "title": "Een krachtige en gerichte massage",
+      "hero": "Ontworpen om spierherstel te optimaliseren en diepe spanningen te verlichten. Ideaal voor of na inspanning.",
+      "durationMin": 60,
+      "durationMax": 90,
+      "text": "Zorg voor uw spieren vanaf",
+      "price": "85€"
+    },
+    "domicile": {
+      "title": "Een behandeling bij u thuis, in alle rust",
+      "hero": "Geniet van een professionele massage zonder uw huis te verlaten. Alles is ontworpen voor uw comfort.",
+      "durationMin": 90,
+      "durationMax": 120,
+      "text": "Ontvang deze behandeling thuis vanaf",
+      "price": "135€"
+    },
+    "tao": {
+      "title": "Een rustgevend sensueel ritueel",
+      "hero": "De Tao-massage combineert traagheid, diepte en aandacht. Een uitnodiging voor een innerlijke reis.",
+      "durationMin": 90,
+      "durationMax": 120,
+      "text": "Herontdek uw vitale energie vanaf",
+      "price": "110€"
+    },
+    "dos": {
+      "title": "Een gerichte behandeling voor rugverlichting",
+      "hero": "Deze massage richt zich op de nek, schouders en onderrug om opgebouwde spanningen los te laten.",
+      "durationMin": 45,
+      "durationMax": 60,
+      "text": "Verlicht uw rug voor",
+      "price": "70€"
+    },
+    "anticellulite": {
+      "title": "Een verstevigende en revitaliserende massage",
+      "hero": "Een effectieve massage om weefsels glad te strijken, te draineren en te tonifiëren. Ideaal voor een harmonieuze silhouet.",
+      "durationMin": 45,
+      "durationMax": 60,
+      "text": "Geef uw lichaam een nieuwe impuls vanaf",
+      "price": "75€"
+    },
+    "deeptissue": {
+      "title": "Een diepe weefselmassage",
+      "hero": "Speciaal ontworpen om aanhoudende en diepe spierspanningen te ontspannen.",
+      "durationMin": 60,
+      "durationMax": 90,
+      "text": "Ontspan uw spieren voor",
+      "price": "85€"
+    },
+    "shiatsu": {
+      "title": "Een energetisch balancerende behandeling",
+      "hero": "Shiatsu gebruikt druk op meridianen om interne energieën te harmoniseren.",
+      "durationMin": 60,
+      "durationMax": 75,
+      "text": "Vind uw innerlijke balans vanaf",
+      "price": "80€"
+    },
+    "reiki": {
+      "title": "Een zachte harmonisatie",
+      "hero": "Reiki kalmeert, herstelt en revitaliseert energiecentra door handoplegging.",
+      "durationMin": 60,
+      "durationMax": 75,
+      "text": "Herontdek uw energie vanaf",
+      "price": "80€"
+    },
+    "cst": {
+      "title": "Een subtiele en diepe behandeling",
+      "hero": "Craniosacrale therapie werkt op het zenuwstelsel om diepe blokkades los te laten.",
+      "durationMin": 60,
+      "durationMax": 75,
+      "text": "Bied uw lichaam duurzame verlichting vanaf",
+      "price": "85€"
+    },
+    "reflexo": {
+      "title": "Voetverzorging met talloze voordelen",
+      "hero": "Voetreflexologie stimuleert reflexzones om het algehele evenwicht van het lichaam te verbeteren.",
+      "durationMin": 45,
+      "durationMax": 60,
+      "text": "Verzorg uw voeten voor",
+      "price": "70€"
+    },
+    "amma": {
+      "title": "Een expressmassage, overal",
+      "hero": "Zittende amma-massage verlicht snel spanningen op het werk of tijdens een evenement.",
+      "durationMin": 15,
+      "durationMax": 30,
+      "text": "Bied dit moment van welzijn vanaf",
+      "price": "25€"
+    },
+    "voyage": {
+      "title": "Een sensorische en diepe reis",
+      "hero": "Deze omhullende behandeling werkt op de fascia voor diepe ontspanning en totale relaxatie.",
+      "durationMin": 120,
+      "durationMax": 150,
+      "text": "Begin uw innerlijke reis voor",
+      "price": "135€"
+    },
+    "common": {
+      "location": "Aan huis of in de praktijk",
+      "duration": {
+        "prefix": "Duur tussen",
+        "to": "en",
+        "unit": "minuten"
+      }
+    }
+  },
+  "faq": {
+    "title": "Veelgestelde vragen",
+    "metaTitle": "FAQ over Massage & Therapie in Halle – Brussel",
+    "metaDescription": "Alle vragen over onze massages en behandelingen in Halle, Brussel of aan huis.",
+    "list": [
+      {
+        "id": 1,
+        "question": "Wat zijn de voordelen van een ontspannende massage?",
+        "answer": "Ontspanningsmassage vermindert stress, ontspant de spieren, verbetert de bloedsomloop en bevordert een herstellende slaap."
+      },
+      {
+        "id": 2,
+        "question": "Welke soorten massages bieden jullie aan?",
+        "answer": "We bieden ontspannende, sport-, anti-cellulite-, Shiatsu-, Reiki-, voetreflexologie-massages en meer aan, afgestemd op jouw behoeften."
+      },
+      {
+        "id": 3,
+        "question": "Bieden jullie massages aan huis aan?",
+        "answer": "Ja, sommige behandelingen worden aan huis aangeboden in de regio Halle en omgeving."
+      },
+      {
+        "id": 4,
+        "question": "Moet ik me uitkleden voor een massage?",
+        "answer": "Dat hangt af van de gekozen behandeling. Voor Shiatsu of Reiki blijf je gekleed. Voor oliemassages is ondergoed aanbevolen."
+      },
+      {
+        "id": 5,
+        "question": "Wat zijn de voordelen van een ontspannende massage?",
+        "answer": "Het helpt spanningen los te laten, de circulatie te verbeteren, het zenuwstelsel te kalmeren en de slaap te bevorderen."
+      },
+      {
+        "id": 6,
+        "question": "Kan ik een massage cadeau doen?",
+        "answer": "Absoluut! We bieden gepersonaliseerde cadeaubonnen aan."
+      },
+      {
+        "id": 7,
+        "question": "Kan ik vragen om een specifieke zone te behandelen?",
+        "answer": "Natuurlijk, elke sessie wordt gepersonaliseerd. Geef gerust je spanningszones aan."
+      },
+      {
+        "id": 8,
+        "question": "Wat zijn de effecten van Reiki?",
+        "answer": "Reiki bevordert ontspanning, emotioneel evenwicht en helpt energetische blokkades op te lossen."
+      },
+      {
+        "id": 9,
+        "question": "Moet ik nuchter komen?",
+        "answer": "Vermijd een zware maaltijd voor de sessie, maar kom ook niet met een lege maag."
+      },
+      {
+        "id": 10,
+        "question": "Helpt Reiki tegen stress?",
+        "answer": "Ja, Reiki kalmeert de geest, verlicht emotionele spanningen en brengt diepe ontspanning."
+      },
+      {
+        "id": 11,
+        "question": "Hoe lang duurt een sessie voetreflexologie?",
+        "answer": "Een sessie duurt meestal tussen de 45 minuten en 1 uur."
+      },
+      {
+        "id": 12,
+        "question": "Wordt Shiatsu met of zonder olie gedaan?",
+        "answer": "Shiatsu wordt gekleed uitgevoerd, zonder olie, via drukpunten."
+      },
+      {
+        "id": 13,
+        "question": "Kan ik een massage krijgen tijdens de zwangerschap?",
+        "answer": "Ja, sommige massages zijn geschikt vanaf het tweede trimester."
+      },
+      {
+        "id": 14,
+        "question": "Hoe vaak zou ik een massage moeten krijgen?",
+        "answer": "Afhankelijk van je behoeften, maar één sessie per maand is ideaal voor blijvend welzijn."
+      },
+      {
+        "id": 15,
+        "question": "Zijn er contra-indicaties voor massage?",
+        "answer": "Ja, koorts, besmettelijke ziekten, flebitis, recente breuken kunnen contra-indicaties zijn."
+      },
+      {
+        "id": 16,
+        "question": "Moet ik me volledig uitkleden voor een massage?",
+        "answer": "Nee, alleen de te masseren zones worden ontbloot, afhankelijk van je comfort."
+      },
+      {
+        "id": 17,
+        "question": "Wat is voetreflexologie?",
+        "answer": "Een massage van de voeten die reflexzones stimuleert die overeenkomen met de organen, om het lichaam in evenwicht te brengen."
+      },
+      {
+        "id": 18,
+        "question": "Welke massages bevorderen de slaap?",
+        "answer": "Ontspanningsmassage, Reiki en cranio-sacrale therapie zijn uitstekend voor een betere slaap."
+      },
+      {
+        "id": 19,
+        "question": "Kan een massage migraine verlichten?",
+        "answer": "Ja, hoofdmassage of Shiatsu kunnen hoofdpijn helpen verlichten."
+      },
+      {
+        "id": 20,
+        "question": "Is Reiki een massage?",
+        "answer": "Nee, het is een energetische methode gebaseerd op handoplegging, zonder fysieke manipulatie."
+      },
+      {
+        "id": 21,
+        "question": "Welke massage is geschikt bij spierpijn?",
+        "answer": "Een sportmassage of deep tissue massage is ideaal bij diepe spierspanningen."
+      },
+      {
+        "id": 22,
+        "question": "Moet je in Reiki geloven opdat het werkt?",
+        "answer": "Nee, Reiki werkt onafhankelijk van geloof; het werkt met de energie van het lichaam."
+      },
+      {
+        "id": 23,
+        "question": "Hoe lang duurt een massage?",
+        "answer": "Tussen 60 en 120 minuten, afhankelijk van de gekozen behandeling."
+      },
+      {
+        "id": 24,
+        "question": "Kan ik een massagesessie cadeau doen?",
+        "answer": "Ja, er zijn cadeaubonnen beschikbaar om welzijn te schenken aan dierbaren."
+      },
+      {
+        "id": 25,
+        "question": "Welke massage helpt bij herstel na sport?",
+        "answer": "De sportmassage helpt spieren te ontspannen en bevordert het herstel."
+      },
+      {
+        "id": 26,
+        "question": "Moet ik douchen na een massage?",
+        "answer": "Niet verplicht. Laat de essentiële oliën bij voorkeur intrekken voor een beter effect."
+      },
+      {
+        "id": 27,
+        "question": "Helpt massage de spijsvertering?",
+        "answer": "Ja, buikmassage of voetreflexologie kunnen helpen bij een betere spijsvertering."
+      },
+      {
+        "id": 28,
+        "question": "Is stoelmassage effectief?",
+        "answer": "Ja, het ontspant snel rug, nek en schouders in slechts 15-20 minuten."
+      },
+      {
+        "id": 29,
+        "question": "Mag ik praten tijdens de sessie?",
+        "answer": "Dat mag zeker. De meeste mensen verkiezen stilte voor optimale ontspanning."
+      },
+      {
+        "id": 30,
+        "question": "Wat is cranio-sacrale therapie?",
+        "answer": "Een zachte methode die spanningen loslaat in de schedel, wervelkolom en heiligbeen."
+      },
+      {
+        "id": 31,
+        "question": "Zijn massages geschikt voor kinderen?",
+        "answer": "Ja, zachte massages zijn mogelijk voor kinderen vanaf 16 jaar."
+      },
+      {
+        "id": 32,
+        "question": "Helpt massage bij angst?",
+        "answer": "Ja, massage stimuleert endorfines en kalmeert het zenuwstelsel."
+      },
+      {
+        "id": 33,
+        "question": "Helpt massage bij gewichtsverlies?",
+        "answer": "Massages doen je niet afvallen, maar anti-cellulite massages helpen het lichaam te verstevigen."
+      },
+      {
+        "id": 34,
+        "question": "Is er een leeftijdsgrens voor massage?",
+        "answer": "Nee, massages zijn geschikt voor alle leeftijden en kunnen worden aangepast voor ouderen."
+      },
+      {
+        "id": 35,
+        "question": "Wat moet ik dragen voor een massage?",
+        "answer": "Comfortabele kleding, vooral bij behandelingen waarbij je gekleed blijft zoals Shiatsu."
+      },
+      {
+        "id": 36,
+        "question": "Mag een litteken gemasseerd worden?",
+        "answer": "Ja, maar pas na volledige genezing. Vraag eventueel medisch advies."
+      },
+      {
+        "id": 37,
+        "question": "Verbetert massage de bloedsomloop?",
+        "answer": "Ja, het bevordert de veneuze terugstroom en zuurstofvoorziening van de weefsels."
+      },
+      {
+        "id": 38,
+        "question": "Is Reiki compatibel met medische behandelingen?",
+        "answer": "Ja, Reiki vervangt geen medische zorg maar ondersteunt het herstelproces."
+      },
+      {
+        "id": 39,
+        "question": "Helpt massage bij chronische pijn?",
+        "answer": "Ja, vooral bij rug-, nek- en stressgerelateerde pijnklachten."
+      },
+      {
+        "id": 40,
+        "question": "Wat is het verschil tussen energetische en fysieke massage?",
+        "answer": "Energetische massage werkt op subtiele energie, fysieke massage werkt op spieren en weefsels."
+      },
+      {
+        "id": 41,
+        "question": "Helpt massage bij concentratie?",
+        "answer": "Ja, door stress te verminderen, bevordert het mentaal evenwicht en focus."
+      },
+      {
+        "id": 42,
+        "question": "Mag ik een massage krijgen als ik moe ben?",
+        "answer": "Ja, juist dan! Massage revitaliseert lichaam en geest."
+      },
+      {
+        "id": 43,
+        "question": "Zijn massages ook voor mannen?",
+        "answer": "Natuurlijk, onze zorg is voor iedereen, ongeacht geslacht of leeftijd."
+      },
+      {
+        "id": 44,
+        "question": "Worden natuurlijke oliën gebruikt?",
+        "answer": "Ja, we gebruiken 100% natuurlijke plantaardige en essentiële oliën."
+      },
+      {
+        "id": 45,
+        "question": "Wat voel ik na een massage?",
+        "answer": "Ontspanning, hernieuwde energie, beter humeur. Soms lichte vermoeidheid door het loslaten."
+      },
+      {
+        "id": 46,
+        "question": "Zijn er bijwerkingen?",
+        "answer": "Zelden. Soms lichte vermoeidheid of toegenomen eliminatie na het loslaten van spanning."
+      },
+      {
+        "id": 47,
+        "question": "Helpt massage bij burn-out?",
+        "answer": "Ja, het helpt bij het herwinnen van kalmte en contact met het lichaam."
+      },
+      {
+        "id": 48,
+        "question": "Brengt massage emotioneel evenwicht?",
+        "answer": "Ja, het kalmeert het zenuwstelsel en helpt bij emotionele balans."
+      },
+      {
+        "id": 49,
+        "question": "Moet ik op voorhand reserveren?",
+        "answer": "Ja, alle sessies zijn op afspraak voor jouw comfort en rust."
+      },
+      {
+        "id": 50,
+        "question": "Wat is het verschil tussen massage thuis en in de praktijk?",
+        "answer": "Thuis ben je in je eigen ruimte. In de praktijk is alles geoptimaliseerd voor jouw welzijn."
+      }
+    ]
+  }
+}

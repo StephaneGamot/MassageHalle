@@ -1,38 +1,27 @@
+"use client";
+
 import Link from "next/link";
+import { useTranslations } from "next-intl";
+import LangSwitcher from "@/components/LangSwitcher";
 
 const navigation = {
   massages: [
-    { name: "Massage relaxant", href: "/massage/relaxant" },
-    { name: "Massage sportif", href: "/massage/sportif" },
-    { name: "Massage à domicile", href: "/massage/a-domicile" },
-    { name: "Douceur Dorsale", href: "/massage/douceur-dorsale" },
-    { name: "Massage anti-cellulite", href: "/massage/anti-cellulite" },
-    { name: "Massage tao", href: "/massage/tao" },
-    { name: "Massage deep-tissues", href: "/massage/deep-tissues" },
+    { key: "relaxant", href: "/massage/relaxant" },
+    { key: "sportif", href: "/massage/sportif" },
+    { key: "domicile", href: "/massage/a-domicile" },
+    { key: "douceur", href: "/massage/douceur-dorsale" },
+    { key: "anticellulite", href: "/massage/anti-cellulite" },
+    { key: "tao", href: "/massage/tao" },
+    { key: "deeptissue", href: "/massage/deep-tissues" },
   ],
   soins: [
-    { name: "Shiatsu", href: "/shiatsu" },
-    { name: "Reiki", href: "/reiki" },
-    { name: "Cranio sacrée", href: "/therapie-cranio-sacree" },
-    { name: "Reflexologie plantaire", href: "/reflexologie-plantaire" },
-    { name: "Voyage des sens", href: "/massage/voyage-des-sens" },
-    { name: "Massage sur chaise", href: "/massage-sur-chaise" },
+    { key: "shiatsu", href: "/shiatsu" },
+    { key: "reiki", href: "/reiki" },
+    { key: "cranio", href: "/therapie-cranio-sacree" },
+    { key: "reflexo", href: "/reflexologie-plantaire" },
+    { key: "voyage", href: "/massage/voyage-des-sens" },
+    { key: "amma", href: "/massage-sur-chaise" },
   ],
-informations: [
-  { name: "À propos", href: "#" },
-  { name: "Blog", href: "#" },
-  { name: "FAQ", href: "#" },
-  { name: "Avis", href: "#" },
-],
-
-ressources: [
-  { name: "Conditions d’utilisation", href: "#" },
-  { name: "Politique de confidentialité", href: "#" },
-  { name: "Plan du site", href: "#" },
-  { name: "Se connecter", href: "#" },
-  { name: "S’enregistrer", href: "#" },
-],
-
   social: [
     {
       name: "Facebook",
@@ -86,117 +75,64 @@ ressources: [
 };
 
 export default function Footer() {
+  const t = useTranslations("nav");
+  const tf = useTranslations("footer");
+
   return (
     <footer className="bg-gray-900">
-      <div className="mx-auto max-w-7xl px-6 py-8 lg:px-8 ">
-        <div className="xl:grid xl:grid-cols-2 xl:gap-8">
-          <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 gap-8 xl:col-span-2 xl:mt-0 text-center sm:text-left">
-            <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div>
-                <h3 className="text-lg font-bold !text-[#7EA23F]">Massages</h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation.massages.map((item) => (
-                    <li key={item.name}>
-                      <Link
-                        href={item.href}
-                        className="text-sm/6 text-gray-300 hover:text-white"
-                      >
-                        {item.name}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="mt-10 md:mt-0">
-                <h3 className="text-lg font-semibold !text-[#7EA23F]">
-                  Soins thérapeutiques
-                </h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation.soins.map((item) => (
-                    <li key={item.name}>
-                      <Link
-                        href={item.href}
-                        className="text-sm/6 text-gray-200 hover:text-white"
-                      >
-                        {item.name}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-            ‘{/* 
-            <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div>
-                <h3 className="text-lg font-semibold text-white">Informations</h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation.informations.map((item) => (
-                    <li key={item.name}>
-                      <Link
-                        href={item.href}
-                        className="text-sm/6 text-gray-400 hover:text-white"
-                      >
-                        {item.name}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div> 
-              <div className="mt-10 md:mt-0">
-                <h3 className="text-lg font-semibold text-white">Ressources</h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation.ressources.map((item) => (
-                    <li key={item.name}>
-                      <Link
-                        href={item.href}
-                        className="text-sm/6 text-gray-400 hover:text-white"
-                      >
-                        {item.name}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-*/}
-
-          </div>
-        </div>
-      {/*   <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24 lg:flex lg:items-center lg:justify-between">
+      <div className="mx-auto max-w-7xl px-6 py-8 lg:px-8">
+        {/* ✅ Répartition harmonieuse en 3 colonnes */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left mt-16">
+          
+          {/* Colonne 1 – Massages */}
           <div>
-            <h3 className="text-lg font-semibold">
-              Inscription à la newsletter
-            </h3>
-            <p className="mt-2 text-base">
-              Recevez les dernières nouvelles et offres spéciales dans votre
-              boîte mail
-            </p>
+            <h3 className="text-lg font-bold !text-[#7EA23F]">{t("massage")}</h3>
+            <ul className="mt-6 space-y-4">
+              {navigation.massages.map((item) => (
+                <li key={item.href}>
+                  <Link href={item.href} className="text-sm/6 text-gray-300 hover:text-white">
+                    {t(item.key)}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
-          <form className="mt-6 sm:flex sm:max-w-md lg:mt-0">
-            <label htmlFor="email-address" className="sr-only">
-              Votre email
-            </label>
-            <input
-              id="email-address"
-              name="email-address"
-              type="email"
-              required
-              placeholder="Votre email"
-              autoComplete="email"
-              className="w-full min-w-0 rounded-md bg-white/5 px-3 py-1.5 text-base text-white outline outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-[#556B2F] sm:w-56 sm:text-sm/6"
-            />
-            <div className="mt-4 sm:ml-4 sm:mt-0 sm:shrink-0">
-              <button
-                type="submit"
-                className="flex w-full items-center justify-center rounded-md bg-[#556B2F] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#8FBC8F] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#556B2F]"
-              >
-                S’abonner
-              </button>
-            </div>
-          </form>
-        </div> */}
-        <div className="mt-8 border-t border-white/10 pt-8 flex flex-col items-center gap-4 md:flex-row md:items-center md:justify-between">
 
+          {/* Colonne 2 – Soins thérapeutiques */}
+          <div>
+            <h3 className="text-lg font-semibold !text-[#7EA23F]">{t("therapeutic")}</h3>
+            <ul className="mt-6 space-y-4">
+              {navigation.soins.map((item) => (
+                <li key={item.href}>
+                  <Link href={item.href} className="text-sm/6 text-gray-200 hover:text-white">
+                    {t(item.key)}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Colonne 3 – Contact */}
+          <div>
+            <h3 className="text-lg font-semibold !text-[#7EA23F]">{tf("contact")}</h3>
+            <ul className="mt-6 space-y-2 text-sm/6 text-gray-200">
+              <li className="text-sm/6 !text-gray-200 hover:text-white">📍 {tf("address")}</li>
+              <li>
+                📞 <a href="tel:+32477131993" className="!text-sm/6 text-gray-200 hover:text-white">+32 477 13 19 93</a>
+              </li>
+              <li>
+                ✉️ <a href="mailto:stephanegamot@outlook.com" className="!text-sm/6 text-gray-200 hover:text-white">stephanegamot@outlook.com</a>
+              </li>
+              <li className="text-sm/6 !text-gray-200 hover:text-white italic">
+                🕐 {tf("opening")}
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+        {/* ✅ Bas de footer inchangé */}
+        <div className="mt-8 border-t border-white/10 pt-8 flex flex-col items-center gap-4 md:flex-row md:items-center md:justify-between">
           <div className="flex gap-x-6 md:order-2">
             {navigation.social.map((item) => (
               <Link
@@ -211,8 +147,11 @@ export default function Footer() {
               </Link>
             ))}
           </div>
+
+          <LangSwitcher direction="up" />
+
           <p className="mt-8 text-sm/6 !text-[#7EA23F] md:order-1 md:mt-0">
-            &copy; 2025 La Voie du Bien-Être. Tous droits réservés
+            &copy; 2025 La Voie du Bien-Être &nbsp;&nbsp;&nbsp; {tf("rights")}
           </p>
         </div>
       </div>

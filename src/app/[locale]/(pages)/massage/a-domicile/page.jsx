@@ -1,0 +1,90 @@
+import HeroMassage from "@/components/Hero/HeroMassage";
+import Benefits from "@/components/Benefits/Benefits";
+import WhyThisCare from "@/components/WhyThisCare/WhyThisCare";
+import TreatmentDescription from "@/components/TreatmentDescription/TreatmentDescription";
+import Gallery from "@/components/Gallery/Gallery";
+import CtaSectionMassagePage from "@/components/Cta/CtaSectionMassagePage";
+import Testimonials from "@/components/Testimonials/Testimonials";
+
+export async function generateMetadata({ params }) {
+  const { locale } = await Promise.resolve(params);
+  const currentLocale = locale ?? "fr";
+
+  return {
+    title: {
+      fr: "Massage à domicile à Halle, Bruxelles et alentours",
+      en: "Massage at Home in Halle, Brussels and Nearby",
+      nl: "Massage aan huis in Halle, Brussel en omgeving",
+    }[currentLocale],
+    description: {
+      fr: "Détendez votre corps et votre esprit grâce à un massage relaxant à Halle, près de Bruxelles. Une expérience douce, personnalisée, disponible à domicile.",
+      en: "Relax your body and mind with a soothing massage in Halle, near Brussels. A gentle and personalized experience, available at home.",
+      nl: "Ontspan je lichaam en geest met een rustgevende massage in Halle, nabij Brussel. Een zachte, persoonlijke ervaring, beschikbaar aan huis.",
+    }[currentLocale],
+    alternates: {
+      canonical: `https://lavoiedubienetre.be/${currentLocale}/massage/a-domicile`,
+    },
+    openGraph: {
+      title: {
+        fr: "Massage & soin thérapeutique à domicile",
+        en: "Home Massage & Therapeutic Care",
+        nl: "Massage & therapeutische zorg aan huis",
+      }[currentLocale],
+      description: {
+        fr: "Détendez votre corps et votre esprit grâce à un massage relaxant à Halle, près de Bruxelles. Disponible en cabinet ou à domicile.",
+        en: "Relax your body and mind with a soothing massage in Halle, near Brussels. Available in-studio or at home.",
+        nl: "Ontspan lichaam en geest met een rustgevende massage in Halle, nabij Brussel. Beschikbaar in de praktijk of aan huis.",
+      }[currentLocale],
+      url: `https://lavoiedubienetre.be/${currentLocale}/massage/a-domicile`,
+      type: "website",
+      siteName: "La Voie du Bien-Être",
+      locale: `${currentLocale}_BE`,
+      images: [
+        {
+          url: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
+          width: 1200,
+          height: 627,
+          alt: {
+            fr: "Une longue séance de massage lui permettant de tout oublier",
+            en: "A long massage session helping her forget everything",
+            nl: "Een lange massagesessie om alles te vergeten",
+          }[currentLocale],
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      site: "@voiedubienetre",
+      title: {
+        fr: "Massage à domicile à Halle | La Voie du Bien-Être",
+        en: "Home Massage in Halle | La Voie du Bien-Être",
+        nl: "Massage aan huis in Halle | La Voie du Bien-Être",
+      }[currentLocale],
+      description: {
+        fr: "Shiatsu Reiki Massage à domicile dans le Brabant wallon | La Voie du Bien-Être",
+        en: "Shiatsu Reiki Home Massage in the Brussels area | La Voie du Bien-Être",
+        nl: "Shiatsu Reiki Massage aan huis in de regio Brussel | La Voie du Bien-Être",
+      }[currentLocale],
+      images: [
+        "https://lavoiedubienetre.be/Images/OpenGraph/masseur-massage.jpg",
+      ],
+    },
+  };
+}
+
+
+export default function page() {
+  return (
+    <>
+      <main>
+        <HeroMassage variant="domicile" />
+        <WhyThisCare title="domicile" />
+        <Benefits ids={[1, 19, 35, 25]} title="domicile" />
+        <TreatmentDescription variant="domicile" />
+        <Gallery ids={[7, 12, 16]} />
+        <CtaSectionMassagePage variant="domicile" />
+        <Testimonials ids={[9, 17, 25, 33, 42]} />
+      </main>
+    </>
+  );
+}
