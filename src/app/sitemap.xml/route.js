@@ -1,7 +1,8 @@
 export async function GET() {
     const baseUrl = 'https://lavoiedubienetre.be';
     const locales = ['fr', 'en', 'nl'];
-    const pages = [
+    const paths = [
+      '',
       'massage/relaxant',
       'massage/sportif',
       'massage/a-domicile',
@@ -16,26 +17,28 @@ export async function GET() {
       'reflexologie-plantaire',
       'therapie-cranio-sacree',
       'faq',
-      '', // pour la page d’accueil
     ];
   
-    const urls = pages.map((page) => {
-      const urlBlock = `
-  <url>
-    <loc>${baseUrl}/fr/${page}</loc>
-    ${locales
-      .map(
-        (locale) =>
-          `<xhtml:link rel="alternate" hreflang="${locale}" href="${baseUrl}/${locale}/${page}" />`
-      )
-      .join('\n  ')}
-  </url>`;
-      return urlBlock;
+    const urls = paths.map((path) => {
+      const frPath = `${baseUrl}/fr/${path}`.replace(/\/+$/, ''); // nettoie fin de slash
+      const altLinks = locales
+        .map(
+          (lang) =>
+            `<xhtml:link rel="alternate" hreflang="${lang}" href="${baseUrl}/${lang}/${path}".replace(/\/+$/, '') />`
+        )
+        .join('\n    ');
+  
+      return `
+    <url>
+      <loc>${frPath}</loc>
+      ${altLinks}
+    </url>`;
     });
   
     const xml = `<?xml version="1.0" encoding="UTF-8"?>
-  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-          xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml">
   ${urls.join('\n')}
   </urlset>`;
   
