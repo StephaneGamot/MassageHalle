@@ -2,7 +2,7 @@ export async function GET() {
     const baseUrl = 'https://lavoiedubienetre.be';
     const locales = ['fr', 'en', 'nl'];
     const paths = [
-      '',
+      '', // home
       'massage/relaxant',
       'massage/sportif',
       'massage/a-domicile',
@@ -19,22 +19,26 @@ export async function GET() {
       'faq',
     ];
   
-    const urls = paths.map((path) => {
-      const cleanedPath = path.replace(/\/+$/, ''); // Nettoyage
-      const frPath = `${baseUrl}/fr/${cleanedPath}`;
-      const altLinks = locales
-        .map((lang) => {
-          const altUrl = `${baseUrl}/${lang}/${cleanedPath}`.replace(/\/+$/, '');
-          return `<xhtml:link rel="alternate" hreflang="${lang}" href="${altUrl}" />`;
-        })
-        .join('\n    ');
+    const today = new Date().toISOString();
   
-      return `
+    const urls = [];
+  
+    for (const path of paths) {
+      for (const locale of locales) {
+        const loc = `${baseUrl}/${locale}/${path}`.replace(/\/+$/, '');
+        const links = locales.map(lang => {
+          const href = `${baseUrl}/${lang}/${path}`.replace(/\/+$/, '');
+          return `<xhtml:link rel="alternate" hreflang="${lang}" href="${href}" />`;
+        }).join('\n    ');
+  
+        urls.push(`
     <url>
-      <loc>${frPath}</loc>
-      ${altLinks}
-    </url>`;
-    });
+      <loc>${loc}</loc>
+      <lastmod>${today}</lastmod>
+      ${links}
+    </url>`);
+      }
+    }
   
     const xml = `<?xml version="1.0" encoding="UTF-8"?>
   <urlset
