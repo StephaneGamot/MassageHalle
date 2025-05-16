@@ -1,4 +1,6 @@
 import { NextResponse } from 'next/server';
+import Negotiator from 'negotiator';
+import { match } from '@formatjs/intl-localematcher';
 import createMiddleware from 'next-intl/middleware';
 import { routing } from './src/i18n/routing';
 
@@ -16,20 +18,31 @@ const legacyPaths = [
   '/reiki',
   '/reflexologie-plantaire',
   '/therapie-cranio-sacree',
+  '/faq',
 ];
 
-export function middleware(request) {
-  const { pathname, locale } = request.nextUrl;
+const locales = routing.locales;
+const defaultLocale = routing.defaultLocale;
 
-  // Rediriger les anciennes URLs vers la version FR par défaut
+// 🔁 Redirige vers /[locale]/path en fonction de la langue du navigateur
+function getPreferredLocale(request) {
+  const negotiatorHeaders = {};
+  request.headers.forEach((value, key) => {
+    negotiatorHeaders[key] = value;
+  });
+
+  const languages = new Negotiator({ headers: negotiatorHeaders }).languages();
+  return match(languages, locales, defaultLocale);
+}
+
+export function middleware(request) {
+  const { pathname } = request.nextUrl;
+
   if (legacyPaths.includes(pathname)) {
-    return NextResponse.redirect(
-      new URL(`/fr${pathname}`, request.url),
-      308 // Permanent Redirect
-    );
+    const locale = getPreferredLocale(request);
+    return NextResponse.redirect(new URL(`/${locale}${pathname}`, request.url), 308);
   }
 
-  // Gérer les locales comme prévu (next-intl)
   return createMiddleware(routing)(request);
 }
 

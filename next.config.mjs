@@ -135,9 +135,15 @@ const nextConfig = {
       },
       {
         source: "/shiatsu/amma",
-        destination: "/massage-sur-chaise",
+        destination: "/massage/massage-sur-chaise",
         permanent: true,
       },
+      {
+        source: "/massage-sur-chaise",
+        destination: "/massage/massage-sur-chaise",
+        permanent: true,
+      },
+      
     ];
   },
 };

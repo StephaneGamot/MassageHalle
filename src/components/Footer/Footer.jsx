@@ -20,7 +20,7 @@ const navigation = {
     { key: "cranio", href: "/therapie-cranio-sacree" },
     { key: "reflexo", href: "/reflexologie-plantaire" },
     { key: "voyage", href: "/massage/voyage-des-sens" },
-    { key: "amma", href: "/massage-sur-chaise" },
+    { key: "amma", href: "/massage/massage-sur-chaise" },
   ],
   social: [
     {
