@@ -22,16 +22,9 @@ export async function generateMetadata({ params }) {
       en: "Enjoy a Shiatsu session in Halle to rebalance your energy, release tensions and restore deep well-being.",
       nl: "Ervaar een Shiatsu-behandeling in Halle om uw energie te balanceren, spanningen los te laten en diep welzijn te herstellen.",
     }[currentLocale],
-alternates: {
-  canonical: `https://lavoiedubienetre.be/${currentLocale}/shiatsu`,
-  languages: {
-    fr: 'https://lavoiedubienetre.be/fr/shiatsu',
-    en: 'https://lavoiedubienetre.be/en/shiatsu',
-    nl: 'https://lavoiedubienetre.be/nl/shiatsu',
-    'x-default': 'https://lavoiedubienetre.be/fr/shiatsu',
-  }
-},
-
+    alternates: {
+      canonical: `https://lavoiedubienetre.be/${currentLocale}/shiatsu`,
+    },
     openGraph: {
       title: {
         fr: "Shiatsu à Halle – Équilibre et détente en profondeur",

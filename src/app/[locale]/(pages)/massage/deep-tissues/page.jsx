@@ -22,16 +22,9 @@ export async function generateMetadata({ params }) {
       en: "Release deep tension and relieve chronic pain with a Deep Tissue massage in Halle. A powerful and focused treatment for lasting well-being.",
       nl: "Laat diepe spanningen los en verlicht chronische pijn met een Deep Tissue massage in Halle. Een krachtige en gerichte behandeling voor langdurig welzijn.",
     }[currentLocale],
-alternates: {
-  canonical: `https://lavoiedubienetre.be/${currentLocale}/massage/deep-tissues`,
-  languages: {
-    fr: 'https://lavoiedubienetre.be/fr/massage/deep-tissues',
-    en: 'https://lavoiedubienetre.be/en/massage/deep-tissues',
-    nl: 'https://lavoiedubienetre.be/nl/massage/deep-tissues',
-    'x-default': 'https://lavoiedubienetre.be/fr/massage/deep-tissues',
-  }
-},
-
+    alternates: {
+      canonical: `https://lavoiedubienetre.be/${currentLocale}/massage/deep-tissues`,
+    },
     openGraph: {
       title: {
         fr: "Massage Deep Tissues à domicile",

@@ -22,16 +22,9 @@ export async function generateMetadata({ params }) {
       en: "Discover our exclusive back massage in Halle. A gentle and targeted method to relieve tension and restore lightness and comfort.",
       nl: "Ontdek onze exclusieve rugmassage in Halle. Een zachte, gerichte methode om spanningen los te laten en een ontspannen rug te hervinden.",
     }[currentLocale],
-alternates: {
-  canonical: `https://lavoiedubienetre.be/${currentLocale}/massage/douceur-dorsale`,
-  languages: {
-    fr: 'https://lavoiedubienetre.be/fr/massage/douceur-dorsale',
-    en: 'https://lavoiedubienetre.be/en/massage/douceur-dorsale',
-    nl: 'https://lavoiedubienetre.be/nl/massage/douceur-dorsale',
-    'x-default': 'https://lavoiedubienetre.be/fr/massage/douceur-dorsale',
-  }
-},
-
+    alternates: {
+      canonical: `https://lavoiedubienetre.be/${currentLocale}/massage/douceur-dorsale`,
+    },
     openGraph: {
       title: {
         fr: "Massage du dos à Halle – Soin exclusif “Douceur Dorsale”",

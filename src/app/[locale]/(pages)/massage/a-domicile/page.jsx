@@ -21,16 +21,9 @@ export async function generateMetadata({ params }) {
       en: "Relax your body and mind with a soothing massage in Halle, near Brussels. A gentle and personalized experience, available at home.",
       nl: "Ontspan je lichaam en geest met een rustgevende massage in Halle, nabij Brussel. Een zachte, persoonlijke ervaring, beschikbaar aan huis.",
     }[currentLocale],
-   alternates: {
-  canonical: `https://lavoiedubienetre.be/${currentLocale}/massage/a-domicile`,
-  languages: {
-    'fr': 'https://lavoiedubienetre.be/fr/massage/a-domicile',
-    'en': 'https://lavoiedubienetre.be/en/massage/a-domicile',
-    'nl': 'https://lavoiedubienetre.be/nl/massage/a-domicile',
-    'x-default': 'https://lavoiedubienetre.be/fr/massage/a-domicile',
-  }
-},
-
+    alternates: {
+      canonical: `https://lavoiedubienetre.be/${currentLocale}/massage/a-domicile`,
+    },
     openGraph: {
       title: {
         fr: "Massage & soin thérapeutique à domicile",

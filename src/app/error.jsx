@@ -1,4 +1,4 @@
-'use client'; // obligatoire pour que ça fonctionne
+'use client'; 
 
 export default function GlobalError({ error, reset }) {
   console.error(error); // pour voir dans la console

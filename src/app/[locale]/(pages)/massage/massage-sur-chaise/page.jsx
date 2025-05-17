@@ -22,16 +22,9 @@ export async function generateMetadata({ params }) {
       en: "Offer your employees a moment of relaxation with seated Amma massage. Ideal to reduce stress, improve focus, and boost well-being at work.",
       nl: "Geef uw medewerkers een ontspanningsmoment met Amma stoelmassage. Ideaal om stress te verminderen, focus te verbeteren en welzijn op het werk te bevorderen.",
     }[currentLocale],
-alternates: {
-  canonical: `https://lavoiedubienetre.be/${currentLocale}/massage/massage-sur-chaise`,
-  languages: {
-    fr: 'https://lavoiedubienetre.be/fr/massage/massage-sur-chaise',
-    en: 'https://lavoiedubienetre.be/en/massage/massage-sur-chaise',
-    nl: 'https://lavoiedubienetre.be/nl/massage/massage-sur-chaise',
-    'x-default': 'https://lavoiedubienetre.be/fr/massage/massage-sur-chaise',
-  }
-},
-
+    alternates: {
+      canonical: `https://lavoiedubienetre.be/${currentLocale}/massage/massage-sur-chaise`,
+    },
     openGraph: {
       title: {
         fr: "Massage Amma assis en entreprise – Halle & Bruxelles",

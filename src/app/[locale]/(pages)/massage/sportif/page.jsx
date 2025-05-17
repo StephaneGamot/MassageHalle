@@ -22,16 +22,9 @@ export async function generateMetadata({ params }) {
       en: "Give your body optimal recovery after effort. Sports massage relieves muscle tension and boosts performance.",
       nl: "Gun je lichaam optimaal herstel na inspanning. Sportmassage verlicht spierpijn en verbetert prestaties.",
     }[currentLocale],
-  alternates: {
-  canonical: `https://lavoiedubienetre.be/${currentLocale}/massage/sportif`,
-  languages: {
-    fr: 'https://lavoiedubienetre.be/fr/massage/sportif',
-    en: 'https://lavoiedubienetre.be/en/massage/sportif',
-    nl: 'https://lavoiedubienetre.be/nl/massage/sportif',
-    'x-default': 'https://lavoiedubienetre.be/fr/massage/sportif',
-  }
-},
-
+    alternates: {
+      canonical: `https://lavoiedubienetre.be/${currentLocale}/massage/sportif`,
+    },
     openGraph: {
       title: {
         fr: "Massage Sportif à Halle – Récupération & Performance",

@@ -22,16 +22,9 @@ export async function generateMetadata({ params }) {
       en: "Give your body a calming break with a gentle, soothing massage in Halle.",
       nl: "Gun je lichaam een rustpauze met een zachte, ontspannende massage in Halle.",
     }[currentLocale],
- alternates: {
-  canonical: `https://lavoiedubienetre.be/${currentLocale}/massage/relaxant`,
-  languages: {
-    fr: 'https://lavoiedubienetre.be/fr/massage/relaxant',
-    en: 'https://lavoiedubienetre.be/en/massage/relaxant',
-    nl: 'https://lavoiedubienetre.be/nl/massage/relaxant',
-    'x-default': 'https://lavoiedubienetre.be/fr/massage/relaxant',
-  }
-},
-
+    alternates: {
+      canonical: `https://lavoiedubienetre.be/${currentLocale}/massage/relaxant`,
+    },
     openGraph: {
       title: {
         fr: "Massage relaxant à Halle | La Voie du Bien-Être",

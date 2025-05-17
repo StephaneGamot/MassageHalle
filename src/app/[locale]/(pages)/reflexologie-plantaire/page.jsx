@@ -22,16 +22,9 @@ export async function generateMetadata({ params }) {
       en: "Give your feet a unique experience with foot reflexology in Halle. A natural method to balance the body and calm the mind.",
       nl: "Gun uw voeten een unieke ervaring met voetreflexologie in Halle. Een natuurlijke methode om het lichaam in balans te brengen en de geest te kalmeren.",
     }[currentLocale],
-alternates: {
-  canonical: `https://lavoiedubienetre.be/${currentLocale}/reflexologie-plantaire`,
-  languages: {
-    fr: 'https://lavoiedubienetre.be/fr/reflexologie-plantaire',
-    en: 'https://lavoiedubienetre.be/en/reflexologie-plantaire',
-    nl: 'https://lavoiedubienetre.be/nl/reflexologie-plantaire',
-    'x-default': 'https://lavoiedubienetre.be/fr/reflexologie-plantaire',
-  }
-},
-
+    alternates: {
+      canonical: `https://lavoiedubienetre.be/${currentLocale}/reflexologie-plantaire`,
+    },
     openGraph: {
       title: {
         fr: "Réflexologie plantaire à Halle - Harmonie & Bien-être",
