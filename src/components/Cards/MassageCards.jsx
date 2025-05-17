@@ -13,6 +13,9 @@ export default function MassageCards({
 }) {
   const locale = useLocale();
 
+// ✅ sécurité : si pas de slug, on n'affiche pas la carte
+if (!slug || typeof slug !== 'string') return null;
+
   return (
     <div className="w-full sm:w-1/2 md:w-1/3 px-4 py-4">
       <Link

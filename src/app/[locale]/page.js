@@ -7,11 +7,11 @@ import Cta from "@/components/Cta/Cta";
 import StructuredData from "@/components/Metadata/StructuredData";
 import { MetadataHomePage } from "@/components/Metadata/HomePage/MetadataHomePage";
 
-import { getTranslations } from 'next-intl/server';
+import { getTranslations } from "next-intl/server";
 
 export async function generateMetadata({ params }) {
   const { locale } = await Promise.resolve(params);
-  const currentLocale = locale ?? 'fr';
+  const currentLocale = locale ?? "fr";
 
   return {
     title: {
@@ -26,8 +26,6 @@ export async function generateMetadata({ params }) {
     }[currentLocale],
     alternates: {
       canonical: `https://lavoiedubienetre.be/${currentLocale}`,
-      
-      
     },
     openGraph: {
       title: {
@@ -70,25 +68,24 @@ export async function generateMetadata({ params }) {
         en: "Take care of yourself with a relaxing or therapeutic massage in Halle, Uccle, Tubize or at home.",
         nl: "Verzorg jezelf met een ontspannende of therapeutische massage in Halle, Ukkel, Tubize of bij je thuis.",
       }[currentLocale],
-      images: ["https://lavoiedubienetre.be/Images/OpenGraph/accueil-massage-halle.webp"],
+      images: [
+        "https://lavoiedubienetre.be/Images/OpenGraph/accueil-massage-halle.webp",
+      ],
     },
   };
 }
 
-
-
-
 export default function Home() {
   return (
     <>
- <StructuredData data={MetadataHomePage} />
-    <main>
-      <Hero />
-      <MassageCardContainer />
-      <Cta />
-      <Contact />
-       <Testimonials ids={[1, 4, 7, 23, 35]} />
-    </main>
+      <StructuredData data={MetadataHomePage} />
+      <main>
+        <Hero />
+        <MassageCardContainer />
+        <Cta />
+        <Contact />
+        <Testimonials ids={[1, 4, 7, 23, 35]} />
+      </main>
     </>
   );
 }
