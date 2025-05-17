@@ -22,9 +22,16 @@ export async function generateMetadata({ params }) {
       en: "Reconnect with your vital energy through Tao massage in Halle. A unique experience combining gentleness, slowness, and body awareness.",
       nl: "Herontdek je vitale energie met een Tao-massage in Halle. Een unieke ervaring van zachtheid, traagheid en lichaamsbewustzijn.",
     }[currentLocale],
-    alternates: {
-      canonical: `https://lavoiedubienetre.be/${currentLocale}/massage/tao`,
-    },
+ alternates: {
+  canonical: `https://lavoiedubienetre.be/${currentLocale}/massage/tao`,
+  languages: {
+    fr: 'https://lavoiedubienetre.be/fr/massage/tao',
+    en: 'https://lavoiedubienetre.be/en/massage/tao',
+    nl: 'https://lavoiedubienetre.be/nl/massage/tao',
+    'x-default': 'https://lavoiedubienetre.be/fr/massage/tao',
+  }
+},
+
     openGraph: {
       title: {
         fr: "Massage tao à Halle - Harmonie & Énergie | La Voie du Bien-Être",

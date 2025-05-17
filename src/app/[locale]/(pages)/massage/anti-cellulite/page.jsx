@@ -22,9 +22,16 @@ export async function generateMetadata({ params }) {
       en: "Tone, smooth and boost circulation with a personalized anti-cellulite massage in Halle. For a reshaped silhouette and firmer skin.",
       nl: "Verstevig, egaliseer en stimuleer de circulatie met een anti-cellulitis massage op maat in Halle. Voor een hertekend silhouet en stevigere huid.",
     }[currentLocale],
-    alternates: {
-      canonical: `https://lavoiedubienetre.be/${currentLocale}/massage/anti-cellulite`,
-    },
+  alternates: {
+  canonical: `https://lavoiedubienetre.be/${currentLocale}/massage/anti-cellulite`,
+  languages: {
+    fr: 'https://lavoiedubienetre.be/fr/massage/anti-cellulite',
+    en: 'https://lavoiedubienetre.be/en/massage/anti-cellulite',
+    nl: 'https://lavoiedubienetre.be/nl/massage/anti-cellulite',
+    'x-default': 'https://lavoiedubienetre.be/fr/massage/anti-cellulite',
+  }
+},
+
     openGraph: {
       title: {
         fr: "Massage anti-cellulite à domicile",

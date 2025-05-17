@@ -22,9 +22,16 @@ export async function generateMetadata({ params }) {
       en: "Enjoy a Reiki session in Halle to rebalance your energy and restore inner harmony. A gentle, deep, and compassionate care.",
       nl: "Ervaar een Reiki-behandeling in Halle om uw energieën te harmoniseren en uw innerlijk evenwicht te herstellen. Een zachte, diepe en zorgzame begeleiding.",
     }[currentLocale],
-    alternates: {
-      canonical: `https://lavoiedubienetre.be/${currentLocale}/reiki`,
-    },
+alternates: {
+  canonical: `https://lavoiedubienetre.be/${currentLocale}/reiki`,
+  languages: {
+    fr: 'https://lavoiedubienetre.be/fr/reiki',
+    en: 'https://lavoiedubienetre.be/en/reiki',
+    nl: 'https://lavoiedubienetre.be/nl/reiki',
+    'x-default': 'https://lavoiedubienetre.be/fr/reiki',
+  }
+},
+
     openGraph: {
       title: {
         fr: "Reiki à Halle (Bruxelles) - Soin énergétique & Équilibre",
