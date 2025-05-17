@@ -8,7 +8,8 @@ import {
 import { PlusIcon, MinusIcon } from "@heroicons/react/24/outline";
 
 export async function generateMetadata({ params }) {
-  const { locale } = await Promise.resolve(params ?? {});
+  const { locale } = await Promise.resolve(params);
+  const currentLocale = locale ?? "fr";
   const t = await getTranslations({ locale, namespace: "faq" });
 
 
