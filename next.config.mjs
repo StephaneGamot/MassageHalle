@@ -171,7 +171,7 @@ const nextConfig = {
         source: '/faq',
         destination: '/fr/faq',
         permanent: true,
-      },
+      }
       
     ];
   },
