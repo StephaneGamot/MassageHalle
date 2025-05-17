@@ -18,6 +18,12 @@ export async function generateMetadata({ params }) {
     description: t("metaDescription"),
  alternates: {
   canonical: `https://lavoiedubienetre.be/${currentLocale}/faq`,
+ languages: {
+    fr: 'https://lavoiedubienetre.be/fr/faq',
+    en: 'https://lavoiedubienetre.be/en/faq',
+    nl: 'https://lavoiedubienetre.be/nl/faq',
+    'x-default': 'https://lavoiedubienetre.be/fr/faq',
+  } 
 },
     openGraph: {
       title: t("metaTitle"),
