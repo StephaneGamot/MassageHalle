@@ -1,4 +1,4 @@
-"use client";
+import { getTranslations } from 'next-intl/server';
 import { useTranslations } from "next-intl";
 import {
   Disclosure,
@@ -10,6 +10,7 @@ import { PlusIcon, MinusIcon } from "@heroicons/react/24/outline";
 export async function generateMetadata({ params }) {
   const { locale } = await Promise.resolve(params ?? {});
   const t = await getTranslations({ locale, namespace: "faq" });
+
 
   return {
     title: t("metaTitle"),

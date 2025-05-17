@@ -1,4 +1,4 @@
-import Head from "next/head";
+
 import HeroMassage from "@/components/Hero/HeroMassage";
 import Benefits from "@/components/Benefits/Benefits";
 import WhyThisCare from "@/components/WhyThisCare/WhyThisCare";
