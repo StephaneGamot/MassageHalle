@@ -1,3 +1,6 @@
+"use client";
+
+import { useLocale } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -6,11 +9,18 @@ export default function MassageCards({
   description,
   imageUrl,
   imageAlt,
-  url
+  slug // 👈 remplace `url`
 }) {
+  const locale = useLocale();
+
   return (
     <div className="w-full sm:w-1/2 md:w-1/3 px-4 py-4">
-      <Link href={url} passHref role="link" aria-label={`En savoir plus sur ${title}`}>
+      <Link
+        href={`/${locale}/${slug}`}
+        passHref
+        role="link"
+        aria-label={`En savoir plus sur ${title}`}
+      >
         <div className="block bg-white shadow-lg rounded-lg overflow-hidden w-64 custom-height mx-auto md:m-0 hover:shadow-xl transition-shadow duration-300">
           <Image
             src={imageUrl}
@@ -32,3 +42,4 @@ export default function MassageCards({
     </div>
   );
 }
+
