@@ -1,21 +1,25 @@
-'use client';
-import { useTranslations } from 'next-intl';
-import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/react";
+"use client";
+import { useTranslations } from "next-intl";
+import {
+  Disclosure,
+  DisclosureButton,
+  DisclosurePanel,
+} from "@headlessui/react";
 import { PlusIcon, MinusIcon } from "@heroicons/react/24/outline";
 
-async function generateMetadata({ params }) {
+export async function generateMetadata({ params }) {
   const { locale } = await Promise.resolve(params ?? {});
-  const t = await getTranslations({ locale, namespace: 'faq' });
+  const t = await getTranslations({ locale, namespace: "faq" });
 
   return {
-    title: t('metaTitle'),
-    description: t('metaDescription'),
+    title: t("metaTitle"),
+    description: t("metaDescription"),
     alternates: {
       canonical: `https://lavoiedubienetre.be/${locale}/faq`,
     },
     openGraph: {
-      title: t('metaTitle'),
-      description: t('metaDescription'),
+      title: t("metaTitle"),
+      description: t("metaDescription"),
       url: `https://lavoiedubienetre.be/${locale}/faq`,
       siteName: "La voie du bien-être - massage relaxant",
       locale: `${locale}_BE`,
@@ -29,10 +33,10 @@ async function generateMetadata({ params }) {
       ],
     },
     twitter: {
-      title: t('metaTitle'),
+      title: t("metaTitle"),
       card: "summary_large_image",
       site: "@voiedubienetre",
-      description: t('metaDescription'),
+      description: t("metaDescription"),
       images: [
         "https://lavoiedubienetre.be/Images/OpenGraph/masseur-massage.jpg",
       ],
@@ -40,27 +44,39 @@ async function generateMetadata({ params }) {
   };
 }
 
-
 export default function Page() {
-  const t = useTranslations('faq');
-  const questions = t.raw('list');
-
+  const t = useTranslations("faq");
+  const questions = t.raw("list");
 
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
         <div className="mx-auto max-w-4xl">
-          <h1 className="text-4xl font-semibold tracking-tight sm:text-5xl">{t('title')}</h1>
-          <h2 className="sr-only">{t('metaDescription')}</h2>
+          <h1 className="text-4xl font-semibold tracking-tight sm:text-5xl">
+            {t("title")}
+          </h1>
+          <h2 className="sr-only">{t("metaDescription")}</h2>
           <dl className="mt-16 divide-y divide-gray-900/10">
             {questions.map((faq, idx) => (
-              <Disclosure key={idx} as="div" className="py-6 first:pt-0 last:pb-0">
+              <Disclosure
+                key={idx}
+                as="div"
+                className="py-6 first:pt-0 last:pb-0"
+              >
                 <dt>
                   <DisclosureButton className="group flex w-full items-start justify-between text-left text-gray-900">
-                    <span className="text-base/7 font-semibold">{faq.question}</span>
+                    <span className="text-base/7 font-semibold">
+                      {faq.question}
+                    </span>
                     <span className="ml-6 flex h-7 items-center">
-                      <PlusIcon aria-hidden="true" className="size-6 group-data-[open]:hidden" />
-                      <MinusIcon aria-hidden="true" className="size-6 group-[&:not([data-open])]:hidden" />
+                      <PlusIcon
+                        aria-hidden="true"
+                        className="size-6 group-data-[open]:hidden"
+                      />
+                      <MinusIcon
+                        aria-hidden="true"
+                        className="size-6 group-[&:not([data-open])]:hidden"
+                      />
                     </span>
                   </DisclosureButton>
                 </dt>
