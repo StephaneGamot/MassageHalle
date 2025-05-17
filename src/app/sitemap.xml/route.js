@@ -2,7 +2,7 @@ export async function GET() {
     const baseUrl = 'https://lavoiedubienetre.be';
     const locales = ['fr', 'en', 'nl'];
     const paths = [
-      '', // home
+      '', // Home
       'massage/relaxant',
       'massage/sportif',
       'massage/a-domicile',
@@ -26,17 +26,20 @@ export async function GET() {
     for (const path of paths) {
       for (const locale of locales) {
         const loc = `${baseUrl}/${locale}/${path}`.replace(/\/+$/, '');
-        const links = locales.map(lang => {
-          const href = `${baseUrl}/${lang}/${path}`.replace(/\/+$/, '');
-          return `<xhtml:link rel="alternate" hreflang="${lang}" href="${href}" />`;
-        }).join('\n    ');
+  
+        const alternateLinks = locales
+          .map(lang => {
+            const href = `${baseUrl}/${lang}/${path}`.replace(/\/+$/, '');
+            return `<xhtml:link rel="alternate" hreflang="${lang}" href="${href}" />`;
+          })
+          .join('\n    ');
   
         urls.push(`
-    <url>
-      <loc>${loc}</loc>
-      <lastmod>${today}</lastmod>
-      ${links}
-    </url>`);
+      <url>
+        <loc>${loc}</loc>
+        <lastmod>${today}</lastmod>
+        ${alternateLinks}
+      </url>`);
       }
     }
   
