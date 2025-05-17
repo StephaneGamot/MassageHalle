@@ -23,6 +23,12 @@ export async function generateMetadata({ params }) {
     }[currentLocale],
     alternates: {
       canonical: `https://lavoiedubienetre.be/${currentLocale}/massage/a-domicile`,
+      languages: {
+        fr: 'https://lavoiedubienetre.be/fr/massage/a-domicile',
+        en: 'https://lavoiedubienetre.be/en/massage/a-domicile',
+        nl: 'https://lavoiedubienetre.be/nl/massage/a-domicile',
+        'x-default': 'https://lavoiedubienetre.be/fr/massage/a-domicile',
+      }
     },
     openGraph: {
       title: {

@@ -21,9 +21,16 @@ export async function generateMetadata({ params }) {
       en: "Experience a deep sensory escape with the Journey Massage in Halle. A cocooning treatment for complete letting go, in full safety.",
       nl: "Beleef een diepe zintuiglijke ontsnapping met de Reis der Zintuigen massage in Halle. Een omhullende behandeling voor totale ontspanning, in alle veiligheid.",
     }[currentLocale],
-    alternates: {
-      canonical: `https://lavoiedubienetre.be/${currentLocale}/massage/voyage-des-sens`,
-    },
+  alternates: {
+  canonical: `https://lavoiedubienetre.be/${currentLocale}/massage/voyage-des-sens`,
+  languages: {
+    fr: 'https://lavoiedubienetre.be/fr/massage/voyage-des-sens',
+    en: 'https://lavoiedubienetre.be/en/massage/voyage-des-sens',
+    nl: 'https://lavoiedubienetre.be/nl/massage/voyage-des-sens',
+    'x-default': 'https://lavoiedubienetre.be/fr/massage/voyage-des-sens',
+  }
+},
+
     openGraph: {
       title: {
         fr: "Massage Voyage des Sens à Halle - Évasion & Détente Totale",

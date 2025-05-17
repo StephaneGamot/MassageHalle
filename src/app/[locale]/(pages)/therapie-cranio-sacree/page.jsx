@@ -22,9 +22,16 @@ export async function generateMetadata({ params }) {
       en: "Give your body a subtle yet powerful treatment with craniosacral therapy. Ideal to release deep nervous system tensions.",
       nl: "Gun uw lichaam een subtiele maar krachtige behandeling met craniosacrale therapie. Ideaal om diepe spanningen in het zenuwstelsel los te laten.",
     }[currentLocale],
-    alternates: {
-      canonical: `https://lavoiedubienetre.be/${currentLocale}/therapie-cranio-sacree`,
-    },
+alternates: {
+  canonical: `https://lavoiedubienetre.be/${currentLocale}/therapie-cranio-sacree`,
+  languages: {
+    fr: 'https://lavoiedubienetre.be/fr/therapie-cranio-sacree',
+    en: 'https://lavoiedubienetre.be/en/therapie-cranio-sacree',
+    nl: 'https://lavoiedubienetre.be/nl/therapie-cranio-sacree',
+    'x-default': 'https://lavoiedubienetre.be/fr/therapie-cranio-sacree',
+  }
+},
+
     openGraph: {
       title: {
         fr: "Thérapie Cranio-Sacrée à Halle – Apaisement profond",

@@ -26,6 +26,13 @@ export async function generateMetadata({ params }) {
     }[currentLocale],
     alternates: {
       canonical: `https://lavoiedubienetre.be/${currentLocale}`,
+      languages: {
+        fr: 'https://lavoiedubienetre.be/fr',
+        en: 'https://lavoiedubienetre.be/en',
+        nl: 'https://lavoiedubienetre.be/nl',
+        'x-default': 'https://lavoiedubienetre.be/fr',
+      }
+      
     },
     openGraph: {
       title: {
