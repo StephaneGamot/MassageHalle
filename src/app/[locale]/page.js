@@ -33,34 +33,37 @@ export async function generateMetadata({ params }) {
         'x-default': 'https://lavoiedubienetre.be',
       }
     },
-    openGraph: {
-      title: {
-        fr: "Massages bien-être à Halle | La Voie du Bien-Être",
-        en: "Well-being massages in Halle | La Voie du Bien-Être",
-        nl: "Wellnessmassages in Halle | La Voie du Bien-Être",
+   openGraph: {
+  title: {
+    fr: "Massages bien-être à Halle | La Voie du Bien-Être",
+    en: "Well-being massages in Halle | La Voie du Bien-Être",
+    nl: "Wellnessmassages in Halle | La Voie du Bien-Être",
+  }[currentLocale],
+  description: {
+    fr: "Offrez-vous un moment de détente absolue avec nos soins personnalisés dans un cadre apaisant.",
+    en: "Treat yourself to total relaxation with our personalized treatments in a soothing setting.",
+    nl: "Gun jezelf een moment van volledige ontspanning met onze persoonlijke behandelingen in een rustgevende omgeving.",
+  }[currentLocale],
+  url: `https://lavoiedubienetre.be/${currentLocale}`,
+  siteName: "La Voie du Bien-Être",
+  locale: `${currentLocale}_BE`,
+  type: "website",
+  images: [
+    {
+      url: "https://lavoiedubienetre.be/Images/OpenGraph/accueil-massage-halle.webp",
+      secureUrl: "https://lavoiedubienetre.be/Images/OpenGraph/accueil-massage-halle.webp",
+      width: 1200,
+      height: 627,
+      alt: {
+        fr: "Massage bien-être à Halle",
+        en: "Well-being massage in Halle",
+        nl: "Wellnessmassage in Halle",
       }[currentLocale],
-      description: {
-        fr: "Offrez-vous un moment de détente absolue avec nos soins personnalisés dans un cadre apaisant.",
-        en: "Treat yourself to total relaxation with our personalized treatments in a soothing setting.",
-        nl: "Gun jezelf een moment van volledige ontspanning met onze persoonlijke behandelingen in een rustgevende omgeving.",
-      }[currentLocale],
-      url: `https://lavoiedubienetre.be/${currentLocale}`,
-      siteName: "La Voie du Bien-Être",
-      locale: `${currentLocale}_BE`,
-      type: "website",
-      images: [
-        {
-          url: "https://lavoiedubienetre.be/Images/OpenGraph/accueil-massage-halle.webp",
-          width: 1200,
-          height: 627,
-          alt: {
-            fr: "Massage bien-être à Halle",
-            en: "Well-being massage in Halle",
-            nl: "Wellnessmassage in Halle",
-          }[currentLocale],
-        },
-      ],
+      type: "image/webp"
     },
+  ]
+},
+
     twitter: {
       card: "summary_large_image",
       site: "@voiedubienetre",
