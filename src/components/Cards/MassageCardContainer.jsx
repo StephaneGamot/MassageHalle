@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import MassageCards from "./MassageCards";
 import massageCardData from "./massageCardData.json";
 
+
 export default function MassageCardContainer() {
   const t = useTranslations("massages");
 
@@ -15,7 +16,7 @@ export default function MassageCardContainer() {
             {massageCardData.map((card) => (
               <MassageCards
                 key={card.id}
-                url={card.url}
+                slug={card.slug}      
                 imageUrl={card.imageUrl}
                 title={t(`cards.${card.id - 1}.title`)}
                 description={t(`cards.${card.id - 1}.description`)}

@@ -4,9 +4,16 @@
 import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 import { useTranslations } from 'next-intl';
+import { useEffect } from "react";
 
 export default function Contact() {
   const t = useTranslations('contact');
+
+   // ✅ Champ de validation JS (invisible pour les bots)
+   useEffect(() => {
+    const field = document.getElementById("validation-check");
+    if (field) field.value = "ok";
+  }, []);
 
   return (
     <div id='contact' className="relative isolate bg-gray-900">
@@ -76,25 +83,48 @@ export default function Contact() {
                 </dd>
               </div>
               <div className="flex gap-x-4">
-                <dt className="flex-none">
-                  <span className="sr-only">Email</span>
-                  <EnvelopeIcon aria-hidden="true" className="h-7 w-6 text-gray-400" />
-                </dt>
-                <dd>
-                  <Link href="mailto:hello@example.com" className="hover:text-white">
-                    lavoiedubienetre@outlook.com
-                  </Link>
-                </dd>
-              </div>
+  <dt className="flex-none">
+    <span className="sr-only">Email</span>
+    <EnvelopeIcon aria-hidden="true" className="h-7 w-6 text-gray-400" />
+  </dt>
+  <dd>
+    <Link
+      href={`mailto:${atob("bGF2b2llZHViaWVuZXRyZUBvdXRsb29rLmNvbQ==")}`}
+      className="hover:text-white"
+    >
+      {atob("bGF2b2llZHViaWVuZXRyZUBvdXRsb29rLmNvbQ==")}
+    </Link>
+  </dd>
+</div>
+
             </dl>
           </div>
         </div>
-        <form action="https://formsubmit.co/lavoiedubienetre@outlook.com" method="POST" className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48">
+       <form
+          action="https://formsubmit.co/lavoiedubienetre@outlook.com"
+          method="POST"
+          className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48"
+        >
           <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
+            {/* ✅ Champs de sécurité invisibles */}
+            <input type="text" name="_honeypot" style={{ display: "none" }} />
+            <input type="hidden" name="_origin" value="https://lavoiedubienetre.be" />
+            <input type="hidden" id="validation-check" name="validation-check" />
+
+            {/* ✅ Paramètres de redirection et affichage */}
+            <input type="hidden" name="_captcha" value="false" />
+            <input
+              type="hidden"
+              name="_subject"
+              value="Nouveau message via le site La Voie du Bien-Être"
+            />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_next" value="https://lavoiedubienetre.be/" />
+
             <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
               <div>
                 <label htmlFor="first-name" className="block text-sm/6 font-semibold text-white">
-                {t("form.firstName")}
+                  {t("form.firstName")}
                 </label>
                 <div className="mt-2.5">
                   <input
@@ -108,7 +138,7 @@ export default function Contact() {
               </div>
               <div>
                 <label htmlFor="last-name" className="block text-sm/6 font-semibold text-white">
-                {t("form.lastName")}
+                  {t("form.lastName")}
                 </label>
                 <div className="mt-2.5">
                   <input
@@ -122,7 +152,7 @@ export default function Contact() {
               </div>
               <div className="sm:col-span-2">
                 <label htmlFor="email" className="block text-sm/6 font-semibold text-white">
-                {t("form.email")}
+                  {t("form.email")}
                 </label>
                 <div className="mt-2.5">
                   <input
@@ -136,7 +166,7 @@ export default function Contact() {
               </div>
               <div className="sm:col-span-2">
                 <label htmlFor="phone-number" className="block text-sm/6 font-semibold text-white">
-                {t("form.phone")}
+                  {t("form.phone")}
                 </label>
                 <div className="mt-2.5">
                   <input
@@ -150,7 +180,7 @@ export default function Contact() {
               </div>
               <div className="sm:col-span-2">
                 <label htmlFor="message" className="block text-sm/6 font-semibold text-white">
-                {t("form.message")}
+                  {t("form.message")}
                 </label>
                 <div className="mt-2.5">
                   <textarea
@@ -158,19 +188,14 @@ export default function Contact() {
                     name="message"
                     rows={4}
                     className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-[#556B2F]"
-                    defaultValue={''}
+                    defaultValue={""}
                   />
                 </div>
               </div>
             </div>
+
+            {/* ✅ Bouton d'envoi */}
             <div className="mt-8 flex justify-end">
-
-<input type="hidden" name="_captcha" value="false" />
-<input type="hidden" name="_subject" value="Nouveau message via le site La Voie du Bien-Être" />
-<input type="hidden" name="_template" value="table" />
-<input type="hidden" name="_next" value="https://lavoiedubienetre.be/" />
-
-
               <button
                 type="submit"
                 className="rounded-md bg-[#556B2F] px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-[#8FBC8F] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#556B2F]"
