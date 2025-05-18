@@ -18,9 +18,9 @@ export async function generateMetadata({ params }) {
       nl: "Ontspanningsmassage in Halle | La Voie du Bien-Être",
     }[currentLocale],
     description: {
-      fr: "Offrez à votre corps une pause apaisante avec un massage relaxant doux et enveloppant à Halle.",
-      en: "Give your body a calming break with a gentle, soothing massage in Halle.",
-      nl: "Gun je lichaam een rustpauze met een zachte, ontspannende massage in Halle.",
+      "fr": "Un massage relaxant doux et enveloppant pour relâcher le stress et les tensions. Détente totale à Halle et alentours.",
+      "en": "A gentle, soothing massage to relieve stress and tension. Total relaxation in Halle and surrounding areas.",
+      "nl": "Een zachte, ontspannende massage om stress en spanning los te laten. Totale ontspanning in Halle en omgeving."
     }[currentLocale],
  alternates: {
   canonical: `https://lavoiedubienetre.be/${currentLocale}/massage/relaxant`,

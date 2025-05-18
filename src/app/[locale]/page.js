@@ -20,17 +20,18 @@ export async function generateMetadata({ params }) {
       nl: "Wellnessmassages in Halle | La Voie du Bien-Être",
     }[currentLocale],
     description: {
-      fr: "Découvrez nos massages relaxants et soins thérapeutiques à Halle, en cabinet ou à domicile.",
-      en: "Discover our relaxing massages and therapeutic treatments in Halle, at home or in our studio.",
-      nl: "Ontdek onze ontspanningsmassages en therapeutische behandelingen in Halle, aan huis of in de praktijk.",
-    }[currentLocale],
+      "fr": "Massages bien-être à Halle, Bruxelles et alentours. Offrez-vous un moment de détente avec nos soins relaxants en cabinet ou à domicile.",
+      "en": "Well-being massages in Halle and Brussels. Enjoy a moment of relaxation with our soothing treatments at home or in our studio.",
+      "nl": "Ontspanningsmassages in Halle en Brussel. Geniet van rustgevende behandelingen aan huis of in onze praktijk."
+    }
+    [currentLocale],
     alternates: {
       canonical: `https://lavoiedubienetre.be/${currentLocale}`,
       languages: {
         fr: 'https://lavoiedubienetre.be/fr',
         en: 'https://lavoiedubienetre.be/en',
         nl: 'https://lavoiedubienetre.be/nl',
-        'x-default': 'https://lavoiedubienetre.be',
+        'x-default': 'https://lavoiedubienetre.be/fr',
       }
     },
    openGraph: {
