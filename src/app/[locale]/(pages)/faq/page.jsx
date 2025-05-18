@@ -37,6 +37,7 @@ export async function generateMetadata({ params }) {
           width: 1200,
           height: 627,
           alt: "Une longue séance de massage lui permetant de tout oublier",
+          type: "image/webp" 
         },
       ],
     },
