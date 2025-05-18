@@ -117,7 +117,12 @@ export default function Footer() {
                 📞 <a href="tel:+32477131993" className="!text-sm/6 text-gray-200 hover:text-white">+32 477 13 19 93</a>
               </li>
               <li>
-                ✉️ <a href="mailto:stephanegamot@outlook.com" className="!text-sm/6 text-gray-200 hover:text-white">stephanegamot@outlook.com</a>
+                ✉️  <Link
+                      href={`mailto:${atob("bGF2b2llZHViaWVuZXRyZUBvdXRsb29rLmNvbQ==")}`}
+                      className="!text-sm/6 text-gray-200 hover:text-white"
+                    >
+                      {atob("bGF2b2llZHViaWVuZXRyZUBvdXRsb29rLmNvbQ==")}
+                    </Link>
               </li>
               <li className="text-sm/6 !text-gray-200 hover:text-white italic">
                 🕐 {tf("opening")}
