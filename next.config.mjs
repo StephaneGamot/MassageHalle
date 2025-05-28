@@ -130,17 +130,17 @@ const nextConfig = {
       },
       {
         source: "/shiatsu/traditionnel",
-        destination: "/shiatsu",
+        destination: "/fr/shiatsu",
         permanent: true,
       },
       {
         source: "/shiatsu/amma",
-        destination: "/massage/massage-sur-chaise",
+        destination: "/fr/massage/massage-sur-chaise",
         permanent: true,
       },
       {
         source: "/massage-sur-chaise",
-        destination: "/massage/massage-sur-chaise",
+        destination: "/fr/massage/massage-sur-chaise",
         permanent: true,
       }, {
         source: '/massage/:slug*',
@@ -170,6 +170,54 @@ const nextConfig = {
       {
         source: '/faq',
         destination: '/fr/faq',
+        permanent: true,
+      },
+      {
+        source: '/index.html',
+        destination: '/fr',
+        permanent: true,
+      },
+      {
+        source: '/videos/massage-',
+        destination: '/fr',
+        permanent: true,
+      },
+      {
+        source: '/massage/a-domicile',
+        destination: '/fr/massage/a-domicile',
+        permanent: true,
+      },
+      {
+        source: '/massage/massage-sur-chaise',
+        destination: '/fr/massage/massage-sur-chaise',
+        permanent: true,
+      }, {
+        source: '/fr/',
+        destination: '/fr',
+        permanent: true,
+      }, {
+        source: '/massage/tao',
+        destination: '/fr/massage/tao',
+        permanent: true,
+      }, {
+        source: '/massage/sportif',
+        destination: '/fr/massage/sportif',
+        permanent: true,
+      }, {
+        source: '/massage/douceur-dorsale',
+        destination: '/fr/massage/douceur-dorsale',
+        permanent: true,
+      }, {
+        source: '/massage/voyage-des-sens',
+        destination: '/fr/massage/voyage-des-sens',
+        permanent: true,
+      }, {
+        source: '/massage/anti-cellulite',
+        destination: '/fr/massage/anti-cellulite',
+        permanent: true,
+      }, {
+        source: '/massage/relaxant',
+        destination: '/fr/massage/relaxant',
         permanent: true,
       }
       
