@@ -1,4 +1,3 @@
-import Head from "next/head";
 import HeroMassage from "@/components/Hero/HeroMassage";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import Gallery from "@/components/Gallery/Gallery";
