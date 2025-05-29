@@ -17,7 +17,7 @@ export async function generateMetadata({ params }) {
     title: {
       fr: "Massage relaxant & soin à Hal - Bruxelles | La Voie du Bien-Être",
       en: "Relaxing massage & care in Halle - Brussels| La Voie du Bien-Être",
-      nl: "Ontspannende massage & behandeling in Halle - Brussel | La Voie du Bien-Être",
+      nl: "Ontspannende massage & behandeling in Halle - Brussel",
     }[currentLocale],
     description: {
       "fr": "Massages bien-être à Halle, Bruxelles et alentours. Offrez-vous un moment de détente avec nos soins relaxants en cabinet ou à domicile.",
