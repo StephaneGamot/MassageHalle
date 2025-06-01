@@ -7,13 +7,21 @@ export default function CtaSectionMassagePage({ variant = "" }) {
   const t = useTranslations("ctaMassage");
 
   return (
-    <section id="reservation" className="py-24 bg-[#f7f7f7]">
+    <section
+      id="reservation"
+      className="py-24 bg-[#f7f7f7]"
+      role="region"
+      aria-labelledby="cta-massage-title"
+    >
       <div className="text-center max-w-xl mx-auto px-6">
-        <h3 className="text-3xl font-serif text-gray-900">
-        {t(`titles.${variant}`)}
+        <h3
+          id="cta-massage-title"
+          className="text-3xl font-serif text-gray-900"
+        >
+          {t(`titles.${variant}`)}
         </h3>
         <p className="mt-4 text-lg text-gray-600">
-        {t("paragraph", { soin: t(`soins.${variant}`) })}
+          {t("paragraph", { soin: t(`soins.${variant}`) })}
         </p>
         <div className="mt-8">
           <Link

@@ -11,7 +11,9 @@ export default function Benefits({ ids = [], title = "" }) {
     .filter((b) => ids.includes(b.id))
     .map((benefit) => ({
       ...benefit,
-      translatedText: translations.find((item) => item.id === benefit.id)?.text || benefit.text,
+      translatedText:
+        translations.find((item) => item.id === benefit.id)?.text ||
+        benefit.text,
     }));
 
   if (selectedBenefits.length === 0) {
@@ -19,9 +21,16 @@ export default function Benefits({ ids = [], title = "" }) {
   }
 
   return (
-    <section className="py-16 bg-white">
+    <section
+      className="py-16 bg-white"
+      role="region"
+      aria-labelledby="benefits-title"
+    >
       <div className="mx-auto max-w-5xl px-6 text-center">
-        <h2 className="text-3xl font-serif font-semibold text-gray-900 mb-10">
+        <h2
+          id="benefits-title"
+          className="text-3xl font-serif font-semibold text-gray-900 mb-10"
+        >
           {t("why")} {t(`titles.${title}`)} ?
         </h2>
 
@@ -31,9 +40,7 @@ export default function Benefits({ ids = [], title = "" }) {
               key={benefit.id}
               className="rounded-xl bg-gray-50 p-6 shadow-sm hover:shadow-md transition"
             >
-              <p className="text-lg text-gray-700">
-                {benefit.translatedText}
-              </p>
+              <p className="text-lg text-gray-700">{benefit.translatedText}</p>
             </div>
           ))}
         </div>

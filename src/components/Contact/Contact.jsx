@@ -1,6 +1,5 @@
 "use client";
 
-
 import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 import { useTranslations } from 'next-intl';
@@ -9,8 +8,7 @@ import { useEffect } from "react";
 export default function Contact() {
   const t = useTranslations('contact');
 
-   // ✅ Champ de validation JS (invisible pour les bots)
-   useEffect(() => {
+  useEffect(() => {
     const field = document.getElementById("validation-check");
     if (field) field.value = "ok";
   }, []);
@@ -55,9 +53,9 @@ export default function Contact() {
                 />
               </div>
             </div>
-            <h2 className="text-pretty text-4xl font-semibold tracking-tight !text-[#6a8934] sm:text-5xl">{t("title")}</h2>
+            <h2 id="contact-title" className="text-pretty text-4xl font-semibold tracking-tight !text-[#6a8934] sm:text-5xl">{t("title")}</h2>
             <p className="mt-6 text-lg/8 !text-[#7EA23F]">
-            {t("paragraph")}
+              {t("paragraph")}
             </p>
             <dl className="mt-10 space-y-4 text-base/7 text-gray-300">
               <div className="flex gap-x-4">
@@ -66,8 +64,7 @@ export default function Contact() {
                   <BuildingOffice2Icon aria-hidden="true" className="h-7 w-6 text-gray-400" />
                 </dt>
                 <dd>
-                  Octaaf de kerchove d'exaerdestraat 193
-                  <br />
+                  Octaaf de kerchove d'exaerdestraat 193<br />
                   1501 Buizingen (Halle)
                 </dd>
               </div>
@@ -83,41 +80,41 @@ export default function Contact() {
                 </dd>
               </div>
               <div className="flex gap-x-4">
-  <dt className="flex-none">
-    <span className="sr-only">Email</span>
-    <EnvelopeIcon aria-hidden="true" className="h-7 w-6 text-gray-400" />
-  </dt>
-  <dd>
-    <Link
-      href={`mailto:${atob("bGF2b2llZHViaWVuZXRyZUBvdXRsb29rLmNvbQ==")}`}
-      className="hover:text-white"
-    >
-      {atob("bGF2b2llZHViaWVuZXRyZUBvdXRsb29rLmNvbQ==")}
-    </Link>
-  </dd>
-</div>
-
+                <dt className="flex-none">
+                  <span className="sr-only">Email</span>
+                  <EnvelopeIcon aria-hidden="true" className="h-7 w-6 text-gray-400" />
+                </dt>
+                <dd>
+                  <Link
+                    href={`mailto:${atob("bGF2b2llZHViaWVuZXRyZUBvdXRsb29rLmNvbQ==")}`}
+                    className="hover:text-white"
+                  >
+                    {atob("bGF2b2llZHViaWVuZXRyZUBvdXRsb29rLmNvbQ==")}
+                  </Link>
+                </dd>
+              </div>
             </dl>
           </div>
         </div>
-       <form
+
+        <form
           action="https://formsubmit.co/lavoiedubienetre@outlook.com"
           method="POST"
+          role="form"
+          aria-labelledby="contact-title"
           className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48"
         >
           <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
-            {/* ✅ Champs de sécurité invisibles */}
-            <input type="text" name="_honeypot" style={{ display: "none" }} />
+            <input
+              type="text"
+              name="_honeypot"
+              aria-label="Leave this field empty"
+              style={{ display: "none" }}
+            />
             <input type="hidden" name="_origin" value="https://lavoiedubienetre.be" />
             <input type="hidden" id="validation-check" name="validation-check" />
-
-            {/* ✅ Paramètres de redirection et affichage */}
             <input type="hidden" name="_captcha" value="false" />
-            <input
-              type="hidden"
-              name="_subject"
-              value="Nouveau message via le site La Voie du Bien-Être"
-            />
+            <input type="hidden" name="_subject" value="Nouveau message via le site La Voie du Bien-Être" />
             <input type="hidden" name="_template" value="table" />
             <input type="hidden" name="_next" value="https://lavoiedubienetre.be/" />
 
@@ -126,79 +123,72 @@ export default function Contact() {
                 <label htmlFor="first-name" className="block text-sm/6 font-semibold text-white">
                   {t("form.firstName")}
                 </label>
-                <div className="mt-2.5">
-                  <input
-                    id="first-name"
-                    name="first-name"
-                    type="text"
-                    autoComplete="given-name"
-                    className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-[#556B2F]"
-                  />
-                </div>
+                <input
+                  id="first-name"
+                  name="first-name"
+                  type="text"
+                  autoComplete="given-name"
+                  required
+                  className="mt-2.5 block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline outline-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:outline-[#556B2F]"
+                />
               </div>
               <div>
                 <label htmlFor="last-name" className="block text-sm/6 font-semibold text-white">
                   {t("form.lastName")}
                 </label>
-                <div className="mt-2.5">
-                  <input
-                    id="last-name"
-                    name="last-name"
-                    type="text"
-                    autoComplete="family-name"
-                    className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-[#556B2F]"
-                  />
-                </div>
+                <input
+                  id="last-name"
+                  name="last-name"
+                  type="text"
+                  autoComplete="family-name"
+                  required
+                  className="mt-2.5 block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline outline-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:outline-[#556B2F]"
+                />
               </div>
               <div className="sm:col-span-2">
                 <label htmlFor="email" className="block text-sm/6 font-semibold text-white">
                   {t("form.email")}
                 </label>
-                <div className="mt-2.5">
-                  <input
-                    id="email"
-                    name="email"
-                    type="email"
-                    autoComplete="email"
-                    className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-[#556B2F]"
-                  />
-                </div>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  autoComplete="email"
+                  required
+                  className="mt-2.5 block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline outline-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:outline-[#556B2F]"
+                />
               </div>
               <div className="sm:col-span-2">
                 <label htmlFor="phone-number" className="block text-sm/6 font-semibold text-white">
                   {t("form.phone")}
                 </label>
-                <div className="mt-2.5">
-                  <input
-                    id="phone-number"
-                    name="phone-number"
-                    type="tel"
-                    autoComplete="tel"
-                    className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-[#556B2F]"
-                  />
-                </div>
+                <input
+                  id="phone-number"
+                  name="phone-number"
+                  type="tel"
+                  autoComplete="tel"
+                  required
+                  className="mt-2.5 block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline outline-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:outline-[#556B2F]"
+                />
               </div>
               <div className="sm:col-span-2">
                 <label htmlFor="message" className="block text-sm/6 font-semibold text-white">
                   {t("form.message")}
                 </label>
-                <div className="mt-2.5">
-                  <textarea
-                    id="message"
-                    name="message"
-                    rows={4}
-                    className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-[#556B2F]"
-                    defaultValue={""}
-                  />
-                </div>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows={4}
+                  className="mt-2.5 block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline outline-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:outline-[#556B2F]"
+                  defaultValue={""}
+                />
               </div>
             </div>
 
-            {/* ✅ Bouton d'envoi */}
             <div className="mt-8 flex justify-end">
               <button
                 type="submit"
-                className="rounded-md bg-[#556B2F] px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-[#8FBC8F] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#556B2F]"
+                className="rounded-md bg-[#556B2F] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#8FBC8F] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#556B2F]"
               >
                 {t("form.submit")}
               </button>
@@ -207,5 +197,5 @@ export default function Contact() {
         </form>
       </div>
     </div>
-  )
+  );
 }

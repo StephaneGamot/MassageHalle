@@ -5,14 +5,20 @@ import { useTranslations } from "next-intl";
 export default function TreatmentDescription({ variant = "" }) {
   const t = useTranslations("treatmentDescription");
 
-  // ✅ on utilise t.raw() pour récupérer des données non textuelles
   const min = t.raw(`${variant}.durationMin`);
   const max = t.raw(`${variant}.durationMax`);
 
   return (
-    <section className="py-20 bg-gray-50">
+    <section
+      className="py-20 bg-gray-50"
+      role="region"
+      aria-labelledby="treatment-title"
+    >
       <div className="mx-auto max-w-4xl px-6 text-center">
-        <h2 className="text-3xl font-serif font-semibold text-gray-900">
+        <h2
+          id="treatment-title"
+          className="text-3xl font-serif font-semibold text-gray-900"
+        >
           {t(`${variant}.title`)}
         </h2>
         <p className="mt-6 text-lg text-gray-700">
