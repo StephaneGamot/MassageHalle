@@ -1,29 +1,25 @@
+"use client";
+
 import Link from "next/link";
 
-
-
 export default function NotFound() {
-    return (
-        <main className="isolate min-h-full">
-        <img
-          alt="Page 404"
-          src="https://images.unsplash.com/photo-1545972154-9bb223aac798?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3050&q=80&exp=8&con=-15&sat=-75"
-          className="absolute inset-0 -z-10 size-full object-cover object-top"
-        />
-        <div className="mx-auto max-w-7xl px-6 py-32 text-center sm:py-40 lg:px-8">
-          <h1 className="mt-4 text-balance text-5xl font-semibold tracking-tight text-white sm:text-7xl">
-            Vous êtes perdu
-          </h1>
-          <p className="mt-6 text-pretty text-lg font-medium text-white/70 sm:text-xl/8">
-            Désolé mais la page que vous recherchez n'existe pas 
-          </p>
-          <div className="mt-10 flex justify-center">
-            <Link href="/" className="text-sm/7 font-semibold text-white">
-              <span aria-hidden="true">&larr;</span> retour à l'accueil
-            </Link>
-          </div>
+  return (
+    <main className="notfound-wrapper">
+      <div className="notfound-overlay" />
+
+      <div className="notfound-content">
+        <h1 className="text-5xl sm:text-7xl font-semibold !text-white">
+          Vous êtes perdu
+        </h1>
+        <p className="mt-6 text-lg sm:text-xl !text-white/80">
+          Désolé, la page que vous recherchez n'existe pas.
+        </p>
+        <div className="mt-10 flex justify-center">
+          <Link href="/" className="text-white font-semibold text-xl underline">
+            &larr; Retour à l’accueil
+          </Link>
         </div>
-      </main>
-    );
-  }
-  
+      </div>
+    </main>
+  );
+}

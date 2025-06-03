@@ -105,12 +105,17 @@ export default function Contact() {
           className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48"
         >
           <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
-            <input
-              type="text"
-              name="_honeypot"
-              aria-label="Leave this field empty"
-              style={{ display: "none" }}
-            />
+             {/* Anti-spam Honeypot */}
+            <div className="sr-only">
+              <label htmlFor="website">Ne pas remplir ce champ</label>
+              <input
+                type="text"
+                id="website"
+                name="_honey"
+                tabIndex="-1"
+                autoComplete="off"
+              />
+            </div>
             <input type="hidden" name="_origin" value="https://lavoiedubienetre.be" />
             <input type="hidden" id="validation-check" name="validation-check" />
             <input type="hidden" name="_captcha" value="false" />
