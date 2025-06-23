@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌿 La Voie du Bien-Être – Site Vitrine Multilingue
 
-## Getting Started
+Ce dépôt contient le code source du site [La Voie du Bien-Être](https://www.lavoiedubienetre.be), un site vitrine élégant dédié au bien-être et aux soins holistiques (massages, Reiki, Shiatsu…).
+Conçu avec une attention particulière à la **performance**, à l’**accessibilité** et au **référencement naturel (SEO)**, ce site incarne un équilibre entre design, émotion et technologie.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## ✨ Objectifs du projet
+
+- 💆‍♀️ Présenter les différents **soins & massages**
+- 💬 Mettre en avant des **témoignages humains et sincères**
+- 🌍 Offrir une expérience multilingue : **Français, Anglais, Néerlandais**
+- 📈 Optimiser la visibilité SEO pour des recherches locales et thématiques
+- ♿ Garantir un site **accessible et responsive** pour tous les publics
+
+---
+
+## 🛠️ Stack technique
+
+- **Framework** : [Next.js 15 (App Router)](https://nextjs.org/)
+- **Styling** : [Tailwind CSS](https://tailwindcss.com/)
+- **Internationalisation** : [`next-intl`](https://next-intl.js.org/) – i18n dynamique
+- **Accessibilité** : WCAG 2.1 AA compliant (`jest-axe`, ARIA, contrastes, tabIndex…)
+- **SEO** :
+  - Balises dynamiques (`title`, `description`, `Open Graph`, `Twitter`)
+  - Données structurées JSON-LD (`Website`, `Service`, `FAQ`, `Person`)
+  - Canonical URLs, sitemap et redirections optimisées
+- **Performance** : Lazy loading, CDN Vercel, Turbopack
+
+---
+
+## 📁 Structure du projet
+
+```
+/src
+ ├─ /app
+ │   └─ [locale]              // Pages multilingues dynamiques
+ ├─ /components               // Composants UI (Hero, Cards, Footer…)
+ ├─ /messages                 // Traductions i18n (fr, en, nl)
+ ├─ /i18n                     // Configuration routing i18n
+ ├─ /data                     // Données structurées (massages, témoignages, FAQ…)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🧠 Fonctionnalités
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 🌍 **Navigation multilingue fluide** (FR / EN / NL)
+- 🧩 **Composants réutilisables** (massages, CTA, témoignages…)
+- 🪷 **Pages massages individuelles** avec : images, bénéfices, description, tarifs, SEO
+- 🧾 **FAQ dynamique** traduite
+- 📞 **Page Contact** ergonomique
+- 📊 **Tracking Analytics** + Vercel Insights
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🧪 Tests ( en cours )
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Accessibilité** avec `jest-axe`
+- **CI/CD** via GitHub Actions (tests automatiques)
+- **SEO audit** via Lighthouse & SEO meta testing tools
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 👤 Auteur
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Stéphane Gamot**  
+🎯 Développeur Front-End spécialisé React / Next.js  
+📍 Basé en Belgique – Freelance / Consultant  
+📫 [stephanegamot@outlook.com](mailto:stephanegamot@outlook.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/stephanegamot/) • [Site](https://www.lavoiedubienetre.be)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📄 Licence
+
+Ce projet est sous licence MIT.  
+Merci de respecter le contenu, les visuels et la philosophie du site dans toute réutilisation.
