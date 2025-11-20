@@ -871,9 +871,9 @@
       "title": "Un soin chez vous, en toute sérénité",
       "hero": "Profitez d’un massage professionnel sans quitter votre domicile. Tout est pensé pour votre confort.",
       "durationMin": 90,
-      "durationMax": 1200,
+      "durationMax": 120,
       "text": "Recevez ce soin à la maison, dès",
-      "price": "135€"
+      "price": "185€"
     },
     "tao": {
       "title": "Un rituel sensoriel apaisant",

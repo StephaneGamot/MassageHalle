@@ -1,4 +1,4 @@
-// import Image from "next/image";
+
 import Testimonials from "@/components/Testimonials/Testimonials";
 import Contact from "@/components/Contact/Contact";
 import Hero from "@/components/Hero/Hero";
@@ -6,6 +6,7 @@ import MassageCardContainer from "@/components/Cards/MassageCardContainer";
 import Cta from "@/components/Cta/Cta";
 import StructuredData from "@/components/Metadata/StructuredData";
 import { MetadataHomePage } from "@/components/Metadata/HomePage/MetadataHomePage";
+import LocalBusinessJSONLD from "@/components/Metadata/LocalBusiness";
 
 import { getTranslations } from 'next-intl/server';
 
@@ -89,6 +90,7 @@ export async function generateMetadata({ params }) {
 export default function Home() {
   return (
     <>
+     <LocalBusinessJSONLD locale={currentLocale} />
  <StructuredData data={MetadataHomePage} />
     <main>
       <Hero />

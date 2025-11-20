@@ -6,6 +6,8 @@ import { routing } from "@/i18n/routing";
 import Footer from "@/components/Footer/Footer";
 import NavWithDropdown from "@/components/Header/NavBar";
 import "@/app/globals.css";
+import { DefaultSeo } from 'next-seo';
+import { defaultSeo } from '@/seo.config';
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
@@ -49,6 +51,7 @@ export default async function LocaleLayout(props) {
       </head>
       <body className={`${cormorant.variable} ${openSans.variable}`}>
         <NextIntlClientProvider locale={safeLocale} messages={messages}>
+          <DefaultSeo {...defaultSeo} />
           <NavWithDropdown />
           {children}
           <Footer />
