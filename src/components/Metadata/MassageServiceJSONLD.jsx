@@ -70,15 +70,6 @@ const BASE_OFFERS = [
   },
 ];
 
-// ⚠️ IMPORTANT : les `path` doivent matcher EXACTEMENT tes routes :
-// /[locale]/massage/relaxant
-// /[locale]/massage/shiatsu
-// /[locale]/massage/sportif
-// /[locale]/massage/tao
-// /[locale]/massage/deep-tissues
-// /[locale]/massage/douceur-dorsale
-// /[locale]/massage/a-domicile
-// /[locale]/massage/reiki
 const massageServices = {
   relaxant: {
     path: "relaxant",
@@ -330,7 +321,7 @@ export default function MassageServiceJSONLD({ slug, locale = "fr" }) {
     availability: "https://schema.org/InStock",
   }));
 
-  const data = {
+ const data = {
     "@context": "https://schema.org",
     "@type": "Service",
     "@id": `${url}#service`,
@@ -347,10 +338,14 @@ export default function MassageServiceJSONLD({ slug, locale = "fr" }) {
       url: `${baseUrl}/${currentLocale}`,
       telephone: "+32477131993",
       priceRange: "€€",
-      address: BUSINESS_ADDRESS,
-      image: [
-        "https://lavoiedubienetre.be/Images/OpenGraph/accueil-massage-halle.webp",
-      ],
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "Octave de Kerchove d’Exaerdestraat 193",
+        addressLocality: "Halle",
+        postalCode: "1501",
+        addressCountry: "BE",
+      },
+      image: [`${baseUrl}/Images/OpenGraph/accueil-massage-halle.webp`],
     },
     keywords: service.keywords[currentLocale],
     offers,
