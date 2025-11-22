@@ -345,6 +345,12 @@ export default function MassageServiceJSONLD({ slug, locale = "fr" }) {
       "@id": localBusinessId,
       name: "La Voie du Bien-Être",
       url: `${baseUrl}/${currentLocale}`,
+      telephone: "+32477131993",
+      priceRange: "€€",
+      address: BUSINESS_ADDRESS,
+      image: [
+        "https://lavoiedubienetre.be/Images/OpenGraph/accueil-massage-halle.webp",
+      ],
     },
     keywords: service.keywords[currentLocale],
     offers,
