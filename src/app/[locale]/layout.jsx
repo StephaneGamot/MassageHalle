@@ -57,7 +57,10 @@ export default async function LocaleLayout(props) {
           name="googlebot"
           content="index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
         />
-        <meta name="google-site-verification" content="google1b18195b39af5559" />
+      <meta
+  name="google-site-verification"
+  content="jFj4UAxD0SlvJiwnTkNI4_d0LwkiAHmWh2r7L0JayRQ"
+/>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
