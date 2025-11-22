@@ -6,7 +6,7 @@ import {
   DisclosurePanel,
 } from "@headlessui/react";
 import { PlusIcon, MinusIcon } from "@heroicons/react/24/outline";
-import FiftyQuestions from '@/components/Faq/50Questions';
+import FiftyQuestions from '@/components/Faq/FiftyQuestions';
 
 export async function generateMetadata({ params }) {
   const { locale } = await Promise.resolve(params);

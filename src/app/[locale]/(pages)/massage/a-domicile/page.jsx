@@ -5,6 +5,7 @@ import TreatmentDescription from "@/components/TreatmentDescription/TreatmentDes
 import Gallery from "@/components/Gallery/Gallery";
 import CtaSectionMassagePage from "@/components/Cta/CtaSectionMassagePage";
 import Testimonials from "@/components/Testimonials/Testimonials";
+import MassageServiceJSONLD from "@/components/Metadata/MassageServiceJSONLD";
 
 export async function generateMetadata({ params }) {
   const { locale } = await Promise.resolve(params);
@@ -79,9 +80,13 @@ export async function generateMetadata({ params }) {
 }
 
 
-export default function page() {
+export default function Page({ params }) {
+  const { locale } = params || {};
+  const currentLocale = locale ?? "fr";
+
   return (
     <>
+      <MassageServiceJSONLD slug="a-domicile" locale={currentLocale} />
       <main>
         <HeroMassage variant="domicile" />
         <WhyThisCare title="domicile" />

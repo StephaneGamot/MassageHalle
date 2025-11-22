@@ -5,6 +5,8 @@ import Benefits from "@/components/Benefits/Benefits";
 import CtaSectionMassagePage from "@/components/Cta/CtaSectionMassagePage";
 import TreatmentDescription from "@/components/TreatmentDescription/TreatmentDescription";
 import WhyThisCare from "@/components/WhyThisCare/WhyThisCare";
+import MassageServiceJSONLD from "@/components/Metadata/MassageServiceJSONLD";
+
 
 export async function generateMetadata({ params }) {
   const { locale } = await Promise.resolve(params);
@@ -80,9 +82,13 @@ alternates: {
 }
 
 
-export default function Page() {
+export default function Page({ params }) {
+  const { locale } = params || {};
+  const currentLocale = locale ?? "fr";
+
   return (
     <>
+      <MassageServiceJSONLD slug="shiatsu" locale={currentLocale} />
       <main>
         <HeroMassage variant="shiatsu" />
         <WhyThisCare title="shiatsu" />

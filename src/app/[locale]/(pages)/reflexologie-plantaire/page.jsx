@@ -1,4 +1,4 @@
-import Head from "next/head";
+
 import HeroMassage from "@/components/Hero/HeroMassage";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import Gallery from "@/components/Gallery/Gallery";
@@ -6,6 +6,7 @@ import Benefits from "@/components/Benefits/Benefits";
 import CtaSectionMassagePage from "@/components/Cta/CtaSectionMassagePage";
 import TreatmentDescription from "@/components/TreatmentDescription/TreatmentDescription";
 import WhyThisCare from "@/components/WhyThisCare/WhyThisCare";
+import MassageServiceJSONLD from "@/components/Metadata/MassageServiceJSONLD";
 
 export async function generateMetadata({ params }) {
   const { locale } = await Promise.resolve(params);
@@ -81,10 +82,13 @@ alternates: {
 }
 
 
-export default function Page() {
+export default function Page({ params }) {
+  const { locale } = params || {};
+  const currentLocale = locale ?? "fr";
+
   return (
     <>
-      <main>
+      <MassageServiceJSONLD slug="relaxant" locale={currentLocale} />  <main>
         <HeroMassage variant="reflexo" />
         <WhyThisCare title="reflexo" />
         <Benefits ids={[48, 8, 16, 14]} title="reflexo" />

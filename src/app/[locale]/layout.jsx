@@ -1,3 +1,5 @@
+// app/[locale]/layout.jsx
+
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Cormorant_Garamond, Open_Sans } from "next/font/google";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
@@ -6,8 +8,9 @@ import { routing } from "@/i18n/routing";
 import Footer from "@/components/Footer/Footer";
 import NavWithDropdown from "@/components/Header/NavBar";
 import "@/app/globals.css";
-import { DefaultSeo } from 'next-seo';
-import { defaultSeo } from '@/seo.config';
+import { defaultMetadata } from "@/seo.config";
+
+export const metadata = defaultMetadata;
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
@@ -26,8 +29,10 @@ export function generateStaticParams() {
 }
 
 export default async function LocaleLayout(props) {
-  const { children } = props;
-  const { locale } = await props.params; // ✅ await obligatoire ici
+  const { children, params } = props;
+
+  // ✅ params est "awaited" avant d'en lire les propriétés
+  const { locale } = await params;
 
   const safeLocale = hasLocale(routing.locales, locale) ? locale : "fr";
 
@@ -38,11 +43,24 @@ export default async function LocaleLayout(props) {
   return (
     <html lang={safeLocale}>
       <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
-        <meta name="theme-color" content="#556B2F" media="(prefers-color-scheme: dark)" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, user-scalable=yes"
+        />
+        <meta
+          name="theme-color"
+          content="#556B2F"
+          media="(prefers-color-scheme: dark)"
+        />
         <meta name="robots" content="index, follow" />
-        <meta name="googlebot" content="index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1" />
-        <meta name="google-site-verification" content="google1b18195b39af5559" />
+        <meta
+          name="googlebot"
+          content="index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+        />
+        <meta
+          name="google-site-verification"
+          content="google1b18195b39af5559"
+        />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -51,7 +69,6 @@ export default async function LocaleLayout(props) {
       </head>
       <body className={`${cormorant.variable} ${openSans.variable}`}>
         <NextIntlClientProvider locale={safeLocale} messages={messages}>
-          <DefaultSeo {...defaultSeo} />
           <NavWithDropdown />
           {children}
           <Footer />

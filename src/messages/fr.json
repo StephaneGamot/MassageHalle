@@ -857,7 +857,7 @@
       "durationMin": 90,
       "durationMax": 120,
       "text": "Offrez-vous cette parenthèse de sérénité, à partir de",
-      "price": "99€"
+      "price": "119,90 €"
     },
     "sportif": {
       "title": "Un massage puissant et ciblé",
@@ -870,7 +870,7 @@
     "domicile": {
       "title": "Un soin chez vous, en toute sérénité",
       "hero": "Profitez d’un massage professionnel sans quitter votre domicile. Tout est pensé pour votre confort.",
-      "durationMin": 900,
+      "durationMin": 90,
       "durationMax": 120,
       "text": "Recevez ce soin à la maison, dès",
       "price": "185€"
@@ -881,23 +881,23 @@
       "durationMin": 90,
       "durationMax": 120,
       "text": "Reconnectez-vous à votre énergie vitale, à partir de",
-      "price": "110€"
+      "price": "120 €"
     },
     "dos": {
       "title": "Un soin ciblé pour soulager votre dos",
       "hero": "Ce massage se concentre sur la nuque, les épaules et le bas du dos pour libérer les tensions.",
-      "durationMin": 45,
-      "durationMax": 60,
+      "durationMin": 60,
+      "durationMax": 0,
       "text": "Soulagez votre dos pour",
-      "price": "70€"
+      "price": "85 €"
     },
     "anticellulite": {
       "title": "Un soin tonique et raffermissant",
       "hero": "Un massage efficace pour lisser, drainer et revitaliser les tissus. Idéal pour une silhouette plus harmonieuse.",
-      "durationMin": 45,
-      "durationMax": 60,
+      "durationMin": 60,
+      "durationMax": 90,
       "text": "Offrez à votre corps un nouveau souffle, dès",
-      "price": "75€"
+      "price": "85 €"
     },
     "deeptissue": {
       "title": "Un massage en profondeur",
@@ -905,39 +905,39 @@
       "durationMin": 60,
       "durationMax": 90,
       "text": "Libérez vos muscles pour",
-      "price": "85€"
+      "price": "85 €"
     },
     "shiatsu": {
       "title": "Un soin d’équilibrage énergétique",
       "hero": "Le shiatsu agit par pressions sur les méridiens pour harmoniser les énergies internes.",
       "durationMin": 60,
-      "durationMax": 75,
+      "durationMax": 90,
       "text": "Retrouvez votre équilibre intérieur à partir de",
-      "price": "80€"
+      "price": "85€"
     },
     "reiki": {
       "title": "Une harmonisation en douceur",
       "hero": "Le reiki apaise, rééquilibre et revitalise les centres énergétiques par imposition des mains.",
       "durationMin": 60,
-      "durationMax": 75,
+      "durationMax": 90,
       "text": "Reconnectez-vous à votre énergie, dès",
-      "price": "80€"
+      "price": "85€"
     },
     "cst": {
       "title": "Un soin subtil et profond",
       "hero": "La thérapie cranio-sacrée agit sur le système nerveux pour relâcher les blocages profonds.",
       "durationMin": 60,
-      "durationMax": 75,
+      "durationMax": 90,
       "text": "Offrez à votre corps un apaisement durable, dès",
-      "price": "85€"
+      "price": "85 €"
     },
     "reflexo": {
       "title": "Un soin des pieds aux mille vertus",
       "hero": "La réflexologie plantaire stimule les zones réflexes pour améliorer l’équilibre global du corps.",
-      "durationMin": 45,
-      "durationMax": 60,
+      "durationMin": 60,
+      "durationMax": 90,
       "text": "Prenez soin de vos pieds, pour",
-      "price": "70€"
+      "price": "85 €"
     },
     "amma": {
       "title": "Un massage express, partout",
@@ -953,7 +953,7 @@
       "durationMin": 120,
       "durationMax": 150,
       "text": "Entamez votre voyage intérieur pour",
-      "price": "135€"
+      "price": "145€"
     },
     "common": {
       "location": "À domicile ou en cabinet",

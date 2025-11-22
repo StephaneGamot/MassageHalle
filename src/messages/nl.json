@@ -831,7 +831,7 @@
       "durationMin": 90,
       "durationMax": 120,
       "text": "Gun uzelf dit moment van sereniteit vanaf",
-      "price": "99€"
+      "price": "119,90€"
     },
     "sportif": {
       "title": "Een krachtige en gerichte massage",
@@ -855,23 +855,23 @@
       "durationMin": 90,
       "durationMax": 120,
       "text": "Herontdek uw vitale energie vanaf",
-      "price": "110€"
+      "price": "120€"
     },
     "dos": {
       "title": "Een gerichte behandeling voor rugverlichting",
       "hero": "Deze massage richt zich op de nek, schouders en onderrug om opgebouwde spanningen los te laten.",
-      "durationMin": 45,
-      "durationMax": 60,
+      "durationMin": 60,
+      "durationMax": 90,
       "text": "Verlicht uw rug voor",
-      "price": "70€"
+      "price": "85€"
     },
     "anticellulite": {
       "title": "Een verstevigende en revitaliserende massage",
       "hero": "Een effectieve massage om weefsels glad te strijken, te draineren en te tonifiëren. Ideaal voor een harmonieuze silhouet.",
-      "durationMin": 45,
-      "durationMax": 60,
+      "durationMin": 60,
+      "durationMax": 90,
       "text": "Geef uw lichaam een nieuwe impuls vanaf",
-      "price": "75€"
+      "price": "85€"
     },
     "deeptissue": {
       "title": "Een diepe weefselmassage",
@@ -887,7 +887,7 @@
       "durationMin": 60,
       "durationMax": 75,
       "text": "Vind uw innerlijke balans vanaf",
-      "price": "80€"
+      "price": "85€"
     },
     "reiki": {
       "title": "Een zachte harmonisatie",
@@ -895,7 +895,7 @@
       "durationMin": 60,
       "durationMax": 75,
       "text": "Herontdek uw energie vanaf",
-      "price": "80€"
+      "price": "85€"
     },
     "cst": {
       "title": "Een subtiele en diepe behandeling",
@@ -908,10 +908,10 @@
     "reflexo": {
       "title": "Voetverzorging met talloze voordelen",
       "hero": "Voetreflexologie stimuleert reflexzones om het algehele evenwicht van het lichaam te verbeteren.",
-      "durationMin": 45,
-      "durationMax": 60,
+      "durationMin": 60,
+      "durationMax": 90,
       "text": "Verzorg uw voeten voor",
-      "price": "70€"
+      "price": "85€"
     },
     "amma": {
       "title": "Een expressmassage, overal",
@@ -927,7 +927,7 @@
       "durationMin": 120,
       "durationMax": 150,
       "text": "Begin uw innerlijke reis voor",
-      "price": "135€"
+      "price": "150€"
     },
     "common": {
       "location": "Aan huis of in de praktijk",

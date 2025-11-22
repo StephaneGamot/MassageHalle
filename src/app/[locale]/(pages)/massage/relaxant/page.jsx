@@ -6,10 +6,11 @@ import CtaSectionMassagePage from "@/components/Cta/CtaSectionMassagePage";
 import TreatmentDescription from "@/components/TreatmentDescription/TreatmentDescription";
 import WhyThisCare from "@/components/WhyThisCare/WhyThisCare";
 import MassageServiceJSONLD from "@/components/Metadata/MassageServiceJSONLD";
-import { massagePagesSeo } from "@/seo/massagePages";
+import { LocalBusinessJsonLd } from "next-seo";
+
 
 export async function generateMetadata({ params }) {
-  const { locale } = await Promise.resolve(params); // ✅ Trick pour forcer l’attente si besoin
+  const { locale } = await Promise.resolve(params); 
 
   const currentLocale = locale ?? 'fr';
 
@@ -69,11 +70,13 @@ export async function generateMetadata({ params }) {
   };
 }
 
+export default function Page({ params }) {
+  const { locale } = params || {};
+  const currentLocale = locale ?? "fr";
 
-// ✅ Page React
-export default function Page() {
   return (
-    <><MassageServiceJSONLD slug="relaxant" locale={locale} />
+    <>
+      <MassageServiceJSONLD slug="relaxant" locale={currentLocale} />
     <main>
       <HeroMassage variant="massage" />
       <Benefits ids={[1, 6, 19, 4]} title="relaxant" />

@@ -30,7 +30,6 @@ if (!slug || typeof slug !== 'string') return null;
             alt={imageAlt}
             width={256}
             height={192}
-            quality={100}
             loading="lazy"
             title={title}
           />

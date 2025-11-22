@@ -824,7 +824,7 @@
       "durationMin": 90,
       "durationMax": 120,
       "text": "Treat yourself to this moment of serenity, starting at",
-      "price": "€99"
+      "price": "€ 120"
     },
     "sportif": {
       "title": "A powerful and targeted massage",
@@ -848,7 +848,7 @@
       "durationMin": 90,
       "durationMax": 120,
       "text": "Reconnect with your vital energy, from",
-      "price": "€110"
+      "price": "€120"
     },
     "dos": {
       "title": "A targeted treatment for your back",
@@ -861,10 +861,10 @@
     "anticellulite": {
       "title": "A toning and firming treatment",
       "hero": "An effective massage to smooth, drain and revitalize tissues. Ideal for a more harmonious silhouette.",
-      "durationMin": 45,
-      "durationMax": 60,
+      "durationMin": 60,
+      "durationMax": 90,
       "text": "Give your body a new breath, from",
-      "price": "€75"
+      "price": "€85"
     },
     "deeptissue": {
       "title": "A deep tissue massage",
@@ -878,33 +878,33 @@
       "title": "An energetic balancing treatment",
       "hero": "Shiatsu uses pressure on meridians to harmonize internal energies.",
       "durationMin": 60,
-      "durationMax": 75,
+      "durationMax": 90,
       "text": "Regain your inner balance from",
-      "price": "€80"
+      "price": "€85"
     },
     "reiki": {
       "title": "A gentle harmonization",
       "hero": "Reiki soothes, rebalances and revitalizes energy centers through hand imposition.",
       "durationMin": 60,
-      "durationMax": 75,
+      "durationMax": 90,
       "text": "Reconnect with your energy, from",
-      "price": "€80"
+      "price": "€85"
     },
     "cst": {
       "title": "A subtle and deep treatment",
       "hero": "Craniosacral therapy acts on the nervous system to release deep blockages.",
       "durationMin": 60,
-      "durationMax": 75,
+      "durationMax": 90,
       "text": "Offer your body lasting peace, from",
       "price": "€85"
     },
     "reflexo": {
       "title": "A foot care with countless virtues",
       "hero": "Foot reflexology stimulates reflex zones to improve the body's overall balance.",
-      "durationMin": 45,
-      "durationMax": 60,
+      "durationMin": 60,
+      "durationMax": 90,
       "text": "Take care of your feet for",
-      "price": "€70"
+      "price": "€85"
     },
     "amma": {
       "title": "A quick massage, anywhere",
@@ -920,7 +920,7 @@
       "durationMin": 120,
       "durationMax": 150,
       "text": "Begin your inner journey for",
-      "price": "€135"
+      "price": "€150"
     }
 
   },
