@@ -59,7 +59,7 @@ export default async function LocaleLayout(props) {
         />
         <meta
           name="google-site-verification"
-          content="google1b18195b39af5559"
+          content="jFj4UAxD0SlvJiwnTkNI4_d0LwkiAHmWh2r7L0JayRQ"
         />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
