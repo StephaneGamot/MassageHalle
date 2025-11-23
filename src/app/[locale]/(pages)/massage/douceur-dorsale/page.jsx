@@ -1,4 +1,3 @@
-import Head from "next/head";
 import HeroMassage from "@/components/Hero/HeroMassage";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import Gallery from "@/components/Gallery/Gallery";
@@ -9,49 +8,50 @@ import WhyThisCare from "@/components/WhyThisCare/WhyThisCare";
 import MassageServiceJSONLD from "@/components/Metadata/MassageServiceJSONLD";
 import { LocalBusinessJsonLd } from "next-seo";
 
+const baseUrl = "https://lavoiedubienetre.be";
+
 export async function generateMetadata({ params }) {
   const { locale } = await Promise.resolve(params);
   const currentLocale = locale ?? "fr";
 
   return {
     title: {
-      fr: "Massage du dos à Halle – Soin exclusif “Douceur Dorsale”",
-      en: "Back Massage in Halle – Exclusive “Douceur Dorsale” Treatment",
-      nl: "Rugmassage in Halle – Exclusieve ‘Douceur Dorsale’ behandeling",
+      fr: "Massage du dos à Halle – Soin exclusif « Douceur Dorsale »",
+      en: 'Back Massage in Halle – Exclusive "Douceur Dorsale" Treatment',
+      nl: "Rugmassage in Halle – Exclusieve ‘Douceur Dorsale’-behandeling",
     }[currentLocale],
     description: {
-      fr: "Découvrez notre massage exclusif du dos à Halle. Une méthode douce, ciblée, pour libérer les tensions et retrouver un dos détendu et léger.",
+      fr: "Découvrez notre massage exclusif du dos à Halle. Une méthode douce et ciblée pour libérer les tensions et retrouver un dos détendu et léger.",
       en: "Discover our exclusive back massage in Halle. A gentle and targeted method to relieve tension and restore lightness and comfort.",
       nl: "Ontdek onze exclusieve rugmassage in Halle. Een zachte, gerichte methode om spanningen los te laten en een ontspannen rug te hervinden.",
     }[currentLocale],
-alternates: {
-  canonical: `https://lavoiedubienetre.be/${currentLocale}/massage/douceur-dorsale`,
-  languages: {
-    fr: 'https://lavoiedubienetre.be/fr/massage/douceur-dorsale',
-    en: 'https://lavoiedubienetre.be/en/massage/douceur-dorsale',
-    nl: 'https://lavoiedubienetre.be/nl/massage/douceur-dorsale',
-    'x-default': 'https://lavoiedubienetre.be/fr/massage/douceur-dorsale',
-  }
-},
-
+    alternates: {
+      canonical: `${baseUrl}/${currentLocale}/massage/douceur-dorsale`,
+      languages: {
+        fr: `${baseUrl}/fr/massage/douceur-dorsale`,
+        en: `${baseUrl}/en/massage/douceur-dorsale`,
+        nl: `${baseUrl}/nl/massage/douceur-dorsale`,
+        "x-default": `${baseUrl}/fr/massage/douceur-dorsale`,
+      },
+    },
     openGraph: {
       title: {
-        fr: "Massage du dos à Halle – Soin exclusif “Douceur Dorsale”",
-        en: "Back Massage in Halle – Exclusive “Douceur Dorsale” Treatment",
-        nl: "Rugmassage in Halle – Exclusieve ‘Douceur Dorsale’ behandeling",
+        fr: "Massage du dos à Halle – Soin exclusif « Douceur Dorsale »",
+        en: 'Back Massage in Halle – Exclusive "Douceur Dorsale" Treatment',
+        nl: "Rugmassage in Halle – Exclusieve ‘Douceur Dorsale’-behandeling",
       }[currentLocale],
       description: {
         fr: "Une méthode douce, ciblée, pour libérer les tensions et retrouver un dos détendu.",
         en: "A gentle and focused method to ease back tension and bring deep relief.",
         nl: "Een zachte en gerichte methode om rugspanningen te verlichten.",
       }[currentLocale],
-      url: `https://lavoiedubienetre.be/${currentLocale}/massage/douceur-dorsale`,
+      url: `${baseUrl}/${currentLocale}/massage/douceur-dorsale`,
       type: "website",
       siteName: "La Voie du Bien-Être",
       locale: `${currentLocale}_BE`,
       images: [
         {
-          url: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
+          url: `${baseUrl}/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp`,
           width: 1200,
           height: 627,
           alt: {
@@ -75,22 +75,21 @@ alternates: {
       }[currentLocale],
       card: "summary_large_image",
       site: "@voiedubienetre",
-      images: [
-        "https://lavoiedubienetre.be/Images/OpenGraph/masseur-massage.jpg",
-      ],
+      images: [`${baseUrl}/Images/OpenGraph/masseur-massage.jpg`],
     },
   };
 }
-
-
 
 export default function Page({ params }) {
   const { locale } = params || {};
   const currentLocale = locale ?? "fr";
 
+  const localBusinessId = `${baseUrl}/${currentLocale}#local-business`;
+
   return (
     <>
-    <LocalBusinessJsonLd
+      {/* ✅ LocalBusiness (SEO local) */}
+      <LocalBusinessJsonLd
         type="HealthAndBeautyBusiness"
         id={localBusinessId}
         name="La Voie du Bien-Être"
@@ -127,7 +126,10 @@ export default function Page({ params }) {
           },
         ]}
       />
+
+      {/* ✅ JSON-LD du service “douceur dorsale” */}
       <MassageServiceJSONLD slug="douceurDorsale" locale={currentLocale} />
+
       <main>
         <HeroMassage variant="dos" />
         <WhyThisCare title="dos" />
