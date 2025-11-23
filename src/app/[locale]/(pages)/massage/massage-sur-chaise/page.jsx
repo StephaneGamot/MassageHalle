@@ -84,14 +84,12 @@ export default function Page({ params }) {
   const { locale } = params || {};
   const currentLocale = locale ?? "fr";
 
-  const localBusinessId = `${baseUrl}/${currentLocale}#local-business`;
-
   return (
     <>
       {/* ✅ LocalBusiness pour le SEO local */}
       <LocalBusinessJsonLd
         type="HealthAndBeautyBusiness"
-        id={localBusinessId}
+        id={`${baseUrl}/${currentLocale}#local-business`} // ⬅️ plus de variable
         name="La Voie du Bien-Être"
         description="Massages, shiatsu, reiki et soins énergétiques à Halle – un espace de détente et d’harmonie pour le corps et l’esprit."
         url={`${baseUrl}/${currentLocale}`}
@@ -127,6 +125,7 @@ export default function Page({ params }) {
         ]}
       />
 
+      {/* Pour l’instant, réutilisation du service “relaxant” */}
       <MassageServiceJSONLD slug="relaxant" locale={currentLocale} />
 
       <main>
