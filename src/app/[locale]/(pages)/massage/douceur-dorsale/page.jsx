@@ -7,7 +7,7 @@ import CtaSectionMassagePage from "@/components/Cta/CtaSectionMassagePage";
 import TreatmentDescription from "@/components/TreatmentDescription/TreatmentDescription";
 import WhyThisCare from "@/components/WhyThisCare/WhyThisCare";
 import MassageServiceJSONLD from "@/components/Metadata/MassageServiceJSONLD";
-
+import { LocalBusinessJsonLd } from "next-seo";
 
 export async function generateMetadata({ params }) {
   const { locale } = await Promise.resolve(params);
