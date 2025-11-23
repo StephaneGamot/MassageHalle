@@ -1,4 +1,3 @@
-
 import HeroMassage from "@/components/Hero/HeroMassage";
 import Benefits from "@/components/Benefits/Benefits";
 import WhyThisCare from "@/components/WhyThisCare/WhyThisCare";
@@ -7,7 +6,9 @@ import Gallery from "@/components/Gallery/Gallery";
 import CtaSectionMassagePage from "@/components/Cta/CtaSectionMassagePage";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import MassageServiceJSONLD from "@/components/Metadata/MassageServiceJSONLD";
+import { LocalBusinessJsonLd } from "next-seo";
 
+const baseUrl = "https://lavoiedubienetre.be";
 
 export async function generateMetadata({ params }) {
   const { locale } = await Promise.resolve(params);
@@ -24,34 +25,33 @@ export async function generateMetadata({ params }) {
       en: "Release deep tension and relieve chronic pain with a Deep Tissue massage in Halle. A powerful and focused treatment for lasting well-being.",
       nl: "Laat diepe spanningen los en verlicht chronische pijn met een Deep Tissue massage in Halle. Een krachtige en gerichte behandeling voor langdurig welzijn.",
     }[currentLocale],
-alternates: {
-  canonical: `https://lavoiedubienetre.be/${currentLocale}/massage/deep-tissues`,
-  languages: {
-    fr: 'https://lavoiedubienetre.be/fr/massage/deep-tissues',
-    en: 'https://lavoiedubienetre.be/en/massage/deep-tissues',
-    nl: 'https://lavoiedubienetre.be/nl/massage/deep-tissues',
-    'x-default': 'https://lavoiedubienetre.be/fr/massage/deep-tissues',
-  }
-},
-
+    alternates: {
+      canonical: `${baseUrl}/${currentLocale}/massage/deep-tissues`,
+      languages: {
+        fr: `${baseUrl}/fr/massage/deep-tissues`,
+        en: `${baseUrl}/en/massage/deep-tissues`,
+        nl: `${baseUrl}/nl/massage/deep-tissues`,
+        "x-default": `${baseUrl}/fr/massage/deep-tissues`,
+      },
+    },
     openGraph: {
       title: {
-        fr: "Massage Deep Tissues à domicile",
-        en: "Deep Tissue Massage at Home",
-        nl: "Deep Tissue Massage aan Huis",
+        fr: "Massage Deep Tissues à Halle – Détente musculaire profonde",
+        en: "Deep Tissue Massage in Halle – Deep Muscular Relaxation",
+        nl: "Deep Tissue Massage in Halle – Diepe Spierontspanning",
       }[currentLocale],
       description: {
-        fr: "Libérez les tensions profondes et soulagez les douleurs chroniques grâce au massage Deep Tissues à domicile.",
-        en: "Release deep tension and relieve chronic pain with a Deep Tissue massage at home.",
-        nl: "Laat diepe spanningen los en verlicht chronische pijn met een Deep Tissue massage aan huis.",
+        fr: "Libérez les tensions profondes et soulagez les douleurs chroniques grâce au massage Deep Tissues à Halle.",
+        en: "Release deep tension and relieve chronic pain with a Deep Tissue massage in Halle.",
+        nl: "Laat diepe spanningen los en verlicht chronische pijn met een Deep Tissue massage in Halle.",
       }[currentLocale],
-      url: `https://lavoiedubienetre.be/${currentLocale}/massage/deep-tissues`,
+      url: `${baseUrl}/${currentLocale}/massage/deep-tissues`,
       type: "website",
       siteName: "La Voie du Bien-Être",
       locale: `${currentLocale}_BE`,
       images: [
         {
-          url: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
+          url: `${baseUrl}/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp`,
           width: 1200,
           height: 627,
           alt: {
@@ -75,21 +75,21 @@ alternates: {
       }[currentLocale],
       card: "summary_large_image",
       site: "@voiedubienetre",
-      images: [
-        "https://lavoiedubienetre.be/Images/OpenGraph/masseur-massage.jpg",
-      ],
+      images: [`${baseUrl}/Images/OpenGraph/masseur-massage.jpg`],
     },
   };
 }
-
 
 export default function Page({ params }) {
   const { locale } = params || {};
   const currentLocale = locale ?? "fr";
 
+  const localBusinessId = `${baseUrl}/${currentLocale}#local-business`;
+
   return (
     <>
-    <LocalBusinessJsonLd
+      {/* ✅ LocalBusiness pour le SEO local */}
+      <LocalBusinessJsonLd
         type="HealthAndBeautyBusiness"
         id={localBusinessId}
         name="La Voie du Bien-Être"
@@ -126,7 +126,10 @@ export default function Page({ params }) {
           },
         ]}
       />
+
+      {/* ✅ JSON-LD du service spécifique Deep Tissue */}
       <MassageServiceJSONLD slug="deepTissue" locale={currentLocale} />
+
       <main>
         <HeroMassage variant="deeptissue" />
         <WhyThisCare title="deeptissue" />
