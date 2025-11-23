@@ -8,7 +8,7 @@ import TreatmentDescription from "@/components/TreatmentDescription/TreatmentDes
 import WhyThisCare from "@/components/WhyThisCare/WhyThisCare";
 import MassageServiceJSONLD from "@/components/Metadata/MassageServiceJSONLD";
 
-/*
+
 export async function generateMetadata({ params }) {
   const { locale } = await Promise.resolve(params);
   const currentLocale = locale ?? "fr";
@@ -81,13 +81,50 @@ export async function generateMetadata({ params }) {
     },
   };
 }
-*/
+
 export default function Page({ params }) {
   const { locale } = params || {};
   const currentLocale = locale ?? "fr";
 
   return (
     <>
+    <LocalBusinessJsonLd
+        type="HealthAndBeautyBusiness"
+        id={localBusinessId}
+        name="La Voie du Bien-Être"
+        description="Massages, shiatsu, reiki et soins énergétiques à Halle – un espace de détente et d’harmonie pour le corps et l’esprit."
+        url={`${baseUrl}/${currentLocale}`}
+        telephone="+32477131993"
+        address={{
+          streetAddress: "Octave de Kerchove d’Exaerdestraat 193",
+          addressLocality: "Halle",
+          postalCode: "1501",
+          addressCountry: "BE",
+        }}
+        geo={{
+          latitude: 50.7464695,
+          longitude: 4.2563906,
+        }}
+        priceRange="€€"
+        image={[`${baseUrl}/Images/OpenGraph/accueil-massage-halle.webp`]}
+        sameAs={[
+          "https://www.facebook.com/lavoiedubienetremassageshiatsureikireflexologie/",
+        ]}
+        openingHours={[
+          {
+            opens: "10:00",
+            closes: "19:00",
+            dayOfWeek: [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+            ],
+          },
+        ]}
+      />
       <MassageServiceJSONLD slug="relaxant" locale={currentLocale} />
       <main>
         <HeroMassage variant="voyage" />
