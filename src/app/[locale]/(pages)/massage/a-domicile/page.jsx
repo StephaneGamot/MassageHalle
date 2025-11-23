@@ -8,6 +8,8 @@ import Testimonials from "@/components/Testimonials/Testimonials";
 import MassageServiceJSONLD from "@/components/Metadata/MassageServiceJSONLD";
 import { LocalBusinessJsonLd } from "next-seo";
 
+const baseUrl = "https://lavoiedubienetre.be";
+
 export async function generateMetadata({ params }) {
   const { locale } = await Promise.resolve(params);
   const currentLocale = locale ?? "fr";
@@ -24,13 +26,13 @@ export async function generateMetadata({ params }) {
       nl: "Ontspan je lichaam en geest met een rustgevende massage in Halle, nabij Brussel. Een zachte, persoonlijke ervaring, beschikbaar aan huis.",
     }[currentLocale],
     alternates: {
-      canonical: `https://lavoiedubienetre.be/${currentLocale}/massage/a-domicile`,
+      canonical: `${baseUrl}/${currentLocale}/massage/a-domicile`,
       languages: {
-        fr: 'https://lavoiedubienetre.be/fr/massage/a-domicile',
-        en: 'https://lavoiedubienetre.be/en/massage/a-domicile',
-        nl: 'https://lavoiedubienetre.be/nl/massage/a-domicile',
-        'x-default': 'https://lavoiedubienetre.be/fr/massage/a-domicile',
-      }
+        fr: `${baseUrl}/fr/massage/a-domicile`,
+        en: `${baseUrl}/en/massage/a-domicile`,
+        nl: `${baseUrl}/nl/massage/a-domicile`,
+        "x-default": `${baseUrl}/fr/massage/a-domicile`,
+      },
     },
     openGraph: {
       title: {
@@ -43,13 +45,13 @@ export async function generateMetadata({ params }) {
         en: "Relax your body and mind with a soothing massage in Halle, near Brussels. Available in-studio or at home.",
         nl: "Ontspan lichaam en geest met een rustgevende massage in Halle, nabij Brussel. Beschikbaar in de praktijk of aan huis.",
       }[currentLocale],
-      url: `https://lavoiedubienetre.be/${currentLocale}/massage/a-domicile`,
+      url: `${baseUrl}/${currentLocale}/massage/a-domicile`,
       type: "website",
       siteName: "La Voie du Bien-Être",
       locale: `${currentLocale}_BE`,
       images: [
         {
-          url: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
+          url: `${baseUrl}/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp`,
           width: 1200,
           height: 627,
           alt: {
@@ -73,21 +75,21 @@ export async function generateMetadata({ params }) {
         en: "Shiatsu Reiki Home Massage in the Brussels area | La Voie du Bien-Être",
         nl: "Shiatsu Reiki Massage aan huis in de regio Brussel | La Voie du Bien-Être",
       }[currentLocale],
-      images: [
-        "https://lavoiedubienetre.be/Images/OpenGraph/masseur-massage.jpg",
-      ],
+      images: [`${baseUrl}/Images/OpenGraph/masseur-massage.jpg`],
     },
   };
 }
-
 
 export default function Page({ params }) {
   const { locale } = params || {};
   const currentLocale = locale ?? "fr";
 
+  const localBusinessId = `${baseUrl}/${currentLocale}#local-business`;
+
   return (
     <>
-    <LocalBusinessJsonLd
+      {/* ✅ LocalBusiness pour le SEO local */}
+      <LocalBusinessJsonLd
         type="HealthAndBeautyBusiness"
         id={localBusinessId}
         name="La Voie du Bien-Être"
@@ -124,7 +126,10 @@ export default function Page({ params }) {
           },
         ]}
       />
-      <MassageServiceJSONLD slug="a-domicile" locale={currentLocale} />
+
+      {/* ✅ JSON-LD du service “massage à domicile” */}
+      <MassageServiceJSONLD slug="domicile" locale={currentLocale} />
+
       <main>
         <HeroMassage variant="domicile" />
         <WhyThisCare title="domicile" />
