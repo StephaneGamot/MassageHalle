@@ -1,4 +1,3 @@
-import Head from "next/head";
 import HeroMassage from "@/components/Hero/HeroMassage";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import Gallery from "@/components/Gallery/Gallery";
@@ -8,6 +7,8 @@ import TreatmentDescription from "@/components/TreatmentDescription/TreatmentDes
 import WhyThisCare from "@/components/WhyThisCare/WhyThisCare";
 import MassageServiceJSONLD from "@/components/Metadata/MassageServiceJSONLD";
 import { LocalBusinessJsonLd } from "next-seo";
+
+const baseUrl = "https://lavoiedubienetre.be";
 
 export async function generateMetadata({ params }) {
   const { locale } = await Promise.resolve(params);
@@ -24,16 +25,15 @@ export async function generateMetadata({ params }) {
       en: "Reconnect with your vital energy through Tao massage in Halle. A unique experience combining gentleness, slowness, and body awareness.",
       nl: "Herontdek je vitale energie met een Tao-massage in Halle. Een unieke ervaring van zachtheid, traagheid en lichaamsbewustzijn.",
     }[currentLocale],
- alternates: {
-  canonical: `https://lavoiedubienetre.be/${currentLocale}/massage/tao`,
-  languages: {
-    fr: 'https://lavoiedubienetre.be/fr/massage/tao',
-    en: 'https://lavoiedubienetre.be/en/massage/tao',
-    nl: 'https://lavoiedubienetre.be/nl/massage/tao',
-    'x-default': 'https://lavoiedubienetre.be/fr/massage/tao',
-  }
-},
-
+    alternates: {
+      canonical: `${baseUrl}/${currentLocale}/massage/tao`,
+      languages: {
+        fr: `${baseUrl}/fr/massage/tao`,
+        en: `${baseUrl}/en/massage/tao`,
+        nl: `${baseUrl}/nl/massage/tao`,
+        "x-default": `${baseUrl}/fr/massage/tao`,
+      },
+    },
     openGraph: {
       title: {
         fr: "Massage tao à Halle - Harmonie & Énergie | La Voie du Bien-Être",
@@ -45,13 +45,13 @@ export async function generateMetadata({ params }) {
         en: "Reconnect with your vital energy through Tao massage in Halle. A unique experience combining gentleness, slowness, and body awareness.",
         nl: "Herontdek je vitale energie met een Tao-massage in Halle. Een unieke ervaring van zachtheid, traagheid en lichaamsbewustzijn.",
       }[currentLocale],
-      url: `https://lavoiedubienetre.be/${currentLocale}/massage/tao`,
+      url: `${baseUrl}/${currentLocale}/massage/tao`,
       type: "website",
       siteName: "La Voie du Bien-Être",
       locale: `${currentLocale}_BE`,
       images: [
         {
-          url: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
+          url: `${baseUrl}/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp`,
           width: 1200,
           height: 627,
           alt: {
@@ -75,13 +75,10 @@ export async function generateMetadata({ params }) {
       }[currentLocale],
       card: "summary_large_image",
       site: "@voiedubienetre",
-      images: [
-        "https://lavoiedubienetre.be/Images/OpenGraph/masseur-massage.jpg",
-      ],
+      images: [`${baseUrl}/Images/OpenGraph/masseur-massage.jpg`],
     },
   };
 }
-
 
 export default function Page({ params }) {
   const { locale } = params || {};
@@ -89,9 +86,10 @@ export default function Page({ params }) {
 
   return (
     <>
-    <LocalBusinessJsonLd
+      {/* ✅ LocalBusiness pour le SEO local */}
+      <LocalBusinessJsonLd
         type="HealthAndBeautyBusiness"
-        id={localBusinessId}
+        id={`${baseUrl}/${currentLocale}#local-business`}
         name="La Voie du Bien-Être"
         description="Massages, shiatsu, reiki et soins énergétiques à Halle – un espace de détente et d’harmonie pour le corps et l’esprit."
         url={`${baseUrl}/${currentLocale}`}
@@ -126,7 +124,10 @@ export default function Page({ params }) {
           },
         ]}
       />
+
+      {/* ✅ JSON-LD du service Tao */}
       <MassageServiceJSONLD slug="tao" locale={currentLocale} />
+
       <main>
         <HeroMassage variant="tao" />
         <WhyThisCare title="tao" />
