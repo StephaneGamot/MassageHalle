@@ -1,4 +1,3 @@
-
 import HeroMassage from "@/components/Hero/HeroMassage";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import Gallery from "@/components/Gallery/Gallery";
@@ -8,6 +7,8 @@ import TreatmentDescription from "@/components/TreatmentDescription/TreatmentDes
 import WhyThisCare from "@/components/WhyThisCare/WhyThisCare";
 import MassageServiceJSONLD from "@/components/Metadata/MassageServiceJSONLD";
 import { LocalBusinessJsonLd } from "next-seo";
+
+const baseUrl = "https://lavoiedubienetre.be";
 
 export async function generateMetadata({ params }) {
   const { locale } = await Promise.resolve(params);
@@ -24,16 +25,15 @@ export async function generateMetadata({ params }) {
       en: "Experience a deep sensory escape with the Journey Massage in Halle. A cocooning treatment for complete letting go, in full safety.",
       nl: "Beleef een diepe zintuiglijke ontsnapping met de Reis der Zintuigen massage in Halle. Een omhullende behandeling voor totale ontspanning, in alle veiligheid.",
     }[currentLocale],
-  alternates: {
-  canonical: `https://lavoiedubienetre.be/${currentLocale}/massage/voyage-des-sens`,
-  languages: {
-    fr: 'https://lavoiedubienetre.be/fr/massage/voyage-des-sens',
-    en: 'https://lavoiedubienetre.be/en/massage/voyage-des-sens',
-    nl: 'https://lavoiedubienetre.be/nl/massage/voyage-des-sens',
-    'x-default': 'https://lavoiedubienetre.be/fr/massage/voyage-des-sens',
-  }
-},
-
+    alternates: {
+      canonical: `${baseUrl}/${currentLocale}/massage/voyage-des-sens`,
+      languages: {
+        fr: `${baseUrl}/fr/massage/voyage-des-sens`,
+        en: `${baseUrl}/en/massage/voyage-des-sens`,
+        nl: `${baseUrl}/nl/massage/voyage-des-sens`,
+        "x-default": `${baseUrl}/fr/massage/voyage-des-sens`,
+      },
+    },
     openGraph: {
       title: {
         fr: "Massage Voyage des Sens à Halle - Évasion & Détente Totale",
@@ -45,13 +45,13 @@ export async function generateMetadata({ params }) {
         en: "A massage inviting you to disconnect, reconnect, and fully release. A unique sensory escape in Halle.",
         nl: "Een massage die je uitnodigt om los te laten, opnieuw te verbinden en diep te ontspannen. Een unieke zintuiglijke ervaring in Halle.",
       }[currentLocale],
-      url: `https://lavoiedubienetre.be/${currentLocale}/massage/voyage-des-sens`,
+      url: `${baseUrl}/${currentLocale}/massage/voyage-des-sens`,
       type: "website",
       siteName: "La Voie du Bien-Être",
       locale: `${currentLocale}_BE`,
       images: [
         {
-          url: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
+          url: `${baseUrl}/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp`,
           width: 1200,
           height: 627,
           alt: {
@@ -75,9 +75,7 @@ export async function generateMetadata({ params }) {
       }[currentLocale],
       card: "summary_large_image",
       site: "@voiedubienetre",
-      images: [
-        "https://lavoiedubienetre.be/Images/OpenGraph/masseur-massage.jpg",
-      ],
+      images: [`${baseUrl}/Images/OpenGraph/masseur-massage.jpg`],
     },
   };
 }
@@ -88,9 +86,10 @@ export default function Page({ params }) {
 
   return (
     <>
-    <LocalBusinessJsonLd
+      {/* ✅ LocalBusiness pour le SEO local */}
+      <LocalBusinessJsonLd
         type="HealthAndBeautyBusiness"
-        id={localBusinessId}
+        id={`${baseUrl}/${currentLocale}#local-business`}
         name="La Voie du Bien-Être"
         description="Massages, shiatsu, reiki et soins énergétiques à Halle – un espace de détente et d’harmonie pour le corps et l’esprit."
         url={`${baseUrl}/${currentLocale}`}
@@ -125,7 +124,10 @@ export default function Page({ params }) {
           },
         ]}
       />
+
+      {/* Pour l’instant on réutilise le service “relaxant” */}
       <MassageServiceJSONLD slug="relaxant" locale={currentLocale} />
+
       <main>
         <HeroMassage variant="voyage" />
         <WhyThisCare title="voyage" />
