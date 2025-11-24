@@ -10,6 +10,7 @@ src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2524.5696912176845!2d
         allowFullScreen                      
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
+                title="Carte Google Maps montrant l’emplacement de La Voie du Bien-Être à Halle"
       />
     </div>
   );
