@@ -10,17 +10,18 @@ const securityHeaders = [
   },
   {
     key: "Content-Security-Policy",
-    value: `
-      default-src 'self';
-      script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://va.vercel-scripts.com;
-      img-src 'self' data: https://images.unsplash.com https://www.lavoiedubienetre.be;
-      style-src 'self' 'unsafe-inline';
-      connect-src 'self' https://vitals.vercel-insights.com https://www.google-analytics.com https://va.vercel-scripts.com;
-      font-src 'self';
-      object-src 'none';
-      base-uri 'self';
-      frame-ancestors 'none';
-    `.replace(/\s{2,}/g, " ").trim(),
+    value: [
+      "default-src 'self'",
+      "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://va.vercel-scripts.com https://www.google.com https://maps.googleapis.com",
+      "img-src 'self' data: https://images.unsplash.com https://www.lavoiedubienetre.be https://www.google.com https://maps.gstatic.com https://maps.googleapis.com",
+      "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+      "connect-src 'self' https://vitals.vercel-insights.com https://www.google-analytics.com https://va.vercel-scripts.com",
+      "font-src 'self' https://fonts.gstatic.com data:", 
+      "frame-src 'self' https://www.google.com https://www.google.be",
+      "object-src 'none'",
+      "base-uri 'self'",
+      "frame-ancestors 'none'",
+    ].join("; "),
   },
   {
     key: "X-Content-Type-Options",
@@ -44,17 +45,15 @@ const securityHeaders = [
   },
   {
     key: "Cross-Origin-Opener-Policy",
+  
     value: "same-origin",
-  },
-  {
-    key: "Cross-Origin-Embedder-Policy",
-    value: "require-corp",
   },
   {
     key: "Cross-Origin-Resource-Policy",
     value: "same-origin",
   },
 ];
+
 
 const withNextIntl = createNextIntlPlugin({
   locales: ['fr', 'en', 'nl'],

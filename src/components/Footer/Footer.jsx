@@ -80,80 +80,30 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-gray-900">
-      <div className="mx-auto max-w-7xl px-6 py-8 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left mt-16">
-          <div>
-            <h3 className="text-lg font-bold !text-[#7EA23F]">{t("massage")}</h3>
-            <ul className="mt-6 space-y-4">
-              {navigation.massages.map((item) => (
-                <li key={item.href}>
-                  <Link href={item.href} className="text-sm/6 text-gray-300 hover:text-white">
-                    {t(item.key)}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-lg font-semibold !text-[#7EA23F]">{t("therapeutic")}</h3>
-            <ul className="mt-6 space-y-4">
-              {navigation.soins.map((item) => (
-                <li key={item.href}>
-                  <Link href={item.href} className="text-sm/6 text-gray-200 hover:text-white">
-                    {t(item.key)}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-lg font-semibold !text-[#7EA23F]">{tf("contact")}</h3>
-            <ul className="mt-6 space-y-2 text-sm/6 text-gray-200">
-              <li className="text-sm/6 !text-gray-200 hover:text-white">📍 {tf("address")}</li>
-              <li>
-                📞 <a href="tel:+32477131993" className="!text-sm/6 text-gray-200 hover:text-white">+32 477 13 19 93</a>
-              </li>
-              <li>
-                ✉️  <Link
-                      href={`mailto:${atob("bGF2b2llZHViaWVuZXRyZUBvdXRsb29rLmNvbQ==")}`}
-                      className="!text-sm/6 text-gray-200 hover:text-white"
-                    >
-                      {atob("bGF2b2llZHViaWVuZXRyZUBvdXRsb29rLmNvbQ==")}
-                    </Link>
-              </li>
-              <li className="text-sm/6 !text-gray-200 hover:text-white italic">
-                🕐 {tf("opening")}
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div className="mt-8 border-t border-white/10 pt-8 flex flex-col items-center gap-4 md:flex-row md:items-center md:justify-between">
-          <div className="flex gap-x-6 md:order-2">
-            {navigation.social.map((item) => (
-              <Link
-                key={item.name}
-                href={item.href}
-                className="text-gray-400 hover:text-gray-200"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="sr-only">{item.name}</span>
-                <item.icon aria-hidden="true" className="size-6" />
-              </Link>
-            ))}
-          </div>
-
-          <LangSwitcher direction="up" />
-
-          <p className="mt-8 text-sm/6 !text-[#7EA23F] md:order-1 md:mt-0">
-            &copy; 2025 La Voie du Bien-Être &nbsp;&nbsp;&nbsp; {tf("rights")}
-          </p>
-        </div>
+  <footer className="bg-gray-900">
+    <div className=" border-t border-white/10 py-8 flex flex-col items-center gap-4 md:flex-row md:items-center md:justify-evenly">
+      <div className="flex gap-x-6 md:order-2">
+        {navigation.social.map((item) => (
+          <Link
+            key={item.name}
+            href={item.href}
+            className="text-gray-400 hover:text-gray-200"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="sr-only">{item.name}</span>
+            <item.icon aria-hidden="true" className="size-6" />
+          </Link>
+        ))}
       </div>
-    </footer>
-  );
+
+      <LangSwitcher direction="up" />
+
+      <p className="text-sm/6 !text-[#7EA23F] md:order-1 md:mt-0">
+        &copy; 2025 La Voie du Bien-Être &nbsp;&nbsp;&nbsp; {tf("rights")}
+      </p>
+    </div>
+  </footer>
+);
+
 }
