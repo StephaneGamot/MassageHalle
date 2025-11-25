@@ -7,6 +7,7 @@ import CtaSectionMassagePage from "@/components/Cta/CtaSectionMassagePage";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import MassageServiceJSONLD from "@/components/Metadata/MassageServiceJSONLD";
 import { LocalBusinessJsonLd } from "next-seo";
+import EndOfYearOfferModal from "@/components/Modals/EndOfYearOfferModal";
 
 const baseUrl = "https://lavoiedubienetre.be";
 
@@ -129,7 +130,7 @@ export default function Page({ params }) {
 
       {/* ✅ JSON-LD du service “massage à domicile” */}
       <MassageServiceJSONLD slug="domicile" locale={currentLocale} />
-
+<EndOfYearOfferModal />
       <main>
         <HeroMassage variant="domicile" />
         <WhyThisCare title="domicile" />
