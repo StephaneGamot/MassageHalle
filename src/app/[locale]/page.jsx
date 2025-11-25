@@ -139,8 +139,8 @@ export default async function HomePage(props) {
         <Hero />
         <MassageCardContainer />
         <Cta />
-        <Contact />
         <Testimonials ids={[1, 4, 7, 23, 35]} />
+         <Contact />
         <GoogleMap />
       </main>
     </>
