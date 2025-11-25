@@ -7,6 +7,7 @@ import MassageCardContainer from "@/components/Cards/MassageCardContainer";
 import Cta from "@/components/Cta/Cta";
 import { LocalBusinessJsonLd } from "next-seo";
 import GoogleMap from "@/components/GoogleMap";
+import EndOfYearOfferModal from "@/components/Modals/EndOfYearOfferModal";
 
 export async function generateMetadata({ params }) {
   const { locale } = await Promise.resolve(params);
@@ -133,7 +134,7 @@ export default async function HomePage(props) {
           },
         ]}
       />
-
+   <EndOfYearOfferModal />
       <main>
         <Hero />
         <MassageCardContainer />
