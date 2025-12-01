@@ -222,6 +222,10 @@ const nextConfig = {
         source: '/%3A1',
         destination: '/',
         permanent: true,
+      }, {
+        source: '/:1',
+        destination: '/',
+        permanent: true,
       }
       
     ];
