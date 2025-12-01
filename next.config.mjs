@@ -218,6 +218,10 @@ const nextConfig = {
         source: '/massage/relaxant',
         destination: '/fr/massage/relaxant',
         permanent: true,
+      }, {
+        source: '/%3A1',
+        destination: '/',
+        permanent: true,
       }
       
     ];
