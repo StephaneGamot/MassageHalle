@@ -74,7 +74,7 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "www.lavoiedubienetre.be",
+        hostname: "lavoiedubienetre.be",
         pathname: "/**",
       },
     ],
