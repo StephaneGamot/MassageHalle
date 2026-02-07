@@ -13,7 +13,7 @@ const securityHeaders = [
     value: [
       "default-src 'self'",
       "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://va.vercel-scripts.com https://www.google.com https://maps.googleapis.com",
-      "img-src 'self' data: https://images.unsplash.com https://www.lavoiedubienetre.be https://www.google.com https://maps.gstatic.com https://maps.googleapis.com",
+      "img-src 'self' data: https://images.unsplash.com https://lavoiedubienetre.be https://www.google.com https://maps.gstatic.com https://maps.googleapis.com",
       "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
       "connect-src 'self' https://vitals.vercel-insights.com https://www.google-analytics.com https://va.vercel-scripts.com",
       "font-src 'self' https://fonts.gstatic.com data:", 

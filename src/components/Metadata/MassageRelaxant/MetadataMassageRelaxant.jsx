@@ -27,8 +27,8 @@ export const MetadataMassageRelaxant = [
 		],
 		telephone: "O477131993",
 		email: "lavoiedubienetre@outlook.com",
-		image: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
-		url: "https://www.lavoiedubienetre.be",
+		image: "https://lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
+		url: "https://lavoiedubienetre.be",
 		priceRange: "$$",
 		sameAs: ["https://www.facebook.com/lavoiedubienetremassageshiatsureikireflexologie/"],
 		hasOfferCatalog: {
@@ -40,7 +40,7 @@ export const MetadataMassageRelaxant = [
 					itemOffered: {
 						"@type": "Service",
 						name: "Massage relaxant",
-						image: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
+						image: "https://lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
 						url: "https://lavoiedubienetre.be/massage/relaxant",
 						description: "Pouvoir s'abandonner pleinement, se sentir détendu, oublier le moment présent...Voila ce que vous procure le massage relaxant.",
 						offers: {

@@ -27,8 +27,8 @@ export const MetadataMassageSportif = [
 		],
 		telephone: "O477131993",
 		email: "lavoiedubienetre@outlook.com",
-		image: "https://www.lavoiedubienetre.be/img/banniere-la-voie-du-bien-etre.webp",
-		url: "https://www.lavoiedubienetre.be",
+		image: "https://lavoiedubienetre.be/img/banniere-la-voie-du-bien-etre.webp",
+		url: "https://lavoiedubienetre.be",
 		priceRange: "$$",
 		sameAs: ["https://www.facebook.com/lavoiedubienetremassageshiatsureikireflexologie/"],
 		hasOfferCatalog: {

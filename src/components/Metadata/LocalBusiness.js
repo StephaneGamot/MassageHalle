@@ -67,7 +67,7 @@ export default function LocalBusinessJSONLD({ locale }) {
     sameAs: [
       "https://www.facebook.com/lavoiedubienetre",
       "https://www.instagram.com/lavoiedubienetre",
-      "https://www.lavoiedubienetre.be",
+      "https://lavoiedubienetre.be",
     ],
   };
 

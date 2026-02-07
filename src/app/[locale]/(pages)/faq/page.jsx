@@ -34,7 +34,7 @@ export async function generateMetadata({ params }) {
       locale: `${locale}_BE`,
       images: [
         {
-          url: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
+          url: "https://lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
           width: 1200,
           height: 627,
           alt: "Une longue séance de massage lui permetant de tout oublier",

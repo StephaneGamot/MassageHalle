@@ -1,6 +1,6 @@
 # 🌿 La Voie du Bien-Être – Site Vitrine Multilingue
 
-Ce dépôt contient le code source du site [La Voie du Bien-Être](https://www.lavoiedubienetre.be), un site vitrine élégant dédié au bien-être et aux soins holistiques (massages, Reiki, Shiatsu…).
+Ce dépôt contient le code source du site [La Voie du Bien-Être](https://lavoiedubienetre.be), un site vitrine élégant dédié au bien-être et aux soins holistiques (massages, Reiki, Shiatsu…).
 Conçu avec une attention particulière à la **performance**, à l’**accessibilité** et au **référencement naturel (SEO)**, ce site incarne un équilibre entre design, émotion et technologie.
 
 ---
@@ -68,7 +68,7 @@ Conçu avec une attention particulière à la **performance**, à l’**accessib
 🎯 Développeur Front-End spécialisé React / Next.js  
 📍 Basé en Belgique – Freelance / Consultant  
 📫 [stephanegamot@outlook.com](mailto:stephanegamot@outlook.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/stephanegamot/) • [Site](https://www.lavoiedubienetre.be)
+🔗 [LinkedIn](https://www.linkedin.com/in/stephanegamot/) • [Site](https://lavoiedubienetre.be)
 
 ---
 

@@ -27,8 +27,8 @@ export const MetadataHomePage = [
 		],
 		"telephone": "O477131993",
 		"email": "lavoiedubienetre@outlook.com",
-		"image": "https://www.lavoiedubienetre.be/Images/OpenGraph/masseur-massage.jpg",
-		"url": "https://www.lavoiedubienetre.be",
+		"image": "https://lavoiedubienetre.be/Images/OpenGraph/masseur-massage.jpg",
+		"url": "https://lavoiedubienetre.be",
 		"priceRange": "$$",
 		"sameAs": ["https://www.facebook.com/lavoiedubienetremassageshiatsureikireflexologie/"],
 		"hasOfferCatalog": {

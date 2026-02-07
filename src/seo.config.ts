@@ -11,7 +11,7 @@ export const defaultMetadata = {
     "Massages, shiatsu et soins énergétiques à Halle – Bruxelles | un espace de détente et d’harmonie pour le corps et l’esprit.",
   openGraph: {
     type: "website",
-    url: "https://www.lavoiedubienetre.be",
+    url: "https://lavoiedubienetre.be",
     siteName: "La Voie du Bien-Être",
     locale: "fr_BE",
     title: "La Voie du Bien-Être",

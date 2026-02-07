@@ -50,7 +50,7 @@ alternates: {
       locale: `${currentLocale}_BE`,
       images: [
         {
-          url: "https://www.lavoiedubienetre.be/Images/hero/shiatsu-massage-halle-bruxelles.webp",
+          url: "https://lavoiedubienetre.be/Images/hero/shiatsu-massage-halle-bruxelles.webp",
           width: 1200,
           height: 627,
           alt: {
