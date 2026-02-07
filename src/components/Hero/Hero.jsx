@@ -61,7 +61,7 @@ export default function Hero() {
             <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
               <div className="relative w-full lg:max-w-xl lg:shrink-0 xl:max-w-2xl">
                 <h2 className="text-pretty text-5xl font-semibold tracking-tight sm:text-7xl">
-                  {t("headline")}
+                  {t("headline")}mosiemosirjtoeitioetùeomegoih
                 </h2>
                 <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:max-w-md sm:text-xl/8 lg:max-w-none">
                   {t("paragraph")}
