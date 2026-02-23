@@ -7,13 +7,12 @@ import LangSwitcher from "@/components/LangSwitcher";
 export default function Footer() {
   const t = useTranslations("nav");
   const tf = useTranslations("footer");
-  const locale = useLocale(); // 👈 on récupère la langue courante
-
+  const locale = useLocale(); 
   const navigation = {
     massages: [
       { key: "relaxant", href: `/${locale}/massage/relaxant` },
       { key: "sportif", href: `/${locale}/massage/sportif` },
-      { key: "domicile", href: `/${locale}/massage/a-domicile` },
+    //  { key: "domicile", href: `https://www.votremassageadomicilepaysbasque.com/fr` },
       { key: "douceur", href: `/${locale}/massage/douceur-dorsale` },
       { key: "anticellulite", href: `/${locale}/massage/anti-cellulite` },
       { key: "tao", href: `/${locale}/massage/tao` },
@@ -55,8 +54,8 @@ export default function Footer() {
         ),
       },
       {
-        name: "X",
-        href: "https://x.com/voiedubienetre",
+        name: "SG",
+        href: "https://www.stephanegamot.com/",
         icon: (props) => (
           <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
             <path d="M13.6823 10.6218L20.2391 3H18.6854L12.9921 9.61788L8.44486 3H3.2002L10.0765 13.0074L3.2002 21H4.75404L10.7663 14.0113L15.5685 21H20.8131L13.6819 10.6218H13.6823ZM11.5541 13.0956L10.8574 12.0991L5.31391 4.16971H7.70053L12.1742 10.5689L12.8709 11.5655L18.6861 19.8835H16.2995L11.5541 13.096V13.0956Z" />
@@ -94,7 +93,10 @@ export default function Footer() {
             <span className="sr-only">{item.name}</span>
             <item.icon aria-hidden="true" className="size-6" />
           </Link>
+          
         ))}
+
+        
       </div>
 
       <LangSwitcher direction="up" />
@@ -102,6 +104,26 @@ export default function Footer() {
       <p className="text-sm/6 !text-[#7EA23F] md:order-1 md:mt-0">
         &copy; 2025 La Voie du Bien-Être &nbsp;&nbsp;&nbsp; {tf("rights")}
       </p>
+      <Link
+            key="massage-domicile-pays-basque"
+            href="https://www.votremassageadomicilepaysbasque.com/fr"
+className="text-sm !text-[#7EA23F] md:mt-0"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Massage à domicile au Pays-Basque
+         
+          </Link>
+           <Link
+            key="stephaneG"
+            href="https://www.stephanegamot.com/"
+className="text-sm !text-[#7EA23F] md:mt-0"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Création de votre site internet & SEO
+         
+          </Link>
     </div>
   </footer>
 );
