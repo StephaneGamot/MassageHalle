@@ -7,6 +7,7 @@ import TreatmentDescription from "@/components/TreatmentDescription/TreatmentDes
 import WhyThisCare from "@/components/WhyThisCare/WhyThisCare";
 import MassageServiceJSONLD from "@/components/Metadata/MassageServiceJSONLD";
 import ServiceBreadcrumbJsonLd from "@/components/Metadata/ServiceBreadcrumbJsonLd";
+import RelatedServices from "@/components/RelatedServices/RelatedServices";
 import { LocalBusinessJsonLd } from "next-seo";
 
 const baseUrl = "https://lavoiedubienetre.be";
@@ -156,6 +157,7 @@ export default async function Page(props) {
         <TreatmentDescription variant="reflexo" />
         <Gallery ids={[30, 10, 15]} />
         <CtaSectionMassagePage variant="reflexo" />
+        <RelatedServices variant="reflexo" />
         <Testimonials ids={[8, 16, 25, 36, 44]} />
       </main>
     </>

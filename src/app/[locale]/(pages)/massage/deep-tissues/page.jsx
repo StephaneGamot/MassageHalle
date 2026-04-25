@@ -7,6 +7,7 @@ import CtaSectionMassagePage from "@/components/Cta/CtaSectionMassagePage";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import MassageServiceJSONLD from "@/components/Metadata/MassageServiceJSONLD";
 import ServiceBreadcrumbJsonLd from "@/components/Metadata/ServiceBreadcrumbJsonLd";
+import RelatedServices from "@/components/RelatedServices/RelatedServices";
 import { LocalBusinessJsonLd } from "next-seo";
 
 const baseUrl = "https://lavoiedubienetre.be";
@@ -160,6 +161,7 @@ export default function Page({ params }) {
         <TreatmentDescription variant="deeptissue" />
         <Gallery ids={[7, 13, 24]} />
         <CtaSectionMassagePage variant="deeptissue" />
+        <RelatedServices variant="deeptissue" />
         <Testimonials ids={[5, 15, 30, 35, 43, 13]} />
       </main>
     </>

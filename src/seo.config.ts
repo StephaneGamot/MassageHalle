@@ -5,7 +5,7 @@ export const defaultMetadata = {
   metadataBase: new URL("https://lavoiedubienetre.be"),
   title: {
     default: "Massage bien-être à Hal – Bruxelles | La Voie du Bien-Être",
-    template: "%s | La Voie du Bien-Être",
+    template: "%s",
   },
   description:
     "Massages relaxants, shiatsu, reiki et soins thérapeutiques à Hal et Bruxelles. En cabinet ou à domicile. Réservez votre séance bien-être dès maintenant !",

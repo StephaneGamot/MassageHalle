@@ -1230,5 +1230,9 @@
         "answer": "Oui, certains soins induisent un état méditatif et une conscience accrue du corps."
       }
     ]
+  },
+  "relatedServices": {
+    "title": "Soins qui pourraient vous plaire",
+    "subtitle": "Explorez nos autres massages et soins pour compléter votre parcours bien-être."
   }
 }

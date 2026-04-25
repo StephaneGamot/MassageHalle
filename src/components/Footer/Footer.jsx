@@ -15,6 +15,7 @@ export default function Footer() {
     { key: "anticellulite", href: `/${locale}/massage/anti-cellulite` },
     { key: "tao", href: `/${locale}/massage/tao` },
     { key: "deeptissue", href: `/${locale}/massage/deep-tissues` },
+    { key: "domicile", href: `/${locale}/massage/a-domicile` },
   ];
 
   const soins = [

@@ -1191,6 +1191,9 @@
         }
       ]
     }
-  
-  
+  },
+  "relatedServices": {
+    "title": "Treatments you might enjoy",
+    "subtitle": "Explore our other massages and treatments to complement your wellness journey."
+  }
 }

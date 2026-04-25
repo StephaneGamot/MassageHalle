@@ -7,6 +7,7 @@ import TreatmentDescription from "@/components/TreatmentDescription/TreatmentDes
 import WhyThisCare from "@/components/WhyThisCare/WhyThisCare";
 import MassageServiceJSONLD from "@/components/Metadata/MassageServiceJSONLD";
 import ServiceBreadcrumbJsonLd from "@/components/Metadata/ServiceBreadcrumbJsonLd";
+import RelatedServices from "@/components/RelatedServices/RelatedServices";
 import { LocalBusinessJsonLd } from "next-seo";
 
 const baseUrl = "https://lavoiedubienetre.be";
@@ -160,6 +161,7 @@ export default function Page({ params }) {
         <TreatmentDescription variant="sportif" />
         <Gallery ids={[7, 21, 24]} />
         <CtaSectionMassagePage variant="sportif" />
+        <RelatedServices variant="sportif" />
         <Testimonials ids={[6, 10, 19, 28, 42]} />
       </main>
     </>

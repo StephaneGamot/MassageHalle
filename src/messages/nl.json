@@ -1204,5 +1204,9 @@
         "answer": "Thuis ben je in je eigen ruimte. In de praktijk is alles geoptimaliseerd voor jouw welzijn."
       }
     ]
+  },
+  "relatedServices": {
+    "title": "Behandelingen die u misschien bevallen",
+    "subtitle": "Ontdek onze andere massages en behandelingen om uw welzijnstraject te vervolledigen."
   }
 }

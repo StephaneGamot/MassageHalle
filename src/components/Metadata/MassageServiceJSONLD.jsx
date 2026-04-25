@@ -466,6 +466,7 @@ export default function MassageServiceJSONLD({ slug, locale = "fr" }) {
     name: offer.names[currentLocale],
     price: offer.prices[currentLocale],
     priceCurrency: "EUR",
+    url,
     availability: "https://schema.org/InStock",
   }));
 
@@ -476,11 +477,12 @@ export default function MassageServiceJSONLD({ slug, locale = "fr" }) {
     name: service.names[currentLocale],
     description: service.descriptions[currentLocale],
     url,
+    image: `${baseUrl}/Images/OpenGraph/accueil-massage-halle.webp`,
     serviceType: "Massage therapy",
     category: "HealthAndBeauty",
     areaServed: AREA_SERVED,
     provider: {
-      "@type": "LocalBusiness",
+      "@type": "HealthAndBeautyBusiness",
       "@id": localBusinessId,
       name: "La Voie du Bien-Être",
       url: `${baseUrl}/${currentLocale}`,
@@ -493,9 +495,23 @@ export default function MassageServiceJSONLD({ slug, locale = "fr" }) {
         postalCode: "1501",
         addressCountry: "BE",
       },
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 50.7464695,
+        longitude: 4.2563906,
+      },
       image: [`${baseUrl}/Images/OpenGraph/accueil-massage-halle.webp`],
     },
-    keywords: service.keywords[currentLocale],
+    availableChannel: {
+      "@type": "ServiceChannel",
+      serviceUrl: url,
+      servicePhone: {
+        "@type": "ContactPoint",
+        telephone: "+32477131993",
+        contactType: "reservations",
+        availableLanguage: ["French", "English", "Dutch"],
+      },
+    },
     offers,
   };
 

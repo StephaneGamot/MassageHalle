@@ -6,6 +6,7 @@ import CtaSectionMassagePage from "@/components/Cta/CtaSectionMassagePage";
 import TreatmentDescription from "@/components/TreatmentDescription/TreatmentDescription";
 import WhyThisCare from "@/components/WhyThisCare/WhyThisCare";
 import MassageServiceJSONLD from "@/components/Metadata/MassageServiceJSONLD";
+import RelatedServices from "@/components/RelatedServices/RelatedServices";
 import { LocalBusinessJsonLd } from "next-seo";
 import ServiceBreadcrumbJsonLd from "@/components/Metadata/ServiceBreadcrumbJsonLd";
 
@@ -144,6 +145,7 @@ export default function Page({ params }) {
         <TreatmentDescription variant="voyage" />
         <Gallery ids={[6, 8, 9]} />
         <CtaSectionMassagePage variant="voyage" />
+        <RelatedServices variant="voyage" />
         <Testimonials ids={[6, 13, 19, 29, 41]} />
       </main>
     </>
