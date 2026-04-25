@@ -7,6 +7,7 @@ import TreatmentDescription from "@/components/TreatmentDescription/TreatmentDes
 import WhyThisCare from "@/components/WhyThisCare/WhyThisCare";
 import MassageServiceJSONLD from "@/components/Metadata/MassageServiceJSONLD";
 import { LocalBusinessJsonLd } from "next-seo";
+import ServiceBreadcrumbJsonLd from "@/components/Metadata/ServiceBreadcrumbJsonLd";
 
 const baseUrl = "https://lavoiedubienetre.be";
 
@@ -16,15 +17,19 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Massage Voyage des Sens à Halle - Évasion & Détente Totale",
-      en: "Sensory Journey Massage in Halle – Escape & Total Relaxation",
-      nl: "Massage Reis der Zintuigen in Halle – Ontsnapping & Totale Ontspanning",
+      fr: "Massage Voyage des Sens à Hal – Évasion & Détente",
+      en: "Sensory Journey Massage in Halle | La Voie du Bien-Être",
+      nl: "Zintuigenreis Massage in Halle | La Voie du Bien-Être",
     }[currentLocale],
     description: {
-      fr: "Offrez-vous une évasion sensorielle profonde avec le massage Voyage des Sens à Halle. Un soin enveloppant pour un lâcher-prise total, en toute sécurité.",
-      en: "Experience a deep sensory escape with the Journey Massage in Halle. A cocooning treatment for complete letting go, in full safety.",
-      nl: "Beleef een diepe zintuiglijke ontsnapping met de Reis der Zintuigen massage in Halle. Een omhullende behandeling voor totale ontspanning, in alle veiligheid.",
+      fr: "Évasion sensorielle avec le massage Voyage des Sens à Hal, près de Bruxelles. Lâcher-prise total garanti. Réservez votre séance maintenant !",
+      en: "Deep relaxation with the Sensory Journey Massage in Halle, near Brussels. A unique cocooning experience for total release. Book now!",
+      nl: "Ontdek diepe ontspanning met de Reis der Zintuigen massage in Halle, nabij Brussel. Een unieke ervaring voor totaal loslaten. Boek nu uw sessie!",
     }[currentLocale],
+    robots: {
+      index: true,
+      follow: true,
+    },
     alternates: {
       canonical: `${baseUrl}/${currentLocale}/massage/voyage-des-sens`,
       languages: {
@@ -36,19 +41,23 @@ export async function generateMetadata({ params }) {
     },
     openGraph: {
       title: {
-        fr: "Massage Voyage des Sens à Halle - Évasion & Détente Totale",
-        en: "Sensory Journey Massage in Halle – Escape & Total Relaxation",
-        nl: "Massage Reis der Zintuigen in Halle – Ontsnapping & Totale Ontspanning",
+        fr: "Massage Voyage des Sens à Hal – Évasion & Détente",
+        en: "Sensory Journey Massage in Halle | La Voie du Bien-Être",
+        nl: "Zintuigenreis Massage in Halle | La Voie du Bien-Être",
       }[currentLocale],
       description: {
-        fr: "Un massage qui vous invite à partir, à vous reconnecter et à lâcher prise en profondeur. Une évasion sensorielle unique à Halle.",
-        en: "A massage inviting you to disconnect, reconnect, and fully release. A unique sensory escape in Halle.",
-        nl: "Een massage die je uitnodigt om los te laten, opnieuw te verbinden en diep te ontspannen. Een unieke zintuiglijke ervaring in Halle.",
+        fr: "Évasion sensorielle avec le massage Voyage des Sens à Hal, près de Bruxelles. Lâcher-prise total garanti. Réservez votre séance maintenant !",
+        en: "Deep relaxation with the Sensory Journey Massage in Halle, near Brussels. A unique cocooning experience for total release. Book now!",
+        nl: "Ontdek diepe ontspanning met de Reis der Zintuigen massage in Halle, nabij Brussel. Een unieke ervaring voor totaal loslaten. Boek nu uw sessie!",
       }[currentLocale],
       url: `${baseUrl}/${currentLocale}/massage/voyage-des-sens`,
       type: "website",
       siteName: "La Voie du Bien-Être",
-      locale: `${currentLocale}_BE`,
+      locale: {
+        fr: "fr_BE",
+        en: "en_BE",
+        nl: "nl_BE",
+      }[currentLocale],
       images: [
         {
           url: `${baseUrl}/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp`,
@@ -64,14 +73,14 @@ export async function generateMetadata({ params }) {
     },
     twitter: {
       title: {
-        fr: "Massage Voyage des Sens – Lâcher-prise & spiritualité à Halle",
-        en: "Journey Massage – Letting Go & Spiritual Escape in Halle",
-        nl: "Reis der Zintuigen Massage – Loslaten & Spirituele Ontsnapping in Halle",
+        fr: "Massage Voyage des Sens à Hal – Évasion & Détente",
+        en: "Sensory Journey Massage in Halle | La Voie du Bien-Être",
+        nl: "Zintuigenreis Massage in Halle | La Voie du Bien-Être",
       }[currentLocale],
       description: {
-        fr: "Un soin pour libérer corps et esprit. Le massage Voyage des Sens, un rituel pour vous recentrer.",
-        en: "A treatment to free body and mind. The Journey Massage is a ritual to recentre yourself.",
-        nl: "Een behandeling om lichaam en geest te bevrijden. De Reis der Zintuigen is een ritueel om opnieuw in balans te komen.",
+        fr: "Évasion sensorielle avec le massage Voyage des Sens à Hal, près de Bruxelles. Lâcher-prise total garanti. Réservez votre séance maintenant !",
+        en: "Deep relaxation with the Sensory Journey Massage in Halle, near Brussels. A unique cocooning experience for total release. Book now!",
+        nl: "Ontdek diepe ontspanning met de Reis der Zintuigen massage in Halle, nabij Brussel. Een unieke ervaring voor totaal loslaten. Boek nu uw sessie!",
       }[currentLocale],
       card: "summary_large_image",
       site: "@voiedubienetre",
@@ -125,8 +134,8 @@ export default function Page({ params }) {
         ]}
       />
 
-      {/* Pour l’instant on réutilise le service “relaxant” */}
-      <MassageServiceJSONLD slug="relaxant" locale={currentLocale} />
+      <MassageServiceJSONLD slug="voyage" locale={currentLocale} />
+      <ServiceBreadcrumbJsonLd locale={currentLocale} serviceName="Massage Voyage des Sens" serviceUrl={`${baseUrl}/${currentLocale}/massage/voyage-des-sens`} />
 
       <main>
         <HeroMassage variant="voyage" />

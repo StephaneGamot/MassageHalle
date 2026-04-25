@@ -1,113 +1,99 @@
-
-
-import relaxant from './../../../public/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp';
-import femmeSouriante from "./../../../public/Images/hero/massage-femme-souriante.webp"
+// Ce fichier n'est plus utilise.
+// Les images hero des pages de services ont ete remplacees par un background CSS elegant.
+// Conserve comme reference des textes alt par variant si besoin futur.
 
 const heroImagesData = {
-  "massage": {
-    src: relaxant,
+  massage: {
     alt: {
-      fr: "Un massage relaxant doux et enveloppant à Halle",
+      fr: "Un massage relaxant doux et enveloppant a Halle",
       en: "A gentle and soothing relaxing massage in Halle",
-      nl: "Een zachte en ontspannende massage in Halle"
-    }
+      nl: "Een zachte en ontspannende massage in Halle",
+    },
   },
-  "sportif": {
-    src: relaxant,
+  sportif: {
     alt: {
-      fr: "Un massage sportif en profondeur pour une récupération optimale",
+      fr: "Un massage sportif en profondeur pour une recuperation optimale",
       en: "A deep sports massage for optimal recovery",
-      nl: "Een diepe sportmassage voor optimaal herstel"
-    }
+      nl: "Een diepe sportmassage voor optimaal herstel",
+    },
   },
-  "domicile": {
-    src: relaxant,
+  domicile: {
     alt: {
-      fr: "Un massage bien-être à domicile à Bruxelles",
+      fr: "Un massage bien-etre a domicile a Bruxelles",
       en: "A wellness massage at home in Brussels",
-      nl: "Een welzijnsmassage aan huis in Brussel"
-    }
+      nl: "Een welzijnsmassage aan huis in Brussel",
+    },
   },
-  "tao": {
-    src: relaxant,
+  tao: {
     alt: {
-      fr: "Un massage tao pour une reconnexion énergétique profonde",
+      fr: "Un massage tao pour une reconnexion energetique profonde",
       en: "A Tao massage for deep energetic reconnection",
-      nl: "Een Tao-massage voor diepe energetische herverbinding"
-    }
+      nl: "Een Tao-massage voor diepe energetische herverbinding",
+    },
   },
-  "dos": {
-    src: relaxant,
+  dos: {
     alt: {
-      fr: "Un massage ciblé pour soulager les tensions du dos",
+      fr: "Un massage cible pour soulager les tensions du dos",
       en: "A targeted massage to relieve back tension",
-      nl: "Een gerichte massage om rugspanning te verlichten"
-    }
+      nl: "Een gerichte massage om rugspanning te verlichten",
+    },
   },
-  "anticellulite": {
-    src: relaxant,
+  anticellulite: {
     alt: {
       fr: "Un soin anti-cellulite tonifiant et drainant",
       en: "A toning and draining anti-cellulite treatment",
-      nl: "Een verstevigende en drainerende anti-cellulite behandeling"
-    }
+      nl: "Een verstevigende en drainerende anti-cellulite behandeling",
+    },
   },
-  "deeptissue": {
-    src: relaxant,
+  deeptissue: {
     alt: {
-      fr: "Un deep tissue pour libérer les tensions profondes",
+      fr: "Un deep tissue pour liberer les tensions profondes",
       en: "A deep tissue massage to release deep tension",
-      nl: "Een deep tissue massage om diepe spanningen los te laten"
-    }
+      nl: "Een deep tissue massage om diepe spanningen los te laten",
+    },
   },
-  "shiatsu": {
-    src: femmeSouriante,
+  shiatsu: {
     alt: {
-      fr: "Une séance de shiatsu thérapeutique à Halle",
+      fr: "Une seance de shiatsu therapeutique a Halle",
       en: "A therapeutic Shiatsu session in Halle",
-      nl: "Een therapeutische Shiatsu sessie in Halle"
-    }
+      nl: "Een therapeutische Shiatsu sessie in Halle",
+    },
   },
-  "reiki": {
-    src: femmeSouriante,
+  reiki: {
     alt: {
-      fr: "Un soin Reiki pour harmoniser vos énergies",
+      fr: "Un soin Reiki pour harmoniser vos energies",
       en: "A Reiki treatment to harmonize your energy",
-      nl: "Een Reiki behandeling om je energie te harmoniseren"
-    }
+      nl: "Een Reiki behandeling om je energie te harmoniseren",
+    },
   },
-  "reflexo": {
-    src: femmeSouriante,
+  reflexo: {
     alt: {
-      fr: "Une réflexologie plantaire pour relancer votre énergie",
+      fr: "Une reflexologie plantaire pour relancer votre energie",
       en: "Foot reflexology to boost your energy",
-      nl: "Voetreflexologie om je energie te stimuleren"
-    }
+      nl: "Voetreflexologie om je energie te stimuleren",
+    },
   },
-  "cst": {
-    src: femmeSouriante,
+  cst: {
     alt: {
-      fr: "Une thérapie cranio-sacrée pour un apaisement profond",
+      fr: "Une therapie cranio-sacree pour un apaisement profond",
       en: "Craniosacral therapy for deep soothing",
-      nl: "Craniosacrale therapie voor diepe ontspanning"
-    }
+      nl: "Craniosacrale therapie voor diepe ontspanning",
+    },
   },
-  "voyage": {
-    src: femmeSouriante,
+  voyage: {
     alt: {
-      fr: "Un voyage des sens pour une détente absolue",
+      fr: "Un voyage des sens pour une detente absolue",
       en: "A sensory journey for absolute relaxation",
-      nl: "Een zintuiglijke reis voor totale ontspanning"
-    }
+      nl: "Een zintuiglijke reis voor totale ontspanning",
+    },
   },
-  "amma": {
-    src: femmeSouriante,
+  amma: {
     alt: {
       fr: "Un massage sur chaise rapide et efficace en entreprise",
       en: "A quick and effective seated massage at work",
-      nl: "Een snelle en doeltreffende stoelmassage op het werk"
-    }
-  }
+      nl: "Een snelle en doeltreffende stoelmassage op het werk",
+    },
+  },
 };
 
 export default heroImagesData;

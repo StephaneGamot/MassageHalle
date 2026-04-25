@@ -16,7 +16,8 @@
     "voyage": "Voyage des sens",
     "amma": "Amma",
     "contact": "Contact",
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "home": "Accueil"
   },
   "footer": {
     "informations": "Informations",
@@ -27,22 +28,26 @@
     "opening": "Sur rendez-vous du lundi au samedi, 9h–19h"
   },
   "hero": {
-    "srOnly": "La Voie du Bien-Être Massage & soin therapeutique à Halle - Bruxelles",
-    "headline": "Parce que le bien-être n’est pas un luxe… mais une nécessité.",
-    "paragraph": "Chaque soin est une parenthèse dans le tumulte du quotidien. Offrez à votre corps ce qu’il mérite : douceur, attention, et bienveillance.",
+    "srOnly": "Massage bien-être à Hal — soins relaxants, shiatsu et reiki | La Voie du Bien-Être",
+    "headline": "Massage bien-être à Hal : offrez à votre corps ce qu’il mérite",
+    "paragraph": "Massage relaxant, shiatsu, reiki ou soin thérapeutique à Hal et Bruxelles : chaque séance est une parenthèse de douceur, d’attention et de bienveillance, en cabinet ou à domicile.",
     "ctaPrimary": "Je prends soin de moi",
-    "ctaSecondary": "Offrir ce moment à un être cher"
+    "ctaSecondary": "Offrir ce moment à un être cher",
+    "ctaWhatsapp": "Réserver via WhatsApp",
+    "trust": "Hal · Bruxelles · À domicile"
   },
   "cta": {
     "title": "Offrez un moment de bien-être à ceux que vous aimez",
     "paragraph1": "Un massage, c’est plus qu’un soin : c’est un geste d’amour. Offrez un instant de détente inoubliable avec une carte cadeau.",
     "paragraph2": "Soins thérapeutiques et massages relaxants à Halle – Bruxelles, en cabinet ou à domicile.",
-    "cta": "Offrir un instant de douceur →"
+    "cta": "Offrir un instant de douceur →",
+    "ctaWhatsapp": "Réserver via WhatsApp"
   },
   "ctaMassage": {
     "paragraph": "Réservez {soin} dès aujourd’hui et offrez-vous un moment rien qu’à vous.",
     "cta": "Prendre rendez-vous",
     "note": "Aucune carte de crédit requise – réservez en toute sérénité.",
+    "ctaWhatsapp": "Réserver ce soin",
     "titles": {
       "relaxant": "Offrez à votre corps ce qu’il mérite",
       "sportif": "Préparez votre corps à performer",
@@ -77,6 +82,7 @@
   "contact": {
     "title": "Une question ? Une envie ?",
     "paragraph": "Que ce soit pour un renseignement, un besoin spécifique ou simplement l’envie de vous offrir un moment de bien-être, notre équipe est à votre écoute avec attention et délicatesse. Écrivez-nous, et créons ensemble une expérience qui vous ressemble.",
+    "ctaWhatsapp": "Réserver via WhatsApp",
     "address": "Octaaf de kerchove d'exaerdestraat 193, 1501 Buizingen (Halle)",
     "phone": "04 77 13 19 93",
     "email": "lavoiedubienetre@outlook.com",
@@ -109,6 +115,9 @@
     }
   },
   "massages": {
+    "sectionTitle": "Nos soins",
+    "sectionSubtitle": "Découvrez nos massages et soins thérapeutiques personnalisés",
+    "discoverCta": "Découvrir ce soin",
     "cards": [
       {
         "id": 1,
@@ -601,6 +610,7 @@
   },
   "hero-massage": {
     "cta": "Réserver ce soin →",
+    "ctaWhatsapp": "Réserver ce soin",
     "massage": {
       "title": "Laissez le stress s’évanouir… avec un massage relaxant",
       "text1": "Là où le calme rencontre la bienveillance. Offrez à votre corps ce qu’il mérite : de la douceur, de l’attention et un profond lâcher-prise.",
@@ -966,8 +976,8 @@
   }, 
   "faq": {
     "title": "Questions fréquentes",
-    "metaTitle": "Faq de Massage & soin thérapeutique à Halle - Bruxelles",
-    "metaDescription": "Réponses aux questions fréquentes sur nos massages et soins thérapeutiques à Halle, à domicile ou en cabinet. Tout est expliqué ici.",
+    "metaTitle": "FAQ Massage & Soins à Hal | La Voie du Bien-Être",
+    "metaDescription": "Réponses à vos questions sur nos massages et soins thérapeutiques à Hal : tarifs, déroulement, contre-indications. Réservez maintenant !",
     "list": [
       {
         "id": 1,

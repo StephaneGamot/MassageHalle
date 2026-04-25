@@ -17,59 +17,58 @@ export default function Testimonials({ ids = [] }) {
 
   if (selectedTestimonials.length === 0) {
     return (
-      <div className="bg-white py-24 text-center" role="region" aria-label={t("title")}>
-        <p className="text-gray-500">{t("none")}</p>
+      <div className="bg-[#FAFAF7] py-24 text-center" role="region" aria-label={t("title")}>
+        <p className="text-[#595751]">{t("none")}</p>
       </div>
     );
   }
 
   return (
-    <div
-      className="bg-black py-12 sm:py-16"
+    <section
+      className="bg-[#1B3A2D]"
       role="region"
       aria-labelledby="testimonials-title"
     >
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl text-center">
-          <h2 id="testimonials-title" className="text-xl/7 !text-gray-100 font-semibold">
-            {t("title")}
-          </h2>
-          <p className="mt-2 text-balance text-3xl font-semibold tracking-tight !text-gray-300 sm:text-4xl">
+      <div className="section-wrap">
+        {/* En-tête */}
+        <div className="text-center mb-12 lg:mb-16">
+          <p className="label-or !text-[#E8D4AD] mb-3">{t("title")}</p>
+          <h2
+            id="testimonials-title"
+            className="text-3xl sm:text-4xl tracking-tight !text-[#F3EDE4]"
+          >
             {t("subtitle")}
-          </p>
+          </h2>
         </div>
-        <div className="mx-auto mt-16 flow-root max-w-2xl sm:mt-20 lg:mx-0 lg:max-w-none">
-          <div className="-mt-8 sm:-mx-4 sm:columns-2 sm:text-[0] lg:columns-3">
-            {selectedTestimonials.map((testimonial) => (
-              <div key={testimonial.id} className="pt-8 sm:inline-block sm:w-full sm:px-4">
-                <figure
-                  className="rounded-2xl bg-gray-50 p-8 text-sm/6"
-                  aria-label={`${testimonial.author.name}: ${testimonial.body}`}
-                >
-                  <blockquote className="text-gray-900">
-                    <p>{`“${testimonial.body}”`}</p>
-                  </blockquote>
-                  <figcaption className="mt-6 flex items-center gap-x-4">
-                    <Image
-                      alt={testimonial.alt}
-                      src={testimonial.author.imageUrl}
-                      className="size-10 rounded-full bg-gray-50"
-                      width={40}
-                      height={40}
-                      loading="lazy"
-                    />
-                    <div>
-                      <div className="font-semibold text-gray-900">
-                        {testimonial.author.name}
-                      </div>
-                    </div>
-                  </figcaption>
-                </figure>
-              </div>
-            ))}
-          </div>
+
+        {/* Grille */}
+        <div className="columns-1 sm:columns-2 lg:columns-3 gap-5 space-y-5">
+          {selectedTestimonials.map((testimonial) => (
+            <div key={testimonial.id} className="break-inside-avoid">
+              <figure className="rounded-2xl bg-white/[0.07] p-6 sm:p-7 border border-white/[0.06] hover:bg-white/[0.1] transition-colors duration-300">
+                <blockquote>
+                  <p className="text-[0.9375rem] leading-relaxed !text-white/90">
+                    &ldquo;{testimonial.body}&rdquo;
+                  </p>
+                </blockquote>
+                <figcaption className="mt-5 flex items-center gap-x-3">
+                  <Image
+                    alt={testimonial.alt}
+                    src={testimonial.author.imageUrl}
+                    className="h-9 w-9 rounded-full object-cover ring-2 ring-[#B8976A]/30"
+                    width={36}
+                    height={36}
+                    loading="lazy"
+                  />
+                  <span className="text-sm font-semibold !text-[#D4BA91]">
+                    {testimonial.author.name}
+                  </span>
+                </figcaption>
+              </figure>
+            </div>
+          ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }

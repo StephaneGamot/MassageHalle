@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import Hero1 from "./../../../public/Images/hero/hero-1.webp";
 import Hero2 from "./../../../public/Images/hero/hero-2.webp";
 import Hero3 from "./../../../public/Images/hero/hero-3.webp";
@@ -11,146 +11,98 @@ import Hero5 from "./../../../public/Images/hero/hero-5.webp";
 
 export default function Hero() {
   const t = useTranslations("hero");
+  const locale = useLocale();
+
   return (
-    <div>
-      <div className="relative isolate">
-        <svg
-          aria-hidden="true"
-          className="absolute inset-x-0 top-0 -z-10 h-[64rem] w-full stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
-        >
-          <defs>
-            <pattern
-              x="50%"
-              y={-1}
-              id="1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84"
-              width={200}
-              height={200}
-              patternUnits="userSpaceOnUse"
+    <section className="relative bg-[#1B3A2D] overflow-hidden" aria-labelledby="hero-title">
+      <div className="mx-auto max-w-7xl">
+        <div className="grid grid-cols-1 lg:grid-cols-2 items-center min-h-[85vh]">
+
+          {/* Texte */}
+          <div className="relative z-10 px-6 py-16 sm:px-10 lg:py-24 lg:pl-10 xl:pl-0 order-2 lg:order-1">
+            <p
+              className="label-or !text-[#E8D4AD] mb-5 animate-fade-up"
+              style={{ animationDelay: "0.05s" }}
             >
-              <path d="M.5 200V.5H200" fill="none" />
-            </pattern>
-          </defs>
-          <svg x="50%" y={-1} className="overflow-visible fill-gray-50">
-            <path
-              d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z"
-              strokeWidth={0}
-            />
-          </svg>
-          <rect
-            fill="url(#1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84)"
-            width="100%"
-            height="100%"
-            strokeWidth={0}
-          />
-        </svg>
-        <div
-          aria-hidden="true"
-          className="absolute left-1/2 right-0 top-0 -z-10 -ml-24 transform-gpu overflow-hidden blur-3xl lg:ml-24 xl:ml-48"
-        >
-          <div
-            style={{
-              clipPath:
-                "polygon(63.1% 29.5%, 100% 17.1%, 76.6% 3%, 48.4% 0%, 44.6% 4.7%, 54.5% 25.3%, 59.8% 49%, 55.2% 57.8%, 44.4% 57.2%, 27.8% 47.9%, 35.1% 81.5%, 0% 97.7%, 39.2% 100%, 35.2% 81.4%, 97.2% 52.8%, 63.1% 29.5%)",
-            }}
-            className="aspect-[801/1036] w-[50.0625rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30"
-          />
-        </div>
-        <div className="overflow-hidden">
-          <div className="mx-auto max-w-7xl py-6 px-6 lg:py-16 lg:px-8">
-            <h1 className="sr-only">{t("srOnly")}</h1>
-            <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
-              <div className="relative w-full lg:max-w-xl lg:shrink-0 xl:max-w-2xl">
-                <h2 className="text-pretty text-5xl font-semibold tracking-tight sm:text-7xl">
-                  {t("headline")}
-                </h2>
-                <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:max-w-md sm:text-xl/8 lg:max-w-none">
-                  {t("paragraph")}
-                </p>
-                <div className="mt-10 flex items-center gap-x-6">
-                   <a
-              href="https://wa.me/32477131993"
-              target="_blank"
-              rel="noreferrer"
-                    className="rounded-md bg-[#1EBE5D] px-9 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#8FBC8F] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#556B2F]"
-                  >
-                     WhatsApp
-            </a>
-                  <Link
-                    href="https://widget.treatwell.be/fr/salon/la-voie-du-bien-etre/"
-                    className="rounded-md bg-[#556B2F] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#8FBC8F] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#556B2F]"
-                  >
-                    {t("ctaSecondary")}
-                  </Link>
+              La Voie du Bien-Être
+            </p>
+
+            <h1
+              id="hero-title"
+              className="text-pretty !text-[#F3EDE4] animate-fade-up"
+              style={{ animationDelay: "0.15s" }}
+            >
+              {t("headline")}
+            </h1>
+
+            <p
+              className="mt-6 text-lg leading-relaxed !text-white/85 max-w-lg animate-fade-up"
+              style={{ animationDelay: "0.3s" }}
+            >
+              {t("paragraph")}
+            </p>
+
+            {/* CTAs */}
+            <div
+              className="mt-10 flex flex-wrap items-center gap-4 animate-fade-up"
+              style={{ animationDelay: "0.45s" }}
+            >
+              <a
+                href="https://wa.me/32477131993"
+                target="_blank"
+                rel="noreferrer"
+                className="btn-whatsapp"
+              >
+                <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                </svg>
+                {t("ctaWhatsapp") || "Réserver via WhatsApp"}
+              </a>
+
+              <Link
+                href="https://widget.treatwell.be/fr/salon/la-voie-du-bien-etre/"
+                className="btn-outline !text-[#D4BA91] !border-[#D4BA91]/40 hover:!bg-[#D4BA91] hover:!text-[#1B3A2D]"
+              >
+                {t("ctaSecondary")}
+              </Link>
+            </div>
+
+            <p
+              className="mt-6 text-sm !text-white/70 animate-fade-in"
+              style={{ animationDelay: "0.6s" }}
+            >
+              {t("trust") || "Halle · Bruxelles · À domicile"}
+            </p>
+          </div>
+
+          {/* Images */}
+          <div className="relative order-1 lg:order-2 px-6 py-8 lg:px-0 lg:py-12">
+            <div className="grid grid-cols-3 gap-3 sm:gap-4 max-w-md mx-auto lg:max-w-none lg:pr-8">
+              <div className="space-y-3 sm:space-y-4 pt-10">
+                <div className="img-zoom rounded-2xl overflow-hidden">
+                  <Image alt="Massage bien-être à Hal — praticien La Voie du Bien-Être" src={Hero1} placeholder="blur" loading="eager" className="aspect-[2/3] w-full rounded-2xl object-cover" sizes="(max-width: 768px) 30vw, 200px" />
                 </div>
               </div>
-
-              <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-8 place-items-center">
-                {/* Colonne 1 */}
-                <div className="w-full max-w-[176px] space-y-6 pt-8 sm:pt-80 lg:pt-36 xl:pt-80">
-                  <div className="relative">
-                    <Image
-                      alt="Portrait de votre praticien bien-être"
-                      src={Hero1}
-                      placeholder="blur"
-                      loading="lazy"
-                      className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                    />
-                    <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                  </div>
+              <div className="space-y-3 sm:space-y-4 pt-20 sm:pt-24">
+                <div className="img-zoom rounded-2xl overflow-hidden">
+                  <Image alt="Ambiance zen du cabinet de massage relaxant à Hal" src={Hero2} placeholder="blur" loading="eager" className="aspect-[2/3] w-full rounded-2xl object-cover" sizes="(max-width: 768px) 30vw, 200px" />
                 </div>
-
-                {/* Colonne 2 */}
-                <div className="w-full max-w-[176px] space-y-6 sm:pt-52 lg:pt-36">
-                  <div className="relative">
-                    <Image
-                      alt="Ambiance zen du cabinet"
-                      src={Hero2}
-                      placeholder="blur"
-                      loading="lazy"
-                      className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                    />
-                    <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                  </div>
-                  <div className="relative">
-                    <Image
-                      alt="Moment de détente absolue"
-                      src={Hero3}
-                      placeholder="blur"
-                      loading="lazy"
-                      className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                    />
-                    <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                  </div>
+                <div className="img-zoom rounded-2xl overflow-hidden">
+                  <Image alt="Détente absolue lors d'un soin thérapeutique" src={Hero3} placeholder="blur" loading="lazy" className="aspect-[2/3] w-full rounded-2xl object-cover" sizes="(max-width: 768px) 30vw, 200px" />
                 </div>
-
-                {/* Colonne 3 */}
-                <div className="w-full max-w-[176px] space-y-6 pt-8 sm:pt-0">
-                  <div className="relative">
-                    <Image
-                      alt="Accueil chaleureux en cabinet"
-                      src={Hero4}
-                      placeholder="blur"
-                      loading="lazy"
-                      className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                    />
-                    <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                  </div>
-                  <div className="relative">
-                    <Image
-                      alt="Cadre relaxant et bienveillant"
-                      src={Hero5}
-                      placeholder="blur"
-                      loading="lazy"
-                      className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                    />
-                    <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                  </div>
+              </div>
+              <div className="space-y-3 sm:space-y-4">
+                <div className="img-zoom rounded-2xl overflow-hidden">
+                  <Image alt="Accueil chaleureux au cabinet de massage à Hal" src={Hero4} placeholder="blur" loading="lazy" className="aspect-[2/3] w-full rounded-2xl object-cover" sizes="(max-width: 768px) 30vw, 200px" />
+                </div>
+                <div className="img-zoom rounded-2xl overflow-hidden">
+                  <Image alt="Cadre relaxant pour shiatsu et reiki à Hal" src={Hero5} placeholder="blur" loading="lazy" className="aspect-[2/3] w-full rounded-2xl object-cover" sizes="(max-width: 768px) 30vw, 200px" />
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

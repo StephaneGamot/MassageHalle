@@ -1,54 +1,311 @@
 @import "tailwindcss";
 
+/* =============================================
+   SPA LUXE ÉPURÉ — LA VOIE DU BIEN-ÊTRE
+   Blanc cassé · Beige · Or subtil · Vert forêt
+   ============================================= */
+
+/* --- DESIGN TOKENS --- */
 :root {
-  --olive: #556B2F;
-  --creme: #F0EDE5;
-  --vertclair: #8FBC8F;
-  --grisfonce: #2F4F4F;
-  --vertpastel: #BFD8BD;
+  /* Palette Spa Luxe */
+  --blanc-casse: #FAFAF7;
+  --beige: #F3EDE4;
+  --beige-dark: #E8E0D4;
+  --or: #B8976A;
+  --or-light: #D4BA91;
+  --or-dark: #9A7B52;
+  --or-accessible: #7B6139;   /* Or assombri pour texte — 7.3:1 sur blanc */
+  --vert-sauge: #7A9A7E;
+  --vert-foret: #1B3A2D;
+  --vert-foret-light: #24503B;
+  --charbon: #2A2A2A;
+  --gris-chaud: #595751;       /* Assombri — 7.1:1 sur blanc-cassé (AAA) */
+  --gris-clair: #6B6862;       /* Assombri — 5.3:1 (AA pour secondaire) */
+  --blanc: #FFFFFF;
+  --whatsapp: #25D366;
+  --whatsapp-hover: #1DA851;
+
+  /* Typographie */
   --font-title: 'Cormorant Garamond', serif;
   --font-body: 'Open Sans', sans-serif;
+  --text-base: 1.0625rem;
+  --line-height: 1.65;
+  --max-line-length: 70ch;
+
+  /* Espacements */
+  --space-section: clamp(4rem, 8vw, 7rem);
+  --space-section-sm: clamp(2.5rem, 5vw, 4rem);
+
+  /* Ombres douces */
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.04);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.06);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.08);
+  --shadow-nav: 0 1px 12px rgba(0,0,0,0.06);
+
+  /* Transitions (INP <200ms) */
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-fast: 150ms var(--ease);
+  --transition-base: 300ms var(--ease);
+
+  /* Zones tactiles min 44px */
+  --tap-min: 44px;
+
+  /* Rayons */
+  --radius: 0.75rem;
+  --radius-lg: 1.25rem;
+  --radius-full: 9999px;
+}
+
+/* --- BASE --- */
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
 }
 
 body {
-  background-color: var(--creme);
+  background-color: var(--blanc-casse);
+  color: var(--charbon);
+  font-family: var(--font-body), sans-serif;
+  font-size: var(--text-base);
+  line-height: var(--line-height);
+  overflow-x: hidden;
 }
 
-h1, h2, h3 {
-  font-family: var(--font-title), Helvetica, sans-serif;
-  color: var(--olive);
+h1, h2, h3, h4 {
+  font-family: var(--font-title), serif;
+  color: var(--charbon);
+  line-height: 1.15;
+  letter-spacing: -0.015em;
+  font-weight: 600;
 }
 
-
-a, button {
-    font-family: var(--font-title), Helvetica, sans-serif;
-    font-weight: 700;
-}
+h1 { font-size: clamp(2.5rem, 5.5vw, 3.75rem); }
+h2 { font-size: clamp(1.875rem, 4vw, 2.75rem); }
+h3 { font-size: clamp(1.375rem, 2.5vw, 1.75rem); }
 
 p, li {
-  font-family: var(--font-body), Helvetica, sans-serif;
-  color: var(--grisfonce);
+  font-family: var(--font-body), sans-serif;
+  color: var(--gris-chaud);
+  max-width: var(--max-line-length);
+  line-height: var(--line-height);
 }
 
+a, button {
+  font-family: var(--font-title), serif;
+  font-weight: 700;
+  transition: all var(--transition-fast);
+}
+
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid var(--or);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Focus visible — supprime l'outline par défaut au profit du custom */
+a:focus:not(:focus-visible),
+button:focus:not(:focus-visible) {
+  outline: none;
+}
+
+::selection {
+  background-color: var(--beige-dark);
+  color: var(--charbon);
+}
+
+/* --- CONTENEUR DE SECTION --- */
+.section-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-section) 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .section-wrap {
+    padding: var(--space-section) 2.5rem;
+  }
+}
+
+/* --- BOUTONS --- */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: var(--tap-min);
+  padding: 0.875rem 2rem;
+  background-color: #7B6139;
+  color: var(--blanc);
+  font-size: 0.9375rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  border-radius: var(--radius-full);
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all var(--transition-fast);
+}
+
+.btn-primary:hover {
+  background-color: #65502F;
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-primary:active {
+  transform: translateY(0) scale(0.98);
+}
+
+.btn-whatsapp {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: var(--tap-min);
+  padding: 0.875rem 2rem;
+  background-color: #1A7A3C;
+  color: var(--blanc);
+  font-size: 0.9375rem;
+  font-weight: 700;
+  border-radius: var(--radius-full);
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all var(--transition-fast);
+}
+
+.btn-whatsapp:hover {
+  background-color: #156831;
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-whatsapp:active {
+  transform: translateY(0) scale(0.98);
+}
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: var(--tap-min);
+  padding: 0.875rem 2rem;
+  background-color: transparent;
+  color: var(--or-accessible);
+  font-size: 0.9375rem;
+  font-weight: 700;
+  border-radius: var(--radius-full);
+  border: 1.5px solid var(--or-accessible);
+  cursor: pointer;
+  text-decoration: none;
+  transition: all var(--transition-fast);
+}
+
+.btn-outline:hover {
+  background-color: var(--or-accessible);
+  color: var(--blanc);
+  transform: translateY(-1px);
+}
+
+/* --- MICRO-ANIMATIONS --- */
 @layer utilities {
   .animate-fade-in {
-    animation: fadeIn 1.4s ease-out both;
+    animation: fadeIn 0.8s ease-out both;
+  }
+  .animate-fade-up {
+    animation: fadeUp 0.7s ease-out both;
   }
 
   @keyframes fadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
   }
 }
 
-/* === 404 PAGE BACKGROUND === */
+/* Card hover */
+.card-lift {
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+.card-lift:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
 
+/* Image zoom subtil */
+.img-zoom { overflow: hidden; }
+.img-zoom img { transition: transform 0.5s var(--ease); }
+.img-zoom:hover img { transform: scale(1.04); }
+
+/* Skeleton loader */
+.skeleton {
+  background: linear-gradient(90deg, var(--beige) 25%, var(--blanc-casse) 50%, var(--beige) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+  border-radius: var(--radius);
+}
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* --- BREADCRUMB --- */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8125rem;
+  color: var(--gris-chaud);
+  font-family: var(--font-body), sans-serif;
+  font-weight: 400;
+}
+.breadcrumb a {
+  color: var(--gris-chaud);
+  text-decoration: none;
+  font-weight: 400;
+  transition: color var(--transition-fast);
+}
+.breadcrumb a:hover { color: var(--or); }
+.breadcrumb .separator { opacity: 0.4; }
+.breadcrumb .current { color: var(--charbon); font-weight: 600; }
+
+/* --- LABEL DORÉ --- */
+.label-or {
+  display: inline-block;
+  font-family: var(--font-body), sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--or-accessible);
+}
+
+/* --- SKIP LINK --- */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+  z-index: 100;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--charbon);
+  color: var(--blanc);
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: var(--radius);
+  text-decoration: none;
+  transition: top var(--transition-fast);
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+/* --- 404 --- */
 .notfound-wrapper {
   position: relative;
   width: 100%;
@@ -58,26 +315,18 @@ p, li {
   background-position: center top;
   background-repeat: no-repeat;
 }
-
 @media (min-width: 768px) {
-  .notfound-wrapper {
-    background-image: url("/Images/404/imgNotFound1920-1080.webp");
-  }
+  .notfound-wrapper { background-image: url("/Images/404/imgNotFound1920-1080.webp"); }
 }
-
 @media (min-width: 1536px) {
-  .notfound-wrapper {
-    background-image: url("/Images/404/imgNotFound2560-1440.webp");
-  }
+  .notfound-wrapper { background-image: url("/Images/404/imgNotFound2560-1440.webp"); }
 }
-
 .notfound-overlay {
   position: absolute;
   inset: 0;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 1;
 }
-
 .notfound-content {
   position: relative;
   z-index: 2;

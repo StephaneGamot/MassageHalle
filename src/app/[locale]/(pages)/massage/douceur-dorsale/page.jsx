@@ -6,6 +6,7 @@ import CtaSectionMassagePage from "@/components/Cta/CtaSectionMassagePage";
 import TreatmentDescription from "@/components/TreatmentDescription/TreatmentDescription";
 import WhyThisCare from "@/components/WhyThisCare/WhyThisCare";
 import MassageServiceJSONLD from "@/components/Metadata/MassageServiceJSONLD";
+import ServiceBreadcrumbJsonLd from "@/components/Metadata/ServiceBreadcrumbJsonLd";
 import { LocalBusinessJsonLd } from "next-seo";
 
 const baseUrl = "https://lavoiedubienetre.be";
@@ -16,14 +17,14 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Massage du dos à Halle – Soin exclusif « Douceur Dorsale »",
-      en: 'Back Massage in Halle – Exclusive "Douceur Dorsale" Treatment',
-      nl: "Rugmassage in Halle – Exclusieve ‘Douceur Dorsale’-behandeling",
+      fr: "Massage Douceur Dorsale à Hal | La Voie du Bien-Être",
+      en: "Back Massage Douceur Dorsale | La Voie du Bien-Être",
+      nl: "Rugmassage Douceur Dorsale | La Voie du Bien-Être",
     }[currentLocale],
     description: {
-      fr: "Découvrez notre massage exclusif du dos à Halle. Une méthode douce et ciblée pour libérer les tensions et retrouver un dos détendu et léger.",
-      en: "Discover our exclusive back massage in Halle. A gentle and targeted method to relieve tension and restore lightness and comfort.",
-      nl: "Ontdek onze exclusieve rugmassage in Halle. Een zachte, gerichte methode om spanningen los te laten en een ontspannen rug te hervinden.",
+      fr: "Massage du dos exclusif à Hal : méthode Douceur Dorsale pour libérer les tensions et retrouver un dos détendu et léger. Réservez maintenant !",
+      en: "Exclusive back massage in Halle: our Douceur Dorsale method relieves tension and restores lightness and comfort. Book your session today!",
+      nl: "Exclusieve rugmassage in Halle: onze Douceur Dorsale-methode verlicht spanningen en herstelt een ontspannen, lichte rug. Boek nu je sessie!",
     }[currentLocale],
     alternates: {
       canonical: `${baseUrl}/${currentLocale}/massage/douceur-dorsale`,
@@ -36,26 +37,30 @@ export async function generateMetadata({ params }) {
     },
     openGraph: {
       title: {
-        fr: "Massage du dos à Halle – Soin exclusif « Douceur Dorsale »",
-        en: 'Back Massage in Halle – Exclusive "Douceur Dorsale" Treatment',
-        nl: "Rugmassage in Halle – Exclusieve ‘Douceur Dorsale’-behandeling",
+        fr: "Massage Douceur Dorsale à Hal | La Voie du Bien-Être",
+        en: "Back Massage Douceur Dorsale | La Voie du Bien-Être",
+        nl: "Rugmassage Douceur Dorsale | La Voie du Bien-Être",
       }[currentLocale],
       description: {
-        fr: "Une méthode douce, ciblée, pour libérer les tensions et retrouver un dos détendu.",
-        en: "A gentle and focused method to ease back tension and bring deep relief.",
-        nl: "Een zachte en gerichte methode om rugspanningen te verlichten.",
+        fr: "Massage du dos exclusif à Hal : méthode Douceur Dorsale pour libérer les tensions et retrouver un dos détendu et léger. Réservez maintenant !",
+        en: "Exclusive back massage in Halle: our Douceur Dorsale method relieves tension and restores lightness and comfort. Book your session today!",
+        nl: "Exclusieve rugmassage in Halle: onze Douceur Dorsale-methode verlicht spanningen en herstelt een ontspannen, lichte rug. Boek nu je sessie!",
       }[currentLocale],
       url: `${baseUrl}/${currentLocale}/massage/douceur-dorsale`,
       type: "website",
       siteName: "La Voie du Bien-Être",
-      locale: `${currentLocale}_BE`,
+      locale: {
+        fr: "fr_BE",
+        en: "en_BE",
+        nl: "nl_BE",
+      }[currentLocale],
       images: [
         {
           url: `${baseUrl}/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp`,
           width: 1200,
           height: 627,
           alt: {
-            fr: "Massage doux pour le dos à Halle",
+            fr: "Massage doux pour le dos à Hal",
             en: "Gentle back massage in Halle",
             nl: "Zachte rugmassage in Halle",
           }[currentLocale],
@@ -63,19 +68,30 @@ export async function generateMetadata({ params }) {
       ],
     },
     twitter: {
-      title: {
-        fr: "Massage du dos à Halle | La Voie du Bien-Être",
-        en: "Back Massage in Halle | La Voie du Bien-Être",
-        nl: "Rugmassage in Halle | La Voie du Bien-Être",
-      }[currentLocale],
-      description: {
-        fr: "Soin exclusif du dos pour libérer les tensions et retrouver une sensation de bien-être.",
-        en: "Exclusive back care to relieve tension and restore a sense of well-being.",
-        nl: "Exclusieve rugbehandeling om spanningen los te laten en welzijn te herstellen.",
-      }[currentLocale],
       card: "summary_large_image",
       site: "@voiedubienetre",
+      title: {
+        fr: "Massage Douceur Dorsale à Hal | La Voie du Bien-Être",
+        en: "Back Massage Douceur Dorsale | La Voie du Bien-Être",
+        nl: "Rugmassage Douceur Dorsale | La Voie du Bien-Être",
+      }[currentLocale],
+      description: {
+        fr: "Soin exclusif du dos Douceur Dorsale à Hal : libérez les tensions dorsales. Réservez votre séance maintenant !",
+        en: "Exclusive Douceur Dorsale back care in Halle: release back tension and restore well-being. Book your session now!",
+        nl: "Exclusieve Douceur Dorsale rugbehandeling in Halle: verlicht rugspanningen en herstel welzijn. Boek nu!",
+      }[currentLocale],
       images: [`${baseUrl}/Images/OpenGraph/masseur-massage.jpg`],
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-video-preview": -1,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+      },
     },
   };
 }
@@ -127,8 +143,15 @@ export default function Page({ params }) {
         ]}
       />
 
-      {/* ✅ JSON-LD du service “douceur dorsale” */}
+      {/* JSON-LD du service douceur dorsale */}
       <MassageServiceJSONLD slug="douceurDorsale" locale={currentLocale} />
+
+      {/* Breadcrumb JSON-LD */}
+      <ServiceBreadcrumbJsonLd
+        locale={currentLocale}
+        serviceName="Douceur Dorsale"
+        serviceUrl={`${baseUrl}/${currentLocale}/massage/douceur-dorsale`}
+      />
 
       <main>
         <HeroMassage variant="dos" />

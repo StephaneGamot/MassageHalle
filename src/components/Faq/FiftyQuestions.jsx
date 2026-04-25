@@ -27,28 +27,25 @@ export default function FiftyQuestions() {
                 {({ open }) => (
                   <>
                     <dt>
-                      <Disclosure.Button className="group flex w-full items-start justify-between text-left text-gray-900">
+                      <Disclosure.Button
+                        className="group flex w-full items-start justify-between text-left text-[#2A2A2A] min-h-[44px]"
+                        aria-expanded={open}
+                      >
                         <span className="text-base/7 font-semibold">
                           {faq.question}
                         </span>
-                        <span className="ml-6 flex h-7 items-center">
+                        <span className="ml-6 flex h-7 items-center" aria-hidden="true">
                           {open ? (
-                            <MinusIcon
-                              aria-hidden="true"
-                              className="size-6"
-                            />
+                            <MinusIcon className="size-6" />
                           ) : (
-                            <PlusIcon
-                              aria-hidden="true"
-                              className="size-6"
-                            />
+                            <PlusIcon className="size-6" />
                           )}
                         </span>
                       </Disclosure.Button>
                     </dt>
 
                     <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                      <p className="text-base/7 text-gray-600">
+                      <p className="text-base/7 text-[#595751]">
                         {faq.answer}
                       </p>
                     </Disclosure.Panel>

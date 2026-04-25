@@ -6,6 +6,7 @@ import CtaSectionMassagePage from "@/components/Cta/CtaSectionMassagePage";
 import TreatmentDescription from "@/components/TreatmentDescription/TreatmentDescription";
 import WhyThisCare from "@/components/WhyThisCare/WhyThisCare";
 import MassageServiceJSONLD from "@/components/Metadata/MassageServiceJSONLD";
+import ServiceBreadcrumbJsonLd from "@/components/Metadata/ServiceBreadcrumbJsonLd";
 import { LocalBusinessJsonLd } from "next-seo";
 
 const baseUrl = "https://lavoiedubienetre.be";
@@ -16,14 +17,14 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Massage Sportif à Halle – Récupération & Performance",
-      en: "Sports Massage in Halle – Recovery & Performance",
-      nl: "Sportmassage in Halle – Herstel & Prestatie",
+      fr: "Massage sportif à Hal – Récupération | La Voie du Bien-Être",
+      en: "Sports Massage in Halle – Recovery | La Voie du Bien-Être",
+      nl: "Sportmassage in Halle – Herstel | La Voie du Bien-Être",
     }[currentLocale],
     description: {
-      fr: "Offrez à votre corps une récupération optimale après l’effort. Le massage sportif soulage les tensions musculaires et améliore la performance.",
-      en: "Give your body optimal recovery after effort. Sports massage relieves muscle tension and boosts performance.",
-      nl: "Gun je lichaam optimaal herstel na inspanning. Sportmassage verlicht spierpijn en verbetert prestaties.",
+      fr: "Massage sportif à Hal : récupération optimale et soulagement des tensions musculaires après l’effort. Réservez votre séance dès maintenant !",
+      en: "Sports massage in Halle: optimal recovery and muscle tension relief after exercise. Boost your performance naturally. Book your session now!",
+      nl: "Sportmassage in Halle: optimaal herstel en verlichting van spierspanning na inspanning. Verbeter je prestaties natuurlijk. Boek nu je sessie!",
     }[currentLocale],
     alternates: {
       canonical: `${baseUrl}/${currentLocale}/massage/sportif`,
@@ -36,28 +37,32 @@ export async function generateMetadata({ params }) {
     },
     openGraph: {
       title: {
-        fr: "Massage Sportif à Halle – Récupération & Performance",
-        en: "Sports Massage in Halle – Recovery & Performance",
-        nl: "Sportmassage in Halle – Herstel & Prestatie",
+        fr: "Massage sportif à Hal – Récupération | La Voie du Bien-Être",
+        en: "Sports Massage in Halle – Recovery | La Voie du Bien-Être",
+        nl: "Sportmassage in Halle – Herstel | La Voie du Bien-Être",
       }[currentLocale],
       description: {
-        fr: "Le massage sportif soulage les tensions musculaires, favorise la récupération et améliore la souplesse.",
-        en: "Sports massage eases muscle tension, promotes recovery and enhances flexibility.",
-        nl: "Sportmassage verlicht spierspanning, bevordert herstel en verbetert de soepelheid.",
+        fr: "Massage sportif à Hal : récupération optimale et soulagement des tensions musculaires après l’effort. Réservez votre séance dès maintenant !",
+        en: "Sports massage in Halle: optimal recovery and muscle tension relief after exercise. Boost your performance naturally. Book your session now!",
+        nl: "Sportmassage in Halle: optimaal herstel en verlichting van spierspanning na inspanning. Verbeter je prestaties natuurlijk. Boek nu je sessie!",
       }[currentLocale],
       url: `${baseUrl}/${currentLocale}/massage/sportif`,
       type: "website",
       siteName: "La Voie du Bien-Être",
-      locale: `${currentLocale}_BE`,
+      locale: {
+        fr: "fr_BE",
+        en: "en_BE",
+        nl: "nl_BE",
+      }[currentLocale],
       images: [
         {
           url: `${baseUrl}/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp`,
           width: 1200,
           height: 627,
           alt: {
-            fr: "Une longue séance de massage lui permet de tout oublier",
-            en: "A long massage session helping to forget everything",
-            nl: "Een lange massagesessie om alles te vergeten",
+            fr: "Massage sportif pour récupération musculaire à Hal",
+            en: "Sports massage for muscle recovery in Halle",
+            nl: "Sportmassage voor spierherstel in Halle",
           }[currentLocale],
         },
       ],
@@ -66,16 +71,27 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       site: "@voiedubienetre",
       title: {
-        fr: "Massage sportif à Halle – Bruxelles | La voie du bien-être",
-        en: "Sports Massage in Halle – Brussels | La Voie du Bien-Être",
-        nl: "Sportmassage in Halle – Brussel | La Voie du Bien-Être",
+        fr: "Massage sportif à Hal – Récupération | La Voie du Bien-Être",
+        en: "Sports Massage in Halle – Recovery | La Voie du Bien-Être",
+        nl: "Sportmassage in Halle – Herstel | La Voie du Bien-Être",
       }[currentLocale],
       description: {
-        fr: "Shiatsu Reiki Massage Sportif et relaxant à Halle – Bruxelles. Pour votre bien-être physique et mental.",
-        en: "Shiatsu Reiki Sports & Relaxing Massage in Halle – Brussels. For your physical and mental well-being.",
-        nl: "Shiatsu Reiki Sport- en Ontspanningsmassage in Halle – Brussel. Voor je lichamelijk en geestelijk welzijn.",
+        fr: "Massage sportif à Hal : récupération musculaire et performance optimale. Réservez votre séance maintenant !",
+        en: "Sports massage in Halle: muscle recovery and optimal performance. Book your session now!",
+        nl: "Sportmassage in Halle: spierherstel en optimale prestaties. Boek nu je sessie!",
       }[currentLocale],
       images: [`${baseUrl}/Images/OpenGraph/masseur-massage.jpg`],
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-video-preview": -1,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+      },
     },
   };
 }
@@ -129,6 +145,13 @@ export default function Page({ params }) {
 
       {/* ✅ JSON-LD du service spécifique */}
       <MassageServiceJSONLD slug="sportif" locale={currentLocale} />
+
+      {/* ✅ Breadcrumb JSON-LD */}
+      <ServiceBreadcrumbJsonLd
+        locale={currentLocale}
+        serviceName="Massage sportif"
+        serviceUrl={`${baseUrl}/${currentLocale}/massage/sportif`}
+      />
 
       <main>
         <HeroMassage variant="sportif" />

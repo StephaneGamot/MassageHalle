@@ -16,7 +16,8 @@
     "voyage": "Journey of the senses",
     "amma": "Amma",
     "contact": "Contact",
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "home": "Home"
   },
   "footer": {
     "informations": "Information",
@@ -27,22 +28,26 @@
     "opening": "By appointment from Monday to Saturday, 10 am–7pm"
   },
   "hero": {
-    "srOnly": "La Voie du Bien-Être Massage & therapeutic care in Halle - Brussels",
-    "headline": "Because well-being is not a luxury... but a necessity.",
-    "paragraph": "Each treatment is a pause in the hustle and bustle of daily life. Offer your body what it deserves: gentleness, attention, and care.",
+    "srOnly": "Wellness massage in Halle — relaxing treatments, shiatsu and reiki | La Voie du Bien-Être",
+    "headline": "Wellness massage in Halle: give your body the care it deserves",
+    "paragraph": "Relaxing massage, shiatsu, reiki or therapeutic treatment in Halle and Brussels: every session is a moment of gentleness, attention and well-being, in-studio or at home.",
     "ctaPrimary": "I take care of myself",
-    "ctaSecondary": "Offer this moment to a loved one"
+    "ctaSecondary": "Offer this moment to a loved one",
+    "ctaWhatsapp": "Book via WhatsApp",
+    "trust": "Halle · Brussels · At home"
   },
   "cta": {
     "title": "Offer a moment of well-being to those you love",
     "paragraph1": "A massage is more than a treatment: it is a gesture of love. Offer an unforgettable moment of relaxation with a gift card.",
     "paragraph2": "Therapeutic treatments and relaxing massages in Halle – Brussels, at the practice or at home.",
-    "cta": "Offer a moment of softness →"
+    "cta": "Offer a moment of softness →",
+    "ctaWhatsapp": "Book via WhatsApp"
   },
  "ctaMassage": {
   "paragraph": "Book your {soin} today and enjoy a moment just for you.",
   "cta": "Make an appointment",
   "note": "No credit card required – book with peace of mind.",
+  "ctaWhatsapp": "Book this treatment",
   "titles": {
     "relaxant": "Give your body what it deserves",
     "sportif": "Prepare your body to perform",
@@ -77,6 +82,7 @@
   "contact": {
     "title": "A question? A wish?",
     "paragraph": "Whether it's for information, a specific need or simply the desire to offer yourself a moment of well-being, our team listens to you with care and kindness. Write to us, and let's create together an experience that reflects you.",
+    "ctaWhatsapp": "Book via WhatsApp",
     "address": "Octaaf de kerchove d'exaerdestraat 193, 1501 Buizingen (Halle)",
     "phone": "04 77 13 19 93",
     "email": "lavoiedubienetre@outlook.com",
@@ -98,6 +104,9 @@
     "twitterDescription": "Massage center in Halle | Shiatsu Reiki Foot Reflexology | La Voie du Bien-Être"
   },
   "massages": {
+    "sectionTitle": "Our treatments",
+    "sectionSubtitle": "Discover our personalised massages and therapeutic treatments",
+    "discoverCta": "Discover this treatment",
     "cards": [
       {
         "id": 1,
@@ -578,6 +587,7 @@
   },
   "hero-massage": {
     "cta": "Book this care →",
+    "ctaWhatsapp": "Book this treatment",
     "massage": {
       "title": "Let stress fade away… with a relaxing massage",
       "text1": "Where calm meets kindness. Give your body what it deserves: gentleness, care, and deep release.",
@@ -926,8 +936,8 @@
   },
     "faq": {
       "title": "Frequently Asked Questions",
-      "metaTitle": "Massage & Therapeutic FAQ in Halle – Brussels",
-      "metaDescription": "Answers to common questions about our massages and treatments in Halle, at home or in our studio. All explained clearly.",
+      "metaTitle": "FAQ Massage & Therapy in Halle | La Voie du Bien-Être",
+      "metaDescription": "Answers to common questions about our massages and therapeutic treatments in Halle: pricing, sessions, contraindications. Book your appointment!",
       "list": [
         {
           "id": 1,

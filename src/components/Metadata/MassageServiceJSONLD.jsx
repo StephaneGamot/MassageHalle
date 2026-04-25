@@ -290,6 +290,151 @@ const massageServices = {
       ],
     },
   },
+
+  antiCellulite: {
+    path: "anti-cellulite",
+    names: {
+      fr: "Massage anti-cellulite",
+      en: "Anti-cellulite massage",
+      nl: "Anti-cellulite massage",
+    },
+    descriptions: {
+      fr: "Un massage tonique et ciblé pour raffermir la peau, lisser la cellulite et retrouver une silhouette harmonieuse.",
+      en: "A toning, targeted massage to firm the skin, smooth cellulite and restore a harmonious silhouette.",
+      nl: "Een tonische, gerichte massage om de huid te verstevigen, cellulitis te verminderen en een harmonieus silhouet te herstellen.",
+    },
+    keywords: {
+      fr: [
+        "massage anti-cellulite Hal",
+        "massage raffermissant Bruxelles",
+        "drainage cellulite Hal",
+      ],
+      en: [
+        "anti-cellulite massage Halle",
+        "firming massage Brussels",
+      ],
+      nl: [
+        "anti-cellulite massage Halle",
+        "verstevigende massage Brussel",
+      ],
+    },
+  },
+
+  voyage: {
+    path: "voyage-des-sens",
+    names: {
+      fr: "Massage voyage des sens",
+      en: "Sensory journey massage",
+      nl: "Zintuigenreis massage",
+    },
+    descriptions: {
+      fr: "Un massage enveloppant qui agit sur les fascias pour un lâcher-prise profond et une détente sensorielle totale.",
+      en: "An enveloping massage working on fascia for deep letting go and total sensory relaxation.",
+      nl: "Een omhullende massage die inwerkt op de fascia voor diep loslaten en totale zintuiglijke ontspanning.",
+    },
+    keywords: {
+      fr: [
+        "massage voyage des sens Hal",
+        "massage fascias Hal",
+        "massage sensoriel Bruxelles",
+      ],
+      en: [
+        "sensory massage Halle",
+        "fascia massage Halle",
+      ],
+      nl: [
+        "zintuigenmassage Halle",
+        "fascia massage Halle",
+      ],
+    },
+  },
+
+  amma: {
+    path: "massage-sur-chaise",
+    names: {
+      fr: "Massage Amma assis",
+      en: "Seated Amma massage",
+      nl: "Amma stoelmassage",
+    },
+    descriptions: {
+      fr: "Un massage assis rapide et efficace en entreprise pour relâcher les tensions du dos, de la nuque et des épaules.",
+      en: "A quick and effective seated massage at work to relieve tension in the back, neck and shoulders.",
+      nl: "Een snelle en effectieve stoelmassage op het werk om spanning in rug, nek en schouders te verlichten.",
+    },
+    keywords: {
+      fr: [
+        "massage assis entreprise Hal",
+        "massage amma Bruxelles",
+        "massage sur chaise bien-être",
+      ],
+      en: [
+        "seated massage at work Halle",
+        "amma massage Brussels",
+      ],
+      nl: [
+        "stoelmassage op het werk Halle",
+        "amma massage Brussel",
+      ],
+    },
+  },
+
+  reflexologie: {
+    path: "reflexologie-plantaire",
+    names: {
+      fr: "Réflexologie plantaire",
+      en: "Foot reflexology",
+      nl: "Voetreflexologie",
+    },
+    descriptions: {
+      fr: "Un soin des pieds qui stimule les zones réflexes pour rééquilibrer le corps et apaiser l'esprit naturellement.",
+      en: "A foot treatment that stimulates reflex zones to rebalance the body and soothe the mind naturally.",
+      nl: "Een voetbehandeling die reflexzones stimuleert om het lichaam in balans te brengen en de geest op natuurlijke wijze te kalmeren.",
+    },
+    keywords: {
+      fr: [
+        "réflexologie plantaire Hal",
+        "massage pieds Hal",
+        "réflexologie Bruxelles",
+      ],
+      en: [
+        "foot reflexology Halle",
+        "reflexology Brussels",
+      ],
+      nl: [
+        "voetreflexologie Halle",
+        "reflexologie Brussel",
+      ],
+    },
+  },
+
+  cranioSacree: {
+    path: "therapie-cranio-sacree",
+    names: {
+      fr: "Thérapie cranio-sacrée",
+      en: "Craniosacral therapy",
+      nl: "Craniosacrale therapie",
+    },
+    descriptions: {
+      fr: "Une approche subtile et puissante qui libère les tensions profondes du système nerveux et favorise l'auto-guérison.",
+      en: "A subtle yet powerful approach that releases deep nervous system tensions and promotes self-healing.",
+      nl: "Een subtiele maar krachtige aanpak die diepe spanningen in het zenuwstelsel loslaat en zelfgenezing bevordert.",
+    },
+    keywords: {
+      fr: [
+        "thérapie cranio-sacrée Hal",
+        "cranio sacral Bruxelles",
+        "soin cranio Hal",
+      ],
+      en: [
+        "craniosacral therapy Halle",
+        "craniosacral Brussels",
+      ],
+      nl: [
+        "craniosacrale therapie Halle",
+        "craniosacrale Brussel",
+      ],
+    },
+  },
 };
 
 export default function MassageServiceJSONLD({ slug, locale = "fr" }) {
@@ -306,7 +451,10 @@ export default function MassageServiceJSONLD({ slug, locale = "fr" }) {
 
   const currentLocale = SUPPORTED_LOCALES.includes(locale) ? locale : "fr";
 
-  const servicePath = `/${currentLocale}/massage/${service.path}`;
+  const isTherapy = ["shiatsu", "reiki", "reflexologie-plantaire", "therapie-cranio-sacree"].includes(service.path);
+  const servicePath = isTherapy
+    ? `/${currentLocale}/${service.path}`
+    : `/${currentLocale}/massage/${service.path}`;
   const url = `${baseUrl}${servicePath}`;
 
   // Id du LocalBusiness (doit matcher celui que tu utilises dans LocalBusinessJsonLd)

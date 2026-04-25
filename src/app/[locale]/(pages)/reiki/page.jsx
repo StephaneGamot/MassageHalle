@@ -1,4 +1,3 @@
-import Head from "next/head";
 import HeroMassage from "@/components/Hero/HeroMassage";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import Gallery from "@/components/Gallery/Gallery";
@@ -7,7 +6,10 @@ import CtaSectionMassagePage from "@/components/Cta/CtaSectionMassagePage";
 import TreatmentDescription from "@/components/TreatmentDescription/TreatmentDescription";
 import WhyThisCare from "@/components/WhyThisCare/WhyThisCare";
 import MassageServiceJSONLD from "@/components/Metadata/MassageServiceJSONLD";
+import ServiceBreadcrumbJsonLd from "@/components/Metadata/ServiceBreadcrumbJsonLd";
+import { LocalBusinessJsonLd } from "next-seo";
 
+const baseUrl = "https://lavoiedubienetre.be";
 
 export async function generateMetadata({ params }) {
   const { locale } = await Promise.resolve(params);
@@ -15,47 +17,50 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Reiki à Halle (Bruxelles) - Soin énergétique & Équilibre",
-      en: "Reiki in Halle (Brussels) – Energy Healing & Balance",
-      nl: "Reiki in Halle (Brussel) – Energetische zorg & Evenwicht",
+      fr: "Reiki à Hal – Soin énergétique | La Voie du Bien-Être",
+      en: "Reiki in Halle – Energy Healing | La Voie du Bien-Être",
+      nl: "Reiki in Halle – Energetische zorg | La Voie du Bien-Être",
     }[currentLocale],
     description: {
-      fr: "Profitez d’un soin Reiki à Halle pour réharmoniser vos énergies et retrouver l’équilibre intérieur. Un accompagnement doux, profond et bienveillant.",
-      en: "Enjoy a Reiki session in Halle to rebalance your energy and restore inner harmony. A gentle, deep, and compassionate care.",
-      nl: "Ervaar een Reiki-behandeling in Halle om uw energieën te harmoniseren en uw innerlijk evenwicht te herstellen. Een zachte, diepe en zorgzame begeleiding.",
+      fr: "Profitez d'un soin Reiki à Hal pour réharmoniser vos énergies et retrouver l'équilibre intérieur. Accompagnement doux et bienveillant. Réservez !",
+      en: "Reiki healing session in Halle: rebalance your energy and restore inner harmony with a gentle, compassionate treatment. Book your appointment today!",
+      nl: "Reiki-behandeling in Halle: harmoniseer uw energieën en herstel uw innerlijk evenwicht met een zachte, zorgzame begeleiding. Boek nu uw afspraak!",
     }[currentLocale],
-alternates: {
-  canonical: `https://lavoiedubienetre.be/${currentLocale}/reiki`,
-  languages: {
-    fr: 'https://lavoiedubienetre.be/fr/reiki',
-    en: 'https://lavoiedubienetre.be/en/reiki',
-    nl: 'https://lavoiedubienetre.be/nl/reiki',
-    'x-default': 'https://lavoiedubienetre.be/fr/reiki',
-  }
-},
-
+    alternates: {
+      canonical: `${baseUrl}/${currentLocale}/reiki`,
+      languages: {
+        fr: `${baseUrl}/fr/reiki`,
+        en: `${baseUrl}/en/reiki`,
+        nl: `${baseUrl}/nl/reiki`,
+        "x-default": `${baseUrl}/fr/reiki`,
+      },
+    },
     openGraph: {
       title: {
-        fr: "Reiki à Halle (Bruxelles) - Soin énergétique & Équilibre",
-        en: "Reiki in Halle (Brussels) – Energy Healing & Balance",
-        nl: "Reiki in Halle (Brussel) – Energetische zorg & Evenwicht",
+        fr: "Reiki à Hal – Soin énergétique & Équilibre",
+        en: "Reiki in Halle – Energy Healing & Balance",
+        nl: "Reiki in Halle – Energetische zorg & Evenwicht",
       }[currentLocale],
       description: {
         fr: "Un soin énergétique doux pour apaiser, revitaliser et équilibrer vos centres énergétiques.",
         en: "A gentle energy healing treatment to soothe, revitalize, and balance your chakras.",
         nl: "Een zachte energetische behandeling om uw energiecentra te kalmeren, revitaliseren en in balans te brengen.",
       }[currentLocale],
-      url: `https://lavoiedubienetre.be/${currentLocale}/reiki`,
+      url: `${baseUrl}/${currentLocale}/reiki`,
       type: "website",
       siteName: "La Voie du Bien-Être",
-      locale: `${currentLocale}_BE`,
+      locale: {
+        fr: "fr_BE",
+        en: "en_BE",
+        nl: "nl_BE",
+      }[currentLocale],
       images: [
         {
-          url: "https://lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
+          url: `${baseUrl}/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp`,
           width: 1200,
           height: 627,
           alt: {
-            fr: "Soin Reiki à Halle",
+            fr: "Soin Reiki à Hal",
             en: "Reiki treatment in Halle",
             nl: "Reiki-behandeling in Halle",
           }[currentLocale],
@@ -63,33 +68,87 @@ alternates: {
       ],
     },
     twitter: {
+      card: "summary_large_image",
+      site: "@voiedubienetre",
       title: {
-        fr: "Soin Reiki à Halle – Énergie & Sérénité",
+        fr: "Soin Reiki à Hal – Énergie & Sérénité",
         en: "Reiki in Halle – Energy & Serenity",
         nl: "Reiki in Halle – Energie & Rust",
       }[currentLocale],
       description: {
-        fr: "Un soin énergétique à Halle pour vous reconnecter à votre essence vitale.",
+        fr: "Un soin énergétique à Hal pour vous reconnecter à votre essence vitale.",
         en: "An energy healing session in Halle to reconnect with your vital essence.",
         nl: "Een energetische behandeling in Halle om opnieuw verbinding te maken met uw vitale energie.",
       }[currentLocale],
-      card: "summary_large_image",
-      site: "@voiedubienetre",
-      images: [
-        "https://lavoiedubienetre.be/Images/OpenGraph/masseur-massage.jpg",
-      ],
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-video-preview": -1,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+      },
     },
   };
 }
 
 
-export default function Page({ params }) {
-  const { locale } = params || {};
+export default async function Page(props) {
+  const { params } = props;
+  const { locale } = await Promise.resolve(params);
   const currentLocale = locale ?? "fr";
 
   return (
     <>
+      <LocalBusinessJsonLd
+        type="HealthAndBeautyBusiness"
+        id={`${baseUrl}/${currentLocale}#local-business`}
+        name="La Voie du Bien-Être"
+        description="Massages bien-être, shiatsu, reiki et soins thérapeutiques à Hal (Halle)."
+        url={`${baseUrl}/${currentLocale}`}
+        telephone="+32477131993"
+        address={{
+          streetAddress: "Octave de Kerchove d'Exaerdestraat 193",
+          addressLocality: "Halle",
+          postalCode: "1501",
+          addressCountry: "BE",
+        }}
+        geo={{
+          latitude: 50.7464695,
+          longitude: 4.2563906,
+        }}
+        priceRange="€€"
+        image={[`${baseUrl}/Images/OpenGraph/accueil-massage-halle.webp`]}
+        sameAs={[
+          "https://www.facebook.com/lavoiedubienetremassageshiatsureikireflexologie/",
+        ]}
+        openingHours={[
+          {
+            opens: "10:00",
+            closes: "19:00",
+            dayOfWeek: [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+            ],
+          },
+        ]}
+      />
+
       <MassageServiceJSONLD slug="reiki" locale={currentLocale} />
+
+      <ServiceBreadcrumbJsonLd
+        locale={currentLocale}
+        serviceName="Reiki"
+        serviceUrl={`${baseUrl}/${currentLocale}/reiki`}
+      />
+
       <main>
         <HeroMassage variant="reiki" />
         <WhyThisCare title="reiki" />

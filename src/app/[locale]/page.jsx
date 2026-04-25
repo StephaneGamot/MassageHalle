@@ -6,6 +6,7 @@ import Hero from "@/components/Hero/Hero";
 import MassageCardContainer from "@/components/Cards/MassageCardContainer";
 import Cta from "@/components/Cta/Cta";
 import { LocalBusinessJsonLd } from "next-seo";
+import HomepageJsonLd from "@/components/Metadata/HomepageJsonLd";
 import GoogleMap from "@/components/GoogleMap";
 // import EndOfYearOfferModal from "@/components/Modals/EndOfYearOfferModal";
 
@@ -13,72 +14,99 @@ export async function generateMetadata({ params }) {
   const { locale } = await Promise.resolve(params);
   const currentLocale = locale ?? "fr";
 
+  const baseUrl = "https://lavoiedubienetre.be";
+
   return {
+    // ─── TITLE TAG (50-60 car.) — mot-clé principal à gauche ───
     title: {
-      fr: "Massage relaxant & soin à Hal - Bruxelles | La Voie du Bien-Être",
-      en: "Relaxing massage & care in Halle - Brussels | La Voie du Bien-Être",
-      nl: "Ontspannende massage & behandeling in Halle - Brussel | La Voie du Bien-Être",
+      fr: "Massage bien-être à Hal – Bruxelles | La Voie du Bien-Être",
+      en: "Wellness Massage in Halle – Brussels | La Voie du Bien-Être",
+      nl: "Wellnessmassage in Halle – Brussel | La Voie du Bien-Être",
     }[currentLocale],
+
+    // ─── META DESCRIPTION (140-155 car.) — avec CTA ───
     description: {
-      fr: "Massages bien-être à Halle, Bruxelles et alentours. Offrez-vous un moment de détente avec nos soins relaxants en cabinet ou à domicile.",
-      en: "Well-being massages in Halle and Brussels. Enjoy a moment of relaxation with our soothing treatments at home or in our studio.",
-      nl: "Ontspanningsmassages in Halle en Brussel. Geniet van rustgevende behandelingen aan huis of in onze praktijk.",
+      fr: "Massages relaxants, shiatsu, reiki et soins thérapeutiques à Hal et Bruxelles. En cabinet ou à domicile. Réservez votre séance bien-être dès maintenant !",
+      en: "Relaxing massages, shiatsu, reiki and therapeutic care in Halle and Brussels. In-studio or at home. Book your wellness session with us today!",
+      nl: "Ontspanningsmassages, shiatsu, reiki en therapeutische behandelingen in Halle en Brussel. In de praktijk of aan huis. Boek vandaag uw welzijnssessie!",
     }[currentLocale],
-    alternates: {
-      canonical: `https://lavoiedubienetre.be/${currentLocale}`,
-      languages: {
-        fr: "https://lavoiedubienetre.be/fr",
-        en: "https://lavoiedubienetre.be/en",
-        nl: "https://lavoiedubienetre.be/nl",
-        "x-default": "https://lavoiedubienetre.be/fr",
+
+    // ─── ROBOTS ───
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-video-preview": -1,
+        "max-image-preview": "large",
+        "max-snippet": -1,
       },
     },
+
+    // ─── ALTERNATES & CANONICAL ───
+    alternates: {
+      canonical: `${baseUrl}/${currentLocale}`,
+      languages: {
+        fr: `${baseUrl}/fr`,
+        en: `${baseUrl}/en`,
+        nl: `${baseUrl}/nl`,
+        "x-default": `${baseUrl}/fr`,
+      },
+    },
+
+    // ─── OPEN GRAPH ───
     openGraph: {
       title: {
-        fr: "Massages bien-être à Halle | La Voie du Bien-Être",
-        en: "Well-being massages in Halle | La Voie du Bien-Être",
-        nl: "Wellnessmassages in Halle | La Voie du Bien-Être",
+        fr: "Massage bien-être à Hal – Bruxelles | La Voie du Bien-Être",
+        en: "Wellness Massage in Halle – Brussels | La Voie du Bien-Être",
+        nl: "Wellnessmassage in Halle – Brussel | La Voie du Bien-Être",
       }[currentLocale],
       description: {
-        fr: "Offrez-vous un moment de détente absolue avec nos soins personnalisés dans un cadre apaisant.",
-        en: "Treat yourself to total relaxation with our personalized treatments in a soothing setting.",
-        nl: "Gun jezelf een moment van volledige ontspanning met onze persoonlijke behandelingen in een rustgevende omgeving.",
+        fr: "Massages relaxants, shiatsu et soins énergétiques à Hal. Offrez-vous une parenthèse de détente en cabinet ou à domicile.",
+        en: "Relaxing massages, shiatsu and energy treatments in Halle. Treat yourself to a moment of relaxation in-studio or at home.",
+        nl: "Ontspanningsmassages, shiatsu en energetische behandelingen in Halle. Gun uzelf een moment van ontspanning in de praktijk of aan huis.",
       }[currentLocale],
-      url: `https://lavoiedubienetre.be/${currentLocale}`,
+      url: `${baseUrl}/${currentLocale}`,
       siteName: "La Voie du Bien-Être",
-      locale: `${currentLocale}_BE`,
+      locale: {
+        fr: "fr_BE",
+        en: "en_BE",
+        nl: "nl_BE",
+      }[currentLocale],
       type: "website",
       images: [
         {
-          url: "https://lavoiedubienetre.be/Images/OpenGraph/accueil-massage-halle.webp",
-          secureUrl:
-            "https://lavoiedubienetre.be/Images/OpenGraph/accueil-massage-halle.webp",
+          url: `${baseUrl}/Images/OpenGraph/accueil-massage-halle.webp`,
+          secureUrl: `${baseUrl}/Images/OpenGraph/accueil-massage-halle.webp`,
           width: 1200,
           height: 627,
           alt: {
-            fr: "Massage bien-être à Halle",
-            en: "Well-being massage in Halle",
-            nl: "Wellnessmassage in Halle",
+            fr: "Salle de massage bien-être chaleureuse à Hal — La Voie du Bien-Être",
+            en: "Warm wellness massage studio in Halle — La Voie du Bien-Être",
+            nl: "Warme wellnessmassagepraktijk in Halle — La Voie du Bien-Être",
           }[currentLocale],
           type: "image/webp",
         },
       ],
     },
+
+    // ─── TWITTER CARD ───
     twitter: {
       card: "summary_large_image",
       site: "@voiedubienetre",
       title: {
-        fr: "Massages et soins à Halle – Bruxelles",
-        en: "Massages & treatments in Halle – Brussels",
-        nl: "Massages & behandelingen in Halle – Brussel",
+        fr: "Massage bien-être à Hal – Bruxelles | La Voie du Bien-Être",
+        en: "Wellness Massage in Halle – Brussels | La Voie du Bien-Être",
+        nl: "Wellnessmassage in Halle – Brussel | La Voie du Bien-Être",
       }[currentLocale],
       description: {
-        fr: "Prenez soin de vous avec un massage relaxant ou thérapeutique à Halle, Uccle, Tubize ou à domicile.",
-        en: "Take care of yourself with a relaxing or therapeutic massage in Halle, Uccle, Tubize or at home.",
-        nl: "Verzorg jezelf met een ontspannende of therapeutische massage in Halle, Ukkel, Tubize of bij je thuis.",
+        fr: "Massages relaxants, shiatsu, reiki et soins thérapeutiques à Hal. En cabinet ou à domicile. Réservez maintenant !",
+        en: "Relaxing massages, shiatsu, reiki and therapeutic treatments in Halle. In-studio or at home. Book now!",
+        nl: "Ontspanningsmassages, shiatsu, reiki en therapeutische behandelingen in Halle. In de praktijk of aan huis. Boek nu!",
       }[currentLocale],
       images: [
-        "https://lavoiedubienetre.be/Images/OpenGraph/accueil-massage-halle.webp",
+        `${baseUrl}/Images/OpenGraph/accueil-massage-halle.webp`,
       ],
     },
   };
@@ -99,7 +127,7 @@ export default async function HomePage(props) {
         type="HealthAndBeautyBusiness"
         id={`${url}#local-business`}
         name="La Voie du Bien-Être"
-        description="Massages, shiatsu et soins énergétiques à Halle – un espace de détente et d’harmonie pour le corps et l’esprit."
+        description="Massages bien-être, shiatsu, reiki et soins thérapeutiques à Hal (Halle) – un espace de détente et d’harmonie pour le corps et l’esprit."
         url={url}
         telephone="+32477131993"
         address={{
@@ -134,6 +162,7 @@ export default async function HomePage(props) {
           },
         ]}
       />
+      <HomepageJsonLd locale={locale} />
    {/* <EndOfYearOfferModal /> */}
       <main>
         <Hero />

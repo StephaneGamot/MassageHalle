@@ -49,8 +49,13 @@ export default async function LocaleLayout(props) {
         />
         <meta
           name="theme-color"
-          content="#556B2F"
+          content="#1B3A2D"
           media="(prefers-color-scheme: dark)"
+        />
+        <meta
+          name="theme-color"
+          content="#FAFAF7"
+          media="(prefers-color-scheme: light)"
         />
         <meta name="robots" content="index, follow" />
         <meta
@@ -69,8 +74,13 @@ export default async function LocaleLayout(props) {
       </head>
       <body className={`${cormorant.variable} ${openSans.variable}`}>
         <NextIntlClientProvider locale={safeLocale} messages={messages}>
+          <a href="#main-content" className="skip-link">
+            Aller au contenu principal
+          </a>
           <NavWithDropdown />
-          {children}
+          <main id="main-content" tabIndex={-1}>
+            {children}
+          </main>
           <Footer />
         </NextIntlClientProvider>
         <SpeedInsights />

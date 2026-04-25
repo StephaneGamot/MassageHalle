@@ -6,6 +6,7 @@ import Gallery from "@/components/Gallery/Gallery";
 import CtaSectionMassagePage from "@/components/Cta/CtaSectionMassagePage";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import MassageServiceJSONLD from "@/components/Metadata/MassageServiceJSONLD";
+import ServiceBreadcrumbJsonLd from "@/components/Metadata/ServiceBreadcrumbJsonLd";
 import { LocalBusinessJsonLd } from "next-seo";
 
 const baseUrl = "https://lavoiedubienetre.be";
@@ -16,14 +17,14 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Massage Deep Tissues à Halle – Détente musculaire profonde",
-      en: "Deep Tissue Massage in Halle – Deep Muscular Relaxation",
-      nl: "Deep Tissue Massage in Halle – Diepe Spierontspanning",
+      fr: "Massage Deep Tissue à Hal | La Voie du Bien-Être",
+      en: "Deep Tissue Massage in Halle | La Voie du Bien-Être",
+      nl: "Deep Tissue Massage in Halle | La Voie du Bien-Être",
     }[currentLocale],
     description: {
-      fr: "Libérez les tensions profondes et soulagez les douleurs chroniques grâce au massage Deep Tissues à Halle. Un soin puissant et ciblé pour un bien-être durable.",
-      en: "Release deep tension and relieve chronic pain with a Deep Tissue massage in Halle. A powerful and focused treatment for lasting well-being.",
-      nl: "Laat diepe spanningen los en verlicht chronische pijn met een Deep Tissue massage in Halle. Een krachtige en gerichte behandeling voor langdurig welzijn.",
+      fr: "Massage Deep Tissue à Hal : libérez les tensions profondes et soulagez les douleurs chroniques. Soin puissant et ciblé. Réservez maintenant !",
+      en: "Deep Tissue massage in Halle: release deep tension and relieve chronic pain. A powerful, focused treatment for lasting well-being. Book now!",
+      nl: "Deep Tissue massage in Halle: laat diepe spanningen los en verlicht chronische pijn. Krachtige, gerichte behandeling. Boek nu je sessie!",
     }[currentLocale],
     alternates: {
       canonical: `${baseUrl}/${currentLocale}/massage/deep-tissues`,
@@ -36,46 +37,61 @@ export async function generateMetadata({ params }) {
     },
     openGraph: {
       title: {
-        fr: "Massage Deep Tissues à Halle – Détente musculaire profonde",
-        en: "Deep Tissue Massage in Halle – Deep Muscular Relaxation",
-        nl: "Deep Tissue Massage in Halle – Diepe Spierontspanning",
+        fr: "Massage Deep Tissue à Hal | La Voie du Bien-Être",
+        en: "Deep Tissue Massage in Halle | La Voie du Bien-Être",
+        nl: "Deep Tissue Massage in Halle | La Voie du Bien-Être",
       }[currentLocale],
       description: {
-        fr: "Libérez les tensions profondes et soulagez les douleurs chroniques grâce au massage Deep Tissues à Halle.",
-        en: "Release deep tension and relieve chronic pain with a Deep Tissue massage in Halle.",
-        nl: "Laat diepe spanningen los en verlicht chronische pijn met een Deep Tissue massage in Halle.",
+        fr: "Massage Deep Tissue à Hal : libérez les tensions profondes et soulagez les douleurs chroniques. Soin puissant et ciblé. Réservez maintenant !",
+        en: "Deep Tissue massage in Halle: release deep tension and relieve chronic pain. A powerful, focused treatment for lasting well-being. Book now!",
+        nl: "Deep Tissue massage in Halle: laat diepe spanningen los en verlicht chronische pijn. Krachtige, gerichte behandeling. Boek nu je sessie!",
       }[currentLocale],
       url: `${baseUrl}/${currentLocale}/massage/deep-tissues`,
       type: "website",
       siteName: "La Voie du Bien-Être",
-      locale: `${currentLocale}_BE`,
+      locale: {
+        fr: "fr_BE",
+        en: "en_BE",
+        nl: "nl_BE",
+      }[currentLocale],
       images: [
         {
           url: `${baseUrl}/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp`,
           width: 1200,
           height: 627,
           alt: {
-            fr: "Massage profond pour soulager les tensions",
-            en: "Deep massage to relieve tension",
-            nl: "Diepe massage om spanningen te verlichten",
+            fr: "Massage profond pour soulager les tensions à Hal",
+            en: "Deep massage to relieve tension in Halle",
+            nl: "Diepe massage om spanningen te verlichten in Halle",
           }[currentLocale],
         },
       ],
     },
     twitter: {
-      title: {
-        fr: "Massage Deep Tissues à Halle – La Voie du Bien-Être",
-        en: "Deep Tissue Massage in Halle – La Voie du Bien-Être",
-        nl: "Deep Tissue Massage in Halle – La Voie du Bien-Être",
-      }[currentLocale],
-      description: {
-        fr: "Centre de massage à Halle | Deep Tissues, Shiatsu, Reiki | La Voie du Bien-Être",
-        en: "Massage center in Halle | Deep Tissue, Shiatsu, Reiki | La Voie du Bien-Être",
-        nl: "Massagecentrum in Halle | Deep Tissue, Shiatsu, Reiki | La Voie du Bien-Être",
-      }[currentLocale],
       card: "summary_large_image",
       site: "@voiedubienetre",
+      title: {
+        fr: "Massage Deep Tissue à Hal | La Voie du Bien-Être",
+        en: "Deep Tissue Massage in Halle | La Voie du Bien-Être",
+        nl: "Deep Tissue Massage in Halle | La Voie du Bien-Être",
+      }[currentLocale],
+      description: {
+        fr: "Massage Deep Tissue à Hal : libérez vos tensions profondes avec un soin ciblé et puissant. Réservez maintenant !",
+        en: "Deep Tissue massage in Halle: release deep tension with a focused, powerful treatment. Book your session now!",
+        nl: "Deep Tissue massage in Halle: laat diepe spanningen los met een gerichte, krachtige behandeling. Boek nu!",
+      }[currentLocale],
       images: [`${baseUrl}/Images/OpenGraph/masseur-massage.jpg`],
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-video-preview": -1,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+      },
     },
   };
 }
@@ -129,6 +145,13 @@ export default function Page({ params }) {
 
       {/* ✅ JSON-LD du service spécifique Deep Tissue */}
       <MassageServiceJSONLD slug="deepTissue" locale={currentLocale} />
+
+      {/* ✅ Breadcrumb JSON-LD */}
+      <ServiceBreadcrumbJsonLd
+        locale={currentLocale}
+        serviceName="Massage Deep Tissue"
+        serviceUrl={`${baseUrl}/${currentLocale}/massage/deep-tissues`}
+      />
 
       <main>
         <HeroMassage variant="deeptissue" />

@@ -6,6 +6,7 @@ import CtaSectionMassagePage from "@/components/Cta/CtaSectionMassagePage";
 import TreatmentDescription from "@/components/TreatmentDescription/TreatmentDescription";
 import WhyThisCare from "@/components/WhyThisCare/WhyThisCare";
 import MassageServiceJSONLD from "@/components/Metadata/MassageServiceJSONLD";
+import ServiceBreadcrumbJsonLd from "@/components/Metadata/ServiceBreadcrumbJsonLd";
 import { LocalBusinessJsonLd } from "next-seo";
 
 const baseUrl = "https://lavoiedubienetre.be";
@@ -16,14 +17,14 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Massage tao à Halle - Bruxelles | Harmonie & Énergie",
-      en: "Tao Massage in Halle - Brussels | Harmony & Vital Energy",
-      nl: "Tao massage in Halle - Brussel | Harmonie & Energie",
+      fr: "Massage tao à Hal – Harmonie & Énergie | Bien-Être",
+      en: "Tao Massage in Halle – Harmony | La Voie du Bien-Être",
+      nl: "Tao Massage in Halle – Harmonie | La Voie du Bien-Être",
     }[currentLocale],
     description: {
-      fr: "Reconnectez-vous à votre énergie vitale avec le massage tao à Halle. Une expérience unique alliant douceur, lenteur et conscience du corps.",
-      en: "Reconnect with your vital energy through Tao massage in Halle. A unique experience combining gentleness, slowness, and body awareness.",
-      nl: "Herontdek je vitale energie met een Tao-massage in Halle. Een unieke ervaring van zachtheid, traagheid en lichaamsbewustzijn.",
+      fr: "Massage tao à Hal : reconnectez-vous à votre énergie vitale. Douceur, lenteur et conscience du corps en une séance unique. Réservez maintenant !",
+      en: "Tao massage in Halle: reconnect with your vital energy. A unique experience combining gentleness, slowness, and body awareness. Book your session now!",
+      nl: "Tao-massage in Halle: herontdek je vitale energie. Een unieke ervaring van zachtheid, traagheid en lichaamsbewustzijn. Boek nu je sessie!",
     }[currentLocale],
     alternates: {
       canonical: `${baseUrl}/${currentLocale}/massage/tao`,
@@ -36,26 +37,30 @@ export async function generateMetadata({ params }) {
     },
     openGraph: {
       title: {
-        fr: "Massage tao à Halle - Harmonie & Énergie | La Voie du Bien-Être",
-        en: "Tao Massage in Halle - Harmony & Vital Energy | La Voie du Bien-Être",
-        nl: "Tao massage in Halle - Harmonie & Energie | La Voie du Bien-Être",
+        fr: "Massage tao à Hal – Harmonie & Énergie | Bien-Être",
+        en: "Tao Massage in Halle – Harmony | La Voie du Bien-Être",
+        nl: "Tao Massage in Halle – Harmonie | La Voie du Bien-Être",
       }[currentLocale],
       description: {
-        fr: "Reconnectez-vous à votre énergie vitale avec le massage tao à Halle. Une expérience unique alliant douceur, lenteur et conscience du corps.",
-        en: "Reconnect with your vital energy through Tao massage in Halle. A unique experience combining gentleness, slowness, and body awareness.",
-        nl: "Herontdek je vitale energie met een Tao-massage in Halle. Een unieke ervaring van zachtheid, traagheid en lichaamsbewustzijn.",
+        fr: "Massage tao à Hal : reconnectez-vous à votre énergie vitale. Douceur, lenteur et conscience du corps en une séance unique. Réservez maintenant !",
+        en: "Tao massage in Halle: reconnect with your vital energy. A unique experience combining gentleness, slowness, and body awareness. Book your session now!",
+        nl: "Tao-massage in Halle: herontdek je vitale energie. Een unieke ervaring van zachtheid, traagheid en lichaamsbewustzijn. Boek nu je sessie!",
       }[currentLocale],
       url: `${baseUrl}/${currentLocale}/massage/tao`,
       type: "website",
       siteName: "La Voie du Bien-Être",
-      locale: `${currentLocale}_BE`,
+      locale: {
+        fr: "fr_BE",
+        en: "en_BE",
+        nl: "nl_BE",
+      }[currentLocale],
       images: [
         {
           url: `${baseUrl}/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp`,
           width: 1200,
           height: 627,
           alt: {
-            fr: "Massage tao à domicile ou en cabinet à Halle",
+            fr: "Massage tao à domicile ou en cabinet à Hal",
             en: "Tao massage at home or in practice in Halle",
             nl: "Tao massage aan huis of in de praktijk in Halle",
           }[currentLocale],
@@ -63,19 +68,30 @@ export async function generateMetadata({ params }) {
       ],
     },
     twitter: {
-      title: {
-        fr: "Massage Tao à Halle | Harmonie & Énergie",
-        en: "Tao Massage in Halle | Harmony & Energy",
-        nl: "Tao Massage in Halle | Harmonie & Energie",
-      }[currentLocale],
-      description: {
-        fr: "Massage tao relaxant à Halle. Une invitation à ralentir, respirer et retrouver l’équilibre.",
-        en: "Tao relaxing massage in Halle. An invitation to slow down, breathe, and restore balance.",
-        nl: "Tao ontspanningsmassage in Halle. Een uitnodiging om te vertragen, te ademen en in balans te komen.",
-      }[currentLocale],
       card: "summary_large_image",
       site: "@voiedubienetre",
+      title: {
+        fr: "Massage tao à Hal – Harmonie | La Voie du Bien-Être",
+        en: "Tao Massage in Halle – Harmony | La Voie du Bien-Être",
+        nl: "Tao Massage in Halle – Harmonie | La Voie du Bien-Être",
+      }[currentLocale],
+      description: {
+        fr: "Massage tao à Hal : douceur, lenteur et harmonie pour retrouver l’équilibre. Réservez votre séance !",
+        en: "Tao massage in Halle: gentleness, slowness and harmony to restore balance. Book your session now!",
+        nl: "Tao-massage in Halle: zachtheid, traagheid en harmonie om in balans te komen. Boek nu je sessie!",
+      }[currentLocale],
       images: [`${baseUrl}/Images/OpenGraph/masseur-massage.jpg`],
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-video-preview": -1,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+      },
     },
   };
 }
@@ -127,6 +143,13 @@ export default function Page({ params }) {
 
       {/* ✅ JSON-LD du service Tao */}
       <MassageServiceJSONLD slug="tao" locale={currentLocale} />
+
+      {/* ✅ Breadcrumb JSON-LD */}
+      <ServiceBreadcrumbJsonLd
+        locale={currentLocale}
+        serviceName="Massage tao"
+        serviceUrl={`${baseUrl}/${currentLocale}/massage/tao`}
+      />
 
       <main>
         <HeroMassage variant="tao" />

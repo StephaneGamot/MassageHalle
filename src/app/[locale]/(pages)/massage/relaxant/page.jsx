@@ -6,6 +6,7 @@ import CtaSectionMassagePage from "@/components/Cta/CtaSectionMassagePage";
 import TreatmentDescription from "@/components/TreatmentDescription/TreatmentDescription";
 import WhyThisCare from "@/components/WhyThisCare/WhyThisCare";
 import MassageServiceJSONLD from "@/components/Metadata/MassageServiceJSONLD";
+import ServiceBreadcrumbJsonLd from "@/components/Metadata/ServiceBreadcrumbJsonLd";
 import { LocalBusinessJsonLd } from "next-seo";
 
 const baseUrl = "https://lavoiedubienetre.be";
@@ -16,14 +17,14 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Massage relaxant à Halle | La Voie du Bien-Être",
-      en: "Relaxing massage in Halle | La Voie du Bien-Être",
+      fr: "Massage relaxant à Hal | La Voie du Bien-Être",
+      en: "Relaxing Massage in Halle | La Voie du Bien-Être",
       nl: "Ontspanningsmassage in Halle | La Voie du Bien-Être",
     }[currentLocale],
     description: {
-      fr: "Un massage relaxant doux et enveloppant pour relâcher le stress et les tensions. Détente totale à Halle et alentours.",
-      en: "A gentle, soothing massage to relieve stress and tension. Total relaxation in Halle and surrounding areas.",
-      nl: "Een zachte, ontspannende massage om stress en spanning los te laten. Totale ontspanning in Halle en omgeving.",
+      fr: "Massage relaxant à Hal : relâchez le stress et les tensions grâce à un soin doux et enveloppant. Détente totale garantie. Réservez maintenant !",
+      en: "Relaxing massage in Halle: release stress and tension with a gentle, soothing treatment. Total relaxation guaranteed. Book your session today!",
+      nl: "Ontspanningsmassage in Halle: laat stress en spanning los met een zachte, omhullende behandeling. Totale ontspanning gegarandeerd. Boek nu!",
     }[currentLocale],
     alternates: {
       canonical: `${baseUrl}/${currentLocale}/massage/relaxant`,
@@ -36,22 +37,25 @@ export async function generateMetadata({ params }) {
     },
     openGraph: {
       title: {
-        fr: "Massage relaxant à Halle | La Voie du Bien-Être",
-        en: "Relaxing massage in Halle | La Voie du Bien-Être",
+        fr: "Massage relaxant à Hal | La Voie du Bien-Être",
+        en: "Relaxing Massage in Halle | La Voie du Bien-Être",
         nl: "Ontspanningsmassage in Halle | La Voie du Bien-Être",
       }[currentLocale],
       description: {
-        fr: "Un massage relaxant pour relâcher les tensions et retrouver une sensation de bien-être profond.",
-        en: "A relaxing massage to release tension and regain deep well-being.",
-        nl: "Een ontspanningsmassage om spanningen los te laten en diep welzijn te hervinden.",
+        fr: "Massage relaxant à Hal : relâchez le stress et les tensions grâce à un soin doux et enveloppant. Détente totale garantie. Réservez maintenant !",
+        en: "Relaxing massage in Halle: release stress and tension with a gentle, soothing treatment. Total relaxation guaranteed. Book your session today!",
+        nl: "Ontspanningsmassage in Halle: laat stress en spanning los met een zachte, omhullende behandeling. Totale ontspanning gegarandeerd. Boek nu!",
       }[currentLocale],
       url: `${baseUrl}/${currentLocale}/massage/relaxant`,
       type: "website",
       siteName: "La Voie du Bien-Être",
-      locale: `${currentLocale}_BE`,
+      locale: {
+        fr: "fr_BE",
+        en: "en_BE",
+        nl: "nl_BE",
+      }[currentLocale],
       images: [
         {
-          // j’enlève "www." pour rester cohérent
           url: `${baseUrl}/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp`,
           width: 1200,
           height: 627,
@@ -66,6 +70,27 @@ export async function generateMetadata({ params }) {
     twitter: {
       card: "summary_large_image",
       site: "@voiedubienetre",
+      title: {
+        fr: "Massage relaxant à Hal | La Voie du Bien-Être",
+        en: "Relaxing Massage in Halle | La Voie du Bien-Être",
+        nl: "Ontspanningsmassage in Halle | La Voie du Bien-Être",
+      }[currentLocale],
+      description: {
+        fr: "Massage relaxant à Hal : relâchez le stress et les tensions grâce à un soin doux et enveloppant. Réservez maintenant !",
+        en: "Relaxing massage in Halle: release stress and tension with a gentle, soothing treatment. Book your session today!",
+        nl: "Ontspanningsmassage in Halle: laat stress en spanning los met een zachte, omhullende behandeling. Boek nu!",
+      }[currentLocale],
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-video-preview": -1,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+      },
     },
   };
 }
@@ -118,8 +143,15 @@ export default async function Page(props) {
         ]}
       />
 
-      {/* ✅ JSON-LD du service spécifique “massage relaxant” */}
+      {/* JSON-LD du service massage relaxant */}
       <MassageServiceJSONLD slug="relaxant" locale={currentLocale} />
+
+      {/* Breadcrumb JSON-LD */}
+      <ServiceBreadcrumbJsonLd
+        locale={currentLocale}
+        serviceName="Massage relaxant"
+        serviceUrl={`${baseUrl}/${currentLocale}/massage/relaxant`}
+      />
 
       <main>
         <HeroMassage variant="massage" />

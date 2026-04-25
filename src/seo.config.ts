@@ -1,36 +1,44 @@
 // seo.config.js
 
-/** @type {import('next').Metadata} */
+/** @type {import(‘next’).Metadata} */
 export const defaultMetadata = {
-  metadataBase: new URL("https://lavoiedubienetre.be"), // adapte si besoin
+  metadataBase: new URL("https://lavoiedubienetre.be"),
   title: {
-    default: "La Voie du Bien-Être",
+    default: "Massage bien-être à Hal – Bruxelles | La Voie du Bien-Être",
     template: "%s | La Voie du Bien-Être",
   },
   description:
-    "Massages, shiatsu et soins énergétiques à Halle – Bruxelles | un espace de détente et d’harmonie pour le corps et l’esprit.",
+    "Massages relaxants, shiatsu, reiki et soins thérapeutiques à Hal et Bruxelles. En cabinet ou à domicile. Réservez votre séance bien-être dès maintenant !",
   openGraph: {
     type: "website",
     url: "https://lavoiedubienetre.be",
     siteName: "La Voie du Bien-Être",
     locale: "fr_BE",
-    title: "La Voie du Bien-Être",
+    title: "Massage bien-être à Hal – Bruxelles | La Voie du Bien-Être",
     description:
-      "Massages, shiatsu et soins énergétiques à Halle – détente profonde, rééquilibrage et bien-être durable.",
+      "Massages relaxants, shiatsu et soins énergétiques à Hal. Offrez-vous une parenthèse de détente en cabinet ou à domicile.",
     images: [
       {
-        url: "/og-image-lavoiedubienetre.jpg", // mets ton vrai fichier d’OG image ici
+        url: "/Images/OpenGraph/accueil-massage-halle.webp",
         width: 1200,
-        height: 630,
-        alt: "Ambiance apaisante de massage à La Voie du Bien-Être",
+        height: 627,
+        alt: "Salle de massage bien-être chaleureuse à Hal — La Voie du Bien-Être",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
+    site: "@voiedubienetre",
   },
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
 };

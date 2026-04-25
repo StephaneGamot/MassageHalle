@@ -1,4 +1,3 @@
-import Head from "next/head";
 import HeroMassage from "@/components/Hero/HeroMassage";
 import Benefits from "@/components/Benefits/Benefits";
 import WhyThisCare from "@/components/WhyThisCare/WhyThisCare";
@@ -7,7 +6,10 @@ import Gallery from "@/components/Gallery/Gallery";
 import CtaSectionMassagePage from "@/components/Cta/CtaSectionMassagePage";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import MassageServiceJSONLD from "@/components/Metadata/MassageServiceJSONLD";
+import ServiceBreadcrumbJsonLd from "@/components/Metadata/ServiceBreadcrumbJsonLd";
+import { LocalBusinessJsonLd } from "next-seo";
 
+const baseUrl = "https://lavoiedubienetre.be";
 
 export async function generateMetadata({ params }) {
   const { locale } = await Promise.resolve(params);
@@ -15,28 +17,27 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Thérapie Cranio-Sacrée à Halle – Apaisement profond",
-      en: "Craniosacral Therapy in Halle – Deep Relief",
-      nl: "Craniosacrale Therapie in Halle – Diepe Ontspanning",
+      fr: "Thérapie Cranio-Sacrée à Hal | La Voie du Bien-Être",
+      en: "Craniosacral Therapy in Halle (Brussels) | La Voie du Bien-Être",
+      nl: "Craniosacrale Therapie in Halle | La Voie du Bien-Être",
     }[currentLocale],
     description: {
-      fr: "Offrez à votre corps un soin subtil et puissant avec la thérapie cranio-sacrée. Idéal pour libérer les blocages profonds du système nerveux.",
-      en: "Give your body a subtle yet powerful treatment with craniosacral therapy. Ideal to release deep nervous system tensions.",
-      nl: "Gun uw lichaam een subtiele maar krachtige behandeling met craniosacrale therapie. Ideaal om diepe spanningen in het zenuwstelsel los te laten.",
+      fr: "Thérapie cranio-sacrée à Hal : libérez les blocages du système nerveux grâce à un soin subtil et puissant. Réservez votre séance dès maintenant !",
+      en: "Craniosacral therapy in Halle: release deep nervous system blockages with a subtle yet powerful treatment. Book your session at our studio today!",
+      nl: "Craniosacrale therapie in Halle: bevrijd diepe blokkades in het zenuwstelsel met een subtiele maar krachtige behandeling. Boek nu uw afspraak!",
     }[currentLocale],
-alternates: {
-  canonical: `https://lavoiedubienetre.be/${currentLocale}/therapie-cranio-sacree`,
-  languages: {
-    fr: 'https://lavoiedubienetre.be/fr/therapie-cranio-sacree',
-    en: 'https://lavoiedubienetre.be/en/therapie-cranio-sacree',
-    nl: 'https://lavoiedubienetre.be/nl/therapie-cranio-sacree',
-    'x-default': 'https://lavoiedubienetre.be/fr/therapie-cranio-sacree',
-  }
-},
-
+    alternates: {
+      canonical: `${baseUrl}/${currentLocale}/therapie-cranio-sacree`,
+      languages: {
+        fr: `${baseUrl}/fr/therapie-cranio-sacree`,
+        en: `${baseUrl}/en/therapie-cranio-sacree`,
+        nl: `${baseUrl}/nl/therapie-cranio-sacree`,
+        "x-default": `${baseUrl}/fr/therapie-cranio-sacree`,
+      },
+    },
     openGraph: {
       title: {
-        fr: "Thérapie Cranio-Sacrée à Halle – Apaisement profond",
+        fr: "Thérapie Cranio-Sacrée à Hal – Apaisement profond",
         en: "Craniosacral Therapy in Halle – Deep Relief",
         nl: "Craniosacrale Therapie in Halle – Diepe Ontspanning",
       }[currentLocale],
@@ -45,17 +46,21 @@ alternates: {
         en: "A gentle method to regulate the nervous system, relieve chronic pain, and support long-lasting wellness.",
         nl: "Een zachte methode om het zenuwstelsel te reguleren, chronische pijn te verlichten en duurzaam welzijn te bevorderen.",
       }[currentLocale],
-      url: `https://lavoiedubienetre.be/${currentLocale}/therapie-cranio-sacree`,
+      url: `${baseUrl}/${currentLocale}/therapie-cranio-sacree`,
       type: "website",
       siteName: "La Voie du Bien-Être",
-      locale: `${currentLocale}_BE`,
+      locale: {
+        fr: "fr_BE",
+        en: "en_BE",
+        nl: "nl_BE",
+      }[currentLocale],
       images: [
         {
-          url: "https://lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
+          url: `${baseUrl}/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp`,
           width: 1200,
           height: 627,
           alt: {
-            fr: "Thérapie cranio-sacrée – Détente profonde à Halle",
+            fr: "Thérapie cranio-sacrée – Détente profonde à Hal",
             en: "Craniosacral therapy – Deep relaxation in Halle",
             nl: "Craniosacrale therapie – Diepe ontspanning in Halle",
           }[currentLocale],
@@ -63,8 +68,10 @@ alternates: {
       ],
     },
     twitter: {
+      card: "summary_large_image",
+      site: "@voiedubienetre",
       title: {
-        fr: "Cranio-Sacrée à Halle – Retrouver équilibre et calme",
+        fr: "Cranio-Sacrée à Hal – Retrouver équilibre et calme",
         en: "Craniosacral Therapy – Restore balance and calm",
         nl: "Craniosacrale Therapie – Herstel van rust en evenwicht",
       }[currentLocale],
@@ -73,23 +80,75 @@ alternates: {
         en: "Soothing of the nervous system, deep release. A CST session to refocus.",
         nl: "Kalmering van het zenuwstelsel, diepe bevrijding. Een CST-sessie om opnieuw in balans te komen.",
       }[currentLocale],
-      card: "summary_large_image",
-      site: "@voiedubienetre",
-      images: [
-        "https://lavoiedubienetre.be/Images/OpenGraph/masseur-massage.jpg",
-      ],
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-video-preview": -1,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+      },
     },
   };
 }
 
 
-export default function Page({ params }) {
-  const { locale } = params || {};
+export default async function Page(props) {
+  const { params } = props;
+  const { locale } = await Promise.resolve(params);
   const currentLocale = locale ?? "fr";
 
   return (
     <>
-      <MassageServiceJSONLD slug="relaxant" locale={currentLocale} />
+      <LocalBusinessJsonLd
+        type="HealthAndBeautyBusiness"
+        id={`${baseUrl}/${currentLocale}#local-business`}
+        name="La Voie du Bien-Être"
+        description="Massages bien-être, shiatsu, reiki et soins thérapeutiques à Hal (Halle)."
+        url={`${baseUrl}/${currentLocale}`}
+        telephone="+32477131993"
+        address={{
+          streetAddress: "Octave de Kerchove d'Exaerdestraat 193",
+          addressLocality: "Halle",
+          postalCode: "1501",
+          addressCountry: "BE",
+        }}
+        geo={{
+          latitude: 50.7464695,
+          longitude: 4.2563906,
+        }}
+        priceRange="€€"
+        image={[`${baseUrl}/Images/OpenGraph/accueil-massage-halle.webp`]}
+        sameAs={[
+          "https://www.facebook.com/lavoiedubienetremassageshiatsureikireflexologie/",
+        ]}
+        openingHours={[
+          {
+            opens: "10:00",
+            closes: "19:00",
+            dayOfWeek: [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+            ],
+          },
+        ]}
+      />
+
+      <MassageServiceJSONLD slug="cranioSacree" locale={currentLocale} />
+
+      <ServiceBreadcrumbJsonLd
+        locale={currentLocale}
+        serviceName="Thérapie Cranio-Sacrée"
+        serviceUrl={`${baseUrl}/${currentLocale}/therapie-cranio-sacree`}
+      />
+
       <main>
         <HeroMassage variant="cst" />
         <WhyThisCare title="cst" />

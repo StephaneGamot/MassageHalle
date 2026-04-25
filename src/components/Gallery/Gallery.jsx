@@ -11,7 +11,7 @@ export default function Gallery({ ids = [] }) {
         role="region"
         aria-label="Galerie d’images"
       >
-        <p className="text-gray-500">Aucune image disponible pour cette page.</p>
+        <p className="text-[#595751]">Aucune image disponible pour cette page.</p>
       </section>
     );
   }
@@ -35,7 +35,7 @@ export default function Gallery({ ids = [] }) {
               height={300}
             />
             {img.caption && (
-              <figcaption className="mt-2 text-sm text-gray-600 text-center">
+              <figcaption className="mt-2 text-sm text-[#595751] text-center">
                 {img.caption}
               </figcaption>
             )}

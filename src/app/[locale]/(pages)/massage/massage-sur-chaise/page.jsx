@@ -7,6 +7,7 @@ import CtaSectionMassagePage from "@/components/Cta/CtaSectionMassagePage";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import MassageServiceJSONLD from "@/components/Metadata/MassageServiceJSONLD";
 import { LocalBusinessJsonLd } from "next-seo";
+import ServiceBreadcrumbJsonLd from "@/components/Metadata/ServiceBreadcrumbJsonLd";
 
 const baseUrl = "https://lavoiedubienetre.be";
 
@@ -16,15 +17,19 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Massage Amma assis en entreprise – Halle & Bruxelles",
-      en: "Seated Amma Massage at Work – Halle & Brussels",
-      nl: "Amma stoelmassage op het werk – Halle & Brussel",
+      fr: "Massage Amma assis en entreprise à Hal & Bruxelles",
+      en: "Seated Amma Massage for Companies | Halle & Brussels",
+      nl: "Amma stoelmassage voor bedrijven | Halle & Brussel",
     }[currentLocale],
     description: {
-      fr: "Offrez un moment de détente à vos collaborateurs grâce au massage assis. Idéal pour réduire le stress, améliorer la concentration & le bien-être en entreprise.",
-      en: "Offer your employees a moment of relaxation with seated Amma massage. Ideal to reduce stress, improve focus, and boost well-being at work.",
-      nl: "Geef uw medewerkers een ontspanningsmoment met Amma stoelmassage. Ideaal om stress te verminderen, focus te verbeteren en welzijn op het werk te bevorderen.",
+      fr: "Offrez à vos collaborateurs un massage Amma assis en entreprise à Hal et Bruxelles. Réduit le stress et booste la productivité. Réservez une séance !",
+      en: "Treat your team to a seated Amma massage at work in Halle and Brussels. Reduces stress and boosts productivity. Book a session for your company!",
+      nl: "Trakteer uw team op een Amma stoelmassage op het werk in Halle en Brussel. Vermindert stress en verhoogt de productiviteit. Boek nu een sessie!",
     }[currentLocale],
+    robots: {
+      index: true,
+      follow: true,
+    },
     alternates: {
       canonical: `${baseUrl}/${currentLocale}/massage/massage-sur-chaise`,
       languages: {
@@ -36,19 +41,23 @@ export async function generateMetadata({ params }) {
     },
     openGraph: {
       title: {
-        fr: "Massage Amma assis en entreprise – Halle & Bruxelles",
-        en: "Seated Amma Massage at Work – Halle & Brussels",
-        nl: "Amma stoelmassage op het werk – Halle & Brussel",
+        fr: "Massage Amma assis en entreprise à Hal & Bruxelles",
+        en: "Seated Amma Massage for Companies | Halle & Brussels",
+        nl: "Amma stoelmassage voor bedrijven | Halle & Brussel",
       }[currentLocale],
       description: {
-        fr: "Offrez un moment de détente à vos collaborateurs grâce au massage Amma assis. Idéal pour réduire le stress, améliorer la concentration et booster le bien-être en entreprise.",
-        en: "Give your team a relaxing break with seated Amma massage. Great to reduce stress and increase well-being at work.",
-        nl: "Gun je team een ontspanningsmoment met Amma stoelmassage. Perfect om stress te verlagen en welzijn te verhogen op het werk.",
+        fr: "Offrez à vos collaborateurs un massage Amma assis en entreprise à Hal et Bruxelles. Réduit le stress et booste la productivité. Réservez une séance !",
+        en: "Treat your team to a seated Amma massage at work in Halle and Brussels. Reduces stress and boosts productivity. Book a session for your company!",
+        nl: "Trakteer uw team op een Amma stoelmassage op het werk in Halle en Brussel. Vermindert stress en verhoogt de productiviteit. Boek nu een sessie!",
       }[currentLocale],
       url: `${baseUrl}/${currentLocale}/massage/massage-sur-chaise`,
       type: "website",
       siteName: "La Voie du Bien-Être",
-      locale: `${currentLocale}_BE`,
+      locale: {
+        fr: "fr_BE",
+        en: "en_BE",
+        nl: "nl_BE",
+      }[currentLocale],
       images: [
         {
           url: `${baseUrl}/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp`,
@@ -64,14 +73,14 @@ export async function generateMetadata({ params }) {
     },
     twitter: {
       title: {
-        fr: "Massage Amma assis en entreprise – Détente et efficacité",
-        en: "Seated Amma Massage at Work – Relaxation & Focus",
-        nl: "Amma stoelmassage op het werk – Ontspanning en productiviteit",
+        fr: "Massage Amma assis en entreprise à Hal & Bruxelles",
+        en: "Seated Amma Massage for Companies | Halle & Brussels",
+        nl: "Amma stoelmassage voor bedrijven | Halle & Brussel",
       }[currentLocale],
       description: {
-        fr: "Massage Amma assis à Halle et à domicile – bien-être et efficacité pour vos équipes.",
-        en: "Seated Amma massage in Halle and at work – well-being and efficiency for your teams.",
-        nl: "Amma stoelmassage in Halle of op locatie – welzijn en prestaties voor uw team.",
+        fr: "Offrez à vos collaborateurs un massage Amma assis en entreprise à Hal et Bruxelles. Réduit le stress et booste la productivité. Réservez une séance !",
+        en: "Treat your team to a seated Amma massage at work in Halle and Brussels. Reduces stress and boosts productivity. Book a session for your company!",
+        nl: "Trakteer uw team op een Amma stoelmassage op het werk in Halle en Brussel. Vermindert stress en verhoogt de productiviteit. Boek nu een sessie!",
       }[currentLocale],
       card: "summary_large_image",
       site: "@voiedubienetre",
@@ -125,8 +134,8 @@ export default function Page({ params }) {
         ]}
       />
 
-      {/* Pour l’instant, réutilisation du service “relaxant” */}
-      <MassageServiceJSONLD slug="relaxant" locale={currentLocale} />
+      <MassageServiceJSONLD slug="amma" locale={currentLocale} />
+      <ServiceBreadcrumbJsonLd locale={currentLocale} serviceName="Massage Amma assis" serviceUrl={`${baseUrl}/${currentLocale}/massage/massage-sur-chaise`} />
 
       <main>
         <HeroMassage variant="amma" />
