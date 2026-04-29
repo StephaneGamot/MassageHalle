@@ -24,9 +24,9 @@ export async function generateMetadata({ params }) {
       nl: "Tao Massage in Halle – Harmonie | La Voie du Bien-Être",
     }[currentLocale],
     description: {
-      fr: "Massage tao à Hal : reconnectez-vous à votre énergie vitale. Douceur, lenteur et conscience du corps en une séance unique. Réservez maintenant !",
-      en: "Tao massage in Halle: reconnect with your vital energy. A unique experience combining gentleness, slowness, and body awareness. Book your session now!",
-      nl: "Tao-massage in Halle: herontdek je vitale energie. Een unieke ervaring van zachtheid, traagheid en lichaamsbewustzijn. Boek nu je sessie!",
+      fr: "Massage tao à Hal dès 80€ : reconnectez-vous à votre énergie vitale. Douceur, lenteur et conscience du corps. Réservez maintenant !",
+      en: "Tao massage in Halle from €80: reconnect with your vital energy. Gentleness, slowness, and body awareness. Book your session now!",
+      nl: "Tao-massage in Halle vanaf €80: herontdek je vitale energie. Een unieke ervaring van zachtheid, traagheid en lichaamsbewustzijn. Boek nu!",
     }[currentLocale],
     alternates: {
       canonical: `${baseUrl}/${currentLocale}/massage/tao`,
@@ -44,9 +44,9 @@ export async function generateMetadata({ params }) {
         nl: "Tao Massage in Halle – Harmonie | La Voie du Bien-Être",
       }[currentLocale],
       description: {
-        fr: "Massage tao à Hal : reconnectez-vous à votre énergie vitale. Douceur, lenteur et conscience du corps en une séance unique. Réservez maintenant !",
-        en: "Tao massage in Halle: reconnect with your vital energy. A unique experience combining gentleness, slowness, and body awareness. Book your session now!",
-        nl: "Tao-massage in Halle: herontdek je vitale energie. Een unieke ervaring van zachtheid, traagheid en lichaamsbewustzijn. Boek nu je sessie!",
+        fr: "Massage tao à Hal dès 80€ : reconnectez-vous à votre énergie vitale. Douceur, lenteur et conscience du corps. Réservez maintenant !",
+        en: "Tao massage in Halle from €80: reconnect with your vital energy. Gentleness, slowness, and body awareness. Book your session now!",
+        nl: "Tao-massage in Halle vanaf €80: herontdek je vitale energie. Een unieke ervaring van zachtheid, traagheid en lichaamsbewustzijn. Boek nu!",
       }[currentLocale],
       url: `${baseUrl}/${currentLocale}/massage/tao`,
       type: "website",

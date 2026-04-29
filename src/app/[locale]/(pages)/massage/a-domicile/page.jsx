@@ -25,9 +25,9 @@ export async function generateMetadata({ params }) {
       nl: "Massage aan huis in Halle & Brussel | Bien-Être",
     }[currentLocale],
     description: {
-      fr: "Massage relaxant à domicile à Hal, Bruxelles et environs. Soin personnalisé dans le confort de votre foyer. Réservez votre séance maintenant !",
-      en: "Enjoy a relaxing home massage in Halle, Brussels and surroundings. A personalized treatment in the comfort of your home. Book your session today!",
-      nl: "Geniet van een ontspannende massage aan huis in Halle, Brussel en omgeving. Een persoonlijke behandeling in uw eigen comfort. Boek nu uw sessie!",
+      fr: "Massage à domicile à Hal dès 80€. Soin personnalisé dans le confort de votre foyer, à Bruxelles et environs. Réservez maintenant !",
+      en: "Home massage in Halle from €80. A personalized treatment in the comfort of your home. Brussels and surroundings. Book today!",
+      nl: "Massage aan huis in Halle vanaf €80. Persoonlijke behandeling in uw eigen comfort. Halle, Brussel en omgeving. Boek nu uw sessie!",
     }[currentLocale],
     robots: {
       index: true,

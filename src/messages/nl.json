@@ -1264,6 +1264,31 @@
       { "q": "Is voetreflexologie pijnlijk?", "a": "Sommige gevoelige zones kunnen licht ongemak veroorzaken, een teken van onbalans. De druk wordt altijd aangepast aan uw comfort." },
       { "q": "Wat zijn de voordelen van reflexologie?", "a": "Het verbetert de bloedsomloop, vermindert stress, verlicht pijn en herstelt het algehele evenwicht van het lichaam op natuurlijke wijze." },
       { "q": "Hoe lang duurt een sessie?", "a": "Een sessie duurt tussen 60 en 90 minuten, op blote voeten. De behandeling begint met een ontspannend voetbad." }
+    ],
+    "anticellulite": [
+      { "q": "Is de anti-cellulite massage pijnlijk?", "a": "De eerste bewegingen kunnen licht oncomfortabel zijn omdat de massage tonisch is, maar de druk wordt altijd aangepast aan uw gevoeligheid." },
+      { "q": "Hoeveel sessies zijn nodig om resultaat te zien?", "a": "De eerste effecten zijn zichtbaar na 3 tot 5 sessies. Een programma van 8 tot 10 wekelijkse sessies is ideaal voor blijvende resultaten." },
+      { "q": "Werkt de anti-cellulite massage op alle zones?", "a": "Ja, het richt zich op dijen, billen, heupen en buik. De massage verbetert de bloedsomloop en helpt onderhuidse vetophopingen los te maken." }
+    ],
+    "dos": [
+      { "q": "Is de rugmassage geschikt bij lage rugpijn?", "a": "Ja, deze massage is bijzonder geschikt voor lumbale pijn. Het laat zacht de spanningen los die zijn opgebouwd in de hele rugketen." },
+      { "q": "Hoe lang duurt een rugmassage sessie?", "a": "De sessie duurt tussen 60 en 90 minuten. De 90-minutenoptie biedt dieper werk op nek, schouders en bekken." },
+      { "q": "Is deze massage geschikt voor kantoorwerkers?", "a": "Absoluut. Het is de ideale massage voor sedentaire mensen: het verlicht spanningen veroorzaakt door langdurig zitten." }
+    ],
+    "voyage": [
+      { "q": "Wat is de zintuigenreis massage?", "a": "Het is een omhullende massage die werkt op de fascia — het bindweefsel van het lichaam. Het biedt diep loslaten en totale zintuiglijke ontspanning." },
+      { "q": "Hoe verschilt deze massage van een ontspanningsmassage?", "a": "De zintuigenreis werkt specifiek op de fascia met langzame, diepe bewegingen, terwijl de ontspanningsmassage lichtere, vloeiendere streken gebruikt." },
+      { "q": "Is deze massage geschikt voor zeer gestresste mensen?", "a": "Het is een van de beste keuzes. Werken op fascia laat spanningen los die zijn opgeslagen in het lichaam, vaak gerelateerd aan chronische stress." }
+    ],
+    "amma": [
+      { "q": "Hoe lang duurt een Amma stoelmassage?", "a": "Een sessie duurt tussen 15 en 20 minuten per persoon. Het is een kort en effectief formaat, perfect voor de werkplek of evenementen." },
+      { "q": "Moet ik me uitkleden voor een Amma massage?", "a": "Nee, de Amma massage wordt volledig gekleed uitgevoerd, zittend op een speciale ergonomische stoel. Geen voorbereiding nodig." },
+      { "q": "Hoe organiseer ik een Amma massage op mijn werkplek?", "a": "Neem contact met mij op via WhatsApp of telefoon. Ik breng alle apparatuur mee. U heeft alleen een rustige ruimte nodig van ongeveer 2m × 2m per post." }
+    ],
+    "cst": [
+      { "q": "Wat is craniosacrale therapie?", "a": "Het is een zachte benadering die spanningen van het centrale zenuwstelsel loslaat door lichte aanraking op schedel, wervelkolom en heiligbeen." },
+      { "q": "Is craniosacrale therapie geschikt voor kinderen?", "a": "Ja, het is een zeer zachte benadering geschikt voor baby's en volwassenen. Het is bijzonder aanbevolen voor baby's na een moeilijke bevalling." },
+      { "q": "Hoeveel sessies worden aanbevolen?", "a": "Over het algemeen tonen 3 tot 5 sessies met 2 tot 3 weken tussentijd significante verbeteringen. Iedereen reageert anders." }
     ]
   }
 }

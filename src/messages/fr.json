@@ -1290,6 +1290,31 @@
       { "q": "La réflexologie plantaire est-elle douloureuse ?", "a": "Certaines zones sensibles peuvent provoquer un léger inconfort, signe de déséquilibre. La pression est toujours adaptée à votre confort." },
       { "q": "Quels sont les bienfaits de la réflexologie ?", "a": "Elle améliore la circulation, réduit le stress, soulage les douleurs et rétablit l'équilibre général du corps de manière naturelle." },
       { "q": "Combien de temps dure une séance ?", "a": "Une séance dure entre 60 et 90 minutes, pieds nus. Le soin commence par un bain de pieds relaxant." }
+    ],
+    "anticellulite": [
+      { "q": "Le massage anti-cellulite est-il douloureux ?", "a": "Les premiers gestes peuvent être légèrement inconfortables car le massage est tonique, mais la pression est toujours adaptée à votre sensibilité." },
+      { "q": "Combien de séances faut-il pour voir des résultats ?", "a": "Les premiers effets sont visibles dès 3 à 5 séances. Un programme de 8 à 10 séances espacées d'une semaine est idéal pour des résultats durables." },
+      { "q": "Le massage anti-cellulite est-il efficace sur toutes les zones ?", "a": "Oui, il cible les cuisses, fesses, hanches et ventre. Le massage améliore la circulation et aide à déloger les amas graisseux sous-cutanés." }
+    ],
+    "dos": [
+      { "q": "Le massage douceur dorsale convient-il en cas de lombalgie ?", "a": "Oui, ce massage est particulièrement adapté aux douleurs lombaires. Il relâche les tensions accumulées dans toute la chaîne dorsale en douceur." },
+      { "q": "Quelle est la durée d'une séance douceur dorsale ?", "a": "La séance dure entre 60 et 90 minutes. Les 90 minutes permettent de travailler aussi la nuque, les épaules et le bassin en profondeur." },
+      { "q": "Ce massage est-il adapté aux personnes travaillant sur ordinateur ?", "a": "Absolument. C'est le massage idéal pour les personnes sédentaires : il soulage les tensions liées à la posture assise prolongée." }
+    ],
+    "voyage": [
+      { "q": "Qu'est-ce que le massage voyage des sens ?", "a": "C'est un massage enveloppant qui agit sur les fascias — les tissus conjonctifs du corps. Il procure un lâcher-prise profond et une détente sensorielle totale." },
+      { "q": "En quoi ce massage diffère-t-il du massage relaxant ?", "a": "Le voyage des sens travaille spécifiquement les fascias avec des mouvements lents et profonds, là où le relaxant utilise des mouvements plus fluides et légers." },
+      { "q": "Ce massage convient-il aux personnes très stressées ?", "a": "C'est même l'un des meilleurs choix. Le travail sur les fascias libère les tensions stockées dans le corps, souvent liées au stress chronique." }
+    ],
+    "amma": [
+      { "q": "Combien de temps dure un massage Amma sur chaise ?", "a": "Une séance dure entre 15 et 20 minutes par personne. C'est un format court et efficace, parfait en entreprise ou lors d'événements." },
+      { "q": "Faut-il se déshabiller pour un massage Amma ?", "a": "Non, le massage Amma se pratique habillé, assis sur une chaise ergonomique spéciale. Aucune préparation n'est nécessaire." },
+      { "q": "Comment organiser un massage Amma en entreprise ?", "a": "Contactez-moi par WhatsApp ou téléphone. Je me déplace avec tout le matériel. Il suffit d'un espace calme d'environ 2m × 2m par poste." }
+    ],
+    "cst": [
+      { "q": "Qu'est-ce que la thérapie cranio-sacrée ?", "a": "C'est une approche douce qui libère les tensions du système nerveux central par un toucher léger sur le crâne, la colonne et le sacrum." },
+      { "q": "La thérapie cranio-sacrée est-elle adaptée aux enfants ?", "a": "Oui, c'est une approche très douce qui convient aussi bien aux nourrissons qu'aux adultes. Elle est particulièrement indiquée pour les bébés après un accouchement difficile." },
+      { "q": "Combien de séances sont recommandées ?", "a": "En général, 3 à 5 séances espacées de 2 à 3 semaines permettent de constater des améliorations significatives. Chaque personne répond différemment." }
     ]
   }
 }

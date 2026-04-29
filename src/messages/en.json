@@ -1249,6 +1249,31 @@
       { "q": "Is foot reflexology painful?", "a": "Some sensitive areas may cause slight discomfort, a sign of imbalance. Pressure is always adapted to your comfort." },
       { "q": "What are the benefits of reflexology?", "a": "It improves circulation, reduces stress, relieves pain and restores the body's overall balance naturally." },
       { "q": "How long does a session last?", "a": "A session lasts between 60 and 90 minutes, barefoot. The treatment begins with a relaxing foot bath." }
+    ],
+    "anticellulite": [
+      { "q": "Is the anti-cellulite massage painful?", "a": "The first strokes may be slightly uncomfortable as the massage is toning, but pressure is always adapted to your sensitivity." },
+      { "q": "How many sessions are needed to see results?", "a": "First effects are visible after 3 to 5 sessions. A programme of 8 to 10 weekly sessions is ideal for lasting results." },
+      { "q": "Does the anti-cellulite massage work on all areas?", "a": "Yes, it targets thighs, buttocks, hips and abdomen. The massage improves circulation and helps dislodge subcutaneous fat deposits." }
+    ],
+    "dos": [
+      { "q": "Is the back massage suitable for lower back pain?", "a": "Yes, this massage is particularly suited to lumbar pain. It gently releases tension accumulated throughout the entire back chain." },
+      { "q": "How long is a back massage session?", "a": "The session lasts between 60 and 90 minutes. The 90-minute option allows deeper work on the neck, shoulders and pelvis." },
+      { "q": "Is this massage suitable for office workers?", "a": "Absolutely. It is the ideal massage for sedentary people: it relieves tension caused by prolonged sitting posture." }
+    ],
+    "voyage": [
+      { "q": "What is the sensory journey massage?", "a": "It is an enveloping massage that works on the fascia — the body's connective tissues. It provides deep letting go and total sensory relaxation." },
+      { "q": "How does this massage differ from a relaxing massage?", "a": "The sensory journey specifically works the fascia with slow, deep movements, while the relaxing massage uses lighter, more fluid strokes." },
+      { "q": "Is this massage suitable for very stressed people?", "a": "It is one of the best choices. Working on fascia releases tensions stored in the body, often linked to chronic stress." }
+    ],
+    "amma": [
+      { "q": "How long does a seated Amma massage last?", "a": "A session lasts between 15 and 20 minutes per person. It is a short, effective format, perfect for the workplace or events." },
+      { "q": "Do I need to undress for an Amma massage?", "a": "No, the Amma massage is performed fully clothed, seated on a special ergonomic chair. No preparation is needed." },
+      { "q": "How do I organise an Amma massage at my workplace?", "a": "Contact me via WhatsApp or phone. I bring all the equipment. You just need a quiet space of about 2m × 2m per station." }
+    ],
+    "cst": [
+      { "q": "What is craniosacral therapy?", "a": "It is a gentle approach that releases tensions from the central nervous system through light touch on the skull, spine and sacrum." },
+      { "q": "Is craniosacral therapy suitable for children?", "a": "Yes, it is a very gentle approach suitable for infants and adults alike. It is particularly recommended for babies after a difficult birth." },
+      { "q": "How many sessions are recommended?", "a": "Generally, 3 to 5 sessions spaced 2 to 3 weeks apart show significant improvements. Each person responds differently." }
     ]
   }
 }

@@ -24,9 +24,9 @@ export async function generateMetadata({ params }) {
       nl: "Shiatsu in Halle (Brussel) | La Voie du Bien-Être",
     }[currentLocale],
     description: {
-      fr: "Séance de Shiatsu à Hal : rééquilibrez votre énergie, libérez les tensions et retrouvez un bien-être profond et durable. Réservez votre séance !",
-      en: "Shiatsu session in Halle: rebalance your energy, release deep tensions and restore lasting well-being. Book your appointment at our studio today!",
-      nl: "Shiatsu-behandeling in Halle: herbalanceer uw energie, laat spanningen los en herstel diep welzijn. Boek vandaag nog uw afspraak in onze praktijk!",
+      fr: "Shiatsu à Hal dès 80€ : rééquilibrez votre énergie, libérez les tensions et retrouvez un bien-être profond et durable. Réservez !",
+      en: "Shiatsu in Halle from €80: rebalance your energy, release deep tensions and restore lasting well-being. Book your session today!",
+      nl: "Shiatsu in Halle vanaf €80: herbalanceer uw energie, laat spanningen los en herstel diep welzijn. Boek vandaag nog uw afspraak!",
     }[currentLocale],
     alternates: {
       canonical: `${baseUrl}/${currentLocale}/shiatsu`,

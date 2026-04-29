@@ -23,9 +23,9 @@ export async function generateMetadata({ params }) {
       nl: "Deep Tissue Massage in Halle | La Voie du Bien-Être",
     }[currentLocale],
     description: {
-      fr: "Massage Deep Tissue à Hal : libérez les tensions profondes et soulagez les douleurs chroniques. Soin puissant et ciblé. Réservez maintenant !",
-      en: "Deep Tissue massage in Halle: release deep tension and relieve chronic pain. A powerful, focused treatment for lasting well-being. Book now!",
-      nl: "Deep Tissue massage in Halle: laat diepe spanningen los en verlicht chronische pijn. Krachtige, gerichte behandeling. Boek nu je sessie!",
+      fr: "Massage Deep Tissue à Hal dès 80€ : libérez les tensions profondes et soulagez les douleurs chroniques. Soin ciblé. Réservez !",
+      en: "Deep Tissue massage in Halle from €80: release deep tension and relieve chronic pain. Powerful, focused treatment. Book now!",
+      nl: "Deep Tissue massage in Halle vanaf €80: laat diepe spanningen los en verlicht chronische pijn. Gerichte behandeling. Boek nu!",
     }[currentLocale],
     alternates: {
       canonical: `${baseUrl}/${currentLocale}/massage/deep-tissues`,
@@ -43,9 +43,9 @@ export async function generateMetadata({ params }) {
         nl: "Deep Tissue Massage in Halle | La Voie du Bien-Être",
       }[currentLocale],
       description: {
-        fr: "Massage Deep Tissue à Hal : libérez les tensions profondes et soulagez les douleurs chroniques. Soin puissant et ciblé. Réservez maintenant !",
-        en: "Deep Tissue massage in Halle: release deep tension and relieve chronic pain. A powerful, focused treatment for lasting well-being. Book now!",
-        nl: "Deep Tissue massage in Halle: laat diepe spanningen los en verlicht chronische pijn. Krachtige, gerichte behandeling. Boek nu je sessie!",
+        fr: "Massage Deep Tissue à Hal dès 80€ : libérez les tensions profondes et soulagez les douleurs chroniques. Soin ciblé. Réservez !",
+        en: "Deep Tissue massage in Halle from €80: release deep tension and relieve chronic pain. Powerful, focused treatment. Book now!",
+        nl: "Deep Tissue massage in Halle vanaf €80: laat diepe spanningen los en verlicht chronische pijn. Gerichte behandeling. Boek nu!",
       }[currentLocale],
       url: `${baseUrl}/${currentLocale}/massage/deep-tissues`,
       type: "website",

@@ -24,9 +24,9 @@ export async function generateMetadata({ params }) {
       nl: "Reiki in Halle – Energetische zorg | La Voie du Bien-Être",
     }[currentLocale],
     description: {
-      fr: "Profitez d'un soin Reiki à Hal pour réharmoniser vos énergies et retrouver l'équilibre intérieur. Accompagnement doux et bienveillant. Réservez !",
-      en: "Reiki healing session in Halle: rebalance your energy and restore inner harmony with a gentle, compassionate treatment. Book your appointment today!",
-      nl: "Reiki-behandeling in Halle: harmoniseer uw energieën en herstel uw innerlijk evenwicht met een zachte, zorgzame begeleiding. Boek nu uw afspraak!",
+      fr: "Soin Reiki à Hal dès 80€ : réharmonisez vos énergies et retrouvez l'équilibre intérieur. Accompagnement doux et bienveillant. Réservez !",
+      en: "Reiki session in Halle from €80: rebalance your energy and restore inner harmony with a gentle, compassionate treatment. Book today!",
+      nl: "Reiki in Halle vanaf €80: harmoniseer uw energieën en herstel uw innerlijk evenwicht. Zachte, zorgzame begeleiding. Boek nu!",
     }[currentLocale],
     alternates: {
       canonical: `${baseUrl}/${currentLocale}/reiki`,

@@ -24,9 +24,9 @@ export async function generateMetadata({ params }) {
       nl: "Sportmassage in Halle – Herstel | La Voie du Bien-Être",
     }[currentLocale],
     description: {
-      fr: "Massage sportif à Hal : récupération optimale et soulagement des tensions musculaires après l’effort. Réservez votre séance dès maintenant !",
-      en: "Sports massage in Halle: optimal recovery and muscle tension relief after exercise. Boost your performance naturally. Book your session now!",
-      nl: "Sportmassage in Halle: optimaal herstel en verlichting van spierspanning na inspanning. Verbeter je prestaties natuurlijk. Boek nu je sessie!",
+      fr: "Massage sportif à Hal dès 80€ : récupération optimale et soulagement des tensions musculaires après l’effort. Réservez maintenant !",
+      en: "Sports massage in Halle from €80: optimal recovery and muscle tension relief after exercise. Book your session now!",
+      nl: "Sportmassage in Halle vanaf €80: optimaal herstel en verlichting van spierspanning na inspanning. Boek nu je sessie!",
     }[currentLocale],
     alternates: {
       canonical: `${baseUrl}/${currentLocale}/massage/sportif`,
@@ -44,9 +44,9 @@ export async function generateMetadata({ params }) {
         nl: "Sportmassage in Halle – Herstel | La Voie du Bien-Être",
       }[currentLocale],
       description: {
-        fr: "Massage sportif à Hal : récupération optimale et soulagement des tensions musculaires après l’effort. Réservez votre séance dès maintenant !",
-        en: "Sports massage in Halle: optimal recovery and muscle tension relief after exercise. Boost your performance naturally. Book your session now!",
-        nl: "Sportmassage in Halle: optimaal herstel en verlichting van spierspanning na inspanning. Verbeter je prestaties natuurlijk. Boek nu je sessie!",
+        fr: "Massage sportif à Hal dès 80€ : récupération optimale et soulagement des tensions musculaires après l’effort. Réservez maintenant !",
+        en: "Sports massage in Halle from €80: optimal recovery and muscle tension relief after exercise. Book your session now!",
+        nl: "Sportmassage in Halle vanaf €80: optimaal herstel en verlichting van spierspanning na inspanning. Boek nu je sessie!",
       }[currentLocale],
       url: `${baseUrl}/${currentLocale}/massage/sportif`,
       type: "website",

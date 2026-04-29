@@ -27,11 +27,13 @@ export default function LocalBusinessJSONLD({ locale }) {
     description: translations[locale].description,
     url: `https://lavoiedubienetre.be/${locale}`,
     image: "https://lavoiedubienetre.be/Images/OpenGraph/accueil-massage-halle.webp",
-    telephone: "+32 488 98 51 13",
+    telephone: "+32477131993",
 
     priceRange: "€€",
     currenciesAccepted: "EUR",
-    paymentAccepted: "Cash, Bancontact",
+    paymentAccepted: "Cash, Bancontact, Virement bancaire",
+
+    hasMap: "https://www.google.com/maps/place/La+Voie+du+Bien-%C3%8Atre/@50.7464695,4.2563906,17z",
 
     geo: {
       "@type": "GeoCoordinates",
@@ -41,13 +43,33 @@ export default function LocalBusinessJSONLD({ locale }) {
 
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Oct de kerchove d'exaerdestraat 193",
+      streetAddress: "Octave de Kerchove d'Exaerdestraat 193",
       addressLocality: "Halle",
       postalCode: "1501",
+      addressRegion: "Vlaams-Brabant",
       addressCountry: "BE",
     },
 
-    areaServed: ["Halle", "Bruxelles", "Tubize", "Braine-l'Alleud", "Dilbeek"],
+    areaServed: [
+      { "@type": "City", name: "Halle" },
+      { "@type": "City", name: "Bruxelles" },
+      { "@type": "City", name: "Waterloo" },
+      { "@type": "City", name: "Uccle" },
+      { "@type": "City", name: "Braine-l'Alleud" },
+      { "@type": "City", name: "Dilbeek" },
+      { "@type": "City", name: "Tubize" },
+      { "@type": "City", name: "Rhode-Saint-Genèse" },
+      { "@type": "City", name: "Enghien" },
+      { "@type": "City", name: "Leerbeek" },
+    ],
+
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.9",
+      reviewCount: "50",
+      bestRating: "5",
+      worstRating: "1",
+    },
 
     openingHoursSpecification: [
       {
@@ -60,14 +82,13 @@ export default function LocalBusinessJSONLD({ locale }) {
         "@type": "OpeningHoursSpecification",
         dayOfWeek: ["Saturday"],
         opens: "10:00",
-        closes: "18:00",
+        closes: "19:00",
       },
     ],
 
     sameAs: [
-      "https://www.facebook.com/lavoiedubienetre",
-      "https://www.instagram.com/lavoiedubienetre",
-      "https://lavoiedubienetre.be",
+      "https://www.facebook.com/lavoiedubienetremassageshiatsureikireflexologie/",
+      "https://www.youtube.com/@lavoiedubien-etre",
     ],
   };
 

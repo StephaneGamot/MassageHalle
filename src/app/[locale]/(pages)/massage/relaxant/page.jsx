@@ -24,9 +24,9 @@ export async function generateMetadata({ params }) {
       nl: "Ontspanningsmassage in Halle | La Voie du Bien-Être",
     }[currentLocale],
     description: {
-      fr: "Massage relaxant à Hal : relâchez le stress et les tensions grâce à un soin doux et enveloppant. Détente totale garantie. Réservez maintenant !",
-      en: "Relaxing massage in Halle: release stress and tension with a gentle, soothing treatment. Total relaxation guaranteed. Book your session today!",
-      nl: "Ontspanningsmassage in Halle: laat stress en spanning los met een zachte, omhullende behandeling. Totale ontspanning gegarandeerd. Boek nu!",
+      fr: "Massage relaxant à Hal dès 80€ : relâchez stress et tensions grâce à un soin doux et enveloppant. Détente totale garantie. Réservez !",
+      en: "Relaxing massage in Halle from €80: release stress and tension with a gentle, soothing treatment. Total relaxation guaranteed. Book now!",
+      nl: "Ontspanningsmassage in Halle vanaf €80: laat stress en spanning los met een zachte, omhullende behandeling. Totale ontspanning. Boek nu!",
     }[currentLocale],
     alternates: {
       canonical: `${baseUrl}/${currentLocale}/massage/relaxant`,
@@ -44,9 +44,9 @@ export async function generateMetadata({ params }) {
         nl: "Ontspanningsmassage in Halle | La Voie du Bien-Être",
       }[currentLocale],
       description: {
-        fr: "Massage relaxant à Hal : relâchez le stress et les tensions grâce à un soin doux et enveloppant. Détente totale garantie. Réservez maintenant !",
-        en: "Relaxing massage in Halle: release stress and tension with a gentle, soothing treatment. Total relaxation guaranteed. Book your session today!",
-        nl: "Ontspanningsmassage in Halle: laat stress en spanning los met een zachte, omhullende behandeling. Totale ontspanning gegarandeerd. Boek nu!",
+        fr: "Massage relaxant à Hal dès 80€ : relâchez stress et tensions grâce à un soin doux et enveloppant. Détente totale garantie. Réservez !",
+        en: "Relaxing massage in Halle from €80: release stress and tension with a gentle, soothing treatment. Total relaxation guaranteed. Book now!",
+        nl: "Ontspanningsmassage in Halle vanaf €80: laat stress en spanning los met een zachte, omhullende behandeling. Totale ontspanning. Boek nu!",
       }[currentLocale],
       url: `${baseUrl}/${currentLocale}/massage/relaxant`,
       type: "website",

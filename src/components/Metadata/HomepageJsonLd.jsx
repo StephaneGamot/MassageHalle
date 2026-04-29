@@ -78,6 +78,71 @@ export default function HomepageJsonLd({ locale }) {
     }[locale] || "fr-BE",
   };
 
+  // ─── ItemList (catalogue de services → carousel Google) ───
+  const serviceItems = {
+    fr: [
+      { name: "Massage relaxant", path: "/massage/relaxant", desc: "Détente profonde et relâchement du stress" },
+      { name: "Massage sportif", path: "/massage/sportif", desc: "Récupération musculaire et performance" },
+      { name: "Shiatsu", path: "/shiatsu", desc: "Équilibre énergétique japonais" },
+      { name: "Reiki", path: "/reiki", desc: "Harmonisation par l'énergie universelle" },
+      { name: "Massage Tao", path: "/massage/tao", desc: "Reconnexion corps, souffle et sensations" },
+      { name: "Massage à domicile", path: "/massage/a-domicile", desc: "Le bien-être directement chez vous" },
+      { name: "Réflexologie plantaire", path: "/reflexologie-plantaire", desc: "Rééquilibrage par les zones réflexes" },
+      { name: "Massage deep-tissue", path: "/massage/deep-tissues", desc: "Travail en profondeur des tensions chroniques" },
+      { name: "Douceur dorsale", path: "/massage/douceur-dorsale", desc: "Soulagement nuque, dos et épaules" },
+      { name: "Massage anti-cellulite", path: "/massage/anti-cellulite", desc: "Raffermissement et silhouette harmonieuse" },
+      { name: "Voyage des sens", path: "/massage/voyage-des-sens", desc: "Lâcher-prise sensoriel total" },
+      { name: "Thérapie cranio-sacrée", path: "/therapie-cranio-sacree", desc: "Libération des tensions du système nerveux" },
+    ],
+    en: [
+      { name: "Relaxing massage", path: "/massage/relaxant", desc: "Deep relaxation and stress relief" },
+      { name: "Sports massage", path: "/massage/sportif", desc: "Muscle recovery and performance" },
+      { name: "Shiatsu", path: "/shiatsu", desc: "Japanese energy balancing" },
+      { name: "Reiki", path: "/reiki", desc: "Universal energy harmonization" },
+      { name: "Tao massage", path: "/massage/tao", desc: "Body, breath and sensation reconnection" },
+      { name: "Home massage", path: "/massage/a-domicile", desc: "Wellness right at your doorstep" },
+      { name: "Foot reflexology", path: "/reflexologie-plantaire", desc: "Rebalancing through reflex zones" },
+      { name: "Deep tissue massage", path: "/massage/deep-tissues", desc: "Deep work on chronic tensions" },
+      { name: "Back relaxation", path: "/massage/douceur-dorsale", desc: "Neck, back and shoulder relief" },
+      { name: "Anti-cellulite massage", path: "/massage/anti-cellulite", desc: "Firming and harmonious silhouette" },
+      { name: "Sensory journey", path: "/massage/voyage-des-sens", desc: "Total sensory letting go" },
+      { name: "Craniosacral therapy", path: "/therapie-cranio-sacree", desc: "Nervous system tension release" },
+    ],
+    nl: [
+      { name: "Ontspanningsmassage", path: "/massage/relaxant", desc: "Diepe ontspanning en stressverlichting" },
+      { name: "Sportmassage", path: "/massage/sportif", desc: "Spierherstel en prestaties" },
+      { name: "Shiatsu", path: "/shiatsu", desc: "Japanse energiebalancering" },
+      { name: "Reiki", path: "/reiki", desc: "Universele energieharmonisatie" },
+      { name: "Tao-massage", path: "/massage/tao", desc: "Lichaam, adem en gevoel herverbinden" },
+      { name: "Thuismassage", path: "/massage/a-domicile", desc: "Welzijn direct bij u thuis" },
+      { name: "Voetreflexologie", path: "/reflexologie-plantaire", desc: "Herbalancering via reflexzones" },
+      { name: "Deep tissue massage", path: "/massage/deep-tissues", desc: "Diep werk op chronische spanningen" },
+      { name: "Rugontspanning", path: "/massage/douceur-dorsale", desc: "Verlichting nek, rug en schouders" },
+      { name: "Anti-cellulite massage", path: "/massage/anti-cellulite", desc: "Versteviging en harmonieus silhouet" },
+      { name: "Zintuigenreis", path: "/massage/voyage-des-sens", desc: "Totaal zintuiglijk loslaten" },
+      { name: "Craniosacrale therapie", path: "/therapie-cranio-sacree", desc: "Loslaten van zenuwspanning" },
+    ],
+  };
+
+  const items = serviceItems[locale] || serviceItems.fr;
+  const itemList = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: {
+      fr: "Nos massages et soins thérapeutiques",
+      en: "Our massages and therapeutic treatments",
+      nl: "Onze massages en therapeutische behandelingen",
+    }[locale] || "Nos massages et soins thérapeutiques",
+    numberOfItems: items.length,
+    itemListElement: items.map((item, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: item.name,
+      description: item.desc,
+      url: `${baseUrl}/${locale || "fr"}${item.path}`,
+    })),
+  };
+
   // ─── Reviews (individuels + agrégé) ───
   const reviews = {
     fr: [
@@ -149,6 +214,10 @@ export default function HomepageJsonLd({ locale }) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemList) }}
       />
     </>
   );
