@@ -8,30 +8,52 @@ const AREA_SERVED = [
   {
     "@type": "City",
     name: "Halle",
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: "Halle",
-      postalCode: "1501",
-      addressCountry: "BE",
-    },
+    address: { "@type": "PostalAddress", addressLocality: "Halle", postalCode: "1501", addressCountry: "BE" },
   },
   {
     "@type": "City",
     name: "Bruxelles",
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: "Bruxelles",
-      addressCountry: "BE",
-    },
+    address: { "@type": "PostalAddress", addressLocality: "Bruxelles", addressCountry: "BE" },
   },
   {
     "@type": "City",
     name: "Braine-l'Alleud",
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: "Braine-l'Alleud",
-      addressCountry: "BE",
-    },
+    address: { "@type": "PostalAddress", addressLocality: "Braine-l'Alleud", postalCode: "1420", addressCountry: "BE" },
+  },
+  {
+    "@type": "City",
+    name: "Dilbeek",
+    address: { "@type": "PostalAddress", addressLocality: "Dilbeek", postalCode: "1700", addressCountry: "BE" },
+  },
+  {
+    "@type": "City",
+    name: "Tubize",
+    address: { "@type": "PostalAddress", addressLocality: "Tubize", postalCode: "1480", addressCountry: "BE" },
+  },
+  {
+    "@type": "City",
+    name: "Waterloo",
+    address: { "@type": "PostalAddress", addressLocality: "Waterloo", postalCode: "1410", addressCountry: "BE" },
+  },
+  {
+    "@type": "City",
+    name: "Uccle",
+    address: { "@type": "PostalAddress", addressLocality: "Uccle", postalCode: "1180", addressCountry: "BE" },
+  },
+  {
+    "@type": "City",
+    name: "Rhode-Saint-Genèse",
+    address: { "@type": "PostalAddress", addressLocality: "Rhode-Saint-Genèse", postalCode: "1640", addressCountry: "BE" },
+  },
+  {
+    "@type": "City",
+    name: "Leerbeek",
+    address: { "@type": "PostalAddress", addressLocality: "Leerbeek", postalCode: "1755", addressCountry: "BE" },
+  },
+  {
+    "@type": "City",
+    name: "Enghien",
+    address: { "@type": "PostalAddress", addressLocality: "Enghien", postalCode: "7850", addressCountry: "BE" },
   },
 ];
 

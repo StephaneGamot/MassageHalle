@@ -24,11 +24,11 @@ export async function generateMetadata({ params }) {
       nl: "Wellnessmassage in Halle – Brussel | La Voie du Bien-Être",
     }[currentLocale],
 
-    // ─── META DESCRIPTION (140-155 car.) — avec CTA ───
+    // ─── META DESCRIPTION (140-155 car.) — avec CTA + villes ───
     description: {
-      fr: "Massages relaxants, shiatsu, reiki et soins thérapeutiques à Hal et Bruxelles. En cabinet ou à domicile. Réservez votre séance bien-être dès maintenant !",
-      en: "Relaxing massages, shiatsu, reiki and therapeutic care in Halle and Brussels. In-studio or at home. Book your wellness session with us today!",
-      nl: "Ontspanningsmassages, shiatsu, reiki en therapeutische behandelingen in Halle en Brussel. In de praktijk of aan huis. Boek vandaag uw welzijnssessie!",
+      fr: "Massages relaxants, shiatsu, reiki et soins thérapeutiques à Hal, Bruxelles, Waterloo, Uccle. En cabinet ou à domicile. Réservez dès maintenant !",
+      en: "Relaxing massages, shiatsu, reiki and therapeutic care in Halle, Brussels, Waterloo, Uccle. In-studio or at home. Book your session today!",
+      nl: "Ontspanningsmassages, shiatsu, reiki en therapeutische behandelingen in Halle, Brussel, Waterloo, Ukkel. In de praktijk of aan huis. Boek nu!",
     }[currentLocale],
 
     // ─── ROBOTS ───
@@ -146,6 +146,18 @@ export default async function HomePage(props) {
         ]}
         sameAs={[
           "https://www.facebook.com/lavoiedubienetremassageshiatsureikireflexologie/",
+        ]}
+        areaServed={[
+          { "@type": "City", name: "Halle" },
+          { "@type": "City", name: "Bruxelles" },
+          { "@type": "City", name: "Waterloo" },
+          { "@type": "City", name: "Uccle" },
+          { "@type": "City", name: "Braine-l'Alleud" },
+          { "@type": "City", name: "Dilbeek" },
+          { "@type": "City", name: "Tubize" },
+          { "@type": "City", name: "Rhode-Saint-Genèse" },
+          { "@type": "City", name: "Enghien" },
+          { "@type": "City", name: "Leerbeek" },
         ]}
         rating={{
           ratingValue: "4.9",
