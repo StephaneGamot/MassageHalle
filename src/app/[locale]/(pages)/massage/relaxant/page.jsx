@@ -143,6 +143,10 @@ export default async function Page(props) {
             ],
           },
         ]}
+        rating={{
+          ratingValue: "4.9",
+          ratingCount: "50",
+        }}
       />
 
       {/* JSON-LD du service massage relaxant */}

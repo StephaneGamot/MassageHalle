@@ -141,6 +141,10 @@ export default async function Page(props) {
             ],
           },
         ]}
+        rating={{
+          ratingValue: "4.9",
+          ratingCount: "50",
+        }}
       />
 
       <MassageServiceJSONLD slug="reflexologie" locale={currentLocale} />

@@ -134,6 +134,10 @@ export default function Page({ params }) {
             ],
           },
         ]}
+        rating={{
+          ratingValue: "4.9",
+          ratingCount: "50",
+        }}
       />
 
       <MassageServiceJSONLD slug="voyage" locale={currentLocale} />
