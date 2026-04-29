@@ -40,6 +40,7 @@ export default function RelatedServices({ variant }) {
   const locale = useLocale();
   const t = useTranslations("nav");
   const rt = useTranslations("relatedServices");
+  const hasDescriptions = (() => { try { rt.raw("descriptions"); return true; } catch { return false; } })();
 
   const relatedKeys = relatedMap[variant] || ["relaxant", "domicile", "tao"];
   const related = relatedKeys
@@ -70,6 +71,11 @@ export default function RelatedServices({ variant }) {
                 <span className="block text-lg font-medium text-[#1B3A2D] group-hover:text-[#D4BA91] transition-colors">
                   {t(service.key)}
                 </span>
+                {hasDescriptions && (
+                  <span className="block mt-1 text-sm text-[#6B6862] group-hover:text-[#595751] transition-colors">
+                    {(() => { try { return rt(`descriptions.${service.key}`); } catch { return ""; } })()}
+                  </span>
+                )}
               </Link>
             ))}
           </div>

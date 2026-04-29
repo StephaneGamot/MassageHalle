@@ -147,6 +147,10 @@ export default async function HomePage(props) {
         sameAs={[
           "https://www.facebook.com/lavoiedubienetremassageshiatsureikireflexologie/",
         ]}
+        rating={{
+          ratingValue: "4.9",
+          ratingCount: "50",
+        }}
         openingHours={[
           {
             opens: "10:00",

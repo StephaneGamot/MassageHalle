@@ -34,7 +34,8 @@
     "ctaPrimary": "Je prends soin de moi",
     "ctaSecondary": "Offrir ce moment à un être cher",
     "ctaWhatsapp": "Réserver via WhatsApp",
-    "trust": "Hal · Bruxelles · À domicile"
+    "trust": "Hal · Bruxelles · À domicile",
+    "trustRating": "50+ avis clients satisfaits"
   },
   "cta": {
     "title": "Offrez un moment de bien-être à ceux que vous aimez",
@@ -48,6 +49,8 @@
     "cta": "Prendre rendez-vous",
     "note": "Aucune carte de crédit requise – réservez en toute sérénité.",
     "ctaWhatsapp": "Réserver ce soin",
+    "trustRating": "4.9/5 — 50+ avis clients",
+    "waMessage": "Bonjour, j'aimerais réserver {soin}. Quelles sont vos disponibilités ?",
     "titles": {
       "relaxant": "Offrez à votre corps ce qu’il mérite",
       "sportif": "Préparez votre corps à performer",
@@ -1233,6 +1236,60 @@
   },
   "relatedServices": {
     "title": "Soins qui pourraient vous plaire",
-    "subtitle": "Explorez nos autres massages et soins pour compléter votre parcours bien-être."
+    "subtitle": "Explorez nos autres massages et soins pour compléter votre parcours bien-être.",
+    "descriptions": {
+      "relaxant": "Détente profonde, relâchement du stress",
+      "sportif": "Récupération musculaire, performance",
+      "domicile": "Le bien-être directement chez vous",
+      "tao": "Reconnexion corps et esprit",
+      "douceur": "Soulagement nuque, dos, épaules",
+      "anticellulite": "Raffermissement, silhouette harmonieuse",
+      "deeptissue": "Tensions profondes et chroniques",
+      "voyage": "Lâcher-prise sensoriel total",
+      "amma": "Pause express en entreprise",
+      "shiatsu": "Équilibre énergétique japonais",
+      "reiki": "Harmonisation par l'énergie",
+      "reflexo": "Rééquilibrage par les pieds",
+      "cranio": "Libération des tensions nerveuses"
+    }
+  },
+  "serviceFaq": {
+    "label": "Questions fréquentes",
+    "title": "Ce que nos clients demandent souvent",
+    "relaxant": [
+      { "q": "Combien de temps dure un massage relaxant ?", "a": "Une séance dure entre 60 et 90 minutes. La durée de 90 minutes permet un travail plus en profondeur et un relâchement complet." },
+      { "q": "Le massage relaxant est-il adapté aux femmes enceintes ?", "a": "Oui, à partir du 2e trimestre. Le massage est adapté avec des positions confortables et des zones spécifiques travaillées en douceur." },
+      { "q": "Quel est le prix d'un massage relaxant ?", "a": "La séance de 60 minutes est à 80€ et celle de 90 minutes à 120€. Aucun supplément caché." }
+    ],
+    "sportif": [
+      { "q": "Le massage sportif fait-il mal ?", "a": "Le massage sportif travaille en profondeur mais reste toujours adapté à votre seuil de tolérance. La communication est constante pendant la séance." },
+      { "q": "Quand faut-il prendre un massage sportif ?", "a": "Idéalement 48h après l'effort pour la récupération, ou 2-3 jours avant une compétition pour préparer les muscles." },
+      { "q": "Quelle est la différence avec un massage deep-tissue ?", "a": "Le massage sportif cible les zones sollicitées par le sport, tandis que le deep-tissue travaille les tensions chroniques sur tout le corps." }
+    ],
+    "tao": [
+      { "q": "Qu'est-ce qui rend le massage Tao différent ?", "a": "Le massage Tao est fluide et enveloppant, inspiré de la philosophie taoïste. Il vise à reconnecter le corps, le souffle et les sensations dans une harmonie globale." },
+      { "q": "Faut-il se déshabiller pour un massage Tao ?", "a": "Le massage Tao se pratique avec des huiles, il est donc préférable d'être en sous-vêtements pour profiter pleinement du soin." },
+      { "q": "Le massage Tao convient-il aux débutants ?", "a": "Absolument. C'est un massage doux et accessible à tous, parfait pour une première expérience." }
+    ],
+    "shiatsu": [
+      { "q": "Faut-il se déshabiller pour un shiatsu ?", "a": "Non, le shiatsu se pratique habillé, allongé sur un futon. Portez des vêtements souples et confortables." },
+      { "q": "Le shiatsu est-il remboursé par la mutuelle ?", "a": "Certaines mutuelles belges remboursent partiellement le shiatsu. Renseignez-vous auprès de la vôtre." },
+      { "q": "Combien de séances de shiatsu faut-il ?", "a": "Pour un rééquilibrage en profondeur, 3 à 5 séances espacées de 2-3 semaines sont recommandées. Un entretien mensuel maintient les bienfaits." }
+    ],
+    "reiki": [
+      { "q": "Que ressent-on pendant une séance de Reiki ?", "a": "Les sensations varient : chaleur, picotements, profonde relaxation, ou parfois des émotions qui se libèrent. Chaque séance est unique." },
+      { "q": "Le Reiki est-il compatible avec un traitement médical ?", "a": "Oui, le Reiki est complémentaire à la médecine conventionnelle. Il ne remplace pas un traitement médical mais peut accompagner un processus de guérison." },
+      { "q": "Combien de séances de Reiki sont nécessaires ?", "a": "Une seule séance apporte déjà des bienfaits. Pour un travail en profondeur, 3 séances rapprochées sont idéales." }
+    ],
+    "domicile": [
+      { "q": "Dans quelles zones vous déplacez-vous ?", "a": "Je me déplace à Halle, Bruxelles, Brabant wallon et Brabant flamand. Contactez-moi pour vérifier la couverture de votre zone." },
+      { "q": "Que dois-je préparer pour un massage à domicile ?", "a": "Rien de spécial ! J'apporte tout le matériel nécessaire : table de massage, draps, huiles et musique. Il suffit de prévoir un espace calme d'environ 2m x 3m." },
+      { "q": "Y a-t-il un supplément pour le déplacement ?", "a": "Le tarif inclut le déplacement dans un rayon raisonnable. Au-delà, un petit supplément peut s'appliquer. Je vous informe toujours à l'avance." }
+    ],
+    "reflexo": [
+      { "q": "La réflexologie plantaire est-elle douloureuse ?", "a": "Certaines zones sensibles peuvent provoquer un léger inconfort, signe de déséquilibre. La pression est toujours adaptée à votre confort." },
+      { "q": "Quels sont les bienfaits de la réflexologie ?", "a": "Elle améliore la circulation, réduit le stress, soulage les douleurs et rétablit l'équilibre général du corps de manière naturelle." },
+      { "q": "Combien de temps dure une séance ?", "a": "Une séance dure entre 60 et 90 minutes, pieds nus. Le soin commence par un bain de pieds relaxant." }
+    ]
   }
 }

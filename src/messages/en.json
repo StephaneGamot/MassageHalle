@@ -34,7 +34,8 @@
     "ctaPrimary": "I take care of myself",
     "ctaSecondary": "Offer this moment to a loved one",
     "ctaWhatsapp": "Book via WhatsApp",
-    "trust": "Halle · Brussels · At home"
+    "trust": "Halle · Brussels · At home",
+    "trustRating": "50+ satisfied clients"
   },
   "cta": {
     "title": "Offer a moment of well-being to those you love",
@@ -48,6 +49,8 @@
   "cta": "Make an appointment",
   "note": "No credit card required – book with peace of mind.",
   "ctaWhatsapp": "Book this treatment",
+  "trustRating": "4.9/5 — 50+ client reviews",
+  "waMessage": "Hello, I would like to book {soin}. What is your availability?",
   "titles": {
     "relaxant": "Give your body what it deserves",
     "sportif": "Prepare your body to perform",
@@ -1192,6 +1195,60 @@
     },
   "relatedServices": {
     "title": "Treatments you might enjoy",
-    "subtitle": "Explore our other massages and treatments to complement your wellness journey."
+    "subtitle": "Explore our other massages and treatments to complement your wellness journey.",
+    "descriptions": {
+      "relaxant": "Deep relaxation, stress relief",
+      "sportif": "Muscle recovery, performance",
+      "domicile": "Wellness right at your home",
+      "tao": "Body and mind reconnection",
+      "douceur": "Neck, back and shoulder relief",
+      "anticellulite": "Firming, harmonious silhouette",
+      "deeptissue": "Deep and chronic tensions",
+      "voyage": "Total sensory letting go",
+      "amma": "Quick workplace wellness break",
+      "shiatsu": "Japanese energy balancing",
+      "reiki": "Energy harmonization",
+      "reflexo": "Rebalancing through the feet",
+      "cranio": "Nervous tension release"
+    }
+  },
+  "serviceFaq": {
+    "label": "FAQ",
+    "title": "What our clients often ask",
+    "relaxant": [
+      { "q": "How long does a relaxing massage last?", "a": "A session lasts between 60 and 90 minutes. The 90-minute option allows for deeper work and complete relaxation." },
+      { "q": "Is the relaxing massage suitable during pregnancy?", "a": "Yes, from the 2nd trimester. The massage is adapted with comfortable positions and specific areas gently worked." },
+      { "q": "What is the price of a relaxing massage?", "a": "The 60-minute session is €80 and the 90-minute session is €120. No hidden fees." }
+    ],
+    "sportif": [
+      { "q": "Does a sports massage hurt?", "a": "A sports massage works deeply but is always adapted to your tolerance threshold. Communication is constant during the session." },
+      { "q": "When should I get a sports massage?", "a": "Ideally 48 hours after exercise for recovery, or 2-3 days before a competition to prepare the muscles." },
+      { "q": "What is the difference with a deep tissue massage?", "a": "A sports massage targets areas stressed by sport, while deep tissue works on chronic tensions throughout the body." }
+    ],
+    "tao": [
+      { "q": "What makes the Tao massage different?", "a": "The Tao massage is fluid and enveloping, inspired by Taoist philosophy. It aims to reconnect body, breath and sensations in an overall harmony." },
+      { "q": "Do I need to undress for a Tao massage?", "a": "The Tao massage uses oils, so it is best to be in underwear to fully enjoy the treatment." },
+      { "q": "Is the Tao massage suitable for beginners?", "a": "Absolutely. It is a gentle massage accessible to everyone, perfect for a first experience." }
+    ],
+    "shiatsu": [
+      { "q": "Do I need to undress for shiatsu?", "a": "No, shiatsu is performed fully clothed, lying on a futon. Wear loose, comfortable clothing." },
+      { "q": "Is shiatsu covered by health insurance?", "a": "Some Belgian health insurers partially reimburse shiatsu. Check with your provider." },
+      { "q": "How many shiatsu sessions are needed?", "a": "For deep rebalancing, 3 to 5 sessions spaced 2-3 weeks apart are recommended. Monthly maintenance preserves the benefits." }
+    ],
+    "reiki": [
+      { "q": "What do you feel during a Reiki session?", "a": "Sensations vary: warmth, tingling, deep relaxation, or sometimes emotions being released. Each session is unique." },
+      { "q": "Is Reiki compatible with medical treatment?", "a": "Yes, Reiki complements conventional medicine. It does not replace medical treatment but can support a healing process." },
+      { "q": "How many Reiki sessions are needed?", "a": "A single session already brings benefits. For deeper work, 3 closely spaced sessions are ideal." }
+    ],
+    "domicile": [
+      { "q": "Which areas do you cover for home visits?", "a": "I travel to Halle, Brussels, Walloon Brabant and Flemish Brabant. Contact me to check coverage for your area." },
+      { "q": "What should I prepare for a home massage?", "a": "Nothing special! I bring everything needed: massage table, sheets, oils and music. Just provide a quiet space of about 2m x 3m." },
+      { "q": "Is there an extra charge for travel?", "a": "The price includes travel within a reasonable radius. Beyond that, a small supplement may apply. I always inform you in advance." }
+    ],
+    "reflexo": [
+      { "q": "Is foot reflexology painful?", "a": "Some sensitive areas may cause slight discomfort, a sign of imbalance. Pressure is always adapted to your comfort." },
+      { "q": "What are the benefits of reflexology?", "a": "It improves circulation, reduces stress, relieves pain and restores the body's overall balance naturally." },
+      { "q": "How long does a session last?", "a": "A session lasts between 60 and 90 minutes, barefoot. The treatment begins with a relaxing foot bath." }
+    ]
   }
 }

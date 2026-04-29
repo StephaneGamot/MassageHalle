@@ -1,83 +1,175 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
+<!-- Homepage -->
 <url>
-<loc>https://lavoiedubienetre.be/</loc>
-<lastmod>2024-04-17T20:20:16+00:00</lastmod>
-<priority>1.00</priority>
+  <loc>https://lavoiedubienetre.be/fr</loc>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://lavoiedubienetre.be/fr"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://lavoiedubienetre.be/en"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://lavoiedubienetre.be/nl"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://lavoiedubienetre.be/fr"/>
+  <lastmod>2026-04-29T10:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
 </url>
+
+<!-- Massage Tao -->
 <url>
-<loc>https://lavoiedubienetre.be/massage/tao</loc>
-<lastmod>2024-11-01T10:20:16+00:00</lastmod>
-<priority>0.90</priority>
+  <loc>https://lavoiedubienetre.be/fr/massage/tao</loc>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://lavoiedubienetre.be/fr/massage/tao"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://lavoiedubienetre.be/en/massage/tao"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://lavoiedubienetre.be/nl/massage/tao"/>
+  <lastmod>2026-04-29T10:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
 </url>
+
+<!-- Massage à domicile -->
 <url>
-<loc>https://lavoiedubienetre.be/massage/a-domicile</loc>
-<lastmod>2024-11-01T10:20:16+00:00</lastmod>
-<priority>0.90</priority>
+  <loc>https://lavoiedubienetre.be/fr/massage/a-domicile</loc>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://lavoiedubienetre.be/fr/massage/a-domicile"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://lavoiedubienetre.be/en/massage/a-domicile"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://lavoiedubienetre.be/nl/massage/a-domicile"/>
+  <lastmod>2026-04-29T10:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
 </url>
+
+<!-- Massage relaxant -->
 <url>
-<loc>https://lavoiedubienetre.be/shiatsu</loc>
-<lastmod>2024-04-17T20:20:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://lavoiedubienetre.be/fr/massage/relaxant</loc>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://lavoiedubienetre.be/fr/massage/relaxant"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://lavoiedubienetre.be/en/massage/relaxant"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://lavoiedubienetre.be/nl/massage/relaxant"/>
+  <lastmod>2026-04-29T10:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
 </url>
+
+<!-- Massage sportif -->
 <url>
-<loc>https://lavoiedubienetre.be/reiki</loc>
-<lastmod>2024-04-17T20:20:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://lavoiedubienetre.be/fr/massage/sportif</loc>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://lavoiedubienetre.be/fr/massage/sportif"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://lavoiedubienetre.be/en/massage/sportif"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://lavoiedubienetre.be/nl/massage/sportif"/>
+  <lastmod>2026-04-29T10:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.85</priority>
 </url>
+
+<!-- Massage deep-tissues -->
 <url>
-<loc>https://lavoiedubienetre.be/massage/sportif</loc>
-<lastmod>2024-04-17T20:20:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://lavoiedubienetre.be/fr/massage/deep-tissues</loc>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://lavoiedubienetre.be/fr/massage/deep-tissues"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://lavoiedubienetre.be/en/massage/deep-tissues"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://lavoiedubienetre.be/nl/massage/deep-tissues"/>
+  <lastmod>2026-04-29T10:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.85</priority>
 </url>
+
+<!-- Massage douceur dorsale -->
 <url>
-<loc>https://lavoiedubienetre.be/massage/relaxant</loc>
-<lastmod>2024-04-17T20:20:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://lavoiedubienetre.be/fr/massage/douceur-dorsale</loc>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://lavoiedubienetre.be/fr/massage/douceur-dorsale"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://lavoiedubienetre.be/en/massage/douceur-dorsale"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://lavoiedubienetre.be/nl/massage/douceur-dorsale"/>
+  <lastmod>2026-04-29T10:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.85</priority>
 </url>
+
+<!-- Massage anti-cellulite -->
 <url>
-<loc>https://lavoiedubienetre.be/massage-sur-chaise</loc>
-<lastmod>2024-04-17T20:20:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://lavoiedubienetre.be/fr/massage/anti-cellulite</loc>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://lavoiedubienetre.be/fr/massage/anti-cellulite"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://lavoiedubienetre.be/en/massage/anti-cellulite"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://lavoiedubienetre.be/nl/massage/anti-cellulite"/>
+  <lastmod>2026-04-29T10:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.85</priority>
 </url>
+
+<!-- Massage voyage des sens -->
 <url>
-<loc>https://lavoiedubienetre.be/reflexologie-plantaire</loc>
-<lastmod>2024-04-17T20:20:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://lavoiedubienetre.be/fr/massage/voyage-des-sens</loc>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://lavoiedubienetre.be/fr/massage/voyage-des-sens"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://lavoiedubienetre.be/en/massage/voyage-des-sens"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://lavoiedubienetre.be/nl/massage/voyage-des-sens"/>
+  <lastmod>2026-04-29T10:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.85</priority>
 </url>
+
+<!-- Massage sur chaise (Amma) -->
 <url>
-<loc>https://lavoiedubienetre.be/massage/voyage-des-sens</loc>
-<lastmod>2024-04-17T20:20:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://lavoiedubienetre.be/fr/massage/massage-sur-chaise</loc>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://lavoiedubienetre.be/fr/massage/massage-sur-chaise"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://lavoiedubienetre.be/en/massage/massage-sur-chaise"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://lavoiedubienetre.be/nl/massage/massage-sur-chaise"/>
+  <lastmod>2026-04-29T10:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
 </url>
+
+<!-- Shiatsu -->
 <url>
-<loc>https://lavoiedubienetre.be/massage/anti-cellulite</loc>
-<lastmod>2024-04-17T20:20:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://lavoiedubienetre.be/fr/shiatsu</loc>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://lavoiedubienetre.be/fr/shiatsu"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://lavoiedubienetre.be/en/shiatsu"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://lavoiedubienetre.be/nl/shiatsu"/>
+  <lastmod>2026-04-29T10:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
 </url>
+
+<!-- Reiki -->
 <url>
-<loc>https://lavoiedubienetre.be/massage/deep-tissues</loc>
-<lastmod>2025-04-11T20:20:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://lavoiedubienetre.be/fr/reiki</loc>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://lavoiedubienetre.be/fr/reiki"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://lavoiedubienetre.be/en/reiki"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://lavoiedubienetre.be/nl/reiki"/>
+  <lastmod>2026-04-29T10:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.85</priority>
 </url>
+
+<!-- Réflexologie plantaire -->
 <url>
-<loc>https://lavoiedubienetre.be/therapie-cranio-sacree</loc>
-<lastmod>2025-04-11T20:20:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://lavoiedubienetre.be/fr/reflexologie-plantaire</loc>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://lavoiedubienetre.be/fr/reflexologie-plantaire"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://lavoiedubienetre.be/en/reflexologie-plantaire"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://lavoiedubienetre.be/nl/reflexologie-plantaire"/>
+  <lastmod>2026-04-29T10:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.85</priority>
 </url>
+
+<!-- Thérapie cranio-sacrée -->
 <url>
-<loc>https://lavoiedubienetre.be/massage/douceur-dorsale</loc>
-<lastmod>2024-04-17T20:20:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://lavoiedubienetre.be/fr/therapie-cranio-sacree</loc>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://lavoiedubienetre.be/fr/therapie-cranio-sacree"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://lavoiedubienetre.be/en/therapie-cranio-sacree"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://lavoiedubienetre.be/nl/therapie-cranio-sacree"/>
+  <lastmod>2026-04-29T10:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.85</priority>
 </url>
+
+<!-- FAQ -->
 <url>
-<loc>https://lavoiedubienetre.be/faq</loc>
-<lastmod>2024-04-17T20:20:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://lavoiedubienetre.be/fr/faq</loc>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://lavoiedubienetre.be/fr/faq"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://lavoiedubienetre.be/en/faq"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://lavoiedubienetre.be/nl/faq"/>
+  <lastmod>2026-04-29T10:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
 </url>
+
 </urlset>

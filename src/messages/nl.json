@@ -34,7 +34,8 @@
     "ctaPrimary": "Ik zorg voor mezelf",
     "ctaSecondary": "Bied dit moment aan een dierbare aan",
     "ctaWhatsapp": "Boek via WhatsApp",
-    "trust": "Halle · Brussel · Aan huis"
+    "trust": "Halle · Brussel · Aan huis",
+    "trustRating": "50+ tevreden klanten"
   },
   "cta": {
     "title": "Bied een moment van welzijn aan je geliefden",
@@ -48,6 +49,8 @@
     "cta": "Maak een afspraak",
     "note": "Geen kredietkaart nodig – boek met een gerust hart.",
     "ctaWhatsapp": "Boek deze behandeling",
+    "trustRating": "4.9/5 — 50+ klantbeoordelingen",
+    "waMessage": "Hallo, ik wil graag {soin} boeken. Wat is uw beschikbaarheid?",
     "titles": {
       "relaxant": "Geef je lichaam wat het verdient",
       "sportif": "Bereid je lichaam voor op prestaties",
@@ -1207,6 +1210,60 @@
   },
   "relatedServices": {
     "title": "Behandelingen die u misschien bevallen",
-    "subtitle": "Ontdek onze andere massages en behandelingen om uw welzijnstraject te vervolledigen."
+    "subtitle": "Ontdek onze andere massages en behandelingen om uw welzijnstraject te vervolledigen.",
+    "descriptions": {
+      "relaxant": "Diepe ontspanning, stressverlichting",
+      "sportif": "Spierherstel, prestaties",
+      "domicile": "Welzijn direct bij u thuis",
+      "tao": "Lichaam en geest herverbinden",
+      "douceur": "Verlichting nek, rug, schouders",
+      "anticellulite": "Versteviging, harmonieus silhouet",
+      "deeptissue": "Diepe en chronische spanningen",
+      "voyage": "Totaal zintuiglijk loslaten",
+      "amma": "Snelle wellnesspauze op het werk",
+      "shiatsu": "Japanse energiebalancering",
+      "reiki": "Energieharmonisatie",
+      "reflexo": "Herbalancering via de voeten",
+      "cranio": "Loslaten van zenuwspanning"
+    }
+  },
+  "serviceFaq": {
+    "label": "Veelgestelde vragen",
+    "title": "Wat onze klanten vaak vragen",
+    "relaxant": [
+      { "q": "Hoe lang duurt een ontspanningsmassage?", "a": "Een sessie duurt tussen 60 en 90 minuten. De 90-minutenoptie biedt dieper werk en volledige ontspanning." },
+      { "q": "Is de ontspanningsmassage geschikt tijdens de zwangerschap?", "a": "Ja, vanaf het 2e trimester. De massage wordt aangepast met comfortabele posities en specifieke zones worden zacht bewerkt." },
+      { "q": "Wat kost een ontspanningsmassage?", "a": "De sessie van 60 minuten kost €80 en die van 90 minuten €120. Geen verborgen kosten." }
+    ],
+    "sportif": [
+      { "q": "Doet een sportmassage pijn?", "a": "Een sportmassage werkt diep maar wordt altijd aangepast aan uw tolerantiegrens. Communicatie is constant tijdens de sessie." },
+      { "q": "Wanneer moet ik een sportmassage nemen?", "a": "Idealiter 48 uur na inspanning voor herstel, of 2-3 dagen voor een wedstrijd om de spieren voor te bereiden." },
+      { "q": "Wat is het verschil met een deep tissue massage?", "a": "Een sportmassage richt zich op zones belast door sport, terwijl deep tissue werkt op chronische spanningen over het hele lichaam." }
+    ],
+    "tao": [
+      { "q": "Wat maakt de Tao-massage anders?", "a": "De Tao-massage is vloeiend en omhullend, geïnspireerd door de taoïstische filosofie. Het doel is lichaam, adem en gevoel te herverbinden in een algehele harmonie." },
+      { "q": "Moet ik me uitkleden voor een Tao-massage?", "a": "De Tao-massage maakt gebruik van oliën, dus het is het beste om in ondergoed te zijn om volledig van de behandeling te genieten." },
+      { "q": "Is de Tao-massage geschikt voor beginners?", "a": "Absoluut. Het is een zachte massage die voor iedereen toegankelijk is, perfect voor een eerste ervaring." }
+    ],
+    "shiatsu": [
+      { "q": "Moet ik me uitkleden voor shiatsu?", "a": "Nee, shiatsu wordt volledig gekleed uitgevoerd, liggend op een futon. Draag losse, comfortabele kleding." },
+      { "q": "Wordt shiatsu vergoed door de ziekteverzekering?", "a": "Sommige Belgische zorgverzekeraars vergoeden shiatsu gedeeltelijk. Informeer bij uw verzekeraar." },
+      { "q": "Hoeveel shiatsu-sessies zijn nodig?", "a": "Voor diepe herbalancering worden 3 tot 5 sessies met 2-3 weken tussentijd aanbevolen. Maandelijks onderhoud bewaart de voordelen." }
+    ],
+    "reiki": [
+      { "q": "Wat voel je tijdens een Reiki-sessie?", "a": "Sensaties variëren: warmte, tintelingen, diepe ontspanning, of soms emoties die vrijkomen. Elke sessie is uniek." },
+      { "q": "Is Reiki verenigbaar met medische behandeling?", "a": "Ja, Reiki is complementair aan conventionele geneeskunde. Het vervangt geen medische behandeling maar kan een genezingsproces ondersteunen." },
+      { "q": "Hoeveel Reiki-sessies zijn nodig?", "a": "Eén sessie brengt al voordelen. Voor dieper werk zijn 3 dicht op elkaar volgende sessies ideaal." }
+    ],
+    "domicile": [
+      { "q": "In welke gebieden komt u aan huis?", "a": "Ik kom naar Halle, Brussel, Waals-Brabant en Vlaams-Brabant. Neem contact op om de dekking voor uw zone te controleren." },
+      { "q": "Wat moet ik voorbereiden voor een thuismassage?", "a": "Niets bijzonders! Ik breng alles mee: massagetafel, lakens, oliën en muziek. Voorzie een rustige ruimte van ongeveer 2m x 3m." },
+      { "q": "Is er een extra kost voor de verplaatsing?", "a": "De prijs is inclusief verplaatsing binnen een redelijke straal. Daarbuiten kan een kleine toeslag van toepassing zijn. Ik informeer u altijd vooraf." }
+    ],
+    "reflexo": [
+      { "q": "Is voetreflexologie pijnlijk?", "a": "Sommige gevoelige zones kunnen licht ongemak veroorzaken, een teken van onbalans. De druk wordt altijd aangepast aan uw comfort." },
+      { "q": "Wat zijn de voordelen van reflexologie?", "a": "Het verbetert de bloedsomloop, vermindert stress, verlicht pijn en herstelt het algehele evenwicht van het lichaam op natuurlijke wijze." },
+      { "q": "Hoe lang duurt een sessie?", "a": "Een sessie duurt tussen 60 en 90 minuten, op blote voeten. De behandeling begint met een ontspannend voetbad." }
+    ]
   }
 }

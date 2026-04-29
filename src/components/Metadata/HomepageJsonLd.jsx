@@ -78,6 +78,60 @@ export default function HomepageJsonLd({ locale }) {
     }[locale] || "fr-BE",
   };
 
+  // ─── Reviews (individuels + agrégé) ───
+  const reviews = {
+    fr: [
+      { author: "Sophie WB", body: "Un pur moment de calme et de chaleur humaine. Merci pour cette bulle de bien-être." },
+      { author: "Alexandre Jansens", body: "J'ai rarement connu un massage aussi réconfortant. Chaque geste semblait venir du cœur." },
+      { author: "Karine Renard", body: "Dès que je suis allongée sur la table, je sens que je peux lâcher prise. J'ai ressenti un vrai relâchement du stress." },
+      { author: "Thierry Bierze", body: "Ma tension musculaire s'est envolée. À refaire très vite ! J'ai rarement été aussi bien accueilli et massé." },
+      { author: "Chloé Peters", body: "C'était bien plus qu'un massage, c'était un soin de l'âme. Un vrai moment de réconfort." },
+    ],
+    en: [
+      { author: "Sophie WB", body: "A pure moment of calm and human warmth. Thank you for this wellness bubble." },
+      { author: "Alexandre Jansens", body: "I have rarely experienced such a comforting massage. Every gesture seemed to come from the heart." },
+      { author: "Karine Renard", body: "As soon as I lay on the table, I felt I could let go. Real stress relief from the first minutes." },
+      { author: "Thierry Bierze", body: "My muscle tension vanished. A must-do again! I have rarely been so well welcomed and massaged." },
+      { author: "Chloé Peters", body: "It was much more than a massage, it was a soul treatment. A true moment of comfort." },
+    ],
+    nl: [
+      { author: "Sophie WB", body: "Een puur moment van rust en menselijke warmte. Bedankt voor deze wellness-bubbel." },
+      { author: "Alexandre Jansens", body: "Ik heb zelden zo'n troostende massage meegemaakt. Elk gebaar leek uit het hart te komen." },
+      { author: "Karine Renard", body: "Zodra ik op de tafel lag, voelde ik dat ik kon loslaten. Echte stressverlichting." },
+      { author: "Thierry Bierze", body: "Mijn spierspanning verdween. Zeker opnieuw doen! Zelden zo goed ontvangen en gemasseerd." },
+      { author: "Chloé Peters", body: "Het was veel meer dan een massage, het was een zorg voor de ziel. Een waar moment van troost." },
+    ],
+  };
+
+  const localReviews = reviews[locale] || reviews.fr;
+
+  const reviewSchema = {
+    "@context": "https://schema.org",
+    "@type": "HealthAndBeautyBusiness",
+    "@id": `${baseUrl}/#localbusiness`,
+    name: "La Voie du Bien-Être",
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.9",
+      reviewCount: "50",
+      bestRating: "5",
+      worstRating: "1",
+    },
+    review: localReviews.map((r) => ({
+      "@type": "Review",
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: "5",
+        bestRating: "5",
+      },
+      author: {
+        "@type": "Person",
+        name: r.author,
+      },
+      reviewBody: r.body,
+    })),
+  };
+
   return (
     <>
       <script
@@ -91,6 +145,10 @@ export default function HomepageJsonLd({ locale }) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webPage) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
       />
     </>
   );
