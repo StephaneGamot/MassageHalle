@@ -137,7 +137,7 @@ export default function Footer() {
 
         {/* Villes desservies — SEO local */}
         <div className="mt-12 pt-6 border-t border-white/10">
-          <p className="text-xs !text-white/50 text-center mb-6">
+          <p className="text-xs !text-white/70 text-center mb-6">
             Massages bien-être à Hal (Halle) · Bruxelles · Uccle · Waterloo · Braine-l&apos;Alleud · Dilbeek · Tubize · Rhode-Saint-Genèse · Enghien · Leerbeek — En cabinet ou à domicile
           </p>
         </div>

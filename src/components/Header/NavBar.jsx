@@ -85,8 +85,8 @@ export default function Nav() {
                   <Image
                     src={Logo}
                     alt="Logo La Voie du Bien-Être"
-                    width={200}
-                    height={200}
+                    width={80}
+                    height={80}
                     className="h-9 w-auto lg:h-10"
                     priority
                   />
