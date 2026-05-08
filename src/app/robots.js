@@ -3,8 +3,8 @@ export default function robots() {
     rules: [
       {
         userAgent: "*",
-        allow: "/",
-        disallow: ["/_next/", "/api/"],
+        allow: ["/_next/static/", "/_next/image/"],
+        disallow: ["/api/", "/_next/data/"],
       },
     ],
     sitemap: "https://lavoiedubienetre.be/sitemap.xml",
