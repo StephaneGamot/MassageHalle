@@ -5,7 +5,9 @@ import { useTranslations } from "next-intl";
 export default function WhyThisCare({ ids = [], title = "" }) {
   const t = useTranslations("whyThisCare");
   const questions = t.raw("list");
-  const selectedQuestions = questions.filter((q) => ids.includes(q.id));
+  const selectedQuestions = ids.length > 0
+    ? questions.filter((q) => ids.includes(q.id))
+    : questions;
 
   if (selectedQuestions.length === 0) return null;
 
@@ -14,7 +16,7 @@ export default function WhyThisCare({ ids = [], title = "" }) {
       <div className="section-wrap">
         <div className="mx-auto max-w-3xl">
           <div className="text-center mb-10 lg:mb-12">
-            <p className="label-or mb-3">Pourquoi ce soin</p>
+            <p className="label-or mb-3">{t("label")}</p>
             <h2 id="why-this-care-title" className="tracking-tight">
               {t(`titles.${title}`)}
             </h2>

@@ -17,7 +17,7 @@ export default function Cta() {
 
           {/* Texte */}
           <div className="max-w-xl mx-auto lg:mx-0">
-            <p className="label-or mb-4">Bien-être</p>
+            <p className="label-or mb-4">{t("label")}</p>
             <h2 id="cta-title" className="tracking-tight">
               {t("title")}
             </h2>

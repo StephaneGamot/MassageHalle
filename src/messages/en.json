@@ -38,6 +38,7 @@
     "trustRating": "50+ satisfied clients"
   },
   "cta": {
+    "label": "Well-being",
     "title": "Offer a moment of well-being to those you love",
     "paragraph1": "A massage is more than a treatment: it is a gesture of love. Offer an unforgettable moment of relaxation with a gift card.",
     "paragraph2": "Therapeutic treatments and relaxing massages in Halle – Brussels, at the practice or at home.",
@@ -505,6 +506,7 @@
     ]
   },
   "benefits": {
+    "label": "Benefits",
     "why": "Why choose",
     "titles": {
       "relaxant": "a relaxing massage",
@@ -658,6 +660,7 @@
     }
   },
   "whyThisCare": {
+    "label": "Why this treatment",
     "title": "Who is this treatment for?",
     "titles": {
       "relaxant": "Is this relaxing massage right for me?",
@@ -820,6 +823,7 @@
     ]
   },
   "treatmentDescription": {
+    "label": "Your treatment",
     "availability": "Available in Halle or at home around Brussels.",
     "durationStart": "Each session lasts",
     "durationEnd": "to give you a fully rejuvenating moment.",

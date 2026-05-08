@@ -62,7 +62,7 @@ const BASE_OFFERS = [
     key: "60",
     prices: { fr: "80", en: "80", nl: "80" },
     names: {
-      fr: "Seance 60 minutes",
+      fr: "Séance 60 minutes",
       en: "60-minute session",
       nl: "Sessie van 60 minuten",
     },
@@ -71,7 +71,7 @@ const BASE_OFFERS = [
     key: "90",
     prices: { fr: "120", en: "120", nl: "120" },
     names: {
-      fr: "Seance 90 minutes",
+      fr: "Séance 90 minutes",
       en: "90-minute session",
       nl: "Sessie van 90 minuten",
     },
@@ -87,7 +87,7 @@ const massageServices = {
       nl: "Ontspanningsmassage",
     },
     descriptions: {
-      fr: "Un massage relaxant doux et enveloppant pour relacher le stress et les tensions et retrouver une sensation de calme profond.",
+      fr: "Un massage relaxant doux et enveloppant pour relâcher le stress et les tensions et retrouver une sensation de calme profond.",
       en: "A gentle, relaxing massage to release stress and tension and restore a deep sense of calm.",
       nl: "Een zachte, ontspannende massage om stress en spanning los te laten en weer diepe rust te vinden.",
     },
@@ -101,7 +101,7 @@ const massageServices = {
       nl: "Shiatsu",
     },
     descriptions: {
-      fr: "Un soin energetique japonais par pressions et etirements pour harmoniser la circulation de l'energie dans le corps.",
+      fr: "Un soin énergétique japonais par pressions et étirements pour harmoniser la circulation de l'énergie dans le corps.",
       en: "A Japanese energy treatment using pressure and stretching techniques to harmonize the body's energy flow.",
       nl: "Een Japanse energetische behandeling met druk- en stretchtechnieken om de energiestroom in het lichaam te harmoniseren.",
     },
@@ -115,7 +115,7 @@ const massageServices = {
       nl: "Sportmassage",
     },
     descriptions: {
-      fr: "Un massage cible pour soulager les tensions musculaires liees au sport, aux efforts physiques ou au travail repetitif.",
+      fr: "Un massage ciblé pour soulager les tensions musculaires liées au sport, aux efforts physiques ou au travail répétitif.",
       en: "A targeted massage to relieve muscle tension caused by sports, physical exertion or repetitive work.",
       nl: "Een gerichte massage om spierspanning door sport, fysieke inspanning of repetitief werk te verlichten.",
     },
@@ -129,9 +129,9 @@ const massageServices = {
       nl: "Tao-massage",
     },
     descriptions: {
-      fr: "Un massage d'inspiration taoiste, fluide et enveloppant, pour reconnecter le corps, le souffle et les sensations.",
+      fr: "Un massage d'inspiration taoïste, fluide et enveloppant, pour reconnecter le corps, le souffle et les sensations.",
       en: "A Tao-inspired massage with fluid and enveloping strokes to reconnect body, breath and sensations.",
-      nl: "Een Tao-geinspireerde massage met vloeiende, omhullende bewegingen om lichaam, adem en gevoel te verbinden.",
+      nl: "Een Tao-geïnspireerde massage met vloeiende, omhullende bewegingen om lichaam, adem en gevoel te verbinden.",
     },
   },
 
@@ -157,7 +157,7 @@ const massageServices = {
       nl: "Rug ontspanningsmassage",
     },
     descriptions: {
-      fr: "Un massage cible sur la nuque, les epaules et le dos pour relacher les tensions accumulees au quotidien.",
+      fr: "Un massage ciblé sur la nuque, les épaules et le dos pour relâcher les tensions accumulées au quotidien.",
       en: "A massage focused on neck, shoulders and back to release everyday built-up tension.",
       nl: "Een massage gericht op nek, schouders en rug om dagelijkse spanning los te laten.",
     },
@@ -166,12 +166,12 @@ const massageServices = {
   domicile: {
     path: "a-domicile",
     names: {
-      fr: "Massage a domicile",
+      fr: "Massage à domicile",
       en: "Home massage",
       nl: "Massage aan huis",
     },
     descriptions: {
-      fr: "Un massage relaxant ou energetique directement chez vous, a Halle, Bruxelles et Brabant wallon.",
+      fr: "Un massage relaxant ou énergétique directement chez vous, à Halle, Bruxelles et Brabant wallon.",
       en: "A relaxing or energy-balancing massage directly at your home in Halle, Brussels and Walloon Brabant.",
       nl: "Een ontspannende of energetische massage bij jou thuis in Halle, Brussel en Waals-Brabant.",
     },
@@ -185,7 +185,7 @@ const massageServices = {
       nl: "Reiki",
     },
     descriptions: {
-      fr: "Un soin energetique doux par appositions des mains pour favoriser la detente et l'harmonisation globale.",
+      fr: "Un soin énergétique doux par appositions des mains pour favoriser la détente et l'harmonisation globale.",
       en: "A gentle energy treatment using hands-on techniques to promote relaxation and overall balance.",
       nl: "Een zachte energetische behandeling met handoplegging om ontspanning en algemene harmonie te bevorderen.",
     },
@@ -199,7 +199,7 @@ const massageServices = {
       nl: "Anti-cellulite massage",
     },
     descriptions: {
-      fr: "Un massage tonique et cible pour raffermir la peau, lisser la cellulite et retrouver une silhouette harmonieuse.",
+      fr: "Un massage tonique et ciblé pour raffermir la peau, lisser la cellulite et retrouver une silhouette harmonieuse.",
       en: "A toning, targeted massage to firm the skin, smooth cellulite and restore a harmonious silhouette.",
       nl: "Een tonische, gerichte massage om de huid te verstevigen, cellulitis te verminderen en een harmonieus silhouet te herstellen.",
     },
@@ -213,7 +213,7 @@ const massageServices = {
       nl: "Zintuigenreis massage",
     },
     descriptions: {
-      fr: "Un massage enveloppant qui agit sur les fascias pour un lacher-prise profond et une detente sensorielle totale.",
+      fr: "Un massage enveloppant qui agit sur les fascias pour un lâcher-prise profond et une détente sensorielle totale.",
       en: "An enveloping massage working on fascia for deep letting go and total sensory relaxation.",
       nl: "Een omhullende massage die inwerkt op de fascia voor diep loslaten en totale zintuiglijke ontspanning.",
     },
@@ -227,7 +227,7 @@ const massageServices = {
       nl: "Amma stoelmassage",
     },
     descriptions: {
-      fr: "Un massage assis rapide et efficace en entreprise pour relacher les tensions du dos, de la nuque et des epaules.",
+      fr: "Un massage assis rapide et efficace en entreprise pour relâcher les tensions du dos, de la nuque et des épaules.",
       en: "A quick and effective seated massage at work to relieve tension in the back, neck and shoulders.",
       nl: "Een snelle en effectieve stoelmassage op het werk om spanning in rug, nek en schouders te verlichten.",
     },
@@ -236,12 +236,12 @@ const massageServices = {
   reflexologie: {
     path: "reflexologie-plantaire",
     names: {
-      fr: "Reflexologie plantaire",
+      fr: "Réflexologie plantaire",
       en: "Foot reflexology",
       nl: "Voetreflexologie",
     },
     descriptions: {
-      fr: "Un soin des pieds qui stimule les zones reflexes pour reequilibrer le corps et apaiser l'esprit naturellement.",
+      fr: "Un soin des pieds qui stimule les zones réflexes pour rééquilibrer le corps et apaiser l'esprit naturellement.",
       en: "A foot treatment that stimulates reflex zones to rebalance the body and soothe the mind naturally.",
       nl: "Een voetbehandeling die reflexzones stimuleert om het lichaam in balans te brengen en de geest op natuurlijke wijze te kalmeren.",
     },
@@ -250,12 +250,12 @@ const massageServices = {
   cranioSacree: {
     path: "therapie-cranio-sacree",
     names: {
-      fr: "Therapie cranio-sacree",
+      fr: "Thérapie cranio-sacrée",
       en: "Craniosacral therapy",
       nl: "Craniosacrale therapie",
     },
     descriptions: {
-      fr: "Une approche subtile et puissante qui libere les tensions profondes du systeme nerveux et favorise l'auto-guerison.",
+      fr: "Une approche subtile et puissante qui libère les tensions profondes du système nerveux et favorise l'auto-guérison.",
       en: "A subtle yet powerful approach that releases deep nervous system tensions and promotes self-healing.",
       nl: "Een subtiele maar krachtige aanpak die diepe spanningen in het zenuwstelsel loslaat en zelfgenezing bevordert.",
     },
@@ -268,7 +268,7 @@ export default function MassageServiceJSONLD({ slug, locale = "fr" }) {
   if (!service) {
     if (process.env.NODE_ENV !== "production") {
       console.warn(
-        `[MassageServiceJSONLD] Aucun service trouve pour le slug "${slug}"`
+        `[MassageServiceJSONLD] Aucun service trouvé pour le slug "${slug}"`
       );
     }
     return null;
@@ -307,7 +307,7 @@ export default function MassageServiceJSONLD({ slug, locale = "fr" }) {
     provider: {
       "@type": "HealthAndBeautyBusiness",
       "@id": localBusinessId,
-      name: "La Voie du Bien-Etre",
+      name: "La Voie du Bien-Être",
       url: `${baseUrl}/${currentLocale}`,
       telephone: "+32477131993",
       priceRange: "$$",

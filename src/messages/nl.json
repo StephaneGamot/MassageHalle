@@ -38,6 +38,7 @@
     "trustRating": "50+ tevreden klanten"
   },
   "cta": {
+    "label": "Welzijn",
     "title": "Bied een moment van welzijn aan je geliefden",
     "paragraph1": "Een massage is meer dan een behandeling: het is een liefdesgebaar. Bied een onvergetelijk moment van ontspanning aan met een cadeaubon.",
     "paragraph2": "Therapeutische behandelingen en ontspannende massages in Halle – Brussel, in de praktijk of aan huis.",
@@ -505,6 +506,7 @@
     ]
   },
   "benefits": {
+    "label": "Voordelen",
     "why": "Waarom kiezen voor",
     "titles": {
       "relaxant": "een ontspannende massage",
@@ -670,6 +672,7 @@
     }
   },
   "whyThisCare": {
+    "label": "Waarom deze behandeling",
     "title": "Voor wie is deze behandeling bedoeld?",
     "titles": {
       "relaxant": "Is deze ontspanningsmassage iets voor mij?",
@@ -835,6 +838,7 @@
     ]
   },
   "treatmentDescription": {
+    "label": "Uw behandeling",
     "availability": "Beschikbaar in de praktijk in Halle of aan huis in de omgeving van Brussel.",
     "durationStart": "Elke sessie duurt",
     "durationEnd": "om u een volledig verkwikkende ervaring te bieden.",

@@ -11,7 +11,7 @@ export default function TreatmentDescription({ variant = "" }) {
     <section className="bg-[#F3EDE4]" role="region" aria-labelledby="treatment-title">
       <div className="section-wrap">
         <div className="mx-auto max-w-3xl text-center">
-          <p className="label-or mb-3">Votre soin</p>
+          <p className="label-or mb-3">{t("label")}</p>
           <h2 id="treatment-title" className="tracking-tight">
             {t(`${variant}.title`)}
           </h2>

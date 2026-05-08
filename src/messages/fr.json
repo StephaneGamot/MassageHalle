@@ -38,6 +38,7 @@
     "trustRating": "50+ avis clients satisfaits"
   },
   "cta": {
+    "label": "Bien-être",
     "title": "Offrez un moment de bien-être à ceux que vous aimez",
     "paragraph1": "Un massage, c’est plus qu’un soin : c’est un geste d’amour. Offrez un instant de détente inoubliable avec une carte cadeau.",
     "paragraph2": "Soins thérapeutiques et massages relaxants à Halle – Bruxelles, en cabinet ou à domicile.",
@@ -516,6 +517,7 @@
     ]
   },
   "benefits": {
+    "label": "Bienfaits",
     "why": "Pourquoi choisir",
     "titles": {
       "relaxant": "un massage relaxant",
@@ -681,6 +683,7 @@
     }
   },
   "whyThisCare": {
+    "label": "Pourquoi ce soin",
     "title": "À qui s’adresse ce soin ?",
     "titles": {
       "relaxant": "Est-ce que ce massage détente est pour moi ?",
@@ -861,6 +864,7 @@
     ]
   },
   "treatmentDescription": {
+    "label": "Votre soin",
     "availability": "Disponible en cabinet à Halle ou à domicile dans les alentours de Bruxelles.",
     "durationStart": "Chaque séance dure",
     "durationEnd": "pour vous offrir un moment pleinement ressourçant.",

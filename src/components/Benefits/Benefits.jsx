@@ -21,7 +21,7 @@ export default function Benefits({ ids = [], title = "" }) {
   return (
     <section className="bg-white" role="region" aria-labelledby="benefits-title">
       <div className="section-wrap text-center">
-        <p className="label-or mb-3">Bienfaits</p>
+        <p className="label-or mb-3">{t("label")}</p>
         <h2 id="benefits-title" className="tracking-tight">
           {t("why")} {t(`titles.${title}`)} ?
         </h2>
