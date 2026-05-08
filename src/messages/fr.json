@@ -867,6 +867,9 @@
     "relaxant": {
       "title": "Un soin tout en douceur",
       "hero": "Par des gestes enveloppants et rythmés, ce massage permet de relâcher les tensions, d’apaiser le mental et de retrouver une sensation de bien-être profond. Il s’adapte à chaque personne, selon son énergie et ses besoins du moment.",
+      "details1": "Le massage relaxant commence par un temps d’écoute pour comprendre vos tensions du jour et adapter le soin. Des mouvements longs et fluides sur l’ensemble du corps favorisent la circulation sanguine, détendent les muscles et apaisent le système nerveux. Les huiles utilisées sont chauffées et choisies pour leurs propriétés calmantes.",
+      "details2": "Ce soin convient aussi bien aux personnes souffrant de stress chronique qu’à celles qui souhaitent simplement s’offrir un moment de détente profonde. Après la séance, la plupart des clients décrivent un sentiment de légèreté, un sommeil amélioré et une diminution notable des tensions dans la nuque et les épaules.",
+      "details3": "Le massage relaxant est proposé en cabinet à Halle, dans un espace chaleureux et intimiste, ou à domicile dans la région de Bruxelles, Waterloo, Uccle et le Brabant wallon. Chaque séance est un moment unique, entièrement dédié à votre bien-être.",
       "durationMin": 90,
       "durationMax": 120,
       "text": "Offrez-vous cette parenthèse de sérénité, à partir de",
@@ -875,6 +878,9 @@
     "sportif": {
       "title": "Un massage puissant et ciblé",
       "hero": "Conçu pour optimiser la récupération musculaire et soulager les tensions profondes. Parfait avant ou après l’effort.",
+      "details1": "Le massage sportif associe des techniques de pétrissage profond, d’étirements et de pressions ciblées pour travailler les groupes musculaires les plus sollicités. Que vous pratiquiez la course à pied, le cyclisme, la musculation ou le football, le soin est adapté à votre discipline et à vos zones de tension.",
+      "details2": "En phase de récupération, il accélère l’élimination de l’acide lactique, réduit les courbatures et favorise la régénération des fibres musculaires. En préparation d’un événement sportif, il améliore la souplesse et prévient les blessures. De nombreux sportifs amateurs et professionnels de la région de Halle et Bruxelles intègrent ce massage dans leur routine d’entraînement.",
+      "details3": "Le massage sportif se pratique en cabinet à Halle ou à domicile. Un échange préalable permet de cibler précisément les zones à travailler et d’adapter l’intensité à vos besoins, que ce soit pour une récupération musculaire douce ou un travail en profondeur sur des contractures tenaces.",
       "durationMin": 60,
       "durationMax": 90,
       "text": "Prenez soin de vos muscles, à partir de",
@@ -883,6 +889,9 @@
     "domicile": {
       "title": "Un soin chez vous, en toute sérénité",
       "hero": "Profitez d’un massage professionnel sans quitter votre domicile. Tout est pensé pour votre confort.",
+      "details1": "Le massage à domicile vous offre une expérience complète de bien-être sans les contraintes du déplacement. J’apporte tout le matériel professionnel nécessaire : table de massage pliante, draps propres, huiles de qualité et ambiance sonore relaxante. Il suffit de prévoir un espace calme d’environ 2 mètres sur 3 mètres.",
+      "details2": "Ce service est particulièrement apprécié par les personnes à mobilité réduite, les jeunes parents, les femmes enceintes ou simplement ceux qui préfèrent rester dans leur cocon après le soin. Le massage à domicile permet de prolonger les bienfaits de la séance puisque vous pouvez vous reposer immédiatement après, sans reprendre la route.",
+      "details3": "Je me déplace à Halle, Bruxelles, Waterloo, Uccle, Braine-l’Alleud, Dilbeek, Tubize, Rhode-Saint-Genèse et dans tout le Brabant wallon et flamand. Vous choisissez le type de massage souhaité — relaxant, sportif, deep tissue ou autre — et je l’adapte à votre environnement. Les rendez-vous sont possibles en semaine et le samedi, de 10h à 19h.",
       "durationMin": 90,
       "durationMax": 120,
       "text": "Recevez ce soin à la maison, dès",
@@ -923,6 +932,9 @@
     "shiatsu": {
       "title": "Un soin d’équilibrage énergétique",
       "hero": "Le shiatsu agit par pressions sur les méridiens pour harmoniser les énergies internes.",
+      "details1": "D’origine japonaise, le shiatsu est une thérapie manuelle qui utilise des pressions rythmées des pouces, des paumes et parfois des coudes le long des méridiens d’énergie du corps. Contrairement au massage classique, il se pratique habillé, allongé sur un futon au sol, ce qui permet au praticien de travailler avec la gravité et d’offrir des pressions plus profondes et précises.",
+      "details2": "Le shiatsu est reconnu pour ses bienfaits sur le stress, les troubles du sommeil, les douleurs musculaires et articulaires, les maux de tête et les déséquilibres digestifs. En rétablissant la libre circulation de l’énergie vitale (le Ki), il aide le corps à retrouver son équilibre naturel et stimule ses capacités d’auto-guérison.",
+      "details3": "Chaque séance de shiatsu à Halle commence par un bilan énergétique pour identifier les zones de blocage. Le soin est ensuite adapté à vos besoins spécifiques. Un cycle de trois à cinq séances espacées de deux à trois semaines est recommandé pour un rééquilibrage durable, suivi d’un entretien mensuel pour maintenir les bienfaits.",
       "durationMin": 60,
       "durationMax": 90,
       "text": "Retrouvez votre équilibre intérieur à partir de",

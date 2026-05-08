@@ -31,7 +31,7 @@ export default function Cta() {
               <a
                 href="https://wa.me/32477131993"
                 target="_blank"
-                rel="noreferrer"
+                rel="nofollow noopener noreferrer"
                 className="btn-whatsapp"
               >
                 <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">

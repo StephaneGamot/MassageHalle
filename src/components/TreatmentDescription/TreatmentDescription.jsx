@@ -20,6 +20,25 @@ export default function TreatmentDescription({ variant = "" }) {
             {t(`${variant}.hero`)}
           </p>
 
+          {/* Paragraphes détaillés (SEO) */}
+          {t.has(`${variant}.details1`) && (
+            <div className="mt-8 max-w-2xl mx-auto text-left space-y-4">
+              <p className="text-base leading-relaxed text-[#595751]">
+                {t(`${variant}.details1`)}
+              </p>
+              {t.has(`${variant}.details2`) && (
+                <p className="text-base leading-relaxed text-[#595751]">
+                  {t(`${variant}.details2`)}
+                </p>
+              )}
+              {t.has(`${variant}.details3`) && (
+                <p className="text-base leading-relaxed text-[#595751]">
+                  {t(`${variant}.details3`)}
+                </p>
+              )}
+            </div>
+          )}
+
           {/* Infos pratiques */}
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-10">
             <div className="flex items-center gap-3 text-[#595751]">

@@ -84,11 +84,15 @@ export default function ServiceFaq({ variant }) {
                         </svg>
                       </button>
                     </dt>
-                    {isOpen && (
-                      <dd className="px-6 pb-5 text-sm leading-relaxed text-[#595751]">
+                    <dd
+                      className={`overflow-hidden transition-all duration-200 ${
+                        isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+                      }`}
+                    >
+                      <div className="px-6 pb-5 text-sm leading-relaxed text-[#595751]">
                         {item.a}
-                      </dd>
-                    )}
+                      </div>
+                    </dd>
                   </div>
                 );
               })}

@@ -834,6 +834,9 @@
     "relaxant": {
       "title": "A gentle and soothing treatment",
       "hero": "With enveloping and rhythmic gestures, this massage helps release tension, calm the mind, and restore deep well-being. It adapts to each person, according to their energy and needs.",
+      "details1": "The relaxing massage begins with a moment of listening to understand your tensions and tailor the treatment. Long, flowing strokes across the entire body promote blood circulation, relax muscles, and soothe the nervous system. The oils are warmed and selected for their calming properties.",
+      "details2": "This treatment is suitable for those suffering from chronic stress as well as anyone seeking a moment of deep relaxation. After the session, most clients describe a feeling of lightness, improved sleep, and a noticeable reduction in neck and shoulder tension.",
+      "details3": "The relaxing massage is available at our practice in Halle, in a warm and intimate setting, or at your home in the Brussels area, including Waterloo, Uccle, and Walloon Brabant. Each session is a unique moment entirely dedicated to your well-being.",
       "durationMin": 90,
       "durationMax": 120,
       "text": "Treat yourself to this moment of serenity, starting at",
@@ -842,6 +845,9 @@
     "sportif": {
       "title": "A powerful and targeted massage",
       "hero": "Designed to optimize muscle recovery and relieve deep tension. Perfect before or after physical effort.",
+      "details1": "The sports massage combines deep kneading techniques, stretching, and targeted pressure to work on the most stressed muscle groups. Whether you practice running, cycling, weight training, or football, the treatment is adapted to your discipline and specific areas of tension.",
+      "details2": "During recovery, it accelerates lactic acid elimination, reduces soreness, and promotes muscle fiber regeneration. Before a sporting event, it improves flexibility and helps prevent injuries. Many amateur and professional athletes in the Halle and Brussels area include this massage in their training routine.",
+      "details3": "The sports massage is available at our practice in Halle or at your home. A preliminary discussion helps precisely target the areas to work on and adjust the intensity to your needs, whether for gentle muscle recovery or deep work on stubborn knots.",
       "durationMin": 60,
       "durationMax": 90,
       "text": "Take care of your muscles, from",
@@ -850,6 +856,9 @@
     "domicile": {
       "title": "A treatment at home, with peace of mind",
       "hero": "Enjoy a professional massage without leaving your home. Everything is designed for your comfort.",
+      "details1": "The home massage gives you a complete wellness experience without the hassle of travelling. I bring all the professional equipment: a portable massage table, clean linens, quality oils, and relaxing background music. You just need a quiet space of approximately 2 by 3 metres.",
+      "details2": "This service is particularly popular with people with reduced mobility, new parents, expectant mothers, or anyone who prefers to stay in their cocoon after the treatment. A home massage lets you extend the benefits of the session since you can rest immediately afterwards without driving home.",
+      "details3": "I travel to Halle, Brussels, Waterloo, Uccle, Braine-l'Alleud, Dilbeek, Tubize, Rhode-Saint-Genèse, and throughout Walloon and Flemish Brabant. You choose the type of massage — relaxing, sports, deep tissue, or other — and I adapt it to your environment. Appointments are available weekdays and Saturdays, from 10 am to 7 pm.",
       "durationMin": 90,
       "durationMax": 120,
       "text": "Receive this treatment at home, from",
@@ -890,6 +899,9 @@
     "shiatsu": {
       "title": "An energetic balancing treatment",
       "hero": "Shiatsu uses pressure on meridians to harmonize internal energies.",
+      "details1": "Originating from Japan, shiatsu is a manual therapy that uses rhythmic thumb, palm, and sometimes elbow pressure along the body's energy meridians. Unlike conventional massage, it is performed fully clothed, lying on a futon on the floor, allowing the practitioner to work with gravity and deliver deeper, more precise pressure.",
+      "details2": "Shiatsu is recognized for its benefits on stress, sleep disorders, muscle and joint pain, headaches, and digestive imbalances. By restoring the free flow of vital energy (Ki), it helps the body regain its natural balance and stimulates its self-healing capacity.",
+      "details3": "Each shiatsu session in Halle begins with an energy assessment to identify areas of blockage. The treatment is then tailored to your specific needs. A cycle of three to five sessions spaced two to three weeks apart is recommended for lasting rebalancing, followed by monthly maintenance to sustain the benefits.",
       "durationMin": 60,
       "durationMax": 90,
       "text": "Regain your inner balance from",

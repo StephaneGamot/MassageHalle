@@ -175,6 +175,16 @@ export default function HomepageJsonLd({ locale }) {
     "@type": "HealthAndBeautyBusiness",
     "@id": `${baseUrl}/#localbusiness`,
     name: "La Voie du Bien-Être",
+    url: `${baseUrl}/${locale || "fr"}`,
+    telephone: "+32477131993",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Octave de Kerchove d'Exaerdestraat 193",
+      addressLocality: "Halle",
+      postalCode: "1501",
+      addressRegion: "Vlaams-Brabant",
+      addressCountry: "BE",
+    },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: "4.9",
