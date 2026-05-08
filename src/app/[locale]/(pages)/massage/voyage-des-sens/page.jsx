@@ -110,7 +110,7 @@ export default async function Page(props) {
         type="HealthAndBeautyBusiness"
         id={`${baseUrl}/${currentLocale}#local-business`}
         name="La Voie du Bien-Être"
-        description="Massages, shiatsu, reiki et soins énergétiques à Halle – un espace de détente et d’harmonie pour le corps et l’esprit."
+        description="Massages relaxants, bien-être, shiatsu et soins énergétiques à Halle – Bruxelles."
         url={`${baseUrl}/${currentLocale}`}
         telephone="+32477131993"
         address={{
@@ -151,17 +151,15 @@ export default async function Page(props) {
       <MassageServiceJSONLD slug="voyage" locale={currentLocale} />
       <ServiceBreadcrumbJsonLd locale={currentLocale} serviceName="Massage Voyage des Sens" serviceUrl={`${baseUrl}/${currentLocale}/massage/voyage-des-sens`} />
 
-      <main>
-        <HeroMassage variant="voyage" />
-        <WhyThisCare title="voyage" />
-        <Benefits ids={[31, 63, 50, 64]} title="voyage" />
-        <TreatmentDescription variant="voyage" />
-        <Gallery ids={[6, 8, 9]} />
-        <CtaSectionMassagePage variant="voyage" />
-        <ServiceFaq variant="voyage" />
-        <RelatedServices variant="voyage" />
-        <Testimonials ids={[6, 13, 19, 29, 41]} />
-      </main>
+      <HeroMassage variant="voyage" />
+      <WhyThisCare title="voyage" />
+      <Benefits ids={[31, 63, 50, 64]} title="voyage" />
+      <TreatmentDescription variant="voyage" />
+      <Gallery ids={[6, 8, 9]} />
+      <CtaSectionMassagePage variant="voyage" />
+      <ServiceFaq variant="voyage" />
+      <RelatedServices variant="voyage" />
+      <Testimonials ids={[6, 13, 19, 29, 41]} />
     </>
   );
 }

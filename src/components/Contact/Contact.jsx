@@ -42,7 +42,7 @@ export default function Contact() {
           <dl className="mt-10 space-y-5">
             <div className="flex items-start gap-x-4">
               <dt className="flex-none">
-                <span className="sr-only">Adresse</span>
+                <span className="sr-only">{t("addressLabel") || "Adresse"}</span>
                 <span className="flex h-11 w-11 items-center justify-center rounded-full bg-[#F3EDE4]">
                   <BuildingOffice2Icon aria-hidden="true" className="h-5 w-5 text-[#B8976A]" />
                 </span>
@@ -55,7 +55,7 @@ export default function Contact() {
 
             <div className="flex items-start gap-x-4">
               <dt className="flex-none">
-                <span className="sr-only">Téléphone</span>
+                <span className="sr-only">{t("phoneLabel") || "Téléphone"}</span>
                 <span className="flex h-11 w-11 items-center justify-center rounded-full bg-[#F3EDE4]">
                   <PhoneIcon aria-hidden="true" className="h-5 w-5 text-[#B8976A]" />
                 </span>
@@ -68,14 +68,14 @@ export default function Contact() {
                   04 77 13 19 93
                 </Link>
                 <p className="mt-0.5 text-xs text-[#6B6862]">
-                  Si je suis en séance, laissez un message ou un SMS.
+                  {t("phoneHint")}
                 </p>
               </dd>
             </div>
 
             <div className="flex items-start gap-x-4">
               <dt className="flex-none">
-                <span className="sr-only">Email</span>
+                <span className="sr-only">{t("emailLabel") || "Email"}</span>
                 <span className="flex h-11 w-11 items-center justify-center rounded-full bg-[#F3EDE4]">
                   <EnvelopeIcon aria-hidden="true" className="h-5 w-5 text-[#B8976A]" />
                 </span>

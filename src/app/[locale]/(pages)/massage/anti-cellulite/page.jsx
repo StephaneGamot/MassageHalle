@@ -109,7 +109,7 @@ export default async function Page(props) {
         type="HealthAndBeautyBusiness"
         id={`${baseUrl}/${currentLocale}#local-business`}
         name="La Voie du Bien-Être"
-        description="Massages bien-être, shiatsu, reiki et soins thérapeutiques à Hal (Halle)."
+        description="Massages relaxants, bien-être, shiatsu et soins énergétiques à Halle – Bruxelles."
         url={`${baseUrl}/${currentLocale}`}
         telephone="+32477131993"
         address={{
@@ -150,17 +150,15 @@ export default async function Page(props) {
       <MassageServiceJSONLD slug="antiCellulite" locale={currentLocale} />
       <ServiceBreadcrumbJsonLd locale={currentLocale} serviceName="Massage anti-cellulite" serviceUrl={`${baseUrl}/${currentLocale}/massage/anti-cellulite`} />
 
-      <main>
-        <HeroMassage variant="anticellulite" />
-        <WhyThisCare title="anticellulite" />
-        <Benefits ids={[15, 43, 55, 56]} title="anticellulite" />
-        <TreatmentDescription variant="anticellulite" />
-        <Gallery ids={[2, 5, 6]} />
-        <CtaSectionMassagePage variant="anticellulite" />
-        <ServiceFaq variant="anticellulite" />
-        <RelatedServices variant="anticellulite" />
-        <Testimonials ids={[48, 49, 36, 19, 16]} />
-      </main>
+      <HeroMassage variant="anticellulite" />
+      <WhyThisCare title="anticellulite" />
+      <Benefits ids={[15, 43, 55, 56]} title="anticellulite" />
+      <TreatmentDescription variant="anticellulite" />
+      <Gallery ids={[2, 5, 6]} />
+      <CtaSectionMassagePage variant="anticellulite" />
+      <ServiceFaq variant="anticellulite" />
+      <RelatedServices variant="anticellulite" />
+      <Testimonials ids={[48, 49, 36, 19, 16]} />
     </>
   );
 }

@@ -17,7 +17,10 @@
     "amma": "Amma",
     "contact": "Contact",
     "faq": "FAQ",
-    "home": "Home"
+    "home": "Home",
+    "homeLabel": "Home",
+    "menuOpen": "Menu openen",
+    "menuClose": "Menu sluiten"
   },
   "footer": {
     "informations": "Informatie",
@@ -25,7 +28,9 @@
     "rights": "Alle rechten voorbehouden",
     "contact": "Contact & openingsuren",
     "address": "Halle (Buizingen), Brussel en omgeving",
-    "opening": "Op afspraak van maandag tot zaterdag, 10u–19u"
+    "opening": "Op afspraak van maandag tot zaterdag, 10u–19u",
+    "followUs": "Volg ons",
+    "seoCities": "Wellnessmassages in Halle · Brussel · Ukkel · Waterloo · Eigenbrakel · Dilbeek · Tubize · Sint-Genesius-Rode · Edingen · Leerbeek — In de praktijk of aan huis"
   },
   "hero": {
     "srOnly": "Wellnessmassage in Halle — ontspannende behandelingen, shiatsu en reiki | La Voie du Bien-Être",
@@ -97,7 +102,11 @@
       "phone": "Telefoonnummer",
       "message": "Bericht",
       "submit": "Verzenden"
-    }
+    },
+    "phoneHint": "Als ik in een sessie ben, laat dan een bericht of sms achter.",
+    "addressLabel": "Adres",
+    "phoneLabel": "Telefoon",
+    "emailLabel": "E-mail"
   },
   "metadata": {
     "title": "Massage & therapeutische zorg in Halle - Brussel",
@@ -453,7 +462,7 @@
         "id": 42,
         "body": "Een intuïtieve, vloeiende en werkelijk helende aanraking. Ik raad het van harte aan.",
         "alt": "beeld vastgelegd na ontspannende behandeling – Marine Akil",
-        "author": "Marine Akile"
+        "author": "Marine Akil"
       },
       {
         "id": 43,
@@ -605,6 +614,7 @@
   "hero-massage": {
     "cta": "Boek deze behandeling →",
     "ctaWhatsapp": "Boek deze behandeling",
+    "breadcrumbLabel": "Kruimelpad",
     "massage": {
       "title": "Laat stress vervagen… met een ontspannende massage",
       "text1": "Waar rust en zachtheid elkaar ontmoeten. Geef je lichaam wat het verdient: tederheid, aandacht en diepe ontspanning.",
@@ -1021,46 +1031,41 @@
       },
       {
         "id": 5,
-        "question": "Wat zijn de voordelen van een ontspannende massage?",
-        "answer": "Het helpt spanningen los te laten, de circulatie te verbeteren, het zenuwstelsel te kalmeren en de slaap te bevorderen."
-      },
-      {
-        "id": 6,
         "question": "Kan ik een massage cadeau doen?",
         "answer": "Absoluut! We bieden gepersonaliseerde cadeaubonnen aan."
       },
       {
-        "id": 7,
+        "id": 6,
         "question": "Kan ik vragen om een specifieke zone te behandelen?",
         "answer": "Natuurlijk, elke sessie wordt gepersonaliseerd. Geef gerust je spanningszones aan."
       },
       {
-        "id": 8,
+        "id": 7,
         "question": "Wat zijn de effecten van Reiki?",
         "answer": "Reiki bevordert ontspanning, emotioneel evenwicht en helpt energetische blokkades op te lossen."
       },
       {
-        "id": 9,
+        "id": 8,
         "question": "Moet ik nuchter komen?",
         "answer": "Vermijd een zware maaltijd voor de sessie, maar kom ook niet met een lege maag."
       },
       {
-        "id": 10,
+        "id": 9,
         "question": "Helpt Reiki tegen stress?",
         "answer": "Ja, Reiki kalmeert de geest, verlicht emotionele spanningen en brengt diepe ontspanning."
       },
       {
-        "id": 11,
+        "id": 10,
         "question": "Hoe lang duurt een sessie voetreflexologie?",
         "answer": "Een sessie duurt meestal tussen de 45 minuten en 1 uur."
       },
       {
-        "id": 12,
+        "id": 11,
         "question": "Wordt Shiatsu met of zonder olie gedaan?",
         "answer": "Shiatsu wordt gekleed uitgevoerd, zonder olie, via drukpunten."
       },
       {
-        "id": 13,
+        "id": 12,
         "question": "Kan ik een massage krijgen tijdens de zwangerschap?",
         "answer": "Ja, sommige massages zijn geschikt vanaf het tweede trimester."
       },
@@ -1333,5 +1338,14 @@
       { "q": "Is craniosacrale therapie geschikt voor kinderen?", "a": "Ja, het is een zeer zachte benadering geschikt voor baby's en volwassenen. Het is bijzonder aanbevolen voor baby's na een moeilijke bevalling." },
       { "q": "Hoeveel sessies worden aanbevolen?", "a": "Over het algemeen tonen 3 tot 5 sessies met 2 tot 3 weken tussentijd significante verbeteringen. Iedereen reageert anders." }
     ]
+  },
+  "notFound": {
+    "title": "Pagina niet gevonden",
+    "text": "Sorry, de pagina die u zoekt bestaat niet.",
+    "link": "Terug naar de startpagina"
+  },
+  "errorPage": {
+    "title": "Er is een fout opgetreden",
+    "retry": "Opnieuw proberen"
   }
 }

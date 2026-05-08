@@ -113,7 +113,7 @@ export default async function Page(props) {
         type="HealthAndBeautyBusiness"
         id={localBusinessId}
         name="La Voie du Bien-Être"
-        description="Massages, shiatsu, reiki et soins énergétiques à Halle – un espace de détente et d’harmonie pour le corps et l’esprit."
+        description="Massages relaxants, bien-être, shiatsu et soins énergétiques à Halle – Bruxelles."
         url={`${baseUrl}/${currentLocale}`}
         telephone="+32477131993"
         address={{
@@ -153,18 +153,16 @@ export default async function Page(props) {
 
       {/* JSON-LD du service massage a domicile */}
       <MassageServiceJSONLD slug="domicile" locale={currentLocale} />
-      <ServiceBreadcrumbJsonLd locale={currentLocale} serviceName="Massage a domicile" serviceUrl={`${baseUrl}/${currentLocale}/massage/a-domicile`} />
-      <main>
-        <HeroMassage variant="domicile" />
-        <WhyThisCare title="domicile" />
-        <Benefits ids={[1, 19, 35, 25]} title="domicile" />
-        <TreatmentDescription variant="domicile" />
-        <Gallery ids={[7, 12, 16]} />
-        <CtaSectionMassagePage variant="domicile" />
-        <ServiceFaq variant="domicile" />
-        <RelatedServices variant="domicile" />
-        <Testimonials ids={[9, 17, 25, 33, 42]} />
-      </main>
+      <ServiceBreadcrumbJsonLd locale={currentLocale} serviceName="Massage à domicile" serviceUrl={`${baseUrl}/${currentLocale}/massage/a-domicile`} />
+      <HeroMassage variant="domicile" />
+      <WhyThisCare title="domicile" />
+      <Benefits ids={[1, 19, 35, 25]} title="domicile" />
+      <TreatmentDescription variant="domicile" />
+      <Gallery ids={[7, 12, 16]} />
+      <CtaSectionMassagePage variant="domicile" />
+      <ServiceFaq variant="domicile" />
+      <RelatedServices variant="domicile" />
+      <Testimonials ids={[9, 17, 25, 33, 42]} />
     </>
   );
 }

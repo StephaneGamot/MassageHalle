@@ -82,6 +82,7 @@ export async function generateMetadata({ params }) {
         en: "Shiatsu treatment to relieve tension and boost vital energy flow.",
         nl: "Shiatsu-behandeling om spanningen te verlichten en de energiestroom te stimuleren.",
       }[currentLocale],
+      images: [`${baseUrl}/Images/hero/shiatsu-massage-halle-bruxelles.webp`],
     },
     robots: {
       index: true,
@@ -109,7 +110,7 @@ export default async function Page(props) {
         type="HealthAndBeautyBusiness"
         id={`${baseUrl}/${currentLocale}#local-business`}
         name="La Voie du Bien-Être"
-        description="Massages bien-être, shiatsu, reiki et soins thérapeutiques à Hal (Halle)."
+        description="Massages relaxants, bien-être, shiatsu et soins énergétiques à Halle – Bruxelles."
         url={`${baseUrl}/${currentLocale}`}
         telephone="+32477131993"
         address={{
@@ -155,17 +156,15 @@ export default async function Page(props) {
         serviceUrl={`${baseUrl}/${currentLocale}/shiatsu`}
       />
 
-      <main>
-        <HeroMassage variant="shiatsu" />
-        <WhyThisCare title="shiatsu" />
-        <Benefits ids={[17, 18, 60, 11]} title="shiatsu" />
-        <TreatmentDescription variant="shiatsu" />
-        <Gallery ids={[29, 27, 18]} />
-        <CtaSectionMassagePage variant="shiatsu" />
-        <ServiceFaq variant="shiatsu" />
-        <RelatedServices variant="shiatsu" />
-        <Testimonials ids={[12, 18, 27, 34, 42, 46]} />
-      </main>
+      <HeroMassage variant="shiatsu" />
+      <WhyThisCare title="shiatsu" />
+      <Benefits ids={[17, 18, 60, 11]} title="shiatsu" />
+      <TreatmentDescription variant="shiatsu" />
+      <Gallery ids={[29, 27, 18]} />
+      <CtaSectionMassagePage variant="shiatsu" />
+      <ServiceFaq variant="shiatsu" />
+      <RelatedServices variant="shiatsu" />
+      <Testimonials ids={[12, 18, 27, 34, 42, 46]} />
     </>
   );
 }

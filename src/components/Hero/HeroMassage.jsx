@@ -56,7 +56,7 @@ export default function HeroMassage({ variant, waMessage }) {
         <div className="mx-auto max-w-3xl text-center">
 
           {/* Breadcrumb */}
-          <nav aria-label="Fil d'Ariane" className="breadcrumb justify-center mb-8">
+          <nav aria-label={globalT("breadcrumbLabel") || "Fil d'Ariane"} className="breadcrumb justify-center mb-8">
             <Link href={`/${locale}`}>{navT("home") || "Accueil"}</Link>
             <span className="separator" aria-hidden="true">/</span>
             <span className="current">{t("title")}</span>

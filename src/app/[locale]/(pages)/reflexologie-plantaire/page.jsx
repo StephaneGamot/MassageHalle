@@ -82,6 +82,7 @@ export async function generateMetadata({ params }) {
         en: "Relieve your body through your feet. An ancient practice with lasting benefits.",
         nl: "Verlicht uw lichaam via de voeten. Een eeuwenoude praktijk met duurzame voordelen.",
       }[currentLocale],
+      images: [`${baseUrl}/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp`],
     },
     robots: {
       index: true,
@@ -109,7 +110,7 @@ export default async function Page(props) {
         type="HealthAndBeautyBusiness"
         id={`${baseUrl}/${currentLocale}#local-business`}
         name="La Voie du Bien-Être"
-        description="Massages bien-être, shiatsu, reiki et soins thérapeutiques à Hal (Halle)."
+        description="Massages relaxants, bien-être, shiatsu et soins énergétiques à Halle – Bruxelles."
         url={`${baseUrl}/${currentLocale}`}
         telephone="+32477131993"
         address={{
@@ -155,17 +156,15 @@ export default async function Page(props) {
         serviceUrl={`${baseUrl}/${currentLocale}/reflexologie-plantaire`}
       />
 
-      <main>
-        <HeroMassage variant="reflexo" />
-        <WhyThisCare title="reflexo" />
-        <Benefits ids={[48, 8, 16, 14]} title="reflexo" />
-        <TreatmentDescription variant="reflexo" />
-        <Gallery ids={[30, 10, 15]} />
-        <CtaSectionMassagePage variant="reflexo" />
-        <ServiceFaq variant="reflexo" />
-        <RelatedServices variant="reflexo" />
-        <Testimonials ids={[8, 16, 25, 36, 44]} />
-      </main>
+      <HeroMassage variant="reflexo" />
+      <WhyThisCare title="reflexo" />
+      <Benefits ids={[48, 8, 16, 14]} title="reflexo" />
+      <TreatmentDescription variant="reflexo" />
+      <Gallery ids={[30, 10, 15]} />
+      <CtaSectionMassagePage variant="reflexo" />
+      <ServiceFaq variant="reflexo" />
+      <RelatedServices variant="reflexo" />
+      <Testimonials ids={[8, 16, 25, 36, 44]} />
     </>
   );
 }

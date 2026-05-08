@@ -44,10 +44,6 @@ export default async function LocaleLayout(props) {
     <html lang={safeLocale}>
       <head>
         <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, user-scalable=yes"
-        />
-        <meta
           name="theme-color"
           content="#1B3A2D"
           media="(prefers-color-scheme: dark)"
@@ -57,15 +53,10 @@ export default async function LocaleLayout(props) {
           content="#FAFAF7"
           media="(prefers-color-scheme: light)"
         />
-        <meta name="robots" content="index, follow" />
         <meta
-          name="googlebot"
-          content="index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+          name="google-site-verification"
+          content="jFj4UAxD0SlvJiwnTkNI4_d0LwkiAHmWh2r7L0JayRQ"
         />
-      <meta
-  name="google-site-verification"
-  content="jFj4UAxD0SlvJiwnTkNI4_d0LwkiAHmWh2r7L0JayRQ"
-/>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />

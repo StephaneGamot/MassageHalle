@@ -82,6 +82,9 @@ export async function generateMetadata({ params }) {
         en: "Relaxing massage in Halle: release stress and tension with a gentle, soothing treatment. Book your session today!",
         nl: "Ontspanningsmassage in Halle: laat stress en spanning los met een zachte, omhullende behandeling. Boek nu!",
       }[currentLocale],
+      images: [
+        `${baseUrl}/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp`,
+      ],
     },
     robots: {
       index: true,
@@ -111,7 +114,7 @@ export default async function Page(props) {
         type="HealthAndBeautyBusiness"
         id={localBusinessId}
         name="La Voie du Bien-Être"
-        description="Massages, shiatsu, reiki et soins énergétiques à Halle – un espace de détente et d’harmonie pour le corps et l’esprit."
+        description="Massages relaxants, bien-être, shiatsu et soins énergétiques à Halle – Bruxelles."
         url={`${baseUrl}/${currentLocale}`}
         telephone="+32477131993"
         address={{
@@ -159,17 +162,15 @@ export default async function Page(props) {
         serviceUrl={`${baseUrl}/${currentLocale}/massage/relaxant`}
       />
 
-      <main>
-        <HeroMassage variant="massage" />
-        <Benefits ids={[1, 6, 19, 4]} title="relaxant" />
-        <WhyThisCare ids={[2, 6, 13, 21, 31]} title="relaxant" />
-        <TreatmentDescription variant="relaxant" />
-        <Gallery ids={[1, 2, 3]} />
-        <CtaSectionMassagePage variant="relaxant" />
-        <ServiceFaq variant="relaxant" />
-        <RelatedServices variant="massage" />
-        <Testimonials ids={[1, 4, 11, 23, 35]} />
-      </main>
+      <HeroMassage variant="massage" />
+      <Benefits ids={[1, 6, 19, 4]} title="relaxant" />
+      <WhyThisCare ids={[2, 6, 13, 21, 31]} title="relaxant" />
+      <TreatmentDescription variant="relaxant" />
+      <Gallery ids={[1, 2, 3]} />
+      <CtaSectionMassagePage variant="relaxant" />
+      <ServiceFaq variant="relaxant" />
+      <RelatedServices variant="massage" />
+      <Testimonials ids={[1, 4, 11, 23, 35]} />
     </>
   );
 }

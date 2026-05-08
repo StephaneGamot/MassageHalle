@@ -5,35 +5,35 @@
 const heroImagesData = {
   massage: {
     alt: {
-      fr: "Un massage relaxant doux et enveloppant a Halle",
+      fr: "Un massage relaxant doux et enveloppant à Halle",
       en: "A gentle and soothing relaxing massage in Halle",
       nl: "Een zachte en ontspannende massage in Halle",
     },
   },
   sportif: {
     alt: {
-      fr: "Un massage sportif en profondeur pour une recuperation optimale",
+      fr: "Un massage sportif en profondeur pour une récupération optimale",
       en: "A deep sports massage for optimal recovery",
       nl: "Een diepe sportmassage voor optimaal herstel",
     },
   },
   domicile: {
     alt: {
-      fr: "Un massage bien-etre a domicile a Bruxelles",
+      fr: "Un massage bien-être à domicile à Bruxelles",
       en: "A wellness massage at home in Brussels",
       nl: "Een welzijnsmassage aan huis in Brussel",
     },
   },
   tao: {
     alt: {
-      fr: "Un massage tao pour une reconnexion energetique profonde",
+      fr: "Un massage tao pour une reconnexion énergétique profonde",
       en: "A Tao massage for deep energetic reconnection",
       nl: "Een Tao-massage voor diepe energetische herverbinding",
     },
   },
   dos: {
     alt: {
-      fr: "Un massage cible pour soulager les tensions du dos",
+      fr: "Un massage ciblé pour soulager les tensions du dos",
       en: "A targeted massage to relieve back tension",
       nl: "Een gerichte massage om rugspanning te verlichten",
     },
@@ -47,42 +47,42 @@ const heroImagesData = {
   },
   deeptissue: {
     alt: {
-      fr: "Un deep tissue pour liberer les tensions profondes",
+      fr: "Un deep tissue pour libérer les tensions profondes",
       en: "A deep tissue massage to release deep tension",
       nl: "Een deep tissue massage om diepe spanningen los te laten",
     },
   },
   shiatsu: {
     alt: {
-      fr: "Une seance de shiatsu therapeutique a Halle",
+      fr: "Une séance de shiatsu thérapeutique à Halle",
       en: "A therapeutic Shiatsu session in Halle",
       nl: "Een therapeutische Shiatsu sessie in Halle",
     },
   },
   reiki: {
     alt: {
-      fr: "Un soin Reiki pour harmoniser vos energies",
+      fr: "Un soin Reiki pour harmoniser vos énergies",
       en: "A Reiki treatment to harmonize your energy",
       nl: "Een Reiki behandeling om je energie te harmoniseren",
     },
   },
   reflexo: {
     alt: {
-      fr: "Une reflexologie plantaire pour relancer votre energie",
+      fr: "Une réflexologie plantaire pour relancer votre énergie",
       en: "Foot reflexology to boost your energy",
       nl: "Voetreflexologie om je energie te stimuleren",
     },
   },
   cst: {
     alt: {
-      fr: "Une therapie cranio-sacree pour un apaisement profond",
+      fr: "Une thérapie cranio-sacrée pour un apaisement profond",
       en: "Craniosacral therapy for deep soothing",
       nl: "Craniosacrale therapie voor diepe ontspanning",
     },
   },
   voyage: {
     alt: {
-      fr: "Un voyage des sens pour une detente absolue",
+      fr: "Un voyage des sens pour une détente absolue",
       en: "A sensory journey for absolute relaxation",
       nl: "Een zintuiglijke reis voor totale ontspanning",
     },

@@ -82,6 +82,7 @@ export async function generateMetadata({ params }) {
         en: "Soothing of the nervous system, deep release. A CST session to refocus.",
         nl: "Kalmering van het zenuwstelsel, diepe bevrijding. Een CST-sessie om opnieuw in balans te komen.",
       }[currentLocale],
+      images: [`${baseUrl}/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp`],
     },
     robots: {
       index: true,
@@ -109,7 +110,7 @@ export default async function Page(props) {
         type="HealthAndBeautyBusiness"
         id={`${baseUrl}/${currentLocale}#local-business`}
         name="La Voie du Bien-Être"
-        description="Massages bien-être, shiatsu, reiki et soins thérapeutiques à Hal (Halle)."
+        description="Massages relaxants, bien-être, shiatsu et soins énergétiques à Halle – Bruxelles."
         url={`${baseUrl}/${currentLocale}`}
         telephone="+32477131993"
         address={{
@@ -155,17 +156,15 @@ export default async function Page(props) {
         serviceUrl={`${baseUrl}/${currentLocale}/therapie-cranio-sacree`}
       />
 
-      <main>
-        <HeroMassage variant="cst" />
-        <WhyThisCare title="cst" />
-        <Benefits ids={[62, 47, 63, 64]} title="cst" />
-        <TreatmentDescription variant="cst" />
-        <Gallery ids={[22, 31, 32]} />
-        <CtaSectionMassagePage variant="cst" />
-        <ServiceFaq variant="cst" />
-        <RelatedServices variant="cst" />
-        <Testimonials ids={[11, 19, 24, 13, 33, 47]} />
-      </main>
+      <HeroMassage variant="cst" />
+      <WhyThisCare title="cst" />
+      <Benefits ids={[62, 47, 63, 64]} title="cst" />
+      <TreatmentDescription variant="cst" />
+      <Gallery ids={[22, 31, 32]} />
+      <CtaSectionMassagePage variant="cst" />
+      <ServiceFaq variant="cst" />
+      <RelatedServices variant="cst" />
+      <Testimonials ids={[11, 19, 24, 13, 33, 47]} />
     </>
   );
 }

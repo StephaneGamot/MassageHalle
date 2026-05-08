@@ -17,7 +17,10 @@
     "amma": "Amma",
     "contact": "Contact",
     "faq": "FAQ",
-    "home": "Home"
+    "home": "Home",
+    "homeLabel": "Home",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu"
   },
   "footer": {
     "informations": "Information",
@@ -25,7 +28,9 @@
     "rights": "All rights reserved",
     "contact": "Contact & hours",
     "address": "Halle (Buizingen), Brussels and nearby",
-    "opening": "By appointment from Monday to Saturday, 10 am–7pm"
+    "opening": "By appointment from Monday to Saturday, 10 am–7pm",
+    "followUs": "Follow us",
+    "seoCities": "Wellness massages in Halle · Brussels · Uccle · Waterloo · Braine-l'Alleud · Dilbeek · Tubize · Rhode-Saint-Genèse · Enghien · Leerbeek — In-studio or at home"
   },
   "hero": {
     "srOnly": "Wellness massage in Halle — relaxing treatments, shiatsu and reiki | La Voie du Bien-Être",
@@ -97,7 +102,11 @@
       "phone": "Phone Number",
       "message": "Message",
       "submit": "Send"
-    }
+    },
+    "phoneHint": "If I'm in a session, please leave a message or text.",
+    "addressLabel": "Address",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email"
   },
   "metadata": {
     "title": "Massage & therapeutic care in Halle - Brussels",
@@ -593,6 +602,7 @@
   "hero-massage": {
     "cta": "Book this care →",
     "ctaWhatsapp": "Book this treatment",
+    "breadcrumbLabel": "Breadcrumb",
     "massage": {
       "title": "Let stress fade away… with a relaxing massage",
       "text1": "Where calm meets kindness. Give your body what it deserves: gentleness, care, and deep release.",
@@ -1006,31 +1016,26 @@
         },
         {
           "id": 5,
-          "question": "What are the effects of a relaxing massage?",
-          "answer": "It relieves tension, improves circulation, soothes the nervous system, and promotes sleep."
-        },
-        {
-          "id": 6,
           "question": "Can I give a massage as a gift?",
           "answer": "Absolutely! We offer personalized gift vouchers."
         },
         {
-          "id": 7,
+          "id": 6,
           "question": "Can I ask to focus on a specific area?",
           "answer": "Yes, each session is personalized. Feel free to mention any specific areas of tension or need."
         },
         {
-          "id": 8,
-          "question": "What are the benefits of Reiki?",
+          "id": 7,
+          "question": "What are the effects of Reiki?",
           "answer": "Reiki promotes relaxation, emotional balance, and helps release energetic blockages."
         },
         {
-          "id": 9,
+          "id": 8,
           "question": "Should I come on an empty stomach?",
           "answer": "Avoid a heavy meal before your session, but don't come completely hungry either."
         },
         {
-          "id": 10,
+          "id": 9,
           "question": "Is Reiki effective against stress?",
           "answer": "Yes, Reiki calms the mind, releases emotional tension, and induces deep relaxation."
         },
@@ -1318,5 +1323,14 @@
       { "q": "Is craniosacral therapy suitable for children?", "a": "Yes, it is a very gentle approach suitable for infants and adults alike. It is particularly recommended for babies after a difficult birth." },
       { "q": "How many sessions are recommended?", "a": "Generally, 3 to 5 sessions spaced 2 to 3 weeks apart show significant improvements. Each person responds differently." }
     ]
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "Sorry, the page you're looking for doesn't exist.",
+    "link": "Back to home"
+  },
+  "errorPage": {
+    "title": "An error occurred",
+    "retry": "Try again"
   }
 }

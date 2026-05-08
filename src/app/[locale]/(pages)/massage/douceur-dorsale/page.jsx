@@ -112,7 +112,7 @@ export default async function Page(props) {
         type="HealthAndBeautyBusiness"
         id={localBusinessId}
         name="La Voie du Bien-Être"
-        description="Massages, shiatsu, reiki et soins énergétiques à Halle – un espace de détente et d’harmonie pour le corps et l’esprit."
+        description="Massages relaxants, bien-être, shiatsu et soins énergétiques à Halle – Bruxelles."
         url={`${baseUrl}/${currentLocale}`}
         telephone="+32477131993"
         address={{
@@ -160,17 +160,15 @@ export default async function Page(props) {
         serviceUrl={`${baseUrl}/${currentLocale}/massage/douceur-dorsale`}
       />
 
-      <main>
-        <HeroMassage variant="dos" />
-        <WhyThisCare title="dos" />
-        <Benefits ids={[6, 54, 35, 52]} title="dos" />
-        <TreatmentDescription variant="dos" />
-        <Gallery ids={[25, 8, 9]} />
-        <CtaSectionMassagePage variant="dos" />
-        <ServiceFaq variant="dos" />
-        <RelatedServices variant="dos" />
-        <Testimonials ids={[5, 14, 18, 22, 29]} />
-      </main>
+      <HeroMassage variant="dos" />
+      <WhyThisCare title="dos" />
+      <Benefits ids={[6, 54, 35, 52]} title="dos" />
+      <TreatmentDescription variant="dos" />
+      <Gallery ids={[25, 8, 9]} />
+      <CtaSectionMassagePage variant="dos" />
+      <ServiceFaq variant="dos" />
+      <RelatedServices variant="dos" />
+      <Testimonials ids={[5, 14, 18, 22, 29]} />
     </>
   );
 }

@@ -5,7 +5,6 @@ import Contact from "@/components/Contact/Contact";
 import Hero from "@/components/Hero/Hero";
 import MassageCardContainer from "@/components/Cards/MassageCardContainer";
 import Cta from "@/components/Cta/Cta";
-import { LocalBusinessJsonLd } from "next-seo";
 import HomepageJsonLd from "@/components/Metadata/HomepageJsonLd";
 import GoogleMap from "@/components/GoogleMap";
 // import EndOfYearOfferModal from "@/components/Modals/EndOfYearOfferModal";
@@ -123,71 +122,13 @@ export default async function HomePage(props) {
 
   return (
     <>
-      <LocalBusinessJsonLd
-        type="HealthAndBeautyBusiness"
-        id={`${url}#local-business`}
-        name="La Voie du Bien-Être"
-        description="Massages bien-être, shiatsu, reiki et soins thérapeutiques à Hal (Halle) – un espace de détente et d’harmonie pour le corps et l’esprit."
-        url={url}
-        telephone="+32477131993"
-        address={{
-          streetAddress: "Octave de Kerchove d’Exaerdestraat 193",
-          addressLocality: "Halle",
-          postalCode: "1501",
-          addressCountry: "BE",
-        }}
-        geo={{
-          latitude: 50.7464695,
-          longitude: 4.2563906,
-        }}
-        priceRange="€€"
-        image={[
-          "https://lavoiedubienetre.be/Images/OpenGraph/accueil-massage-halle.webp",
-        ]}
-        sameAs={[
-          "https://www.facebook.com/lavoiedubienetremassageshiatsureikireflexologie/",
-        ]}
-        areaServed={[
-          { "@type": "City", name: "Halle" },
-          { "@type": "City", name: "Bruxelles" },
-          { "@type": "City", name: "Waterloo" },
-          { "@type": "City", name: "Uccle" },
-          { "@type": "City", name: "Braine-l'Alleud" },
-          { "@type": "City", name: "Dilbeek" },
-          { "@type": "City", name: "Tubize" },
-          { "@type": "City", name: "Rhode-Saint-Genèse" },
-          { "@type": "City", name: "Enghien" },
-          { "@type": "City", name: "Leerbeek" },
-        ]}
-        rating={{
-          ratingValue: "4.9",
-          ratingCount: "50",
-        }}
-        openingHours={[
-          {
-            opens: "10:00",
-            closes: "19:00",
-            dayOfWeek: [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday",
-              "Saturday",
-            ],
-          },
-        ]}
-      />
       <HomepageJsonLd locale={locale} />
-   {/* <EndOfYearOfferModal /> */}
-      <main>
-        <Hero />
-        <MassageCardContainer />
-        <Cta />
-        <Testimonials ids={[1, 4, 7, 23, 35]} />
-         <Contact />
-        <GoogleMap />
-      </main>
+      <Hero />
+      <MassageCardContainer />
+      <Cta />
+      <Testimonials ids={[1, 4, 7, 23, 35]} />
+      <Contact />
+      <GoogleMap />
     </>
   );
 }

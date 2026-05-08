@@ -4,7 +4,7 @@ export default function LocalBusinessJSONLD({ locale }) {
   const translations = {
     fr: {
       description:
-        "Massages relaxant, bien-être, shiatsu et soins énergétiques à Halle – Bruxelles.",
+        "Massages relaxants, bien-être, shiatsu et soins énergétiques à Halle – Bruxelles.",
       name: "La Voie du Bien-Être",
     },
     en: {

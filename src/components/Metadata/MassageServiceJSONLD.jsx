@@ -310,7 +310,7 @@ export default function MassageServiceJSONLD({ slug, locale = "fr" }) {
       name: "La Voie du Bien-Être",
       url: `${baseUrl}/${currentLocale}`,
       telephone: "+32477131993",
-      priceRange: "$$",
+      priceRange: "€€",
       address: {
         "@type": "PostalAddress",
         streetAddress: "Octave de Kerchove d'Exaerdestraat 193",

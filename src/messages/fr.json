@@ -17,7 +17,10 @@
     "amma": "Amma",
     "contact": "Contact",
     "faq": "FAQ",
-    "home": "Accueil"
+    "home": "Accueil",
+    "homeLabel": "Accueil",
+    "menuOpen": "Ouvrir le menu",
+    "menuClose": "Fermer le menu"
   },
   "footer": {
     "informations": "Informations",
@@ -25,7 +28,9 @@
     "rights": "Tous droits réservés",
     "contact": "Contact & horaires",
     "address": "Hal (Buizingen), Bruxelles et alentours",
-    "opening": "Sur rendez-vous du lundi au samedi, 10h–19h"
+    "opening": "Sur rendez-vous du lundi au samedi, 10h–19h",
+    "followUs": "Suivez-nous",
+    "seoCities": "Massages bien-être à Hal (Halle) · Bruxelles · Uccle · Waterloo · Braine-l'Alleud · Dilbeek · Tubize · Rhode-Saint-Genèse · Enghien · Leerbeek — En cabinet ou à domicile"
   },
   "hero": {
     "srOnly": "Massage bien-être à Hal — soins relaxants, shiatsu et reiki | La Voie du Bien-Être",
@@ -97,7 +102,11 @@
       "phone": "N° GSM",
       "message": "Message",
       "submit": "Envoyer"
-    }
+    },
+    "phoneHint": "Si je suis en séance, laissez un message ou un SMS.",
+    "addressLabel": "Adresse",
+    "phoneLabel": "Téléphone",
+    "emailLabel": "Email"
   },
   "metadata": {
     "home": {
@@ -308,7 +317,7 @@
         "id": 16,
         "body": "Un accueil chaleureux et un soin tout en finesse.",
         "alt": "visage illuminé de détente de Camille vandevivere",
-        "author": "Camille vandevivere"
+        "author": "Camille Vandevivere"
       },
       {
         "id": 17,
@@ -326,7 +335,7 @@
         "id": 19,
         "body": "Un vrai cocon de bienveillance et de douceur, Un bijou caché à Halle",
         "alt": "lueur de bien-être sur le visage de Amandine paccini",
-        "author": "Amandine paccini"
+        "author": "Amandine Paccini"
       },
       {
         "id": 20,
@@ -338,7 +347,7 @@
         "id": 21,
         "body": "Je suis ressortie avec le sourire et l’envie de revenir.",
         "alt": "instant capturé de bien-être de Sabrina degeneve",
-        "author": "Sabrina degeneve"
+        "author": "Sabrina Degeneve"
       },
       {
         "id": 22,
@@ -616,6 +625,7 @@
   "hero-massage": {
     "cta": "Réserver ce soin →",
     "ctaWhatsapp": "Réserver ce soin",
+    "breadcrumbLabel": "Fil d'Ariane",
     "massage": {
       "title": "Laissez le stress s’évanouir… avec un massage relaxant",
       "text1": "Là où le calme rencontre la bienveillance. Offrez à votre corps ce qu’il mérite : de la douceur, de l’attention et un profond lâcher-prise.",
@@ -888,7 +898,7 @@
       "durationMin": 60,
       "durationMax": 90,
       "text": "Prenez soin de vos muscles, à partir de",
-      "price": "85€"
+      "price": "85 €"
     },
     "domicile": {
       "title": "Un soin chez vous, en toute sérénité",
@@ -899,7 +909,7 @@
       "durationMin": 90,
       "durationMax": 120,
       "text": "Recevez ce soin à la maison, dès",
-      "price": "185€"
+      "price": "185 €"
     },
     "tao": {
       "title": "Un rituel sensoriel apaisant",
@@ -954,7 +964,7 @@
       "durationMin": 60,
       "durationMax": 90,
       "text": "Retrouvez votre équilibre intérieur à partir de",
-      "price": "85€"
+      "price": "85 €"
     },
     "reiki": {
       "title": "Une harmonisation en douceur",
@@ -965,7 +975,7 @@
       "durationMin": 60,
       "durationMax": 90,
       "text": "Reconnectez-vous à votre énergie, dès",
-      "price": "85€"
+      "price": "85 €"
     },
     "cst": {
       "title": "Un soin subtil et profond",
@@ -998,7 +1008,7 @@
       "durationMin": 15,
       "durationMax": 30,
       "text": "Offrez ce moment de bien-être dès",
-      "price": "25€"
+      "price": "25 €"
     },
     "voyage": {
       "title": "Un voyage sensoriel et profond",
@@ -1009,7 +1019,7 @@
       "durationMin": 120,
       "durationMax": 150,
       "text": "Entamez votre voyage intérieur pour",
-      "price": "145€"
+      "price": "145 €"
     },
     "common": {
       "location": "À domicile ou en cabinet",
@@ -1359,5 +1369,14 @@
       { "q": "La thérapie cranio-sacrée est-elle adaptée aux enfants ?", "a": "Oui, c'est une approche très douce qui convient aussi bien aux nourrissons qu'aux adultes. Elle est particulièrement indiquée pour les bébés après un accouchement difficile." },
       { "q": "Combien de séances sont recommandées ?", "a": "En général, 3 à 5 séances espacées de 2 à 3 semaines permettent de constater des améliorations significatives. Chaque personne répond différemment." }
     ]
+  },
+  "notFound": {
+    "title": "Vous êtes perdu",
+    "text": "Désolé, la page que vous recherchez n'existe pas.",
+    "link": "Retour à l'accueil"
+  },
+  "errorPage": {
+    "title": "Une erreur est survenue",
+    "retry": "Réessayer"
   }
 }

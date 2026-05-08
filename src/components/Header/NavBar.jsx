@@ -80,7 +80,7 @@ export default function Nav() {
                 <Link
                   href={`/${locale}`}
                   className="flex items-center min-h-[44px] min-w-[44px] shrink-0"
-                  aria-label="Accueil"
+                  aria-label={t("homeLabel") || "Accueil"}
                 >
                   <Image
                     src={Logo}
@@ -171,7 +171,7 @@ export default function Nav() {
                 <div className="flex lg:hidden">
                   <DisclosureButton
                     className={`inline-flex items-center justify-center rounded-lg p-2 transition-all min-h-[44px] min-w-[44px] ${menuBtnColor} ${hoverBg}`}
-                    aria-label={open ? "Fermer le menu" : "Ouvrir le menu"}
+                    aria-label={open ? (t("menuClose") || "Fermer le menu") : (t("menuOpen") || "Ouvrir le menu")}
                   >
                     {open ? (
                       <XMarkIcon className="h-6 w-6" aria-hidden="true" />

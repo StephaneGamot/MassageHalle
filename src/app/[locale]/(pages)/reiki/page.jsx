@@ -82,6 +82,7 @@ export async function generateMetadata({ params }) {
         en: "An energy healing session in Halle to reconnect with your vital essence.",
         nl: "Een energetische behandeling in Halle om opnieuw verbinding te maken met uw vitale energie.",
       }[currentLocale],
+      images: [`${baseUrl}/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp`],
     },
     robots: {
       index: true,
@@ -109,7 +110,7 @@ export default async function Page(props) {
         type="HealthAndBeautyBusiness"
         id={`${baseUrl}/${currentLocale}#local-business`}
         name="La Voie du Bien-Être"
-        description="Massages bien-être, shiatsu, reiki et soins thérapeutiques à Hal (Halle)."
+        description="Massages relaxants, bien-être, shiatsu et soins énergétiques à Halle – Bruxelles."
         url={`${baseUrl}/${currentLocale}`}
         telephone="+32477131993"
         address={{
@@ -155,17 +156,15 @@ export default async function Page(props) {
         serviceUrl={`${baseUrl}/${currentLocale}/reiki`}
       />
 
-      <main>
-        <HeroMassage variant="reiki" />
-        <WhyThisCare title="reiki" />
-        <Benefits ids={[11, 61, 36, 46]} title="reiki" />
-        <TreatmentDescription variant="reiki" />
-        <Gallery ids={[11, 17, 23]} />
-        <CtaSectionMassagePage variant="reiki" />
-        <ServiceFaq variant="reiki" />
-        <RelatedServices variant="reiki" />
-        <Testimonials ids={[5, 10, 20, 29, 47]} />
-      </main>
+      <HeroMassage variant="reiki" />
+      <WhyThisCare title="reiki" />
+      <Benefits ids={[11, 61, 36, 46]} title="reiki" />
+      <TreatmentDescription variant="reiki" />
+      <Gallery ids={[11, 17, 23]} />
+      <CtaSectionMassagePage variant="reiki" />
+      <ServiceFaq variant="reiki" />
+      <RelatedServices variant="reiki" />
+      <Testimonials ids={[5, 10, 20, 29, 47]} />
     </>
   );
 }
