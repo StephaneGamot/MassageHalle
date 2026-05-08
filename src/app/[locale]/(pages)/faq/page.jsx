@@ -1,5 +1,4 @@
 import { getTranslations } from 'next-intl/server';
-import { useTranslations } from "next-intl";
 import {
   Disclosure,
   DisclosureButton,

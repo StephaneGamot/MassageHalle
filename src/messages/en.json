@@ -844,7 +844,7 @@
       "durationMin": 90,
       "durationMax": 120,
       "text": "Treat yourself to this moment of serenity, starting at",
-      "price": "€ 120"
+      "price": "€119.90"
     },
     "sportif": {
       "title": "A powerful and targeted massage",
@@ -871,6 +871,9 @@
     "tao": {
       "title": "A soothing sensory ritual",
       "hero": "Tao massage brings together slowness, depth and listening. An invitation to an inner journey.",
+      "details1": "The Tao massage draws on Taoist philosophy to create a fluid and enveloping body ritual. Slow, continuous strokes flow across the entire body, accompanied by guided breathing. The practitioner alternates between deep effleurage, gentle rocking and soft pressure to encourage vital energy circulation and reconnect you with your body's sensations.",
+      "details2": "This treatment is ideal for anyone seeking deep release, dealing with daily stress, emotional fatigue or a disconnect between body and mind. It also suits those discovering wellness massage in Halle for the first time and who prefer a gentle, sensory and meditative approach without intense muscular work.",
+      "details3": "After a Tao massage, clients typically experience profound calm, a feeling of lightness and renewed energy. Breathing opens up, tension fades and mental clarity returns. This treatment is available at our practice in Halle, in a warm setting designed for your well-being, near Brussels.",
       "durationMin": 90,
       "durationMax": 120,
       "text": "Reconnect with your vital energy, from",
@@ -879,14 +882,20 @@
     "dos": {
       "title": "A targeted treatment for your back",
       "hero": "This massage focuses on the neck, shoulders, and lower back to release tension.",
-      "durationMin": 45,
-      "durationMax": 60,
+      "details1": "The back-focused massage targets the areas most strained by daily life: the neck, trapezius muscles, shoulders and lower back. The practitioner uses kneading, gliding pressure and gentle mobilisations to release accumulated knots. The treatment is performed with warm oil in a calm, soothing environment at our Halle practice.",
+      "details2": "This treatment is particularly suited to office workers, desk-bound professionals and anyone suffering from chronic postural tension. Whether you experience stiff neck muscles, heavy shoulders or lower back pain from prolonged sitting, this targeted massage in Halle provides focused relief exactly where you need it.",
+      "details3": "After the session, you will feel significant relief in the upper body, improved range of motion and reduced back pain. This massage is ideal as a complement to regular exercise or as a monthly maintenance treatment to preserve daily comfort and prevent tension from building up again.",
+      "durationMin": 60,
+      "durationMax": 90,
       "text": "Soothe your back for",
-      "price": "€70"
+      "price": "€85"
     },
     "anticellulite": {
       "title": "A toning and firming treatment",
       "hero": "An effective massage to smooth, drain and revitalize tissues. Ideal for a more harmonious silhouette.",
+      "details1": "The anti-cellulite massage combines kneading, lymphatic drainage and cupping techniques to stimulate circulation and break down subcutaneous fat deposits. The practitioner works on the thighs, buttocks, abdomen and hips using toning, rhythmic movements. Draining and firming active oils complete the treatment for optimal results.",
+      "details2": "This treatment is designed for anyone looking to improve skin texture, reduce the appearance of cellulite and achieve a firmer silhouette. It is equally beneficial after weight changes, during water retention periods or simply to tone tissues. A course of several sessions is recommended for visible, lasting results.",
+      "details3": "From the very first session at our Halle practice, you will notice smoother skin and a feeling of lightness in the legs. With regular follow-up, drainage promotes toxin elimination, improves skin elasticity and reshapes body contours. This toning massage fits perfectly into an overall wellness routine near Brussels.",
       "durationMin": 60,
       "durationMax": 90,
       "text": "Give your body a new breath, from",
@@ -895,6 +904,9 @@
     "deeptissue": {
       "title": "A deep tissue massage",
       "hero": "Specifically designed to relax persistent and deep muscular tension.",
+      "details1": "The deep tissue massage uses slow, firm pressure to reach deep muscle layers, fascia and tendons. The practitioner works with thumbs, elbows and forearms to target trigger points and muscular knots. Intensity is continuously adjusted to your comfort level throughout the session to ensure effective yet tolerable pressure.",
+      "details2": "This treatment is recommended for people suffering from chronic muscular tension, stress-related pain, joint stiffness or persistent contractures. It is also suitable for athletes in intense recovery. If you experience deep pain that regular massages cannot relieve, deep tissue massage in Halle is designed for you.",
+      "details3": "After the treatment, a deep sense of release is felt in the worked areas. It is normal to experience slight tenderness for one to two days, a sign that deep tensions have been addressed. Drinking plenty of water after the session helps flush out toxins released during the muscular work.",
       "durationMin": 60,
       "durationMax": 90,
       "text": "Release your muscles for",
@@ -914,6 +926,9 @@
     "reiki": {
       "title": "A gentle harmonization",
       "hero": "Reiki soothes, rebalances and revitalizes energy centers through hand imposition.",
+      "details1": "Reiki is a Japanese energy healing method. The practitioner places their hands on or above different parts of the body, following the energy centres (chakras). No physical manipulation is involved: universal energy flows through the hands to harmonise the receiver's energy field. You remain fully clothed throughout the entire session.",
+      "details2": "Reiki is particularly suited to people going through periods of stress, anxiety, emotional fatigue or sleep disturbances. It also supports those recovering from illness or facing challenging life events. This energy treatment in Halle does not replace medical care but complements it by promoting inner balance and well-being.",
+      "details3": "After a Reiki session, you will experience a deep sense of calm and serenity. The body enters a state of relaxation that supports its natural self-healing mechanisms. The effects often extend over several days: more restful sleep, better emotional management and renewed vitality are frequently reported by clients.",
       "durationMin": 60,
       "durationMax": 90,
       "text": "Reconnect with your energy, from",
@@ -922,6 +937,9 @@
     "cst": {
       "title": "A subtle and deep treatment",
       "hero": "Craniosacral therapy acts on the nervous system to release deep blockages.",
+      "details1": "Craniosacral therapy uses very light touch on the skull, spine and sacrum. The practitioner senses the rhythm of the cerebrospinal fluid and gently accompanies the body's subtle movements to release tissue restrictions. The treatment is performed clothed, in soothing silence, and typically lasts one hour at our Halle practice.",
+      "details2": "This treatment is well suited for people suffering from chronic headaches, neck tension, sleep disorders, tinnitus or deep-seated stress. It is also recommended after emotional or physical trauma. Craniosacral therapy in Halle is suitable for all ages and respects the body's natural pace in its self-healing process.",
+      "details3": "After the session, clients often describe deep relaxation and mental clarity. The nervous system regains better balance, resulting in improved sleep, reduced headaches and overall calm. Several spaced sessions allow for lasting results on established blockages, with benefits that build progressively near Brussels.",
       "durationMin": 60,
       "durationMax": 90,
       "text": "Offer your body lasting peace, from",
@@ -930,6 +948,9 @@
     "reflexo": {
       "title": "A foot care with countless virtues",
       "hero": "Foot reflexology stimulates reflex zones to improve the body's overall balance.",
+      "details1": "Foot reflexology involves applying precise pressure to specific zones on the sole of the foot, each corresponding to an organ or body part. The practitioner uses thumbs and fingers to stimulate these reflex points, restore energy flow and promote optimal body function. The treatment is performed lying down in a gentle, relaxing atmosphere.",
+      "details2": "This treatment is suitable for people experiencing digestive issues, circulation problems, migraines, stress or chronic fatigue. Foot reflexology in Halle is also recommended for those seeking overall rebalancing, as a complement to medical care or simply to maintain good health on a daily basis.",
+      "details3": "After a reflexology session, you will feel deep release and improved circulation in the legs and feet. Many clients notice better digestion, improved sleep and higher energy levels in the days that follow. A course of three to five sessions is recommended for a complete rebalancing near Brussels.",
       "durationMin": 60,
       "durationMax": 90,
       "text": "Take care of your feet for",
@@ -938,6 +959,9 @@
     "amma": {
       "title": "A quick massage, anywhere",
       "hero": "Seated Amma quickly relieves tension at work or during an event.",
+      "details1": "Amma seated massage is a Japanese tradition performed on an ergonomic chair, without oil and without undressing. In just 15 to 20 minutes, the practitioner delivers a dynamic sequence of pressure, percussion and stretching across the back, neck, shoulders, arms and hands. A focused and effective protocol that quickly revitalises.",
+      "details2": "This massage is ideal for corporate wellness in the Brussels and Halle area: it sets up easily in an office, open space or event venue. It is perfect for stressed employees, teams needing a cohesion boost or event organisers looking for an original wellness activity. No special equipment is needed on the client's side.",
+      "details3": "In just a few minutes, seated Amma releases tension accumulated in the upper body, improves concentration and restores energy. Colleagues leave feeling relaxed and revitalised. This short, accessible format makes it a valuable tool for improving quality of life at work and reducing stress-related absenteeism.",
       "durationMin": 15,
       "durationMax": 30,
       "text": "Offer this moment of well-being from",
@@ -946,10 +970,13 @@
     "voyage": {
       "title": "A deep and sensory journey",
       "hero": "This enveloping treatment acts on the fascia for deep release and total relaxation.",
+      "details1": "The sensory journey is a complete treatment combining fascia work, enveloping strokes and carefully selected essential oils. The practitioner alternates between deep touch and light effleurage to create a continuous sensory wave. This two-hour ritual is designed for total release of body and mind in our Halle practice.",
+      "details2": "This treatment is for anyone seeking complete disconnection, dealing with physical or emotional exhaustion, or simply wishing to experience an extraordinary wellness moment. The sensory journey in Halle offers deep cocooning and also makes an exceptional gift for a loved one near Brussels.",
+      "details3": "After this immersive session, you will feel a state of profound serenity, as though after a long, restful sleep. Released fascia regain their suppleness, tension dissolves and the senses are gently awakened. This treatment leaves a lasting imprint of well-being that extends over several days.",
       "durationMin": 120,
       "durationMax": 150,
       "text": "Begin your inner journey for",
-      "price": "€150"
+      "price": "€145"
     }
   },
   "faq": {

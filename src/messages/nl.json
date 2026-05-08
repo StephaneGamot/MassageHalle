@@ -115,84 +115,84 @@
       {
         "id": 1,
         "title": "Sportmassage",
-        "description": "Optimaliseert sportieve inspanningen en versnelt het herstel. De spier wordt diep gemasseerd.",
+        "description": "Optimaliseert sportieve prestaties, versnelt het herstel en voorkomt blessures. De spieren worden diepgaand bewerkt om hardnekkige knopen los te maken.",
         "imageAlt": "De handen van de masseur werken op de rechterschouder van de patiënt",
         "titleImg": "Man ontvangt massage die spierpijn verlicht"
       },
       {
         "id": 2,
         "title": "Ontspanningsmassage",
-        "description": "Ontspant lichaam en geest, vermindert stress en spierspanning met zachte, vloeiende bewegingen.",
+        "description": "Ontspant lichaam en geest, vermindert stress en spierspanning dankzij zachte, rustgevende en vloeiende bewegingen. Je komt er lichter en herboren uit.",
         "imageAlt": "Handen geven comfort aan de schouderbladen van de patiënt",
         "titleImg": "Jonge vrouw geniet van een volledig ontspannende massage"
       },
       {
         "id": 3,
         "title": "Shiatsu sessie",
-        "description": "Japanse techniek met drukpunten uit de Chinese geneeskunde om energie in balans te brengen.",
+        "description": "Japanse techniek die gebruik maakt van vingerdruk op punten uit de Chinese geneeskunde om de energie te herbalanceren en te harmoniseren.",
         "imageAlt": "Vrouw ontvangt shiatsu sessie op een futon",
         "titleImg": "Jonge vrouw krijgt Shiatsu behandeling"
       },
       {
         "id": 4,
         "title": "Reiki sessie",
-        "description": "Holistische methode die diepe ontspanning bevordert via overdracht van universele energie.",
+        "description": "Holistische methode van energetische genezing die diepe ontspanning en natuurlijk welzijn bevordert dankzij de overdracht van universele energie.",
         "imageAlt": "Therapeut houdt handen boven oren van de patiënt",
         "titleImg": "Handen geven universele energie boven de navel"
       },
       {
         "id": 5,
         "title": "Stoelmassage",
-        "description": "Snelle en doeltreffende oplossing op het werk om spanning los te laten. Cadeau van werkgever.",
+        "description": "Een snelle (15 tot 20 min), doeltreffende en revitaliserende oplossing om spanningen te verlichten. Een cadeau van de werkgever aan zijn medewerkers, rechtstreeks op de werkplek.",
         "imageAlt": "Man ontvangt Amma-massage op werkplek",
         "titleImg": "Massage op stoel op de werkplek"
       },
       {
         "id": 6,
         "title": "Voetreflexologie",
-        "description": "Zachte therapie die punten op de voeten stimuleert om fysieke en emotionele gezondheid te bevorderen.",
+        "description": "Beschouwd als een zachte geneeswijze, stimuleert deze therapie de punten op de voeten om de fysieke, emotionele en mentale gezondheid op langere termijn te verbeteren.",
         "imageAlt": "Duimen drukken op voetzool boven Long 1",
         "titleImg": "Voetmassage verlicht spanningen"
       },
       {
         "id": 7,
         "title": "Zintuiglijke reis",
-        "description": "Werkt in op de fascia voor diepe ontspanning. Een reis naar binnen om jezelf terug te vinden.",
+        "description": "Deze massage werkt rechtstreeks in op de fascia, wat zorgt voor een absolute en diepe ontspanning. Het is een echte reis die je helpt om jezelf terug te vinden.",
         "imageAlt": "Zacht masserend contact",
         "titleImg": "Verbinding met fascia"
       },
       {
         "id": 8,
         "title": "Anticellulitis massage",
-        "description": "Zeer doeltreffende massage om de huid te verstevigen en cellulite zichtbaar te verminderen.",
+        "description": "Deze uiterst doeltreffende massage verstevigt de huid en helpt zichtbaar de cellulite glad te strijken, voor een fijnere, harmonieuzere en lichtere silhouet.",
         "imageAlt": "Cuppingbehandeling op dijbeen",
         "titleImg": "Vaarwel cellulite"
       },
       {
         "id": 9,
         "title": "Zorg voor de rug",
-        "description": "Specifieke massage voor rug, nek en schouders. Ontspannend en stressverlichtend.",
+        "description": "Een massage die volledig gewijd is aan de rug, nek en schouders. Het doel is de opgebouwde stress weg te werken en het hele gebied grondig te ontspannen.",
         "imageAlt": "Vier vingers strelen de nek",
         "titleImg": "Aangename nekcontact"
       },
       {
         "id": 10,
         "title": "Tao massage",
-        "description": "Herontdek jezelf via een sensuele en diepe massage. Elke aanraking viert jouw welzijn.",
+        "description": "Herontdek jezelf en beleef het diepe welzijn van de Tao-massage. Een zintuiglijke en rustgevende reis waarbij elke aanraking jouw welzijn viert.",
         "imageAlt": "Een glimlachend gezicht",
         "titleImg": "Sensualiteit van een glimlach"
       },
       {
         "id": 11,
         "title": "Massage aan huis",
-        "description": "Ik kom met alles wat nodig is voor een ontspannende massage bij je thuis in Brussel & Brabant.",
+        "description": "Ik kom met al het nodige materiaal om je een ontspannende kwaliteitsmassage te geven, rechtstreeks bij je thuis in Brussel, Waals-Brabant en Vlaams-Brabant.",
         "imageAlt": "Handen op een rug",
         "titleImg": "Sensuele rugmassage"
       },
       {
         "id": 12,
         "title": "Craniosacrale therapie",
-        "description": "CST werkt diep in op het lichaam, bevrijdt spanningen en brengt emotioneel evenwicht.",
+        "description": "CST werkt diep in op het lichaam en luistert aandachtig. Door een subtiele aanraking bevrijdt het spanningen, bevordert het emotioneel evenwicht en versterkt het het algemeen welzijn.",
         "imageAlt": "Craniosacrale aanraking",
         "titleImg": "Manipulatie van de schedel"
       }
@@ -878,6 +878,9 @@
     "tao": {
       "title": "Een rustgevend sensueel ritueel",
       "hero": "De Tao-massage combineert traagheid, diepte en aandacht. Een uitnodiging voor een innerlijke reis.",
+      "details1": "De Tao-massage is geïnspireerd op de taoïstische filosofie en creëert een vloeiend, omhullend lichaamsritueel. Langzame, doorlopende bewegingen stromen over het hele lichaam, begeleid door ademhalingsoefeningen. De beoefenaar wisselt af tussen diepe effleurage, zacht wiegen en lichte druk om de circulatie van vitale energie te bevorderen en u opnieuw te verbinden met uw lichamelijke gewaarwordingen.",
+      "details2": "Deze behandeling is ideaal voor iedereen die op zoek is naar diepe ontspanning, te kampen heeft met dagelijkse stress, emotionele vermoeidheid of een gevoel van vervreemding tussen lichaam en geest. Het is ook geschikt voor mensen die voor het eerst kennismaken met wellnessmassage in Halle en de voorkeur geven aan een zachte, sensorische en meditatieve aanpak.",
+      "details3": "Na een Tao-massage ervaren cliënten doorgaans een diepe rust, een gevoel van lichtheid en hernieuwde energie. De ademhaling opent zich, spanning verdwijnt en mentale helderheid keert terug. Deze behandeling is beschikbaar in onze praktijk in Halle, in een warme setting ontworpen voor uw welzijn.",
       "durationMin": 90,
       "durationMax": 120,
       "text": "Herontdek uw vitale energie vanaf",
@@ -886,6 +889,9 @@
     "dos": {
       "title": "Een gerichte behandeling voor rugverlichting",
       "hero": "Deze massage richt zich op de nek, schouders en onderrug om opgebouwde spanningen los te laten.",
+      "details1": "De rugmassage richt zich op de zones die het meest belast worden in het dagelijks leven: de nek, trapezius, schouders en onderrug. De beoefenaar gebruikt kneed-, glijdende druk- en zachte mobilisatietechnieken om opgehoopte contracturen los te maken. De behandeling wordt uitgevoerd met warme olie in een rustige, ontspannende omgeving in onze praktijk in Halle.",
+      "details2": "Deze behandeling is bijzonder geschikt voor kantoormedewerkers, mensen met zittend werk en iedereen die last heeft van chronische houdingsspanningen. Of u nu een stijve nek heeft, zware schouders of lage rugpijn door langdurig zitten, deze gerichte massage in Halle biedt verlichting precies waar u het nodig heeft.",
+      "details3": "Na de sessie voelt u een merkbare verlichting in het bovenlichaam, een beter bewegingsbereik en verminderde rugpijn. Deze massage is ideaal als aanvulling op regelmatige lichaamsbeweging of als maandelijkse onderhoudsbehandeling om dagelijks comfort te bewaren en te voorkomen dat spanningen zich opnieuw ophopen.",
       "durationMin": 60,
       "durationMax": 90,
       "text": "Verlicht uw rug voor",
@@ -894,6 +900,9 @@
     "anticellulite": {
       "title": "Een verstevigende en revitaliserende massage",
       "hero": "Een effectieve massage om weefsels glad te strijken, te draineren en te tonifiëren. Ideaal voor een harmonieuze silhouet.",
+      "details1": "De anti-cellulitemassage combineert kneedtechnieken, lymfedrainage en cupping om de bloedsomloop te stimuleren en onderhuids vetweefsel af te breken. De beoefenaar bewerkt de dijen, billen, buik en heupen met tonische, ritmische bewegingen. Drainerende en verstevigende oliën met actieve ingrediënten maken de behandeling compleet.",
+      "details2": "Deze behandeling is ontworpen voor iedereen die de huidtextuur wil verbeteren, het sinaasappelhuideffect wil verminderen en een steviger silhouet wil bereiken. Het is even geschikt na gewichtsveranderingen, bij vochtophoping of gewoon om het weefsel te verstevigen. Een reeks van meerdere sessies wordt aanbevolen voor zichtbare en blijvende resultaten.",
+      "details3": "Vanaf de eerste sessie in onze praktijk in Halle merkt u een gladdere huid en een lichter gevoel in de benen. Bij regelmatige opvolging bevordert de drainage de afvoer van giftstoffen, verbetert de huidelasticiteit en hervormt de lichaamscontouren. Deze verstevigende massage past perfect in een totale welzijnsaanpak nabij Brussel.",
       "durationMin": 60,
       "durationMax": 90,
       "text": "Geef uw lichaam een nieuwe impuls vanaf",
@@ -902,6 +911,9 @@
     "deeptissue": {
       "title": "Een diepe weefselmassage",
       "hero": "Speciaal ontworpen om aanhoudende en diepe spierspanningen te ontspannen.",
+      "details1": "De deep tissue massage gebruikt langzame, stevige druk om de diepe spierlagen, fascia en pezen te bereiken. De beoefenaar werkt met duimen, ellebogen en onderarmen om triggerpoints en spierknobbels te behandelen. De intensiteit wordt continu aangepast aan uw comfortniveau gedurende de hele sessie.",
+      "details2": "Deze behandeling is aanbevolen voor mensen met chronische spierspanningen, stressgerelateerde pijn, gewrichtsstijfheid of aanhoudende contracturen. Het is ook geschikt voor sporters in intensief herstel. Als u diepe pijn ervaart die gewone massages niet kunnen verlichten, is deep tissue massage in Halle voor u ontworpen.",
+      "details3": "Na de behandeling voelt u een diep gevoel van bevrijding in de behandelde zones. Het is normaal om een lichte gevoeligheid te ervaren gedurende een tot twee dagen, een teken dat diepe spanningen zijn aangepakt. Veel water drinken na de sessie helpt bij het afvoeren van vrijgekomen giftstoffen door het spierwerk.",
       "durationMin": 60,
       "durationMax": 90,
       "text": "Ontspan uw spieren voor",
@@ -914,29 +926,38 @@
       "details2": "Shiatsu staat bekend om zijn voordelen bij stress, slaapstoornissen, spier- en gewrichtspijn, hoofdpijn en spijsverteringsproblemen. Door de vrije stroom van levensenergie (Ki) te herstellen, helpt het het lichaam zijn natuurlijke balans te hervinden en stimuleert het de zelfgenezende capaciteit.",
       "details3": "Elke shiatsu-sessie in Halle begint met een energetische evaluatie om geblokkeerde zones te identificeren. De behandeling wordt vervolgens afgestemd op uw specifieke behoeften. Een cyclus van drie tot vijf sessies met twee tot drie weken tussentijd wordt aanbevolen voor blijvend herstel, gevolgd door maandelijks onderhoud om de voordelen te behouden.",
       "durationMin": 60,
-      "durationMax": 75,
+      "durationMax": 90,
       "text": "Vind uw innerlijke balans vanaf",
       "price": "85€"
     },
     "reiki": {
       "title": "Een zachte harmonisatie",
       "hero": "Reiki kalmeert, herstelt en revitaliseert energiecentra door handoplegging.",
+      "details1": "Reiki is een Japanse energetische heelmethode. De beoefenaar legt de handen op of boven verschillende lichaamsdelen, volgens de energiecentra (chakra's). Er is geen fysieke manipulatie: universele energie stroomt door de handen om het energieveld van de ontvanger te harmoniseren. U blijft volledig gekleed tijdens de hele sessie.",
+      "details2": "Reiki is bijzonder geschikt voor mensen die periodes van stress, angst, emotionele vermoeidheid of slaapstoornissen doormaken. Het ondersteunt ook mensen die herstellen van ziekte of moeilijke levensmomenten doormaken. Deze energetische behandeling in Halle vervangt geen medische zorg, maar vult deze aan door innerlijk evenwicht en welzijn te bevorderen.",
+      "details3": "Na een reiki-sessie ervaart u een diep gevoel van rust en sereniteit. Het lichaam komt in een ontspanningstoestand die de natuurlijke zelfheling ondersteunt. De effecten duren vaak meerdere dagen: een betere nachtrust, beter emotioneel beheer en hernieuwde vitaliteit worden regelmatig gemeld door cliënten.",
       "durationMin": 60,
-      "durationMax": 75,
+      "durationMax": 90,
       "text": "Herontdek uw energie vanaf",
       "price": "85€"
     },
     "cst": {
       "title": "Een subtiele en diepe behandeling",
       "hero": "Craniosacrale therapie werkt op het zenuwstelsel om diepe blokkades los te laten.",
+      "details1": "Craniosacrale therapie maakt gebruik van zeer lichte aanrakingen op de schedel, wervelkolom en het heiligbeen. De beoefenaar voelt het ritme van de cerebrospinale vloeistof en begeleidt het lichaam zachtjes in zijn subtiele bewegingen om weefselbeperkingen op te heffen. De behandeling wordt gekleed uitgevoerd, in rustgevende stilte, en duurt doorgaans een uur.",
+      "details2": "Deze behandeling is geschikt voor mensen met chronische hoofdpijn, nekspanningen, slaapstoornissen, tinnitus of diepgewortelde stress. Het wordt ook aanbevolen na een emotioneel of fysiek trauma. Craniosacrale therapie in Halle is geschikt voor alle leeftijden en respecteert het natuurlijke ritme van het lichaam in zijn zelfhelend proces.",
+      "details3": "Na de sessie beschrijven cliënten vaak een diepe ontspanning en mentale helderheid. Het zenuwstelsel hervindt een beter evenwicht, wat resulteert in betere slaap, minder hoofdpijn en algemene kalmte. Meerdere gespreide sessies zorgen voor blijvende resultaten bij gevestigde blokkades, met voordelen die geleidelijk opbouwen.",
       "durationMin": 60,
-      "durationMax": 75,
+      "durationMax": 90,
       "text": "Bied uw lichaam duurzame verlichting vanaf",
       "price": "85€"
     },
     "reflexo": {
       "title": "Voetverzorging met talloze voordelen",
       "hero": "Voetreflexologie stimuleert reflexzones om het algehele evenwicht van het lichaam te verbeteren.",
+      "details1": "Voetreflexologie bestaat uit het uitoefenen van precieze druk op specifieke zones van de voetzool, die elk overeenkomen met een orgaan of lichaamsdeel. De beoefenaar gebruikt duimen en vingers om deze reflexpunten te stimuleren, de energiestroom te herstellen en een optimale lichaamsfunctie te bevorderen. De behandeling wordt liggend uitgevoerd in een zachte, ontspannende sfeer.",
+      "details2": "Deze behandeling is geschikt voor mensen met spijsverteringsproblemen, circulatieproblemen, migraine, stress of chronische vermoeidheid. Voetreflexologie in Halle is ook aanbevolen voor wie op zoek is naar algemeen herstel van het evenwicht, als aanvulling op medische zorg of gewoon om dagelijks een goede gezondheid te behouden.",
+      "details3": "Na een reflexologiesessie voelt u een diepe ontspanning en verbeterde circulatie in de benen en voeten. Veel cliënten merken een betere spijsvertering, verbeterde slaap en een hoger energieniveau in de dagen erna. Een reeks van drie tot vijf sessies wordt aanbevolen voor een volledig evenwichtsherstel nabij Brussel.",
       "durationMin": 60,
       "durationMax": 90,
       "text": "Verzorg uw voeten voor",
@@ -945,6 +966,9 @@
     "amma": {
       "title": "Een expressmassage, overal",
       "hero": "Zittende amma-massage verlicht snel spanningen op het werk of tijdens een evenement.",
+      "details1": "De zittende amma-massage is een Japanse traditie die wordt uitgevoerd op een ergonomische stoel, zonder olie en zonder u uit te kleden. In slechts 15 tot 20 minuten levert de beoefenaar een dynamische reeks van druk, percussie en stretching over de rug, nek, schouders, armen en handen. Een gericht en doeltreffend protocol dat snel revitaliseert.",
+      "details2": "Deze massage is ideaal voor bedrijfswelzijn in de regio Brussel en Halle: hij is eenvoudig op te stellen in een kantoor, open ruimte of evenementenlocatie. Het is perfect voor gestresste medewerkers, teams die een cohesieboost nodig hebben of evenementenorganisatoren die een originele welzijnsactiviteit zoeken. Er is geen speciale uitrusting nodig aan de kant van de klant.",
+      "details3": "In slechts enkele minuten verlicht de zittende amma-massage opgehoopte spanning in het bovenlichaam, verbetert de concentratie en herstelt de energie. Collega's vertrekken ontspannen en gerevitaliseerd. Dit korte, toegankelijke format maakt het een waardevol instrument om de levenskwaliteit op het werk te verbeteren en stressgerelateerd verzuim te verminderen.",
       "durationMin": 15,
       "durationMax": 30,
       "text": "Bied dit moment van welzijn vanaf",
@@ -953,10 +977,13 @@
     "voyage": {
       "title": "Een sensorische en diepe reis",
       "hero": "Deze omhullende behandeling werkt op de fascia voor diepe ontspanning en totale relaxatie.",
+      "details1": "De zintuiglijke reis is een volledige behandeling die fasciawerk, omhullende bewegingen en zorgvuldig geselecteerde etherische oliën combineert. De beoefenaar wisselt af tussen diepe aanraking en lichte effleurage om een continue sensorische golf te creëren. Dit twee uur durende ritueel is ontworpen voor totale loslating van lichaam en geest in onze praktijk in Halle.",
+      "details2": "Deze behandeling is bedoeld voor iedereen die volledige ontkoppeling zoekt, te kampen heeft met fysieke of emotionele uitputting, of gewoon een buitengewone welzijnservaring wil beleven. De zintuiglijke reis in Halle biedt diepe cocooning en is ook een uitzonderlijk cadeau voor een dierbare nabij Brussel.",
+      "details3": "Na deze onderdompelende sessie voelt u een staat van diepe sereniteit, alsof u een lange, herstellende slaap achter de rug heeft. Vrijgemaakte fascia herwinnen hun souplesse, spanning lost op en de zintuigen worden zacht gewekt. Deze behandeling laat een blijvende afdruk van welzijn achter die zich over meerdere dagen uitstrekt.",
       "durationMin": 120,
       "durationMax": 150,
       "text": "Begin uw innerlijke reis voor",
-      "price": "150€"
+      "price": "145€"
     },
     "common": {
       "location": "Aan huis of in de praktijk",

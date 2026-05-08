@@ -98,8 +98,9 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default function Page({ params }) {
-  const { locale } = params || {};
+export default async function Page(props) {
+  const { params } = props;
+  const { locale } = await params;
   const currentLocale = locale ?? "fr";
 
   return (

@@ -25,7 +25,7 @@
     "rights": "Tous droits réservés",
     "contact": "Contact & horaires",
     "address": "Hal (Buizingen), Bruxelles et alentours",
-    "opening": "Sur rendez-vous du lundi au samedi, 9h–19h"
+    "opening": "Sur rendez-vous du lundi au samedi, 10h–19h"
   },
   "hero": {
     "srOnly": "Massage bien-être à Hal — soins relaxants, shiatsu et reiki | La Voie du Bien-Être",
@@ -126,7 +126,7 @@
       {
         "id": 1,
         "title": "Massage sportif",
-        "description": "Optimise les performances sportives, accélère la récupération et prévient les blessures. Le muscle est travaillé en profondeur afin de denouer les noeuds.",
+        "description": "Optimise les performances sportives, accélère la récupération et prévient les blessures. Le muscle est travaillé en profondeur afin de dénouer les nœuds.",
         "imageAlt": "Les mains du masseur travaillant sur l'épaule droite du patient",
         "titleImg": "Homme recevant un massage libérant les douleurs musculaires"
       },
@@ -135,40 +135,40 @@
         "title": "Massage relaxant",
         "description": "Détend le Corps et l'Esprit, réduit le stress et les tensions musculaires grâce à des mouvements doux, apaisants et fluides. On en ressort plus léger.",
         "imageAlt": "Les 2 mains sur l'omoplates de sa patiente apportent un réconfort",
-        "titleImg": "Jeune femme recevant un massage lui permetant de se détendre pleinement"
+        "titleImg": "Jeune femme recevant un massage lui permettant de se détendre pleinement"
       },
       {
         "id": 3,
         "title": "Séance de Shiatsu",
-        "description": "Technique japonaise utilisant la pression des doigts sur des points issu de la medecine chinoise afin de rééquilibrer & réharmoniser l'énergie",
-        "imageAlt": "Sur un futon, une jeune femme recoit une séance de shiatsu",
+        "description": "Technique japonaise utilisant la pression des doigts sur des points issu de la médecine chinoise afin de rééquilibrer & réharmoniser l'énergie",
+        "imageAlt": "Sur un futon, une jeune femme reçoit une séance de shiatsu",
         "titleImg": "Jeune femme recevant un soin Shiatsu"
       },
       {
         "id": 4,
         "title": "Séance de Reiki",
-        "description": "Méthode de 'guérison énergétique & holistique' qui favorise une relaxation profonde et un bien-être naturel grace à un transfert de l'énergie universelle.",
+        "description": "Méthode de 'guérison énergétique & holistique' qui favorise une relaxation profonde et un bien-être naturel grâce à un transfert de l'énergie universelle.",
         "imageAlt": "La thérapeute glisse ses mains à environ 20 cm des oreilles de sa patiente",
-        "titleImg": "2 mains apposé à distance au dessus d'un nombril, infusant l'energie universelle"
+        "titleImg": "2 mains apposées à distance au dessus d'un nombril, infusant l'energie universelle"
       },
       {
         "id": 5,
         "title": "Massage sur chaise",
         "description": "Une solution rapide (15 à 20 min), efficace et revitalisant pour soulager les tensions. Un cadeau offert de l'employeur à ses employés sur leur lieu de travail.",
         "imageAlt": "Un homme à la chance de recevoir une séance de Amma dans un cadre professionnel",
-        "titleImg": "Sur son lieu de travail elle recoit un massage sur chaise"
+        "titleImg": "Sur son lieu de travail elle reçoit un massage sur chaise"
       },
       {
         "id": 6,
-        "title": "Reflexologie Plantaire",
-        "description": "Considéré comme une médecine douce, elle stimule les points des pieds pour améliorer la santé physique, emotionnelle et mentale sur le temps.",
-        "imageAlt": "Les deux pouces travaillant sur la voute plantaire, juste audessus de Poumon 1",
+        "title": "Réflexologie Plantaire",
+        "description": "Considéré comme une médecine douce, elle stimule les points des pieds pour améliorer la santé physique, émotionnelle et mentale sur le temps.",
+        "imageAlt": "Les deux pouces travaillant sur la voute plantaire, juste au-dessus de Poumon 1",
         "titleImg": "Un massage des pieds qui permet de relacher les tensions"
       },
       {
         "id": 7,
         "title": "Voyage des sens",
-        "description": "Ce massage agit directement sur les facias ce qui permet une détente absolue et profonde. C'est un véritable voyage qui permet de se retrouver.",
+        "description": "Ce massage agit directement sur les fascias ce qui permet une détente absolue et profonde. C'est un véritable voyage qui permet de se retrouver.",
         "imageAlt": "On peut ressentir la douceur du massage",
         "titleImg": "Connexion avec les fascias"
       },
@@ -904,6 +904,9 @@
     "tao": {
       "title": "Un rituel sensoriel apaisant",
       "hero": "Le massage Tao réunit lenteur, profondeur et écoute. Une invitation au voyage intérieur.",
+      "details1": "Le massage Tao s'inspire de la philosophie taoïste pour créer un rituel corporel fluide et enveloppant. Les mouvements lents et continus parcourent l'ensemble du corps, accompagnés par une respiration guidée. Le praticien alterne entre effleurages profonds, bercements et pressions douces pour favoriser la circulation de l'énergie vitale et reconnecter le corps aux sensations.",
+      "details2": "Ce soin s'adresse aux personnes en quête de lâcher-prise, confrontées au stress quotidien, à la fatigue émotionnelle ou à une déconnexion entre le corps et l'esprit. Il convient aussi à ceux qui découvrent le massage bien-être à Hal et souhaitent une approche douce, sensorielle et méditative, sans travail musculaire intense.",
+      "details3": "Après un massage Tao, les clients ressentent généralement un profond apaisement, une sensation de légèreté et un regain d'énergie. Le souffle se libère, les tensions s'estompent et le mental retrouve sa clarté. Ce soin est disponible en cabinet à Halle, dans un cadre chaleureux pensé pour votre bien-être.",
       "durationMin": 90,
       "durationMax": 120,
       "text": "Reconnectez-vous à votre énergie vitale, à partir de",
@@ -912,14 +915,20 @@
     "dos": {
       "title": "Un soin ciblé pour soulager votre dos",
       "hero": "Ce massage se concentre sur la nuque, les épaules et le bas du dos pour libérer les tensions.",
+      "details1": "Le massage douceur dorsale cible les zones les plus sollicitées au quotidien : la nuque, les trapèzes, les épaules et le bas du dos. Le praticien utilise des techniques de pétrissage, de pressions glissées et de mobilisations douces pour dénouer les contractures accumulées. Le soin se pratique à l'huile chaude, dans un environnement calme et apaisant.",
+      "details2": "Ce soin est particulièrement adapté aux personnes travaillant devant un écran, aux professions sédentaires et à tous ceux qui souffrent de tensions posturales chroniques. Que vous ayez des raideurs cervicales, une sensation de poids sur les épaules ou des douleurs lombaires liées à la position assise, ce massage à Hal vous apporte un soulagement ciblé.",
+      "details3": "Après la séance, vous ressentirez un allègement significatif du haut du corps, une meilleure amplitude de mouvement et une diminution des douleurs dorsales. Ce massage est idéal en complément d'une activité physique régulière ou comme soin d'entretien mensuel pour préserver votre confort au quotidien.",
       "durationMin": 60,
-      "durationMax": 0,
+      "durationMax": 90,
       "text": "Soulagez votre dos pour",
       "price": "85 €"
     },
     "anticellulite": {
       "title": "Un soin tonique et raffermissant",
       "hero": "Un massage efficace pour lisser, drainer et revitaliser les tissus. Idéal pour une silhouette plus harmonieuse.",
+      "details1": "Le massage anti-cellulite combine des techniques de palper-rouler, de drainage lymphatique et de ventouses (cupping) pour stimuler la circulation et casser les amas graisseux sous-cutanés. Le praticien travaille les cuisses, les fesses, le ventre et les hanches avec des mouvements toniques et rythmés. Des huiles aux actifs drainants et raffermissants complètent le soin.",
+      "details2": "Ce soin est conçu pour les personnes souhaitant améliorer la texture de leur peau, réduire l'aspect peau d'orange et retrouver une silhouette plus ferme. Il convient aussi bien après une prise de poids, en période de rétention d'eau ou simplement pour tonifier les tissus. Un cycle de plusieurs séances est recommandé pour des résultats visibles et durables.",
+      "details3": "Dès la première séance dans notre cabinet de Halle, vous constaterez une peau plus lisse et une sensation de légèreté dans les jambes. Avec un suivi régulier, le drainage favorise l'élimination des toxines, améliore l'élasticité de la peau et redessine les contours du corps. Ce massage tonifiant s'intègre idéalement dans une démarche globale de bien-être.",
       "durationMin": 60,
       "durationMax": 90,
       "text": "Offrez à votre corps un nouveau souffle, dès",
@@ -928,6 +937,9 @@
     "deeptissue": {
       "title": "Un massage en profondeur",
       "hero": "Spécialement conçu pour détendre les tensions musculaires persistantes et profondes.",
+      "details1": "Le massage deep tissue utilise des pressions lentes et appuyées pour atteindre les couches musculaires profondes, les fascias et les tendons. Le praticien travaille avec les pouces, les coudes et les avant-bras pour cibler les points de tension (trigger points) et les nœuds musculaires. L’intensité est adaptée à votre seuil de tolérance tout au long de la séance.",
+      "details2": "Ce soin est recommandé pour les personnes souffrant de tensions musculaires chroniques, de douleurs liées au stress, de raideurs articulaires ou de contractures persistantes. Il convient également aux sportifs en récupération intense. Si vous ressentez des douleurs profondes que les massages classiques ne parviennent pas à soulager, le deep tissue à Hal est fait pour vous.",
+      "details3": "Après le soin, une sensation de libération profonde se fait ressentir dans les zones travaillées. Il est normal de ressentir une légère sensibilité pendant un à deux jours, signe que les tensions profondes ont été traitées. Boire beaucoup d’eau après la séance favorise l’élimination des toxines libérées par le travail musculaire.",
       "durationMin": 60,
       "durationMax": 90,
       "text": "Libérez vos muscles pour",
@@ -947,6 +959,9 @@
     "reiki": {
       "title": "Une harmonisation en douceur",
       "hero": "Le reiki apaise, rééquilibre et revitalise les centres énergétiques par imposition des mains.",
+      "details1": "Le reiki est une méthode de soin énergétique d’origine japonaise. Le praticien pose ses mains sur ou au-dessus de différentes parties du corps, en suivant les centres énergétiques (chakras). Aucune manipulation physique n’est effectuée : c’est l’énergie universelle qui circule à travers les mains pour harmoniser les flux énergétiques du receveur. Vous restez habillé durant toute la séance.",
+      "details2": "Le reiki est particulièrement indiqué pour les personnes traversant des périodes de stress, d’anxiété, de fatigue émotionnelle ou de troubles du sommeil. Il accompagne aussi les personnes en convalescence ou confrontées à des épreuves de vie. Ce soin énergétique à Hal ne remplace pas un traitement médical, mais le complète en favorisant l’équilibre intérieur.",
+      "details3": "Après une séance de reiki, vous ressentirez une profonde sensation de calme et de sérénité. Le corps entre dans un état de relaxation qui favorise ses mécanismes d’auto-guérison. Les effets se prolongent souvent pendant plusieurs jours : un sommeil plus réparateur, une meilleure gestion des émotions et un regain de vitalité sont fréquemment rapportés.",
       "durationMin": 60,
       "durationMax": 90,
       "text": "Reconnectez-vous à votre énergie, dès",
@@ -955,6 +970,9 @@
     "cst": {
       "title": "Un soin subtil et profond",
       "hero": "La thérapie cranio-sacrée agit sur le système nerveux pour relâcher les blocages profonds.",
+      "details1": "La thérapie cranio-sacrée repose sur des touchers très légers au niveau du crâne, de la colonne vertébrale et du sacrum. Le praticien perçoit le rythme du liquide céphalorachidien et accompagne le corps dans ses mouvements subtils pour libérer les restrictions tissulaires. Ce soin se déroule habillé, dans un silence apaisant, et dure généralement une heure.",
+      "details2": "Ce soin convient aux personnes souffrant de maux de tête chroniques, de tensions cervicales, de troubles du sommeil, d’acouphènes ou de stress profond. Il est aussi recommandé après un choc émotionnel ou physique. La thérapie cranio-sacrée à Hal s’adresse à tous les âges et respecte le rythme naturel du corps dans son processus d’auto-guérison.",
+      "details3": "Après la séance, une sensation de profonde détente et de clarté mentale est souvent décrite. Le système nerveux retrouve un meilleur équilibre, ce qui se traduit par un sommeil amélioré, une réduction des maux de tête et un apaisement général. Plusieurs séances espacées permettent d’obtenir des résultats durables sur les blocages installés.",
       "durationMin": 60,
       "durationMax": 90,
       "text": "Offrez à votre corps un apaisement durable, dès",
@@ -963,6 +981,9 @@
     "reflexo": {
       "title": "Un soin des pieds aux mille vertus",
       "hero": "La réflexologie plantaire stimule les zones réflexes pour améliorer l’équilibre global du corps.",
+      "details1": "La réflexologie plantaire consiste à exercer des pressions précises sur des zones spécifiques de la voûte plantaire, chacune correspondant à un organe ou une partie du corps. Le praticien utilise ses pouces et ses doigts pour stimuler ces points réflexes, rétablir la circulation énergétique et favoriser le fonctionnement optimal de l’organisme. Le soin se pratique allongé, dans une ambiance douce.",
+      "details2": "Ce soin est adapté aux personnes souffrant de troubles digestifs, de problèmes de circulation, de migraines, de stress ou de fatigue chronique. La réflexologie plantaire à Hal est aussi recommandée pour les personnes en quête de rééquilibrage global, en complément d’un suivi médical ou simplement pour maintenir une bonne santé au quotidien.",
+      "details3": "Après une séance de réflexologie, vous ressentirez un profond relâchement et une meilleure circulation dans les jambes et les pieds. De nombreux clients constatent une amélioration de leur digestion, de leur sommeil et de leur niveau d’énergie dans les jours qui suivent. Un cycle de trois à cinq séances est conseillé pour un rééquilibrage complet.",
       "durationMin": 60,
       "durationMax": 90,
       "text": "Prenez soin de vos pieds, pour",
@@ -971,6 +992,9 @@
     "amma": {
       "title": "Un massage express, partout",
       "hero": "Le amma assis soulage rapidement les tensions au travail ou lors d’un événement.",
+      "details1": "Le amma assis est un massage de tradition japonaise qui se pratique sur une chaise ergonomique, sans huile et sans se déshabiller. En 15 à 20 minutes, le praticien enchaîne des pressions, des percussions et des étirements sur le dos, la nuque, les épaules, les bras et les mains. Un protocole dynamique et efficace qui revitalise rapidement.",
+      "details2": "Ce massage est idéal pour le bien-être en entreprise à Bruxelles et Hal : il s’installe facilement dans un bureau, un open space ou un espace événementiel. Il convient aux salariés stressés, aux équipes en besoin de cohésion ou aux organisateurs d’événements cherchant une animation bien-être originale. Aucun équipement particulier n’est requis côté client.",
+      "details3": "En quelques minutes, le amma assis relâche les tensions accumulées dans le haut du corps, améliore la concentration et redonne de l’énergie. Les collaborateurs repartent détendus et revitalisés. Ce format court et accessible en fait un outil précieux pour améliorer la qualité de vie au travail et réduire l’absentéisme lié au stress.",
       "durationMin": 15,
       "durationMax": 30,
       "text": "Offrez ce moment de bien-être dès",
@@ -979,6 +1003,9 @@
     "voyage": {
       "title": "Un voyage sensoriel et profond",
       "hero": "Ce soin enveloppant agit sur les fascias pour un lâcher-prise profond et une détente totale.",
+      "details1": "Le voyage des sens est un soin complet qui combine un travail sur les fascias, des mouvements enveloppants et l’utilisation d’huiles essentielles soigneusement sélectionnées. Le praticien alterne entre touchers profonds et effleurages légers pour créer une vague sensorielle continue. Ce rituel de deux heures est conçu pour un lâcher-prise total du corps et de l’esprit.",
+      "details2": "Ce soin s’adresse aux personnes en quête de déconnexion totale, confrontées à un épuisement physique ou émotionnel, ou simplement désireuses de vivre une expérience de bien-être hors du commun. Le voyage des sens à Hal est un cocooning profond qui convient aussi comme cadeau exceptionnel pour un être cher.",
+      "details3": "Après cette séance immersive, vous ressentirez un état de profonde sérénité, comme après un long repos réparateur. Les fascias libérés retrouvent leur souplesse, les tensions disparaissent et les sens sont éveillés en douceur. Ce soin laisse une empreinte durable de bien-être qui se prolonge pendant plusieurs jours.",
       "durationMin": 120,
       "durationMax": 150,
       "text": "Entamez votre voyage intérieur pour",

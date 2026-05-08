@@ -75,7 +75,7 @@ export default async function LocaleLayout(props) {
       <body className={`${cormorant.variable} ${openSans.variable}`}>
         <NextIntlClientProvider locale={safeLocale} messages={messages}>
           <a href="#main-content" className="skip-link">
-            Aller au contenu principal
+            {safeLocale === "en" ? "Skip to main content" : safeLocale === "nl" ? "Naar hoofdinhoud" : "Aller au contenu principal"}
           </a>
           <NavWithDropdown />
           <main id="main-content" tabIndex={-1}>

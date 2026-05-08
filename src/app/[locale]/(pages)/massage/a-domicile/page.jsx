@@ -10,7 +10,7 @@ import { LocalBusinessJsonLd } from "next-seo";
 import ServiceBreadcrumbJsonLd from "@/components/Metadata/ServiceBreadcrumbJsonLd";
 import RelatedServices from "@/components/RelatedServices/RelatedServices";
 import ServiceFaq from "@/components/Faq/ServiceFaq";
-import EndOfYearOfferModal from "@/components/Modals/EndOfYearOfferModal";
+
 
 const baseUrl = "https://lavoiedubienetre.be";
 
@@ -99,8 +99,9 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default function Page({ params }) {
-  const { locale } = params || {};
+export default async function Page(props) {
+  const { params } = props;
+  const { locale } = await params;
   const currentLocale = locale ?? "fr";
 
   const localBusinessId = `${baseUrl}/${currentLocale}#local-business`;
@@ -153,7 +154,6 @@ export default function Page({ params }) {
       {/* JSON-LD du service massage a domicile */}
       <MassageServiceJSONLD slug="domicile" locale={currentLocale} />
       <ServiceBreadcrumbJsonLd locale={currentLocale} serviceName="Massage a domicile" serviceUrl={`${baseUrl}/${currentLocale}/massage/a-domicile`} />
-<EndOfYearOfferModal />
       <main>
         <HeroMassage variant="domicile" />
         <WhyThisCare title="domicile" />
