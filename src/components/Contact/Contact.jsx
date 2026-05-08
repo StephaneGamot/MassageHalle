@@ -27,7 +27,7 @@ export default function Contact() {
         <div className="mx-auto max-w-2xl rounded-3xl bg-white px-6 py-10 sm:px-10 sm:py-14 shadow-[0_8px_32px_rgba(0,0,0,0.06)]">
 
           <div className="text-center">
-            <p className="label-or mb-3">{t("ctaWhatsapp") ? "Contact" : "Contact"}</p>
+            <p className="label-or mb-3">Contact</p>
             <h2
               id="contact-title"
               className="text-3xl sm:text-4xl tracking-tight"

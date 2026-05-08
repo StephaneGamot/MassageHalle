@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import Image from "next/image";
 import { useTranslations, useLocale } from "next-intl";
 import Hero1 from "./../../../public/Images/hero/hero-1.webp";
@@ -59,12 +58,7 @@ export default function Hero() {
                 {t("ctaWhatsapp") || "Réserver via WhatsApp"}
               </a>
 
-              <Link
-                href="https://widget.treatwell.be/fr/salon/la-voie-du-bien-etre/"
-                className="btn-outline !text-[#D4BA91] !border-[#D4BA91]/40 hover:!bg-[#D4BA91] hover:!text-[#1B3A2D]"
-              >
-                {t("ctaSecondary")}
-              </Link>
+
             </div>
 
             {/* Social proof */}

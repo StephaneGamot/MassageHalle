@@ -103,7 +103,7 @@ export default async function Page(props) {
   const { locale } = await params;
   const currentLocale = locale ?? "fr";
 
-  const localBusinessId = `${baseUrl}/${currentLocale}#local-business`;
+  const localBusinessId = `${baseUrl}/#localbusiness`;
 
   return (
     <>
@@ -156,7 +156,7 @@ export default async function Page(props) {
       {/* Breadcrumb JSON-LD */}
       <ServiceBreadcrumbJsonLd
         locale={currentLocale}
-        serviceName="Douceur Dorsale"
+        serviceName="Massage Douceur Dorsale"
         serviceUrl={`${baseUrl}/${currentLocale}/massage/douceur-dorsale`}
       />
 

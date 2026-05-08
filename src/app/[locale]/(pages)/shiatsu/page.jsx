@@ -108,7 +108,7 @@ export default async function Page(props) {
     <>
       <LocalBusinessJsonLd
         type="HealthAndBeautyBusiness"
-        id={`${baseUrl}/${currentLocale}#local-business`}
+        id={`${baseUrl}/#localbusiness`}
         name="La Voie du Bien-Être"
         description="Massages relaxants, bien-être, shiatsu et soins énergétiques à Halle – Bruxelles."
         url={`${baseUrl}/${currentLocale}`}

@@ -1,7 +1,9 @@
+import { getTranslations } from "next-intl/server";
 
-export default function GoogleMap() {
+export default async function GoogleMap() {
+  const t = await getTranslations("map");
   return (
-    <section className="bg-[#FAFAF7]" aria-label="Localisation">
+    <section className="bg-[#FAFAF7]" aria-label={t("ariaLabel")}>
       <div className="section-wrap">
         <div className="w-full aspect-[16/9] max-h-[450px] rounded-2xl overflow-hidden shadow-md">
           <iframe
@@ -12,7 +14,7 @@ export default function GoogleMap() {
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Carte Google Maps — La Voie du Bien-Être à Halle"
+            title={t("iframeTitle")}
           />
         </div>
       </div>

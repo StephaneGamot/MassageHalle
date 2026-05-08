@@ -20,7 +20,18 @@
     "home": "Home",
     "homeLabel": "Home",
     "menuOpen": "Menu openen",
-    "menuClose": "Menu sluiten"
+    "menuClose": "Menu sluiten",
+    "langSwitcherLabel": "Taal wijzigen",
+    "langListLabel": "Beschikbare talen"
+  },
+  "gallery": {
+    "srTitle": "Afbeeldingengalerij",
+    "emptyLabel": "Afbeeldingengalerij",
+    "emptyText": "Geen afbeeldingen beschikbaar voor deze pagina."
+  },
+  "map": {
+    "ariaLabel": "Locatie",
+    "iframeTitle": "Google Maps — La Voie du Bien-Être in Halle"
   },
   "footer": {
     "informations": "Informatie",
@@ -305,8 +316,8 @@
       {
         "id": 16,
         "body": "Een warm onthaal en een behandeling vol finesse.",
-        "alt": "gezicht straalt ontspanning uit – Camille vandevivere",
-        "author": "Camille vandevivere"
+        "alt": "gezicht straalt ontspanning uit – Camille Vandevivere",
+        "author": "Camille Vandevivere"
       },
       {
         "id": 17,
@@ -455,8 +466,8 @@
       {
         "id": 41,
         "body": "Ik had niet gedacht dat ik zo snel kon loslaten…",
-        "alt": "tevreden klant na de massage – Caroline Simon.",
-        "author": "Caroline Simon."
+        "alt": "tevreden klant na de massage – Caroline Simon",
+        "author": "Caroline Simon"
       },
       {
         "id": 42,
@@ -861,7 +872,7 @@
       "durationMin": 90,
       "durationMax": 120,
       "text": "Gun uzelf dit moment van sereniteit vanaf",
-      "price": "119,90€"
+      "price": "119,90 €"
     },
     "sportif": {
       "title": "Een krachtige en gerichte massage",
@@ -872,7 +883,7 @@
       "durationMin": 60,
       "durationMax": 90,
       "text": "Zorg voor uw spieren vanaf",
-      "price": "85€"
+      "price": "85 €"
     },
     "domicile": {
       "title": "Een behandeling bij u thuis, in alle rust",
@@ -883,7 +894,7 @@
       "durationMin": 90,
       "durationMax": 120,
       "text": "Ontvang deze behandeling thuis vanaf",
-      "price": "185€"
+      "price": "185 €"
     },
     "tao": {
       "title": "Een rustgevend sensueel ritueel",
@@ -894,7 +905,7 @@
       "durationMin": 90,
       "durationMax": 120,
       "text": "Herontdek uw vitale energie vanaf",
-      "price": "150€"
+      "price": "150 €"
     },
     "dos": {
       "title": "Een gerichte behandeling voor rugverlichting",
@@ -905,7 +916,7 @@
       "durationMin": 60,
       "durationMax": 90,
       "text": "Verlicht uw rug voor",
-      "price": "85€"
+      "price": "85 €"
     },
     "anticellulite": {
       "title": "Een verstevigende en revitaliserende massage",
@@ -916,7 +927,7 @@
       "durationMin": 60,
       "durationMax": 90,
       "text": "Geef uw lichaam een nieuwe impuls vanaf",
-      "price": "85€"
+      "price": "85 €"
     },
     "deeptissue": {
       "title": "Een diepe weefselmassage",
@@ -927,7 +938,7 @@
       "durationMin": 60,
       "durationMax": 90,
       "text": "Ontspan uw spieren voor",
-      "price": "85€"
+      "price": "85 €"
     },
     "shiatsu": {
       "title": "Een energetisch balancerende behandeling",
@@ -938,7 +949,7 @@
       "durationMin": 60,
       "durationMax": 90,
       "text": "Vind uw innerlijke balans vanaf",
-      "price": "85€"
+      "price": "85 €"
     },
     "reiki": {
       "title": "Een zachte harmonisatie",
@@ -949,7 +960,7 @@
       "durationMin": 60,
       "durationMax": 90,
       "text": "Herontdek uw energie vanaf",
-      "price": "85€"
+      "price": "85 €"
     },
     "cst": {
       "title": "Een subtiele en diepe behandeling",
@@ -960,7 +971,7 @@
       "durationMin": 60,
       "durationMax": 90,
       "text": "Bied uw lichaam duurzame verlichting vanaf",
-      "price": "85€"
+      "price": "85 €"
     },
     "reflexo": {
       "title": "Voetverzorging met talloze voordelen",
@@ -971,7 +982,7 @@
       "durationMin": 60,
       "durationMax": 90,
       "text": "Verzorg uw voeten voor",
-      "price": "85€"
+      "price": "85 €"
     },
     "amma": {
       "title": "Een expressmassage, overal",
@@ -982,7 +993,7 @@
       "durationMin": 15,
       "durationMax": 30,
       "text": "Bied dit moment van welzijn vanaf",
-      "price": "25€"
+      "price": "25 €"
     },
     "voyage": {
       "title": "Een sensorische en diepe reis",
@@ -993,7 +1004,7 @@
       "durationMin": 120,
       "durationMax": 150,
       "text": "Begin uw innerlijke reis voor",
-      "price": "145€"
+      "price": "145 €"
     },
     "common": {
       "location": "Aan huis of in de praktijk",
@@ -1070,187 +1081,187 @@
         "answer": "Ja, sommige massages zijn geschikt vanaf het tweede trimester."
       },
       {
-        "id": 14,
+        "id": 13,
         "question": "Hoe vaak zou ik een massage moeten krijgen?",
         "answer": "Afhankelijk van je behoeften, maar één sessie per maand is ideaal voor blijvend welzijn."
       },
       {
-        "id": 15,
+        "id": 14,
         "question": "Zijn er contra-indicaties voor massage?",
         "answer": "Ja, koorts, besmettelijke ziekten, flebitis, recente breuken kunnen contra-indicaties zijn."
       },
       {
-        "id": 16,
+        "id": 15,
         "question": "Moet ik me volledig uitkleden voor een massage?",
         "answer": "Nee, alleen de te masseren zones worden ontbloot, afhankelijk van je comfort."
       },
       {
-        "id": 17,
+        "id": 16,
         "question": "Wat is voetreflexologie?",
         "answer": "Een massage van de voeten die reflexzones stimuleert die overeenkomen met de organen, om het lichaam in evenwicht te brengen."
       },
       {
-        "id": 18,
+        "id": 17,
         "question": "Welke massages bevorderen de slaap?",
         "answer": "Ontspanningsmassage, Reiki en cranio-sacrale therapie zijn uitstekend voor een betere slaap."
       },
       {
-        "id": 19,
+        "id": 18,
         "question": "Kan een massage migraine verlichten?",
         "answer": "Ja, hoofdmassage of Shiatsu kunnen hoofdpijn helpen verlichten."
       },
       {
-        "id": 20,
+        "id": 19,
         "question": "Is Reiki een massage?",
         "answer": "Nee, het is een energetische methode gebaseerd op handoplegging, zonder fysieke manipulatie."
       },
       {
-        "id": 21,
+        "id": 20,
         "question": "Welke massage is geschikt bij spierpijn?",
         "answer": "Een sportmassage of deep tissue massage is ideaal bij diepe spierspanningen."
       },
       {
-        "id": 22,
+        "id": 21,
         "question": "Moet je in Reiki geloven opdat het werkt?",
         "answer": "Nee, Reiki werkt onafhankelijk van geloof; het werkt met de energie van het lichaam."
       },
       {
-        "id": 23,
+        "id": 22,
         "question": "Hoe lang duurt een massage?",
         "answer": "Tussen 60 en 120 minuten, afhankelijk van de gekozen behandeling."
       },
       {
-        "id": 24,
+        "id": 23,
         "question": "Kan ik een massagesessie cadeau doen?",
         "answer": "Ja, er zijn cadeaubonnen beschikbaar om welzijn te schenken aan dierbaren."
       },
       {
-        "id": 25,
+        "id": 24,
         "question": "Welke massage helpt bij herstel na sport?",
         "answer": "De sportmassage helpt spieren te ontspannen en bevordert het herstel."
       },
       {
-        "id": 26,
+        "id": 25,
         "question": "Moet ik douchen na een massage?",
         "answer": "Niet verplicht. Laat de essentiële oliën bij voorkeur intrekken voor een beter effect."
       },
       {
-        "id": 27,
+        "id": 26,
         "question": "Helpt massage de spijsvertering?",
         "answer": "Ja, buikmassage of voetreflexologie kunnen helpen bij een betere spijsvertering."
       },
       {
-        "id": 28,
+        "id": 27,
         "question": "Is stoelmassage effectief?",
         "answer": "Ja, het ontspant snel rug, nek en schouders in slechts 15-20 minuten."
       },
       {
-        "id": 29,
+        "id": 28,
         "question": "Mag ik praten tijdens de sessie?",
         "answer": "Dat mag zeker. De meeste mensen verkiezen stilte voor optimale ontspanning."
       },
       {
-        "id": 30,
+        "id": 29,
         "question": "Wat is cranio-sacrale therapie?",
         "answer": "Een zachte methode die spanningen loslaat in de schedel, wervelkolom en heiligbeen."
       },
       {
-        "id": 31,
+        "id": 30,
         "question": "Zijn massages geschikt voor kinderen?",
         "answer": "Ja, zachte massages zijn mogelijk voor kinderen vanaf 16 jaar."
       },
       {
-        "id": 32,
+        "id": 31,
         "question": "Helpt massage bij angst?",
         "answer": "Ja, massage stimuleert endorfines en kalmeert het zenuwstelsel."
       },
       {
-        "id": 33,
+        "id": 32,
         "question": "Helpt massage bij gewichtsverlies?",
         "answer": "Massages doen je niet afvallen, maar anti-cellulite massages helpen het lichaam te verstevigen."
       },
       {
-        "id": 34,
+        "id": 33,
         "question": "Is er een leeftijdsgrens voor massage?",
         "answer": "Nee, massages zijn geschikt voor alle leeftijden en kunnen worden aangepast voor ouderen."
       },
       {
-        "id": 35,
+        "id": 34,
         "question": "Wat moet ik dragen voor een massage?",
         "answer": "Comfortabele kleding, vooral bij behandelingen waarbij je gekleed blijft zoals Shiatsu."
       },
       {
-        "id": 36,
+        "id": 35,
         "question": "Mag een litteken gemasseerd worden?",
         "answer": "Ja, maar pas na volledige genezing. Vraag eventueel medisch advies."
       },
       {
-        "id": 37,
+        "id": 36,
         "question": "Verbetert massage de bloedsomloop?",
         "answer": "Ja, het bevordert de veneuze terugstroom en zuurstofvoorziening van de weefsels."
       },
       {
-        "id": 38,
+        "id": 37,
         "question": "Is Reiki compatibel met medische behandelingen?",
         "answer": "Ja, Reiki vervangt geen medische zorg maar ondersteunt het herstelproces."
       },
       {
-        "id": 39,
+        "id": 38,
         "question": "Helpt massage bij chronische pijn?",
         "answer": "Ja, vooral bij rug-, nek- en stressgerelateerde pijnklachten."
       },
       {
-        "id": 40,
+        "id": 39,
         "question": "Wat is het verschil tussen energetische en fysieke massage?",
         "answer": "Energetische massage werkt op subtiele energie, fysieke massage werkt op spieren en weefsels."
       },
       {
-        "id": 41,
+        "id": 40,
         "question": "Helpt massage bij concentratie?",
         "answer": "Ja, door stress te verminderen, bevordert het mentaal evenwicht en focus."
       },
       {
-        "id": 42,
+        "id": 41,
         "question": "Mag ik een massage krijgen als ik moe ben?",
         "answer": "Ja, juist dan! Massage revitaliseert lichaam en geest."
       },
       {
-        "id": 43,
+        "id": 42,
         "question": "Zijn massages ook voor mannen?",
         "answer": "Natuurlijk, onze zorg is voor iedereen, ongeacht geslacht of leeftijd."
       },
       {
-        "id": 44,
+        "id": 43,
         "question": "Worden natuurlijke oliën gebruikt?",
         "answer": "Ja, we gebruiken 100% natuurlijke plantaardige en essentiële oliën."
       },
       {
-        "id": 45,
+        "id": 44,
         "question": "Wat voel ik na een massage?",
         "answer": "Ontspanning, hernieuwde energie, beter humeur. Soms lichte vermoeidheid door het loslaten."
       },
       {
-        "id": 46,
+        "id": 45,
         "question": "Zijn er bijwerkingen?",
         "answer": "Zelden. Soms lichte vermoeidheid of toegenomen eliminatie na het loslaten van spanning."
       },
       {
-        "id": 47,
+        "id": 46,
         "question": "Helpt massage bij burn-out?",
         "answer": "Ja, het helpt bij het herwinnen van kalmte en contact met het lichaam."
       },
       {
-        "id": 48,
+        "id": 47,
         "question": "Brengt massage emotioneel evenwicht?",
         "answer": "Ja, het kalmeert het zenuwstelsel en helpt bij emotionele balans."
       },
       {
-        "id": 49,
+        "id": 48,
         "question": "Moet ik op voorhand reserveren?",
         "answer": "Ja, alle sessies zijn op afspraak voor jouw comfort en rust."
       },
       {
-        "id": 50,
+        "id": 49,
         "question": "Wat is het verschil tussen massage thuis en in de praktijk?",
         "answer": "Thuis ben je in je eigen ruimte. In de praktijk is alles geoptimaliseerd voor jouw welzijn."
       }

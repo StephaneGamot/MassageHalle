@@ -2,6 +2,7 @@
 
 import { usePathname, useRouter } from 'next/navigation';
 import { useState, useTransition, useEffect, useRef } from 'react';
+import { useTranslations } from 'next-intl';
 import { routing } from '@/i18n/routing';
 
 const { locales } = routing;
@@ -13,6 +14,7 @@ const flags = {
 };
 
 export default function LangSwitcher({ direction = 'down' }) {
+  const t = useTranslations('nav');
   const pathname = usePathname();
   const router = useRouter();
   const [isPending, startTransition] = useTransition();
@@ -79,7 +81,7 @@ export default function LangSwitcher({ direction = 'down' }) {
         className="w-24 h-9 flex items-center justify-center gap-2 rounded-xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-neutral-900 shadow-sm text-sm font-medium text-gray-800 dark:text-white min-h-[44px]"
         aria-expanded={open}
         aria-haspopup="listbox"
-        aria-label="Changer de langue"
+        aria-label={t('langSwitcherLabel')}
       >
         {flags[currentLocale]} {currentLocale.toUpperCase()}
       </button>
@@ -90,7 +92,7 @@ export default function LangSwitcher({ direction = 'down' }) {
             direction === 'up' ? 'bottom-full mb-1' : 'top-full mt-1'
           }`}
           role="listbox"
-          aria-label="Langues disponibles"
+          aria-label={t('langListLabel')}
         >
           {locales
             .filter((loc) => loc !== currentLocale)

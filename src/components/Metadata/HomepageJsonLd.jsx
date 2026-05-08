@@ -1,5 +1,3 @@
-"use client";
-
 export default function HomepageJsonLd({ locale }) {
   const baseUrl = "https://lavoiedubienetre.be";
 
@@ -177,6 +175,13 @@ export default function HomepageJsonLd({ locale }) {
     name: "La Voie du Bien-Être",
     url: `${baseUrl}/${locale || "fr"}`,
     telephone: "+32477131993",
+    description: {
+      fr: "Massages relaxants, bien-être, shiatsu et soins énergétiques à Halle – Bruxelles.",
+      en: "Relaxing massages, wellness, shiatsu and energy treatments in Halle – Brussels.",
+      nl: "Ontspannende massages, welzijn, shiatsu en energetische behandelingen in Halle – Brussel.",
+    }[locale] || "Massages relaxants, bien-être, shiatsu et soins énergétiques à Halle – Bruxelles.",
+    priceRange: "€€",
+    image: [`${baseUrl}/Images/OpenGraph/accueil-massage-halle.webp`],
     address: {
       "@type": "PostalAddress",
       streetAddress: "Octave de Kerchove d'Exaerdestraat 193",
@@ -185,6 +190,34 @@ export default function HomepageJsonLd({ locale }) {
       addressRegion: "Vlaams-Brabant",
       addressCountry: "BE",
     },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: 50.7464695,
+      longitude: 4.2563906,
+    },
+    openingHoursSpecification: [
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        opens: "10:00",
+        closes: "19:00",
+      },
+    ],
+    sameAs: [
+      "https://www.facebook.com/lavoiedubienetremassageshiatsureikireflexologie/",
+    ],
+    areaServed: [
+      { "@type": "City", name: "Halle" },
+      { "@type": "City", name: "Bruxelles" },
+      { "@type": "City", name: "Waterloo" },
+      { "@type": "City", name: "Uccle" },
+      { "@type": "City", name: "Braine-l'Alleud" },
+      { "@type": "City", name: "Dilbeek" },
+      { "@type": "City", name: "Tubize" },
+      { "@type": "City", name: "Rhode-Saint-Genèse" },
+      { "@type": "City", name: "Enghien" },
+      { "@type": "City", name: "Leerbeek" },
+    ],
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: "4.9",

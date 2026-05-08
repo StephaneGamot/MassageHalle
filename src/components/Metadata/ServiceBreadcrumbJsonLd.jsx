@@ -1,5 +1,3 @@
-"use client";
-
 export default function ServiceBreadcrumbJsonLd({ locale, serviceName, serviceUrl }) {
   const baseUrl = "https://lavoiedubienetre.be";
 

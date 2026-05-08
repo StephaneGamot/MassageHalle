@@ -5,7 +5,7 @@ export const defaultMetadata = {
   metadataBase: new URL("https://lavoiedubienetre.be"),
   title: {
     default: "Massage bien-être à Hal – Bruxelles | La Voie du Bien-Être",
-    template: "%s",
+    template: "%s | La Voie du Bien-Être",
   },
   description:
     "Massages relaxants, shiatsu, reiki et soins thérapeutiques à Hal et Bruxelles. En cabinet ou à domicile. Réservez votre séance bien-être dès maintenant !",
@@ -19,7 +19,7 @@ export const defaultMetadata = {
       "Massages relaxants, shiatsu et soins énergétiques à Hal. Offrez-vous une parenthèse de détente en cabinet ou à domicile.",
     images: [
       {
-        url: "/Images/OpenGraph/accueil-massage-halle.webp",
+        url: "https://lavoiedubienetre.be/Images/OpenGraph/accueil-massage-halle.webp",
         width: 1200,
         height: 627,
         alt: "Salle de massage bien-être chaleureuse à Hal — La Voie du Bien-Être",

@@ -282,7 +282,7 @@ export default function MassageServiceJSONLD({ slug, locale = "fr" }) {
     : `/${currentLocale}/massage/${service.path}`;
   const url = `${baseUrl}${servicePath}`;
 
-  const localBusinessId = `${baseUrl}/${currentLocale}#local-business`;
+  const localBusinessId = `${baseUrl}/#localbusiness`;
 
   const offers = BASE_OFFERS.map((offer) => ({
     "@type": "Offer",

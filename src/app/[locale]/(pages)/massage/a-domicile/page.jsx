@@ -104,7 +104,7 @@ export default async function Page(props) {
   const { locale } = await params;
   const currentLocale = locale ?? "fr";
 
-  const localBusinessId = `${baseUrl}/${currentLocale}#local-business`;
+  const localBusinessId = `${baseUrl}/#localbusiness`;
 
   return (
     <>

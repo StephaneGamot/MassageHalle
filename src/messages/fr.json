@@ -20,7 +20,18 @@
     "home": "Accueil",
     "homeLabel": "Accueil",
     "menuOpen": "Ouvrir le menu",
-    "menuClose": "Fermer le menu"
+    "menuClose": "Fermer le menu",
+    "langSwitcherLabel": "Changer de langue",
+    "langListLabel": "Langues disponibles"
+  },
+  "gallery": {
+    "srTitle": "Galerie d'images",
+    "emptyLabel": "Galerie d'images",
+    "emptyText": "Aucune image disponible pour cette page."
+  },
+  "map": {
+    "ariaLabel": "Localisation",
+    "iframeTitle": "Carte Google Maps — La Voie du Bien-Être à Halle"
   },
   "footer": {
     "informations": "Informations",
@@ -316,7 +327,7 @@
       {
         "id": 16,
         "body": "Un accueil chaleureux et un soin tout en finesse.",
-        "alt": "visage illuminé de détente de Camille vandevivere",
+        "alt": "visage illuminé de détente de Camille Vandevivere",
         "author": "Camille Vandevivere"
       },
       {
@@ -466,8 +477,8 @@
       {
         "id": 41,
         "body": "Je ne pensais pas pouvoir lâcher prise si vite…",
-        "alt": "client satisfait du massage de Caroline Simon.",
-        "author": "Caroline Simon."
+        "alt": "client satisfait du massage de Caroline Simon",
+        "author": "Caroline Simon"
       },
       {
         "id": 42,

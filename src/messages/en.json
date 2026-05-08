@@ -20,7 +20,18 @@
     "home": "Home",
     "homeLabel": "Home",
     "menuOpen": "Open menu",
-    "menuClose": "Close menu"
+    "menuClose": "Close menu",
+    "langSwitcherLabel": "Change language",
+    "langListLabel": "Available languages"
+  },
+  "gallery": {
+    "srTitle": "Image gallery",
+    "emptyLabel": "Image gallery",
+    "emptyText": "No images available for this page."
+  },
+  "map": {
+    "ariaLabel": "Location",
+    "iframeTitle": "Google Maps — La Voie du Bien-Être in Halle"
   },
   "footer": {
     "informations": "Information",
@@ -305,8 +316,8 @@
       {
         "id": 16,
         "body": "A warm welcome and a treatment filled with finesse.",
-        "alt": "face glowing with relaxation – Camille vandevivere",
-        "author": "Camille vandevivere"
+        "alt": "face glowing with relaxation – Camille Vandevivere",
+        "author": "Camille Vandevivere"
       },
       {
         "id": 17,
@@ -455,8 +466,8 @@
       {
         "id": 41,
         "body": "I didn’t think I could let go so quickly…",
-        "alt": "satisfied massage client – Caroline Simon.",
-        "author": "Caroline Simon."
+        "alt": "satisfied massage client – Caroline Simon",
+        "author": "Caroline Simon"
       },
       {
         "id": 42,
@@ -1040,7 +1051,7 @@
           "answer": "Yes, Reiki calms the mind, releases emotional tension, and induces deep relaxation."
         },
         {
-          "id": 11,
+          "id": 10,
           "question": "How long is a foot reflexology session?",
           "answer": "A session usually lasts between 45 minutes and 1 hour."
         },
