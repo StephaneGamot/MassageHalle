@@ -19,9 +19,9 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Reiki à Hal – Soin énergétique | La Voie du Bien-Être",
-      en: "Reiki in Halle – Energy Healing | La Voie du Bien-Être",
-      nl: "Reiki in Halle – Energetische zorg | La Voie du Bien-Être",
+      fr: "Reiki à Hal – Soin énergétique",
+      en: "Reiki in Halle – Energy Healing",
+      nl: "Reiki in Halle – Energetische zorg",
     }[currentLocale],
     description: {
       fr: "Soin Reiki à Hal dès 80€ : réharmonisez vos énergies et retrouvez l'équilibre intérieur. Accompagnement doux et bienveillant. Réservez !",

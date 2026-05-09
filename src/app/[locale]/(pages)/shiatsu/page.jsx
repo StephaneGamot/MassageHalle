@@ -19,9 +19,9 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Shiatsu à Hal (Bruxelles) | La Voie du Bien-Être",
-      en: "Shiatsu in Halle (Brussels) | La Voie du Bien-Être",
-      nl: "Shiatsu in Halle (Brussel) | La Voie du Bien-Être",
+      fr: "Shiatsu à Hal (Bruxelles)",
+      en: "Shiatsu in Halle (Brussels)",
+      nl: "Shiatsu in Halle (Brussel)",
     }[currentLocale],
     description: {
       fr: "Shiatsu à Hal dès 80€ : rééquilibrez votre énergie, libérez les tensions et retrouvez un bien-être profond et durable. Réservez !",

@@ -19,9 +19,9 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Massage relaxant à Hal | La Voie du Bien-Être",
-      en: "Relaxing Massage in Halle | La Voie du Bien-Être",
-      nl: "Ontspanningsmassage in Halle | La Voie du Bien-Être",
+      fr: "Massage relaxant à Hal",
+      en: "Relaxing Massage in Halle",
+      nl: "Ontspanningsmassage in Halle",
     }[currentLocale],
     description: {
       fr: "Massage relaxant à Hal dès 80€ : relâchez stress et tensions grâce à un soin doux et enveloppant. Détente totale garantie. Réservez !",
@@ -39,9 +39,9 @@ export async function generateMetadata({ params }) {
     },
     openGraph: {
       title: {
-        fr: "Massage relaxant à Hal | La Voie du Bien-Être",
-        en: "Relaxing Massage in Halle | La Voie du Bien-Être",
-        nl: "Ontspanningsmassage in Halle | La Voie du Bien-Être",
+        fr: "Massage relaxant à Hal",
+        en: "Relaxing Massage in Halle",
+        nl: "Ontspanningsmassage in Halle",
       }[currentLocale],
       description: {
         fr: "Massage relaxant à Hal dès 80€ : relâchez stress et tensions grâce à un soin doux et enveloppant. Détente totale garantie. Réservez !",
@@ -73,9 +73,9 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       site: "@voiedubienetre",
       title: {
-        fr: "Massage relaxant à Hal | La Voie du Bien-Être",
-        en: "Relaxing Massage in Halle | La Voie du Bien-Être",
-        nl: "Ontspanningsmassage in Halle | La Voie du Bien-Être",
+        fr: "Massage relaxant à Hal",
+        en: "Relaxing Massage in Halle",
+        nl: "Ontspanningsmassage in Halle",
       }[currentLocale],
       description: {
         fr: "Massage relaxant à Hal : relâchez le stress et les tensions grâce à un soin doux et enveloppant. Réservez maintenant !",

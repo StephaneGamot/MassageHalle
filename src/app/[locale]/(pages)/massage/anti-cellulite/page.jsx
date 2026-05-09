@@ -19,9 +19,9 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Massage anti-cellulite à Hal | La Voie du Bien-Être",
-      en: "Anti-Cellulite Massage in Halle | La Voie du Bien-Être",
-      nl: "Anti-cellulite massage in Halle | La Voie du Bien-Être",
+      fr: "Massage anti-cellulite à Hal",
+      en: "Anti-Cellulite Massage in Halle",
+      nl: "Anti-cellulite massage in Halle",
     }[currentLocale],
     description: {
       fr: "Réduisez la cellulite grâce à un massage drainant et tonifiant à Hal, près de Bruxelles. Résultats visibles rapidement. Réservez maintenant !",
@@ -50,9 +50,9 @@ export async function generateMetadata({ params }) {
     },
     openGraph: {
       title: {
-        fr: "Massage anti-cellulite à Hal | La Voie du Bien-Être",
-        en: "Anti-Cellulite Massage in Halle | La Voie du Bien-Être",
-        nl: "Anti-cellulite massage in Halle | La Voie du Bien-Être",
+        fr: "Massage anti-cellulite à Hal",
+        en: "Anti-Cellulite Massage in Halle",
+        nl: "Anti-cellulite massage in Halle",
       }[currentLocale],
       description: {
         fr: "Réduisez la cellulite grâce à un massage drainant et tonifiant à Hal, près de Bruxelles. Résultats visibles rapidement. Réservez maintenant !",
@@ -84,9 +84,9 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       site: "@voiedubienetre",
       title: {
-        fr: "Massage anti-cellulite à Hal | La Voie du Bien-Être",
-        en: "Anti-Cellulite Massage in Halle | La Voie du Bien-Être",
-        nl: "Anti-cellulite massage in Halle | La Voie du Bien-Être",
+        fr: "Massage anti-cellulite à Hal",
+        en: "Anti-Cellulite Massage in Halle",
+        nl: "Anti-cellulite massage in Halle",
       }[currentLocale],
       description: {
         fr: "Réduisez la cellulite grâce à un massage drainant et tonifiant à Hal, près de Bruxelles. Résultats visibles rapidement. Réservez maintenant !",

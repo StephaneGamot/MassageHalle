@@ -19,9 +19,9 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Massage sportif à Hal – Récupération | La Voie du Bien-Être",
-      en: "Sports Massage in Halle – Recovery | La Voie du Bien-Être",
-      nl: "Sportmassage in Halle – Herstel | La Voie du Bien-Être",
+      fr: "Massage sportif à Hal – Récupération",
+      en: "Sports Massage in Halle – Recovery",
+      nl: "Sportmassage in Halle – Herstel",
     }[currentLocale],
     description: {
       fr: "Massage sportif à Hal dès 80€ : récupération optimale et soulagement des tensions musculaires après l’effort. Réservez maintenant !",
@@ -39,9 +39,9 @@ export async function generateMetadata({ params }) {
     },
     openGraph: {
       title: {
-        fr: "Massage sportif à Hal – Récupération | La Voie du Bien-Être",
-        en: "Sports Massage in Halle – Recovery | La Voie du Bien-Être",
-        nl: "Sportmassage in Halle – Herstel | La Voie du Bien-Être",
+        fr: "Massage sportif à Hal – Récupération",
+        en: "Sports Massage in Halle – Recovery",
+        nl: "Sportmassage in Halle – Herstel",
       }[currentLocale],
       description: {
         fr: "Massage sportif à Hal dès 80€ : récupération optimale et soulagement des tensions musculaires après l’effort. Réservez maintenant !",
@@ -73,9 +73,9 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       site: "@voiedubienetre",
       title: {
-        fr: "Massage sportif à Hal – Récupération | La Voie du Bien-Être",
-        en: "Sports Massage in Halle – Recovery | La Voie du Bien-Être",
-        nl: "Sportmassage in Halle – Herstel | La Voie du Bien-Être",
+        fr: "Massage sportif à Hal – Récupération",
+        en: "Sports Massage in Halle – Recovery",
+        nl: "Sportmassage in Halle – Herstel",
       }[currentLocale],
       description: {
         fr: "Massage sportif à Hal : récupération musculaire et performance optimale. Réservez votre séance maintenant !",

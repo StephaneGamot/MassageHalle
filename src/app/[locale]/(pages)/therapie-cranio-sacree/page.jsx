@@ -19,9 +19,9 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Thérapie Cranio-Sacrée à Hal | La Voie du Bien-Être",
-      en: "Craniosacral Therapy in Halle (Brussels) | La Voie du Bien-Être",
-      nl: "Craniosacrale Therapie in Halle | La Voie du Bien-Être",
+      fr: "Thérapie Cranio-Sacrée à Hal",
+      en: "Craniosacral Therapy in Halle (Brussels)",
+      nl: "Craniosacrale Therapie in Halle",
     }[currentLocale],
     description: {
       fr: "Thérapie cranio-sacrée à Hal : libérez les blocages du système nerveux grâce à un soin subtil et puissant. Réservez votre séance dès maintenant !",

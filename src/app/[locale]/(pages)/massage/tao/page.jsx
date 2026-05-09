@@ -19,9 +19,9 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Massage tao à Hal – Harmonie & Énergie | Bien-Être",
-      en: "Tao Massage in Halle – Harmony | La Voie du Bien-Être",
-      nl: "Tao Massage in Halle – Harmonie | La Voie du Bien-Être",
+      fr: "Massage tao à Hal – Harmonie & Énergie",
+      en: "Tao Massage in Halle – Harmony",
+      nl: "Tao Massage in Halle – Harmonie",
     }[currentLocale],
     description: {
       fr: "Massage tao à Hal dès 80€ : reconnectez-vous à votre énergie vitale. Douceur, lenteur et conscience du corps. Réservez maintenant !",
@@ -39,9 +39,9 @@ export async function generateMetadata({ params }) {
     },
     openGraph: {
       title: {
-        fr: "Massage tao à Hal – Harmonie & Énergie | Bien-Être",
-        en: "Tao Massage in Halle – Harmony | La Voie du Bien-Être",
-        nl: "Tao Massage in Halle – Harmonie | La Voie du Bien-Être",
+        fr: "Massage tao à Hal – Harmonie & Énergie",
+        en: "Tao Massage in Halle – Harmony",
+        nl: "Tao Massage in Halle – Harmonie",
       }[currentLocale],
       description: {
         fr: "Massage tao à Hal dès 80€ : reconnectez-vous à votre énergie vitale. Douceur, lenteur et conscience du corps. Réservez maintenant !",
@@ -73,9 +73,9 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       site: "@voiedubienetre",
       title: {
-        fr: "Massage tao à Hal – Harmonie | La Voie du Bien-Être",
-        en: "Tao Massage in Halle – Harmony | La Voie du Bien-Être",
-        nl: "Tao Massage in Halle – Harmonie | La Voie du Bien-Être",
+        fr: "Massage tao à Hal – Harmonie",
+        en: "Tao Massage in Halle – Harmony",
+        nl: "Tao Massage in Halle – Harmonie",
       }[currentLocale],
       description: {
         fr: "Massage tao à Hal : douceur, lenteur et harmonie pour retrouver l’équilibre. Réservez votre séance !",

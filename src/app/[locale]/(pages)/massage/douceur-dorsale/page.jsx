@@ -19,9 +19,9 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Massage Douceur Dorsale à Hal | La Voie du Bien-Être",
-      en: "Back Massage Douceur Dorsale | La Voie du Bien-Être",
-      nl: "Rugmassage Douceur Dorsale | La Voie du Bien-Être",
+      fr: "Massage Douceur Dorsale à Hal",
+      en: "Back Massage Douceur Dorsale",
+      nl: "Rugmassage Douceur Dorsale",
     }[currentLocale],
     description: {
       fr: "Massage du dos exclusif à Hal : méthode Douceur Dorsale pour libérer les tensions et retrouver un dos détendu et léger. Réservez maintenant !",
@@ -39,9 +39,9 @@ export async function generateMetadata({ params }) {
     },
     openGraph: {
       title: {
-        fr: "Massage Douceur Dorsale à Hal | La Voie du Bien-Être",
-        en: "Back Massage Douceur Dorsale | La Voie du Bien-Être",
-        nl: "Rugmassage Douceur Dorsale | La Voie du Bien-Être",
+        fr: "Massage Douceur Dorsale à Hal",
+        en: "Back Massage Douceur Dorsale",
+        nl: "Rugmassage Douceur Dorsale",
       }[currentLocale],
       description: {
         fr: "Massage du dos exclusif à Hal : méthode Douceur Dorsale pour libérer les tensions et retrouver un dos détendu et léger. Réservez maintenant !",
@@ -73,9 +73,9 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       site: "@voiedubienetre",
       title: {
-        fr: "Massage Douceur Dorsale à Hal | La Voie du Bien-Être",
-        en: "Back Massage Douceur Dorsale | La Voie du Bien-Être",
-        nl: "Rugmassage Douceur Dorsale | La Voie du Bien-Être",
+        fr: "Massage Douceur Dorsale à Hal",
+        en: "Back Massage Douceur Dorsale",
+        nl: "Rugmassage Douceur Dorsale",
       }[currentLocale],
       description: {
         fr: "Soin exclusif du dos Douceur Dorsale à Hal : libérez les tensions dorsales. Réservez votre séance maintenant !",

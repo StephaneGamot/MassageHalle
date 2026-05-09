@@ -21,8 +21,8 @@ export async function generateMetadata({ params }) {
   return {
     title: {
       fr: "Massage à domicile à Hal, Bruxelles et alentours",
-      en: "Home Massage in Halle & Brussels | La Voie du Bien-Être",
-      nl: "Massage aan huis in Halle & Brussel | Bien-Être",
+      en: "Home Massage in Halle & Brussels",
+      nl: "Massage aan huis in Halle & Brussel",
     }[currentLocale],
     description: {
       fr: "Massage à domicile à Hal dès 80€. Soin personnalisé dans le confort de votre foyer, à Bruxelles et environs. Réservez maintenant !",
@@ -52,8 +52,8 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: {
         fr: "Massage à domicile à Hal, Bruxelles et alentours",
-        en: "Home Massage in Halle & Brussels | La Voie du Bien-Être",
-        nl: "Massage aan huis in Halle & Brussel | Bien-Être",
+        en: "Home Massage in Halle & Brussels",
+        nl: "Massage aan huis in Halle & Brussel",
       }[currentLocale],
       description: {
         fr: "Massage relaxant à domicile à Hal, Bruxelles et environs. Soin personnalisé dans le confort de votre foyer. Réservez votre séance maintenant !",
@@ -86,8 +86,8 @@ export async function generateMetadata({ params }) {
       site: "@voiedubienetre",
       title: {
         fr: "Massage à domicile à Hal, Bruxelles et alentours",
-        en: "Home Massage in Halle & Brussels | La Voie du Bien-Être",
-        nl: "Massage aan huis in Halle & Brussel | Bien-Être",
+        en: "Home Massage in Halle & Brussels",
+        nl: "Massage aan huis in Halle & Brussel",
       }[currentLocale],
       description: {
         fr: "Massage relaxant à domicile à Hal, Bruxelles et environs. Soin personnalisé dans le confort de votre foyer. Réservez votre séance maintenant !",

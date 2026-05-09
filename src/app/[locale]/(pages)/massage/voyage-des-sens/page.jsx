@@ -20,8 +20,8 @@ export async function generateMetadata({ params }) {
   return {
     title: {
       fr: "Massage Voyage des Sens à Hal – Évasion & Détente",
-      en: "Sensory Journey Massage in Halle | La Voie du Bien-Être",
-      nl: "Zintuigenreis Massage in Halle | La Voie du Bien-Être",
+      en: "Sensory Journey Massage in Halle",
+      nl: "Zintuigenreis Massage in Halle",
     }[currentLocale],
     description: {
       fr: "Évasion sensorielle avec le massage Voyage des Sens à Hal, près de Bruxelles. Lâcher-prise total garanti. Réservez votre séance maintenant !",
@@ -51,8 +51,8 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: {
         fr: "Massage Voyage des Sens à Hal – Évasion & Détente",
-        en: "Sensory Journey Massage in Halle | La Voie du Bien-Être",
-        nl: "Zintuigenreis Massage in Halle | La Voie du Bien-Être",
+        en: "Sensory Journey Massage in Halle",
+        nl: "Zintuigenreis Massage in Halle",
       }[currentLocale],
       description: {
         fr: "Évasion sensorielle avec le massage Voyage des Sens à Hal, près de Bruxelles. Lâcher-prise total garanti. Réservez votre séance maintenant !",
@@ -83,8 +83,8 @@ export async function generateMetadata({ params }) {
     twitter: {
       title: {
         fr: "Massage Voyage des Sens à Hal – Évasion & Détente",
-        en: "Sensory Journey Massage in Halle | La Voie du Bien-Être",
-        nl: "Zintuigenreis Massage in Halle | La Voie du Bien-Être",
+        en: "Sensory Journey Massage in Halle",
+        nl: "Zintuigenreis Massage in Halle",
       }[currentLocale],
       description: {
         fr: "Évasion sensorielle avec le massage Voyage des Sens à Hal, près de Bruxelles. Lâcher-prise total garanti. Réservez votre séance maintenant !",

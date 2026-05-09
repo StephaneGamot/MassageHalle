@@ -19,9 +19,9 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Réflexologie plantaire à Hal | La Voie du Bien-Être",
-      en: "Foot Reflexology in Halle (Brussels) | La Voie du Bien-Être",
-      nl: "Voetreflexologie in Halle (Brussel) | La Voie du Bien-Être",
+      fr: "Réflexologie plantaire à Hal",
+      en: "Foot Reflexology in Halle (Brussels)",
+      nl: "Voetreflexologie in Halle (Brussel)",
     }[currentLocale],
     description: {
       fr: "Réflexologie plantaire à Hal : rééquilibrez votre corps par les pieds grâce à une méthode naturelle et apaisante. Réservez votre séance dès maintenant !",
