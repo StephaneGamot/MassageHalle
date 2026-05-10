@@ -18,7 +18,7 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Massage tao à Hal – Harmonie & Énergie",
+      fr: "Massage tao à Hal – Énergie vitale",
       en: "Tao Massage in Halle – Harmony",
       nl: "Tao Massage in Halle – Harmonie",
     }[currentLocale],
@@ -38,7 +38,7 @@ export async function generateMetadata({ params }) {
     },
     openGraph: {
       title: {
-        fr: "Massage tao à Hal – Harmonie & Énergie",
+        fr: "Massage tao à Hal – Énergie vitale",
         en: "Tao Massage in Halle – Harmony",
         nl: "Tao Massage in Halle – Harmonie",
       }[currentLocale],

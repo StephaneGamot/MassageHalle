@@ -57,7 +57,7 @@ export async function generateMetadata({ params }) {
       }[currentLocale],
       images: [
         {
-          url: `${baseUrl}/Images/hero/shiatsu-massage-halle-bruxelles.webp`,
+          url: `${baseUrl}/Images/hero/shiatsu-zen-seance-therapeutique-holistique.webp`,
           width: 1200,
           height: 627,
           alt: {

@@ -18,12 +18,12 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Massage Deep Tissue à Hal",
-      en: "Deep Tissue Massage in Halle",
-      nl: "Deep Tissue Massage in Halle",
+      fr: "Massage Deep Tissue à Hal – Relief",
+      en: "Deep Tissue Massage in Halle – Relief",
+      nl: "Deep Tissue Massage in Halle – Spanning",
     }[currentLocale],
     description: {
-      fr: "Massage Deep Tissue à Hal dès 80€ : libérez les tensions profondes et soulagez les douleurs chroniques. Soin ciblé. Réservez !",
+      fr: "Massage Deep Tissue à Hal dès 80€ : libérez les tensions musculaires profondes, soulagez les douleurs chroniques et retrouvez la mobilité. Réservez !",
       en: "Deep Tissue massage in Halle from €80: release deep tension and relieve chronic pain. Powerful, focused treatment. Book now!",
       nl: "Deep Tissue massage in Halle vanaf €80: laat diepe spanningen los en verlicht chronische pijn. Gerichte behandeling. Boek nu!",
     }[currentLocale],
@@ -38,12 +38,12 @@ export async function generateMetadata({ params }) {
     },
     openGraph: {
       title: {
-        fr: "Massage Deep Tissue à Hal",
-        en: "Deep Tissue Massage in Halle",
-        nl: "Deep Tissue Massage in Halle",
+        fr: "Massage Deep Tissue à Hal – Relief",
+        en: "Deep Tissue Massage in Halle – Relief",
+        nl: "Deep Tissue Massage in Halle – Spanning",
       }[currentLocale],
       description: {
-        fr: "Massage Deep Tissue à Hal dès 80€ : libérez les tensions profondes et soulagez les douleurs chroniques. Soin ciblé. Réservez !",
+        fr: "Massage Deep Tissue à Hal dès 80€ : libérez les tensions musculaires profondes, soulagez les douleurs chroniques et retrouvez la mobilité. Réservez !",
         en: "Deep Tissue massage in Halle from €80: release deep tension and relieve chronic pain. Powerful, focused treatment. Book now!",
         nl: "Deep Tissue massage in Halle vanaf €80: laat diepe spanningen los en verlicht chronische pijn. Gerichte behandeling. Boek nu!",
       }[currentLocale],
@@ -72,9 +72,9 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       site: "@voiedubienetre",
       title: {
-        fr: "Massage Deep Tissue à Hal",
-        en: "Deep Tissue Massage in Halle",
-        nl: "Deep Tissue Massage in Halle",
+        fr: "Massage Deep Tissue à Hal – Relief",
+        en: "Deep Tissue Massage in Halle – Relief",
+        nl: "Deep Tissue Massage in Halle – Spanning",
       }[currentLocale],
       description: {
         fr: "Massage Deep Tissue à Hal : libérez vos tensions profondes avec un soin ciblé et puissant. Réservez maintenant !",

@@ -18,7 +18,7 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Massage Voyage des Sens à Hal – Évasion & Détente",
+      fr: "Voyage des Sens – Massage à Hal",
       en: "Sensory Journey Massage in Halle",
       nl: "Zintuigenreis Massage in Halle",
     }[currentLocale],
@@ -49,7 +49,7 @@ export async function generateMetadata({ params }) {
     },
     openGraph: {
       title: {
-        fr: "Massage Voyage des Sens à Hal – Évasion & Détente",
+        fr: "Voyage des Sens – Massage à Hal",
         en: "Sensory Journey Massage in Halle",
         nl: "Zintuigenreis Massage in Halle",
       }[currentLocale],
@@ -81,7 +81,7 @@ export async function generateMetadata({ params }) {
     },
     twitter: {
       title: {
-        fr: "Massage Voyage des Sens à Hal – Évasion & Détente",
+        fr: "Voyage des Sens – Massage à Hal",
         en: "Sensory Journey Massage in Halle",
         nl: "Zintuigenreis Massage in Halle",
       }[currentLocale],

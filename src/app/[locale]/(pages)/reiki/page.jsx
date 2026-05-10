@@ -43,9 +43,9 @@ export async function generateMetadata({ params }) {
         nl: "Reiki in Halle – Energetische zorg & Evenwicht",
       }[currentLocale],
       description: {
-        fr: "Un soin énergétique doux pour apaiser, revitaliser et équilibrer vos centres énergétiques.",
-        en: "A gentle energy healing treatment to soothe, revitalize, and balance your chakras.",
-        nl: "Een zachte energetische behandeling om uw energiecentra te kalmeren, revitaliseren en in balans te brengen.",
+        fr: "Reiki à Hal dès 80€ : rééquilibrez vos énergies et retrouvez la paix intérieure. Soin doux, bienveillant et profondément ressourçant. Réservez !",
+        en: "Reiki in Halle from €80: rebalance your energy and restore inner peace. A gentle, nurturing, and deeply restorative treatment. Book today!",
+        nl: "Reiki in Halle vanaf €80: herbalanceer uw energieën en herstel innerlijke rust. Zachte, zorgzame en diepe behandeling. Boek nu uw sessie!",
       }[currentLocale],
       url: `${baseUrl}/${currentLocale}/reiki`,
       type: "website",

@@ -23,7 +23,7 @@ export async function generateMetadata({ params }) {
       nl: "Sportmassage in Halle – Herstel",
     }[currentLocale],
     description: {
-      fr: "Massage sportif à Hal dès 80€ : récupération optimale et soulagement des tensions musculaires après l’effort. Réservez maintenant !",
+      fr: "Massage sportif à Hal dès 80€ : récupération musculaire optimale, soulagement des tensions et prévention des blessures. Sur rdv. Réservez !",
       en: "Sports massage in Halle from €80: optimal recovery and muscle tension relief after exercise. Book your session now!",
       nl: "Sportmassage in Halle vanaf €80: optimaal herstel en verlichting van spierspanning na inspanning. Boek nu je sessie!",
     }[currentLocale],
@@ -43,7 +43,7 @@ export async function generateMetadata({ params }) {
         nl: "Sportmassage in Halle – Herstel",
       }[currentLocale],
       description: {
-        fr: "Massage sportif à Hal dès 80€ : récupération optimale et soulagement des tensions musculaires après l’effort. Réservez maintenant !",
+        fr: "Massage sportif à Hal dès 80€ : récupération musculaire optimale, soulagement des tensions et prévention des blessures. Sur rdv. Réservez !",
         en: "Sports massage in Halle from €80: optimal recovery and muscle tension relief after exercise. Book your session now!",
         nl: "Sportmassage in Halle vanaf €80: optimaal herstel en verlichting van spierspanning na inspanning. Boek nu je sessie!",
       }[currentLocale],

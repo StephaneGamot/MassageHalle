@@ -18,7 +18,7 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Massage Amma assis en entreprise à Hal & Bruxelles",
+      fr: "Massage Amma sur chaise – Hal",
       en: "Seated Amma Massage for Companies | Halle & Brussels",
       nl: "Amma stoelmassage voor bedrijven | Halle & Brussel",
     }[currentLocale],
@@ -49,7 +49,7 @@ export async function generateMetadata({ params }) {
     },
     openGraph: {
       title: {
-        fr: "Massage Amma assis en entreprise à Hal & Bruxelles",
+        fr: "Massage Amma sur chaise – Hal",
         en: "Seated Amma Massage for Companies | Halle & Brussels",
         nl: "Amma stoelmassage voor bedrijven | Halle & Brussel",
       }[currentLocale],
@@ -81,7 +81,7 @@ export async function generateMetadata({ params }) {
     },
     twitter: {
       title: {
-        fr: "Massage Amma assis en entreprise à Hal & Bruxelles",
+        fr: "Massage Amma sur chaise – Hal",
         en: "Seated Amma Massage for Companies | Halle & Brussels",
         nl: "Amma stoelmassage voor bedrijven | Halle & Brussel",
       }[currentLocale],

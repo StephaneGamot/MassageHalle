@@ -68,7 +68,7 @@ export async function generateMetadata({ params }) {
       }[currentLocale],
       images: [
         {
-          url: `${baseUrl}/Images/OpenGraph/accueil-massage-halle.webp`,
+          url: `${baseUrl}/Images/OpenGraph/masseur-massage.jpg`,
           width: 1200,
           height: 627,
           alt: {
