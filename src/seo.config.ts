@@ -19,7 +19,7 @@ export const defaultMetadata = {
       "Massages relaxants, shiatsu et soins énergétiques à Hal. Offrez-vous une parenthèse de détente en cabinet ou à domicile.",
     images: [
       {
-        url: "https://lavoiedubienetre.be/Images/OpenGraph/accueil-massage-halle.webp",
+        url: "https://lavoiedubienetre.be/Images/OpenGraph/OG-massage-bien-etre-.jpg",
         width: 1200,
         height: 627,
         alt: "Salle de massage bien-être chaleureuse à Hal — La Voie du Bien-Être",

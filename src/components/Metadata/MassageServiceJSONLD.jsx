@@ -2,6 +2,31 @@
 
 const baseUrl = "https://lavoiedubienetre.be";
 
+// ─── Avis clients traduits (rich snippets Review par page service) ───────────
+const SERVICE_REVIEWS = {
+  fr: [
+    { author: "Sophie WB",        body: "Un pur moment de calme et de chaleur humaine. Merci pour cette bulle de bien-être." },
+    { author: "Alexandre Jansens", body: "J'ai rarement connu un massage aussi réconfortant. Chaque geste semblait venir du cœur." },
+    { author: "Karine Renard",    body: "Dès que je suis allongée sur la table, je sens que je peux lâcher prise. Un vrai relâchement du stress." },
+    { author: "Thierry Bierze",   body: "Ma tension musculaire s'est envolée. À refaire très vite ! J'ai rarement été aussi bien accueilli et massé." },
+    { author: "Chloé Peters",     body: "C'était bien plus qu'un massage, c'était un soin de l'âme. Un vrai moment de réconfort." },
+  ],
+  en: [
+    { author: "Sophie WB",        body: "A pure moment of calm and human warmth. Thank you for this wellness bubble." },
+    { author: "Alexandre Jansens", body: "I have rarely experienced such a comforting massage. Every gesture seemed to come from the heart." },
+    { author: "Karine Renard",    body: "As soon as I lay on the table, I felt I could let go. Real stress relief from the first minutes." },
+    { author: "Thierry Bierze",   body: "My muscle tension vanished. A must-do again! I have rarely been so well welcomed and massaged." },
+    { author: "Chloé Peters",     body: "It was much more than a massage, it was a soul treatment. A true moment of comfort." },
+  ],
+  nl: [
+    { author: "Sophie WB",        body: "Een puur moment van rust en menselijke warmte. Bedankt voor deze wellness-bubbel." },
+    { author: "Alexandre Jansens", body: "Ik heb zelden zo'n troostende massage meegemaakt. Elk gebaar leek uit het hart te komen." },
+    { author: "Karine Renard",    body: "Zodra ik op de tafel lag, voelde ik dat ik kon loslaten. Echte stressverlichting." },
+    { author: "Thierry Bierze",   body: "Mijn spierspanning verdween. Zeker opnieuw doen! Zelden zo goed ontvangen en gemasseerd." },
+    { author: "Chloé Peters",     body: "Het was veel meer dan een massage, het was een zorg voor de ziel. Een waar moment van troost." },
+  ],
+};
+
 const SUPPORTED_LOCALES = ["fr", "en", "nl"];
 
 const AREA_SERVED = [
@@ -300,7 +325,7 @@ export default function MassageServiceJSONLD({ slug, locale = "fr" }) {
     name: service.names[currentLocale],
     description: service.descriptions[currentLocale],
     url,
-    image: `${baseUrl}/Images/OpenGraph/accueil-massage-halle.webp`,
+    image: `${baseUrl}/Images/OpenGraph/OG-massage-bien-etre-.jpg`,
     serviceType: "Massage therapy",
     category: "HealthAndBeauty",
     areaServed: AREA_SERVED,
@@ -323,7 +348,7 @@ export default function MassageServiceJSONLD({ slug, locale = "fr" }) {
         latitude: 50.7464695,
         longitude: 4.2563906,
       },
-      image: [`${baseUrl}/Images/OpenGraph/accueil-massage-halle.webp`],
+      image: [`${baseUrl}/Images/OpenGraph/OG-massage-bien-etre-.jpg`],
     },
     availableChannel: {
       "@type": "ServiceChannel",
@@ -335,6 +360,23 @@ export default function MassageServiceJSONLD({ slug, locale = "fr" }) {
         availableLanguage: ["French", "English", "Dutch"],
       },
     },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.9",
+      reviewCount: "50",
+      bestRating: "5",
+      worstRating: "1",
+    },
+    review: (SERVICE_REVIEWS[currentLocale] || SERVICE_REVIEWS.fr).map((r) => ({
+      "@type": "Review",
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: "5",
+        bestRating: "5",
+      },
+      author: { "@type": "Person", name: r.author },
+      reviewBody: r.body,
+    })),
     offers,
   };
 

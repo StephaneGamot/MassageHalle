@@ -61,44 +61,44 @@
     "cta": "Offer a moment of softness →",
     "ctaWhatsapp": "Book via WhatsApp"
   },
- "ctaMassage": {
-  "paragraph": "Book your {soin} today and enjoy a moment just for you.",
-  "cta": "Make an appointment",
-  "note": "No credit card required – book with peace of mind.",
-  "ctaWhatsapp": "Book this treatment",
-  "trustRating": "4.9/5 — 50+ client reviews",
-  "waMessage": "Hello, I would like to book {soin}. What is your availability?",
-  "titles": {
-    "relaxant": "Give your body what it deserves",
-    "sportif": "Prepare your body to perform",
-    "domicile": "Enjoy an exceptional treatment at home",
-    "tao": "Treat yourself to a sensory break",
-    "dos": "Say goodbye to back tension",
-    "anticellulite": "Take care of your silhouette",
-    "deeptissue": "Release deep tensions",
-    "shiatsu": "Regain your inner balance",
-    "reiki": "Reconnect to your energy",
-    "cst": "Soothe your body deeply",
-    "reflexo": "Let your feet lead the way",
-    "amma": "Offer well-being to your team",
-    "voyage": "Embark on a true sensory journey"
+  "ctaMassage": {
+    "paragraph": "Book your {soin} today and enjoy a moment just for you.",
+    "cta": "Make an appointment",
+    "note": "No credit card required – book with peace of mind.",
+    "ctaWhatsapp": "Book this treatment",
+    "trustRating": "4.9/5 — 50+ client reviews",
+    "waMessage": "Hello, I would like to book {soin}. What is your availability?",
+    "titles": {
+      "relaxant": "Give your body what it deserves",
+      "sportif": "Prepare your body to perform",
+      "domicile": "Enjoy an exceptional treatment at home",
+      "tao": "Treat yourself to a sensory break",
+      "dos": "Say goodbye to back tension",
+      "anticellulite": "Take care of your silhouette",
+      "deeptissue": "Release deep tensions",
+      "shiatsu": "Regain your inner balance",
+      "reiki": "Reconnect to your energy",
+      "cst": "Soothe your body deeply",
+      "reflexo": "Let your feet lead the way",
+      "amma": "Offer well-being to your team",
+      "voyage": "Embark on a true sensory journey"
+    },
+    "soins": {
+      "relaxant": "your relaxing massage",
+      "sportif": "your sports massage",
+      "domicile": "your home massage",
+      "tao": "your Tao massage",
+      "dos": "your back massage",
+      "anticellulite": "your anti-cellulite massage",
+      "deeptissue": "your deep tissue massage",
+      "shiatsu": "your Shiatsu treatment",
+      "reiki": "your Reiki treatment",
+      "cst": "your craniosacral therapy",
+      "reflexo": "your reflexology treatment",
+      "amma": "your corporate Amma massage",
+      "voyage": "your sensory journey"
+    }
   },
-  "soins": {
-    "relaxant": "your relaxing massage",
-    "sportif": "your sports massage",
-    "domicile": "your home massage",
-    "tao": "your Tao massage",
-    "dos": "your back massage",
-    "anticellulite": "your anti-cellulite massage",
-    "deeptissue": "your deep tissue massage",
-    "shiatsu": "your Shiatsu treatment",
-    "reiki": "your Reiki treatment",
-    "cst": "your craniosacral therapy",
-    "reflexo": "your reflexology treatment",
-    "amma": "your corporate Amma massage",
-    "voyage": "your sensory journey"
-  }
-},
   "contact": {
     "title": "A question? A wish?",
     "paragraph": "Whether it's for information, a specific need or simply the desire to offer yourself a moment of well-being, our team listens to you with care and kindness. Write to us, and let's create together an experience that reflects you.",
@@ -544,70 +544,262 @@
       "amma": "a chair massage"
     },
     "list": [
-      { "id": 1, "text": "Relief from daily stress" },
-      { "id": 2, "text": "Deep muscle relaxation" },
-      { "id": 3, "text": "Reduced anxiety" },
-      { "id": 4, "text": "Improved sleep" },
-      { "id": 5, "text": "Boosted blood circulation" },
-      { "id": 6, "text": "Soothing of the nervous system" },
-      { "id": 7, "text": "Back tension relief" },
-      { "id": 8, "text": "Supports recovery" },
-      { "id": 9, "text": "Grounding and recentring" },
-      { "id": 10, "text": "Heart rate regulation" },
-      { "id": 11, "text": "Body and mind harmony" },
-      { "id": 12, "text": "A moment of presence" },
-      { "id": 13, "text": "Release of energetic blockages" },
-      { "id": 14, "text": "Improved digestion" },
-      { "id": 15, "text": "Lymphatic system stimulation" },
-      { "id": 16, "text": "Mental slowdown" },
-      { "id": 17, "text": "Better emotional regulation" },
-      { "id": 18, "text": "Reconnection to the body" },
-      { "id": 19, "text": "Total release – deeply freeing" },
-      { "id": 20, "text": "Global well-being" },
-      { "id": 21, "text": "Increased vitality" },
-      { "id": 22, "text": "Immune system boost" },
-      { "id": 23, "text": "Stronger connection to self" },
-      { "id": 24, "text": "Inner calm" },
-      { "id": 25, "text": "Reinforced self-confidence" },
-      { "id": 26, "text": "Support during difficult times" },
-      { "id": 27, "text": "Relief from chronic pain" },
-      { "id": 28, "text": "Cell regeneration" },
-      { "id": 29, "text": "Increased quality of presence" },
-      { "id": 30, "text": "Encourages gentle introspection" },
-      { "id": 31, "text": "Feeling of safe enveloping" },
-      { "id": 32, "text": "Heart opening" },
-      { "id": 33, "text": "Soothes the digestive system" },
-      { "id": 34, "text": "Mental clarity" },
-      { "id": 35, "text": "Improved posture" },
-      { "id": 36, "text": "Promotes inner peace" },
-      { "id": 37, "text": "Natural detox" },
-      { "id": 38, "text": "Reconnection to breathing" },
-      { "id": 39, "text": "Stimulates endorphin production" },
-      { "id": 40, "text": "Brings back a smile" },
-      { "id": 41, "text": "Fascia activation for deep release" },
-      { "id": 42, "text": "Targeted relief of painful back tension" },
-      { "id": 43, "text": "Helps drain tissues and refine silhouette" },
-      { "id": 44, "text": "Focused massage for deep knots" },
-      { "id": 45, "text": "Energetic balance and emotional support" },
-      { "id": 46, "text": "Vibrational elevation and full-body relaxation" },
-      { "id": 47, "text": "Craniosacral system release" },
-      { "id": 48, "text": "Stimulation of reflex zones" },
-      { "id": 49, "text": "Quick and effective corporate relaxation" },
-      { "id": 50, "text": "Sensory awakening and emotional immersion" },
-      { "id": 51, "text": "Enhanced professional productivity" },
-      { "id": 52, "text": "Targets muscle knots" },
-      { "id": 53, "text": "Injury prevention" },
-      { "id": 54, "text": "Relief from back pain" },
-      { "id": 55, "text": "Activates fat elimination" },
-      { "id": 56, "text": "Effective against orange-peel skin" },
-      { "id": 57, "text": "Deep muscle relaxation & stress release" },
-      { "id": 58, "text": "Ideal for deep muscle knots" },
-      { "id": 59, "text": "Releases deep muscular tension" },
-      { "id": 60, "text": "Emotional balance and support" },
-      { "id": 61, "text": "Frees energetic blockages" },
-      { "id": 62, "text": "Head tension relief" },
-      { "id": 63, "text": "Soothes the nervous system & promotes relaxation" },
-      { "id": 64, "text": "Releases physical and emotional tensions" }
+      {
+        "id": 1,
+        "text": "Relief from daily stress"
+      },
+      {
+        "id": 2,
+        "text": "Deep muscle relaxation"
+      },
+      {
+        "id": 3,
+        "text": "Reduced anxiety"
+      },
+      {
+        "id": 4,
+        "text": "Improved sleep"
+      },
+      {
+        "id": 5,
+        "text": "Boosted blood circulation"
+      },
+      {
+        "id": 6,
+        "text": "Soothing of the nervous system"
+      },
+      {
+        "id": 7,
+        "text": "Back tension relief"
+      },
+      {
+        "id": 8,
+        "text": "Supports recovery"
+      },
+      {
+        "id": 9,
+        "text": "Grounding and recentring"
+      },
+      {
+        "id": 10,
+        "text": "Heart rate regulation"
+      },
+      {
+        "id": 11,
+        "text": "Body and mind harmony"
+      },
+      {
+        "id": 12,
+        "text": "A moment of presence"
+      },
+      {
+        "id": 13,
+        "text": "Release of energetic blockages"
+      },
+      {
+        "id": 14,
+        "text": "Improved digestion"
+      },
+      {
+        "id": 15,
+        "text": "Lymphatic system stimulation"
+      },
+      {
+        "id": 16,
+        "text": "Mental slowdown"
+      },
+      {
+        "id": 17,
+        "text": "Better emotional regulation"
+      },
+      {
+        "id": 18,
+        "text": "Reconnection to the body"
+      },
+      {
+        "id": 19,
+        "text": "Total release – deeply freeing"
+      },
+      {
+        "id": 20,
+        "text": "Global well-being"
+      },
+      {
+        "id": 21,
+        "text": "Increased vitality"
+      },
+      {
+        "id": 22,
+        "text": "Immune system boost"
+      },
+      {
+        "id": 23,
+        "text": "Stronger connection to self"
+      },
+      {
+        "id": 24,
+        "text": "Inner calm"
+      },
+      {
+        "id": 25,
+        "text": "Reinforced self-confidence"
+      },
+      {
+        "id": 26,
+        "text": "Support during difficult times"
+      },
+      {
+        "id": 27,
+        "text": "Relief from chronic pain"
+      },
+      {
+        "id": 28,
+        "text": "Cell regeneration"
+      },
+      {
+        "id": 29,
+        "text": "Increased quality of presence"
+      },
+      {
+        "id": 30,
+        "text": "Encourages gentle introspection"
+      },
+      {
+        "id": 31,
+        "text": "Feeling of safe enveloping"
+      },
+      {
+        "id": 32,
+        "text": "Heart opening"
+      },
+      {
+        "id": 33,
+        "text": "Soothes the digestive system"
+      },
+      {
+        "id": 34,
+        "text": "Mental clarity"
+      },
+      {
+        "id": 35,
+        "text": "Improved posture"
+      },
+      {
+        "id": 36,
+        "text": "Promotes inner peace"
+      },
+      {
+        "id": 37,
+        "text": "Natural detox"
+      },
+      {
+        "id": 38,
+        "text": "Reconnection to breathing"
+      },
+      {
+        "id": 39,
+        "text": "Stimulates endorphin production"
+      },
+      {
+        "id": 40,
+        "text": "Brings back a smile"
+      },
+      {
+        "id": 41,
+        "text": "Fascia activation for deep release"
+      },
+      {
+        "id": 42,
+        "text": "Targeted relief of painful back tension"
+      },
+      {
+        "id": 43,
+        "text": "Helps drain tissues and refine silhouette"
+      },
+      {
+        "id": 44,
+        "text": "Focused massage for deep knots"
+      },
+      {
+        "id": 45,
+        "text": "Energetic balance and emotional support"
+      },
+      {
+        "id": 46,
+        "text": "Vibrational elevation and full-body relaxation"
+      },
+      {
+        "id": 47,
+        "text": "Craniosacral system release"
+      },
+      {
+        "id": 48,
+        "text": "Stimulation of reflex zones"
+      },
+      {
+        "id": 49,
+        "text": "Quick and effective corporate relaxation"
+      },
+      {
+        "id": 50,
+        "text": "Sensory awakening and emotional immersion"
+      },
+      {
+        "id": 51,
+        "text": "Enhanced professional productivity"
+      },
+      {
+        "id": 52,
+        "text": "Targets muscle knots"
+      },
+      {
+        "id": 53,
+        "text": "Injury prevention"
+      },
+      {
+        "id": 54,
+        "text": "Relief from back pain"
+      },
+      {
+        "id": 55,
+        "text": "Activates fat elimination"
+      },
+      {
+        "id": 56,
+        "text": "Effective against orange-peel skin"
+      },
+      {
+        "id": 57,
+        "text": "Deep muscle relaxation & stress release"
+      },
+      {
+        "id": 58,
+        "text": "Ideal for deep muscle knots"
+      },
+      {
+        "id": 59,
+        "text": "Releases deep muscular tension"
+      },
+      {
+        "id": 60,
+        "text": "Emotional balance and support"
+      },
+      {
+        "id": 61,
+        "text": "Frees energetic blockages"
+      },
+      {
+        "id": 62,
+        "text": "Head tension relief"
+      },
+      {
+        "id": 63,
+        "text": "Soothes the nervous system & promotes relaxation"
+      },
+      {
+        "id": 64,
+        "text": "Releases physical and emotional tensions"
+      }
     ]
   },
   "hero-massage": {
@@ -735,7 +927,10 @@
         "id": 9,
         "question": "Do you struggle to fall asleep or get restful sleep?"
       },
-      { "id": 10, "question": "Do you feel emotional or mental fatigue?" },
+      {
+        "id": 10,
+        "question": "Do you feel emotional or mental fatigue?"
+      },
       {
         "id": 11,
         "question": "Is your routine demanding and you need a moment just for yourself?"
@@ -776,7 +971,10 @@
         "id": 20,
         "question": "Are you preparing for an event or challenge and need to recharge?"
       },
-      { "id": 21, "question": "Do you feel tense upon waking or after work?" },
+      {
+        "id": 21,
+        "question": "Do you feel tense upon waking or after work?"
+      },
       {
         "id": 22,
         "question": "Would you like to harmonise your inner energy?"
@@ -793,7 +991,10 @@
         "id": 25,
         "question": "Are you looking for an intuitive, tailored, and mindful massage?"
       },
-      { "id": 26, "question": "Are you in search of a timeless moment?" },
+      {
+        "id": 26,
+        "question": "Are you in search of a timeless moment?"
+      },
       {
         "id": 27,
         "question": "Is your schedule packed and you're lacking space to breathe?"
@@ -818,12 +1019,18 @@
         "id": 32,
         "question": "Are you seeking a gentle alternative to relieve tension?"
       },
-      { "id": 33, "question": "Does your body feel tight or blocked?" },
+      {
+        "id": 33,
+        "question": "Does your body feel tight or blocked?"
+      },
       {
         "id": 34,
         "question": "Would you like a break between two obligations?"
       },
-      { "id": 35, "question": "Do you crave a cosy moment just for yourself?" },
+      {
+        "id": 35,
+        "question": "Do you crave a cosy moment just for yourself?"
+      },
       {
         "id": 36,
         "question": "Do you want a treatment rooted in slowness and attentive care?"
@@ -836,7 +1043,10 @@
         "id": 38,
         "question": "Do you want to regain confidence in your body?"
       },
-      { "id": 39, "question": "Do you long to reconnect with your breath?" },
+      {
+        "id": 39,
+        "question": "Do you long to reconnect with your breath?"
+      },
       {
         "id": 40,
         "question": "Do you just want to say thank you to your body?"
@@ -1001,257 +1211,257 @@
     }
   },
   "faq": {
-      "title": "Frequently Asked Questions",
-      "metaTitle": "FAQ – Massages & Therapeutic Treatments in Halle",
-      "metaDescription": "Answers to common questions about our massages and therapeutic treatments in Halle: pricing, sessions, contraindications. Book your appointment!",
-      "list": [
-        {
-          "id": 1,
-          "question": "What are the benefits of a relaxing massage?",
-          "answer": "It reduces stress, relaxes muscles, improves circulation, and promotes restful sleep."
-        },
-        {
-          "id": 2,
-          "question": "What types of massages do you offer?",
-          "answer": "We offer relaxing, sports, anti-cellulite massages, as well as Shiatsu, Reiki, foot reflexology, and more, tailored to your needs."
-        },
-        {
-          "id": 3,
-          "question": "Do you offer home massages?",
-          "answer": "Yes, we offer certain treatments at home in the Halle area and surroundings."
-        },
-        {
-          "id": 4,
-          "question": "Do I need to undress for a massage?",
-          "answer": "It depends on the treatment. For Shiatsu or Reiki, you remain clothed. For oil massages, underwear is recommended."
-        },
-        {
-          "id": 5,
-          "question": "Can I give a massage as a gift?",
-          "answer": "Absolutely! We offer personalized gift vouchers."
-        },
-        {
-          "id": 6,
-          "question": "Can I ask to focus on a specific area?",
-          "answer": "Yes, each session is personalized. Feel free to mention any specific areas of tension or need."
-        },
-        {
-          "id": 7,
-          "question": "What are the effects of Reiki?",
-          "answer": "Reiki promotes relaxation, emotional balance, and helps release energetic blockages."
-        },
-        {
-          "id": 8,
-          "question": "Should I come on an empty stomach?",
-          "answer": "Avoid a heavy meal before your session, but don't come completely hungry either."
-        },
-        {
-          "id": 9,
-          "question": "Is Reiki effective against stress?",
-          "answer": "Yes, Reiki calms the mind, releases emotional tension, and induces deep relaxation."
-        },
-        {
-          "id": 10,
-          "question": "How long is a foot reflexology session?",
-          "answer": "A session usually lasts between 45 minutes and 1 hour."
-        },
-        {
-          "id": 12,
-          "question": "Is Shiatsu massage done with or without oil?",
-          "answer": "Shiatsu is performed fully clothed, without oil, using pressure on energy points."
-        },
-        {
-          "id": 13,
-          "question": "Can I get a massage if I'm pregnant?",
-          "answer": "Yes, some massages are suitable during pregnancy, especially from the 2nd trimester."
-        },
-        {
-          "id": 14,
-          "question": "How often should I get a massage?",
-          "answer": "It depends on your needs, but once a month is ideal for consistent well-being."
-        },
-        {
-          "id": 15,
-          "question": "Are there any contraindications for massage?",
-          "answer": "Yes, fever, contagious illnesses, phlebitis, or recent fractures may be contraindications."
-        },
-        {
-          "id": 16,
-          "question": "Do I have to be completely undressed for a massage?",
-          "answer": "No, you're covered where necessary. Only the areas being massaged are exposed."
-        },
-        {
-          "id": 17,
-          "question": "What is foot reflexology?",
-          "answer": "It’s a foot massage that stimulates reflex zones linked to organs to restore body balance."
-        },
-        {
-          "id": 18,
-          "question": "Which massages help with sleep?",
-          "answer": "Relaxing massages, Reiki, and cranio-sacral therapy are great for improving sleep."
-        },
-        {
-          "id": 19,
-          "question": "Can a massage relieve migraines?",
-          "answer": "Yes, head or Shiatsu massages can help reduce headaches."
-        },
-        {
-          "id": 20,
-          "question": "Is Reiki a massage?",
-          "answer": "No, it’s an energy healing method involving gentle hand placement, without manipulation."
-        },
-        {
-          "id": 21,
-          "question": "Which massage is best for muscle pain?",
-          "answer": "Sports massage or deep tissue massage are ideal for deep muscle tension relief."
-        },
-        {
-          "id": 22,
-          "question": "Does Reiki require belief to work?",
-          "answer": "No, Reiki works with the body's energy regardless of belief."
-        },
-        {
-          "id": 23,
-          "question": "How long does a massage session last?",
-          "answer": "Typical sessions range from 60 to 120 minutes depending on the treatment."
-        },
-        {
-          "id": 24,
-          "question": "Can I gift a massage session?",
-          "answer": "Yes, gift cards are available to share a wellness moment with loved ones."
-        },
-        {
-          "id": 25,
-          "question": "Which massage helps recovery after sport?",
-          "answer": "Sports massage is ideal for relaxing muscles and speeding up recovery."
-        },
-        {
-          "id": 26,
-          "question": "Should I shower after a massage?",
-          "answer": "Not necessarily. Let the essential oils absorb into your skin if used."
-        },
-        {
-          "id": 27,
-          "question": "Can massage aid digestion?",
-          "answer": "Yes, belly massage or reflexology can stimulate digestion."
-        },
-        {
-          "id": 28,
-          "question": "Is chair massage effective?",
-          "answer": "Yes, it quickly relieves tension in the back, neck, and shoulders in 15-20 minutes."
-        },
-        {
-          "id": 29,
-          "question": "Can I talk during the massage?",
-          "answer": "Yes, though most people prefer to relax in silence. It's your choice."
-        },
-        {
-          "id": 30,
-          "question": "What is cranio-sacral therapy?",
-          "answer": "It’s a gentle method to release tension in the skull, spine, and sacrum."
-        },
-        {
-          "id": 31,
-          "question": "Can children receive massages?",
-          "answer": "Yes, gentle treatments are available for children from 16 years old."
-        },
-        {
-          "id": 32,
-          "question": "Does massage help with anxiety?",
-          "answer": "Yes, massages release endorphins and calm the nervous system."
-        },
-        {
-          "id": 33,
-          "question": "Can massage help with weight loss?",
-          "answer": "Massage doesn't cause weight loss but tones and helps with cellulite."
-        },
-        {
-          "id": 34,
-          "question": "Is there an age limit for massage?",
-          "answer": "No, treatments can be adapted for older adults as well."
-        },
-        {
-          "id": 35,
-          "question": "What should I wear for a massage?",
-          "answer": "Wear something comfortable, especially for clothed massages like Shiatsu."
-        },
-        {
-          "id": 36,
-          "question": "Can you massage over a scar?",
-          "answer": "Yes, once it has fully healed. Consult your doctor if unsure."
-        },
-        {
-          "id": 37,
-          "question": "Does massage improve circulation?",
-          "answer": "Yes, it boosts blood flow and oxygenates the tissues."
-        },
-        {
-          "id": 38,
-          "question": "Is Reiki compatible with medical treatment?",
-          "answer": "Yes, it supports healing but does not replace medical care."
-        },
-        {
-          "id": 39,
-          "question": "Can massage relieve chronic pain?",
-          "answer": "Yes, especially back and neck tension or stress-related pain."
-        },
-        {
-          "id": 40,
-          "question": "What’s the difference between energy and physical massage?",
-          "answer": "Energy massage works on subtle flows; physical massage targets muscles."
-        },
-        {
-          "id": 41,
-          "question": "Can massage improve focus?",
-          "answer": "Yes, by reducing stress, it clears the mind."
-        },
-        {
-          "id": 42,
-          "question": "Can I get a massage if I'm very tired?",
-          "answer": "Yes, it can revitalize your body and mind."
-        },
-        {
-          "id": 43,
-          "question": "Can men receive massages too?",
-          "answer": "Of course, treatments are open to all genders."
-        },
-        {
-          "id": 44,
-          "question": "Are the oils natural?",
-          "answer": "Yes, we use 100% natural vegetable and essential oils."
-        },
-        {
-          "id": 45,
-          "question": "What are the effects after a massage?",
-          "answer": "Relaxation, energy boost, improved mood, and sometimes slight fatigue."
-        },
-        {
-          "id": 46,
-          "question": "Are there side effects?",
-          "answer": "Rarely. You might feel tired or experience detox symptoms."
-        },
-        {
-          "id": 47,
-          "question": "Can massage help with burnout?",
-          "answer": "Yes, it promotes calm, body awareness, and emotional release."
-        },
-        {
-          "id": 48,
-          "question": "Can massage balance emotions?",
-          "answer": "Yes, it soothes nervous and energetic imbalances."
-        },
-        {
-          "id": 49,
-          "question": "Should I book in advance?",
-          "answer": "Yes, appointments are required to ensure a personalized experience."
-        },
-        {
-          "id": 50,
-          "question": "What’s the difference between home and office massage?",
-          "answer": "At home, you stay in your space. At the office, everything is optimized for your comfort."
-        }
-      ]
-    },
+    "title": "Frequently Asked Questions",
+    "metaTitle": "FAQ – Massages & Treatments in Halle",
+    "metaDescription": "Answers to common questions about our massages and therapeutic treatments in Halle: pricing, sessions, contraindications. Book your appointment!",
+    "list": [
+      {
+        "id": 1,
+        "question": "What are the benefits of a relaxing massage?",
+        "answer": "It reduces stress, relaxes muscles, improves circulation, and promotes restful sleep."
+      },
+      {
+        "id": 2,
+        "question": "What types of massages do you offer?",
+        "answer": "We offer relaxing, sports, anti-cellulite massages, as well as Shiatsu, Reiki, foot reflexology, and more, tailored to your needs."
+      },
+      {
+        "id": 3,
+        "question": "Do you offer home massages?",
+        "answer": "Yes, we offer certain treatments at home in the Halle area and surroundings."
+      },
+      {
+        "id": 4,
+        "question": "Do I need to undress for a massage?",
+        "answer": "It depends on the treatment. For Shiatsu or Reiki, you remain clothed. For oil massages, underwear is recommended."
+      },
+      {
+        "id": 5,
+        "question": "Can I give a massage as a gift?",
+        "answer": "Absolutely! We offer personalized gift vouchers."
+      },
+      {
+        "id": 6,
+        "question": "Can I ask to focus on a specific area?",
+        "answer": "Yes, each session is personalized. Feel free to mention any specific areas of tension or need."
+      },
+      {
+        "id": 7,
+        "question": "What are the effects of Reiki?",
+        "answer": "Reiki promotes relaxation, emotional balance, and helps release energetic blockages."
+      },
+      {
+        "id": 8,
+        "question": "Should I come on an empty stomach?",
+        "answer": "Avoid a heavy meal before your session, but don't come completely hungry either."
+      },
+      {
+        "id": 9,
+        "question": "Is Reiki effective against stress?",
+        "answer": "Yes, Reiki calms the mind, releases emotional tension, and induces deep relaxation."
+      },
+      {
+        "id": 10,
+        "question": "How long is a foot reflexology session?",
+        "answer": "A session usually lasts between 45 minutes and 1 hour."
+      },
+      {
+        "id": 12,
+        "question": "Is Shiatsu massage done with or without oil?",
+        "answer": "Shiatsu is performed fully clothed, without oil, using pressure on energy points."
+      },
+      {
+        "id": 13,
+        "question": "Can I get a massage if I'm pregnant?",
+        "answer": "Yes, some massages are suitable during pregnancy, especially from the 2nd trimester."
+      },
+      {
+        "id": 14,
+        "question": "How often should I get a massage?",
+        "answer": "It depends on your needs, but once a month is ideal for consistent well-being."
+      },
+      {
+        "id": 15,
+        "question": "Are there any contraindications for massage?",
+        "answer": "Yes, fever, contagious illnesses, phlebitis, or recent fractures may be contraindications."
+      },
+      {
+        "id": 16,
+        "question": "Do I have to be completely undressed for a massage?",
+        "answer": "No, you're covered where necessary. Only the areas being massaged are exposed."
+      },
+      {
+        "id": 17,
+        "question": "What is foot reflexology?",
+        "answer": "It’s a foot massage that stimulates reflex zones linked to organs to restore body balance."
+      },
+      {
+        "id": 18,
+        "question": "Which massages help with sleep?",
+        "answer": "Relaxing massages, Reiki, and cranio-sacral therapy are great for improving sleep."
+      },
+      {
+        "id": 19,
+        "question": "Can a massage relieve migraines?",
+        "answer": "Yes, head or Shiatsu massages can help reduce headaches."
+      },
+      {
+        "id": 20,
+        "question": "Is Reiki a massage?",
+        "answer": "No, it’s an energy healing method involving gentle hand placement, without manipulation."
+      },
+      {
+        "id": 21,
+        "question": "Which massage is best for muscle pain?",
+        "answer": "Sports massage or deep tissue massage are ideal for deep muscle tension relief."
+      },
+      {
+        "id": 22,
+        "question": "Does Reiki require belief to work?",
+        "answer": "No, Reiki works with the body's energy regardless of belief."
+      },
+      {
+        "id": 23,
+        "question": "How long does a massage session last?",
+        "answer": "Typical sessions range from 60 to 120 minutes depending on the treatment."
+      },
+      {
+        "id": 24,
+        "question": "Can I gift a massage session?",
+        "answer": "Yes, gift cards are available to share a wellness moment with loved ones."
+      },
+      {
+        "id": 25,
+        "question": "Which massage helps recovery after sport?",
+        "answer": "Sports massage is ideal for relaxing muscles and speeding up recovery."
+      },
+      {
+        "id": 26,
+        "question": "Should I shower after a massage?",
+        "answer": "Not necessarily. Let the essential oils absorb into your skin if used."
+      },
+      {
+        "id": 27,
+        "question": "Can massage aid digestion?",
+        "answer": "Yes, belly massage or reflexology can stimulate digestion."
+      },
+      {
+        "id": 28,
+        "question": "Is chair massage effective?",
+        "answer": "Yes, it quickly relieves tension in the back, neck, and shoulders in 15-20 minutes."
+      },
+      {
+        "id": 29,
+        "question": "Can I talk during the massage?",
+        "answer": "Yes, though most people prefer to relax in silence. It's your choice."
+      },
+      {
+        "id": 30,
+        "question": "What is cranio-sacral therapy?",
+        "answer": "It’s a gentle method to release tension in the skull, spine, and sacrum."
+      },
+      {
+        "id": 31,
+        "question": "Can children receive massages?",
+        "answer": "Yes, gentle treatments are available for children from 16 years old."
+      },
+      {
+        "id": 32,
+        "question": "Does massage help with anxiety?",
+        "answer": "Yes, massages release endorphins and calm the nervous system."
+      },
+      {
+        "id": 33,
+        "question": "Can massage help with weight loss?",
+        "answer": "Massage doesn't cause weight loss but tones and helps with cellulite."
+      },
+      {
+        "id": 34,
+        "question": "Is there an age limit for massage?",
+        "answer": "No, treatments can be adapted for older adults as well."
+      },
+      {
+        "id": 35,
+        "question": "What should I wear for a massage?",
+        "answer": "Wear something comfortable, especially for clothed massages like Shiatsu."
+      },
+      {
+        "id": 36,
+        "question": "Can you massage over a scar?",
+        "answer": "Yes, once it has fully healed. Consult your doctor if unsure."
+      },
+      {
+        "id": 37,
+        "question": "Does massage improve circulation?",
+        "answer": "Yes, it boosts blood flow and oxygenates the tissues."
+      },
+      {
+        "id": 38,
+        "question": "Is Reiki compatible with medical treatment?",
+        "answer": "Yes, it supports healing but does not replace medical care."
+      },
+      {
+        "id": 39,
+        "question": "Can massage relieve chronic pain?",
+        "answer": "Yes, especially back and neck tension or stress-related pain."
+      },
+      {
+        "id": 40,
+        "question": "What’s the difference between energy and physical massage?",
+        "answer": "Energy massage works on subtle flows; physical massage targets muscles."
+      },
+      {
+        "id": 41,
+        "question": "Can massage improve focus?",
+        "answer": "Yes, by reducing stress, it clears the mind."
+      },
+      {
+        "id": 42,
+        "question": "Can I get a massage if I'm very tired?",
+        "answer": "Yes, it can revitalize your body and mind."
+      },
+      {
+        "id": 43,
+        "question": "Can men receive massages too?",
+        "answer": "Of course, treatments are open to all genders."
+      },
+      {
+        "id": 44,
+        "question": "Are the oils natural?",
+        "answer": "Yes, we use 100% natural vegetable and essential oils."
+      },
+      {
+        "id": 45,
+        "question": "What are the effects after a massage?",
+        "answer": "Relaxation, energy boost, improved mood, and sometimes slight fatigue."
+      },
+      {
+        "id": 46,
+        "question": "Are there side effects?",
+        "answer": "Rarely. You might feel tired or experience detox symptoms."
+      },
+      {
+        "id": 47,
+        "question": "Can massage help with burnout?",
+        "answer": "Yes, it promotes calm, body awareness, and emotional release."
+      },
+      {
+        "id": 48,
+        "question": "Can massage balance emotions?",
+        "answer": "Yes, it soothes nervous and energetic imbalances."
+      },
+      {
+        "id": 49,
+        "question": "Should I book in advance?",
+        "answer": "Yes, appointments are required to ensure a personalized experience."
+      },
+      {
+        "id": 50,
+        "question": "What’s the difference between home and office massage?",
+        "answer": "At home, you stay in your space. At the office, everything is optimized for your comfort."
+      }
+    ]
+  },
   "relatedServices": {
     "title": "Treatments you might enjoy",
     "subtitle": "Explore our other massages and treatments to complement your wellness journey.",
@@ -1275,64 +1485,172 @@
     "label": "FAQ",
     "title": "What our clients often ask",
     "relaxant": [
-      { "q": "How long does a relaxing massage last?", "a": "A session lasts between 60 and 90 minutes. The 90-minute option allows for deeper work and complete relaxation." },
-      { "q": "Is the relaxing massage suitable during pregnancy?", "a": "Yes, from the 2nd trimester. The massage is adapted with comfortable positions and specific areas gently worked." },
-      { "q": "What is the price of a relaxing massage?", "a": "The 60-minute session is €80 and the 90-minute session is €120. No hidden fees." }
+      {
+        "q": "How long does a relaxing massage last?",
+        "a": "A session lasts between 60 and 90 minutes. The 90-minute option allows for deeper work and complete relaxation."
+      },
+      {
+        "q": "Is the relaxing massage suitable during pregnancy?",
+        "a": "Yes, from the 2nd trimester. The massage is adapted with comfortable positions and specific areas gently worked."
+      },
+      {
+        "q": "What is the price of a relaxing massage?",
+        "a": "The 60-minute session is €80 and the 90-minute session is €120. No hidden fees."
+      }
     ],
     "sportif": [
-      { "q": "Does a sports massage hurt?", "a": "A sports massage works deeply but is always adapted to your tolerance threshold. Communication is constant during the session." },
-      { "q": "When should I get a sports massage?", "a": "Ideally 48 hours after exercise for recovery, or 2-3 days before a competition to prepare the muscles." },
-      { "q": "What is the difference with a deep tissue massage?", "a": "A sports massage targets areas stressed by sport, while deep tissue works on chronic tensions throughout the body." }
+      {
+        "q": "Does a sports massage hurt?",
+        "a": "A sports massage works deeply but is always adapted to your tolerance threshold. Communication is constant during the session."
+      },
+      {
+        "q": "When should I get a sports massage?",
+        "a": "Ideally 48 hours after exercise for recovery, or 2-3 days before a competition to prepare the muscles."
+      },
+      {
+        "q": "What is the difference with a deep tissue massage?",
+        "a": "A sports massage targets areas stressed by sport, while deep tissue works on chronic tensions throughout the body."
+      }
     ],
     "tao": [
-      { "q": "What makes the Tao massage different?", "a": "The Tao massage is fluid and enveloping, inspired by Taoist philosophy. It aims to reconnect body, breath and sensations in an overall harmony." },
-      { "q": "Do I need to undress for a Tao massage?", "a": "The Tao massage uses oils, so it is best to be in underwear to fully enjoy the treatment." },
-      { "q": "Is the Tao massage suitable for beginners?", "a": "Absolutely. It is a gentle massage accessible to everyone, perfect for a first experience." }
+      {
+        "q": "What makes the Tao massage different?",
+        "a": "The Tao massage is fluid and enveloping, inspired by Taoist philosophy. It aims to reconnect body, breath and sensations in an overall harmony."
+      },
+      {
+        "q": "Do I need to undress for a Tao massage?",
+        "a": "The Tao massage uses oils, so it is best to be in underwear to fully enjoy the treatment."
+      },
+      {
+        "q": "Is the Tao massage suitable for beginners?",
+        "a": "Absolutely. It is a gentle massage accessible to everyone, perfect for a first experience."
+      }
     ],
     "shiatsu": [
-      { "q": "Do I need to undress for shiatsu?", "a": "No, shiatsu is performed fully clothed, lying on a futon. Wear loose, comfortable clothing." },
-      { "q": "Is shiatsu covered by health insurance?", "a": "Some Belgian health insurers partially reimburse shiatsu. Check with your provider." },
-      { "q": "How many shiatsu sessions are needed?", "a": "For deep rebalancing, 3 to 5 sessions spaced 2-3 weeks apart are recommended. Monthly maintenance preserves the benefits." }
+      {
+        "q": "Do I need to undress for shiatsu?",
+        "a": "No, shiatsu is performed fully clothed, lying on a futon. Wear loose, comfortable clothing."
+      },
+      {
+        "q": "Is shiatsu covered by health insurance?",
+        "a": "Some Belgian health insurers partially reimburse shiatsu. Check with your provider."
+      },
+      {
+        "q": "How many shiatsu sessions are needed?",
+        "a": "For deep rebalancing, 3 to 5 sessions spaced 2-3 weeks apart are recommended. Monthly maintenance preserves the benefits."
+      }
     ],
     "reiki": [
-      { "q": "What do you feel during a Reiki session?", "a": "Sensations vary: warmth, tingling, deep relaxation, or sometimes emotions being released. Each session is unique." },
-      { "q": "Is Reiki compatible with medical treatment?", "a": "Yes, Reiki complements conventional medicine. It does not replace medical treatment but can support a healing process." },
-      { "q": "How many Reiki sessions are needed?", "a": "A single session already brings benefits. For deeper work, 3 closely spaced sessions are ideal." }
+      {
+        "q": "What do you feel during a Reiki session?",
+        "a": "Sensations vary: warmth, tingling, deep relaxation, or sometimes emotions being released. Each session is unique."
+      },
+      {
+        "q": "Is Reiki compatible with medical treatment?",
+        "a": "Yes, Reiki complements conventional medicine. It does not replace medical treatment but can support a healing process."
+      },
+      {
+        "q": "How many Reiki sessions are needed?",
+        "a": "A single session already brings benefits. For deeper work, 3 closely spaced sessions are ideal."
+      }
     ],
     "domicile": [
-      { "q": "Which areas do you cover for home visits?", "a": "I travel to Halle, Brussels, Walloon Brabant and Flemish Brabant. Contact me to check coverage for your area." },
-      { "q": "What should I prepare for a home massage?", "a": "Nothing special! I bring everything needed: massage table, sheets, oils and music. Just provide a quiet space of about 2m x 3m." },
-      { "q": "Is there an extra charge for travel?", "a": "The price includes travel within a reasonable radius. Beyond that, a small supplement may apply. I always inform you in advance." }
+      {
+        "q": "Which areas do you cover for home visits?",
+        "a": "I travel to Halle, Brussels, Walloon Brabant and Flemish Brabant. Contact me to check coverage for your area."
+      },
+      {
+        "q": "What should I prepare for a home massage?",
+        "a": "Nothing special! I bring everything needed: massage table, sheets, oils and music. Just provide a quiet space of about 2m x 3m."
+      },
+      {
+        "q": "Is there an extra charge for travel?",
+        "a": "The price includes travel within a reasonable radius. Beyond that, a small supplement may apply. I always inform you in advance."
+      }
     ],
     "reflexo": [
-      { "q": "Is foot reflexology painful?", "a": "Some sensitive areas may cause slight discomfort, a sign of imbalance. Pressure is always adapted to your comfort." },
-      { "q": "What are the benefits of reflexology?", "a": "It improves circulation, reduces stress, relieves pain and restores the body's overall balance naturally." },
-      { "q": "How long does a session last?", "a": "A session lasts between 60 and 90 minutes, barefoot. The treatment begins with a relaxing foot bath." }
+      {
+        "q": "Is foot reflexology painful?",
+        "a": "Some sensitive areas may cause slight discomfort, a sign of imbalance. Pressure is always adapted to your comfort."
+      },
+      {
+        "q": "What are the benefits of reflexology?",
+        "a": "It improves circulation, reduces stress, relieves pain and restores the body's overall balance naturally."
+      },
+      {
+        "q": "How long does a session last?",
+        "a": "A session lasts between 60 and 90 minutes, barefoot. The treatment begins with a relaxing foot bath."
+      }
     ],
     "anticellulite": [
-      { "q": "Is the anti-cellulite massage painful?", "a": "The first strokes may be slightly uncomfortable as the massage is toning, but pressure is always adapted to your sensitivity." },
-      { "q": "How many sessions are needed to see results?", "a": "First effects are visible after 3 to 5 sessions. A programme of 8 to 10 weekly sessions is ideal for lasting results." },
-      { "q": "Does the anti-cellulite massage work on all areas?", "a": "Yes, it targets thighs, buttocks, hips and abdomen. The massage improves circulation and helps dislodge subcutaneous fat deposits." }
+      {
+        "q": "Is the anti-cellulite massage painful?",
+        "a": "The first strokes may be slightly uncomfortable as the massage is toning, but pressure is always adapted to your sensitivity."
+      },
+      {
+        "q": "How many sessions are needed to see results?",
+        "a": "First effects are visible after 3 to 5 sessions. A programme of 8 to 10 weekly sessions is ideal for lasting results."
+      },
+      {
+        "q": "Does the anti-cellulite massage work on all areas?",
+        "a": "Yes, it targets thighs, buttocks, hips and abdomen. The massage improves circulation and helps dislodge subcutaneous fat deposits."
+      }
     ],
     "dos": [
-      { "q": "Is the back massage suitable for lower back pain?", "a": "Yes, this massage is particularly suited to lumbar pain. It gently releases tension accumulated throughout the entire back chain." },
-      { "q": "How long is a back massage session?", "a": "The session lasts between 60 and 90 minutes. The 90-minute option allows deeper work on the neck, shoulders and pelvis." },
-      { "q": "Is this massage suitable for office workers?", "a": "Absolutely. It is the ideal massage for sedentary people: it relieves tension caused by prolonged sitting posture." }
+      {
+        "q": "Is the back massage suitable for lower back pain?",
+        "a": "Yes, this massage is particularly suited to lumbar pain. It gently releases tension accumulated throughout the entire back chain."
+      },
+      {
+        "q": "How long is a back massage session?",
+        "a": "The session lasts between 60 and 90 minutes. The 90-minute option allows deeper work on the neck, shoulders and pelvis."
+      },
+      {
+        "q": "Is this massage suitable for office workers?",
+        "a": "Absolutely. It is the ideal massage for sedentary people: it relieves tension caused by prolonged sitting posture."
+      }
     ],
     "voyage": [
-      { "q": "What is the sensory journey massage?", "a": "It is an enveloping massage that works on the fascia — the body's connective tissues. It provides deep letting go and total sensory relaxation." },
-      { "q": "How does this massage differ from a relaxing massage?", "a": "The sensory journey specifically works the fascia with slow, deep movements, while the relaxing massage uses lighter, more fluid strokes." },
-      { "q": "Is this massage suitable for very stressed people?", "a": "It is one of the best choices. Working on fascia releases tensions stored in the body, often linked to chronic stress." }
+      {
+        "q": "What is the sensory journey massage?",
+        "a": "It is an enveloping massage that works on the fascia — the body's connective tissues. It provides deep letting go and total sensory relaxation."
+      },
+      {
+        "q": "How does this massage differ from a relaxing massage?",
+        "a": "The sensory journey specifically works the fascia with slow, deep movements, while the relaxing massage uses lighter, more fluid strokes."
+      },
+      {
+        "q": "Is this massage suitable for very stressed people?",
+        "a": "It is one of the best choices. Working on fascia releases tensions stored in the body, often linked to chronic stress."
+      }
     ],
     "amma": [
-      { "q": "How long does a seated Amma massage last?", "a": "A session lasts between 15 and 20 minutes per person. It is a short, effective format, perfect for the workplace or events." },
-      { "q": "Do I need to undress for an Amma massage?", "a": "No, the Amma massage is performed fully clothed, seated on a special ergonomic chair. No preparation is needed." },
-      { "q": "How do I organise an Amma massage at my workplace?", "a": "Contact me via WhatsApp or phone. I bring all the equipment. You just need a quiet space of about 2m × 2m per station." }
+      {
+        "q": "How long does a seated Amma massage last?",
+        "a": "A session lasts between 15 and 20 minutes per person. It is a short, effective format, perfect for the workplace or events."
+      },
+      {
+        "q": "Do I need to undress for an Amma massage?",
+        "a": "No, the Amma massage is performed fully clothed, seated on a special ergonomic chair. No preparation is needed."
+      },
+      {
+        "q": "How do I organise an Amma massage at my workplace?",
+        "a": "Contact me via WhatsApp or phone. I bring all the equipment. You just need a quiet space of about 2m × 2m per station."
+      }
     ],
     "cst": [
-      { "q": "What is craniosacral therapy?", "a": "It is a gentle approach that releases tensions from the central nervous system through light touch on the skull, spine and sacrum." },
-      { "q": "Is craniosacral therapy suitable for children?", "a": "Yes, it is a very gentle approach suitable for infants and adults alike. It is particularly recommended for babies after a difficult birth." },
-      { "q": "How many sessions are recommended?", "a": "Generally, 3 to 5 sessions spaced 2 to 3 weeks apart show significant improvements. Each person responds differently." }
+      {
+        "q": "What is craniosacral therapy?",
+        "a": "It is a gentle approach that releases tensions from the central nervous system through light touch on the skull, spine and sacrum."
+      },
+      {
+        "q": "Is craniosacral therapy suitable for children?",
+        "a": "Yes, it is a very gentle approach suitable for infants and adults alike. It is particularly recommended for babies after a difficult birth."
+      },
+      {
+        "q": "How many sessions are recommended?",
+        "a": "Generally, 3 to 5 sessions spaced 2 to 3 weeks apart show significant improvements. Each person responds differently."
+      }
     ]
   },
   "notFound": {

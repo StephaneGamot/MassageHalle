@@ -75,6 +75,45 @@ export async function generateMetadata({ params }) {
   };
 }
 
+function LocalBusinessJsonLd({ locale }) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "HealthAndBeautyBusiness",
+    "@id": `${baseUrl}/#localbusiness`,
+    name: "La Voie du Bien-Être",
+    url: `${baseUrl}/${locale}`,
+    telephone: "+32477131993",
+    priceRange: "€€",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Octave de Kerchove d'Exaerdestraat 193",
+      addressLocality: "Halle",
+      postalCode: "1501",
+      addressCountry: "BE",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: 50.7464695,
+      longitude: 4.2563906,
+    },
+    image: [`${baseUrl}/Images/OpenGraph/OG-massage-bien-etre-.jpg`],
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.9",
+      reviewCount: "50",
+      bestRating: "5",
+      worstRating: "1",
+    },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
 function FAQPageJsonLd({ locale }) {
   const faqItems = {
     fr: [
@@ -154,6 +193,7 @@ export default async function Page({ params }) {
   return (
     <>
 
+      <LocalBusinessJsonLd locale={currentLocale} />
       <FAQPageJsonLd locale={currentLocale} />
 
       <ServiceBreadcrumbJsonLd
