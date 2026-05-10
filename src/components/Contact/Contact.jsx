@@ -48,7 +48,7 @@ export default function Contact() {
                 </span>
               </dt>
               <dd className="text-sm leading-relaxed text-[#595751] pt-2.5">
-                Octaaf de Kerchove d&apos;Exaerdestraat 193<br />
+                Octave de Kerchove d&apos;Exaerdestraat 193<br />
                 1501 Buizingen (Halle)
               </dd>
             </div>

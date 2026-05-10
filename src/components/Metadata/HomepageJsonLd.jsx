@@ -168,6 +168,34 @@ export default function HomepageJsonLd({ locale }) {
 
   const localReviews = reviews[locale] || reviews.fr;
 
+  // ─── Person (praticien) — signal E-E-A-T ───
+  const personSchema = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": `${baseUrl}/#practitioner`,
+    name: "Stéphane Gamot",
+    jobTitle: {
+      fr: "Praticien en massage et soins énergétiques",
+      en: "Massage and energy healing practitioner",
+      nl: "Masseur en energetische zorgverlener",
+    }[locale] || "Praticien en massage et soins énergétiques",
+    url: `${baseUrl}/${locale || "fr"}`,
+    worksFor: {
+      "@id": `${baseUrl}/#localbusiness`,
+    },
+    knowsAbout: [
+      "Massage relaxant",
+      "Shiatsu",
+      "Reiki",
+      "Réflexologie plantaire",
+      "Thérapie cranio-sacrée",
+      "Massage deep-tissue",
+    ],
+    sameAs: [
+      "https://www.facebook.com/lavoiedubienetremassageshiatsureikireflexologie/",
+    ],
+  };
+
   const reviewSchema = {
     "@context": "https://schema.org",
     "@type": "HealthAndBeautyBusiness",
@@ -261,6 +289,10 @@ export default function HomepageJsonLd({ locale }) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemList) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
       />
     </>
   );

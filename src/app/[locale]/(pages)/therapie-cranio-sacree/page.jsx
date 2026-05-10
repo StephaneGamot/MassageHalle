@@ -9,7 +9,6 @@ import MassageServiceJSONLD from "@/components/Metadata/MassageServiceJSONLD";
 import ServiceBreadcrumbJsonLd from "@/components/Metadata/ServiceBreadcrumbJsonLd";
 import RelatedServices from "@/components/RelatedServices/RelatedServices";
 import ServiceFaq from "@/components/Faq/ServiceFaq";
-import { LocalBusinessJsonLd } from "next-seo";
 
 const baseUrl = "https://lavoiedubienetre.be";
 
@@ -106,47 +105,6 @@ export default async function Page(props) {
 
   return (
     <>
-      <LocalBusinessJsonLd
-        type="HealthAndBeautyBusiness"
-        id={`${baseUrl}/#localbusiness`}
-        name="La Voie du Bien-Être"
-        description="Massages relaxants, bien-être, shiatsu et soins énergétiques à Halle – Bruxelles."
-        url={`${baseUrl}/${currentLocale}`}
-        telephone="+32477131993"
-        address={{
-          streetAddress: "Octave de Kerchove d'Exaerdestraat 193",
-          addressLocality: "Halle",
-          postalCode: "1501",
-          addressCountry: "BE",
-        }}
-        geo={{
-          latitude: 50.7464695,
-          longitude: 4.2563906,
-        }}
-        priceRange="€€"
-        image={[`${baseUrl}/Images/OpenGraph/accueil-massage-halle.webp`]}
-        sameAs={[
-          "https://www.facebook.com/lavoiedubienetremassageshiatsureikireflexologie/",
-        ]}
-        openingHours={[
-          {
-            opens: "10:00",
-            closes: "19:00",
-            dayOfWeek: [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday",
-              "Saturday",
-            ],
-          },
-        ]}
-        rating={{
-          ratingValue: "4.9",
-          ratingCount: "50",
-        }}
-      />
 
       <MassageServiceJSONLD slug="cranioSacree" locale={currentLocale} />
 

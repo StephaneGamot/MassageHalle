@@ -35,13 +35,14 @@ const pages = [
   { path: "/faq", priority: 0.8, changeFrequency: "monthly" },
 ];
 
-export default function sitemap() {
-  const now = new Date().toISOString();
+// Date de dernière mise à jour du contenu — à mettre à jour manuellement lors d'une refonte
+const LAST_UPDATED = "2025-10-01T00:00:00.000Z";
 
+export default function sitemap() {
   return pages.flatMap((page) =>
     locales.map((locale) => ({
       url: `${baseUrl}/${locale}${page.path}`,
-      lastModified: now,
+      lastModified: LAST_UPDATED,
       changeFrequency: page.changeFrequency,
       priority: page.priority,
       alternates: {

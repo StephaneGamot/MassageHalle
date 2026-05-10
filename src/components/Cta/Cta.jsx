@@ -46,18 +46,18 @@ export default function Cta() {
           <div className="grid grid-cols-2 gap-3 sm:gap-4">
             <div className="space-y-3 sm:space-y-4">
               <div className="img-zoom rounded-2xl overflow-hidden">
-                <Image src={Masseur1} alt="Massage relaxant" placeholder="blur" loading="lazy" className="aspect-[4/5] w-full object-cover rounded-2xl" sizes="(max-width: 768px) 45vw, 280px" />
+                <Image src={Masseur1} alt="Praticien réalisant un massage relaxant sur table à Hal — La Voie du Bien-Être" placeholder="blur" loading="lazy" className="aspect-[4/5] w-full object-cover rounded-2xl" sizes="(max-width: 768px) 45vw, 280px" />
               </div>
               <div className="img-zoom rounded-2xl overflow-hidden">
-                <Image src={Masseur2} alt="Shiatsu" placeholder="blur" loading="lazy" className="aspect-[4/3] w-full object-cover rounded-2xl" sizes="(max-width: 768px) 45vw, 280px" />
+                <Image src={Masseur2} alt="Séance de shiatsu — méridiens énergétiques japonais à Hal, Bruxelles" placeholder="blur" loading="lazy" className="aspect-[4/3] w-full object-cover rounded-2xl" sizes="(max-width: 768px) 45vw, 280px" />
               </div>
             </div>
             <div className="space-y-3 sm:space-y-4 pt-8">
               <div className="img-zoom rounded-2xl overflow-hidden">
-                <Image src={Masseur3} alt="Massage huiles" placeholder="blur" loading="lazy" className="aspect-[4/3] w-full object-cover rounded-2xl" sizes="(max-width: 768px) 45vw, 280px" />
+                <Image src={Masseur3} alt="Massage relaxant aux huiles essentielles — soin corps et esprit à Hal" placeholder="blur" loading="lazy" className="aspect-[4/3] w-full object-cover rounded-2xl" sizes="(max-width: 768px) 45vw, 280px" />
               </div>
               <div className="img-zoom rounded-2xl overflow-hidden">
-                <Image src={Masseur4} alt="Massage épaule" placeholder="blur" loading="lazy" className="aspect-[4/5] w-full object-cover rounded-2xl" sizes="(max-width: 768px) 45vw, 280px" />
+                <Image src={Masseur4} alt="Massage thérapeutique épaule et dos — libération des tensions à Hal" placeholder="blur" loading="lazy" className="aspect-[4/5] w-full object-cover rounded-2xl" sizes="(max-width: 768px) 45vw, 280px" />
               </div>
             </div>
           </div>

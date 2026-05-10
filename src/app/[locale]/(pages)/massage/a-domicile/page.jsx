@@ -6,7 +6,6 @@ import Gallery from "@/components/Gallery/Gallery";
 import CtaSectionMassagePage from "@/components/Cta/CtaSectionMassagePage";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import MassageServiceJSONLD from "@/components/Metadata/MassageServiceJSONLD";
-import { LocalBusinessJsonLd } from "next-seo";
 import ServiceBreadcrumbJsonLd from "@/components/Metadata/ServiceBreadcrumbJsonLd";
 import RelatedServices from "@/components/RelatedServices/RelatedServices";
 import ServiceFaq from "@/components/Faq/ServiceFaq";
@@ -20,13 +19,13 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Massage à domicile à Hal, Bruxelles et alentours",
-      en: "Home Massage in Halle & Brussels",
-      nl: "Massage aan huis in Halle & Brussel",
+      fr: "Massage à domicile Hal & Bruxelles",
+      en: "Home Massage Halle & Brussels",
+      nl: "Massage aan huis Halle & Brussel",
     }[currentLocale],
     description: {
-      fr: "Massage à domicile à Hal dès 80€. Soin personnalisé dans le confort de votre foyer, à Bruxelles et environs. Réservez maintenant !",
-      en: "Home massage in Halle from €80. A personalized treatment in the comfort of your home. Brussels and surroundings. Book today!",
+      fr: "Massage à domicile à Hal dès 80€. Soin personnalisé chez vous à Bruxelles, Waterloo, Braine-l'Alleud et alentours. Réservez maintenant !",
+      en: "Home massage in Halle from €80. A personalized treatment at your home in Brussels, Waterloo, Braine-l'Alleud and surroundings. Book today!",
       nl: "Massage aan huis in Halle vanaf €80. Persoonlijke behandeling in uw eigen comfort. Halle, Brussel en omgeving. Boek nu uw sessie!",
     }[currentLocale],
     robots: {
@@ -108,48 +107,6 @@ export default async function Page(props) {
 
   return (
     <>
-      {/* ✅ LocalBusiness pour le SEO local */}
-      <LocalBusinessJsonLd
-        type="HealthAndBeautyBusiness"
-        id={localBusinessId}
-        name="La Voie du Bien-Être"
-        description="Massages relaxants, bien-être, shiatsu et soins énergétiques à Halle – Bruxelles."
-        url={`${baseUrl}/${currentLocale}`}
-        telephone="+32477131993"
-        address={{
-          streetAddress: "Octave de Kerchove d’Exaerdestraat 193",
-          addressLocality: "Halle",
-          postalCode: "1501",
-          addressCountry: "BE",
-        }}
-        geo={{
-          latitude: 50.7464695,
-          longitude: 4.2563906,
-        }}
-        priceRange="€€"
-        image={[`${baseUrl}/Images/OpenGraph/accueil-massage-halle.webp`]}
-        sameAs={[
-          "https://www.facebook.com/lavoiedubienetremassageshiatsureikireflexologie/",
-        ]}
-        openingHours={[
-          {
-            opens: "10:00",
-            closes: "19:00",
-            dayOfWeek: [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday",
-              "Saturday",
-            ],
-          },
-        ]}
-        rating={{
-          ratingValue: "4.9",
-          ratingCount: "50",
-        }}
-      />
 
       {/* JSON-LD du service massage a domicile */}
       <MassageServiceJSONLD slug="domicile" locale={currentLocale} />
