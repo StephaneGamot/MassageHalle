@@ -138,12 +138,15 @@ export default function Footer() {
           <p className="text-xs !text-white/75">
             &copy; {new Date().getFullYear()} La Voie du Bien-&Ecirc;tre
           </p>
-          <div className="flex gap-6">
+          <div className="flex gap-6 flex-wrap">
             <Link href="https://www.votremassageadomicilepaysbasque.com/fr" className="text-xs !text-white/75 hover:!text-[#D4BA91] transition-colors" target="_blank" rel="noopener noreferrer">
               Massage Pays-Basque
             </Link>
             <Link href="https://www.stephanegamot.com/" className="text-xs !text-white/75 hover:!text-[#D4BA91] transition-colors" target="_blank" rel="noopener noreferrer">
-              Création web &amp; SEO
+              Stéphane Gamot — Developer
+            </Link>
+            <Link href="https://www.creation-site-internet-pays-basque.com/fr" className="text-xs !text-white/75 hover:!text-[#D4BA91] transition-colors" target="_blank" rel="noopener noreferrer">
+              Création de site internet au Pays Basque
             </Link>
           </div>
         </div>
