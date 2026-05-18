@@ -18,14 +18,14 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Massage tao à Hal – Énergie vitale",
-      en: "Tao Massage in Halle – Harmony",
-      nl: "Tao Massage in Halle – Harmonie",
+      fr: "Massage Tao à Hal – Lenteur, présence, énergie vitale",
+      en: "Tao Massage in Halle – Slow, mindful, deeply energetic",
+      nl: "Tao-massage in Halle – Traag, bewust, energetisch diep",
     }[currentLocale],
     description: {
-      fr: "Massage tao à Hal dès 80€ : reconnectez-vous à votre énergie vitale. Douceur, lenteur et conscience du corps. Réservez maintenant !",
-      en: "Tao massage in Halle from €80: reconnect with your vital energy. Gentleness, slowness, and body awareness. Book your session now!",
-      nl: "Tao-massage in Halle vanaf €80: herontdek je vitale energie. Een unieke ervaring van zachtheid, traagheid en lichaamsbewustzijn. Boek nu!",
+      fr: "Le massage Tao à Hal : un soin lent et profond, inspiré de la médecine chinoise, pour reconnecter corps et énergie. 90 min dès 110 €. Réservez en ligne.",
+      en: "Tao massage in Halle: a slow, deep treatment rooted in Chinese medicine to reconnect body and energy. 90 min from €110. Book your session online.",
+      nl: "Tao-massage in Halle: een trage, diepe behandeling uit de Chinese geneeskunde om lichaam en energie te verbinden. 90 min vanaf €110. Boek online.",
     }[currentLocale],
     alternates: {
       canonical: `${baseUrl}/${currentLocale}/massage/tao`,
@@ -38,14 +38,14 @@ export async function generateMetadata({ params }) {
     },
     openGraph: {
       title: {
-        fr: "Massage tao à Hal – Énergie vitale",
-        en: "Tao Massage in Halle – Harmony",
-        nl: "Tao Massage in Halle – Harmonie",
+        fr: "Massage Tao à Hal – Lenteur, présence, énergie vitale",
+        en: "Tao Massage in Halle – Slow, mindful, deeply energetic",
+        nl: "Tao-massage in Halle – Traag, bewust, energetisch diep",
       }[currentLocale],
       description: {
-        fr: "Massage tao à Hal dès 80€ : reconnectez-vous à votre énergie vitale. Douceur, lenteur et conscience du corps. Réservez maintenant !",
-        en: "Tao massage in Halle from €80: reconnect with your vital energy. Gentleness, slowness, and body awareness. Book your session now!",
-        nl: "Tao-massage in Halle vanaf €80: herontdek je vitale energie. Een unieke ervaring van zachtheid, traagheid en lichaamsbewustzijn. Boek nu!",
+        fr: "Le massage Tao à Hal : un soin lent et profond, inspiré de la médecine chinoise, pour reconnecter corps et énergie. 90 min dès 110 €. Réservez en ligne.",
+        en: "Tao massage in Halle: a slow, deep treatment rooted in Chinese medicine to reconnect body and energy. 90 min from €110. Book your session online.",
+        nl: "Tao-massage in Halle: een trage, diepe behandeling uit de Chinese geneeskunde om lichaam en energie te verbinden. 90 min vanaf €110. Boek online.",
       }[currentLocale],
       url: `${baseUrl}/${currentLocale}/massage/tao`,
       type: "website",
@@ -72,14 +72,14 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       site: "@voiedubienetre",
       title: {
-        fr: "Massage tao à Hal – Harmonie",
-        en: "Tao Massage in Halle – Harmony",
-        nl: "Tao Massage in Halle – Harmonie",
+        fr: "Massage Tao à Hal – Lenteur, présence, énergie vitale",
+        en: "Tao Massage in Halle – Slow, mindful, deeply energetic",
+        nl: "Tao-massage in Halle – Traag, bewust, energetisch diep",
       }[currentLocale],
       description: {
-        fr: "Massage tao à Hal : douceur, lenteur et harmonie pour retrouver l’équilibre. Réservez votre séance !",
-        en: "Tao massage in Halle: gentleness, slowness and harmony to restore balance. Book your session now!",
-        nl: "Tao-massage in Halle: zachtheid, traagheid en harmonie om in balans te komen. Boek nu je sessie!",
+        fr: "Le massage Tao à Hal : un soin lent et profond, inspiré de la médecine chinoise, pour reconnecter corps et énergie. 90 min dès 110 €. Réservez en ligne.",
+        en: "Tao massage in Halle: a slow, deep treatment rooted in Chinese medicine to reconnect body and energy. 90 min from €110. Book your session online.",
+        nl: "Tao-massage in Halle: een trage, diepe behandeling uit de Chinese geneeskunde om lichaam en energie te verbinden. 90 min vanaf €110. Boek online.",
       }[currentLocale],
       images: [`${baseUrl}/Images/OpenGraph/masseur-massage.jpg`],
     },

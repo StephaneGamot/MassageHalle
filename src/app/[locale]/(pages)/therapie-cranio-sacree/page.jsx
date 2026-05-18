@@ -18,14 +18,14 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Thérapie Cranio-Sacrée à Hal",
-      en: "Craniosacral Therapy in Halle (Brussels)",
-      nl: "Craniosacrale Therapie in Halle",
+      fr: "Thérapie cranio-sacrée à Hal – Migraines, stress, ATM",
+      en: "Craniosacral Therapy Halle – Migraines, TMJ, tinnitus",
+      nl: "Craniosacrale therapie Halle – Migraine, kaak, oorsuizen",
     }[currentLocale],
     description: {
-      fr: "Thérapie cranio-sacrée à Hal : libérez les blocages du système nerveux grâce à un soin subtil et puissant. Réservez votre séance dès maintenant !",
-      en: "Craniosacral therapy in Halle: release deep nervous system blockages with a subtle yet powerful treatment. Book your session at our studio today!",
-      nl: "Craniosacrale therapie in Halle: bevrijd diepe blokkades in het zenuwstelsel met een subtiele maar krachtige behandeling. Boek nu uw afspraak!",
+      fr: "Migraines, acouphènes, mâchoire crispée, choc émotionnel ? Thérapie cranio-sacrée à Hal, 60 min de soin doux dès 90 €. Sur rdv. Réservez en ligne.",
+      en: "Migraines, tinnitus, jaw tension, emotional trauma? Craniosacral therapy in Halle, gentle 60-min treatment from €90. By appointment. Book online.",
+      nl: "Migraine, oorsuizen, kaakspanning, emotioneel trauma? Craniosacrale therapie in Halle, zachte 60-min behandeling vanaf €90. Op afspraak. Boek online.",
     }[currentLocale],
     alternates: {
       canonical: `${baseUrl}/${currentLocale}/therapie-cranio-sacree`,
@@ -38,14 +38,14 @@ export async function generateMetadata({ params }) {
     },
     openGraph: {
       title: {
-        fr: "Thérapie Cranio-Sacrée à Hal – Apaisement profond",
-        en: "Craniosacral Therapy in Halle – Deep Relief",
-        nl: "Craniosacrale Therapie in Halle – Diepe Ontspanning",
+        fr: "Thérapie cranio-sacrée à Hal – Migraines, stress, ATM",
+        en: "Craniosacral Therapy Halle – Migraines, TMJ, tinnitus",
+        nl: "Craniosacrale therapie Halle – Migraine, kaak, oorsuizen",
       }[currentLocale],
       description: {
-        fr: "Une approche douce pour réguler le système nerveux, soulager les douleurs chroniques et favoriser un bien-être durable.",
-        en: "A gentle method to regulate the nervous system, relieve chronic pain, and support long-lasting wellness.",
-        nl: "Een zachte methode om het zenuwstelsel te reguleren, chronische pijn te verlichten en duurzaam welzijn te bevorderen.",
+        fr: "Migraines, acouphènes, mâchoire crispée, choc émotionnel ? Thérapie cranio-sacrée à Hal, 60 min de soin doux dès 90 €. Sur rdv. Réservez en ligne.",
+        en: "Migraines, tinnitus, jaw tension, emotional trauma? Craniosacral therapy in Halle, gentle 60-min treatment from €90. By appointment. Book online.",
+        nl: "Migraine, oorsuizen, kaakspanning, emotioneel trauma? Craniosacrale therapie in Halle, zachte 60-min behandeling vanaf €90. Op afspraak. Boek online.",
       }[currentLocale],
       url: `${baseUrl}/${currentLocale}/therapie-cranio-sacree`,
       type: "website",
@@ -72,14 +72,14 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       site: "@voiedubienetre",
       title: {
-        fr: "Cranio-Sacrée à Hal – Retrouver équilibre et calme",
-        en: "Craniosacral Therapy – Restore balance and calm",
-        nl: "Craniosacrale Therapie – Herstel van rust en evenwicht",
+        fr: "Thérapie cranio-sacrée à Hal – Migraines, stress, ATM",
+        en: "Craniosacral Therapy Halle – Migraines, TMJ, tinnitus",
+        nl: "Craniosacrale therapie Halle – Migraine, kaak, oorsuizen",
       }[currentLocale],
       description: {
-        fr: "Apaisement du système nerveux, libération des tensions profondes. Une séance de CST pour se recentrer.",
-        en: "Soothing of the nervous system, deep release. A CST session to refocus.",
-        nl: "Kalmering van het zenuwstelsel, diepe bevrijding. Een CST-sessie om opnieuw in balans te komen.",
+        fr: "Migraines, acouphènes, mâchoire crispée, choc émotionnel ? Thérapie cranio-sacrée à Hal, 60 min de soin doux dès 90 €. Sur rdv. Réservez en ligne.",
+        en: "Migraines, tinnitus, jaw tension, emotional trauma? Craniosacral therapy in Halle, gentle 60-min treatment from €90. By appointment. Book online.",
+        nl: "Migraine, oorsuizen, kaakspanning, emotioneel trauma? Craniosacrale therapie in Halle, zachte 60-min behandeling vanaf €90. Op afspraak. Boek online.",
       }[currentLocale],
       images: [`${baseUrl}/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp`],
     },

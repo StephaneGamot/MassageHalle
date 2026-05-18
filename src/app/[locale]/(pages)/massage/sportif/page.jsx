@@ -18,14 +18,14 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Massage sportif à Hal – Récupération",
-      en: "Sports Massage in Halle – Recovery",
-      nl: "Sportmassage in Halle – Herstel",
+      fr: "Massage sportif à Hal – Récup post-effort dès 80 €",
+      en: "Sports Massage in Halle – Post-Workout Recovery €80+",
+      nl: "Sportmassage Halle – Herstel na inspanning vanaf €80",
     }[currentLocale],
     description: {
-      fr: "Massage sportif à Hal dès 80€ : récupération musculaire optimale, soulagement des tensions et prévention des blessures. Sur rdv. Réservez !",
-      en: "Sports massage in Halle from €80: optimal recovery and muscle tension relief after exercise. Book your session now!",
-      nl: "Sportmassage in Halle vanaf €80: optimaal herstel en verlichting van spierspanning na inspanning. Boek nu je sessie!",
+      fr: "Course, vélo, foot, salle ? Massage sportif à Hal pour accélérer la récupération, soulager les courbatures et prévenir les blessures. Dès 80 €. RDV.",
+      en: "Runner, cyclist, gym-goer? Sports massage in Halle to speed recovery, ease sore muscles and prevent injury. From €80. Studio or at-home. Book now.",
+      nl: "Lopen, fietsen, fitness? Sportmassage in Halle voor snel herstel, minder spierpijn en blessurepreventie. Vanaf €80. Praktijk of aan huis. Boek nu.",
     }[currentLocale],
     alternates: {
       canonical: `${baseUrl}/${currentLocale}/massage/sportif`,
@@ -38,14 +38,14 @@ export async function generateMetadata({ params }) {
     },
     openGraph: {
       title: {
-        fr: "Massage sportif à Hal – Récupération",
-        en: "Sports Massage in Halle – Recovery",
-        nl: "Sportmassage in Halle – Herstel",
+        fr: "Massage sportif à Hal – Récup post-effort dès 80 €",
+        en: "Sports Massage in Halle – Post-Workout Recovery €80+",
+        nl: "Sportmassage Halle – Herstel na inspanning vanaf €80",
       }[currentLocale],
       description: {
-        fr: "Massage sportif à Hal dès 80€ : récupération musculaire optimale, soulagement des tensions et prévention des blessures. Sur rdv. Réservez !",
-        en: "Sports massage in Halle from €80: optimal recovery and muscle tension relief after exercise. Book your session now!",
-        nl: "Sportmassage in Halle vanaf €80: optimaal herstel en verlichting van spierspanning na inspanning. Boek nu je sessie!",
+        fr: "Course, vélo, foot, salle ? Massage sportif à Hal pour accélérer la récupération, soulager les courbatures et prévenir les blessures. Dès 80 €. RDV.",
+        en: "Runner, cyclist, gym-goer? Sports massage in Halle to speed recovery, ease sore muscles and prevent injury. From €80. Studio or at-home. Book now.",
+        nl: "Lopen, fietsen, fitness? Sportmassage in Halle voor snel herstel, minder spierpijn en blessurepreventie. Vanaf €80. Praktijk of aan huis. Boek nu.",
       }[currentLocale],
       url: `${baseUrl}/${currentLocale}/massage/sportif`,
       type: "website",
@@ -72,14 +72,14 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       site: "@voiedubienetre",
       title: {
-        fr: "Massage sportif à Hal – Récupération",
-        en: "Sports Massage in Halle – Recovery",
-        nl: "Sportmassage in Halle – Herstel",
+        fr: "Massage sportif à Hal – Récup post-effort dès 80 €",
+        en: "Sports Massage in Halle – Post-Workout Recovery €80+",
+        nl: "Sportmassage Halle – Herstel na inspanning vanaf €80",
       }[currentLocale],
       description: {
-        fr: "Massage sportif à Hal : récupération musculaire et performance optimale. Réservez votre séance maintenant !",
-        en: "Sports massage in Halle: muscle recovery and optimal performance. Book your session now!",
-        nl: "Sportmassage in Halle: spierherstel en optimale prestaties. Boek nu je sessie!",
+        fr: "Course, vélo, foot, salle ? Massage sportif à Hal pour accélérer la récupération, soulager les courbatures et prévenir les blessures. Dès 80 €. RDV.",
+        en: "Runner, cyclist, gym-goer? Sports massage in Halle to speed recovery, ease sore muscles and prevent injury. From €80. Studio or at-home. Book now.",
+        nl: "Lopen, fietsen, fitness? Sportmassage in Halle voor snel herstel, minder spierpijn en blessurepreventie. Vanaf €80. Praktijk of aan huis. Boek nu.",
       }[currentLocale],
       images: [`${baseUrl}/Images/OpenGraph/masseur-massage.jpg`],
     },

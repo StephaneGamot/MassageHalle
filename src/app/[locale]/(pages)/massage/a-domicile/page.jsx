@@ -19,14 +19,14 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Massage à domicile Hal & Bruxelles",
-      en: "Home Massage Halle & Brussels",
-      nl: "Massage aan huis Halle & Brussel",
+      fr: "Massage à domicile à Hal, Bruxelles & Brabant – dès 80 €",
+      en: "Home Massage in Halle, Brussels & Brabant – from €80",
+      nl: "Massage aan huis – Halle, Brussel & Brabant vanaf €80",
     }[currentLocale],
     description: {
-      fr: "Massage à domicile à Hal dès 80€. Soin personnalisé chez vous à Bruxelles, Waterloo, Braine-l'Alleud et alentours. Réservez maintenant !",
-      en: "Home massage in Halle from €80. A personalized treatment at your home in Brussels, Waterloo, Braine-l'Alleud and surroundings. Book today!",
-      nl: "Massage aan huis in Halle vanaf €80. Persoonlijke behandeling in uw eigen comfort. Halle, Brussel en omgeving. Boek nu uw sessie!",
+      fr: "Votre massage chez vous, sans bouger : Hal, Bruxelles, Uccle, Waterloo, Braine, Drogenbos. Table fournie, dès 80 €. Réservez votre créneau en ligne.",
+      en: "Your massage delivered to your door: Halle, Brussels, Uccle, Waterloo, Braine. Table provided, from €80. Choose your time slot and book online.",
+      nl: "Uw massage bij u thuis: Halle, Brussel, Ukkel, Waterloo, Drogenbos. Tafel inbegrepen, vanaf €80. Kies uw tijdslot en boek online uw sessie.",
     }[currentLocale],
     robots: {
       index: true,
@@ -50,14 +50,14 @@ export async function generateMetadata({ params }) {
     },
     openGraph: {
       title: {
-        fr: "Massage à domicile à Hal, Bruxelles et alentours",
-        en: "Home Massage in Halle & Brussels",
-        nl: "Massage aan huis in Halle & Brussel",
+        fr: "Massage à domicile à Hal, Bruxelles & Brabant – dès 80 €",
+        en: "Home Massage in Halle, Brussels & Brabant – from €80",
+        nl: "Massage aan huis – Halle, Brussel & Brabant vanaf €80",
       }[currentLocale],
       description: {
-        fr: "Massage relaxant à domicile à Hal, Bruxelles et environs. Soin personnalisé dans le confort de votre foyer. Réservez votre séance maintenant !",
-        en: "Enjoy a relaxing home massage in Halle, Brussels and surroundings. A personalized treatment in the comfort of your home. Book your session today!",
-        nl: "Geniet van een ontspannende massage aan huis in Halle, Brussel en omgeving. Een persoonlijke behandeling in uw eigen comfort. Boek nu uw sessie!",
+        fr: "Votre massage chez vous, sans bouger : Hal, Bruxelles, Uccle, Waterloo, Braine, Drogenbos. Table fournie, dès 80 €. Réservez votre créneau en ligne.",
+        en: "Your massage delivered to your door: Halle, Brussels, Uccle, Waterloo, Braine. Table provided, from €80. Choose your time slot and book online.",
+        nl: "Uw massage bij u thuis: Halle, Brussel, Ukkel, Waterloo, Drogenbos. Tafel inbegrepen, vanaf €80. Kies uw tijdslot en boek online uw sessie.",
       }[currentLocale],
       url: `${baseUrl}/${currentLocale}/massage/a-domicile`,
       type: "website",
@@ -84,14 +84,14 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       site: "@voiedubienetre",
       title: {
-        fr: "Massage à domicile à Hal, Bruxelles et alentours",
-        en: "Home Massage in Halle & Brussels",
-        nl: "Massage aan huis in Halle & Brussel",
+        fr: "Massage à domicile à Hal, Bruxelles & Brabant – dès 80 €",
+        en: "Home Massage in Halle, Brussels & Brabant – from €80",
+        nl: "Massage aan huis – Halle, Brussel & Brabant vanaf €80",
       }[currentLocale],
       description: {
-        fr: "Massage relaxant à domicile à Hal, Bruxelles et environs. Soin personnalisé dans le confort de votre foyer. Réservez votre séance maintenant !",
-        en: "Enjoy a relaxing home massage in Halle, Brussels and surroundings. A personalized treatment in the comfort of your home. Book your session today!",
-        nl: "Geniet van een ontspannende massage aan huis in Halle, Brussel en omgeving. Een persoonlijke behandeling in uw eigen comfort. Boek nu uw sessie!",
+        fr: "Votre massage chez vous, sans bouger : Hal, Bruxelles, Uccle, Waterloo, Braine, Drogenbos. Table fournie, dès 80 €. Réservez votre créneau en ligne.",
+        en: "Your massage delivered to your door: Halle, Brussels, Uccle, Waterloo, Braine. Table provided, from €80. Choose your time slot and book online.",
+        nl: "Uw massage bij u thuis: Halle, Brussel, Ukkel, Waterloo, Drogenbos. Tafel inbegrepen, vanaf €80. Kies uw tijdslot en boek online uw sessie.",
       }[currentLocale],
       images: [`${baseUrl}/Images/OpenGraph/masseur-massage.jpg`],
     },

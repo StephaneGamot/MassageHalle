@@ -17,16 +17,16 @@ export async function generateMetadata({ params }) {
   return {
     // ─── TITLE TAG (50-60 car.) — mot-clé principal à gauche ───
     title: {
-      fr: "Massage bien-être à Hal – Bruxelles | La Voie du Bien-Être",
-      en: "Wellness Massage in Halle – Brussels | La Voie du Bien-Être",
-      nl: "Wellnessmassage in Halle – Brussel | La Voie du Bien-Être",
+      fr: "Massage bien-être à Hal & Bruxelles – Cabinet ou à domicile",
+      en: "Wellness Massage in Halle & Brussels – Studio or At-Home",
+      nl: "Massage in Halle & Brussel – Praktijk of bij u thuis",
     }[currentLocale],
 
     // ─── META DESCRIPTION (140-155 car.) — avec CTA + villes ───
     description: {
-      fr: "Massages relaxants, shiatsu, reiki et soins thérapeutiques à Hal, Bruxelles, Waterloo, Uccle. En cabinet ou à domicile. Réservez dès maintenant !",
-      en: "Relaxing massages, shiatsu, reiki and therapeutic care in Halle, Brussels, Waterloo, Uccle. In-studio or at home. Book your session today!",
-      nl: "Ontspanningsmassages, shiatsu, reiki en therapeutische behandelingen in Halle, Brussel, Waterloo, Ukkel. In de praktijk of aan huis. Boek nu!",
+      fr: "Massages, shiatsu, reiki à Hal, Bruxelles, Uccle, Waterloo. Cabinet sur rdv ou à domicile dès 80 €. Réservez votre séance de détente en ligne.",
+      en: "Massage, shiatsu, reiki in Halle, Brussels, Uccle, Waterloo. By appointment at the studio or at your home, from €80. Book your session online today.",
+      nl: "Massage, shiatsu, reiki in Halle, Brussel, Ukkel, Waterloo. Op afspraak in de praktijk of bij u thuis, vanaf €80. Boek online uw sessie vandaag.",
     }[currentLocale],
 
     // ─── ROBOTS ───
@@ -56,14 +56,14 @@ export async function generateMetadata({ params }) {
     // ─── OPEN GRAPH ───
     openGraph: {
       title: {
-        fr: "Massage bien-être à Hal – Bruxelles | La Voie du Bien-Être",
-        en: "Wellness Massage in Halle – Brussels | La Voie du Bien-Être",
-        nl: "Wellnessmassage in Halle – Brussel | La Voie du Bien-Être",
+        fr: "Massage bien-être à Hal & Bruxelles – Cabinet ou à domicile",
+        en: "Wellness Massage in Halle & Brussels – Studio or At-Home",
+        nl: "Massage in Halle & Brussel – Praktijk of bij u thuis",
       }[currentLocale],
       description: {
-        fr: "Massages relaxants, shiatsu et soins énergétiques à Hal. Offrez-vous une parenthèse de détente en cabinet ou à domicile.",
-        en: "Relaxing massages, shiatsu and energy treatments in Halle. Treat yourself to a moment of relaxation in-studio or at home.",
-        nl: "Ontspanningsmassages, shiatsu en energetische behandelingen in Halle. Gun uzelf een moment van ontspanning in de praktijk of aan huis.",
+        fr: "Massages, shiatsu, reiki à Hal, Bruxelles, Uccle, Waterloo. Cabinet sur rdv ou à domicile dès 80 €. Réservez votre séance de détente en ligne.",
+        en: "Massage, shiatsu, reiki in Halle, Brussels, Uccle, Waterloo. By appointment at the studio or at your home, from €80. Book your session online today.",
+        nl: "Massage, shiatsu, reiki in Halle, Brussel, Ukkel, Waterloo. Op afspraak in de praktijk of bij u thuis, vanaf €80. Boek online uw sessie vandaag.",
       }[currentLocale],
       url: `${baseUrl}/${currentLocale}`,
       siteName: "La Voie du Bien-Être",
@@ -94,14 +94,14 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       site: "@voiedubienetre",
       title: {
-        fr: "Massage bien-être à Hal – Bruxelles | La Voie du Bien-Être",
-        en: "Wellness Massage in Halle – Brussels | La Voie du Bien-Être",
-        nl: "Wellnessmassage in Halle – Brussel | La Voie du Bien-Être",
+        fr: "Massage bien-être à Hal & Bruxelles – Cabinet ou à domicile",
+        en: "Wellness Massage in Halle & Brussels – Studio or At-Home",
+        nl: "Massage in Halle & Brussel – Praktijk of bij u thuis",
       }[currentLocale],
       description: {
-        fr: "Massages relaxants, shiatsu, reiki et soins thérapeutiques à Hal. En cabinet ou à domicile. Réservez maintenant !",
-        en: "Relaxing massages, shiatsu, reiki and therapeutic treatments in Halle. In-studio or at home. Book now!",
-        nl: "Ontspanningsmassages, shiatsu, reiki en therapeutische behandelingen in Halle. In de praktijk of aan huis. Boek nu!",
+        fr: "Massages, shiatsu, reiki à Hal, Bruxelles, Uccle, Waterloo. Cabinet sur rdv ou à domicile dès 80 €. Réservez votre séance de détente en ligne.",
+        en: "Massage, shiatsu, reiki in Halle, Brussels, Uccle, Waterloo. By appointment at the studio or at your home, from €80. Book your session online today.",
+        nl: "Massage, shiatsu, reiki in Halle, Brussel, Ukkel, Waterloo. Op afspraak in de praktijk of bij u thuis, vanaf €80. Boek online uw sessie vandaag.",
       }[currentLocale],
       images: [
         `${baseUrl}/Images/OpenGraph/accueil-massage-halle.webp`,

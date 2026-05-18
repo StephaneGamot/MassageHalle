@@ -18,14 +18,14 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Reiki à Hal – Soin énergétique",
-      en: "Reiki in Halle – Energy Healing",
-      nl: "Reiki in Halle – Energetische zorg",
+      fr: "Reiki à Hal – Maître Reiki, séance 60 min dès 80 €",
+      en: "Reiki in Halle – Reiki Master, 60 min session from €80",
+      nl: "Reiki in Halle – Reiki Master, 60 min sessie vanaf €80",
     }[currentLocale],
     description: {
-      fr: "Soin Reiki à Hal dès 80€ : réharmonisez vos énergies et retrouvez l'équilibre intérieur. Accompagnement doux et bienveillant. Réservez !",
-      en: "Reiki session in Halle from €80: rebalance your energy and restore inner harmony with a gentle, compassionate treatment. Book today!",
-      nl: "Reiki in Halle vanaf €80: harmoniseer uw energieën en herstel uw innerlijk evenwicht. Zachte, zorgzame begeleiding. Boek nu!",
+      fr: "Reiki à Hal avec un Maître Reiki : apaisez stress, anxiété et fatigue émotionnelle. Soin habillé de 60 min dès 80 €. Cabinet calme. Réservez en ligne.",
+      en: "Reiki in Halle with a Reiki Master: ease stress, anxiety and emotional fatigue. 60-min fully-clothed treatment from €80. Quiet studio. Book online.",
+      nl: "Reiki in Halle bij een Reiki Master: verlicht stress, angst en emotionele vermoeidheid. 60-min gekleed, vanaf €80. Rustige praktijk. Boek online.",
     }[currentLocale],
     alternates: {
       canonical: `${baseUrl}/${currentLocale}/reiki`,
@@ -38,14 +38,14 @@ export async function generateMetadata({ params }) {
     },
     openGraph: {
       title: {
-        fr: "Reiki à Hal – Soin énergétique & Équilibre",
-        en: "Reiki in Halle – Energy Healing & Balance",
-        nl: "Reiki in Halle – Energetische zorg & Evenwicht",
+        fr: "Reiki à Hal – Maître Reiki, séance 60 min dès 80 €",
+        en: "Reiki in Halle – Reiki Master, 60 min session from €80",
+        nl: "Reiki in Halle – Reiki Master, 60 min sessie vanaf €80",
       }[currentLocale],
       description: {
-        fr: "Reiki à Hal dès 80€ : rééquilibrez vos énergies et retrouvez la paix intérieure. Soin doux, bienveillant et profondément ressourçant. Réservez !",
-        en: "Reiki in Halle from €80: rebalance your energy and restore inner peace. A gentle, nurturing, and deeply restorative treatment. Book today!",
-        nl: "Reiki in Halle vanaf €80: herbalanceer uw energieën en herstel innerlijke rust. Zachte, zorgzame en diepe behandeling. Boek nu uw sessie!",
+        fr: "Reiki à Hal avec un Maître Reiki : apaisez stress, anxiété et fatigue émotionnelle. Soin habillé de 60 min dès 80 €. Cabinet calme. Réservez en ligne.",
+        en: "Reiki in Halle with a Reiki Master: ease stress, anxiety and emotional fatigue. 60-min fully-clothed treatment from €80. Quiet studio. Book online.",
+        nl: "Reiki in Halle bij een Reiki Master: verlicht stress, angst en emotionele vermoeidheid. 60-min gekleed, vanaf €80. Rustige praktijk. Boek online.",
       }[currentLocale],
       url: `${baseUrl}/${currentLocale}/reiki`,
       type: "website",
@@ -72,14 +72,14 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       site: "@voiedubienetre",
       title: {
-        fr: "Soin Reiki à Hal – Énergie & Sérénité",
-        en: "Reiki in Halle – Energy & Serenity",
-        nl: "Reiki in Halle – Energie & Rust",
+        fr: "Reiki à Hal – Maître Reiki, séance 60 min dès 80 €",
+        en: "Reiki in Halle – Reiki Master, 60 min session from €80",
+        nl: "Reiki in Halle – Reiki Master, 60 min sessie vanaf €80",
       }[currentLocale],
       description: {
-        fr: "Un soin énergétique à Hal pour vous reconnecter à votre essence vitale.",
-        en: "An energy healing session in Halle to reconnect with your vital essence.",
-        nl: "Een energetische behandeling in Halle om opnieuw verbinding te maken met uw vitale energie.",
+        fr: "Reiki à Hal avec un Maître Reiki : apaisez stress, anxiété et fatigue émotionnelle. Soin habillé de 60 min dès 80 €. Cabinet calme. Réservez en ligne.",
+        en: "Reiki in Halle with a Reiki Master: ease stress, anxiety and emotional fatigue. 60-min fully-clothed treatment from €80. Quiet studio. Book online.",
+        nl: "Reiki in Halle bij een Reiki Master: verlicht stress, angst en emotionele vermoeidheid. 60-min gekleed, vanaf €80. Rustige praktijk. Boek online.",
       }[currentLocale],
       images: [`${baseUrl}/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp`],
     },

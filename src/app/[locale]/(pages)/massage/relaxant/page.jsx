@@ -18,14 +18,14 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Massage relaxant à Hal – Soin doux",
-      en: "Relaxing Massage in Halle – Gentle Care",
-      nl: "Ontspanningsmassage in Halle – Zacht & Omhullend",
+      fr: "Massage relaxant à Hal – 60 min de détente dès 80 €",
+      en: "Relaxing Massage in Halle – 60 min from €80",
+      nl: "Ontspanningsmassage Halle – 60 min vanaf €80",
     }[currentLocale],
     description: {
-      fr: "Massage relaxant à Hal dès 80€ : relâchez stress et tensions grâce à un soin doux et enveloppant. Détente totale garantie. Séance sur rdv. Réservez !",
-      en: "Relaxing massage in Halle from €80: release stress and tension with a gentle, soothing treatment. Total relaxation guaranteed. Book now!",
-      nl: "Ontspanningsmassage in Halle vanaf €80: laat stress en spanning los met een zachte, omhullende behandeling. Totale ontspanning. Boek nu!",
+      fr: "Stress, fatigue ou tensions ? Offrez-vous 60 min de massage relaxant à Hal ou Bruxelles, dès 80 €. Cabinet ou à domicile, du lundi au samedi. Réservez.",
+      en: "Stressed, tired or tense? Enjoy a 60-min relaxing massage in Halle or Brussels from €80. Studio or at home, Monday to Saturday. Book online today.",
+      nl: "Stress, vermoeidheid of spanning? Geniet 60 min ontspanningsmassage in Halle of Brussel vanaf €80. Praktijk of aan huis, ma-za. Boek online.",
     }[currentLocale],
     alternates: {
       canonical: `${baseUrl}/${currentLocale}/massage/relaxant`,
@@ -38,14 +38,14 @@ export async function generateMetadata({ params }) {
     },
     openGraph: {
       title: {
-        fr: "Massage relaxant à Hal",
-        en: "Relaxing Massage in Halle",
-        nl: "Ontspanningsmassage in Halle",
+        fr: "Massage relaxant à Hal – 60 min de détente dès 80 €",
+        en: "Relaxing Massage in Halle – 60 min from €80",
+        nl: "Ontspanningsmassage Halle – 60 min vanaf €80",
       }[currentLocale],
       description: {
-        fr: "Massage relaxant à Hal dès 80€ : relâchez stress et tensions grâce à un soin doux et enveloppant. Détente totale garantie. Séance sur rdv. Réservez !",
-        en: "Relaxing massage in Halle from €80: release stress and tension with a gentle, soothing treatment. Total relaxation guaranteed. Book now!",
-        nl: "Ontspanningsmassage in Halle vanaf €80: laat stress en spanning los met een zachte, omhullende behandeling. Totale ontspanning. Boek nu!",
+        fr: "Stress, fatigue ou tensions ? Offrez-vous 60 min de massage relaxant à Hal ou Bruxelles, dès 80 €. Cabinet ou à domicile, du lundi au samedi. Réservez.",
+        en: "Stressed, tired or tense? Enjoy a 60-min relaxing massage in Halle or Brussels from €80. Studio or at home, Monday to Saturday. Book online today.",
+        nl: "Stress, vermoeidheid of spanning? Geniet 60 min ontspanningsmassage in Halle of Brussel vanaf €80. Praktijk of aan huis, ma-za. Boek online.",
       }[currentLocale],
       url: `${baseUrl}/${currentLocale}/massage/relaxant`,
       type: "website",
@@ -72,14 +72,14 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       site: "@voiedubienetre",
       title: {
-        fr: "Massage relaxant à Hal",
-        en: "Relaxing Massage in Halle",
-        nl: "Ontspanningsmassage in Halle",
+        fr: "Massage relaxant à Hal – 60 min de détente dès 80 €",
+        en: "Relaxing Massage in Halle – 60 min from €80",
+        nl: "Ontspanningsmassage Halle – 60 min vanaf €80",
       }[currentLocale],
       description: {
-        fr: "Massage relaxant à Hal : relâchez le stress et les tensions grâce à un soin doux et enveloppant. Réservez maintenant !",
-        en: "Relaxing massage in Halle: release stress and tension with a gentle, soothing treatment. Book your session today!",
-        nl: "Ontspanningsmassage in Halle: laat stress en spanning los met een zachte, omhullende behandeling. Boek nu!",
+        fr: "Stress, fatigue ou tensions ? Offrez-vous 60 min de massage relaxant à Hal ou Bruxelles, dès 80 €. Cabinet ou à domicile, du lundi au samedi. Réservez.",
+        en: "Stressed, tired or tense? Enjoy a 60-min relaxing massage in Halle or Brussels from €80. Studio or at home, Monday to Saturday. Book online today.",
+        nl: "Stress, vermoeidheid of spanning? Geniet 60 min ontspanningsmassage in Halle of Brussel vanaf €80. Praktijk of aan huis, ma-za. Boek online.",
       }[currentLocale],
       images: [
         `${baseUrl}/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp`,

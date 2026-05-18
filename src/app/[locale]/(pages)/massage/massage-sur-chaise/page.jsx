@@ -18,14 +18,14 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Massage Amma sur chaise – Hal",
-      en: "Seated Amma Massage for Companies | Halle & Brussels",
-      nl: "Amma stoelmassage voor bedrijven | Halle & Brussel",
+      fr: "Massage Amma en entreprise – Hal, Bruxelles, Brabant",
+      en: "Amma Chair Massage at Work – Halle, Brussels & Brabant",
+      nl: "Amma stoelmassage op kantoor – Halle, Brussel, Brabant",
     }[currentLocale],
     description: {
-      fr: "Offrez à vos collaborateurs un massage Amma assis en entreprise à Hal et Bruxelles. Réduit le stress et booste la productivité. Réservez une séance !",
-      en: "Treat your team to a seated Amma massage at work in Halle and Brussels. Reduces stress and boosts productivity. Book a session for your company!",
-      nl: "Trakteer uw team op een Amma stoelmassage op het werk in Halle en Brussel. Vermindert stress en verhoogt de productiviteit. Boek nu een sessie!",
+      fr: "Boostez le bien-être de vos équipes : Amma sur chaise (15-20 min/pers.) en entreprise à Hal, Bruxelles, Brabant. Devis sous 24 h. Contactez-nous.",
+      en: "Boost team wellbeing: seated Amma massage (15-20 min/person) at your office in Halle, Brussels, Brabant. Quote within 24 h. Contact our HR team.",
+      nl: "Boost het welzijn van je team: Amma stoelmassage (15-20 min/persoon) op kantoor in Halle, Brussel, Brabant. Offerte binnen 24 u. Neem contact op.",
     }[currentLocale],
     robots: {
       index: true,
@@ -49,14 +49,14 @@ export async function generateMetadata({ params }) {
     },
     openGraph: {
       title: {
-        fr: "Massage Amma sur chaise – Hal",
-        en: "Seated Amma Massage for Companies | Halle & Brussels",
-        nl: "Amma stoelmassage voor bedrijven | Halle & Brussel",
+        fr: "Massage Amma en entreprise – Hal, Bruxelles, Brabant",
+        en: "Amma Chair Massage at Work – Halle, Brussels & Brabant",
+        nl: "Amma stoelmassage op kantoor – Halle, Brussel, Brabant",
       }[currentLocale],
       description: {
-        fr: "Offrez à vos collaborateurs un massage Amma assis en entreprise à Hal et Bruxelles. Réduit le stress et booste la productivité. Réservez une séance !",
-        en: "Treat your team to a seated Amma massage at work in Halle and Brussels. Reduces stress and boosts productivity. Book a session for your company!",
-        nl: "Trakteer uw team op een Amma stoelmassage op het werk in Halle en Brussel. Vermindert stress en verhoogt de productiviteit. Boek nu een sessie!",
+        fr: "Boostez le bien-être de vos équipes : Amma sur chaise (15-20 min/pers.) en entreprise à Hal, Bruxelles, Brabant. Devis sous 24 h. Contactez-nous.",
+        en: "Boost team wellbeing: seated Amma massage (15-20 min/person) at your office in Halle, Brussels, Brabant. Quote within 24 h. Contact our HR team.",
+        nl: "Boost het welzijn van je team: Amma stoelmassage (15-20 min/persoon) op kantoor in Halle, Brussel, Brabant. Offerte binnen 24 u. Neem contact op.",
       }[currentLocale],
       url: `${baseUrl}/${currentLocale}/massage/massage-sur-chaise`,
       type: "website",
@@ -81,14 +81,14 @@ export async function generateMetadata({ params }) {
     },
     twitter: {
       title: {
-        fr: "Massage Amma sur chaise – Hal",
-        en: "Seated Amma Massage for Companies | Halle & Brussels",
-        nl: "Amma stoelmassage voor bedrijven | Halle & Brussel",
+        fr: "Massage Amma en entreprise – Hal, Bruxelles, Brabant",
+        en: "Amma Chair Massage at Work – Halle, Brussels & Brabant",
+        nl: "Amma stoelmassage op kantoor – Halle, Brussel, Brabant",
       }[currentLocale],
       description: {
-        fr: "Offrez à vos collaborateurs un massage Amma assis en entreprise à Hal et Bruxelles. Réduit le stress et booste la productivité. Réservez une séance !",
-        en: "Treat your team to a seated Amma massage at work in Halle and Brussels. Reduces stress and boosts productivity. Book a session for your company!",
-        nl: "Trakteer uw team op een Amma stoelmassage op het werk in Halle en Brussel. Vermindert stress en verhoogt de productiviteit. Boek nu een sessie!",
+        fr: "Boostez le bien-être de vos équipes : Amma sur chaise (15-20 min/pers.) en entreprise à Hal, Bruxelles, Brabant. Devis sous 24 h. Contactez-nous.",
+        en: "Boost team wellbeing: seated Amma massage (15-20 min/person) at your office in Halle, Brussels, Brabant. Quote within 24 h. Contact our HR team.",
+        nl: "Boost het welzijn van je team: Amma stoelmassage (15-20 min/persoon) op kantoor in Halle, Brussel, Brabant. Offerte binnen 24 u. Neem contact op.",
       }[currentLocale],
       card: "summary_large_image",
       site: "@voiedubienetre",
