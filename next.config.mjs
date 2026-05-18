@@ -207,12 +207,6 @@ const nextConfig = {
         permanent: true,
       },
       {
-        // URL poubelle historique générée par un ancien JS - on la renvoie à la racine
-        source: '/:1',
-        destination: '/',
-        permanent: true,
-      },
-      {
         // Toutes les anciennes URLs /videos/* → homepage FR
         source: '/videos/:path*',
         destination: '/fr',
