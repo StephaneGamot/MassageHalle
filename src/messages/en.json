@@ -1661,5 +1661,17 @@
   "errorPage": {
     "title": "An error occurred",
     "retry": "Try again"
+  },
+  "localContext": {
+    "kicker": "Why La Voie du Bien-Être?",
+    "title": "Expat-friendly studio in Halle, 15 min from Brussels",
+    "p1": "Our studio is located in Buizingen (Halle), just 15 minutes by train from Brussels-South / Bruxelles-Midi station, and 5 minutes by car from the R0 ring. Free parking in front of the studio, calm atmosphere, fresh linens and organic oils provided for every session.",
+    "p2": "Your practitioner is fully fluent in English and welcomes expats from across Brussels — Ixelles, Etterbeek, Auderghem, Woluwe, Uccle. Over 10 years of experience in wellness massage, shiatsu and reiki. Evening and weekend slots available. Personalized gift vouchers for birthdays, Christmas, Valentine's Day, Mother's Day.",
+    "bullets": [
+      "Massage, shiatsu, reiki, reflexology — all under one roof",
+      "Studio or at-home service across Brussels, Uccle, Waterloo, Brabant",
+      "Online booking 7 days a week — instant email confirmation",
+      "Payment by Bancontact, Visa, cash, or gift vouchers"
+    ]
   }
 }

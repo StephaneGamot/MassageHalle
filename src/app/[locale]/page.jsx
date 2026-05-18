@@ -7,6 +7,7 @@ import MassageCardContainer from "@/components/Cards/MassageCardContainer";
 import Cta from "@/components/Cta/Cta";
 import HomepageJsonLd from "@/components/Metadata/HomepageJsonLd";
 import GoogleMap from "@/components/GoogleMap";
+import LocalContextStrip from "@/components/LocalContextStrip";
 
 export async function generateMetadata({ params }) {
   const { locale } = await Promise.resolve(params);
@@ -123,6 +124,7 @@ export default async function HomePage(props) {
     <>
       <HomepageJsonLd locale={locale} />
       <Hero />
+      <LocalContextStrip />
       <MassageCardContainer />
       <Cta />
       <Testimonials ids={[1, 4, 7, 23, 35]} />

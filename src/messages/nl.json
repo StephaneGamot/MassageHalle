@@ -1661,5 +1661,17 @@
   "errorPage": {
     "title": "Er is een fout opgetreden",
     "retry": "Opnieuw proberen"
+  },
+  "localContext": {
+    "kicker": "Waarom La Voie du Bien-Être?",
+    "title": "Praktijk in hartje Halle, op 15 min van Brussel",
+    "p1": "Onze praktijk bevindt zich in Buizingen (Halle), op 15 minuten met de trein van Brussel-Zuid en 5 minuten met de wagen van de R0. Gratis parkeren voor de deur, een rustige sfeer, verse linnen en biologische oliën worden verzorgd voor elke sessie.",
+    "p2": "Nederlandstalige behandelaar met meer dan 10 jaar ervaring in wellnessmassage, shiatsu en reiki. Vlot bereikbaar vanuit Halle, Beersel, Drogenbos, Lennik, Gooik en het hele Pajottenland. Avond- en weekendafspraken mogelijk. Persoonlijke cadeaubonnen voor verjaardagen, Kerstmis, Valentijn, Moederdag.",
+    "bullets": [
+      "Massages, shiatsu, reiki, voetreflexologie — alles op één plek",
+      "Praktijk of aan huis: Halle, Brussel, Ukkel, Waterloo, Pajottenland",
+      "Online boeken 7 dagen op 7 — onmiddellijke e-mailbevestiging",
+      "Betaling met Bancontact, Visa, cash of cadeaubonnen"
+    ]
   }
 }

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
 import LangSwitcher from "@/components/LangSwitcher";
+import AlternateLanguages from "@/components/Footer/AlternateLanguages";
 
 export default function Footer() {
   const t = useTranslations("nav");
@@ -127,8 +128,11 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Liens internes vers les autres versions linguistiques — signal SEO */}
+        <AlternateLanguages />
+
         {/* Villes desservies — SEO local */}
-        <div className="mt-12 pt-6 border-t border-white/10">
+        <div className="mt-8 pt-6 border-t border-white/10">
           <p className="text-xs !text-white/70 text-center mb-6">
             {ft("seoCities")}
           </p>
