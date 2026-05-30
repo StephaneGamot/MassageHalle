@@ -44,7 +44,11 @@ export default function FiftyQuestions() {
                       </Disclosure.Button>
                     </dt>
 
-                    <Disclosure.Panel as="dd" className="mt-2 pr-12">
+                    <Disclosure.Panel
+                      as="dd"
+                      unmount={false}
+                      className="mt-2 pr-12"
+                    >
                       <p className="text-base/7 text-[#595751]">
                         {faq.answer}
                       </p>

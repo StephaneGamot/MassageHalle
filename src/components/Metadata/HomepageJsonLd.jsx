@@ -196,20 +196,66 @@ export default function HomepageJsonLd({ locale }) {
     ],
   };
 
+  // ─── Organization (standalone, distinct du publisher imbriqué) ───
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": `${baseUrl}/#organization`,
+    name: "La Voie du Bien-Être",
+    alternateName: "Massage Bien-Être Hal",
+    url: baseUrl,
+    logo: {
+      "@type": "ImageObject",
+      url: `${baseUrl}/Images/OpenGraph/accueil-massage-halle.webp`,
+      width: 1200,
+      height: 627,
+    },
+    image: `${baseUrl}/Images/OpenGraph/accueil-massage-halle.webp`,
+    description: siteDescriptions[locale] || siteDescriptions.fr,
+    foundingDate: "2018",
+    founder: { "@id": `${baseUrl}/#practitioner` },
+    contactPoint: [
+      {
+        "@type": "ContactPoint",
+        telephone: "+32477131993",
+        contactType: "reservations",
+        areaServed: "BE",
+        availableLanguage: ["French", "English", "Dutch"],
+      },
+    ],
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Octave de Kerchove d'Exaerdestraat 193",
+      addressLocality: "Halle",
+      postalCode: "1501",
+      addressRegion: "Vlaams-Brabant",
+      addressCountry: "BE",
+    },
+    sameAs: [
+      "https://www.facebook.com/lavoiedubienetremassageshiatsureikireflexologie/",
+    ],
+  };
+
   const reviewSchema = {
     "@context": "https://schema.org",
-    "@type": "HealthAndBeautyBusiness",
+    // Double typage explicite : Google reconnaît LocalBusiness ET le sous-type métier
+    "@type": ["LocalBusiness", "HealthAndBeautyBusiness"],
     "@id": `${baseUrl}/#localbusiness`,
     name: "La Voie du Bien-Être",
     url: `${baseUrl}/${locale || "fr"}`,
     telephone: "+32477131993",
+    email: "info@lavoiedubienetre.be",
     description: {
       fr: "Massages relaxants, bien-être, shiatsu et soins énergétiques à Halle – Bruxelles.",
       en: "Relaxing massages, wellness, shiatsu and energy treatments in Halle – Brussels.",
       nl: "Ontspannende massages, welzijn, shiatsu en energetische behandelingen in Halle – Brussel.",
     }[locale] || "Massages relaxants, bien-être, shiatsu et soins énergétiques à Halle – Bruxelles.",
     priceRange: "€€",
+    currenciesAccepted: "EUR",
+    paymentAccepted: "Cash, Bancontact, Virement bancaire",
     image: [`${baseUrl}/Images/OpenGraph/accueil-massage-halle.webp`],
+    logo: `${baseUrl}/Images/OpenGraph/accueil-massage-halle.webp`,
+    parentOrganization: { "@id": `${baseUrl}/#organization` },
     address: {
       "@type": "PostalAddress",
       streetAddress: "Octave de Kerchove d'Exaerdestraat 193",
@@ -223,6 +269,7 @@ export default function HomepageJsonLd({ locale }) {
       latitude: 50.7464695,
       longitude: 4.2563906,
     },
+    hasMap: "https://www.google.com/maps?q=50.7464695,4.2563906",
     openingHoursSpecification: [
       {
         "@type": "OpeningHoursSpecification",
@@ -246,6 +293,27 @@ export default function HomepageJsonLd({ locale }) {
       { "@type": "City", name: "Enghien" },
       { "@type": "City", name: "Leerbeek" },
     ],
+    // hasOfferCatalog → enrichit le LocalBusiness avec un catalogue de services
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: {
+        fr: "Catalogue de massages et soins",
+        en: "Catalog of massages and treatments",
+        nl: "Catalogus van massages en behandelingen",
+      }[locale] || "Catalogue de massages et soins",
+      itemListElement: items.map((item) => ({
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: item.name,
+          description: item.desc,
+          url: `${baseUrl}/${locale || "fr"}${item.path}`,
+        },
+        priceCurrency: "EUR",
+        price: "80",
+        availability: "https://schema.org/InStock",
+      })),
+    },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: "4.9",
@@ -281,6 +349,10 @@ export default function HomepageJsonLd({ locale }) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webPage) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
       />
       <script
         type="application/ld+json"

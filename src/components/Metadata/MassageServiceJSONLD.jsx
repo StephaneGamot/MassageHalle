@@ -330,12 +330,14 @@ export default function MassageServiceJSONLD({ slug, locale = "fr" }) {
     category: "HealthAndBeauty",
     areaServed: AREA_SERVED,
     provider: {
-      "@type": "HealthAndBeautyBusiness",
+      "@type": ["LocalBusiness", "HealthAndBeautyBusiness"],
       "@id": localBusinessId,
       name: "La Voie du Bien-Être",
       url: `${baseUrl}/${currentLocale}`,
       telephone: "+32477131993",
       priceRange: "€€",
+      currenciesAccepted: "EUR",
+      paymentAccepted: "Cash, Bancontact, Virement bancaire",
       address: {
         "@type": "PostalAddress",
         streetAddress: "Octave de Kerchove d'Exaerdestraat 193",
@@ -347,6 +349,21 @@ export default function MassageServiceJSONLD({ slug, locale = "fr" }) {
         "@type": "GeoCoordinates",
         latitude: 50.7464695,
         longitude: 4.2563906,
+      },
+      openingHoursSpecification: [
+        {
+          "@type": "OpeningHoursSpecification",
+          dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          opens: "10:00",
+          closes: "19:00",
+        },
+      ],
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.9",
+        reviewCount: "50",
+        bestRating: "5",
+        worstRating: "1",
       },
       image: [`${baseUrl}/Images/OpenGraph/OG-massage-bien-etre-.jpg`],
     },

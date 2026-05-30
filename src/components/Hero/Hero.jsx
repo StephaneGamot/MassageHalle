@@ -89,12 +89,12 @@ export default function Hero() {
             <div className="grid grid-cols-3 gap-3 sm:gap-4 max-w-md mx-auto lg:max-w-none lg:pr-8">
               <div className="space-y-3 sm:space-y-4 pt-10">
                 <div className="img-zoom rounded-2xl overflow-hidden">
-                  <Image alt="Massage bien-être à Hal — praticien La Voie du Bien-Être" src={Hero1} placeholder="blur" loading="eager" className="aspect-[2/3] w-full rounded-2xl object-cover" sizes="(max-width: 768px) 30vw, 200px" />
+                  <Image alt="Massage bien-être à Hal — praticien La Voie du Bien-Être" src={Hero1} placeholder="blur" priority fetchPriority="high" className="aspect-[2/3] w-full rounded-2xl object-cover" sizes="(max-width: 768px) 30vw, 200px" />
                 </div>
               </div>
               <div className="space-y-3 sm:space-y-4 pt-20 sm:pt-24">
                 <div className="img-zoom rounded-2xl overflow-hidden">
-                  <Image alt="Ambiance zen du cabinet de massage relaxant à Hal" src={Hero2} placeholder="blur" priority className="aspect-[2/3] w-full rounded-2xl object-cover" sizes="(max-width: 768px) 30vw, 200px" />
+                  <Image alt="Ambiance zen du cabinet de massage relaxant à Hal" src={Hero2} placeholder="blur" priority fetchPriority="high" className="aspect-[2/3] w-full rounded-2xl object-cover" sizes="(max-width: 768px) 30vw, 200px" />
                 </div>
                 <div className="img-zoom rounded-2xl overflow-hidden">
                   <Image alt="Détente absolue lors d'un soin thérapeutique" src={Hero3} placeholder="blur" loading="lazy" className="aspect-[2/3] w-full rounded-2xl object-cover" sizes="(max-width: 768px) 30vw, 200px" />
