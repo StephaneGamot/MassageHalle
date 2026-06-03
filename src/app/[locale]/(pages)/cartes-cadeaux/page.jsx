@@ -14,9 +14,9 @@ export async function generateMetadata({ params }) {
   }[currentLocale];
 
   const description = {
-    fr: "Cartes-cadeaux massage de 80 € à 150 €. Personnalisées, envoyées par email en PDF ou imprimées. Le cadeau parfait : anniversaire, Saint-Valentin, fête des mères.",
-    en: "Massage gift cards from €80 to €150. Personalized, sent as PDF by email or printed. The perfect gift: birthday, Valentine's Day, Mother's Day.",
-    nl: "Massage cadeaubonnen van 80 € tot 150 €. Gepersonaliseerd, per e-mail als PDF of gedrukt. Het perfecte cadeau: verjaardag, Valentijn, Moederdag.",
+    fr: "Cartes-cadeaux massage de 85 € à 165 €. Personnalisées, envoyées par email en PDF ou imprimées. Le cadeau parfait : anniversaire, Saint-Valentin, fête des mères.",
+    en: "Massage gift cards from €85 to €165. Personalized, sent as PDF by email or printed. The perfect gift: birthday, Valentine's Day, Mother's Day.",
+    nl: "Massage cadeaubonnen van 85 € tot 165 €. Gepersonaliseerd, per e-mail als PDF of gedrukt. Het perfecte cadeau: verjaardag, Valentijn, Moederdag.",
   }[currentLocale];
 
   return {

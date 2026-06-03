@@ -10,15 +10,15 @@ export async function generateMetadata({ params }) {
   const currentLocale = locale ?? "fr";
 
   const title = {
-    fr: "Tarifs massages Hal & Bruxelles — Cabinet et à domicile dès 80 €",
-    en: "Massage prices Halle & Brussels — Studio and at-home from €80",
-    nl: "Massage tarieven Halle & Brussel — Praktijk en aan huis vanaf 80 €",
+    fr: "Tarifs massages Hal & Bruxelles — Cabinet dès 85 €, à domicile dès 160 €",
+    en: "Massage prices Halle & Brussels — Studio from €85, at-home from €160",
+    nl: "Massage tarieven Halle & Brussel — Praktijk vanaf 85 €, aan huis vanaf 160 €",
   }[currentLocale];
 
   const description = {
-    fr: "Tarifs clairs pour massage relaxant, shiatsu, reiki, deep-tissue — en cabinet à Hal ou à domicile. 60 min dès 80 €, paiement Bancontact, espèces ou virement.",
-    en: "Clear pricing for relaxing massage, shiatsu, reiki, deep-tissue — in Halle studio or at home. 60 min from €80, payment by Bancontact, cash or transfer.",
-    nl: "Duidelijke tarieven voor ontspanningsmassage, shiatsu, reiki, deep-tissue — in praktijk Halle of aan huis. 60 min vanaf 80 €, betaling Bancontact, cash of overschrijving.",
+    fr: "Tarifs clairs pour massage relaxant, shiatsu, reiki, deep-tissue — en cabinet (1 h dès 85 €, 1 h 30 = 120 €, 2 h = 160 €) ou à domicile dès 160 €.",
+    en: "Clear pricing for relaxing massage, shiatsu, reiki, deep-tissue — in Halle studio (1h from €85, 1h30 = €120, 2h = €160) or at home from €160.",
+    nl: "Duidelijke tarieven voor ontspanningsmassage, shiatsu, reiki, deep-tissue — in praktijk Halle (1u vanaf 85 €, 1u30 = 120 €, 2u = 160 €) of aan huis vanaf 160 €.",
   }[currentLocale];
 
   return {
@@ -60,7 +60,7 @@ const TXT = {
     seeService: "Voir le soin",
     bookCta: "Réserver par WhatsApp",
     callCta: "Appeler 04 77 13 19 93",
-    gift: "Cartes-cadeaux disponibles à partir de 80 € — voir la page dédiée.",
+    gift: "Cartes-cadeaux disponibles à partir de 85 € — voir la page dédiée.",
     paymentTitle: "Modes de paiement",
     paymentList: "Bancontact · espèces · virement · chèques cadeaux",
     cancelTitle: "Annulation",
@@ -77,7 +77,7 @@ const TXT = {
     seeService: "See the treatment",
     bookCta: "Book by WhatsApp",
     callCta: "Call +32 477 13 19 93",
-    gift: "Gift cards available from €80 — see the dedicated page.",
+    gift: "Gift cards available from €85 — see the dedicated page.",
     paymentTitle: "Payment methods",
     paymentList: "Bancontact · cash · transfer · gift vouchers",
     cancelTitle: "Cancellation",
@@ -94,7 +94,7 @@ const TXT = {
     seeService: "Bekijk de behandeling",
     bookCta: "Boek via WhatsApp",
     callCta: "Bel +32 477 13 19 93",
-    gift: "Cadeaubonnen verkrijgbaar vanaf 80 € — zie de speciale pagina.",
+    gift: "Cadeaubonnen verkrijgbaar vanaf 85 € — zie de speciale pagina.",
     paymentTitle: "Betaalmethoden",
     paymentList: "Bancontact · cash · overschrijving · cadeaubonnen",
     cancelTitle: "Annulering",

@@ -82,7 +82,7 @@ export const BUSINESS = {
   },
 
   // Tarification de référence — affichée dans les Offer schemas + meta descriptions.
-  pricing: { startingFrom: "80", currency: "EUR" },
+  pricing: { startingFrom: "85", currency: "EUR" },
   // Pas de Visa — seuls Bancontact, espèces et chèques-cadeaux sont acceptés.
   paymentAccepted: "Cash, Bancontact, Virement bancaire, Chèques cadeaux",
 

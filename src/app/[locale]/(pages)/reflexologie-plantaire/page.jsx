@@ -19,13 +19,13 @@ export async function generateMetadata({ params }) {
   return {
     title: {
       fr: "Réflexologie plantaire à Hal – Sommeil, stress, digestion",
-      en: "Foot Reflexology Halle – Sleep, stress, digestion €80+",
+      en: "Foot Reflexology Halle – Sleep, stress, digestion €120+",
       nl: "Voetreflexologie Halle – Slaap, stress, spijsvertering",
     }[currentLocale],
     description: {
-      fr: "Mal de tête, mauvais sommeil, digestion lente ? Réflexologie plantaire à Hal, 60 min de soin par les pieds, dès 80 €. Cabinet calme. Réservez en ligne.",
-      en: "Headaches, poor sleep, sluggish digestion? Foot reflexology in Halle: 60-min treatment from €80. Calm studio. Book your session online today.",
-      nl: "Hoofdpijn, slecht slapen, trage spijsvertering? Voetreflexologie in Halle: 60-min behandeling vanaf €80. Rustige praktijk. Boek vandaag uw sessie.",
+      fr: "Mal de tête, mauvais sommeil, digestion lente ? Réflexologie plantaire à Hal, 1 h 30 de soin par les pieds, dès 120 €. Cabinet calme. Réservez en ligne.",
+      en: "Headaches, poor sleep, sluggish digestion? Foot reflexology in Halle: 90-min treatment from €120. Calm studio. Book your session online today.",
+      nl: "Hoofdpijn, slecht slapen, trage spijsvertering? Voetreflexologie in Halle: 1u30 behandeling vanaf 120 €. Rustige praktijk. Boek vandaag uw sessie.",
     }[currentLocale],
     alternates: {
       canonical: `${baseUrl}/${currentLocale}/reflexologie-plantaire`,
@@ -39,13 +39,13 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: {
         fr: "Réflexologie plantaire à Hal – Sommeil, stress, digestion",
-        en: "Foot Reflexology Halle – Sleep, stress, digestion €80+",
+        en: "Foot Reflexology Halle – Sleep, stress, digestion €120+",
         nl: "Voetreflexologie Halle – Slaap, stress, spijsvertering",
       }[currentLocale],
       description: {
-        fr: "Mal de tête, mauvais sommeil, digestion lente ? Réflexologie plantaire à Hal, 60 min de soin par les pieds, dès 80 €. Cabinet calme. Réservez en ligne.",
-        en: "Headaches, poor sleep, sluggish digestion? Foot reflexology in Halle: 60-min treatment from €80. Calm studio. Book your session online today.",
-        nl: "Hoofdpijn, slecht slapen, trage spijsvertering? Voetreflexologie in Halle: 60-min behandeling vanaf €80. Rustige praktijk. Boek vandaag uw sessie.",
+        fr: "Mal de tête, mauvais sommeil, digestion lente ? Réflexologie plantaire à Hal, 1 h 30 de soin par les pieds, dès 120 €. Cabinet calme. Réservez en ligne.",
+        en: "Headaches, poor sleep, sluggish digestion? Foot reflexology in Halle: 90-min treatment from €120. Calm studio. Book your session online today.",
+        nl: "Hoofdpijn, slecht slapen, trage spijsvertering? Voetreflexologie in Halle: 1u30 behandeling vanaf 120 €. Rustige praktijk. Boek vandaag uw sessie.",
       }[currentLocale],
       url: `${baseUrl}/${currentLocale}/reflexologie-plantaire`,
       type: "website",
@@ -73,13 +73,13 @@ export async function generateMetadata({ params }) {
       site: "@voiedubienetre",
       title: {
         fr: "Réflexologie plantaire à Hal – Sommeil, stress, digestion",
-        en: "Foot Reflexology Halle – Sleep, stress, digestion €80+",
+        en: "Foot Reflexology Halle – Sleep, stress, digestion €120+",
         nl: "Voetreflexologie Halle – Slaap, stress, spijsvertering",
       }[currentLocale],
       description: {
-        fr: "Mal de tête, mauvais sommeil, digestion lente ? Réflexologie plantaire à Hal, 60 min de soin par les pieds, dès 80 €. Cabinet calme. Réservez en ligne.",
-        en: "Headaches, poor sleep, sluggish digestion? Foot reflexology in Halle: 60-min treatment from €80. Calm studio. Book your session online today.",
-        nl: "Hoofdpijn, slecht slapen, trage spijsvertering? Voetreflexologie in Halle: 60-min behandeling vanaf €80. Rustige praktijk. Boek vandaag uw sessie.",
+        fr: "Mal de tête, mauvais sommeil, digestion lente ? Réflexologie plantaire à Hal, 1 h 30 de soin par les pieds, dès 120 €. Cabinet calme. Réservez en ligne.",
+        en: "Headaches, poor sleep, sluggish digestion? Foot reflexology in Halle: 90-min treatment from €120. Calm studio. Book your session online today.",
+        nl: "Hoofdpijn, slecht slapen, trage spijsvertering? Voetreflexologie in Halle: 1u30 behandeling vanaf 120 €. Rustige praktijk. Boek vandaag uw sessie.",
       }[currentLocale],
       images: [`${baseUrl}/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp`],
     },

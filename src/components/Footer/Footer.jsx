@@ -137,43 +137,26 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Section villes desservies — silo SEO local + pages dédiées étoffées.
-            Le langswitcher existe déjà (en haut + plus haut dans ce footer) →
-            pas besoin d'AlternateLanguages qui faisait doublon. */}
-        <div className="mt-10 pt-8 border-t border-white/10">
-          <h3 className="text-xs font-semibold uppercase tracking-widest !text-[#D4BA91] text-center mb-6">
-            {locale === "en" ? "At home in" : locale === "nl" ? "Aan huis in" : "Massage à domicile"}
-          </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-3xl mx-auto mb-6">
+        {/* Section villes desservies — version sobre : 3 liens simples + ligne SEO villes.
+            Le contenu enrichi vit sur les pages dédiées /massage-<ville>, pas dans le footer. */}
+        <div className="mt-10 pt-8 border-t border-white/10 text-center">
+          <p className="flex flex-wrap justify-center gap-x-5 gap-y-2 mb-4">
             <Link href={`/${locale}/massage-bruxelles`}
-              className="block rounded-xl bg-white/5 hover:bg-white/10 transition border border-white/10 hover:border-[#D4BA91]/40 p-4 group">
-              <p className="text-sm font-semibold !text-[#D4BA91] group-hover:!text-[#E8D4AD]">
-                {locale === "nl" ? "Massage Brussel" : locale === "en" ? "Massage Brussels" : "Massage Bruxelles"}
-              </p>
-              <p className="mt-1 text-xs !text-white/65">
-                {locale === "en" ? "All municipalities · 25-40 min from Halle" : locale === "nl" ? "Alle gemeenten · 25-40 min vanaf Halle" : "Toutes les communes · 25-40 min depuis Halle"}
-              </p>
+              className="text-sm font-semibold !text-[#D4BA91] hover:!text-[#E8D4AD] underline-offset-2 hover:underline">
+              {locale === "nl" ? "Massage Brussel" : locale === "en" ? "Massage Brussels" : "Massage Bruxelles"}
             </Link>
             <Link href={`/${locale}/massage-uccle`}
-              className="block rounded-xl bg-white/5 hover:bg-white/10 transition border border-white/10 hover:border-[#D4BA91]/40 p-4 group">
-              <p className="text-sm font-semibold !text-[#D4BA91] group-hover:!text-[#E8D4AD]">
-                {locale === "nl" ? "Massage Ukkel" : "Massage Uccle"}
-              </p>
-              <p className="mt-1 text-xs !text-white/65">
-                {locale === "en" ? "Bois de la Cambre, Saint-Job, Fort Jaco" : locale === "nl" ? "Ter Kameren, Sint-Job, Fort Jaco" : "Bois de la Cambre, Saint-Job, Fort Jaco"}
-              </p>
+              className="text-sm font-semibold !text-[#D4BA91] hover:!text-[#E8D4AD] underline-offset-2 hover:underline">
+              {locale === "nl" ? "Massage Ukkel" : "Massage Uccle"}
             </Link>
             <Link href={`/${locale}/massage-waterloo`}
-              className="block rounded-xl bg-white/5 hover:bg-white/10 transition border border-white/10 hover:border-[#D4BA91]/40 p-4 group">
-              <p className="text-sm font-semibold !text-[#D4BA91] group-hover:!text-[#E8D4AD]">
-                Massage Waterloo
-              </p>
-              <p className="mt-1 text-xs !text-white/65">
-                {locale === "en" ? "Chenois, the Lion, Royal Golf Club" : locale === "nl" ? "Chenois, de Leeuw, Royal Golf Club" : "Chenois, le Lion, Royal Golf Club"}
-              </p>
+              className="text-sm font-semibold !text-[#D4BA91] hover:!text-[#E8D4AD] underline-offset-2 hover:underline">
+              Massage Waterloo
             </Link>
-          </div>
-          <p className="text-xs !text-white/65 text-center">
+          </p>
+          {/* Block-level + max-w + mx-auto = centrage garanti même sur mobile.
+              flex parent éventuel ne casse plus l'alignement. */}
+          <p className="block max-w-3xl mx-auto text-xs !text-white/70 leading-relaxed text-center">
             {ft("seoCities")}
           </p>
         </div>

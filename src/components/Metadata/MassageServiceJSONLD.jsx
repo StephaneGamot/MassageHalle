@@ -85,7 +85,7 @@ const AREA_SERVED = [
 const BASE_OFFERS = [
   {
     key: "60",
-    prices: { fr: "80", en: "80", nl: "80" },
+    prices: { fr: "85", en: "85", nl: "85" },
     names: {
       fr: "Séance 60 minutes",
       en: "60-minute session",

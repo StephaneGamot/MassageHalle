@@ -18,14 +18,14 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Massage anti-cellulite Hal – Drainant & tonifiant 80 €+",
-      en: "Anti-Cellulite Massage Halle – Lymph drainage from €80",
-      nl: "Anti-cellulite massage Halle – Lymfedrainage vanaf €80",
+      fr: "Massage anti-cellulite Hal – Drainant & tonifiant 120 €+",
+      en: "Anti-Cellulite Massage Halle – Lymph drainage from €120",
+      nl: "Anti-cellulite massage Halle – Lymfedrainage vanaf 120 €",
     }[currentLocale],
     description: {
-      fr: "Cellulite, peau d'orange, jambes lourdes ? Massage palper-rouler drainant à Hal, dès 80 €. Cure de 6 séances recommandée. Réservez votre 1ère séance.",
-      en: "Cellulite, orange-peel skin, heavy legs? Roller-pinch lymph drainage massage in Halle, from €80. 6-session course recommended. Book your first session.",
-      nl: "Cellulite, sinaasappelhuid, zware benen? Drainerende palper-rouler massage in Halle, vanaf €80. Kuur van 6 sessies aanbevolen. Boek uw 1ste sessie.",
+      fr: "Cellulite, peau d'orange, jambes lourdes ? Massage palper-rouler drainant à Hal, dès 120 €. Cure de 6 séances recommandée. Réservez votre 1ère séance.",
+      en: "Cellulite, orange-peel skin, heavy legs? Roller-pinch lymph drainage massage in Halle, from €120. 6-session course recommended. Book your first session.",
+      nl: "Cellulite, sinaasappelhuid, zware benen? Drainerende palper-rouler massage in Halle, vanaf 120 €. Kuur van 6 sessies aanbevolen. Boek uw 1ste sessie.",
     }[currentLocale],
     robots: {
       index: true,
@@ -49,14 +49,14 @@ export async function generateMetadata({ params }) {
     },
     openGraph: {
       title: {
-        fr: "Massage anti-cellulite Hal – Drainant & tonifiant 80 €+",
-        en: "Anti-Cellulite Massage Halle – Lymph drainage from €80",
-        nl: "Anti-cellulite massage Halle – Lymfedrainage vanaf €80",
+        fr: "Massage anti-cellulite Hal – Drainant & tonifiant 120 €+",
+        en: "Anti-Cellulite Massage Halle – Lymph drainage from €120",
+        nl: "Anti-cellulite massage Halle – Lymfedrainage vanaf 120 €",
       }[currentLocale],
       description: {
-        fr: "Cellulite, peau d'orange, jambes lourdes ? Massage palper-rouler drainant à Hal, dès 80 €. Cure de 6 séances recommandée. Réservez votre 1ère séance.",
-        en: "Cellulite, orange-peel skin, heavy legs? Roller-pinch lymph drainage massage in Halle, from €80. 6-session course recommended. Book your first session.",
-        nl: "Cellulite, sinaasappelhuid, zware benen? Drainerende palper-rouler massage in Halle, vanaf €80. Kuur van 6 sessies aanbevolen. Boek uw 1ste sessie.",
+        fr: "Cellulite, peau d'orange, jambes lourdes ? Massage palper-rouler drainant à Hal, dès 120 €. Cure de 6 séances recommandée. Réservez votre 1ère séance.",
+        en: "Cellulite, orange-peel skin, heavy legs? Roller-pinch lymph drainage massage in Halle, from €120. 6-session course recommended. Book your first session.",
+        nl: "Cellulite, sinaasappelhuid, zware benen? Drainerende palper-rouler massage in Halle, vanaf 120 €. Kuur van 6 sessies aanbevolen. Boek uw 1ste sessie.",
       }[currentLocale],
       url: `${baseUrl}/${currentLocale}/massage/anti-cellulite`,
       type: "website",
@@ -83,14 +83,14 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       site: "@voiedubienetre",
       title: {
-        fr: "Massage anti-cellulite Hal – Drainant & tonifiant 80 €+",
-        en: "Anti-Cellulite Massage Halle – Lymph drainage from €80",
-        nl: "Anti-cellulite massage Halle – Lymfedrainage vanaf €80",
+        fr: "Massage anti-cellulite Hal – Drainant & tonifiant 120 €+",
+        en: "Anti-Cellulite Massage Halle – Lymph drainage from €120",
+        nl: "Anti-cellulite massage Halle – Lymfedrainage vanaf 120 €",
       }[currentLocale],
       description: {
-        fr: "Cellulite, peau d'orange, jambes lourdes ? Massage palper-rouler drainant à Hal, dès 80 €. Cure de 6 séances recommandée. Réservez votre 1ère séance.",
-        en: "Cellulite, orange-peel skin, heavy legs? Roller-pinch lymph drainage massage in Halle, from €80. 6-session course recommended. Book your first session.",
-        nl: "Cellulite, sinaasappelhuid, zware benen? Drainerende palper-rouler massage in Halle, vanaf €80. Kuur van 6 sessies aanbevolen. Boek uw 1ste sessie.",
+        fr: "Cellulite, peau d'orange, jambes lourdes ? Massage palper-rouler drainant à Hal, dès 120 €. Cure de 6 séances recommandée. Réservez votre 1ère séance.",
+        en: "Cellulite, orange-peel skin, heavy legs? Roller-pinch lymph drainage massage in Halle, from €120. 6-session course recommended. Book your first session.",
+        nl: "Cellulite, sinaasappelhuid, zware benen? Drainerende palper-rouler massage in Halle, vanaf 120 €. Kuur van 6 sessies aanbevolen. Boek uw 1ste sessie.",
       }[currentLocale],
       images: [`${baseUrl}/Images/OpenGraph/masseur-massage.jpg`],
     },

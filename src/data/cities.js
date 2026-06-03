@@ -18,26 +18,27 @@ export const CITIES = {
     postalCode: "1000",
     distanceKm: 18,
     travelMin: 25,
-    homePrice: { from: 110, fromShort: "110 €" },
-    // Soins les plus demandés dans cette ville — affichés dans une grille.
+    homePrice: { from: 160, fromShort: "160 €" },
+    // Soins les plus demandés dans cette ville — prix domicile (= la majorité des
+    // visiteurs de cette page sont en mode « à domicile »).
     topServices: {
       fr: [
-        { name: "Massage relaxant 90 min", price: "140 €", slug: "massage/relaxant" },
-        { name: "Shiatsu 60 min",          price: "110 €", slug: "shiatsu" },
-        { name: "Massage Tao 90 min",      price: "140 €", slug: "massage/tao" },
-        { name: "Voyage des sens 90 min",  price: "150 €", slug: "massage/voyage-des-sens" },
+        { name: "Massage relaxant 1h30",    price: "160 €", slug: "massage/relaxant" },
+        { name: "Shiatsu 1h30",             price: "160 €", slug: "shiatsu" },
+        { name: "Massage Tao 1h30",         price: "170 €", slug: "massage/tao" },
+        { name: "Voyage des sens 2 h",      price: "205 €", slug: "massage/voyage-des-sens" },
       ],
       en: [
-        { name: "Relaxing massage 90 min", price: "€140", slug: "massage/relaxant" },
-        { name: "Shiatsu 60 min",          price: "€110", slug: "shiatsu" },
-        { name: "Tao massage 90 min",      price: "€140", slug: "massage/tao" },
-        { name: "Sensory journey 90 min",  price: "€150", slug: "massage/voyage-des-sens" },
+        { name: "Relaxing massage 1h30",    price: "€160", slug: "massage/relaxant" },
+        { name: "Shiatsu 1h30",             price: "€160", slug: "shiatsu" },
+        { name: "Tao massage 1h30",         price: "€170", slug: "massage/tao" },
+        { name: "Sensory journey 2h",       price: "€205", slug: "massage/voyage-des-sens" },
       ],
       nl: [
-        { name: "Ontspanningsmassage 90 min", price: "140 €", slug: "massage/relaxant" },
-        { name: "Shiatsu 60 min",             price: "110 €", slug: "shiatsu" },
-        { name: "Tao-massage 90 min",         price: "140 €", slug: "massage/tao" },
-        { name: "Zintuigenreis 90 min",       price: "150 €", slug: "massage/voyage-des-sens" },
+        { name: "Ontspanningsmassage 1u30", price: "160 €", slug: "massage/relaxant" },
+        { name: "Shiatsu 1u30",             price: "160 €", slug: "shiatsu" },
+        { name: "Tao-massage 1u30",         price: "170 €", slug: "massage/tao" },
+        { name: "Zintuigenreis 2u",         price: "205 €", slug: "massage/voyage-des-sens" },
       ],
     },
     // Bloc "trajet & logistique" — rassure et concrétise.
@@ -89,9 +90,9 @@ export const CITIES = {
         nl: "Massage aan huis in Brussel — Praktijk op 25 min · 4.9★",
       },
       description: {
-        fr: "Massage relaxant, shiatsu, reiki à domicile à Bruxelles (toutes communes). Praticien certifié, 20+ ans d'expérience. Cabinet à Halle, déplacement dès 110 €.",
-        en: "At-home relaxing massage, shiatsu, reiki across Brussels. Certified practitioner, 20+ years experience. Studio in Halle, at-home from €110.",
-        nl: "Ontspanningsmassage, shiatsu, reiki aan huis in Brussel. Gecertificeerd, 20+ jaar ervaring. Praktijk in Halle, aan huis vanaf 110 €.",
+        fr: "Massage relaxant, shiatsu, reiki à domicile à Bruxelles (toutes communes). Praticien certifié, 20+ ans d'expérience. Cabinet à Halle, à domicile dès 160 € (1 h 30).",
+        en: "At-home relaxing massage, shiatsu, reiki across Brussels. Certified practitioner, 20+ years experience. Studio in Halle, at-home from €160 (1h30).",
+        nl: "Ontspanningsmassage, shiatsu, reiki aan huis in Brussel. Gecertificeerd, 20+ jaar ervaring. Praktijk in Halle, aan huis vanaf 160 € (1u30).",
       },
     },
     hero: {
@@ -134,25 +135,25 @@ export const CITIES = {
     postalCode: "1180",
     distanceKm: 14,
     travelMin: 22,
-    homePrice: { from: 110, fromShort: "110 €" },
+    homePrice: { from: 160, fromShort: "160 €" },
     topServices: {
       fr: [
-        { name: "Reiki 60 min",                 price: "110 €", slug: "reiki" },
-        { name: "Thérapie cranio-sacrée 60 min", price: "115 €", slug: "therapie-cranio-sacree" },
-        { name: "Shiatsu 90 min",               price: "140 €", slug: "shiatsu" },
-        { name: "Massage relaxant 90 min",      price: "140 €", slug: "massage/relaxant" },
+        { name: "Reiki 1h30",                  price: "160 €", slug: "reiki" },
+        { name: "Thérapie cranio-sacrée 1h30", price: "160 €", slug: "therapie-cranio-sacree" },
+        { name: "Shiatsu 1h30",                price: "160 €", slug: "shiatsu" },
+        { name: "Massage relaxant 1h30",       price: "160 €", slug: "massage/relaxant" },
       ],
       en: [
-        { name: "Reiki 60 min",             price: "€110", slug: "reiki" },
-        { name: "Craniosacral 60 min",      price: "€115", slug: "therapie-cranio-sacree" },
-        { name: "Shiatsu 90 min",           price: "€140", slug: "shiatsu" },
-        { name: "Relaxing massage 90 min",  price: "€140", slug: "massage/relaxant" },
+        { name: "Reiki 1h30",              price: "€160", slug: "reiki" },
+        { name: "Craniosacral 1h30",       price: "€160", slug: "therapie-cranio-sacree" },
+        { name: "Shiatsu 1h30",            price: "€160", slug: "shiatsu" },
+        { name: "Relaxing massage 1h30",   price: "€160", slug: "massage/relaxant" },
       ],
       nl: [
-        { name: "Reiki 60 min",                  price: "110 €", slug: "reiki" },
-        { name: "Craniosacrale therapie 60 min", price: "115 €", slug: "therapie-cranio-sacree" },
-        { name: "Shiatsu 90 min",                price: "140 €", slug: "shiatsu" },
-        { name: "Ontspanningsmassage 90 min",    price: "140 €", slug: "massage/relaxant" },
+        { name: "Reiki 1u30",                   price: "160 €", slug: "reiki" },
+        { name: "Craniosacrale therapie 1u30",  price: "160 €", slug: "therapie-cranio-sacree" },
+        { name: "Shiatsu 1u30",                 price: "160 €", slug: "shiatsu" },
+        { name: "Ontspanningsmassage 1u30",     price: "160 €", slug: "massage/relaxant" },
       ],
     },
     logistics: {
@@ -196,14 +197,14 @@ export const CITIES = {
     },
     meta: {
       title: {
-        fr: "Massage à domicile à Uccle — Praticien certifié dès 110 €",
-        en: "At-home massage in Uccle — Certified practitioner from €110",
-        nl: "Massage aan huis in Ukkel — Gecertificeerd vanaf 110 €",
+        fr: "Massage à domicile à Uccle — Praticien certifié dès 160 € (1 h 30)",
+        en: "At-home massage in Uccle — Certified practitioner from €160 (1h30)",
+        nl: "Massage aan huis in Ukkel — Gecertificeerd vanaf 160 € (1u30)",
       },
       description: {
-        fr: "Massage relaxant, shiatsu, reiki à domicile à Uccle (1180). Praticien expérimenté, 22 min depuis Halle. Bois de la Cambre, Saint-Job, Fort Jaco, Calevoet.",
-        en: "Relaxing massage, shiatsu, reiki at home in Uccle (1180). Experienced practitioner, 22 min from Halle. Bois de la Cambre, Saint-Job, Fort Jaco, Calevoet.",
-        nl: "Ontspanningsmassage, shiatsu, reiki aan huis in Ukkel (1180). Ervaren beoefenaar, 22 min vanuit Halle. Ter Kameren, Sint-Job, Fort Jaco, Calevoet.",
+        fr: "Massage relaxant, shiatsu, reiki à domicile à Uccle (1180). 22 min depuis Halle. Bois de la Cambre, Saint-Job, Fort Jaco, Calevoet. Dès 160 € (1 h 30).",
+        en: "Relaxing massage, shiatsu, reiki at home in Uccle (1180). 22 min from Halle. Bois de la Cambre, Saint-Job, Fort Jaco, Calevoet. From €160 (1h30).",
+        nl: "Ontspanningsmassage, shiatsu, reiki aan huis in Ukkel (1180). 22 min vanuit Halle. Ter Kameren, Sint-Job, Fort Jaco, Calevoet. Vanaf 160 € (1u30).",
       },
     },
     hero: {
@@ -246,25 +247,26 @@ export const CITIES = {
     postalCode: "1410",
     distanceKm: 16,
     travelMin: 24,
-    homePrice: { from: 115, fromShort: "115 €" },
+    homePrice: { from: 160, fromShort: "160 €" },
     topServices: {
       fr: [
-        { name: "Massage sportif 60 min",       price: "115 €", slug: "massage/sportif" },
-        { name: "Massage deep-tissue 90 min",   price: "150 €", slug: "massage/deep-tissues" },
-        { name: "Massage relaxant 90 min",      price: "140 €", slug: "massage/relaxant" },
-        { name: "Douceur dorsale 45 min",       price: "100 €", slug: "massage/douceur-dorsale" },
+        // Sportif 1h en cabinet (85€) — sportifs Waterloo viennent souvent au cabinet après le golf.
+        { name: "Massage sportif 1 h (cabinet)", price: "85 €",  slug: "massage/sportif" },
+        { name: "Deep-tissue 1h30 à domicile",   price: "160 €", slug: "massage/deep-tissues" },
+        { name: "Massage relaxant 1h30",         price: "160 €", slug: "massage/relaxant" },
+        { name: "Douceur dorsale 1 h (cabinet)", price: "85 €",  slug: "massage/douceur-dorsale" },
       ],
       en: [
-        { name: "Sports massage 60 min",        price: "€115", slug: "massage/sportif" },
-        { name: "Deep-tissue 90 min",           price: "€150", slug: "massage/deep-tissues" },
-        { name: "Relaxing massage 90 min",      price: "€140", slug: "massage/relaxant" },
-        { name: "Back relaxation 45 min",       price: "€100", slug: "massage/douceur-dorsale" },
+        { name: "Sports massage 1h (studio)",    price: "€85",  slug: "massage/sportif" },
+        { name: "Deep-tissue 1h30 at home",      price: "€160", slug: "massage/deep-tissues" },
+        { name: "Relaxing massage 1h30",         price: "€160", slug: "massage/relaxant" },
+        { name: "Back relaxation 1h (studio)",   price: "€85",  slug: "massage/douceur-dorsale" },
       ],
       nl: [
-        { name: "Sportmassage 60 min",          price: "115 €", slug: "massage/sportif" },
-        { name: "Deep-tissue 90 min",           price: "150 €", slug: "massage/deep-tissues" },
-        { name: "Ontspanningsmassage 90 min",   price: "140 €", slug: "massage/relaxant" },
-        { name: "Rugontspanning 45 min",        price: "100 €", slug: "massage/douceur-dorsale" },
+        { name: "Sportmassage 1u (praktijk)",    price: "85 €",  slug: "massage/sportif" },
+        { name: "Deep-tissue 1u30 aan huis",     price: "160 €", slug: "massage/deep-tissues" },
+        { name: "Ontspanningsmassage 1u30",      price: "160 €", slug: "massage/relaxant" },
+        { name: "Rugontspanning 1u (praktijk)",  price: "85 €",  slug: "massage/douceur-dorsale" },
       ],
     },
     logistics: {
@@ -308,14 +310,14 @@ export const CITIES = {
     },
     meta: {
       title: {
-        fr: "Massage à domicile à Waterloo — Sportif, relaxant, deep-tissue dès 115 €",
-        en: "At-home massage in Waterloo — Sports, relaxing, deep-tissue from €115",
-        nl: "Massage aan huis in Waterloo — Sport, ontspanning, deep-tissue vanaf 115 €",
+        fr: "Massage à domicile à Waterloo — Sportif, relaxant, deep-tissue dès 160 € (1 h 30)",
+        en: "At-home massage in Waterloo — Sports, relaxing, deep-tissue from €160 (1h30)",
+        nl: "Massage aan huis in Waterloo — Sport, ontspanning, deep-tissue vanaf 160 € (1u30)",
       },
       description: {
-        fr: "Massage à domicile à Waterloo (1410) : sportif, relaxant, deep-tissue, shiatsu. Praticien certifié, 24 min depuis Halle. Idéal après le golf, le trail ou le bureau.",
-        en: "At-home massage in Waterloo (1410): sports, relaxing, deep-tissue, shiatsu. Certified practitioner, 24 min from Halle. Ideal after golf, trail or office.",
-        nl: "Massage aan huis in Waterloo (1410): sport, ontspanning, deep-tissue, shiatsu. Gecertificeerd, 24 min vanuit Halle. Ideaal na golf, trail of kantoor.",
+        fr: "Massage à domicile à Waterloo (1410) : sportif, relaxant, deep-tissue, shiatsu. 24 min depuis Halle. Dès 85 € (1 h cabinet) ou 160 € (1 h 30 domicile).",
+        en: "At-home massage in Waterloo (1410): sports, relaxing, deep-tissue, shiatsu. 24 min from Halle. From €85 (1h studio) or €160 (1h30 at home).",
+        nl: "Massage aan huis in Waterloo (1410): sport, ontspanning, deep-tissue, shiatsu. 24 min vanuit Halle. Vanaf 85 € (1u praktijk) of 160 € (1u30 aan huis).",
       },
     },
     hero: {
