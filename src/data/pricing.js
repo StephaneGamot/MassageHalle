@@ -2,12 +2,12 @@
  * Grille tarifaire — source unique pour la page /tarifs ET le JSON-LD.
  *
  * Modèle :
- *  - 60 min : uniquement massage sportif et douceur dorsale (85 €)
- *  - 90 min standard : 120 € en cabinet, 160 € à domicile
- *  - 120 min standard : 160 € en cabinet, 200 € à domicile
- *  - Massage Tao : +10 € à chaque palier
- *  - Voyage des sens : seulement 120 min, 165 € cabinet, 205 € domicile
- *  - Massage sur chaise (Amma) : seulement 15 min, 25 €
+ *  - 60 min : uniquement massage sportif et douceur dorsale (85€)
+ *  - 90 min standard : 120€ en cabinet, 160€ à domicile
+ *  - 120 min standard : 160€ en cabinet, 200€ à domicile
+ *  - Massage Tao : +10€ à chaque palier
+ *  - Voyage des sens : seulement 120 min, 165€ cabinet, 205€ domicile
+ *  - Massage sur chaise (Amma) : seulement 15 min, 25€
  *
  * Si vous changez un prix ici, il se propage automatiquement à /tarifs,
  * /cartes-cadeaux, JSON-LD et schemas. Pensez à mettre à jour en parallèle
@@ -20,9 +20,9 @@ export const CURRENCY = BUSINESS.pricing.currency; // "EUR"
 
 // Note de zone domicile — la majoration est forfaitaire selon distance.
 export const HOME_NOTE = {
-  fr: "À domicile : à partir de 160 € pour 1 h 30. Tarifs indicatifs pour Bruxelles, Uccle, Waterloo, Braine-l'Alleud et environs. Au-delà, devis sur demande.",
+  fr: "À domicile : à partir de 160€ pour 1 h 30. Tarifs indicatifs pour Bruxelles, Uccle, Waterloo, Braine-l'Alleud et environs. Au-delà, devis sur demande.",
   en: "At home: from €160 for 1h30. Indicative prices for Brussels, Uccle, Waterloo, Braine-l'Alleud and nearby. Beyond, quote on request.",
-  nl: "Aan huis: vanaf 160 € voor 1u30. Indicatieve prijzen voor Brussel, Ukkel, Waterloo, Eigenbrakel en omgeving. Daarbuiten op aanvraag.",
+  nl: "Aan huis: vanaf 160€ voor 1u30. Indicatieve prijzen voor Brussel, Ukkel, Waterloo, Eigenbrakel en omgeving. Daarbuiten op aanvraag.",
 };
 
 // Chaque soin : slug url, nom multi-langue, durées proposées avec prix.
@@ -58,7 +58,7 @@ export const PRICING = [
   { slug: "massage/tao",
     name:    { fr: "Massage Tao",           en: "Tao massage",         nl: "Tao-massage" },
     options: [
-      // Tao : +10 € par rapport au standard à chaque durée.
+      // Tao : +10€ par rapport au standard à chaque durée.
       { duration: 90,  cabinet: 130, home: 170 },
       { duration: 120, cabinet: 170, home: 210 },
     ] },

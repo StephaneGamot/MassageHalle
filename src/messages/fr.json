@@ -1088,7 +1088,7 @@
       "durationMin": 90,
       "durationMax": 120,
       "text": "Offrez-vous cette parenthèse de sérénité, à partir de",
-      "price": "119,90 €"
+      "price": "119,90€"
     },
     "sportif": {
       "title": "Un massage puissant et ciblé",
@@ -1099,7 +1099,7 @@
       "durationMin": 60,
       "durationMax": 90,
       "text": "Prenez soin de vos muscles, à partir de",
-      "price": "85 €"
+      "price": "85€"
     },
     "domicile": {
       "title": "Un soin chez vous, en toute sérénité",
@@ -1110,7 +1110,7 @@
       "durationMin": 90,
       "durationMax": 120,
       "text": "Recevez ce soin à la maison, dès",
-      "price": "185 €"
+      "price": "185€"
     },
     "tao": {
       "title": "Un rituel sensoriel apaisant",
@@ -1121,7 +1121,7 @@
       "durationMin": 90,
       "durationMax": 120,
       "text": "Reconnectez-vous à votre énergie vitale, à partir de",
-      "price": "150 €"
+      "price": "150€"
     },
     "dos": {
       "title": "Un soin ciblé pour soulager votre dos",
@@ -1132,7 +1132,7 @@
       "durationMin": 60,
       "durationMax": 90,
       "text": "Soulagez votre dos pour",
-      "price": "85 €"
+      "price": "85€"
     },
     "anticellulite": {
       "title": "Un soin tonique et raffermissant",
@@ -1143,7 +1143,7 @@
       "durationMin": 60,
       "durationMax": 90,
       "text": "Offrez à votre corps un nouveau souffle, dès",
-      "price": "85 €"
+      "price": "85€"
     },
     "deeptissue": {
       "title": "Un massage en profondeur",
@@ -1154,7 +1154,7 @@
       "durationMin": 60,
       "durationMax": 90,
       "text": "Libérez vos muscles pour",
-      "price": "85 €"
+      "price": "85€"
     },
     "shiatsu": {
       "title": "Un soin d’équilibrage énergétique",
@@ -1165,7 +1165,7 @@
       "durationMin": 60,
       "durationMax": 90,
       "text": "Retrouvez votre équilibre intérieur à partir de",
-      "price": "85 €"
+      "price": "85€"
     },
     "reiki": {
       "title": "Une harmonisation en douceur",
@@ -1176,7 +1176,7 @@
       "durationMin": 60,
       "durationMax": 90,
       "text": "Reconnectez-vous à votre énergie, dès",
-      "price": "85 €"
+      "price": "85€"
     },
     "cst": {
       "title": "Un soin subtil et profond",
@@ -1187,7 +1187,7 @@
       "durationMin": 60,
       "durationMax": 90,
       "text": "Offrez à votre corps un apaisement durable, dès",
-      "price": "85 €"
+      "price": "85€"
     },
     "reflexo": {
       "title": "Un soin des pieds aux mille vertus",
@@ -1198,7 +1198,7 @@
       "durationMin": 60,
       "durationMax": 90,
       "text": "Prenez soin de vos pieds, pour",
-      "price": "85 €"
+      "price": "85€"
     },
     "amma": {
       "title": "Un massage express, partout",
@@ -1209,7 +1209,7 @@
       "durationMin": 15,
       "durationMax": 30,
       "text": "Offrez ce moment de bien-être dès",
-      "price": "25 €"
+      "price": "25€"
     },
     "voyage": {
       "title": "Un voyage sensoriel et profond",
@@ -1220,7 +1220,7 @@
       "durationMin": 120,
       "durationMax": 150,
       "text": "Entamez votre voyage intérieur pour",
-      "price": "145 €"
+      "price": "145€"
     },
     "common": {
       "location": "À domicile ou en cabinet",
@@ -1521,7 +1521,7 @@
       },
       {
         "q": "Quel est le prix d'un massage relaxant ?",
-        "a": "La séance de 60 minutes est à 80€ et celle de 90 minutes à 120€. Aucun supplément caché."
+        "a": "Les soins de 1 h coûtent 85€ (sportif & douceur dorsale uniquement). La séance 1 h 30 coûte 120€ et la séance 2 h 160€. Aucun supplément caché."
       }
     ],
     "sportif": [

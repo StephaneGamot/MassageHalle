@@ -10,15 +10,15 @@ export async function generateMetadata({ params }) {
   const currentLocale = locale ?? "fr";
 
   const title = {
-    fr: "Tarifs massages Hal & Bruxelles — Cabinet dès 85 €, à domicile dès 160 €",
+    fr: "Tarifs massages Hal & Bruxelles — Cabinet dès 85€, à domicile dès 160€",
     en: "Massage prices Halle & Brussels — Studio from €85, at-home from €160",
-    nl: "Massage tarieven Halle & Brussel — Praktijk vanaf 85 €, aan huis vanaf 160 €",
+    nl: "Massage tarieven Halle & Brussel — Praktijk vanaf 85€, aan huis vanaf 160€",
   }[currentLocale];
 
   const description = {
-    fr: "Tarifs clairs pour massage relaxant, shiatsu, reiki, deep-tissue — en cabinet (1 h dès 85 €, 1 h 30 = 120 €, 2 h = 160 €) ou à domicile dès 160 €.",
+    fr: "Tarifs clairs pour massage relaxant, shiatsu, reiki, deep-tissue — en cabinet (1 h dès 85€, 1 h 30 = 120€, 2 h = 160€) ou à domicile dès 160€.",
     en: "Clear pricing for relaxing massage, shiatsu, reiki, deep-tissue — in Halle studio (1h from €85, 1h30 = €120, 2h = €160) or at home from €160.",
-    nl: "Duidelijke tarieven voor ontspanningsmassage, shiatsu, reiki, deep-tissue — in praktijk Halle (1u vanaf 85 €, 1u30 = 120 €, 2u = 160 €) of aan huis vanaf 160 €.",
+    nl: "Duidelijke tarieven voor ontspanningsmassage, shiatsu, reiki, deep-tissue — in praktijk Halle (1u vanaf 85€, 1u30 = 120€, 2u = 160€) of aan huis vanaf 160€.",
   }[currentLocale];
 
   return {
@@ -60,7 +60,7 @@ const TXT = {
     seeService: "Voir le soin",
     bookCta: "Réserver par WhatsApp",
     callCta: "Appeler 04 77 13 19 93",
-    gift: "Cartes-cadeaux disponibles à partir de 85 € — voir la page dédiée.",
+    gift: "Cartes-cadeaux disponibles à partir de 85€ — voir la page dédiée.",
     paymentTitle: "Modes de paiement",
     paymentList: "Bancontact · espèces · virement · chèques cadeaux",
     cancelTitle: "Annulation",
@@ -94,7 +94,7 @@ const TXT = {
     seeService: "Bekijk de behandeling",
     bookCta: "Boek via WhatsApp",
     callCta: "Bel +32 477 13 19 93",
-    gift: "Cadeaubonnen verkrijgbaar vanaf 85 € — zie de speciale pagina.",
+    gift: "Cadeaubonnen verkrijgbaar vanaf 85€ — zie de speciale pagina.",
     paymentTitle: "Betaalmethoden",
     paymentList: "Bancontact · cash · overschrijving · cadeaubonnen",
     cancelTitle: "Annulering",
@@ -180,10 +180,10 @@ export default async function TarifsPage(props) {
                         </td>
                         <td className="px-5 py-4 text-sm text-[#595751]">{opt.duration} min</td>
                         <td className="px-5 py-4 text-right font-semibold text-[#1B3A2D]">
-                          {opt.cabinet} €
+                          {opt.cabinet}€
                         </td>
                         <td className="px-5 py-4 text-right text-[#595751]">
-                          {opt.home ? `${opt.home} €` : tx.homeUnavailable}
+                          {opt.home ? `${opt.home}€` : tx.homeUnavailable}
                         </td>
                       </tr>
                     ))
@@ -204,8 +204,8 @@ export default async function TarifsPage(props) {
                       <div key={opt.duration} className="flex justify-between items-center py-2">
                         <dt className="text-[#595751]">{opt.duration} min</dt>
                         <dd className="flex gap-3 font-medium">
-                          <span className="text-[#1B3A2D]">{opt.cabinet} €</span>
-                          {opt.home && <span className="text-[#6B6862]">/ {opt.home} € {tx.home.toLowerCase()}</span>}
+                          <span className="text-[#1B3A2D]">{opt.cabinet}€</span>
+                          {opt.home && <span className="text-[#6B6862]">/ {opt.home}€ {tx.home.toLowerCase()}</span>}
                         </dd>
                       </div>
                     ))}

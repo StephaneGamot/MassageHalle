@@ -18,14 +18,14 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Massage Deep Tissue à Hal – Douleurs profondes, dès 120 €",
+      fr: "Massage Deep Tissue à Hal – Douleurs profondes, dès 120€",
       en: "Deep Tissue Massage Halle – Back, neck & sciatica €120+",
-      nl: "Deep Tissue Massage Halle – Rug, nek, ischias vanaf 120 €",
+      nl: "Deep Tissue Massage Halle – Rug, nek, ischias vanaf 120€",
     }[currentLocale],
     description: {
-      fr: "Mal de dos, nuque bloquée, sciatique ? Massage Deep Tissue à Hal pour libérer les tensions profondes et retrouver la mobilité. Dès 120 €. RDV en ligne.",
+      fr: "Mal de dos, nuque bloquée, sciatique ? Massage Deep Tissue à Hal pour libérer les tensions profondes et retrouver la mobilité. Dès 120€. RDV en ligne.",
       en: "Back pain, stiff neck, sciatica? Deep Tissue massage in Halle to release deep tension and restore mobility. From €120. Book online today.",
-      nl: "Rugpijn, stijve nek, ischias? Deep Tissue massage in Halle om diepe spanning los te laten en mobiliteit te herstellen. Vanaf 120 €. Boek online.",
+      nl: "Rugpijn, stijve nek, ischias? Deep Tissue massage in Halle om diepe spanning los te laten en mobiliteit te herstellen. Vanaf 120€. Boek online.",
     }[currentLocale],
     alternates: {
       canonical: `${baseUrl}/${currentLocale}/massage/deep-tissues`,
@@ -38,14 +38,14 @@ export async function generateMetadata({ params }) {
     },
     openGraph: {
       title: {
-        fr: "Massage Deep Tissue à Hal – Douleurs profondes, dès 120 €",
+        fr: "Massage Deep Tissue à Hal – Douleurs profondes, dès 120€",
         en: "Deep Tissue Massage Halle – Back, neck & sciatica €120+",
-        nl: "Deep Tissue Massage Halle – Rug, nek, ischias vanaf 120 €",
+        nl: "Deep Tissue Massage Halle – Rug, nek, ischias vanaf 120€",
       }[currentLocale],
       description: {
-        fr: "Mal de dos, nuque bloquée, sciatique ? Massage Deep Tissue à Hal pour libérer les tensions profondes et retrouver la mobilité. Dès 120 €. RDV en ligne.",
+        fr: "Mal de dos, nuque bloquée, sciatique ? Massage Deep Tissue à Hal pour libérer les tensions profondes et retrouver la mobilité. Dès 120€. RDV en ligne.",
         en: "Back pain, stiff neck, sciatica? Deep Tissue massage in Halle to release deep tension and restore mobility. From €120. Book online today.",
-        nl: "Rugpijn, stijve nek, ischias? Deep Tissue massage in Halle om diepe spanning los te laten en mobiliteit te herstellen. Vanaf 120 €. Boek online.",
+        nl: "Rugpijn, stijve nek, ischias? Deep Tissue massage in Halle om diepe spanning los te laten en mobiliteit te herstellen. Vanaf 120€. Boek online.",
       }[currentLocale],
       url: `${baseUrl}/${currentLocale}/massage/deep-tissues`,
       type: "website",
@@ -72,14 +72,14 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       site: "@voiedubienetre",
       title: {
-        fr: "Massage Deep Tissue à Hal – Douleurs profondes, dès 120 €",
+        fr: "Massage Deep Tissue à Hal – Douleurs profondes, dès 120€",
         en: "Deep Tissue Massage Halle – Back, neck & sciatica €120+",
-        nl: "Deep Tissue Massage Halle – Rug, nek, ischias vanaf 120 €",
+        nl: "Deep Tissue Massage Halle – Rug, nek, ischias vanaf 120€",
       }[currentLocale],
       description: {
-        fr: "Mal de dos, nuque bloquée, sciatique ? Massage Deep Tissue à Hal pour libérer les tensions profondes et retrouver la mobilité. Dès 120 €. RDV en ligne.",
+        fr: "Mal de dos, nuque bloquée, sciatique ? Massage Deep Tissue à Hal pour libérer les tensions profondes et retrouver la mobilité. Dès 120€. RDV en ligne.",
         en: "Back pain, stiff neck, sciatica? Deep Tissue massage in Halle to release deep tension and restore mobility. From €120. Book online today.",
-        nl: "Rugpijn, stijve nek, ischias? Deep Tissue massage in Halle om diepe spanning los te laten en mobiliteit te herstellen. Vanaf 120 €. Boek online.",
+        nl: "Rugpijn, stijve nek, ischias? Deep Tissue massage in Halle om diepe spanning los te laten en mobiliteit te herstellen. Vanaf 120€. Boek online.",
       }[currentLocale],
       images: [`${baseUrl}/Images/OpenGraph/masseur-massage.jpg`],
     },

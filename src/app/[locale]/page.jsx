@@ -25,9 +25,9 @@ export async function generateMetadata({ params }) {
 
     // ─── META DESCRIPTION (140-155 car.) — avec CTA + villes ───
     description: {
-      fr: "Massages, shiatsu, reiki à Hal, Bruxelles, Uccle, Waterloo. Cabinet dès 85 € (1 h), à domicile dès 160 € (1 h 30). Réservation WhatsApp — 4.9★.",
+      fr: "Massages, shiatsu, reiki à Hal, Bruxelles, Uccle, Waterloo. Cabinet dès 85€ (1 h), à domicile dès 160€ (1 h 30). Réservation WhatsApp — 4.9★.",
       en: "Massage, shiatsu, reiki in Halle, Brussels, Uccle, Waterloo. Studio from €85 (1h), at-home from €160 (1h30). Book by WhatsApp — 4.9★.",
-      nl: "Massage, shiatsu, reiki in Halle, Brussel, Ukkel, Waterloo. Praktijk vanaf 85 € (1u), aan huis vanaf 160 € (1u30). Boek via WhatsApp — 4.9★.",
+      nl: "Massage, shiatsu, reiki in Halle, Brussel, Ukkel, Waterloo. Praktijk vanaf 85€ (1u), aan huis vanaf 160€ (1u30). Boek via WhatsApp — 4.9★.",
     }[currentLocale],
 
     // ─── ROBOTS ───
@@ -62,9 +62,9 @@ export async function generateMetadata({ params }) {
         nl: "Massage in Halle & Brussel – Praktijk of bij u thuis",
       }[currentLocale],
       description: {
-        fr: "Massages, shiatsu, reiki à Hal, Bruxelles, Uccle, Waterloo. Cabinet dès 85 € (1 h), à domicile dès 160 € (1 h 30). Réservation WhatsApp.",
+        fr: "Massages, shiatsu, reiki à Hal, Bruxelles, Uccle, Waterloo. Cabinet dès 85€ (1 h), à domicile dès 160€ (1 h 30). Réservation WhatsApp.",
         en: "Massage, shiatsu, reiki in Halle, Brussels, Uccle, Waterloo. Studio from €85 (1h), at-home from €160 (1h30). Book by WhatsApp.",
-        nl: "Massage, shiatsu, reiki in Halle, Brussel, Ukkel, Waterloo. Praktijk vanaf 85 € (1u), aan huis vanaf 160 € (1u30). Boek via WhatsApp.",
+        nl: "Massage, shiatsu, reiki in Halle, Brussel, Ukkel, Waterloo. Praktijk vanaf 85€ (1u), aan huis vanaf 160€ (1u30). Boek via WhatsApp.",
       }[currentLocale],
       url: `${baseUrl}/${currentLocale}`,
       siteName: "La Voie du Bien-Être",
@@ -100,9 +100,9 @@ export async function generateMetadata({ params }) {
         nl: "Massage in Halle & Brussel – Praktijk of bij u thuis",
       }[currentLocale],
       description: {
-        fr: "Massages, shiatsu, reiki à Hal, Bruxelles, Uccle, Waterloo. Cabinet dès 85 € (1 h), à domicile dès 160 € (1 h 30). Réservation WhatsApp.",
+        fr: "Massages, shiatsu, reiki à Hal, Bruxelles, Uccle, Waterloo. Cabinet dès 85€ (1 h), à domicile dès 160€ (1 h 30). Réservation WhatsApp.",
         en: "Massage, shiatsu, reiki in Halle, Brussels, Uccle, Waterloo. Studio from €85 (1h), at-home from €160 (1h30). Book by WhatsApp.",
-        nl: "Massage, shiatsu, reiki in Halle, Brussel, Ukkel, Waterloo. Praktijk vanaf 85 € (1u), aan huis vanaf 160 € (1u30). Boek via WhatsApp.",
+        nl: "Massage, shiatsu, reiki in Halle, Brussel, Ukkel, Waterloo. Praktijk vanaf 85€ (1u), aan huis vanaf 160€ (1u30). Boek via WhatsApp.",
       }[currentLocale],
       images: [
         `${baseUrl}/Images/OpenGraph/accueil-massage-halle.webp`,

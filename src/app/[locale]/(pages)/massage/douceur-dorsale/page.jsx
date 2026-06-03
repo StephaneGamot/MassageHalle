@@ -23,7 +23,7 @@ export async function generateMetadata({ params }) {
       nl: "Rugmassage in Halle – Douceur Dorsale methode (45 min)",
     }[currentLocale],
     description: {
-      fr: "Dos lourd, tendu, fatigué ? Notre massage exclusif Douceur Dorsale en 45 min libère les tensions sans déshabillage complet. Dès 65 €. Réservez en ligne.",
+      fr: "Dos lourd, tendu, fatigué ? Notre massage exclusif Douceur Dorsale en 45 min libère les tensions sans déshabillage complet. Dès 65€. Réservez en ligne.",
       en: "Heavy, tense, tired back? Our signature 45-min Douceur Dorsale back massage releases tension — partial undressing only. From €65. Book online.",
       nl: "Zware, gespannen, vermoeide rug? Onze 45-min Douceur Dorsale rugmassage verlicht spanning — gedeeltelijk uitkleden. Vanaf €65. Boek online.",
     }[currentLocale],
@@ -43,7 +43,7 @@ export async function generateMetadata({ params }) {
         nl: "Rugmassage in Halle – Douceur Dorsale methode (45 min)",
       }[currentLocale],
       description: {
-        fr: "Dos lourd, tendu, fatigué ? Notre massage exclusif Douceur Dorsale en 45 min libère les tensions sans déshabillage complet. Dès 65 €. Réservez en ligne.",
+        fr: "Dos lourd, tendu, fatigué ? Notre massage exclusif Douceur Dorsale en 45 min libère les tensions sans déshabillage complet. Dès 65€. Réservez en ligne.",
         en: "Heavy, tense, tired back? Our signature 45-min Douceur Dorsale back massage releases tension — partial undressing only. From €65. Book online.",
         nl: "Zware, gespannen, vermoeide rug? Onze 45-min Douceur Dorsale rugmassage verlicht spanning — gedeeltelijk uitkleden. Vanaf €65. Boek online.",
       }[currentLocale],
@@ -77,7 +77,7 @@ export async function generateMetadata({ params }) {
         nl: "Rugmassage in Halle – Douceur Dorsale methode (45 min)",
       }[currentLocale],
       description: {
-        fr: "Dos lourd, tendu, fatigué ? Notre massage exclusif Douceur Dorsale en 45 min libère les tensions sans déshabillage complet. Dès 65 €. Réservez en ligne.",
+        fr: "Dos lourd, tendu, fatigué ? Notre massage exclusif Douceur Dorsale en 45 min libère les tensions sans déshabillage complet. Dès 65€. Réservez en ligne.",
         en: "Heavy, tense, tired back? Our signature 45-min Douceur Dorsale back massage releases tension — partial undressing only. From €65. Book online.",
         nl: "Zware, gespannen, vermoeide rug? Onze 45-min Douceur Dorsale rugmassage verlicht spanning — gedeeltelijk uitkleden. Vanaf €65. Boek online.",
       }[currentLocale],

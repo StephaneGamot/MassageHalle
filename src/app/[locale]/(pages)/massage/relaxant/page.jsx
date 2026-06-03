@@ -18,14 +18,14 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Massage relaxant à Hal – 60 min de détente dès 120 €",
+      fr: "Massage relaxant à Hal – 60 min de détente dès 120€",
       en: "Relaxing Massage in Halle – 60 min from €120",
-      nl: "Ontspanningsmassage Halle – 60 min vanaf 120 €",
+      nl: "Ontspanningsmassage Halle – 60 min vanaf 120€",
     }[currentLocale],
     description: {
-      fr: "Stress, fatigue ou tensions ? Offrez-vous 1 h 30 de massage relaxant à Hal ou Bruxelles, dès 120 €. Cabinet ou à domicile, du lundi au samedi. Réservez.",
+      fr: "Stress, fatigue ou tensions ? Offrez-vous 1 h 30 de massage relaxant à Hal ou Bruxelles, dès 120€. Cabinet ou à domicile, du lundi au samedi. Réservez.",
       en: "Stressed, tired or tense? Enjoy a 90-min relaxing massage in Halle or Brussels from €120. Studio or at home, Monday to Saturday. Book online today.",
-      nl: "Stress, vermoeidheid of spanning? Geniet 1u30 ontspanningsmassage in Halle of Brussel vanaf 120 €. Praktijk of aan huis, ma-za. Boek online.",
+      nl: "Stress, vermoeidheid of spanning? Geniet 1u30 ontspanningsmassage in Halle of Brussel vanaf 120€. Praktijk of aan huis, ma-za. Boek online.",
     }[currentLocale],
     alternates: {
       canonical: `${baseUrl}/${currentLocale}/massage/relaxant`,
@@ -38,14 +38,14 @@ export async function generateMetadata({ params }) {
     },
     openGraph: {
       title: {
-        fr: "Massage relaxant à Hal – 60 min de détente dès 120 €",
+        fr: "Massage relaxant à Hal – 60 min de détente dès 120€",
         en: "Relaxing Massage in Halle – 60 min from €120",
-        nl: "Ontspanningsmassage Halle – 60 min vanaf 120 €",
+        nl: "Ontspanningsmassage Halle – 60 min vanaf 120€",
       }[currentLocale],
       description: {
-        fr: "Stress, fatigue ou tensions ? Offrez-vous 1 h 30 de massage relaxant à Hal ou Bruxelles, dès 120 €. Cabinet ou à domicile, du lundi au samedi. Réservez.",
+        fr: "Stress, fatigue ou tensions ? Offrez-vous 1 h 30 de massage relaxant à Hal ou Bruxelles, dès 120€. Cabinet ou à domicile, du lundi au samedi. Réservez.",
         en: "Stressed, tired or tense? Enjoy a 90-min relaxing massage in Halle or Brussels from €120. Studio or at home, Monday to Saturday. Book online today.",
-        nl: "Stress, vermoeidheid of spanning? Geniet 1u30 ontspanningsmassage in Halle of Brussel vanaf 120 €. Praktijk of aan huis, ma-za. Boek online.",
+        nl: "Stress, vermoeidheid of spanning? Geniet 1u30 ontspanningsmassage in Halle of Brussel vanaf 120€. Praktijk of aan huis, ma-za. Boek online.",
       }[currentLocale],
       url: `${baseUrl}/${currentLocale}/massage/relaxant`,
       type: "website",
@@ -72,14 +72,14 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       site: "@voiedubienetre",
       title: {
-        fr: "Massage relaxant à Hal – 60 min de détente dès 120 €",
+        fr: "Massage relaxant à Hal – 60 min de détente dès 120€",
         en: "Relaxing Massage in Halle – 60 min from €120",
-        nl: "Ontspanningsmassage Halle – 60 min vanaf 120 €",
+        nl: "Ontspanningsmassage Halle – 60 min vanaf 120€",
       }[currentLocale],
       description: {
-        fr: "Stress, fatigue ou tensions ? Offrez-vous 1 h 30 de massage relaxant à Hal ou Bruxelles, dès 120 €. Cabinet ou à domicile, du lundi au samedi. Réservez.",
+        fr: "Stress, fatigue ou tensions ? Offrez-vous 1 h 30 de massage relaxant à Hal ou Bruxelles, dès 120€. Cabinet ou à domicile, du lundi au samedi. Réservez.",
         en: "Stressed, tired or tense? Enjoy a 90-min relaxing massage in Halle or Brussels from €120. Studio or at home, Monday to Saturday. Book online today.",
-        nl: "Stress, vermoeidheid of spanning? Geniet 1u30 ontspanningsmassage in Halle of Brussel vanaf 120 €. Praktijk of aan huis, ma-za. Boek online.",
+        nl: "Stress, vermoeidheid of spanning? Geniet 1u30 ontspanningsmassage in Halle of Brussel vanaf 120€. Praktijk of aan huis, ma-za. Boek online.",
       }[currentLocale],
       images: [
         `${baseUrl}/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp`,

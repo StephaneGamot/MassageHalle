@@ -39,19 +39,25 @@ export default function Testimonials({ ids = [] }) {
     );
   }
 
+  // Bg ivory chaud + cartes blanches : résout deux problèmes d'un coup.
+  // (1) sur les pages services, le Testimonials ne se fond plus dans le Footer
+  //     vert sombre — contraste fort, séparation immédiate.
+  // (2) la lecture des témoignages est plus confortable sur fond clair.
+  // La home garde son contraste : Cta (blanc pur) → Testimonials (ivory) →
+  // Contact (blanc) crée une transition visuelle douce mais lisible.
   return (
     <section
-      className="bg-[#1B3A2D]"
+      className="bg-[#F3EDE4]"
       role="region"
       aria-labelledby="testimonials-title"
     >
       <div className="section-wrap">
         {/* En-tête */}
         <div className="text-center mb-12 lg:mb-16">
-          <p className="label-or !text-[#E8D4AD] mb-3">{t("title")}</p>
+          <p className="label-or !text-[#B08856] mb-3">{t("title")}</p>
           <h2
             id="testimonials-title"
-            className="text-3xl sm:text-4xl tracking-tight !text-[#F3EDE4]"
+            className="text-3xl sm:text-4xl tracking-tight !text-[#1B3A2D]"
           >
             {t("subtitle")}
           </h2>
@@ -61,22 +67,22 @@ export default function Testimonials({ ids = [] }) {
         <div className="columns-1 sm:columns-2 lg:columns-3 gap-5 space-y-5">
           {selectedTestimonials.map((testimonial) => (
             <div key={testimonial.id} className="break-inside-avoid">
-              <figure className="rounded-2xl bg-white/[0.07] p-6 sm:p-7 border border-white/[0.06] hover:bg-white/[0.1] transition-colors duration-300">
+              <figure className="rounded-2xl bg-white p-6 sm:p-7 border border-[#E1DBD0] shadow-sm hover:shadow-md hover:border-[#B08856]/40 transition-all duration-300">
                 {/* Badge service — contextualise immédiatement le témoignage
                     (« ah ok c'est pour le même soin que je cherche »). */}
                 {testimonial.service && (
-                  <span className="inline-block mb-3 rounded-full bg-[#E8D4AD]/15 border border-[#E8D4AD]/30 px-3 py-0.5 text-xs font-medium text-[#E8D4AD]">
+                  <span className="inline-block mb-3 rounded-full bg-[#1B3A2D]/8 border border-[#1B3A2D]/15 px-3 py-0.5 text-xs font-medium text-[#1B3A2D]">
                     {testimonial.service}
                   </span>
                 )}
                 <blockquote>
-                  <p className="text-[0.9375rem] leading-relaxed !text-white/90">
+                  <p className="text-[0.9375rem] leading-relaxed text-[#1A1A1A]">
                     &ldquo;{testimonial.body}&rdquo;
                   </p>
                 </blockquote>
                 {/* Résultat ressenti — bénéfice concret pour le lecteur. */}
                 {testimonial.result && (
-                  <p className="mt-3 text-sm italic !text-[#E8D4AD]/90">
+                  <p className="mt-3 text-sm italic text-[#B08856]">
                     {testimonial.result}
                   </p>
                 )}
@@ -84,17 +90,17 @@ export default function Testimonials({ ids = [] }) {
                   <Image
                     alt={testimonial.alt}
                     src={testimonial.author.imageUrl}
-                    className="h-9 w-9 rounded-full object-cover ring-2 ring-[#B8976A]/30"
+                    className="h-9 w-9 rounded-full object-cover ring-2 ring-[#B08856]/30"
                     width={36}
                     height={36}
                     loading="lazy"
                   />
                   <div className="flex flex-col">
-                    <span className="text-sm font-semibold !text-[#D4BA91]">
+                    <span className="text-sm font-semibold text-[#1B3A2D]">
                       {testimonial.author.name}
                     </span>
                     {testimonial.context && (
-                      <span className="text-xs !text-white/55">
+                      <span className="text-xs text-[#6B6862]">
                         {testimonial.context}
                       </span>
                     )}

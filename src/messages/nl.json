@@ -1095,7 +1095,7 @@
       "durationMin": 90,
       "durationMax": 120,
       "text": "Gun uzelf dit moment van sereniteit vanaf",
-      "price": "119,90 €"
+      "price": "119,90€"
     },
     "sportif": {
       "title": "Een krachtige en gerichte massage",
@@ -1106,7 +1106,7 @@
       "durationMin": 60,
       "durationMax": 90,
       "text": "Zorg voor uw spieren vanaf",
-      "price": "85 €"
+      "price": "85€"
     },
     "domicile": {
       "title": "Een behandeling bij u thuis, in alle rust",
@@ -1117,7 +1117,7 @@
       "durationMin": 90,
       "durationMax": 120,
       "text": "Ontvang deze behandeling thuis vanaf",
-      "price": "185 €"
+      "price": "185€"
     },
     "tao": {
       "title": "Een rustgevend sensueel ritueel",
@@ -1128,7 +1128,7 @@
       "durationMin": 90,
       "durationMax": 120,
       "text": "Herontdek uw vitale energie vanaf",
-      "price": "150 €"
+      "price": "150€"
     },
     "dos": {
       "title": "Een gerichte behandeling voor rugverlichting",
@@ -1139,7 +1139,7 @@
       "durationMin": 60,
       "durationMax": 90,
       "text": "Verlicht uw rug voor",
-      "price": "85 €"
+      "price": "85€"
     },
     "anticellulite": {
       "title": "Een verstevigende en revitaliserende massage",
@@ -1150,7 +1150,7 @@
       "durationMin": 60,
       "durationMax": 90,
       "text": "Geef uw lichaam een nieuwe impuls vanaf",
-      "price": "85 €"
+      "price": "85€"
     },
     "deeptissue": {
       "title": "Een diepe weefselmassage",
@@ -1161,7 +1161,7 @@
       "durationMin": 60,
       "durationMax": 90,
       "text": "Ontspan uw spieren voor",
-      "price": "85 €"
+      "price": "85€"
     },
     "shiatsu": {
       "title": "Een energetisch balancerende behandeling",
@@ -1172,7 +1172,7 @@
       "durationMin": 60,
       "durationMax": 90,
       "text": "Vind uw innerlijke balans vanaf",
-      "price": "85 €"
+      "price": "85€"
     },
     "reiki": {
       "title": "Een zachte harmonisatie",
@@ -1183,7 +1183,7 @@
       "durationMin": 60,
       "durationMax": 90,
       "text": "Herontdek uw energie vanaf",
-      "price": "85 €"
+      "price": "85€"
     },
     "cst": {
       "title": "Een subtiele en diepe behandeling",
@@ -1194,7 +1194,7 @@
       "durationMin": 60,
       "durationMax": 90,
       "text": "Bied uw lichaam duurzame verlichting vanaf",
-      "price": "85 €"
+      "price": "85€"
     },
     "reflexo": {
       "title": "Voetverzorging met talloze voordelen",
@@ -1205,7 +1205,7 @@
       "durationMin": 60,
       "durationMax": 90,
       "text": "Verzorg uw voeten voor",
-      "price": "85 €"
+      "price": "85€"
     },
     "amma": {
       "title": "Een expressmassage, overal",
@@ -1216,7 +1216,7 @@
       "durationMin": 15,
       "durationMax": 30,
       "text": "Bied dit moment van welzijn vanaf",
-      "price": "25 €"
+      "price": "25€"
     },
     "voyage": {
       "title": "Een sensorische en diepe reis",
@@ -1227,7 +1227,7 @@
       "durationMin": 120,
       "durationMax": 150,
       "text": "Begin uw innerlijke reis voor",
-      "price": "145 €"
+      "price": "145€"
     },
     "common": {
       "location": "Aan huis of in de praktijk",
@@ -1523,7 +1523,7 @@
       },
       {
         "q": "Wat kost een ontspanningsmassage?",
-        "a": "De sessie van 1u kost 85 € (enkel sport & rug); 1u30 kost 120 €; 2u kost 160 €. Geen verborgen kosten."
+        "a": "De sessie van 1u kost 85€ (enkel sport & rug); 1u30 kost 120€; 2u kost 160€. Geen verborgen kosten."
       }
     ],
     "sportif": [

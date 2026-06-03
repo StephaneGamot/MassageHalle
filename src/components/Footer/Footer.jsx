@@ -139,8 +139,11 @@ export default function Footer() {
 
         {/* Section villes desservies — version sobre : 3 liens simples + ligne SEO villes.
             Le contenu enrichi vit sur les pages dédiées /massage-<ville>, pas dans le footer. */}
-        <div className="mt-10 pt-8 border-t border-white/10 text-center">
-          <p className="flex flex-wrap justify-center gap-x-5 gap-y-2 mb-4">
+        <div className="mt-10 pt-8 border-t border-white/10">
+          {/* div + w-full + justify-center : centrage garanti.
+              <p> avec display:flex peut être réécrit par certains resets CSS,
+              <div> reste neutre et porte le flex sans surprise. */}
+          <div className="w-full flex flex-wrap justify-center gap-x-5 gap-y-2 mb-4">
             <Link href={`/${locale}/massage-bruxelles`}
               className="text-sm font-semibold !text-[#D4BA91] hover:!text-[#E8D4AD] underline-offset-2 hover:underline">
               {locale === "nl" ? "Massage Brussel" : locale === "en" ? "Massage Brussels" : "Massage Bruxelles"}
@@ -153,10 +156,8 @@ export default function Footer() {
               className="text-sm font-semibold !text-[#D4BA91] hover:!text-[#E8D4AD] underline-offset-2 hover:underline">
               Massage Waterloo
             </Link>
-          </p>
-          {/* Block-level + max-w + mx-auto = centrage garanti même sur mobile.
-              flex parent éventuel ne casse plus l'alignement. */}
-          <p className="block max-w-3xl mx-auto text-xs !text-white/70 leading-relaxed text-center">
+          </div>
+          <p className="max-w-3xl mx-auto text-xs !text-white/70 leading-relaxed text-center">
             {ft("seoCities")}
           </p>
         </div>

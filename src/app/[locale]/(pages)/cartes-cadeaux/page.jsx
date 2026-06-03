@@ -14,9 +14,9 @@ export async function generateMetadata({ params }) {
   }[currentLocale];
 
   const description = {
-    fr: "Cartes-cadeaux massage de 85 € à 165 €. Personnalisées, envoyées par email en PDF ou imprimées. Le cadeau parfait : anniversaire, Saint-Valentin, fête des mères.",
+    fr: "Cartes-cadeaux massage de 85€ à 165€. Personnalisées, envoyées par email en PDF ou imprimées. Le cadeau parfait : anniversaire, Saint-Valentin, fête des mères.",
     en: "Massage gift cards from €85 to €165. Personalized, sent as PDF by email or printed. The perfect gift: birthday, Valentine's Day, Mother's Day.",
-    nl: "Massage cadeaubonnen van 85 € tot 165 €. Gepersonaliseerd, per e-mail als PDF of gedrukt. Het perfecte cadeau: verjaardag, Valentijn, Moederdag.",
+    nl: "Massage cadeaubonnen van 85€ tot 165€. Gepersonaliseerd, per e-mail als PDF of gedrukt. Het perfecte cadeau: verjaardag, Valentijn, Moederdag.",
   }[currentLocale];
 
   return {
@@ -47,7 +47,7 @@ const TXT = {
     intro: "Offrir un massage, c'est offrir du temps, du calme et de l'attention. Trois formules au choix — toutes personnalisables avec un mot de votre part.",
     valid: "Valable 12 mois · Utilisable en cabinet ou à domicile",
     order: "Commander cette carte",
-    chosenWa: "Bonjour, je souhaite offrir une carte-cadeau « {label} » ({amount} €). Pourriez-vous me dire comment procéder ?",
+    chosenWa: "Bonjour, je souhaite offrir une carte-cadeau « {label} » ({amount}€). Pourriez-vous me dire comment procéder ?",
     delivery: "Livraison : PDF personnalisé par email (24 h) ou version imprimée à retirer en cabinet.",
     payment: "Paiement par virement, Bancontact ou espèces.",
     extraH2: "Vous voulez un autre montant ?",
@@ -58,7 +58,7 @@ const TXT = {
     intro: "Giving a massage is giving time, calm and attention. Three options to choose from — all customizable with a personal note.",
     valid: "Valid 12 months · Usable in studio or at home",
     order: "Order this card",
-    chosenWa: "Hello, I would like to offer a gift card « {label} » ({amount} €). Could you tell me how to proceed?",
+    chosenWa: "Hello, I would like to offer a gift card « {label} » ({amount}€). Could you tell me how to proceed?",
     delivery: "Delivery: personalized PDF by email (24h) or printed version to pick up at the studio.",
     payment: "Payment by transfer, Bancontact or cash.",
     extraH2: "Want a different amount?",
@@ -69,7 +69,7 @@ const TXT = {
     intro: "Een massage cadeau geven is tijd, rust en aandacht schenken. Drie formules ter keuze — allemaal personaliseerbaar met een persoonlijk woord.",
     valid: "Geldig 12 maanden · Bruikbaar in praktijk of aan huis",
     order: "Deze bon bestellen",
-    chosenWa: "Hallo, ik wil een cadeaubon « {label} » ({amount} €) aanbieden. Hoe gaan we verder?",
+    chosenWa: "Hallo, ik wil een cadeaubon « {label} » ({amount}€) aanbieden. Hoe gaan we verder?",
     delivery: "Levering: gepersonaliseerde PDF per e-mail (24u) of gedrukt op te halen in de praktijk.",
     payment: "Betaling via overschrijving, Bancontact of cash.",
     extraH2: "Wilt u een ander bedrag?",
@@ -130,7 +130,7 @@ export default async function GiftCardsPage(props) {
                   <div className="absolute -bottom-16 -left-16 w-48 h-48 rounded-full bg-[#B08856]/15" aria-hidden="true" />
                   <div className="relative">
                     <p className="text-xs uppercase tracking-widest text-[#E8D4AD]">{BUSINESS.name}</p>
-                    <p className="mt-2 text-5xl font-semibold">{g.amount} €</p>
+                    <p className="mt-2 text-5xl font-semibold">{g.amount}€</p>
                     <p className="mt-1 text-lg font-medium text-[#E8D4AD]">
                       {g.label[locale] || g.label.fr}
                     </p>
