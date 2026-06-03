@@ -44,12 +44,12 @@ export const BUSINESS = {
     {
       dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
       opens: "10:00",
-      closes: "19:00",
+      closes: "20:00",
     },
   ],
-  openingHumanFR: "Sur rendez-vous du lundi au samedi, 10h–19h",
-  openingHumanEN: "By appointment from Monday to Saturday, 10am–7pm",
-  openingHumanNL: "Op afspraak van maandag tot zaterdag, 10u–19u",
+  openingHumanFR: "Sur rendez-vous du lundi au samedi, 10h–20h",
+  openingHumanEN: "By appointment from Monday to Saturday, 10am–8pm",
+  openingHumanNL: "Op afspraak van maandag tot zaterdag, 10u–20u",
 
   // Avis — À METTRE À JOUR mensuellement avec les vrais chiffres de la fiche GMB.
   // Si reviewCount diverge de la fiche Google, risque d'action manuelle = perte des étoiles SERP.
@@ -83,15 +83,16 @@ export const BUSINESS = {
 
   // Tarification de référence — affichée dans les Offer schemas + meta descriptions.
   pricing: { startingFrom: "80", currency: "EUR" },
-  paymentAccepted: "Cash, Bancontact, Virement bancaire",
+  // Pas de Visa — seuls Bancontact, espèces et chèques-cadeaux sont acceptés.
+  paymentAccepted: "Cash, Bancontact, Virement bancaire, Chèques cadeaux",
 
   // Prochaine disponibilité — affichée dans le Hero pour créer un sentiment de
   // rareté (« 3 créneaux libres cette semaine » convertit nettement mieux qu'un
   // simple « Réservez »). À METTRE À JOUR à la main 2× par semaine.
   // Si vide ou null, le bandeau ne s'affiche pas.
   nextSlot: {
-    fr: "Prochaine disponibilité : cette semaine — réponse sous 2 h",
-    en: "Next opening: this week — reply within 2 hours",
-    nl: "Volgende beschikbaarheid: deze week — antwoord binnen 2 uur",
+    fr: "Prochaine disponibilité : cette semaine — réponse sous 4 h",
+    en: "Next opening: this week — reply within 4 hours",
+    nl: "Volgende beschikbaarheid: deze week — antwoord binnen 4 uur",
   },
 };

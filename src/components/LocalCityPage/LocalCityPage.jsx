@@ -23,36 +23,63 @@ export default function LocalCityPage({ cityKey, locale }) {
       intro: city.intro.fr,
       sectionsTitle: city.sectionsTitle.fr,
       sections: city.sections.fr,
+      topServices: city.topServices?.fr,
+      logistics: city.logistics?.fr,
+      faqLocal: city.faqLocal?.fr,
+      testimonial: city.testimonial?.fr,
+      topServicesTitle: `Soins les plus demandés à ${cityName}`,
+      logisticsTitle: `Trajet & logistique depuis Halle`,
+      faqLocalTitle: `Questions fréquentes des habitants de ${cityName}`,
+      testimonialTitle: `Ils ont reçu un massage à ${cityName}`,
       bookCta: `Réserver depuis ${cityName}`,
       callCta: "Appeler maintenant",
       priceFrom: `À domicile à ${cityName} : à partir de ${city.homePrice.fromShort}`,
       seePricing: "Voir tous les tarifs",
+      seeTreatment: "Découvrir ce soin",
       ctaTitle: `Prêt(e) à réserver votre massage à ${cityName} ?`,
-      ctaText: "Un message WhatsApp et nous fixons votre créneau. Réponse en général dans les 2 heures aux horaires d'ouverture.",
+      ctaText: "Un message WhatsApp et nous fixons votre créneau. Réponse en général sous 4 h aux horaires d'ouverture (lundi–samedi 10h–20h).",
     },
     en: {
       hero: city.hero.en,
       intro: city.intro.en,
       sectionsTitle: city.sectionsTitle.en,
       sections: city.sections.en,
+      topServices: city.topServices?.en,
+      logistics: city.logistics?.en,
+      faqLocal: city.faqLocal?.en,
+      testimonial: city.testimonial?.en,
+      topServicesTitle: `Most requested treatments in ${cityName}`,
+      logisticsTitle: `Travel & logistics from Halle`,
+      faqLocalTitle: `Frequently asked by ${cityName} residents`,
+      testimonialTitle: `They received a massage in ${cityName}`,
       bookCta: `Book from ${cityName}`,
       callCta: "Call now",
       priceFrom: `At home in ${cityName}: from ${city.homePrice.fromShort}`,
       seePricing: "See all prices",
+      seeTreatment: "See this treatment",
       ctaTitle: `Ready to book your massage in ${cityName}?`,
-      ctaText: "One WhatsApp message and we set your slot. Reply usually within 2 hours during opening hours.",
+      ctaText: "One WhatsApp message and we set your slot. Reply usually within 4 hours during opening hours (Monday–Saturday 10am–8pm).",
     },
     nl: {
       hero: city.hero.nl,
       intro: city.intro.nl,
       sectionsTitle: city.sectionsTitle.nl,
       sections: city.sections.nl,
+      topServices: city.topServices?.nl,
+      logistics: city.logistics?.nl,
+      faqLocal: city.faqLocal?.nl,
+      testimonial: city.testimonial?.nl,
+      topServicesTitle: `Meest gevraagde behandelingen in ${cityName}`,
+      logisticsTitle: `Traject & logistiek vanuit Halle`,
+      faqLocalTitle: `Veelgestelde vragen van bewoners van ${cityName}`,
+      testimonialTitle: `Zij kregen een massage in ${cityName}`,
       bookCta: `Boek vanuit ${cityName}`,
       callCta: "Nu bellen",
       priceFrom: `Aan huis in ${cityName}: vanaf ${city.homePrice.fromShort}`,
       seePricing: "Bekijk alle tarieven",
+      seeTreatment: "Bekijk deze behandeling",
       ctaTitle: `Klaar om uw massage in ${cityName} te boeken?`,
-      ctaText: "Eén WhatsApp-bericht en we plannen uw slot. Meestal binnen 2 uur antwoord tijdens openingsuren.",
+      ctaText: "Eén WhatsApp-bericht en we plannen uw slot. Meestal binnen 4 uur antwoord tijdens openingsuren (maandag–zaterdag 10u–20u).",
     },
   }[safeLocale];
 
@@ -83,12 +110,29 @@ export default function LocalCityPage({ cityKey, locale }) {
     },
   };
 
+  // FAQ schema local — Google peut afficher ces 3 Q/R en SERP sur la requête ville.
+  const faqSchema = t.faqLocal && t.faqLocal.length ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: t.faqLocal.map(f => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  } : null;
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
 
       <section className="bg-[#1B3A2D] text-white">
         <div className="section-wrap max-w-5xl mx-auto px-6 py-20">
@@ -135,7 +179,79 @@ export default function LocalCityPage({ cityKey, locale }) {
         </div>
       </section>
 
-      <section className="bg-white">
+      {/* Soins les plus demandés — grille de 4 cartes cliquables avec prix.
+          Apporte du maillage interne et rassure sur les options disponibles. */}
+      {t.topServices && t.topServices.length > 0 && (
+        <section className="bg-white">
+          <div className="section-wrap max-w-5xl mx-auto px-6 py-20">
+            <h2 className="text-3xl font-semibold tracking-tight text-[#1B3A2D]">
+              {t.topServicesTitle}
+            </h2>
+            <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+              {t.topServices.map((s) => (
+                <Link key={s.slug} href={`/${safeLocale}/${s.slug}`}
+                  className="block rounded-2xl border border-[#E1DBD0] bg-[#FAFAF7] p-5 hover:border-[#B08856] hover:bg-white transition group">
+                  <p className="text-sm font-semibold text-[#1B3A2D] group-hover:text-[#B08856]">
+                    {s.name}
+                  </p>
+                  <p className="mt-2 text-2xl font-semibold text-[#1B3A2D]">{s.price}</p>
+                  <p className="mt-3 text-xs text-[#6B6862]">{t.seeTreatment} →</p>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Trajet & logistique depuis Halle — concrétise, rassure sur la ponctualité.
+          Critique pour la conversion : élimine la friction « il va vraiment venir ? ». */}
+      {t.logistics && (
+        <section className="bg-[#FAFAF7]">
+          <div className="section-wrap max-w-3xl mx-auto px-6 py-20">
+            <h2 className="text-3xl font-semibold tracking-tight text-[#1B3A2D]">
+              {t.logisticsTitle}
+            </h2>
+            <p className="mt-6 text-[#595751] leading-relaxed">{t.logistics}</p>
+          </div>
+        </section>
+      )}
+
+      {/* Témoignage spécifiquement local — preuve sociale géolocalisée. */}
+      {t.testimonial && (
+        <section className="bg-[#1B3A2D] text-white">
+          <div className="section-wrap max-w-3xl mx-auto px-6 py-20 text-center">
+            <div className="text-5xl mb-4 !text-[#E8D4AD]" aria-hidden="true">&ldquo;</div>
+            <blockquote className="text-xl leading-relaxed !text-white/90 italic">
+              {t.testimonial.body}
+            </blockquote>
+            <p className="mt-6 text-sm font-semibold !text-[#E8D4AD]">
+              {t.testimonial.author}
+              <span className="!text-white/55 font-normal"> · {t.testimonial.area}</span>
+            </p>
+          </div>
+        </section>
+      )}
+
+      {/* FAQ locale (3 questions) — capte les requêtes longue traîne par ville. */}
+      {t.faqLocal && t.faqLocal.length > 0 && (
+        <section className="bg-white">
+          <div className="section-wrap max-w-3xl mx-auto px-6 py-20">
+            <h2 className="text-3xl font-semibold tracking-tight text-[#1B3A2D]">
+              {t.faqLocalTitle}
+            </h2>
+            <dl className="mt-10 divide-y divide-[#E1DBD0]">
+              {t.faqLocal.map((f, i) => (
+                <div key={i} className="py-6 first:pt-0 last:pb-0">
+                  <dt className="text-lg font-semibold text-[#1B3A2D]">{f.q}</dt>
+                  <dd className="mt-2 text-[#595751] leading-relaxed">{f.a}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+        </section>
+      )}
+
+      <section className="bg-[#F3EDE4]">
         <div className="section-wrap max-w-3xl mx-auto px-6 py-20 text-center">
           <h2 className="text-3xl font-semibold tracking-tight text-[#1B3A2D]">
             {t.ctaTitle}

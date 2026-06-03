@@ -19,6 +19,69 @@ export const CITIES = {
     distanceKm: 18,
     travelMin: 25,
     homePrice: { from: 110, fromShort: "110 €" },
+    // Soins les plus demandés dans cette ville — affichés dans une grille.
+    topServices: {
+      fr: [
+        { name: "Massage relaxant 90 min", price: "140 €", slug: "massage/relaxant" },
+        { name: "Shiatsu 60 min",          price: "110 €", slug: "shiatsu" },
+        { name: "Massage Tao 90 min",      price: "140 €", slug: "massage/tao" },
+        { name: "Voyage des sens 90 min",  price: "150 €", slug: "massage/voyage-des-sens" },
+      ],
+      en: [
+        { name: "Relaxing massage 90 min", price: "€140", slug: "massage/relaxant" },
+        { name: "Shiatsu 60 min",          price: "€110", slug: "shiatsu" },
+        { name: "Tao massage 90 min",      price: "€140", slug: "massage/tao" },
+        { name: "Sensory journey 90 min",  price: "€150", slug: "massage/voyage-des-sens" },
+      ],
+      nl: [
+        { name: "Ontspanningsmassage 90 min", price: "140 €", slug: "massage/relaxant" },
+        { name: "Shiatsu 60 min",             price: "110 €", slug: "shiatsu" },
+        { name: "Tao-massage 90 min",         price: "140 €", slug: "massage/tao" },
+        { name: "Zintuigenreis 90 min",       price: "150 €", slug: "massage/voyage-des-sens" },
+      ],
+    },
+    // Bloc "trajet & logistique" — rassure et concrétise.
+    logistics: {
+      fr: "Depuis le cabinet de Halle, je rejoins Bruxelles centre en 25 minutes via le ring R0, sortie 17 (Anderlecht) ou sortie 16 (Halle). Pour le sud de Bruxelles (Uccle, Forest, Saint-Gilles), comptez 30 minutes en heures creuses. Pour l'est et le nord-est (Etterbeek, Schaerbeek, Woluwe), 35 à 40 minutes selon l'heure. J'arrive toujours 5 à 10 minutes en avance pour installer la table et chauffer les huiles. Stationnement : je trouve toujours, ne vous en occupez pas.",
+      en: "From the Halle studio, I reach central Brussels in 25 minutes via the R0 ring, exit 17 (Anderlecht) or exit 16 (Halle). For southern Brussels (Uccle, Forest, Saint-Gilles), count 30 minutes off-peak. For the east and north-east (Etterbeek, Schaerbeek, Woluwe), 35 to 40 minutes depending on time. I always arrive 5 to 10 minutes early to set up the table and warm the oils. Parking: I always find a spot, no need to worry.",
+      nl: "Vanuit de praktijk in Halle bereik ik het centrum van Brussel in 25 minuten via de R0-ring, afrit 17 (Anderlecht) of afrit 16 (Halle). Voor het zuiden van Brussel (Ukkel, Vorst, Sint-Gillis) reken op 30 minuten buiten de spits. Voor het oosten en noordoosten (Etterbeek, Schaarbeek, Woluwe) 35 tot 40 minuten afhankelijk van het uur. Ik kom altijd 5 tot 10 minuten vroeger om de tafel te installeren en de oliën op te warmen. Parking: ik vind altijd een plek, daar hoeft u zich geen zorgen om te maken.",
+    },
+    // FAQ locale — 3 questions très spécifiques à cette ville.
+    faqLocal: {
+      fr: [
+        { q: "Vous venez aussi à Ixelles, Saint-Gilles, Etterbeek ?",
+          a: "Oui. Aucune commune bruxelloise n'est exclue. Le tarif domicile reste le même partout dans le périmètre 19 communes." },
+        { q: "Combien de temps faut-il prévoir au total pour un massage à domicile à Bruxelles ?",
+          a: "Pour une séance de 90 minutes : comptez 10 minutes d'installation, 90 minutes de soin, 10 minutes de rangement. Soit environ 1h50 chez vous au total, dont 90 minutes de pure détente." },
+        { q: "Faut-il avoir une grande pièce ?",
+          a: "Non. Un espace de 2 mètres sur 3 mètres suffit. Pas besoin d'une chambre dédiée : le salon convient parfaitement, je déplace une table basse si nécessaire." },
+      ],
+      en: [
+        { q: "Do you also come to Ixelles, Saint-Gilles, Etterbeek?",
+          a: "Yes. No Brussels municipality is excluded. The at-home price is the same anywhere in the 19-municipality perimeter." },
+        { q: "How much total time should I plan for an at-home massage in Brussels?",
+          a: "For a 90-minute session: count 10 minutes for setup, 90 minutes of treatment, 10 minutes to pack up. So about 1h50 at your place in total, of which 90 minutes of pure relaxation." },
+        { q: "Do I need a big room?",
+          a: "No. A 2 by 3 metre space is enough. No need for a dedicated room: the living room works perfectly, I move a coffee table if necessary." },
+      ],
+      nl: [
+        { q: "Komt u ook naar Elsene, Sint-Gillis, Etterbeek?",
+          a: "Ja. Geen enkele Brusselse gemeente is uitgesloten. De thuisprijs blijft overal in het 19-gemeenten gebied dezelfde." },
+        { q: "Hoeveel tijd moet ik in totaal voorzien voor een massage aan huis in Brussel?",
+          a: "Voor een sessie van 90 minuten: reken 10 minuten installatie, 90 minuten behandeling, 10 minuten opruimen. In totaal ongeveer 1u50 bij u thuis, waarvan 90 minuten pure ontspanning." },
+        { q: "Heb ik een grote kamer nodig?",
+          a: "Nee. Een ruimte van 2 op 3 meter volstaat. Geen aparte kamer nodig: de woonkamer is perfect, ik schuif desnoods een salontafel opzij." },
+      ],
+    },
+    // Témoignage local — un seul, vraiment situé dans la ville.
+    testimonial: {
+      fr: { body: "Stéphane est venu chez nous à Ixelles un dimanche matin. Ponctuel, discret, ultra professionnel. J'ai eu l'impression de partir en weekend sans bouger du salon. On a recommandé à toute la famille.",
+            author: "Camille V.", area: "Ixelles" },
+      en: { body: "Stéphane came to our place in Ixelles on a Sunday morning. On time, discreet, ultra professional. I felt like I'd been on a weekend break without leaving the living room. We've recommended him to the whole family.",
+            author: "Camille V.", area: "Ixelles" },
+      nl: { body: "Stéphane kwam bij ons in Elsene op een zondagochtend. Stipt, discreet, ultra professioneel. Het voelde alsof ik op weekend was geweest zonder de woonkamer te verlaten. We hebben hem aan de hele familie aanbevolen.",
+            author: "Camille V.", area: "Elsene" },
+    },
     meta: {
       title: {
         fr: "Massage à domicile à Bruxelles — Cabinet à 25 min · 4.9★",
@@ -26,9 +89,9 @@ export const CITIES = {
         nl: "Massage aan huis in Brussel — Praktijk op 25 min · 4.9★",
       },
       description: {
-        fr: "Massage relaxant, shiatsu, reiki à domicile à Bruxelles (toutes communes). Praticien certifié, 10+ ans d'expérience. Cabinet à Halle, déplacement dès 110 €.",
-        en: "At-home relaxing massage, shiatsu, reiki across Brussels. Certified practitioner, 10+ years experience. Studio in Halle, at-home from €110.",
-        nl: "Ontspanningsmassage, shiatsu, reiki aan huis in Brussel. Gecertificeerd, 10+ jaar ervaring. Praktijk in Halle, aan huis vanaf 110 €.",
+        fr: "Massage relaxant, shiatsu, reiki à domicile à Bruxelles (toutes communes). Praticien certifié, 20+ ans d'expérience. Cabinet à Halle, déplacement dès 110 €.",
+        en: "At-home relaxing massage, shiatsu, reiki across Brussels. Certified practitioner, 20+ years experience. Studio in Halle, at-home from €110.",
+        nl: "Ontspanningsmassage, shiatsu, reiki aan huis in Brussel. Gecertificeerd, 20+ jaar ervaring. Praktijk in Halle, aan huis vanaf 110 €.",
       },
     },
     hero: {
@@ -72,6 +135,65 @@ export const CITIES = {
     distanceKm: 14,
     travelMin: 22,
     homePrice: { from: 110, fromShort: "110 €" },
+    topServices: {
+      fr: [
+        { name: "Reiki 60 min",                 price: "110 €", slug: "reiki" },
+        { name: "Thérapie cranio-sacrée 60 min", price: "115 €", slug: "therapie-cranio-sacree" },
+        { name: "Shiatsu 90 min",               price: "140 €", slug: "shiatsu" },
+        { name: "Massage relaxant 90 min",      price: "140 €", slug: "massage/relaxant" },
+      ],
+      en: [
+        { name: "Reiki 60 min",             price: "€110", slug: "reiki" },
+        { name: "Craniosacral 60 min",      price: "€115", slug: "therapie-cranio-sacree" },
+        { name: "Shiatsu 90 min",           price: "€140", slug: "shiatsu" },
+        { name: "Relaxing massage 90 min",  price: "€140", slug: "massage/relaxant" },
+      ],
+      nl: [
+        { name: "Reiki 60 min",                  price: "110 €", slug: "reiki" },
+        { name: "Craniosacrale therapie 60 min", price: "115 €", slug: "therapie-cranio-sacree" },
+        { name: "Shiatsu 90 min",                price: "140 €", slug: "shiatsu" },
+        { name: "Ontspanningsmassage 90 min",    price: "140 €", slug: "massage/relaxant" },
+      ],
+    },
+    logistics: {
+      fr: "Le trajet depuis Halle prend 22 minutes via le ring R0, sortie Uccle-Calevoet. En heure de pointe (18 h), comptez 30 à 35 minutes — je préfère donc proposer 17 h ou après 19 h les jours de semaine. Le samedi, c'est fluide toute la journée. Je connais bien les quartiers Bois de la Cambre, Saint-Job, Fort Jaco, Calevoet, Vivier d'Oie. Pour les appartements en étage : aucun souci, ma table portable se transporte facilement.",
+      en: "The trip from Halle takes 22 minutes via the R0 ring, Uccle-Calevoet exit. At rush hour (6pm), count 30 to 35 minutes — I prefer 5pm or after 7pm on weekdays. Saturday is smooth all day. I know the Bois de la Cambre, Saint-Job, Fort Jaco, Calevoet and Vivier d'Oie neighborhoods well. For upper-floor apartments: no problem, my portable table is easy to carry.",
+      nl: "De rit vanuit Halle duurt 22 minuten via de R0-ring, afrit Ukkel-Calevoet. In de spits (18u) reken op 30 tot 35 minuten — ik stel daarom liever 17u of na 19u voor op weekdagen. Zaterdag is rustig de hele dag. Ik ken de buurten Ter Kameren, Sint-Job, Fort Jaco, Calevoet en Diesdelle goed. Voor appartementen op een verdieping: geen probleem, mijn draagbare tafel is gemakkelijk te dragen.",
+    },
+    faqLocal: {
+      fr: [
+        { q: "Je suis très stressé(e), que recommandez-vous ?",
+          a: "À Uccle, je conseille souvent un premier reiki ou une thérapie cranio-sacrée pour ouvrir, puis une suite de 3 séances espacées d'une semaine. Effet plus profond et plus durable qu'un massage musculaire isolé." },
+        { q: "Faites-vous des forfaits abonnement ?",
+          a: "Oui. Pour les clients réguliers, je propose un tarif dégressif sur l'achat de 5 séances payées d'avance — environ 10 % de réduction. Idéal pour un accompagnement burn-out ou anxiété chronique." },
+        { q: "Je vis dans une maison avec enfants, c'est compatible ?",
+          a: "Absolument. Beaucoup de mes clients ucclois sont des parents qui réservent en fin d'après-midi quand un partenaire garde les enfants à l'étage. Une pièce calme avec porte qui ferme suffit." },
+      ],
+      en: [
+        { q: "I'm very stressed, what do you recommend?",
+          a: "In Uccle, I often suggest an initial reiki or craniosacral therapy to open up, then a series of 3 sessions one week apart. Deeper and longer-lasting effect than an isolated muscular massage." },
+        { q: "Do you offer subscription packages?",
+          a: "Yes. For regular clients, I offer a degressive rate on a pack of 5 prepaid sessions — about 10% discount. Ideal for a burnout or chronic anxiety support journey." },
+        { q: "I live in a house with children, is that compatible?",
+          a: "Absolutely. Many of my Uccle clients are parents who book in late afternoon while a partner watches the kids upstairs. A quiet room with a door that closes is enough." },
+      ],
+      nl: [
+        { q: "Ik ben erg gestrest, wat raadt u aan?",
+          a: "In Ukkel raad ik vaak eerst een reiki of craniosacrale therapie aan om te openen, en daarna een reeks van 3 sessies met een week tussen. Diepere en langduriger effect dan een geïsoleerde spiermassage." },
+        { q: "Biedt u abonnementsformules aan?",
+          a: "Ja. Voor vaste klanten bied ik een degressief tarief op 5 vooraf betaalde sessies — ongeveer 10 % korting. Ideaal voor begeleiding bij burn-out of chronische angst." },
+        { q: "Ik woon in een huis met kinderen, is dat compatibel?",
+          a: "Absoluut. Veel van mijn Ukkelse klanten zijn ouders die laat in de namiddag boeken terwijl een partner de kinderen boven houdt. Een rustige kamer met een deur die sluit volstaat." },
+      ],
+    },
+    testimonial: {
+      fr: { body: "Après un burn-out, j'avais besoin de douceur. La thérapie cranio-sacrée chez moi à Saint-Job a été une vraie révélation : 90 minutes où je n'ai plus pensé à rien. Je continue depuis 6 mois et mon sommeil a profondément changé.",
+            author: "Inès D.", area: "Saint-Job" },
+      en: { body: "After a burnout, I needed gentleness. Craniosacral therapy at my place in Saint-Job was a real revelation: 90 minutes where I stopped thinking. I've continued for 6 months and my sleep has deeply changed.",
+            author: "Inès D.", area: "Saint-Job" },
+      nl: { body: "Na een burn-out had ik zachtheid nodig. Craniosacrale therapie bij mij thuis in Sint-Job was een echte openbaring: 90 minuten waarin ik nergens aan dacht. Ik ga al 6 maanden door en mijn slaap is diep veranderd.",
+            author: "Inès D.", area: "Sint-Job" },
+    },
     meta: {
       title: {
         fr: "Massage à domicile à Uccle — Praticien certifié dès 110 €",
@@ -125,6 +247,65 @@ export const CITIES = {
     distanceKm: 16,
     travelMin: 24,
     homePrice: { from: 115, fromShort: "115 €" },
+    topServices: {
+      fr: [
+        { name: "Massage sportif 60 min",       price: "115 €", slug: "massage/sportif" },
+        { name: "Massage deep-tissue 90 min",   price: "150 €", slug: "massage/deep-tissues" },
+        { name: "Massage relaxant 90 min",      price: "140 €", slug: "massage/relaxant" },
+        { name: "Douceur dorsale 45 min",       price: "100 €", slug: "massage/douceur-dorsale" },
+      ],
+      en: [
+        { name: "Sports massage 60 min",        price: "€115", slug: "massage/sportif" },
+        { name: "Deep-tissue 90 min",           price: "€150", slug: "massage/deep-tissues" },
+        { name: "Relaxing massage 90 min",      price: "€140", slug: "massage/relaxant" },
+        { name: "Back relaxation 45 min",       price: "€100", slug: "massage/douceur-dorsale" },
+      ],
+      nl: [
+        { name: "Sportmassage 60 min",          price: "115 €", slug: "massage/sportif" },
+        { name: "Deep-tissue 90 min",           price: "150 €", slug: "massage/deep-tissues" },
+        { name: "Ontspanningsmassage 90 min",   price: "140 €", slug: "massage/relaxant" },
+        { name: "Rugontspanning 45 min",        price: "100 €", slug: "massage/douceur-dorsale" },
+      ],
+    },
+    logistics: {
+      fr: "Depuis Halle, j'arrive à Waterloo en 24 minutes par la N5 ou le ring R0 sortie 26. Les quartiers que je dessert régulièrement : le Chenois, le Lion, la Bergère, Mont-Saint-Jean, la Bruyère. Pour les golfeurs du Royal Waterloo Golf Club, je peux intervenir directement à la maison après votre partie — table chauffante prête en 5 minutes. Les samedis matin sont mes créneaux les plus demandés à Waterloo : pensez à réserver 10 jours à l'avance.",
+      en: "From Halle, I reach Waterloo in 24 minutes via the N5 or R0 ring exit 26. The neighborhoods I regularly serve: Chenois, the Lion, the Bergère, Mont-Saint-Jean, the Bruyère. For golfers at the Royal Waterloo Golf Club, I can come straight home after your round — heated table ready in 5 minutes. Saturday mornings are my most-requested slots in Waterloo: book 10 days ahead.",
+      nl: "Vanuit Halle bereik ik Waterloo in 24 minuten via de N5 of de R0-ring afrit 26. De buurten die ik regelmatig bedien: Chenois, de Leeuw, de Bergère, Mont-Saint-Jean, de Bruyère. Voor golfers van de Royal Waterloo Golf Club kan ik direct na uw ronde langskomen — verwarmde tafel klaar in 5 minuten. Zaterdagochtenden zijn mijn meest gevraagde slots in Waterloo: reserveer 10 dagen vooraf.",
+    },
+    faqLocal: {
+      fr: [
+        { q: "J'ai mal au dos chronique depuis le télétravail, qu'est-ce qui marche le mieux ?",
+          a: "À Waterloo, le combo gagnant est : 1 massage deep-tissue de 90 minutes pour casser les nœuds installés, puis un massage relaxant 60 min toutes les 3 semaines pour entretenir. Plus efficace qu'une séance unique tous les 2 mois." },
+        { q: "Je fais du trail / vélo. Quand programmer le massage ?",
+          a: "Idéalement 24 à 48 h après l'effort pour la récupération, ou 3 à 5 jours avant une grosse échéance (semi, marathon, Liège-Bastogne-Liège cyclo). Pas dans les 12 h qui suivent l'effort intense : le muscle est trop enflammé." },
+        { q: "Vous prenez les chèques sport-culture employeur ?",
+          a: "Pas encore intégré au réseau Edenred / Sodexo. En revanche, les chèques cadeaux émis par le cabinet sont acceptés bien sûr, et je peux fournir une facture nominative pour vos remboursements éventuels." },
+      ],
+      en: [
+        { q: "I have chronic back pain from remote work, what works best?",
+          a: "In Waterloo, the winning combo is: 1 deep-tissue massage of 90 minutes to break up established knots, then a 60-min relaxing massage every 3 weeks for maintenance. More effective than a single session every 2 months." },
+        { q: "I do trail running / cycling. When should I plan the massage?",
+          a: "Ideally 24 to 48 hours after the effort for recovery, or 3 to 5 days before a major event (half-marathon, marathon, Liège-Bastogne-Liège cyclo). Not within 12 hours of intense effort: the muscle is too inflamed." },
+        { q: "Do you accept employer sport-culture vouchers?",
+          a: "Not yet integrated with the Edenred / Sodexo network. However, gift cards issued by the practice are of course accepted, and I can provide a named invoice for any reimbursements." },
+      ],
+      nl: [
+        { q: "Ik heb chronische rugpijn door telewerk, wat werkt het best?",
+          a: "In Waterloo is de winnende combinatie: 1 deep-tissue massage van 90 minuten om gevestigde knopen los te maken, dan een ontspanningsmassage van 60 min om de 3 weken voor onderhoud. Doeltreffender dan één enkele sessie om de 2 maanden." },
+        { q: "Ik doe trail / fietsen. Wanneer plan ik de massage?",
+          a: "Idealiter 24 tot 48 uur na de inspanning voor herstel, of 3 tot 5 dagen voor een belangrijke wedstrijd (halve, marathon, Luik-Bastenaken-Luik cyclo). Niet binnen 12 uur na intense inspanning: de spier is te ontstoken." },
+        { q: "Aanvaardt u sport-cultuurcheques van de werkgever?",
+          a: "Nog niet aangesloten bij het Edenred / Sodexo-netwerk. Wel worden cadeaubonnen uitgegeven door de praktijk uiteraard aanvaard, en ik kan een factuur op naam leveren voor eventuele terugbetalingen." },
+      ],
+    },
+    testimonial: {
+      fr: { body: "Je fais un marathon par an et le massage sportif chez moi à Mont-Saint-Jean est devenu un rituel : 3 jours avant l'épreuve. Les jambes répondent mieux et la récup est plus rapide. Stéphane connaît parfaitement les coureurs.",
+            author: "Marc T.", area: "Mont-Saint-Jean" },
+      en: { body: "I run one marathon a year and the sports massage at my place in Mont-Saint-Jean has become a ritual: 3 days before the race. Legs respond better and recovery is faster. Stéphane knows runners perfectly.",
+            author: "Marc T.", area: "Mont-Saint-Jean" },
+      nl: { body: "Ik loop één marathon per jaar en de sportmassage bij mij thuis in Mont-Saint-Jean is een ritueel geworden: 3 dagen voor de wedstrijd. De benen reageren beter en het herstel is sneller. Stéphane kent lopers perfect.",
+            author: "Marc T.", area: "Mont-Saint-Jean" },
+    },
     meta: {
       title: {
         fr: "Massage à domicile à Waterloo — Sportif, relaxant, deep-tissue dès 115 €",

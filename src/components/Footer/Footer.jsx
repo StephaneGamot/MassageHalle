@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
 import LangSwitcher from "@/components/LangSwitcher";
-import AlternateLanguages from "@/components/Footer/AlternateLanguages";
 
 export default function Footer() {
   const t = useTranslations("nav");
@@ -138,24 +137,44 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Liens internes vers les autres versions linguistiques — signal SEO */}
-        <AlternateLanguages />
-
-        {/* Villes desservies — SEO local, désormais cliquables vers les pages dédiées */}
-        <div className="mt-8 pt-6 border-t border-white/10">
-          <p className="text-xs !text-white/70 text-center mb-3">
+        {/* Section villes desservies — silo SEO local + pages dédiées étoffées.
+            Le langswitcher existe déjà (en haut + plus haut dans ce footer) →
+            pas besoin d'AlternateLanguages qui faisait doublon. */}
+        <div className="mt-10 pt-8 border-t border-white/10">
+          <h3 className="text-xs font-semibold uppercase tracking-widest !text-[#D4BA91] text-center mb-6">
+            {locale === "en" ? "At home in" : locale === "nl" ? "Aan huis in" : "Massage à domicile"}
+          </h3>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-3xl mx-auto mb-6">
+            <Link href={`/${locale}/massage-bruxelles`}
+              className="block rounded-xl bg-white/5 hover:bg-white/10 transition border border-white/10 hover:border-[#D4BA91]/40 p-4 group">
+              <p className="text-sm font-semibold !text-[#D4BA91] group-hover:!text-[#E8D4AD]">
+                {locale === "nl" ? "Massage Brussel" : locale === "en" ? "Massage Brussels" : "Massage Bruxelles"}
+              </p>
+              <p className="mt-1 text-xs !text-white/65">
+                {locale === "en" ? "All municipalities · 25-40 min from Halle" : locale === "nl" ? "Alle gemeenten · 25-40 min vanaf Halle" : "Toutes les communes · 25-40 min depuis Halle"}
+              </p>
+            </Link>
+            <Link href={`/${locale}/massage-uccle`}
+              className="block rounded-xl bg-white/5 hover:bg-white/10 transition border border-white/10 hover:border-[#D4BA91]/40 p-4 group">
+              <p className="text-sm font-semibold !text-[#D4BA91] group-hover:!text-[#E8D4AD]">
+                {locale === "nl" ? "Massage Ukkel" : "Massage Uccle"}
+              </p>
+              <p className="mt-1 text-xs !text-white/65">
+                {locale === "en" ? "Bois de la Cambre, Saint-Job, Fort Jaco" : locale === "nl" ? "Ter Kameren, Sint-Job, Fort Jaco" : "Bois de la Cambre, Saint-Job, Fort Jaco"}
+              </p>
+            </Link>
+            <Link href={`/${locale}/massage-waterloo`}
+              className="block rounded-xl bg-white/5 hover:bg-white/10 transition border border-white/10 hover:border-[#D4BA91]/40 p-4 group">
+              <p className="text-sm font-semibold !text-[#D4BA91] group-hover:!text-[#E8D4AD]">
+                Massage Waterloo
+              </p>
+              <p className="mt-1 text-xs !text-white/65">
+                {locale === "en" ? "Chenois, the Lion, Royal Golf Club" : locale === "nl" ? "Chenois, de Leeuw, Royal Golf Club" : "Chenois, le Lion, Royal Golf Club"}
+              </p>
+            </Link>
+          </div>
+          <p className="text-xs !text-white/65 text-center">
             {ft("seoCities")}
-          </p>
-          <p className="text-xs text-center !text-white/80 flex flex-wrap justify-center gap-x-4 gap-y-2 mb-6">
-            <Link href={`/${locale}/massage-bruxelles`} className="underline-offset-2 hover:!text-[#D4BA91] hover:underline">
-              {locale === "nl" ? "Massage Brussel" : locale === "en" ? "Massage Brussels" : "Massage Bruxelles"}
-            </Link>
-            <Link href={`/${locale}/massage-uccle`} className="underline-offset-2 hover:!text-[#D4BA91] hover:underline">
-              {locale === "nl" ? "Massage Ukkel" : "Massage Uccle"}
-            </Link>
-            <Link href={`/${locale}/massage-waterloo`} className="underline-offset-2 hover:!text-[#D4BA91] hover:underline">
-              Massage Waterloo
-            </Link>
           </p>
         </div>
 
@@ -166,9 +185,6 @@ export default function Footer() {
           <div className="flex gap-6 flex-wrap">
             <Link href="https://www.votremassageadomicilepaysbasque.com/fr" className="text-xs !text-white/75 hover:!text-[#D4BA91] transition-colors" target="_blank" rel="noopener noreferrer">
               Massage Pays-Basque
-            </Link>
-            <Link href="https://www.stephanegamot.com/" className="text-xs !text-white/75 hover:!text-[#D4BA91] transition-colors" target="_blank" rel="noopener noreferrer">
-              Stéphane Gamot — Developer
             </Link>
             <Link href="https://www.creation-site-internet-pays-basque.com/fr" className="text-xs !text-white/75 hover:!text-[#D4BA91] transition-colors" target="_blank" rel="noopener noreferrer">
               Création de site internet au Pays Basque

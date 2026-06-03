@@ -223,7 +223,8 @@ export default function HomepageJsonLd({ locale }) {
         email: BUSINESS.email,
         contactType: "reservations",
         areaServed: "BE",
-        availableLanguage: ["French", "English", "Dutch"],
+        // Praticien parle français et anglais — pas couramment néerlandais.
+        availableLanguage: ["French", "English"],
       },
     ],
     address: {

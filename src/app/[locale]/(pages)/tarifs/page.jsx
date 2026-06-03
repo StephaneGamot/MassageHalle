@@ -16,9 +16,9 @@ export async function generateMetadata({ params }) {
   }[currentLocale];
 
   const description = {
-    fr: "Tarifs clairs pour massage relaxant, shiatsu, reiki, deep-tissue — en cabinet à Hal ou à domicile. 60 min dès 80 €, paiement Bancontact, Visa, espèces.",
-    en: "Clear pricing for relaxing massage, shiatsu, reiki, deep-tissue — in Halle studio or at home. 60 min from €80, payment by card, Bancontact or cash.",
-    nl: "Duidelijke tarieven voor ontspanningsmassage, shiatsu, reiki, deep-tissue — in praktijk Halle of aan huis. 60 min vanaf 80 €, betaling Bancontact of cash.",
+    fr: "Tarifs clairs pour massage relaxant, shiatsu, reiki, deep-tissue — en cabinet à Hal ou à domicile. 60 min dès 80 €, paiement Bancontact, espèces ou virement.",
+    en: "Clear pricing for relaxing massage, shiatsu, reiki, deep-tissue — in Halle studio or at home. 60 min from €80, payment by Bancontact, cash or transfer.",
+    nl: "Duidelijke tarieven voor ontspanningsmassage, shiatsu, reiki, deep-tissue — in praktijk Halle of aan huis. 60 min vanaf 80 €, betaling Bancontact, cash of overschrijving.",
   }[currentLocale];
 
   return {
@@ -51,7 +51,7 @@ export async function generateMetadata({ params }) {
 const TXT = {
   fr: {
     h1: "Tarifs — clairs, sans surprise",
-    intro: "Voici la grille complète. Pas de carte de fidélité cachée, pas de supplément invisible : ce que vous voyez est ce que vous payez. Paiement par Bancontact, Visa, virement ou espèces.",
+    intro: "Voici la grille complète. Pas de carte de fidélité cachée, pas de supplément invisible : ce que vous voyez est ce que vous payez. Paiement par Bancontact, virement ou espèces.",
     treatment: "Soin",
     duration: "Durée",
     cabinet: "En cabinet (Halle)",
@@ -62,7 +62,7 @@ const TXT = {
     callCta: "Appeler 04 77 13 19 93",
     gift: "Cartes-cadeaux disponibles à partir de 80 € — voir la page dédiée.",
     paymentTitle: "Modes de paiement",
-    paymentList: "Bancontact · Visa · espèces · virement · chèques cadeaux",
+    paymentList: "Bancontact · espèces · virement · chèques cadeaux",
     cancelTitle: "Annulation",
     cancelText: "Toute annulation 24 h à l'avance est gratuite. En deçà, la séance peut être facturée.",
   },
@@ -79,13 +79,13 @@ const TXT = {
     callCta: "Call +32 477 13 19 93",
     gift: "Gift cards available from €80 — see the dedicated page.",
     paymentTitle: "Payment methods",
-    paymentList: "Bancontact · Visa · cash · transfer · gift vouchers",
+    paymentList: "Bancontact · cash · transfer · gift vouchers",
     cancelTitle: "Cancellation",
     cancelText: "Free cancellation up to 24h before the appointment. Below that, the session may be charged.",
   },
   nl: {
     h1: "Tarieven — duidelijk en eerlijk",
-    intro: "Hier is het volledige prijsoverzicht. Geen verborgen klantenkaart, geen onzichtbare toeslag: wat u ziet is wat u betaalt. Betaling met Bancontact, Visa, overschrijving of cash.",
+    intro: "Hier is het volledige prijsoverzicht. Geen verborgen klantenkaart, geen onzichtbare toeslag: wat u ziet is wat u betaalt. Betaling met Bancontact, overschrijving of cash.",
     treatment: "Behandeling",
     duration: "Duur",
     cabinet: "In de praktijk (Halle)",
@@ -96,7 +96,7 @@ const TXT = {
     callCta: "Bel +32 477 13 19 93",
     gift: "Cadeaubonnen verkrijgbaar vanaf 80 € — zie de speciale pagina.",
     paymentTitle: "Betaalmethoden",
-    paymentList: "Bancontact · Visa · cash · overschrijving · cadeaubonnen",
+    paymentList: "Bancontact · cash · overschrijving · cadeaubonnen",
     cancelTitle: "Annulering",
     cancelText: "Gratis annulering tot 24u voor de afspraak. Daarna kan de sessie aangerekend worden.",
   },
