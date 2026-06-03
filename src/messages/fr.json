@@ -50,8 +50,10 @@
     "ctaPrimary": "Je prends soin de moi",
     "ctaSecondary": "Offrir ce moment à un être cher",
     "ctaWhatsapp": "Réserver via WhatsApp",
+    "ctaCall": "Appeler maintenant",
     "trust": "Hal · Bruxelles · Waterloo · Uccle · À domicile",
-    "trustRating": "50+ avis clients satisfaits"
+    "trustRating": "50+ avis clients satisfaits",
+    "reviewsLinkLabel": "Voir tous les avis Google"
   },
   "cta": {
     "label": "Bien-être",
@@ -59,7 +61,18 @@
     "paragraph1": "Un massage, c’est plus qu’un soin : c’est un geste d’amour. Offrez un instant de détente inoubliable avec une carte cadeau.",
     "paragraph2": "Soins thérapeutiques et massages relaxants à Halle – Bruxelles, en cabinet ou à domicile.",
     "cta": "Offrir un instant de douceur →",
-    "ctaWhatsapp": "Réserver via WhatsApp"
+    "ctaWhatsapp": "Réserver via WhatsApp",
+    "ctaCall": "Appeler maintenant"
+  },
+  "stickyCta": {
+    "call": "Appeler",
+    "whatsapp": "WhatsApp",
+    "aria": "Barre d'actions rapides : appeler ou écrire sur WhatsApp"
+  },
+  "googleMap": {
+    "loadButton": "Afficher la carte interactive",
+    "loadHint": "Cliquez pour charger Google Maps (cookies tiers Google).",
+    "directions": "Itinéraire vers le cabinet"
   },
   "ctaMassage": {
     "paragraph": "Réservez {soin} dès aujourd’hui et offrez-vous un moment rien qu’à vous.",
@@ -220,7 +233,10 @@
         "id": 1,
         "body": "Un pur moment de calme et de chaleur humaine. Merci pour cette bulle de bien-être.",
         "alt": "ambiance calme et chaleureuse de Sophie WB",
-        "author": "Sophie WB"
+        "author": "Sophie WB",
+        "context": "Massage relaxant · 90 min · Halle",
+        "result": "« Stress du travail évaporé, sommeil profond la nuit suivante »",
+        "service": "Massage relaxant"
       },
       {
         "id": 2,
@@ -238,7 +254,10 @@
         "id": 4,
         "body": "Dès que je suis allongée sur la table, je sens que je peux lâcher prise. J’ai ressenti un vrai relâchement du stress, dès les premières minutes.",
         "alt": "visage illuminé de détente de Karine Renard",
-        "author": "Karine Renard"
+        "author": "Karine Renard",
+        "context": "Shiatsu · 60 min · 2e séance",
+        "result": "« Tensions dans les épaules disparues dès la fin »",
+        "service": "Shiatsu"
       },
       {
         "id": 5,
@@ -256,7 +275,10 @@
         "id": 7,
         "body": "Ma tension musculaire s’est envolée. À refaire très vite ! J’ai rarement été aussi bien accueilli et massé.",
         "alt": "regard serein de Thierry Bierze",
-        "author": "Thierry Bierze"
+        "author": "Thierry Bierze",
+        "context": "Massage à domicile · Uccle",
+        "result": "« Un moment de calme rare avec un nouveau-né à la maison »",
+        "service": "Massage à domicile"
       },
       {
         "id": 8,
@@ -352,7 +374,10 @@
         "id": 23,
         "body": "Je ne pensais pas que ce massage me ferait autant de bien. C’était bien plus qu’un massage, c’était une parenthèse enchantée.",
         "alt": "reflet du soulagement corporel de Marion Baiverlin",
-        "author": "Marion Baiverlin"
+        "author": "Marion Baiverlin",
+        "context": "Massage sportif · 60 min · après trail",
+        "result": "« Récupération nettement plus rapide qu'habituellement »",
+        "service": "Massage sportif"
       },
       {
         "id": 24,
@@ -424,7 +449,10 @@
         "id": 35,
         "body": "J’ai ressenti un profond relâchement musculaire et émotionnel. Je recommande à tous.",
         "alt": "reflet du soulagement corporel de Mathieu Blussing",
-        "author": "Mathieu Blussing"
+        "author": "Mathieu Blussing",
+        "context": "Reiki · 1ère séance",
+        "result": "« Sceptique au départ, profondément apaisée à la fin »",
+        "service": "Reiki"
       },
       {
         "id": 36,

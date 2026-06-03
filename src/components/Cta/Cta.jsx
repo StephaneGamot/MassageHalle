@@ -39,6 +39,18 @@ export default function Cta() {
                 </svg>
                 {t("ctaWhatsapp") || "Réserver via WhatsApp"}
               </a>
+              {/* CTA secondaire — Appeler directement.
+                  Couvre les visiteurs qui n'utilisent pas WhatsApp. */}
+              <a
+                href="tel:+32477131993"
+                className="inline-flex items-center gap-2 px-5 py-3 rounded-full border border-[#1B3A2D] text-[#1B3A2D] font-semibold hover:bg-[#F3EDE4] transition focus-visible:outline-2 focus-visible:outline-[#B08856]"
+                aria-label={`${t("ctaCall") || "Appeler"} 04 77 13 19 93`}
+              >
+                <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                  <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                </svg>
+                {t("ctaCall") || "Appeler maintenant"}
+              </a>
             </div>
           </div>
 

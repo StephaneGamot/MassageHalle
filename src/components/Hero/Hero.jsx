@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useTranslations, useLocale } from "next-intl";
+import UrgencyBadge from "@/components/UrgencyBadge/UrgencyBadge";
 import Hero1 from "./../../../public/Images/hero/hero-1.webp";
 import Hero2 from "./../../../public/Images/hero/hero-2.webp";
 import Hero3 from "./../../../public/Images/hero/hero-3.webp";
@@ -19,10 +20,13 @@ export default function Hero() {
 
           {/* Texte */}
           <div className="relative z-10 px-6 py-16 sm:px-10 lg:py-24 lg:pl-10 xl:pl-0 order-2 lg:order-1">
-            <p
-              className="label-or !text-[#E8D4AD] mb-5 animate-fade-up"
+            <div
+              className="mb-5 animate-fade-up"
               style={{ animationDelay: "0.05s" }}
             >
+              <UrgencyBadge locale={locale} variant="dark" />
+            </div>
+            <p className="label-or !text-[#E8D4AD] mb-5">
               La Voie du Bien-Être
             </p>
 
@@ -58,22 +62,40 @@ export default function Hero() {
                 {t("ctaWhatsapp") || "Réserver via WhatsApp"}
               </a>
 
-
+              {/* CTA secondaire — Appeler (capte les visiteurs qui ne veulent
+                  pas WhatsApp : > 45 ans, hommes en 1er contact, profils B2B). */}
+              <a
+                href="tel:+32477131993"
+                className="inline-flex items-center gap-2 px-5 py-3 rounded-full border border-[#E8D4AD]/60 text-[#F3EDE4] font-semibold hover:bg-white/10 hover:border-[#E8D4AD] transition focus-visible:outline-2 focus-visible:outline-[#E8D4AD]"
+                aria-label={`${t("ctaCall") || "Appeler"} 04 77 13 19 93`}
+              >
+                <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                  <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                </svg>
+                {t("ctaCall") || "Appeler maintenant"}
+              </a>
             </div>
 
-            {/* Social proof */}
+            {/* Social proof — rating cliquable vers la fiche Google Maps */}
             <div
               className="mt-6 flex flex-wrap items-center gap-4 animate-fade-in"
               style={{ animationDelay: "0.6s" }}
             >
-              <div className="flex items-center gap-1">
+              <a
+                href="https://www.google.com/maps?q=50.7464695,4.2563906"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1 rounded-full px-2 py-1 -mx-2 -my-1 hover:bg-white/5 transition focus-visible:outline-2 focus-visible:outline-[#E8D4AD]"
+                aria-label={t("reviewsLinkLabel") || "Voir tous les avis Google"}
+                title={t("reviewsLinkLabel") || "Voir tous les avis Google"}
+              >
                 {[...Array(5)].map((_, i) => (
                   <svg key={i} className="h-4 w-4 text-[#E8D4AD]" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                     <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                   </svg>
                 ))}
-                <span className="ml-1 text-sm font-semibold !text-[#E8D4AD]">4.9/5</span>
-              </div>
+                <span className="ml-1 text-sm font-semibold !text-[#E8D4AD] underline-offset-2 group-hover:underline">4.9/5</span>
+              </a>
               <span className="text-sm !text-white/70">
                 {t("trustRating") || "50+ avis clients"}
               </span>

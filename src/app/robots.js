@@ -7,7 +7,8 @@ export default function robots() {
         disallow: [
           "/api/",
           "/manifest.json", // PWA manifest, n'a rien à faire dans l'index
-          "/videos/",       // anciennes URLs vidéo legacy
+          // "/videos/" — retiré le 2026-06 : on autorise désormais l'indexation
+          // des vidéos pour apparaître dans le carrousel vidéo Google (SERP).
           "/*.json$",       // tous fichiers JSON (manifest, etc.)
           "/:1",            // URL poubelle historique
           "/%3A1",          // version URL-encodée du même bug

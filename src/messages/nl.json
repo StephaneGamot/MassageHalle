@@ -50,8 +50,10 @@
     "ctaPrimary": "Ik zorg voor mezelf",
     "ctaSecondary": "Bied dit moment aan een dierbare aan",
     "ctaWhatsapp": "Boek via WhatsApp",
+    "ctaCall": "Nu bellen",
     "trust": "Halle · Brussel · Waterloo · Ukkel · Aan huis",
-    "trustRating": "50+ tevreden klanten"
+    "trustRating": "50+ tevreden klanten",
+    "reviewsLinkLabel": "Bekijk alle Google-recensies"
   },
   "cta": {
     "label": "Welzijn",
@@ -59,7 +61,18 @@
     "paragraph1": "Een massage is meer dan een behandeling: het is een liefdesgebaar. Bied een onvergetelijk moment van ontspanning aan met een cadeaubon.",
     "paragraph2": "Therapeutische behandelingen en ontspannende massages in Halle – Brussel, in de praktijk of aan huis.",
     "cta": "Een moment van zachtheid aanbieden →",
-    "ctaWhatsapp": "Boek via WhatsApp"
+    "ctaWhatsapp": "Boek via WhatsApp",
+    "ctaCall": "Nu bellen"
+  },
+  "stickyCta": {
+    "call": "Bellen",
+    "whatsapp": "WhatsApp",
+    "aria": "Snelle acties: bellen of WhatsApp"
+  },
+  "googleMap": {
+    "loadButton": "Interactieve kaart tonen",
+    "loadHint": "Klik om Google Maps te laden (cookies van derden).",
+    "directions": "Route naar de praktijk"
   },
   "ctaMassage": {
     "paragraph": "Boek vandaag nog {soin} en geniet van een moment voor jezelf.",
@@ -227,7 +240,10 @@
         "id": 1,
         "body": "Een moment van rust en menselijke warmte. Dankjewel voor deze bubbel van welzijn.",
         "alt": "rustige en warme sfeer van Sophie WB",
-        "author": "Sophie WB"
+        "author": "Sophie WB",
+        "context": "Ontspanningsmassage · 90 min · Halle",
+        "result": "« Werkstress weg, diep geslapen die nacht »",
+        "service": "Ontspanningsmassage"
       },
       {
         "id": 2,
@@ -245,7 +261,10 @@
         "id": 4,
         "body": "Zodra ik op de tafel lag, kon ik alles loslaten. De stress verdween al in de eerste minuten.",
         "alt": "gezicht straalt ontspanning uit – Karine Renard",
-        "author": "Karine Renard"
+        "author": "Karine Renard",
+        "context": "Shiatsu · 60 min · 2e sessie",
+        "result": "« Schouderspanning meteen verdwenen »",
+        "service": "Shiatsu"
       },
       {
         "id": 5,
@@ -263,7 +282,10 @@
         "id": 7,
         "body": "Mijn spierspanning verdween volledig. Ik kom zeker terug! Zelden zo hartelijk ontvangen én gemasseerd.",
         "alt": "serene blik van Thierry Bierze",
-        "author": "Thierry Bierze"
+        "author": "Thierry Bierze",
+        "context": "Thuismassage · Ukkel",
+        "result": "« Een zeldzaam rustig moment met een baby thuis »",
+        "service": "Thuismassage"
       },
       {
         "id": 8,
@@ -359,7 +381,10 @@
         "id": 23,
         "body": "Ik had niet verwacht dat deze massage me zo goed zou doen. Het was meer dan een massage, het was een magische pauze.",
         "alt": "zichtbare verlichting na de behandeling – Marion Baiverlin",
-        "author": "Marion Baiverlin"
+        "author": "Marion Baiverlin",
+        "context": "Sportmassage · 60 min · na trail",
+        "result": "« Veel sneller herstel dan gewoonlijk »",
+        "service": "Sportmassage"
       },
       {
         "id": 24,
@@ -431,7 +456,10 @@
         "id": 35,
         "body": "Ik voelde een diepe fysieke en emotionele ontlading. Ik raad het iedereen aan.",
         "alt": "zichtbare lichamelijke verlichting – Mathieu Blussing",
-        "author": "Mathieu Blussing"
+        "author": "Mathieu Blussing",
+        "context": "Reiki · eerste sessie",
+        "result": "« Eerst sceptisch, op het einde diep gerust »",
+        "service": "Reiki"
       },
       {
         "id": 36,

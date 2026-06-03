@@ -31,12 +31,23 @@ const pages = [
   { path: "/reflexologie-plantaire", priority: 0.85, changeFrequency: "monthly" },
   { path: "/therapie-cranio-sacree", priority: 0.85, changeFrequency: "monthly" },
 
+  // Pages locales par ville — captent les requêtes "massage <ville>"
+  { path: "/massage-bruxelles", priority: 0.9, changeFrequency: "monthly" },
+  { path: "/massage-uccle",     priority: 0.85, changeFrequency: "monthly" },
+  { path: "/massage-waterloo",  priority: 0.85, changeFrequency: "monthly" },
+
+  // Tarifs & cartes-cadeaux — pages commerciales
+  { path: "/tarifs",         priority: 0.85, changeFrequency: "monthly" },
+  { path: "/cartes-cadeaux", priority: 0.85, changeFrequency: "monthly" },
+
   // Autres pages
   { path: "/faq", priority: 0.8, changeFrequency: "monthly" },
 ];
 
-// Date de dernière mise à jour du contenu — à mettre à jour manuellement lors d'une refonte
-const LAST_UPDATED = "2025-10-01T00:00:00.000Z";
+// Date de dernière mise à jour : calculée au build → Google revisite plus
+// fréquemment les pages. Pour figer une date par page, remplacer par un mapping
+// { path: "ISO date" } et lire le fichier de données correspondant.
+const LAST_UPDATED = new Date().toISOString();
 
 export default function sitemap() {
   return pages.flatMap((page) =>

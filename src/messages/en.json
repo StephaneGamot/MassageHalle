@@ -50,8 +50,10 @@
     "ctaPrimary": "I take care of myself",
     "ctaSecondary": "Offer this moment to a loved one",
     "ctaWhatsapp": "Book via WhatsApp",
+    "ctaCall": "Call now",
     "trust": "Halle · Brussels · Waterloo · Uccle · At home",
-    "trustRating": "50+ satisfied clients"
+    "trustRating": "50+ satisfied clients",
+    "reviewsLinkLabel": "Read all Google reviews"
   },
   "cta": {
     "label": "Well-being",
@@ -59,7 +61,18 @@
     "paragraph1": "A massage is more than a treatment: it is a gesture of love. Offer an unforgettable moment of relaxation with a gift card.",
     "paragraph2": "Therapeutic treatments and relaxing massages in Halle – Brussels, at the practice or at home.",
     "cta": "Offer a moment of softness →",
-    "ctaWhatsapp": "Book via WhatsApp"
+    "ctaWhatsapp": "Book via WhatsApp",
+    "ctaCall": "Call now"
+  },
+  "stickyCta": {
+    "call": "Call",
+    "whatsapp": "WhatsApp",
+    "aria": "Quick actions: call or message on WhatsApp"
+  },
+  "googleMap": {
+    "loadButton": "Show interactive map",
+    "loadHint": "Click to load Google Maps (third-party cookies).",
+    "directions": "Directions to the practice"
   },
   "ctaMassage": {
     "paragraph": "Book your {soin} today and enjoy a moment just for you.",
@@ -227,7 +240,10 @@
         "id": 1,
         "body": "A pure moment of calm and human warmth. Thank you for this bubble of well-being.",
         "alt": "calm and warm atmosphere from Sophie WB",
-        "author": "Sophie WB"
+        "author": "Sophie WB",
+        "context": "Relaxing massage · 90 min · Halle",
+        "result": "“Work stress vanished, deep sleep that night”",
+        "service": "Relaxing massage"
       },
       {
         "id": 2,
@@ -245,7 +261,10 @@
         "id": 4,
         "body": "As soon as I lay down, I felt I could let go. I truly felt the stress melt away in just minutes.",
         "alt": "face glowing with relaxation – Karine Renard",
-        "author": "Karine Renard"
+        "author": "Karine Renard",
+        "context": "Shiatsu · 60 min · 2nd session",
+        "result": "“Shoulder tension gone right after the session”",
+        "service": "Shiatsu"
       },
       {
         "id": 5,
@@ -263,7 +282,10 @@
         "id": 7,
         "body": "All my muscle tension vanished. I’ll definitely come back! I’ve rarely felt so welcome and well treated.",
         "alt": "serene expression – Thierry Bierze",
-        "author": "Thierry Bierze"
+        "author": "Thierry Bierze",
+        "context": "At-home massage · Uccle",
+        "result": "“A rare quiet moment with a newborn at home”",
+        "service": "At-home massage"
       },
       {
         "id": 8,
@@ -359,7 +381,10 @@
         "id": 23,
         "body": "I never imagined a massage could help me this much. It was more than just a massage — it was an enchanted moment.",
         "alt": "body relief after care – Marion Baiverlin",
-        "author": "Marion Baiverlin"
+        "author": "Marion Baiverlin",
+        "context": "Sports massage · 60 min · post-trail",
+        "result": "“Much faster recovery than I'm used to”",
+        "service": "Sports massage"
       },
       {
         "id": 24,
@@ -431,7 +456,10 @@
         "id": 35,
         "body": "I felt deep muscular and emotional release. I recommend it to everyone.",
         "alt": "visible body relief – Mathieu Blussing",
-        "author": "Mathieu Blussing"
+        "author": "Mathieu Blussing",
+        "context": "Reiki · first session",
+        "result": "“Skeptical at first, deeply soothed by the end”",
+        "service": "Reiki"
       },
       {
         "id": 36,

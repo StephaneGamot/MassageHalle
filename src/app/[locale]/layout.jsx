@@ -7,6 +7,7 @@ import { setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import Footer from "@/components/Footer/Footer";
 import NavWithDropdown from "@/components/Header/NavBar";
+import StickyMobileCta from "@/components/StickyMobileCta/StickyMobileCta";
 import "@/app/globals.css";
 import { defaultMetadata } from "@/seo.config";
 
@@ -73,6 +74,7 @@ export default async function LocaleLayout(props) {
             {children}
           </main>
           <Footer />
+          <StickyMobileCta />
         </NextIntlClientProvider>
         <SpeedInsights />
       </body>

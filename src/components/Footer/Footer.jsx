@@ -97,6 +97,16 @@ export default function Footer() {
               </li>
               <li className="text-sm !text-white/80">Halle, 1501 Buizingen</li>
               <li>
+                <Link href={`/${locale}/tarifs`} className="text-sm !text-white/80 hover:!text-white transition-colors min-h-[44px] inline-flex items-center">
+                  {locale === "en" ? "Prices" : locale === "nl" ? "Tarieven" : "Tarifs"}
+                </Link>
+              </li>
+              <li>
+                <Link href={`/${locale}/cartes-cadeaux`} className="text-sm !text-white/80 hover:!text-white transition-colors min-h-[44px] inline-flex items-center">
+                  {locale === "en" ? "Gift cards" : locale === "nl" ? "Cadeaubonnen" : "Cartes-cadeaux"}
+                </Link>
+              </li>
+              <li>
                 <Link href={`/${locale}/faq`} className="text-sm !text-white/80 hover:!text-white transition-colors min-h-[44px] inline-flex items-center">
                   {t("faq")}
                 </Link>
@@ -131,10 +141,21 @@ export default function Footer() {
         {/* Liens internes vers les autres versions linguistiques — signal SEO */}
         <AlternateLanguages />
 
-        {/* Villes desservies — SEO local */}
+        {/* Villes desservies — SEO local, désormais cliquables vers les pages dédiées */}
         <div className="mt-8 pt-6 border-t border-white/10">
-          <p className="text-xs !text-white/70 text-center mb-6">
+          <p className="text-xs !text-white/70 text-center mb-3">
             {ft("seoCities")}
+          </p>
+          <p className="text-xs text-center !text-white/80 flex flex-wrap justify-center gap-x-4 gap-y-2 mb-6">
+            <Link href={`/${locale}/massage-bruxelles`} className="underline-offset-2 hover:!text-[#D4BA91] hover:underline">
+              {locale === "nl" ? "Massage Brussel" : locale === "en" ? "Massage Brussels" : "Massage Bruxelles"}
+            </Link>
+            <Link href={`/${locale}/massage-uccle`} className="underline-offset-2 hover:!text-[#D4BA91] hover:underline">
+              {locale === "nl" ? "Massage Ukkel" : "Massage Uccle"}
+            </Link>
+            <Link href={`/${locale}/massage-waterloo`} className="underline-offset-2 hover:!text-[#D4BA91] hover:underline">
+              Massage Waterloo
+            </Link>
           </p>
         </div>
 

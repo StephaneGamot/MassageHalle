@@ -25,9 +25,9 @@ export async function generateMetadata({ params }) {
 
     // ─── META DESCRIPTION (140-155 car.) — avec CTA + villes ───
     description: {
-      fr: "Massages, shiatsu, reiki à Hal, Bruxelles, Uccle, Waterloo. Cabinet sur rdv ou à domicile dès 80 €. Réservez votre séance de détente en ligne.",
-      en: "Massage, shiatsu, reiki in Halle, Brussels, Uccle, Waterloo. By appointment at the studio or at your home, from €80. Book your session online today.",
-      nl: "Massage, shiatsu, reiki in Halle, Brussel, Ukkel, Waterloo. Op afspraak in de praktijk of bij u thuis, vanaf €80. Boek online uw sessie vandaag.",
+      fr: "Massages, shiatsu, reiki à Hal, Bruxelles, Uccle, Waterloo. Cabinet ou à domicile dès 80 €. Réservez par WhatsApp ou téléphone — 4.9★ · 50+ avis.",
+      en: "Massage, shiatsu, reiki in Halle, Brussels, Uccle, Waterloo. Studio or at-home from €80. Book by WhatsApp or phone — 4.9★ · 50+ reviews.",
+      nl: "Massage, shiatsu, reiki in Halle, Brussel, Ukkel, Waterloo. Praktijk of aan huis vanaf €80. Boek via WhatsApp of telefoon — 4.9★ · 50+ recensies.",
     }[currentLocale],
 
     // ─── ROBOTS ───
