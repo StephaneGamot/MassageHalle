@@ -18,12 +18,12 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Massage Voyage des Sens à Hal – 90 min d'évasion totale",
+      fr: "Massage Voyage des Sens à Hal · évasion",
       en: "Sensory Journey Massage Halle – 90 min full escape",
       nl: "Zintuigenreis-massage Halle – 90 min volledige ontsnapping",
     }[currentLocale],
     description: {
-      fr: "Offrez-vous (ou offrez) 90 minutes d'évasion : massage signature Voyage des Sens à Hal, huiles chaudes et musiques douces, dès 110€. Bon cadeau dispo.",
+      fr: "Massage Voyage des Sens à Halle : 90 minutes d'évasion totale pour le corps et l'esprit. Praticien certifié. Offrez-vous une parenthèse, réservez en ligne.",
       en: "Treat yourself (or someone special): 90-min signature Sensory Journey massage in Halle, warm oils and soft music, from €110. Gift vouchers available.",
       nl: "Trakteer uzelf (of iemand): 90-min signature Zintuigenreis massage in Halle, warme oliën en zachte muziek, vanaf €110. Cadeaubonnen beschikbaar.",
     }[currentLocale],
@@ -49,12 +49,12 @@ export async function generateMetadata({ params }) {
     },
     openGraph: {
       title: {
-        fr: "Massage Voyage des Sens à Hal – 90 min d'évasion totale",
+        fr: "Massage Voyage des Sens à Hal · évasion",
         en: "Sensory Journey Massage Halle – 90 min full escape",
         nl: "Zintuigenreis-massage Halle – 90 min volledige ontsnapping",
       }[currentLocale],
       description: {
-        fr: "Offrez-vous (ou offrez) 90 minutes d'évasion : massage signature Voyage des Sens à Hal, huiles chaudes et musiques douces, dès 110€. Bon cadeau dispo.",
+        fr: "Massage Voyage des Sens à Halle : 90 minutes d'évasion totale pour le corps et l'esprit. Praticien certifié. Offrez-vous une parenthèse, réservez en ligne.",
         en: "Treat yourself (or someone special): 90-min signature Sensory Journey massage in Halle, warm oils and soft music, from €110. Gift vouchers available.",
         nl: "Trakteer uzelf (of iemand): 90-min signature Zintuigenreis massage in Halle, warme oliën en zachte muziek, vanaf €110. Cadeaubonnen beschikbaar.",
       }[currentLocale],
@@ -81,12 +81,12 @@ export async function generateMetadata({ params }) {
     },
     twitter: {
       title: {
-        fr: "Massage Voyage des Sens à Hal – 90 min d'évasion totale",
+        fr: "Massage Voyage des Sens à Hal · évasion",
         en: "Sensory Journey Massage Halle – 90 min full escape",
         nl: "Zintuigenreis-massage Halle – 90 min volledige ontsnapping",
       }[currentLocale],
       description: {
-        fr: "Offrez-vous (ou offrez) 90 minutes d'évasion : massage signature Voyage des Sens à Hal, huiles chaudes et musiques douces, dès 110€. Bon cadeau dispo.",
+        fr: "Massage Voyage des Sens à Halle : 90 minutes d'évasion totale pour le corps et l'esprit. Praticien certifié. Offrez-vous une parenthèse, réservez en ligne.",
         en: "Treat yourself (or someone special): 90-min signature Sensory Journey massage in Halle, warm oils and soft music, from €110. Gift vouchers available.",
         nl: "Trakteer uzelf (of iemand): 90-min signature Zintuigenreis massage in Halle, warme oliën en zachte muziek, vanaf €110. Cadeaubonnen beschikbaar.",
       }[currentLocale],

@@ -18,12 +18,12 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Massage du dos à Hal – Méthode Douceur Dorsale (45 min)",
+      fr: "Massage du dos à Hal · Douceur Dorsale",
       en: "Back Massage in Halle – Douceur Dorsale Method (45 min)",
       nl: "Rugmassage in Halle – Douceur Dorsale methode (45 min)",
     }[currentLocale],
     description: {
-      fr: "Dos lourd, tendu, fatigué ? Notre massage exclusif Douceur Dorsale en 45 min libère les tensions sans déshabillage complet. Dès 65€. Réservez en ligne.",
+      fr: "Massage du dos à Halle, méthode Douceur Dorsale : 45 min ciblées sur le dos et la nuque. Praticien certifié. Réservez votre séance en ligne.",
       en: "Heavy, tense, tired back? Our signature 45-min Douceur Dorsale back massage releases tension — partial undressing only. From €65. Book online.",
       nl: "Zware, gespannen, vermoeide rug? Onze 45-min Douceur Dorsale rugmassage verlicht spanning — gedeeltelijk uitkleden. Vanaf €65. Boek online.",
     }[currentLocale],
@@ -38,12 +38,12 @@ export async function generateMetadata({ params }) {
     },
     openGraph: {
       title: {
-        fr: "Massage du dos à Hal – Méthode Douceur Dorsale (45 min)",
+        fr: "Massage du dos à Hal · Douceur Dorsale",
         en: "Back Massage in Halle – Douceur Dorsale Method (45 min)",
         nl: "Rugmassage in Halle – Douceur Dorsale methode (45 min)",
       }[currentLocale],
       description: {
-        fr: "Dos lourd, tendu, fatigué ? Notre massage exclusif Douceur Dorsale en 45 min libère les tensions sans déshabillage complet. Dès 65€. Réservez en ligne.",
+        fr: "Massage du dos à Halle, méthode Douceur Dorsale : 45 min ciblées sur le dos et la nuque. Praticien certifié. Réservez votre séance en ligne.",
         en: "Heavy, tense, tired back? Our signature 45-min Douceur Dorsale back massage releases tension — partial undressing only. From €65. Book online.",
         nl: "Zware, gespannen, vermoeide rug? Onze 45-min Douceur Dorsale rugmassage verlicht spanning — gedeeltelijk uitkleden. Vanaf €65. Boek online.",
       }[currentLocale],
@@ -72,12 +72,12 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       site: "@voiedubienetre",
       title: {
-        fr: "Massage du dos à Hal – Méthode Douceur Dorsale (45 min)",
+        fr: "Massage du dos à Hal · Douceur Dorsale",
         en: "Back Massage in Halle – Douceur Dorsale Method (45 min)",
         nl: "Rugmassage in Halle – Douceur Dorsale methode (45 min)",
       }[currentLocale],
       description: {
-        fr: "Dos lourd, tendu, fatigué ? Notre massage exclusif Douceur Dorsale en 45 min libère les tensions sans déshabillage complet. Dès 65€. Réservez en ligne.",
+        fr: "Massage du dos à Halle, méthode Douceur Dorsale : 45 min ciblées sur le dos et la nuque. Praticien certifié. Réservez votre séance en ligne.",
         en: "Heavy, tense, tired back? Our signature 45-min Douceur Dorsale back massage releases tension — partial undressing only. From €65. Book online.",
         nl: "Zware, gespannen, vermoeide rug? Onze 45-min Douceur Dorsale rugmassage verlicht spanning — gedeeltelijk uitkleden. Vanaf €65. Boek online.",
       }[currentLocale],

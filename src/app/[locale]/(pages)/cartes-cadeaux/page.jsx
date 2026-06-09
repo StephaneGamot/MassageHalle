@@ -8,13 +8,13 @@ export async function generateMetadata({ params }) {
   const currentLocale = locale ?? "fr";
 
   const title = {
-    fr: "Cartes-cadeaux massage — Offrez un instant de bien-être à Hal & Bruxelles",
+    fr: "Carte-cadeau massage · Hal & Bruxelles",
     en: "Gift cards — Offer a wellness moment in Halle & Brussels",
     nl: "Cadeaubonnen — Schenk een welzijnsmoment in Halle & Brussel",
   }[currentLocale];
 
   const description = {
-    fr: "Cartes-cadeaux massage de 85€ à 165€. Personnalisées, envoyées par email en PDF ou imprimées. Le cadeau parfait : anniversaire, Saint-Valentin, fête des mères.",
+    fr: "Offrez un massage : cartes-cadeaux de 85€ à 165€, personnalisées, par email (PDF) ou imprimées. Le cadeau parfait à offrir. Commandez en ligne.",
     en: "Massage gift cards from €85 to €165. Personalized, sent as PDF by email or printed. The perfect gift: birthday, Valentine's Day, Mother's Day.",
     nl: "Massage cadeaubonnen van 85€ tot 165€. Gepersonaliseerd, per e-mail als PDF of gedrukt. Het perfecte cadeau: verjaardag, Valentijn, Moederdag.",
   }[currentLocale];

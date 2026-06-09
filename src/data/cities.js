@@ -85,12 +85,12 @@ export const CITIES = {
     },
     meta: {
       title: {
-        fr: "Massage à domicile à Bruxelles — Cabinet à 25 min · 4.9★",
+        fr: "Massage à domicile à Bruxelles · 4.9★",
         en: "At-home massage in Brussels — Studio 25 min away · 4.9★",
         nl: "Massage aan huis in Brussel — Praktijk op 25 min · 4.9★",
       },
       description: {
-        fr: "Massage relaxant, shiatsu, reiki à domicile à Bruxelles (toutes communes). Praticien certifié, 20+ ans d'expérience. Cabinet à Halle, à domicile dès 160€ (1 h 30).",
+        fr: "Massage relaxant, shiatsu, reiki à domicile à Bruxelles, toutes communes. Praticien certifié, 20+ ans d'expérience. Cabinet à Halle, à domicile dès 160€.",
         en: "At-home relaxing massage, shiatsu, reiki across Brussels. Certified practitioner, 20+ years experience. Studio in Halle, at-home from €160 (1h30).",
         nl: "Ontspanningsmassage, shiatsu, reiki aan huis in Brussel. Gecertificeerd, 20+ jaar ervaring. Praktijk in Halle, aan huis vanaf 160€ (1u30).",
       },
@@ -197,7 +197,7 @@ export const CITIES = {
     },
     meta: {
       title: {
-        fr: "Massage à domicile à Uccle — Praticien certifié dès 160€ (1 h 30)",
+        fr: "Massage à domicile à Uccle · dès 160€",
         en: "At-home massage in Uccle — Certified practitioner from €160 (1h30)",
         nl: "Massage aan huis in Ukkel — Gecertificeerd vanaf 160€ (1u30)",
       },
@@ -310,7 +310,7 @@ export const CITIES = {
     },
     meta: {
       title: {
-        fr: "Massage à domicile à Waterloo — Sportif, relaxant, deep-tissue dès 160€ (1 h 30)",
+        fr: "Massage à domicile à Waterloo · dès 160€",
         en: "At-home massage in Waterloo — Sports, relaxing, deep-tissue from €160 (1h30)",
         nl: "Massage aan huis in Waterloo — Sport, ontspanning, deep-tissue vanaf 160€ (1u30)",
       },

@@ -18,12 +18,12 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Shiatsu à Hal – Praticien certifié, séance 1 h 30 dès 120€",
+      fr: "Shiatsu à Hal · équilibre & énergie",
       en: "Shiatsu in Halle – Certified practitioner, 1h30 from €120",
       nl: "Shiatsu in Halle – Gecertificeerd, 1u30 sessie 120€",
     }[currentLocale],
     description: {
-      fr: "Shiatsu traditionnel à Hal par un praticien certifié : digestion, sommeil, stress, douleurs. Séance habillée de 1 h 30 dès 120€. Réservez en ligne.",
+      fr: "Shiatsu à Halle pour rééquilibrer votre énergie et apaiser le stress. Praticien certifié, séance 1 h 30 dès 120€. Réservez votre détente en ligne.",
       en: "Traditional Shiatsu in Halle with a certified practitioner: digestion, sleep, stress, pain. 90-min fully-clothed session from €120. Book online.",
       nl: "Traditionele Shiatsu in Halle door een gecertificeerd beoefenaar: spijsvertering, slaap, stress, pijn. 1u30 sessie (gekleed) vanaf 120€. Boek online.",
     }[currentLocale],
@@ -38,12 +38,12 @@ export async function generateMetadata({ params }) {
     },
     openGraph: {
       title: {
-        fr: "Shiatsu à Hal – Praticien certifié, séance 1 h 30 dès 120€",
+        fr: "Shiatsu à Hal · équilibre & énergie",
         en: "Shiatsu in Halle – Certified practitioner, 1h30 from €120",
         nl: "Shiatsu in Halle – Gecertificeerd, 1u30 sessie 120€",
       }[currentLocale],
       description: {
-        fr: "Shiatsu traditionnel à Hal par un praticien certifié : digestion, sommeil, stress, douleurs. Séance habillée de 1 h 30 dès 120€. Réservez en ligne.",
+        fr: "Shiatsu à Halle pour rééquilibrer votre énergie et apaiser le stress. Praticien certifié, séance 1 h 30 dès 120€. Réservez votre détente en ligne.",
         en: "Traditional Shiatsu in Halle with a certified practitioner: digestion, sleep, stress, pain. 90-min fully-clothed session from €120. Book online.",
         nl: "Traditionele Shiatsu in Halle door een gecertificeerd beoefenaar: spijsvertering, slaap, stress, pijn. 1u30 sessie (gekleed) vanaf 120€. Boek online.",
       }[currentLocale],
@@ -72,12 +72,12 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       site: "@voiedubienetre",
       title: {
-        fr: "Shiatsu à Hal – Praticien certifié, séance 1 h 30 dès 120€",
+        fr: "Shiatsu à Hal · équilibre & énergie",
         en: "Shiatsu in Halle – Certified practitioner, 1h30 from €120",
         nl: "Shiatsu in Halle – Gecertificeerd, 1u30 sessie 120€",
       }[currentLocale],
       description: {
-        fr: "Shiatsu traditionnel à Hal par un praticien certifié : digestion, sommeil, stress, douleurs. Séance habillée de 1 h 30 dès 120€. Réservez en ligne.",
+        fr: "Shiatsu à Halle pour rééquilibrer votre énergie et apaiser le stress. Praticien certifié, séance 1 h 30 dès 120€. Réservez votre détente en ligne.",
         en: "Traditional Shiatsu in Halle with a certified practitioner: digestion, sleep, stress, pain. 90-min fully-clothed session from €120. Book online.",
         nl: "Traditionele Shiatsu in Halle door een gecertificeerd beoefenaar: spijsvertering, slaap, stress, pijn. 1u30 sessie (gekleed) vanaf 120€. Boek online.",
       }[currentLocale],

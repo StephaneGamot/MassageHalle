@@ -18,12 +18,12 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      fr: "Reiki à Hal – Maître Reiki, séance 1 h 30 dès 120€",
+      fr: "Reiki à Hal · apaisement & lâcher-prise",
       en: "Reiki in Halle – Reiki Master, 60 min session from €120",
       nl: "Reiki in Halle – Reiki Master, 60 min sessie vanaf 120€",
     }[currentLocale],
     description: {
-      fr: "Reiki à Hal avec un Maître Reiki : apaisez stress, anxiété et fatigue émotionnelle. Soin habillé de 1 h 30 dès 120€. Cabinet calme. Réservez en ligne.",
+      fr: "Séance de Reiki à Halle pour apaiser le mental et relâcher les tensions. Maître Reiki certifié, 20 ans d'expérience. 1 h 30 dès 120€. Réservez en ligne.",
       en: "Reiki in Halle with a Reiki Master: ease stress, anxiety and emotional fatigue. 90-min fully-clothed treatment from €120. Quiet studio. Book online.",
       nl: "Reiki in Halle bij een Reiki Master: verlicht stress, angst en emotionele vermoeidheid. 1u30 (gekleed), vanaf 120€. Rustige praktijk. Boek online.",
     }[currentLocale],
@@ -38,12 +38,12 @@ export async function generateMetadata({ params }) {
     },
     openGraph: {
       title: {
-        fr: "Reiki à Hal – Maître Reiki, séance 1 h 30 dès 120€",
+        fr: "Reiki à Hal · apaisement & lâcher-prise",
         en: "Reiki in Halle – Reiki Master, 60 min session from €120",
         nl: "Reiki in Halle – Reiki Master, 60 min sessie vanaf 120€",
       }[currentLocale],
       description: {
-        fr: "Reiki à Hal avec un Maître Reiki : apaisez stress, anxiété et fatigue émotionnelle. Soin habillé de 1 h 30 dès 120€. Cabinet calme. Réservez en ligne.",
+        fr: "Séance de Reiki à Halle pour apaiser le mental et relâcher les tensions. Maître Reiki certifié, 20 ans d'expérience. 1 h 30 dès 120€. Réservez en ligne.",
         en: "Reiki in Halle with a Reiki Master: ease stress, anxiety and emotional fatigue. 90-min fully-clothed treatment from €120. Quiet studio. Book online.",
         nl: "Reiki in Halle bij een Reiki Master: verlicht stress, angst en emotionele vermoeidheid. 1u30 (gekleed), vanaf 120€. Rustige praktijk. Boek online.",
       }[currentLocale],
@@ -72,12 +72,12 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       site: "@voiedubienetre",
       title: {
-        fr: "Reiki à Hal – Maître Reiki, séance 1 h 30 dès 120€",
+        fr: "Reiki à Hal · apaisement & lâcher-prise",
         en: "Reiki in Halle – Reiki Master, 60 min session from €120",
         nl: "Reiki in Halle – Reiki Master, 60 min sessie vanaf 120€",
       }[currentLocale],
       description: {
-        fr: "Reiki à Hal avec un Maître Reiki : apaisez stress, anxiété et fatigue émotionnelle. Soin habillé de 1 h 30 dès 120€. Cabinet calme. Réservez en ligne.",
+        fr: "Séance de Reiki à Halle pour apaiser le mental et relâcher les tensions. Maître Reiki certifié, 20 ans d'expérience. 1 h 30 dès 120€. Réservez en ligne.",
         en: "Reiki in Halle with a Reiki Master: ease stress, anxiety and emotional fatigue. 90-min fully-clothed treatment from €120. Quiet studio. Book online.",
         nl: "Reiki in Halle bij een Reiki Master: verlicht stress, angst en emotionele vermoeidheid. 1u30 (gekleed), vanaf 120€. Rustige praktijk. Boek online.",
       }[currentLocale],

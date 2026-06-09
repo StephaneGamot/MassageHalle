@@ -10,13 +10,13 @@ export async function generateMetadata({ params }) {
   const currentLocale = locale ?? "fr";
 
   const title = {
-    fr: "Tarifs massages Hal & Bruxelles — Cabinet dès 85€, à domicile dès 160€",
+    fr: "Tarifs massages Hal & Bruxelles dès 85€",
     en: "Massage prices Halle & Brussels — Studio from €85, at-home from €160",
     nl: "Massage tarieven Halle & Brussel — Praktijk vanaf 85€, aan huis vanaf 160€",
   }[currentLocale];
 
   const description = {
-    fr: "Tarifs clairs pour massage relaxant, shiatsu, reiki, deep-tissue — en cabinet (1 h dès 85€, 1 h 30 = 120€, 2 h = 160€) ou à domicile dès 160€.",
+    fr: "Tarifs massages à Halle et Bruxelles : en cabinet dès 85€, à domicile dès 160€ (1 h 30). Praticien certifié, 20 ans d'expérience. Réservez en ligne.",
     en: "Clear pricing for relaxing massage, shiatsu, reiki, deep-tissue — in Halle studio (1h from €85, 1h30 = €120, 2h = €160) or at home from €160.",
     nl: "Duidelijke tarieven voor ontspanningsmassage, shiatsu, reiki, deep-tissue — in praktijk Halle (1u vanaf 85€, 1u30 = 120€, 2u = 160€) of aan huis vanaf 160€.",
   }[currentLocale];
