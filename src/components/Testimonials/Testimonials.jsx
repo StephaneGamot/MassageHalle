@@ -9,14 +9,11 @@ export default function Testimonials({ ids = [] }) {
   // Helper : retourne la valeur si la clé existe, sinon null. Cela permet
   // d'ajouter progressivement des champs `context`, `result`, `service`
   // aux témoignages sans avoir à les remplir pour tous les 50 d'un coup.
-  const safe = (key) => {
-    try {
-      const v = t(key);
-      return v && !v.includes(".") ? v : null;
-    } catch {
-      return null;
-    }
-  };
+  // On utilise t.has() (next-intl v4) plutôt qu'un try/catch : next-intl
+  // n'émet PAS d'exception sur une clé manquante, il logge un MISSING_MESSAGE
+  // dans la console (d'où les erreurs vues par Lighthouse). t.has() vérifie
+  // l'existence sans déclencher ce log.
+  const safe = (key) => (t.has(key) ? t(key) : null);
 
   const selectedTestimonials = ids.map((id) => ({
     id,
@@ -54,7 +51,7 @@ export default function Testimonials({ ids = [] }) {
       <div className="section-wrap">
         {/* En-tête */}
         <div className="text-center mb-12 lg:mb-16">
-          <p className="label-or !text-[#B08856] mb-3">{t("title")}</p>
+          <p className="label-or !text-[#7B6139] mb-3">{t("title")}</p>
           <h2
             id="testimonials-title"
             className="text-3xl sm:text-4xl tracking-tight !text-[#1B3A2D]"
@@ -82,7 +79,7 @@ export default function Testimonials({ ids = [] }) {
                 </blockquote>
                 {/* Résultat ressenti — bénéfice concret pour le lecteur. */}
                 {testimonial.result && (
-                  <p className="mt-3 text-sm italic text-[#B08856]">
+                  <p className="mt-3 text-sm italic text-[#7B6139]">
                     {testimonial.result}
                   </p>
                 )}

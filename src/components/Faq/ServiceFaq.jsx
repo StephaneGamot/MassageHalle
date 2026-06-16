@@ -13,15 +13,16 @@ export default function ServiceFaq({ variant }) {
   const t = useTranslations("serviceFaq");
   const [openIndex, setOpenIndex] = useState(null);
 
-  // Récupère les questions pour ce variant
+  // Récupère les questions pour ce variant.
+  // On vérifie d'abord t.has() : next-intl ne lève pas d'exception sur une clé
+  // manquante (le try/catch ne l'attrapait donc pas), il logge un MISSING_MESSAGE
+  // — c'est ce qui apparaissait au build pour un variant absent.
   let questions = [];
-  try {
+  if (t.has(variant)) {
     const raw = t.raw(variant);
     if (Array.isArray(raw)) {
       questions = raw;
     }
-  } catch {
-    return null; // Pas de FAQ pour ce variant
   }
 
   if (questions.length === 0) return null;

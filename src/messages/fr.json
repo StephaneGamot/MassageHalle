@@ -1510,6 +1510,24 @@
   "serviceFaq": {
     "label": "Questions fréquentes",
     "title": "Ce que nos clients demandent souvent",
+    "deepTissue": [
+      {
+        "q": "Le massage deep tissue est-il douloureux ?",
+        "a": "Le massage deep tissue travaille les couches musculaires profondes, mais l'intensité reste toujours ajustée à votre ressenti. On garde le contact pendant toute la séance pour trouver la juste pression."
+      },
+      {
+        "q": "À qui s'adresse le massage deep tissue ?",
+        "a": "Il est idéal en cas de tensions chroniques, de nœuds musculaires, de douleurs au dos, à la nuque ou aux épaules, ou pour les personnes très actives physiquement."
+      },
+      {
+        "q": "Combien de séances faut-il pour ressentir les effets ?",
+        "a": "Un soulagement se ressent souvent dès la première séance. Pour des tensions installées depuis longtemps, 2 à 3 séances rapprochées donnent des résultats plus durables."
+      },
+      {
+        "q": "Quelle différence avec un massage relaxant ?",
+        "a": "Le massage relaxant vise la détente globale avec des gestes enveloppants, tandis que le deep tissue cible en profondeur les tensions musculaires précises pour les dénouer."
+      }
+    ],
     "relaxant": [
       {
         "q": "Combien de temps dure un massage relaxant ?",

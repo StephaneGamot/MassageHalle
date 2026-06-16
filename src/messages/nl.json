@@ -1512,6 +1512,24 @@
   "serviceFaq": {
     "label": "Veelgestelde vragen",
     "title": "Wat onze klanten vaak vragen",
+    "deepTissue": [
+      {
+        "q": "Is een deep tissue massage pijnlijk?",
+        "a": "Een deep tissue massage werkt op de diepere spierlagen, maar de intensiteit wordt altijd afgestemd op wat u voelt. We blijven tijdens de hele sessie in contact om de juiste druk te vinden."
+      },
+      {
+        "q": "Voor wie is een deep tissue massage bedoeld?",
+        "a": "Ze is ideaal bij chronische spanning, spierknopen, pijn in de rug, nek of schouders, of voor mensen die fysiek erg actief zijn."
+      },
+      {
+        "q": "Hoeveel sessies zijn nodig om effect te voelen?",
+        "a": "Verlichting wordt vaak al na de eerste sessie gevoeld. Bij langdurige spanning geven 2 tot 3 sessies kort na elkaar een langduriger resultaat."
+      },
+      {
+        "q": "Wat is het verschil met een ontspanningsmassage?",
+        "a": "Een ontspanningsmassage streeft naar algehele ontspanning met omhullende bewegingen, terwijl deep tissue diep gerichte spierspanning aanpakt om die los te maken."
+      }
+    ],
     "relaxant": [
       {
         "q": "Hoe lang duurt een ontspanningsmassage?",

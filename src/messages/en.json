@@ -1512,6 +1512,24 @@
   "serviceFaq": {
     "label": "FAQ",
     "title": "What our clients often ask",
+    "deepTissue": [
+      {
+        "q": "Is a deep tissue massage painful?",
+        "a": "Deep tissue massage works on the deeper muscle layers, but the intensity is always adjusted to how you feel. We stay in communication throughout the session to find the right pressure."
+      },
+      {
+        "q": "Who is deep tissue massage for?",
+        "a": "It is ideal for chronic tension, muscle knots, back, neck or shoulder pain, or for people who are very physically active."
+      },
+      {
+        "q": "How many sessions are needed to feel the effects?",
+        "a": "Relief is often felt after the very first session. For long-standing tension, 2 to 3 closely spaced sessions give longer-lasting results."
+      },
+      {
+        "q": "What is the difference with a relaxing massage?",
+        "a": "A relaxing massage aims for overall relaxation with enveloping movements, while deep tissue targets specific muscle tension deep down to release it."
+      }
+    ],
     "relaxant": [
       {
         "q": "How long does a relaxing massage last?",

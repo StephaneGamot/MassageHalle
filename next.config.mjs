@@ -12,15 +12,24 @@ const securityHeaders = [
     key: "Content-Security-Policy",
     value: [
       "default-src 'self'",
-      "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://va.vercel-scripts.com https://www.google.com https://maps.googleapis.com",
+      // Sources réellement utilisées : Vercel Speed Insights (va.vercel-scripts.com)
+      // + assets Google Maps. Les hôtes Google Tag Manager / Analytics ont été
+      // retirés car aucun script GA/GTM n'est chargé sur le site : réduire
+      // l'allowlist durcit la CSP contre le XSS (recommandation Lighthouse).
+      // ⚠️ Si tu ajoutes Google Analytics plus tard, remets ici
+      // https://www.googletagmanager.com (script-src) et
+      // https://www.google-analytics.com (script-src + connect-src).
+      "script-src 'self' 'unsafe-inline' https://va.vercel-scripts.com https://www.google.com https://maps.googleapis.com",
       "img-src 'self' data: https://images.unsplash.com https://lavoiedubienetre.be https://www.google.com https://maps.gstatic.com https://maps.googleapis.com",
       "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
-      "connect-src 'self' https://vitals.vercel-insights.com https://www.google-analytics.com https://va.vercel-scripts.com",
-      "font-src 'self' https://fonts.gstatic.com data:", 
+      "connect-src 'self' https://vitals.vercel-insights.com https://va.vercel-scripts.com",
+      "font-src 'self' https://fonts.gstatic.com data:",
       "frame-src 'self' https://www.google.com https://www.google.be",
       "object-src 'none'",
       "base-uri 'self'",
       "frame-ancestors 'none'",
+      "form-action 'self'",
+      "upgrade-insecure-requests",
     ].join("; "),
   },
   {
