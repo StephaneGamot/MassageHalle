@@ -118,7 +118,28 @@ const nextConfig = {
 
   async redirects() {
     return [
- 
+      // ─────────────────────────────────────────────────────────────
+      // 🔁 MIGRATION DE SITE — 301 permanente vers le nouveau domaine
+      // Toutes les URLs (y compris l'accueil) sont redirigées vers
+      // https://www.votremassageadomicilepaysbasque.com/fr
+      //
+      // ⚠️ Pour désactiver la migration : supprimer/commenter les deux
+      // entrées ci-dessous (le reste des anciennes redirections internes
+      // est conservé plus bas et redeviendra actif).
+      // ─────────────────────────────────────────────────────────────
+      {
+        source: "/",
+        destination: "https://www.votremassageadomicilepaysbasque.com/fr",
+        permanent: true,
+      },
+      {
+        source: "/:path*",
+        destination: "https://www.votremassageadomicilepaysbasque.com/fr",
+        permanent: true,
+      },
+
+      // ── Anciennes redirections internes (inactives tant que la
+      //    migration ci-dessus est en place) ───────────────────────
       {
         source: "/shiatsu/traditionnel",
         destination: "/fr/shiatsu",

@@ -1,0 +1,229 @@
+
+
+/** @type {import('next').NextConfig} */
+import createNextIntlPlugin from 'next-intl/plugin';
+
+const securityHeaders = [
+  {
+    key: "Strict-Transport-Security",
+    value: "max-age=31536000; includeSubDomains; preload",
+  },
+  {
+    key: "Content-Security-Policy",
+    value: [
+      "default-src 'self'",
+      // Sources réellement utilisées : Vercel Speed Insights (va.vercel-scripts.com)
+      // + assets Google Maps. Les hôtes Google Tag Manager / Analytics ont été
+      // retirés car aucun script GA/GTM n'est chargé sur le site : réduire
+      // l'allowlist durcit la CSP contre le XSS (recommandation Lighthouse).
+      // ⚠️ Si tu ajoutes Google Analytics plus tard, remets ici
+      // https://www.googletagmanager.com (script-src) et
+      // https://www.google-analytics.com (script-src + connect-src).
+      "script-src 'self' 'unsafe-inline' https://va.vercel-scripts.com https://www.google.com https://maps.googleapis.com",
+      "img-src 'self' data: https://images.unsplash.com https://lavoiedubienetre.be https://www.google.com https://maps.gstatic.com https://maps.googleapis.com",
+      "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+      "connect-src 'self' https://vitals.vercel-insights.com https://va.vercel-scripts.com",
+      "font-src 'self' https://fonts.gstatic.com data:",
+      "frame-src 'self' https://www.google.com https://www.google.be",
+      "object-src 'none'",
+      "base-uri 'self'",
+      "frame-ancestors 'none'",
+      "form-action 'self'",
+      "upgrade-insecure-requests",
+    ].join("; "),
+  },
+  {
+    key: "X-Content-Type-Options",
+    value: "nosniff",
+  },
+  {
+    key: "X-Frame-Options",
+    value: "DENY",
+  },
+  {
+    key: "X-XSS-Protection",
+    value: "1; mode=block",
+  },
+  {
+    key: "Referrer-Policy",
+    value: "strict-origin-when-cross-origin",
+  },
+  {
+    key: "Permissions-Policy",
+    value: "geolocation=(), microphone=(), camera=()",
+  },
+  {
+    key: "Cross-Origin-Opener-Policy",
+  
+    value: "same-origin",
+  },
+  {
+    key: "Cross-Origin-Resource-Policy",
+    value: "same-origin",
+  },
+];
+
+
+const withNextIntl = createNextIntlPlugin({
+  locales: ['fr', 'en', 'nl'],
+  defaultLocale: 'fr',
+  localePrefix: 'as-needed', 
+  localeDetection: true
+});
+
+
+const nextConfig = {
+  reactStrictMode: true,
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "lavoiedubienetre.be",
+        pathname: "/**",
+      },
+    ],
+  },
+
+  async headers() {
+    return [
+      {
+        source: "/(.*)",
+        headers: securityHeaders,
+      },
+      {
+        source: "/_next/image",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=31536000, immutable",
+          },
+        ],
+      },
+      {
+        source: "/Images/:path*",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=31536000, immutable",
+          },
+        ],
+      },
+    ];
+  },
+
+  async redirects() {
+    return [
+ 
+      {
+        source: "/shiatsu/traditionnel",
+        destination: "/fr/shiatsu",
+        permanent: true,
+      },
+      {
+        source: "/shiatsu/amma",
+        destination: "/fr/massage/massage-sur-chaise",
+        permanent: true,
+      },
+      {
+        source: "/massage-sur-chaise",
+        destination: "/fr/massage/massage-sur-chaise",
+        permanent: true,
+      }, {
+        source: '/massage/:slug*',
+        destination: '/fr/massage/:slug*',
+        permanent: true,
+      },
+      {
+        source: '/shiatsu',
+        destination: '/fr/shiatsu',
+        permanent: true,
+      },
+      {
+        source: '/reiki',
+        destination: '/fr/reiki',
+        permanent: true,
+      },
+      {
+        source: '/reflexologie-plantaire',
+        destination: '/fr/reflexologie-plantaire',
+        permanent: true,
+      },
+      {
+        source: '/therapie-cranio-sacree',
+        destination: '/fr/therapie-cranio-sacree',
+        permanent: true,
+      },
+      {
+        source: '/faq',
+        destination: '/fr/faq',
+        permanent: true,
+      },
+      {
+        source: '/index.html',
+        destination: '/fr',
+        permanent: true,
+      },
+      {
+        source: '/videos/massage-',
+        destination: '/fr',
+        permanent: true,
+      },
+      {
+        source: '/massage/a-domicile',
+        destination: '/fr/massage/a-domicile',
+        permanent: true,
+      },
+      {
+        source: '/massage/massage-sur-chaise',
+        destination: '/fr/massage/massage-sur-chaise',
+        permanent: true,
+      }, {
+        source: '/fr/',
+        destination: '/fr',
+        permanent: true,
+      }, {
+        source: '/massage/tao',
+        destination: '/fr/massage/tao',
+        permanent: true,
+      }, {
+        source: '/massage/sportif',
+        destination: '/fr/massage/sportif',
+        permanent: true,
+      }, {
+        source: '/massage/douceur-dorsale',
+        destination: '/fr/massage/douceur-dorsale',
+        permanent: true,
+      }, {
+        source: '/massage/voyage-des-sens',
+        destination: '/fr/massage/voyage-des-sens',
+        permanent: true,
+      }, {
+        source: '/massage/anti-cellulite',
+        destination: '/fr/massage/anti-cellulite',
+        permanent: true,
+      }, {
+        source: '/massage/relaxant',
+        destination: '/fr/massage/relaxant',
+        permanent: true,
+      }, {
+        source: '/%3A1',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        // Toutes les anciennes URLs /videos/* → homepage FR
+        source: '/videos/:path*',
+        destination: '/fr',
+        permanent: true,
+      }
+
+    ];
+  },
+};
+
+export default withNextIntl(nextConfig);

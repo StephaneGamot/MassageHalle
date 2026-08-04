@@ -35,8 +35,22 @@ function getPreferredLocale(request) {
   return match(languages, locales, defaultLocale);
 }
 
+// ─────────────────────────────────────────────────────────────────
+// 🔁 MIGRATION DE SITE — filet de sécurité
+// Les redirects de next.config.mjs s'exécutent AVANT le middleware,
+// donc ce bloc ne devrait jamais être atteint. Il est là au cas où
+// (preview Vercel, route non couverte, etc.).
+// ⚠️ Pour désactiver la migration : passer SITE_MIGRE à false.
+// ─────────────────────────────────────────────────────────────────
+const SITE_MIGRE = true;
+const NOUVEAU_SITE = 'https://www.votremassageadomicilepaysbasque.com/fr';
+
 export function middleware(request) {
   const { pathname } = request.nextUrl;
+
+  if (SITE_MIGRE) {
+    return NextResponse.redirect(NOUVEAU_SITE, 301);
+  }
 
   if (legacyPaths.includes(pathname)) {
     const locale = getPreferredLocale(request);
