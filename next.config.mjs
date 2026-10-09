@@ -1,7 +1,5 @@
-
-
 /** @type {import('next').NextConfig} */
-import createNextIntlPlugin from 'next-intl/plugin';
+import createNextIntlPlugin from "next-intl/plugin";
 
 const securityHeaders = [
   {
@@ -54,7 +52,7 @@ const securityHeaders = [
   },
   {
     key: "Cross-Origin-Opener-Policy",
-  
+
     value: "same-origin",
   },
   {
@@ -63,14 +61,12 @@ const securityHeaders = [
   },
 ];
 
-
 const withNextIntl = createNextIntlPlugin({
-  locales: ['fr', 'en', 'nl'],
-  defaultLocale: 'fr',
-  localePrefix: 'as-needed', 
-  localeDetection: true
+  locales: ["fr", "en", "nl"],
+  defaultLocale: "fr",
+  localePrefix: "as-needed",
+  localeDetection: true,
 });
-
 
 const nextConfig = {
   reactStrictMode: true,
@@ -129,12 +125,12 @@ const nextConfig = {
       // ─────────────────────────────────────────────────────────────
       {
         source: "/",
-        destination: "https://www.votremassageadomicilepaysbasque.com/fr",
+        destination: "https://www.lesextantinterieur.com/ ",
         permanent: true,
       },
       {
         source: "/:path*",
-        destination: "https://www.votremassageadomicilepaysbasque.com/fr",
+        destination: "https://www.lesextantinterieur.com/",
         permanent: true,
       },
 
@@ -154,95 +150,103 @@ const nextConfig = {
         source: "/massage-sur-chaise",
         destination: "/fr/massage/massage-sur-chaise",
         permanent: true,
-      }, {
-        source: '/massage/:slug*',
-        destination: '/fr/massage/:slug*',
+      },
+      {
+        source: "/massage/:slug*",
+        destination: "/fr/massage/:slug*",
         permanent: true,
       },
       {
-        source: '/shiatsu',
-        destination: '/fr/shiatsu',
+        source: "/shiatsu",
+        destination: "/fr/shiatsu",
         permanent: true,
       },
       {
-        source: '/reiki',
-        destination: '/fr/reiki',
+        source: "/reiki",
+        destination: "/fr/reiki",
         permanent: true,
       },
       {
-        source: '/reflexologie-plantaire',
-        destination: '/fr/reflexologie-plantaire',
+        source: "/reflexologie-plantaire",
+        destination: "/fr/reflexologie-plantaire",
         permanent: true,
       },
       {
-        source: '/therapie-cranio-sacree',
-        destination: '/fr/therapie-cranio-sacree',
+        source: "/therapie-cranio-sacree",
+        destination: "/fr/therapie-cranio-sacree",
         permanent: true,
       },
       {
-        source: '/faq',
-        destination: '/fr/faq',
+        source: "/faq",
+        destination: "/fr/faq",
         permanent: true,
       },
       {
-        source: '/index.html',
-        destination: '/fr',
+        source: "/index.html",
+        destination: "/fr",
         permanent: true,
       },
       {
-        source: '/videos/massage-',
-        destination: '/fr',
+        source: "/videos/massage-",
+        destination: "/fr",
         permanent: true,
       },
       {
-        source: '/massage/a-domicile',
-        destination: '/fr/massage/a-domicile',
+        source: "/massage/a-domicile",
+        destination: "/fr/massage/a-domicile",
         permanent: true,
       },
       {
-        source: '/massage/massage-sur-chaise',
-        destination: '/fr/massage/massage-sur-chaise',
+        source: "/massage/massage-sur-chaise",
+        destination: "/fr/massage/massage-sur-chaise",
         permanent: true,
-      }, {
-        source: '/fr/',
-        destination: '/fr',
+      },
+      {
+        source: "/fr/",
+        destination: "/fr",
         permanent: true,
-      }, {
-        source: '/massage/tao',
-        destination: '/fr/massage/tao',
+      },
+      {
+        source: "/massage/tao",
+        destination: "/fr/massage/tao",
         permanent: true,
-      }, {
-        source: '/massage/sportif',
-        destination: '/fr/massage/sportif',
+      },
+      {
+        source: "/massage/sportif",
+        destination: "/fr/massage/sportif",
         permanent: true,
-      }, {
-        source: '/massage/douceur-dorsale',
-        destination: '/fr/massage/douceur-dorsale',
+      },
+      {
+        source: "/massage/douceur-dorsale",
+        destination: "/fr/massage/douceur-dorsale",
         permanent: true,
-      }, {
-        source: '/massage/voyage-des-sens',
-        destination: '/fr/massage/voyage-des-sens',
+      },
+      {
+        source: "/massage/voyage-des-sens",
+        destination: "/fr/massage/voyage-des-sens",
         permanent: true,
-      }, {
-        source: '/massage/anti-cellulite',
-        destination: '/fr/massage/anti-cellulite',
+      },
+      {
+        source: "/massage/anti-cellulite",
+        destination: "/fr/massage/anti-cellulite",
         permanent: true,
-      }, {
-        source: '/massage/relaxant',
-        destination: '/fr/massage/relaxant',
+      },
+      {
+        source: "/massage/relaxant",
+        destination: "/fr/massage/relaxant",
         permanent: true,
-      }, {
-        source: '/%3A1',
-        destination: '/',
+      },
+      {
+        source: "/%3A1",
+        destination: "/",
         permanent: true,
       },
       {
         // Toutes les anciennes URLs /videos/* → homepage FR
-        source: '/videos/:path*',
-        destination: '/fr',
+        source: "/videos/:path*",
+        destination: "/fr",
         permanent: true,
-      }
-
+      },
     ];
   },
 };
