@@ -64,12 +64,11 @@ Conçu avec une attention particulière à la **performance**, à l’**accessib
 
 ## 👤 Auteur
 
-**Stéphane Gamot**  
+**Stéphane Gamot**  [eztebe.com](https://www.eztebe.com/)
 🎯 Développeur Front-End spécialisé React / Next.js  
 📍 Basé en Belgique – Freelance / Consultant  
 📫 [stephanegamot@outlook.com](mailto:stephanegamot@outlook.com)  
 🔗 [LinkedIn](https://www.linkedin.com/in/stephanegamot/) • [Site](https://lavoiedubienetre.be)
-
 ---
 
 ## 📄 Licence
